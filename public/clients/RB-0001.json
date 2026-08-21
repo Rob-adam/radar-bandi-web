@@ -1,0 +1,14 @@
+{
+  "id": "RB-0001",
+  "status": "active",
+  "activatedAt": "2026-08-21",
+  "expiresAt": "2027-08-21",
+  "plan": "Radar Bandi Annuale",
+  "price": 19.90,
+  "currency": "EUR",
+  "name": "Un Respiro di Speranza Lombardia ODV",
+  "type": "ODV",
+  "region": "Lombardia",
+  "runts": "Sì",
+  "license": "RB-0001"
+}
