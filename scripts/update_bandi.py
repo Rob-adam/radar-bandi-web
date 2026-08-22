@@ -14,8 +14,6 @@ PUBLIC = ROOT / "public"
 OUT = PUBLIC / "radar_bandi_auto.json"
 ITALY_TZ = ZoneInfo("Europe/Rome")
 
-# Le fonti Lombardia restano invariate. Le regole più severe qui sotto
-# vengono applicate esclusivamente alle fonti Emilia-Romagna.
 SOURCES = [
     {
         "name": "Regione Lombardia",
@@ -48,6 +46,12 @@ SOURCES = [
         "kind": "emilia-romagna",
     },
     {
+        "name": "Regione Piemonte · Bandi",
+        "region": "piemonte",
+        "url": "https://bandi.regione.piemonte.it/",
+        "kind": "piemonte",
+    },
+    {
         "name": "Fondazione Cariplo",
         "region": "sovraregionale",
         "url": "https://www.fondazionecariplo.it/contributi/bandi/",
@@ -56,7 +60,7 @@ SOURCES = [
 ]
 
 HEADERS = {
-    "User-Agent": "BANDOVERA/1.2 (+monitoraggio bandi pubblici; contatto amministratore sito)"
+    "User-Agent": "BANDOVERA/1.3 (+monitoraggio bandi pubblici; contatto amministratore sito)"
 }
 
 ER_BAD_TITLES = {
@@ -96,6 +100,7 @@ def parse_date(text):
     patterns = [
         r"(?:chiude il|scadenza(?:\s+il)?|entro il|fino al)\s*(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})",
         r"(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
+        r"scadenza\s*(?:\w+,?\s*)?(\d{1,2})/(\d{1,2})/(\d{4})",
     ]
     for pattern in patterns:
         m = re.search(pattern, text, re.I)
@@ -238,6 +243,68 @@ def emilia_romagna_items(html, base, source_name):
     return out
 
 
+def piemonte_title(a):
+    title = clean(a.get_text(" ", strip=True))
+    title = re.sub(r"^Per saperne di più su\s*", "", title, flags=re.I)
+    return title.strip()
+
+
+def piemonte_status(text):
+    n = clean(text).lower()
+    if re.search(r"\bstato\s+aperto\b", n):
+        return "aperto"
+    if "stato pre-informazione" in n or "pre informazione fondi ue" in n or "pre-informazione" in n:
+        return "programmato"
+    if any(x in n for x in ["stato scaduto", "stato esito", "stato chiuso"]):
+        return "chiuso"
+    return "da-verificare"
+
+
+def piemonte_items(html, base, source_name):
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    seen = set()
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        url = urljoin(base, href)
+        p = urlparse(url)
+        if p.hostname != "bandi.regione.piemonte.it":
+            continue
+        path = p.path.rstrip("/")
+        if not (path.startswith("/contributi-finanziamenti/") or path.startswith("/pre-informazione-fondi-ue/")):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        title = piemonte_title(a)
+        if len(title) < 12:
+            continue
+        try:
+            detail = requests.get(url, headers=HEADERS, timeout=20)
+            detail.raise_for_status()
+        except Exception:
+            continue
+        detail_soup = BeautifulSoup(detail.text, "html.parser")
+        detail_text = clean(detail_soup.get_text(" ", strip=True))
+        status = piemonte_status(detail_text)
+        if status not in {"aperto", "programmato"}:
+            continue
+        if "terzo settore" not in detail_text.lower():
+            continue
+        h1 = detail_soup.find("h1")
+        if h1:
+            full_title = clean(h1.get_text(" ", strip=True))
+            if len(full_title) >= 12:
+                title = full_title
+        rec_id = slug_id("PIE-AUTO", url, title)
+        rec = make_record(rec_id, title, source_name, url, detail_text, "piemonte")
+        rec["sourceStatus"] = status
+        if status == "programmato":
+            rec["tags"].insert(0, "PROGRAMMATO · APERTURA FUTURA")
+        out.append(rec)
+    return out
+
+
 def cariplo_items(html, base):
     soup = BeautifulSoup(html, "html.parser")
     out = []
@@ -327,6 +394,8 @@ def main():
                 found.extend(lombardia_items(r.text, src["url"]))
             elif src["kind"] == "emilia-romagna":
                 found.extend(emilia_romagna_items(r.text, src["url"], src["name"]))
+            elif src["kind"] == "piemonte":
+                found.extend(piemonte_items(r.text, src["url"], src["name"]))
             elif src["kind"] == "cariplo":
                 found.extend(cariplo_items(r.text, src["url"]))
             source_stats.append({"source": src["name"], "region": src["region"], "found": len(found) - count_before, "ok": True})
@@ -348,9 +417,9 @@ def main():
 
     payload = {
         "updatedAt": datetime.now(ITALY_TZ).strftime("%d/%m/%Y %H:%M"),
-        "schemaVersion": 5,
+        "schemaVersion": 6,
         "automatic": True,
-        "regionsEnabled": ["lombardia", "emilia-romagna"],
+        "regionsEnabled": ["lombardia", "emilia-romagna", "piemonte"],
         "sourcesChecked": [s["name"] for s in SOURCES],
         "sourceStats": source_stats,
         "bandiByRegion": by_region,
