@@ -39,14 +39,18 @@ async function mergedExtraCatalog(request,env){
  let d1={bandi:[]},d2={bandi:[]};
  try{d1=await r1.json()}catch{return json({error:'Catalogo extra non valido'},500)}
  if(r2.ok){try{d2=await r2.json()}catch{d2={bandi:[]}}}
+ const region=regionFromRequest(request);
+ const isLombardia=normTerritory(region)==='lombardia';
+ const staticExtra=Array.isArray(d1.bandi)?d1.bandi:[];
+ const automatic=Array.isArray(d2.bandi)?d2.bandi:[];
+ const sourceItems=isLombardia?staticExtra:[...staticExtra,...automatic];
  const map=new Map();
- for(const b of [...(Array.isArray(d1.bandi)?d1.bandi:[]),...(Array.isArray(d2.bandi)?d2.bandi:[])]){
+ for(const b of sourceItems){
   const key=String(b?.sourceUrl||b?.id||'').replace(/\/$/,'');
   if(key)map.set(key,b);
  }
- const region=regionFromRequest(request);
  const bandi=[...map.values()].filter(b=>territoryAllowed(b,region));
- return json({...d1,updatedAt:d2.updatedAt||d1.updatedAt||null,automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],selectedRegion:region||null,bandi});
+ return json({...d1,updatedAt:isLombardia?(d1.updatedAt||null):(d2.updatedAt||d1.updatedAt||null),automatic:!isLombardia,automaticSources:isLombardia?[]:(d2.sourcesChecked||[]),automaticErrors:isLombardia?[]:(d2.errors||[]),selectedRegion:region||null,bandi});
 }
 
 export default {
