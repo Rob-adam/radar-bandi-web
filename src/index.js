@@ -5,8 +5,18 @@ function isExpired(expiresAt){if(!expiresAt)return false;const t=Date.parse(expi
 function authOk(request,env){const h=request.headers.get("authorization")||"";return !!env.ADMIN_API_KEY&&h===`Bearer ${env.ADMIN_API_KEY}`;}
 function versionTimestamp(env){return env.CF_VERSION_METADATA?.timestamp||null;}
 function normTerritory(v){return String(v||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();}
-function profileRegionFromRequest(request){try{const raw=new URL(request.url).searchParams.get("p");if(!raw)return "";const c=raw.trim().replace(/\s+/g,"");const b=(c+"=".repeat((4-c.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/");const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes));return String(p.region||"").trim();}catch{return "";}}
-function regionFromRequest(request){const cookie=request.headers.get("cookie")||"";const m=cookie.match(/(?:^|;\s*)bandovera_region=([^;]+)/);if(!m)return "";try{return decodeURIComponent(m[1])}catch{return m[1]}}
+function decodeProfileRegion(raw){try{if(!raw)return "";const c=String(raw).trim().replace(/\s+/g,"");const b=(c+"=".repeat((4-c.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/");const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes));return String(p.region||"").trim();}catch{return "";}}
+function profileRegionFromRequest(request){try{return decodeProfileRegion(new URL(request.url).searchParams.get("p"));}catch{return "";}}
+function regionFromRequest(request){
+ try{
+  const own=new URL(request.url);
+  const explicit=String(own.searchParams.get("region")||"").trim();
+  if(explicit)return explicit;
+  const ref=request.headers.get("referer")||"";
+  if(ref){const r=new URL(ref);const fromProfile=decodeProfileRegion(r.searchParams.get("p"));if(fromProfile)return fromProfile;}
+ }catch{}
+ return "";
+}
 function territoryAllowed(b,region){const r=normTerritory(region);if(!r)return true;const territories=Array.isArray(b?.territories)?b.territories.map(normTerritory).filter(Boolean):[];if(!territories.length)return true;const universal=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
  if(territories.some(t=>universal.some(u=>t===u||t.includes(u))))return true;
  return territories.some(t=>t===r||t.includes(r)||r.includes(t));
@@ -16,7 +26,7 @@ const clientGuard=`<script id="bandovera-license-guard">(()=>{try{const raw=new 
 
 const adminSync=`<script id="bandovera-admin-sync">(()=>{const KEY='radar_bandi_admin_clients_v1',SK='bandovera_admin_api_key';function apiKey(){let k=sessionStorage.getItem(SK)||'';if(!k){k=prompt('Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:')||'';if(k)sessionStorage.setItem(SK,k)}return k}function clients(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}}async function sync(c){if(!c||!c.license)return;const key=apiKey();if(!key)return;try{const r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,name:c.name||'',active:c.active!==false,expiresAt:c.expiresAt||'',price:+c.price||0})});const d=await r.json();if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);alert(d.error||'Sincronizzazione licenza non riuscita.');return}console.info('Licenza centralizzata aggiornata',d)}catch(e){alert('Archivio licenze centrale non ancora disponibile. La Dashboard locale continua a funzionare.') }}document.addEventListener('click',e=>{const t=e.target.closest('[data-toggle],[data-renew],#generate');if(!t)return;setTimeout(()=>{const list=clients();let c=null;if(t.id==='generate')c=list[list.length-1];else if(t.dataset.toggle!=null)c=list[+t.dataset.toggle];else if(t.dataset.renew!=null)c=list[+t.dataset.renew];if(c)sync(c)},80)},true);window.BANDOVERA_syncAll=async()=>{for(const c of clients())await sync(c)};})();</script>`;
 
-async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard'))text=text.replace('</body>',script+'</body>');const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');const region=profileRegionFromRequest(request);if(region)h.append('set-cookie','bandovera_region='+encodeURIComponent(region)+'; Path=/; SameSite=Lax; Max-Age=31536000');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
+async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard'))text=text.replace('</body>',script+'</body>');const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');h.append('set-cookie','bandovera_region=; Path=/; SameSite=Lax; Max-Age=0');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
 
 async function filteredMainCatalog(request,env){
  const origin=new URL(request.url).origin;
