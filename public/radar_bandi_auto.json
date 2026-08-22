@@ -1,11 +1,61 @@
 {
-  "updatedAt": "22/08/2026 12:55",
-  "schemaVersion": 3,
+  "updatedAt": "22/08/2026 13:07",
+  "schemaVersion": 4,
   "automatic": true,
+  "regionsEnabled": [
+    "lombardia",
+    "emilia-romagna"
+  ],
   "sourcesChecked": [
     "Regione Lombardia",
+    "Regione Emilia-Romagna · Sociale",
+    "Regione Emilia-Romagna · Partecipazione",
+    "Regione Emilia-Romagna · Pari opportunità",
+    "Regione Emilia-Romagna · Sport",
     "Fondazione Cariplo"
   ],
+  "sourceStats": [
+    {
+      "source": "Regione Lombardia",
+      "region": "lombardia",
+      "found": 6,
+      "ok": true
+    },
+    {
+      "source": "Regione Emilia-Romagna · Sociale",
+      "region": "emilia-romagna",
+      "found": 0,
+      "ok": true
+    },
+    {
+      "source": "Regione Emilia-Romagna · Partecipazione",
+      "region": "emilia-romagna",
+      "found": 2,
+      "ok": true
+    },
+    {
+      "source": "Regione Emilia-Romagna · Pari opportunità",
+      "region": "emilia-romagna",
+      "found": 1,
+      "ok": true
+    },
+    {
+      "source": "Regione Emilia-Romagna · Sport",
+      "region": "emilia-romagna",
+      "found": 0,
+      "ok": true
+    },
+    {
+      "source": "Fondazione Cariplo",
+      "region": "sovraregionale",
+      "found": 6,
+      "ok": true
+    }
+  ],
+  "bandiByRegion": {
+    "lombardia": 7,
+    "emilia-romagna": 3
+  },
   "errors": [],
   "bandi": [
     {
@@ -18,7 +68,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Regione Lombardia"
+        "Regione Lombardia",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -67,7 +118,14 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
       "autoDiscovered": true,
@@ -83,7 +141,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Regione Lombardia"
+        "Regione Lombardia",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -106,7 +165,8 @@
         "capofila",
         "relative",
         "reti",
-        "territoriali"
+        "territoriali",
+        "realizzazion"
       ],
       "sectors": [
         "chiude",
@@ -132,7 +192,14 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/scuola-ascolto-avviso-creazione-spazi-scuola-ascolto-triennio-2026-2029-RLW12026053443",
       "autoDiscovered": true,
@@ -148,7 +215,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Regione Lombardia"
+        "Regione Lombardia",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -196,7 +264,14 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
       "autoDiscovered": true,
@@ -212,7 +287,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Regione Lombardia"
+        "Regione Lombardia",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -258,7 +334,14 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/pro-loco-lombarde-RLJ12026054525",
       "autoDiscovered": true,
@@ -274,7 +357,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Regione Lombardia"
+        "Regione Lombardia",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -297,7 +381,8 @@
         "volti",
         "garantire",
         "esperienze",
-        "formative"
+        "formative",
+        "qualità"
       ],
       "sectors": [
         "chiude",
@@ -323,11 +408,122 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904",
       "autoDiscovered": true,
       "discoveryText": "Aperto chiude il 22-04-2027 Avviso Dote Avviso per il finanziamento dei percorsi di Istruzione e Formazione Prof... Codice: RLW12025050904 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità,... Fai domanda Scopri di più"
+    },
+    {
+      "id": "ER-AUTO-1C77196A89F6",
+      "title": "Conclusi",
+      "source": "Regione Emilia-Romagna · Partecipazione",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Emilia-Romagna · Partecipazione",
+        "emilia-romagna"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "conclusi",
+        "vedi"
+      ],
+      "sectors": [
+        "conclusi",
+        "vedi"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: emilia-romagna",
+          "anyOf": [
+            "emilia-romagna"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://partecipazione.regione.emilia-romagna.it/leggi-atti-bandi/bandi/bandospeciale2024",
+      "autoDiscovered": true,
+      "discoveryText": "Vedi",
+      "sourceStatus": "da-verificare"
+    },
+    {
+      "id": "ER-AUTO-BD30AEF09015",
+      "title": "Conclusi",
+      "source": "Regione Emilia-Romagna · Partecipazione",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Emilia-Romagna · Partecipazione",
+        "emilia-romagna"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "conclusi",
+        "vedi"
+      ],
+      "sectors": [
+        "conclusi",
+        "vedi"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: emilia-romagna",
+          "anyOf": [
+            "emilia-romagna"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://partecipazione.regione.emilia-romagna.it/leggi-atti-bandi/bandi/bando-2023",
+      "autoDiscovered": true,
+      "discoveryText": "Vedi",
+      "sourceStatus": "da-verificare"
     },
     {
       "id": "FC-AUTO-099E0943766B",
@@ -339,7 +535,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Fondazione Cariplo"
+        "Fondazione Cariplo",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -362,7 +559,9 @@
         "conoscenza",
         "fondazione",
         "cariplo",
-        "telethon"
+        "telethon",
+        "joint",
+        "call"
       ],
       "sectors": [
         "innovawelfare",
@@ -388,11 +587,18 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "autoDiscovered": true,
-      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri "
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
     },
     {
       "id": "FC-AUTO-05B9913FABB2",
@@ -404,7 +610,8 @@
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
       "tags": [
         "Automatico",
-        "Fondazione Cariplo"
+        "Fondazione Cariplo",
+        "lombardia"
       ],
       "eligibility": [
         "Requisiti da verificare nella fonte ufficiale"
@@ -415,9 +622,21 @@
         "benessere",
         "cittadinanza",
         "attiva",
+        "giovani",
+        "generazioni",
         "patrimonio",
         "culturale",
-        "ambientale"
+        "ambientale",
+        "musei",
+        "accessibilità",
+        "universale",
+        "innovazione",
+        "produrre",
+        "conoscenza",
+        "fondazione",
+        "cariplo",
+        "telethon",
+        "joint"
       ],
       "sectors": [
         "luoghi",
@@ -425,9 +644,9 @@
         "benessere",
         "cittadinanza",
         "attiva",
-        "patrimonio",
-        "culturale",
-        "ambientale"
+        "giovani",
+        "generazioni",
+        "patrimonio"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -443,11 +662,94 @@
         "fondazione",
         "ente non profit"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "autoDiscovered": true,
-      "discoveryText": "Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
+    },
+    {
+      "id": "ER-AUTO-84DD3597031F",
+      "title": "Vai alla normativa di settore",
+      "source": "Regione Emilia-Romagna · Pari opportunità",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Emilia-Romagna · Pari opportunità",
+        "emilia-romagna"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "normativa",
+        "settore",
+        "leggi",
+        "regionali",
+        "riferimento",
+        "legge",
+        "quadro",
+        "parità",
+        "contro",
+        "discriminazioni",
+        "genere",
+        "istituzione",
+        "commissione",
+        "promozione",
+        "condizioni",
+        "piena",
+        "donne",
+        "uomini",
+        "violenze",
+        "determinate"
+      ],
+      "sectors": [
+        "normativa",
+        "settore",
+        "leggi",
+        "regionali",
+        "riferimento",
+        "legge",
+        "quadro",
+        "parità"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: emilia-romagna",
+          "anyOf": [
+            "emilia-romagna"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://parita.regione.emilia-romagna.it/leggi-atti-bandi/normativa",
+      "autoDiscovered": true,
+      "discoveryText": "Le leggi regionali di riferimento Legge regionale 6/2014 Legge quadro per la parità e contro le discriminazioni di genere Legge regionale 8/2011 Istituzione della Commissione regionale per la promozione di condizioni di piena parità tra donne e uomini Legge regionale 15/2019 Legge regionale contro le discriminazioni e le violenze determinate dall’orientamento sessuale o dall’identità di genere Legge regionale 21/2014 Norme per l'elezione dell'Assemblea legislativa e del Presidente della Giunta regionale Vai alla normativa di settore",
+      "sourceStatus": "da-verificare"
     }
   ]
 }
