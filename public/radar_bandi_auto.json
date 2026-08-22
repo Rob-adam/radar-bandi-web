@@ -1,5 +1,5 @@
 {
-  "updatedAt": "22/08/2026 14:52",
+  "updatedAt": "22/08/2026 12:55",
   "schemaVersion": 3,
   "automatic": true,
   "sourcesChecked": [
@@ -7,5 +7,447 @@
     "Fondazione Cariplo"
   ],
   "errors": [],
-  "bandi": []
+  "bandi": [
+    {
+      "id": "RLAG2026055223",
+      "title": "21-09-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-09-21",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "enti",
+        "operatori",
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "corsi",
+        "alta",
+        "formazione",
+        "personale",
+        "codice",
+        "rlag",
+        "finalizzata",
+        "raccolta",
+        "iniziative",
+        "master",
+        "universitari",
+        "executive",
+        "special"
+      ],
+      "sectors": [
+        "enti",
+        "operatori",
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "corsi",
+        "alta",
+        "formazione"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
+      "autoDiscovered": true,
+      "discoveryText": "Enti e operatori Aperto chiude il 21-09-2026 Manifestazione di interesse Manifestazione di interesse - Corsi di alta formazione per il personale ... Codice: RLAG2026055223 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di special... Fai domanda Scopri di più"
+    },
+    {
+      "id": "RLW12026053443",
+      "title": "02-10-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-10-02",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "scuola",
+        "ascolto",
+        "avviso",
+        "creazione",
+        "spazi",
+        "codice",
+        "finalizzato",
+        "individuazione",
+        "istituzioni",
+        "scolastiche",
+        "formative",
+        "capofila",
+        "relative",
+        "reti",
+        "territoriali"
+      ],
+      "sectors": [
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "scuola",
+        "ascolto",
+        "avviso",
+        "creazione",
+        "spazi"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/scuola-ascolto-avviso-creazione-spazi-scuola-ascolto-triennio-2026-2029-RLW12026053443",
+      "autoDiscovered": true,
+      "discoveryText": "Aperto chiude il 02-10-2026 Manifestazione di interesse Scuola in ascolto – Avviso per la creazione degli spazi di ascolto nelle... Codice: RLW12026053443 L'Avviso è finalizzato all'individuazione delle istituzioni scolastiche e formative capofila e delle relative reti territoriali per la realizzazion... Fai domanda Scopri di più"
+    },
+    {
+      "id": "RLF12025045924",
+      "title": "28-10-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-10-28",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "enti",
+        "operatori",
+        "chiude",
+        "irccs",
+        "ricerca",
+        "trasferisci",
+        "codice",
+        "sostiene",
+        "investimenti",
+        "industriale",
+        "sviluppo",
+        "sperimentale",
+        "realizzati",
+        "dagli",
+        "pubblici",
+        "privati",
+        "lombardia"
+      ],
+      "sectors": [
+        "enti",
+        "operatori",
+        "chiude",
+        "irccs",
+        "ricerca",
+        "trasferisci",
+        "codice",
+        "sostiene"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
+      "autoDiscovered": true,
+      "discoveryText": "Enti e operatori Aperto chiude il 28-10-2026 Bando IRCCS – Ricerca & Trasferisci Codice: RLF12025045924 Il bando sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia, con ... Fai domanda Scopri di più"
+    },
+    {
+      "id": "RLJ12026054525",
+      "title": "15-12-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-12-15",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "loco",
+        "lombarde",
+        "codice",
+        "manifestazione",
+        "interesse",
+        "finalizzata",
+        "avviare",
+        "progetti",
+        "sperimentali",
+        "funzionali",
+        "promozione",
+        "dell",
+        "invecchiamento",
+        "prevenzione"
+      ],
+      "sectors": [
+        "chiude",
+        "loco",
+        "lombarde",
+        "codice",
+        "manifestazione",
+        "interesse",
+        "finalizzata",
+        "avviare"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/pro-loco-lombarde-RLJ12026054525",
+      "autoDiscovered": true,
+      "discoveryText": "Aperto chiude il 15-12-2026 Bando Pro Loco lombarde Codice: RLJ12026054525 Manifestazione di interesse finalizzata ad avviare progetti sperimentali funzionali alla promozione dell’invecchiamento attivo e alla prevenzione d... Fai domanda Scopri di più"
+    },
+    {
+      "id": "RLW12025050904",
+      "title": "22-04-2027",
+      "source": "Regione Lombardia",
+      "deadline": "2027-04-22",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "avviso",
+        "dote",
+        "finanziamento",
+        "percorsi",
+        "istruzione",
+        "formazione",
+        "prof",
+        "codice",
+        "promuove",
+        "finanzia",
+        "progetti",
+        "professionale",
+        "iefp",
+        "volti",
+        "garantire",
+        "esperienze",
+        "formative"
+      ],
+      "sectors": [
+        "chiude",
+        "avviso",
+        "dote",
+        "finanziamento",
+        "percorsi",
+        "istruzione",
+        "formazione",
+        "prof"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904",
+      "autoDiscovered": true,
+      "discoveryText": "Aperto chiude il 22-04-2027 Avviso Dote Avviso per il finanziamento dei percorsi di Istruzione e Formazione Prof... Codice: RLW12025050904 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità,... Fai domanda Scopri di più"
+    },
+    {
+      "id": "FC-AUTO-099E0943766B",
+      "title": "InnovaWelfare",
+      "source": "Fondazione Cariplo",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "innovawelfare",
+        "benessere",
+        "cittadinanza",
+        "attiva",
+        "giovani",
+        "generazioni",
+        "patrimonio",
+        "culturale",
+        "ambientale",
+        "musei",
+        "accessibilità",
+        "universale",
+        "innovazione",
+        "produrre",
+        "conoscenza",
+        "fondazione",
+        "cariplo",
+        "telethon"
+      ],
+      "sectors": [
+        "innovawelfare",
+        "benessere",
+        "cittadinanza",
+        "attiva",
+        "giovani",
+        "generazioni",
+        "patrimonio",
+        "culturale"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
+      "autoDiscovered": true,
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri "
+    },
+    {
+      "id": "FC-AUTO-05B9913FABB2",
+      "title": "Luoghi plurali",
+      "source": "Fondazione Cariplo",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "luoghi",
+        "plurali",
+        "benessere",
+        "cittadinanza",
+        "attiva",
+        "patrimonio",
+        "culturale",
+        "ambientale"
+      ],
+      "sectors": [
+        "luoghi",
+        "plurali",
+        "benessere",
+        "cittadinanza",
+        "attiva",
+        "patrimonio",
+        "culturale",
+        "ambientale"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
+      "autoDiscovered": true,
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
+    }
+  ]
 }
