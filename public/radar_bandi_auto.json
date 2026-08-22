@@ -1,6 +1,6 @@
 {
-  "updatedAt": "22/08/2026 13:07",
-  "schemaVersion": 4,
+  "updatedAt": "22/08/2026 13:49",
+  "schemaVersion": 5,
   "automatic": true,
   "regionsEnabled": [
     "lombardia",
@@ -30,13 +30,13 @@
     {
       "source": "Regione Emilia-Romagna · Partecipazione",
       "region": "emilia-romagna",
-      "found": 2,
+      "found": 0,
       "ok": true
     },
     {
       "source": "Regione Emilia-Romagna · Pari opportunità",
       "region": "emilia-romagna",
-      "found": 1,
+      "found": 0,
       "ok": true
     },
     {
@@ -53,8 +53,7 @@
     }
   ],
   "bandiByRegion": {
-    "lombardia": 7,
-    "emilia-romagna": 3
+    "lombardia": 7
   },
   "errors": [],
   "bandi": [
@@ -422,110 +421,6 @@
       "discoveryText": "Aperto chiude il 22-04-2027 Avviso Dote Avviso per il finanziamento dei percorsi di Istruzione e Formazione Prof... Codice: RLW12025050904 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità,... Fai domanda Scopri di più"
     },
     {
-      "id": "ER-AUTO-1C77196A89F6",
-      "title": "Conclusi",
-      "source": "Regione Emilia-Romagna · Partecipazione",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Emilia-Romagna · Partecipazione",
-        "emilia-romagna"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "conclusi",
-        "vedi"
-      ],
-      "sectors": [
-        "conclusi",
-        "vedi"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "emilia-romagna"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: emilia-romagna",
-          "anyOf": [
-            "emilia-romagna"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://partecipazione.regione.emilia-romagna.it/leggi-atti-bandi/bandi/bandospeciale2024",
-      "autoDiscovered": true,
-      "discoveryText": "Vedi",
-      "sourceStatus": "da-verificare"
-    },
-    {
-      "id": "ER-AUTO-BD30AEF09015",
-      "title": "Conclusi",
-      "source": "Regione Emilia-Romagna · Partecipazione",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Emilia-Romagna · Partecipazione",
-        "emilia-romagna"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "conclusi",
-        "vedi"
-      ],
-      "sectors": [
-        "conclusi",
-        "vedi"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "emilia-romagna"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: emilia-romagna",
-          "anyOf": [
-            "emilia-romagna"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://partecipazione.regione.emilia-romagna.it/leggi-atti-bandi/bandi/bando-2023",
-      "autoDiscovered": true,
-      "discoveryText": "Vedi",
-      "sourceStatus": "da-verificare"
-    },
-    {
       "id": "FC-AUTO-099E0943766B",
       "title": "InnovaWelfare",
       "source": "Fondazione Cariplo",
@@ -674,82 +569,6 @@
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "autoDiscovered": true,
       "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
-    },
-    {
-      "id": "ER-AUTO-84DD3597031F",
-      "title": "Vai alla normativa di settore",
-      "source": "Regione Emilia-Romagna · Pari opportunità",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Emilia-Romagna · Pari opportunità",
-        "emilia-romagna"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "normativa",
-        "settore",
-        "leggi",
-        "regionali",
-        "riferimento",
-        "legge",
-        "quadro",
-        "parità",
-        "contro",
-        "discriminazioni",
-        "genere",
-        "istituzione",
-        "commissione",
-        "promozione",
-        "condizioni",
-        "piena",
-        "donne",
-        "uomini",
-        "violenze",
-        "determinate"
-      ],
-      "sectors": [
-        "normativa",
-        "settore",
-        "leggi",
-        "regionali",
-        "riferimento",
-        "legge",
-        "quadro",
-        "parità"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "emilia-romagna"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: emilia-romagna",
-          "anyOf": [
-            "emilia-romagna"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://parita.regione.emilia-romagna.it/leggi-atti-bandi/normativa",
-      "autoDiscovered": true,
-      "discoveryText": "Le leggi regionali di riferimento Legge regionale 6/2014 Legge quadro per la parità e contro le discriminazioni di genere Legge regionale 8/2011 Istituzione della Commissione regionale per la promozione di condizioni di piena parità tra donne e uomini Legge regionale 15/2019 Legge regionale contro le discriminazioni e le violenze determinate dall’orientamento sessuale o dall’identità di genere Legge regionale 21/2014 Norme per l'elezione dell'Assemblea legislativa e del Presidente della Giunta regionale Vai alla normativa di settore",
-      "sourceStatus": "da-verificare"
     }
   ]
 }
