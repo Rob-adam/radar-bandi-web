@@ -2,6 +2,7 @@ import json
 import re
 import hashlib
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -11,6 +12,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 OUT = PUBLIC / "radar_bandi_auto.json"
+ITALY_TZ = ZoneInfo("Europe/Rome")
 
 # Le fonti Lombardia restano invariate. Le regole più severe qui sotto
 # vengono applicate esclusivamente alle fonti Emilia-Romagna.
@@ -198,8 +200,6 @@ def er_status(text):
     if any(x in n for x in ["bando chiuso", "procedimento concluso", "domande chiuse", "termini scaduti"]):
         return "chiuso"
     if "bando in corso" in n:
-        # Nei portali ER spesso indica procedimento amministrativo ancora in corso
-        # ma termini di domanda già chiusi.
         return "procedimento-in-corso"
     if "bando programmato" in n or "programmato" in n:
         return "programmato"
@@ -216,28 +216,18 @@ def emilia_romagna_items(html, base, source_name):
         url = urljoin(base, a.get("href", ""))
         if not er_candidate_link(url):
             continue
-
         title = useful_title(a)
         if not er_title_allowed(title):
             continue
-
         block = nearby_text(a)
         combined = clean(f"{title} {block}").lower()
         status = er_status(combined)
         if status in {"chiuso", "procedimento-in-corso"}:
             continue
-
-        # Regola chiave: una pagina entra nel catalogo solo se contiene almeno
-        # un vero segnale di opportunità. Link di navigazione e pagine servizio
-        # non passano più solo perché si trovano sotto /bandi/.
         if not any(signal in combined for signal in ER_SIGNALS):
             continue
-
-        # Un testo quasi vuoto (es. link "Vedi") non è sufficiente per creare
-        # una scheda bando automatica.
         if len(clean(block)) < 35:
             continue
-
         rec_id = slug_id("ER-AUTO", url, title)
         if rec_id in seen:
             continue
@@ -357,7 +347,7 @@ def main():
             by_region[territory] = by_region.get(territory, 0) + 1
 
     payload = {
-        "updatedAt": datetime.now().astimezone().strftime("%d/%m/%Y %H:%M"),
+        "updatedAt": datetime.now(ITALY_TZ).strftime("%d/%m/%Y %H:%M"),
         "schemaVersion": 5,
         "automatic": True,
         "regionsEnabled": ["lombardia", "emilia-romagna"],
