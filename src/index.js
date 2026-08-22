@@ -11,6 +11,23 @@ const adminSync=`<script id="bandovera-admin-sync">(()=>{const KEY='radar_bandi_
 
 async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard'))text=text.replace('</body>',script+'</body>');const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
 
+async function mergedExtraCatalog(request,env){
+ const origin=new URL(request.url).origin;
+ const extraReq=new Request(origin+'/radar_bandi_catalogo_extra.json?raw=1',{headers:{'accept':'application/json'}});
+ const autoReq=new Request(origin+'/radar_bandi_auto.json?raw=1',{headers:{'accept':'application/json'}});
+ const [r1,r2]=await Promise.all([env.ASSETS.fetch(extraReq),env.ASSETS.fetch(autoReq)]);
+ if(!r1.ok)return r1;
+ let d1={bandi:[]},d2={bandi:[]};
+ try{d1=await r1.json()}catch{return json({error:'Catalogo extra non valido'},500)}
+ if(r2.ok){try{d2=await r2.json()}catch{d2={bandi:[]}}}
+ const map=new Map();
+ for(const b of [...(Array.isArray(d1.bandi)?d1.bandi:[]),...(Array.isArray(d2.bandi)?d2.bandi:[])]){
+  const key=String(b?.sourceUrl||b?.id||'').replace(/\/$/,'');
+  if(key)map.set(key,b);
+ }
+ return json({...d1,updatedAt:d2.updatedAt||d1.updatedAt||null,automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],bandi:[...map.values()]});
+}
+
 export default {
  async fetch(request,env){
   const url=new URL(request.url);
@@ -36,6 +53,7 @@ export default {
   if(url.pathname==='/api/admin/sync-status'){
    return json({configured:!!env.LICENSES,adminSecret:!!env.ADMIN_API_KEY,versionTimestamp:versionTimestamp(env)});
   }
+  if(url.pathname==='/radar_bandi_catalogo_extra.json'&&!url.searchParams.has('raw'))return mergedExtraCatalog(request,env);
   if(url.pathname.startsWith('/admin'))return serveHtmlWithInjection(request,env,adminSync);
   if(url.pathname==='/'||url.pathname==='/index.html')return serveHtmlWithInjection(request,env,clientGuard);
   return env.ASSETS.fetch(request);
