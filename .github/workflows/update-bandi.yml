@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '15 */6 * * *'
   workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_bandi.py'
+      - '.github/workflows/update-bandi.yml'
 
 permissions:
   contents: write
