@@ -1,10 +1,11 @@
 {
-  "updatedAt": "22/08/2026 15:53",
-  "schemaVersion": 5,
+  "updatedAt": "22/08/2026 16:02",
+  "schemaVersion": 6,
   "automatic": true,
   "regionsEnabled": [
     "lombardia",
-    "emilia-romagna"
+    "emilia-romagna",
+    "piemonte"
   ],
   "sourcesChecked": [
     "Regione Lombardia",
@@ -12,6 +13,7 @@
     "Regione Emilia-Romagna · Partecipazione",
     "Regione Emilia-Romagna · Pari opportunità",
     "Regione Emilia-Romagna · Sport",
+    "Regione Piemonte · Bandi",
     "Fondazione Cariplo"
   ],
   "sourceStats": [
@@ -42,6 +44,12 @@
     {
       "source": "Regione Emilia-Romagna · Sport",
       "region": "emilia-romagna",
+      "found": 0,
+      "ok": true
+    },
+    {
+      "source": "Regione Piemonte · Bandi",
+      "region": "piemonte",
       "found": 0,
       "ok": true
     },
