@@ -2,7 +2,7 @@ name: Aggiorna catalogo BANDOVERA
 
 on:
   schedule:
-    - cron: '15 5 * * *'
+    - cron: '15 */6 * * *'
   workflow_dispatch:
 
 permissions:
