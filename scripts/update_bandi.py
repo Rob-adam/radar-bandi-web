@@ -12,8 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 OUT = PUBLIC / "radar_bandi_auto.json"
 
-# Registro centrale delle fonti. Aggiungere una Regione significa aggiungere qui
-# le relative fonti ufficiali: il resto del motore resta invariato.
+# Le fonti Lombardia restano invariate. Le regole più severe qui sotto
+# vengono applicate esclusivamente alle fonti Emilia-Romagna.
 SOURCES = [
     {
         "name": "Regione Lombardia",
@@ -54,8 +54,29 @@ SOURCES = [
 ]
 
 HEADERS = {
-    "User-Agent": "BANDOVERA/1.1 (+monitoraggio bandi pubblici; contatto amministratore sito)"
+    "User-Agent": "BANDOVERA/1.2 (+monitoraggio bandi pubblici; contatto amministratore sito)"
 }
+
+ER_BAD_TITLES = {
+    "conclusi", "concluso", "bandi conclusi", "bandi", "archivio",
+    "normativa", "normativa di settore", "vai alla normativa di settore",
+    "annualità precedenti", "annualita precedenti", "vedi", "leggi",
+    "approfondisci", "scopri di più", "scopri di piu", "vai al bando",
+}
+ER_BAD_PREFIXES = (
+    "scarica ", "download ", "vai ai bandi ", "vai a bandi ",
+    "consulta ", "vai alla normativa", "modulistica", "documentazione",
+)
+ER_BAD_PATH_PARTS = (
+    "/conclusi", "/concluso", "/archivio", "/normativa", "/norme",
+    "/annualita-precedenti", "/bandi-2025", "/bandi-2024", "/bandi-2023",
+    "/documenti", "/modulistica",
+)
+ER_SIGNALS = (
+    "bando", "avviso", "contribut", "finanzi", "manifestazione di interesse",
+    "presentazione di progetti", "presentazione progetti", "domande", "candidatur",
+    "programmato", "apertura", "scadenza",
+)
 
 
 def clean(s):
@@ -117,6 +138,7 @@ def useful_title(a):
 
 
 def lombardia_items(html, base):
+    # NON MODIFICARE: parser Lombardia lasciato identico alla versione stabile.
     soup = BeautifulSoup(html, "html.parser")
     out = []
     seen = set()
@@ -142,25 +164,47 @@ def er_candidate_link(url):
     p = urlparse(url)
     if not p.hostname or not p.hostname.endswith("regione.emilia-romagna.it"):
         return False
-    path = p.path.lower()
-    if "/leggi-atti-bandi/" not in path and "/bandi/" not in path:
+    path = p.path.lower().rstrip("/")
+    if not ("/leggi-atti-bandi/" in path or "/bandi/" in path):
         return False
-    excluded = ["/leggi-atti-bandi/bandi$", "/leggi-atti-bandi$", "/bandi$", "/bandi/$"]
-    return not any(re.search(x, path) for x in excluded)
+    if any(x in path for x in ER_BAD_PATH_PARTS):
+        return False
+    if re.search(r"\.(pdf|doc|docx|xls|xlsx|zip)$", path):
+        return False
+    exact_lists = {
+        "/leggi-atti-bandi/bandi", "/leggi-atti-bandi", "/bandi",
+        "/sport/leggi-atti-bandi", "/sport/bandi",
+    }
+    return path not in exact_lists
+
+
+def er_title_allowed(title):
+    t = clean(title).lower().strip(" .:-–—")
+    if len(t) < 10:
+        return False
+    if t in ER_BAD_TITLES:
+        return False
+    if any(t.startswith(prefix) for prefix in ER_BAD_PREFIXES):
+        return False
+    if re.fullmatch(r"bandi?\s+20\d{2}", t):
+        return False
+    if re.fullmatch(r"(conclusi|aperti|programmati|in corso)", t):
+        return False
+    return True
 
 
 def er_status(text):
     n = clean(text).lower()
-    if "bando chiuso" in n or "procedimento concluso" in n:
+    if any(x in n for x in ["bando chiuso", "procedimento concluso", "domande chiuse", "termini scaduti"]):
         return "chiuso"
+    if "bando in corso" in n:
+        # Nei portali ER spesso indica procedimento amministrativo ancora in corso
+        # ma termini di domanda già chiusi.
+        return "procedimento-in-corso"
     if "bando programmato" in n or "programmato" in n:
         return "programmato"
-    if "bando aperto" in n or "termini per la presentazione" in n and "aperti" in n:
+    if "bando aperto" in n or ("termini per la presentazione" in n and "aperti" in n):
         return "aperto"
-    if "bando in corso" in n:
-        # Nei portali regionali ER 'in corso' normalmente significa che i termini
-        # di presentazione sono scaduti ma il procedimento non è concluso.
-        return "procedimento-in-corso"
     return "da-verificare"
 
 
@@ -172,13 +216,28 @@ def emilia_romagna_items(html, base, source_name):
         url = urljoin(base, a.get("href", ""))
         if not er_candidate_link(url):
             continue
+
         title = useful_title(a)
-        if len(title) < 8:
+        if not er_title_allowed(title):
             continue
+
         block = nearby_text(a)
-        status = er_status(block)
+        combined = clean(f"{title} {block}").lower()
+        status = er_status(combined)
         if status in {"chiuso", "procedimento-in-corso"}:
             continue
+
+        # Regola chiave: una pagina entra nel catalogo solo se contiene almeno
+        # un vero segnale di opportunità. Link di navigazione e pagine servizio
+        # non passano più solo perché si trovano sotto /bandi/.
+        if not any(signal in combined for signal in ER_SIGNALS):
+            continue
+
+        # Un testo quasi vuoto (es. link "Vedi") non è sufficiente per creare
+        # una scheda bando automatica.
+        if len(clean(block)) < 35:
+            continue
+
         rec_id = slug_id("ER-AUTO", url, title)
         if rec_id in seen:
             continue
@@ -208,8 +267,6 @@ def cariplo_items(html, base):
         if rec_id in seen:
             continue
         seen.add(rec_id)
-        # Cariplo è rilevante soprattutto per Lombardia e territori statutari,
-        # quindi non la marchiamo come nazionale.
         out.append(make_record(rec_id, title, "Fondazione Cariplo", url, block, "lombardia"))
     return out
 
@@ -301,7 +358,7 @@ def main():
 
     payload = {
         "updatedAt": datetime.now().astimezone().strftime("%d/%m/%Y %H:%M"),
-        "schemaVersion": 4,
+        "schemaVersion": 5,
         "automatic": True,
         "regionsEnabled": ["lombardia", "emilia-romagna"],
         "sourcesChecked": [s["name"] for s in SOURCES],
