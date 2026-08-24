@@ -1,5 +1,5 @@
 {
-  "updatedAt": "24/08/2026 05:38",
+  "updatedAt": "24/08/2026 10:32",
   "schemaVersion": 6,
   "automatic": true,
   "regionsEnabled": [
@@ -61,10 +61,78 @@
     }
   ],
   "bandiByRegion": {
-    "lombardia": 7
+    "lombardia": 6
   },
   "errors": [],
   "bandi": [
+    {
+      "id": "RLP12026054984",
+      "title": "15-09-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-09-15",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "partecipazione",
+        "iniziative",
+        "promozione",
+        "turistica",
+        "codice",
+        "operatori",
+        "turistici",
+        "lombardi",
+        "promosse",
+        "lombardia",
+        "mercati",
+        "italiano"
+      ],
+      "sectors": [
+        "chiude",
+        "partecipazione",
+        "iniziative",
+        "promozione",
+        "turistica",
+        "codice",
+        "operatori",
+        "turistici"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
+      "autoDiscovered": true,
+      "discoveryText": "Aperto chiude il 15-09-2026 Bando BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI ... Codice: RLP12026054984 Partecipazione degli operatori turistici lombardi alle iniziative di promozione turistica promosse da Regione Lombardia sui mercati italiano ed est... Fai domanda Scopri di più"
+    },
     {
       "id": "RLAG2026055223",
       "title": "21-09-2026",
@@ -139,80 +207,6 @@
       "discoveryText": "Enti e operatori Aperto chiude il 21-09-2026 Manifestazione di interesse Manifestazione di interesse - Corsi di alta formazione per il personale ... Codice: RLAG2026055223 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di special... Fai domanda Scopri di più"
     },
     {
-      "id": "RLW12026053443",
-      "title": "02-10-2026",
-      "source": "Regione Lombardia",
-      "deadline": "2026-10-02",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "scuola",
-        "ascolto",
-        "avviso",
-        "creazione",
-        "spazi",
-        "codice",
-        "finalizzato",
-        "individuazione",
-        "istituzioni",
-        "scolastiche",
-        "formative",
-        "capofila",
-        "relative",
-        "reti",
-        "territoriali",
-        "realizzazion"
-      ],
-      "sectors": [
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "scuola",
-        "ascolto",
-        "avviso",
-        "creazione",
-        "spazi"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/scuola-ascolto-avviso-creazione-spazi-scuola-ascolto-triennio-2026-2029-RLW12026053443",
-      "autoDiscovered": true,
-      "discoveryText": "Aperto chiude il 02-10-2026 Manifestazione di interesse Scuola in ascolto – Avviso per la creazione degli spazi di ascolto nelle... Codice: RLW12026053443 L'Avviso è finalizzato all'individuazione delle istituzioni scolastiche e formative capofila e delle relative reti territoriali per la realizzazion... Fai domanda Scopri di più"
-    },
-    {
       "id": "RLF12025045924",
       "title": "28-10-2026",
       "source": "Regione Lombardia",
@@ -283,76 +277,6 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
       "autoDiscovered": true,
       "discoveryText": "Enti e operatori Aperto chiude il 28-10-2026 Bando IRCCS – Ricerca & Trasferisci Codice: RLF12025045924 Il bando sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia, con ... Fai domanda Scopri di più"
-    },
-    {
-      "id": "RLJ12026054525",
-      "title": "15-12-2026",
-      "source": "Regione Lombardia",
-      "deadline": "2026-12-15",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "chiude",
-        "loco",
-        "lombarde",
-        "codice",
-        "manifestazione",
-        "interesse",
-        "finalizzata",
-        "avviare",
-        "progetti",
-        "sperimentali",
-        "funzionali",
-        "promozione",
-        "dell",
-        "invecchiamento",
-        "prevenzione"
-      ],
-      "sectors": [
-        "chiude",
-        "loco",
-        "lombarde",
-        "codice",
-        "manifestazione",
-        "interesse",
-        "finalizzata",
-        "avviare"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/pro-loco-lombarde-RLJ12026054525",
-      "autoDiscovered": true,
-      "discoveryText": "Aperto chiude il 15-12-2026 Bando Pro Loco lombarde Codice: RLJ12026054525 Manifestazione di interesse finalizzata ad avviare progetti sperimentali funzionali alla promozione dell’invecchiamento attivo e alla prevenzione d... Fai domanda Scopri di più"
     },
     {
       "id": "RLW12025050904",
