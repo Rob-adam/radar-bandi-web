@@ -1,5 +1,5 @@
 {
-  "updatedAt": "26/08/2026 10:25",
+  "updatedAt": "26/08/2026 16:30",
   "schemaVersion": 6,
   "automatic": true,
   "regionsEnabled": [
@@ -50,7 +50,7 @@
     {
       "source": "Regione Piemonte · Bandi",
       "region": "piemonte",
-      "found": 0,
+      "found": 1,
       "ok": true
     },
     {
@@ -61,7 +61,8 @@
     }
   ],
   "bandiByRegion": {
-    "lombardia": 6
+    "lombardia": 6,
+    "piemonte": 1
   },
   "errors": [],
   "bandi": [
@@ -205,6 +206,82 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
       "autoDiscovered": true,
       "discoveryText": "Enti e operatori Aperto chiude il 21-09-2026 Manifestazione di interesse Manifestazione di interesse - Corsi di alta formazione per il personale ... Codice: RLAG2026055223 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di special... Fai domanda Scopri di più"
+    },
+    {
+      "id": "PIE-AUTO-10A0782FB267",
+      "title": "Bando Piemonte e Africa subsahariana Anno 2026",
+      "source": "Regione Piemonte · Bandi",
+      "deadline": "2026-09-30",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Piemonte · Bandi",
+        "piemonte"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "piemonte",
+        "africa",
+        "subsahariana",
+        "anno",
+        "bandi",
+        "salta",
+        "contenuto",
+        "principale",
+        "istituzione",
+        "appartenenza",
+        "seguici",
+        "twitter",
+        "facebook",
+        "youtube",
+        "linkedin",
+        "instagram",
+        "whatsapp",
+        "ricerca",
+        "start",
+        "searching"
+      ],
+      "sectors": [
+        "piemonte",
+        "africa",
+        "subsahariana",
+        "anno",
+        "bandi",
+        "salta",
+        "contenuto",
+        "principale"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "piemonte"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: piemonte",
+          "anyOf": [
+            "piemonte"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-piemonte-africa-subsahariana-anno-2026",
+      "autoDiscovered": true,
+      "discoveryText": "Bando Piemonte e Africa subsahariana Anno 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Bando Piemonte e Africa subsahariana Anno 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Sostegno ad iniziative di cooperazione decentrata promosse dalle Autorità Locali piemontesi in Africa sub-sahariana Domande dal Gio, 23/07/2026 - 10:00 Scadenza Mer, 30/09/2026 - 23:59 Riferimento Bollettino Ufficiale BUR n. 29 del 23/07/2026 Temi Cooperazione internazionale Rivolto a Cittadini Enti pubblici Terzo settore Risorse Risorse regionali Procedura Bando La Regione Piemonte e la Fondazione Compagnia di San Paolo hanno rinnovato il propr",
+      "sourceStatus": "aperto"
     },
     {
       "id": "RLF12025045924",
