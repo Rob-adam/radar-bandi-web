@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/update_bandi.py'
+      - 'scripts/reconcile_bandi.py'
       - '.github/workflows/update-bandi.yml'
 
 permissions:
@@ -30,14 +31,17 @@ jobs:
       - name: Cerca nuovi bandi
         run: python scripts/update_bandi.py
 
-      - name: Pubblica catalogo se cambiato
+      - name: Confronta con lo storico
+        run: python scripts/reconcile_bandi.py
+
+      - name: Pubblica catalogo e memoria se cambiati
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_auto.json
+          git add public/radar_bandi_auto.json data/radar_bandi_state.json
           if git diff --cached --quiet; then
-            echo "Nessuna modifica al catalogo automatico"
+            echo "Nessuna modifica significativa al catalogo automatico"
           else
-            git commit -m "Aggiornamento automatico bandi"
+            git commit -m "Aggiornamento incrementale bandi"
             git push
           fi
