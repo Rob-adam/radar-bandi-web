@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-08-29T14:19:54+02:00",
+  "catalogUpdatedAt": "2026-08-29T14:23:52+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -112,7 +112,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -231,7 +231,7 @@
           "specialistLabel": "università e soggetti universitari"
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": true
     },
@@ -349,7 +349,7 @@
           "specialistLabel": "IRCCS"
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": true
     },
@@ -467,7 +467,7 @@
           "specialistLabel": "istituzioni formative accreditate"
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": true
     },
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T14:19:54+02:00",
+      "lastChangedAt": "2026-08-29T14:23:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T14:19:54+02:00",
+      "lastChangedAt": "2026-08-29T14:23:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -980,7 +980,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -1116,7 +1116,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -1256,7 +1256,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -1394,7 +1394,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     },
@@ -1530,12 +1530,12 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-29T14:19:54+02:00"
+        "evaluatedAt": "2026-08-29T14:23:53+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-08-29T14:19:54+02:00",
+  "triageUpdatedAt": "2026-08-29T14:23:53+02:00",
   "triageSummary": {
     "rulesResolved": 8,
     "rulesExcludedForEts": 3,
