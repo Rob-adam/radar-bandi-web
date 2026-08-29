@@ -83,7 +83,7 @@ def parse_deadline(text):
     text = clean(text)
     numeric = [
         r"(?:scade il|scadenza(?:\s+il)?|entro il|fino al)\s*(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})",
-        r"(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
+        r"(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})(?:\s+\d{1,2}:\d{2})?\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
     ]
     for pattern in numeric:
         m = re.search(pattern, text, re.I)
@@ -96,7 +96,7 @@ def parse_deadline(text):
     month_names = "|".join(MONTHS)
     patterns = [
         rf"(?:scade il|scadenza(?: dei termini)?(?: per partecipare)?|fino al|entro il)\s*(\d{{1,2}})\s+({month_names})\s+(\d{{4}})",
-        rf"(\d{{1,2}})\s+({month_names})\s+(\d{{4}})\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
+        rf"(\d{{1,2}})\s+({month_names})\s+(\d{{4}})(?:\s+\d{{1,2}}:\d{{2}})?\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
     ]
     for pattern in patterns:
         m = re.search(pattern, text, re.I)
@@ -111,8 +111,6 @@ def parse_deadline(text):
 def status_from_text(text, deadline):
     n = f" {clean(text).lower()} "
     if any(marker in n for marker in CLOSED):
-        # Una pagina può contenere parole sugli esiti pur avendo una nuova fase futura:
-        # una scadenza futura prevale sui marcatori generici di archivio/esito.
         if not deadline or deadline < date.today():
             return "chiuso"
     if "bando programmato" in n or " programmato " in n:
@@ -136,16 +134,36 @@ def static_urls():
     return urls
 
 
+def candidate_score(path, anchor):
+    text = f"{path} {anchor}".lower()
+    score = 0
+    if "2026" in path:
+        score += 50
+    if "2026" in anchor:
+        score += 25
+    if "bando" in text:
+        score += 120
+    if "avviso" in text:
+        score += 110
+    if "contribut" in text or "finanzi" in text:
+        score += 80
+    if "terzo-settore" in path or "terzo settore" in anchor:
+        score += 100
+    if "sport" in path:
+        score += 20
+    return score
+
+
 def source_urls_from_sitemap(src):
-    urls = set()
+    candidates = {}
     last_error = None
     for sitemap in src["sitemaps"]:
         try:
-            r = requests.get(sitemap, headers=HEADERS, timeout=35)
+            r = requests.get(sitemap, headers=HEADERS, timeout=40)
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
             for a in soup.find_all("a", href=True):
-                url = urljoin(sitemap, a.get("href", ""))
+                url = urljoin(sitemap, a.get("href", "")).rstrip("/")
                 p = urlparse(url)
                 if p.hostname != src["host"]:
                     continue
@@ -154,16 +172,17 @@ def source_urls_from_sitemap(src):
                     continue
                 if re.search(r"\.(pdf|doc|docx|xls|xlsx|zip)(?:$|\?)", path):
                     continue
-                # Concentrati sull'annualità corrente: evita di aprire interi archivi storici.
                 anchor = clean(a.get_text(" ", strip=True)).lower()
-                if "2026" not in path and "2026" not in anchor and src["name"].endswith("Partecipazione") is False:
+                if "2026" not in path and "2026" not in anchor and not src["name"].endswith("Partecipazione"):
                     continue
-                urls.add(url.rstrip("/"))
-            if urls:
-                return sorted(urls), None
+                score = candidate_score(path, anchor)
+                if score < 80:
+                    continue
+                candidates[url] = max(score, candidates.get(url, 0))
         except Exception as exc:
             last_error = str(exc)
-    return sorted(urls), last_error
+    ordered = [url for url, _ in sorted(candidates.items(), key=lambda item: (-item[1], item[0]))]
+    return ordered, last_error
 
 
 def detail_record(url, source_name):
@@ -243,8 +262,7 @@ def main():
     for src in SOURCES:
         candidates, sitemap_error = source_urls_from_sitemap(src)
         discovered = []
-        # Limite di sicurezza: le mappe possono contenere anni di contenuti.
-        for url in candidates[:80]:
+        for url in candidates[:160]:
             rec = detail_record(url, src["name"])
             if rec:
                 discovered.append(rec)
@@ -258,7 +276,12 @@ def main():
             known_auto.add(key)
             added += 1
         added_total += added
-        per_source[src["name"]] = {"discovered": len(discovered), "added": added, "fallbackOk": sitemap_error is None or bool(candidates)}
+        per_source[src["name"]] = {
+            "candidates": len(candidates),
+            "discovered": len(discovered),
+            "added": added,
+            "fallbackOk": sitemap_error is None or bool(candidates),
+        }
         if sitemap_error and not candidates:
             errors.append(f"{src['name']} fallback: {sitemap_error}")
 
@@ -266,11 +289,10 @@ def main():
         info = per_source.get(stat.get("source"))
         if not info:
             continue
+        stat["fallbackCandidates"] = info["candidates"]
         stat["fallbackDiscovered"] = info["discovered"]
         stat["fallbackAdded"] = info["added"]
         stat["fallbackOk"] = info["fallbackOk"]
-        # found rappresenta ora ciò che la sorgente ufficiale ha davvero individuato,
-        # anche se il record era già presente nel catalogo statico e quindi non duplicato.
         stat["found"] = max(int(stat.get("found") or 0), info["discovered"])
 
     by_region = {}
