@@ -11,7 +11,7 @@ CATALOG = PUBLIC / "radar_bandi_auto.json"
 STATE = DATA / "radar_bandi_state.json"
 AI_QUEUE = DATA / "radar_bandi_ai_queue.json"
 ITALY_TZ = ZoneInfo("Europe/Rome")
-RULE_VERSION = 2
+RULE_VERSION = 3
 
 ETS_SIGNALS = (
     "terzo settore", "enti del terzo settore", "ente del terzo settore",
@@ -27,6 +27,41 @@ NONPROFIT_SIGNALS = (
     "organizzazioni non profit", "organizzazione non profit",
     "soggetti non profit", "soggetto non profit",
     "senza scopo di lucro", "non lucrativo", "non lucrative",
+)
+
+# Categorie che, quando delimitate in modo esplicito nella sezione dei destinatari,
+# permettono di capire senza AI che il bando non è una normale opportunità ETS.
+# Le regole sono volutamente strette: non basta che una parola compaia nel testo.
+SPECIALIST_AUDIENCE_RULES = (
+    {
+        "scope": "specialist-irccs",
+        "label": "IRCCS",
+        "required_any": (
+            "possono presentare domanda di partecipazione al bando gli istituti di ricovero e cura a carattere scientifico",
+            "possono partecipare gli istituti di ricovero e cura a carattere scientifico",
+            "riservato agli irccs",
+            "destinatari: irccs",
+        ),
+    },
+    {
+        "scope": "specialist-training-accredited",
+        "label": "istituzioni formative accreditate",
+        "required_any": (
+            "possono accedere al finanziamento le istituzioni formative accreditate",
+            "riservato alle istituzioni formative accreditate",
+            "destinatari: istituzioni formative accreditate",
+        ),
+    },
+    {
+        "scope": "specialist-university",
+        "label": "università e soggetti universitari",
+        "required_any": (
+            "istituzioni universitarie statali, non statali e telematiche",
+            "consorzi universitari ed interuniversitari",
+            "fondazioni universitarie correlati ad un ateneo",
+            "fondazioni universitarie correlate ad un ateneo",
+        ),
+    },
 )
 
 BANDO_SIGNALS = (
@@ -82,6 +117,21 @@ def phrase_hits(text, signals):
     ]
 
 
+def specialist_audience(text):
+    for rule in SPECIALIST_AUDIENCE_RULES:
+        hits = [phrase for phrase in rule["required_any"] if phrase in text]
+        if hits:
+            return {
+                "known": True,
+                "scope": rule["scope"],
+                "evidence": hits,
+                "specificLegalFormConfirmed": True,
+                "etsRelevant": False,
+                "specialistLabel": rule["label"],
+            }
+    return None
+
+
 def audience_classification(text):
     ets_hits = phrase_hits(text, ETS_SIGNALS)
     nonprofit_hits = phrase_hits(text, NONPROFIT_SIGNALS)
@@ -92,6 +142,7 @@ def audience_classification(text):
             "scope": "ets-specific",
             "evidence": ets_hits,
             "specificLegalFormConfirmed": True,
+            "etsRelevant": True,
         }
     if nonprofit_hits:
         return {
@@ -99,12 +150,19 @@ def audience_classification(text):
             "scope": "nonprofit-broad",
             "evidence": nonprofit_hits,
             "specificLegalFormConfirmed": False,
+            "etsRelevant": None,
         }
+
+    specialist = specialist_audience(text)
+    if specialist:
+        return specialist
+
     return {
         "known": False,
         "scope": "unknown",
         "evidence": [],
         "specificLegalFormConfirmed": False,
+        "etsRelevant": None,
     }
 
 
@@ -143,6 +201,9 @@ def triage(snapshot):
     elif audience["scope"] == "nonprofit-broad":
         evidence.append("destinatari_nonprofit_espliciti")
         evidence.append("forma_giuridica_specifica_non_confermata")
+    elif audience["scope"].startswith("specialist-"):
+        evidence.append("destinatari_specialistici_espliciti")
+        evidence.append("non_pertinente_ets_per_regola_deterministica")
     else:
         reasons.append("destinatari_da_interpretare")
 
@@ -160,10 +221,6 @@ def triage(snapshot):
     else:
         reasons.append("stato_e_scadenza_da_verificare")
 
-    # Una categoria ampia e chiaramente dichiarata (es. "enti privati non profit")
-    # è sufficiente per evitare una chiamata AI: non occorre interpretarla.
-    # NON significa però che ODV/APS/ETS siano automaticamente ammesse. Questa
-    # distinzione resta memorizzata in audience.scope e specificLegalFormConfirmed.
     critical = {
         "title": title_ok,
         "source": bool(source_url),
@@ -174,10 +231,13 @@ def triage(snapshot):
         "timing": timing_known,
     }
     resolved = all(critical.values())
+    excluded_for_ets = resolved and audience.get("etsRelevant") is False
 
     return {
-        "status": "rules-resolved" if resolved else "ai-required",
+        "status": "rules-excluded-ets" if excluded_for_ets else ("rules-resolved" if resolved else "ai-required"),
         "needsAnalysis": not resolved,
+        "etsRelevant": audience.get("etsRelevant"),
+        "excludedForEts": excluded_for_ets,
         "reasons": reasons,
         "evidence": evidence,
         "audience": audience,
@@ -192,6 +252,7 @@ def main():
     stamp = now_iso()
 
     resolved_count = 0
+    excluded_count = 0
     ai_count = 0
     skipped_count = 0
     queue = []
@@ -205,6 +266,7 @@ def main():
         result = triage(snapshot)
         rec["triage"] = {**result, "evaluatedAt": stamp}
         rec["needsAnalysis"] = bool(result["needsAnalysis"])
+        rec["excludedForEts"] = bool(result["excludedForEts"])
 
         if result["needsAnalysis"]:
             ai_count += 1
@@ -222,13 +284,16 @@ def main():
                 "audience": result["audience"],
                 "text": clean(snapshot.get("discoveryText"))[:1800],
             })
+        elif result["excludedForEts"]:
+            excluded_count += 1
         else:
             resolved_count += 1
 
-    state["schemaVersion"] = max(int(state.get("schemaVersion") or 1), 2)
+    state["schemaVersion"] = max(int(state.get("schemaVersion") or 1), 3)
     state["triageUpdatedAt"] = stamp
     state["triageSummary"] = {
         "rulesResolved": resolved_count,
+        "rulesExcludedForEts": excluded_count,
         "aiRequired": ai_count,
         "notPresent": skipped_count,
         "ruleVersion": RULE_VERSION,
@@ -244,17 +309,21 @@ def main():
             continue
         tracking = dict(bando.get("tracking") or {})
         triage_data = rec.get("triage") or {}
+        audience = triage_data.get("audience") or {}
         tracking["needsAnalysis"] = bool(rec.get("needsAnalysis"))
         tracking["triageStatus"] = triage_data.get("status")
         tracking["triageRuleVersion"] = RULE_VERSION
-        tracking["audienceScope"] = (triage_data.get("audience") or {}).get("scope")
-        tracking["specificLegalFormConfirmed"] = bool((triage_data.get("audience") or {}).get("specificLegalFormConfirmed"))
+        tracking["audienceScope"] = audience.get("scope")
+        tracking["specificLegalFormConfirmed"] = bool(audience.get("specificLegalFormConfirmed"))
+        tracking["etsRelevant"] = triage_data.get("etsRelevant")
+        tracking["excludedForEts"] = bool(triage_data.get("excludedForEts"))
         bando["tracking"] = tracking
 
     catalog["triage"] = {
         "enabled": True,
         "ruleVersion": RULE_VERSION,
         "rulesResolved": resolved_count,
+        "rulesExcludedForEts": excluded_count,
         "aiRequired": ai_count,
     }
 
@@ -272,8 +341,8 @@ def main():
 
     print(
         "BANDOVERA triage: "
-        f"regole={resolved_count}, ai={ai_count}, non_presenti={skipped_count}, "
-        f"coda_ai={len(queue)}, regole_versione={RULE_VERSION}"
+        f"regole={resolved_count}, esclusi_ets={excluded_count}, ai={ai_count}, "
+        f"non_presenti={skipped_count}, coda_ai={len(queue)}, regole_versione={RULE_VERSION}"
     )
 
 
