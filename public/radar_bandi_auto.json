@@ -137,7 +137,9 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     },
     {
@@ -217,7 +219,9 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     },
     {
@@ -296,7 +300,9 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     },
     {
@@ -377,7 +383,9 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     },
     {
@@ -459,7 +467,9 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     },
     {
@@ -541,16 +551,24 @@
         "version": 1,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
         "lastChangedAt": "2026-08-29T10:53:30+02:00",
-        "needsAnalysis": true
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 1
       }
     }
   ],
   "incremental": true,
   "trackingSummary": {
-    "new": 6,
+    "new": 0,
     "modified": 0,
-    "unchanged": 0,
+    "unchanged": 6,
     "reappeared": 0,
     "missing": 0
+  },
+  "triage": {
+    "enabled": true,
+    "ruleVersion": 1,
+    "rulesResolved": 0,
+    "aiRequired": 6
   }
 }
