@@ -11,14 +11,22 @@ CATALOG = PUBLIC / "radar_bandi_auto.json"
 STATE = DATA / "radar_bandi_state.json"
 AI_QUEUE = DATA / "radar_bandi_ai_queue.json"
 ITALY_TZ = ZoneInfo("Europe/Rome")
-RULE_VERSION = 1
+RULE_VERSION = 2
 
 ETS_SIGNALS = (
     "terzo settore", "enti del terzo settore", "ente del terzo settore",
     "organizzazioni di volontariato", "organizzazione di volontariato",
     "associazioni di promozione sociale", "associazione di promozione sociale",
-    "odv", "aps", "ets", "enti non profit", "ente non profit",
-    "organizzazioni non profit", "associazioni", "fondazioni",
+    "odv", "aps", "ets",
+)
+
+NONPROFIT_SIGNALS = (
+    "enti privati non profit", "ente privato non profit",
+    "enti pubblici o privati non profit", "ente pubblico o privato non profit",
+    "enti non profit", "ente non profit",
+    "organizzazioni non profit", "organizzazione non profit",
+    "soggetti non profit", "soggetto non profit",
+    "senza scopo di lucro", "non lucrativo", "non lucrative",
 )
 
 BANDO_SIGNALS = (
@@ -67,6 +75,39 @@ def title_is_usable(title):
     return True
 
 
+def phrase_hits(text, signals):
+    return [
+        signal for signal in signals
+        if re.search(r"(?<!\w)" + re.escape(signal) + r"(?!\w)", text)
+    ]
+
+
+def audience_classification(text):
+    ets_hits = phrase_hits(text, ETS_SIGNALS)
+    nonprofit_hits = phrase_hits(text, NONPROFIT_SIGNALS)
+
+    if ets_hits:
+        return {
+            "known": True,
+            "scope": "ets-specific",
+            "evidence": ets_hits,
+            "specificLegalFormConfirmed": True,
+        }
+    if nonprofit_hits:
+        return {
+            "known": True,
+            "scope": "nonprofit-broad",
+            "evidence": nonprofit_hits,
+            "specificLegalFormConfirmed": False,
+        }
+    return {
+        "known": False,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": False,
+    }
+
+
 def triage(snapshot):
     text = normalized_text(snapshot)
     reasons = []
@@ -90,16 +131,20 @@ def triage(snapshot):
     else:
         reasons.append("territorio_non_chiaro")
 
-    if any(signal in text for signal in BANDO_SIGNALS):
+    bando_known = any(signal in text for signal in BANDO_SIGNALS)
+    if bando_known:
         evidence.append("natura_bando_riconoscibile")
     else:
         reasons.append("natura_bando_non_chiara")
 
-    ets_hits = [signal for signal in ETS_SIGNALS if re.search(r"(?<!\w)" + re.escape(signal) + r"(?!\w)", text)]
-    if ets_hits:
+    audience = audience_classification(text)
+    if audience["scope"] == "ets-specific":
         evidence.append("destinatari_ets_espliciti")
+    elif audience["scope"] == "nonprofit-broad":
+        evidence.append("destinatari_nonprofit_espliciti")
+        evidence.append("forma_giuridica_specifica_non_confermata")
     else:
-        reasons.append("destinatari_ets_da_interpretare")
+        reasons.append("destinatari_da_interpretare")
 
     discovery = clean(snapshot.get("discoveryText"))
     if len(discovery) >= 120:
@@ -109,22 +154,24 @@ def triage(snapshot):
 
     status = clean(snapshot.get("sourceStatus")).lower()
     deadline = clean(snapshot.get("deadline"))
-    if status in {"aperto", "programmato"} or deadline:
+    timing_known = status in {"aperto", "programmato"} or bool(deadline)
+    if timing_known:
         evidence.append("stato_o_scadenza_noti")
     else:
         reasons.append("stato_e_scadenza_da_verificare")
 
-    # Un bando viene chiuso senza AI solo quando gli elementi essenziali sono
-    # espliciti nella fonte. Non usiamo i legalForms generici creati dallo scraper
-    # come prova di ammissibilità: sarebbe un falso risparmio di AI.
+    # Una categoria ampia e chiaramente dichiarata (es. "enti privati non profit")
+    # è sufficiente per evitare una chiamata AI: non occorre interpretarla.
+    # NON significa però che ODV/APS/ETS siano automaticamente ammesse. Questa
+    # distinzione resta memorizzata in audience.scope e specificLegalFormConfirmed.
     critical = {
         "title": title_ok,
         "source": bool(source_url),
         "territory": bool(territory),
-        "bando": any(signal in text for signal in BANDO_SIGNALS),
-        "ets": bool(ets_hits),
+        "bando": bando_known,
+        "audience": bool(audience["known"]),
         "text": len(discovery) >= 120,
-        "timing": status in {"aperto", "programmato"} or bool(deadline),
+        "timing": timing_known,
     }
     resolved = all(critical.values())
 
@@ -133,6 +180,7 @@ def triage(snapshot):
         "needsAnalysis": not resolved,
         "reasons": reasons,
         "evidence": evidence,
+        "audience": audience,
         "ruleVersion": RULE_VERSION,
     }
 
@@ -171,6 +219,7 @@ def main():
                 "deadline": snapshot.get("deadline"),
                 "sourceStatus": snapshot.get("sourceStatus"),
                 "reasons": result["reasons"],
+                "audience": result["audience"],
                 "text": clean(snapshot.get("discoveryText"))[:1800],
             })
         else:
@@ -194,9 +243,12 @@ def main():
         if not rec:
             continue
         tracking = dict(bando.get("tracking") or {})
+        triage_data = rec.get("triage") or {}
         tracking["needsAnalysis"] = bool(rec.get("needsAnalysis"))
-        tracking["triageStatus"] = (rec.get("triage") or {}).get("status")
+        tracking["triageStatus"] = triage_data.get("status")
         tracking["triageRuleVersion"] = RULE_VERSION
+        tracking["audienceScope"] = (triage_data.get("audience") or {}).get("scope")
+        tracking["specificLegalFormConfirmed"] = bool((triage_data.get("audience") or {}).get("specificLegalFormConfirmed"))
         bando["tracking"] = tracking
 
     catalog["triage"] = {
@@ -221,7 +273,7 @@ def main():
     print(
         "BANDOVERA triage: "
         f"regole={resolved_count}, ai={ai_count}, non_presenti={skipped_count}, "
-        f"coda_ai={len(queue)}"
+        f"coda_ai={len(queue)}, regole_versione={RULE_VERSION}"
     )
 
 
