@@ -9,6 +9,7 @@ on:
       - 'scripts/update_bandi.py'
       - 'scripts/reconcile_bandi.py'
       - 'scripts/triage_bandi.py'
+      - 'scripts/enrich_bandi.py'
       - '.github/workflows/update-bandi.yml'
 
 permissions:
@@ -35,14 +36,23 @@ jobs:
       - name: Confronta con lo storico
         run: python scripts/reconcile_bandi.py
 
-      - name: Filtra prima dell AI
+      - name: Primo filtro prima dell AI
         run: python scripts/triage_bandi.py
 
-      - name: Pubblica catalogo memoria e coda AI se cambiati
+      - name: Approfondisci pagine ufficiali
+        run: python scripts/enrich_bandi.py
+
+      - name: Registra gli arricchimenti
+        run: python scripts/reconcile_bandi.py
+
+      - name: Filtro finale prima dell AI
+        run: python scripts/triage_bandi.py
+
+      - name: Pubblica catalogo memoria coda AI e report se cambiati
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_auto.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json
+          git add public/radar_bandi_auto.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica significativa al catalogo automatico"
           else
