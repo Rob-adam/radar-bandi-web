@@ -1,6 +1,6 @@
 {
-  "updatedAt": "29/08/2026 08:23",
-  "schemaVersion": 6,
+  "updatedAt": "29/08/2026 10:53",
+  "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
     "lombardia",
@@ -131,7 +131,14 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "autoDiscovered": true,
-      "discoveryText": "Aperto chiude il 15-09-2026 Bando BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI ... Codice: RLP12026054984 Partecipazione degli operatori turistici lombardi alle iniziative di promozione turistica promosse da Regione Lombardia sui mercati italiano ed est... Fai domanda Scopri di più"
+      "discoveryText": "Aperto chiude il 15-09-2026 Bando BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI ... Codice: RLP12026054984 Partecipazione degli operatori turistici lombardi alle iniziative di promozione turistica promosse da Regione Lombardia sui mercati italiano ed est... Fai domanda Scopri di più",
+      "tracking": {
+        "contentHash": "c1904d91ce76f9eb48cfad2faba48e2caaf719d3dec293afd9c3bbb009f63c61",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     },
     {
       "id": "RLAG2026055223",
@@ -204,7 +211,14 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
       "autoDiscovered": true,
-      "discoveryText": "Enti e operatori Aperto chiude il 21-09-2026 Manifestazione di interesse Manifestazione di interesse - Corsi di alta formazione per il personale ... Codice: RLAG2026055223 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di special... Fai domanda Scopri di più"
+      "discoveryText": "Enti e operatori Aperto chiude il 21-09-2026 Manifestazione di interesse Manifestazione di interesse - Corsi di alta formazione per il personale ... Codice: RLAG2026055223 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di special... Fai domanda Scopri di più",
+      "tracking": {
+        "contentHash": "7f473d3a0bfc19f916824990e365407c6b81de0809ff8811e911189816a132e5",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     },
     {
       "id": "RLF12025045924",
@@ -276,7 +290,14 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
       "autoDiscovered": true,
-      "discoveryText": "Enti e operatori Aperto chiude il 28-10-2026 Bando IRCCS – Ricerca & Trasferisci Codice: RLF12025045924 Il bando sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia, con ... Fai domanda Scopri di più"
+      "discoveryText": "Enti e operatori Aperto chiude il 28-10-2026 Bando IRCCS – Ricerca & Trasferisci Codice: RLF12025045924 Il bando sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia, con ... Fai domanda Scopri di più",
+      "tracking": {
+        "contentHash": "b81a05f595e009818584e45540c26d02d11c2e2228a5c4e112a64cb0c3835dbf",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     },
     {
       "id": "RLW12025050904",
@@ -350,7 +371,14 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904",
       "autoDiscovered": true,
-      "discoveryText": "Aperto chiude il 22-04-2027 Avviso Dote Avviso per il finanziamento dei percorsi di Istruzione e Formazione Prof... Codice: RLW12025050904 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità,... Fai domanda Scopri di più"
+      "discoveryText": "Aperto chiude il 22-04-2027 Avviso Dote Avviso per il finanziamento dei percorsi di Istruzione e Formazione Prof... Codice: RLW12025050904 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità,... Fai domanda Scopri di più",
+      "tracking": {
+        "contentHash": "6a6db908a1b2e57eb949b19161251994ed46fbf3fc3fe605137b39053288a6a2",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     },
     {
       "id": "FC-AUTO-099E0943766B",
@@ -425,7 +453,14 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "autoDiscovered": true,
-      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più",
+      "tracking": {
+        "contentHash": "1dc76419eadd1e04808d9322fc637450c21fd8a62510a74a56ef89ed73a74769",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     },
     {
       "id": "FC-AUTO-05B9913FABB2",
@@ -500,7 +535,22 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "autoDiscovered": true,
-      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più"
+      "discoveryText": "Attivo Benessere Cittadinanza attiva Giovani generazioni Patrimonio culturale e ambientale Musei e accessibilità universale Scopri di più Attivo Innovazione Produrre conoscenza Fondazione Cariplo – Fondazione Telethon Joint Call for Applications 2026 Scopri di più Attivo Benessere Innovazione InnovaWelfare Scopri di più Attivo Competitività dei territori Patrimonio culturale e ambientale Reti internazionali Sostenibilità ambientale Cofinanziamento Progetti Europei Scopri di più Attivo Benessere Co-progettazione Patrimonio culturale e ambientale Produrre conoscenza Nuovi ponti culturali Scopri di più Attivo Benessere Cittadinanza attiva Patrimonio culturale e ambientale Luoghi plurali Scopri di più",
+      "tracking": {
+        "contentHash": "997988dfac2daaf936ef4a0d522ac5930baf8c75e6d41ad4cd85d78c481d6665",
+        "version": 1,
+        "firstSeenAt": "2026-08-29T10:53:30+02:00",
+        "lastChangedAt": "2026-08-29T10:53:30+02:00",
+        "needsAnalysis": true
+      }
     }
-  ]
+  ],
+  "incremental": true,
+  "trackingSummary": {
+    "new": 6,
+    "modified": 0,
+    "unchanged": 0,
+    "reappeared": 0,
+    "missing": 0
+  }
 }
