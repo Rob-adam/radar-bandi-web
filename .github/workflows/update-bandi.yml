@@ -8,6 +8,7 @@ on:
     paths:
       - 'scripts/update_bandi.py'
       - 'scripts/er_discovery.py'
+      - 'scripts/validate_er_existing.py'
       - 'scripts/reconcile_bandi.py'
       - 'scripts/triage_bandi.py'
       - 'scripts/enrich_bandi.py'
@@ -36,6 +37,9 @@ jobs:
 
       - name: Recupera fallback Emilia-Romagna
         run: python scripts/er_discovery.py
+
+      - name: Valida bandi Emilia-Romagna esistenti
+        run: python scripts/validate_er_existing.py
 
       - name: Confronta con lo storico
         run: python scripts/reconcile_bandi.py
