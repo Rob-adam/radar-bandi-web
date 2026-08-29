@@ -10,6 +10,7 @@ on:
       - 'scripts/er_discovery.py'
       - 'scripts/er_watchlist.py'
       - 'scripts/validate_er_existing.py'
+      - 'scripts/piemonte_watchlist.py'
       - 'scripts/reconcile_bandi.py'
       - 'scripts/triage_bandi.py'
       - 'scripts/enrich_bandi.py'
@@ -44,6 +45,9 @@ jobs:
 
       - name: Valida bandi Emilia-Romagna esistenti
         run: python scripts/validate_er_existing.py
+
+      - name: Controlla pagine ufficiali Piemonte
+        run: python scripts/piemonte_watchlist.py
 
       - name: Confronta con lo storico
         run: python scripts/reconcile_bandi.py
