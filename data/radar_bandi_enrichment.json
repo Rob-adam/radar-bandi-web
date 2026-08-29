@@ -1,11 +1,48 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T14:23:49+02:00",
-  "attempted": 2,
-  "enriched": 2,
+  "generatedAt": "2026-08-29T20:23:21+02:00",
+  "attempted": 6,
+  "enriched": 6,
   "unchanged": 0,
   "failed": 0,
   "items": [
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904"
+    },
     {
       "key": "url:https://www.fondazionecariplo.it/bando/innovawelfare-2",
       "ok": true,
