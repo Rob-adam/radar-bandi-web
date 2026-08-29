@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogUpdatedAt": "2026-08-29T13:44:10+02:00",
+  "catalogUpdatedAt": "2026-08-29T13:56:27+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -12,9 +12,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "contentHash": "8899f1f2ff5e24a39ebb99b4bd67c0dc1c42108397e194cfcab9fb7c0db8a189",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -92,7 +92,7 @@
         "status": "ai-required",
         "needsAnalysis": true,
         "reasons": [
-          "destinatari_ets_da_interpretare"
+          "destinatari_da_interpretare"
         ],
         "evidence": [
           "titolo_specifico",
@@ -102,8 +102,14 @@
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     },
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223": {
@@ -111,16 +117,16 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
       "contentHash": "2fe5a53d8cb82fccb19a4574ba8701f0ea38dd580b609db759be98d07cba32a1",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
       ],
-      "needsAnalysis": false,
+      "needsAnalysis": true,
       "snapshot": {
         "title": "Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27",
         "source": "Regione Lombardia",
@@ -193,20 +199,27 @@
         "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Progetti per le scuole / Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27 Aperto Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27 Codice: RLAG2026055223 Pubblicato il: 27/07/2026 , ore 11:18 Domande dal: 31/07/2026 , ore 10:00 Scade il: 21/09/2026 , ore 23:59 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di specializzazione, ecc.) con lo scopo di predisporre un catalogo formativo di elevato livello da proporre al personale dipendente di ruolo di Regione Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAG2026055223 Pubblicato il: 27/07/2026 , ore 11:18 Domande dal: 31/07/2026 , ore 10:00 Scade il: 21/09/2026 , ore 23:59 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare a) Istituzioni universitarie statali, non statali e telematiche autorizzate e accreditate dal Ministero dell'Università e della Ricerca (MUR); b) Consorzi universitari ed interuniversitari ai quali il MUR ha riconosciuto con decreto la personalità giuridica e le Fondazioni universitarie correlati ad un Ateneo riconosciuto dal MUR per il rilascio di titoli accademici. Di cosa si tratta Regione Lombardia intende predisporre un catalogo di corsi di alta formazione da proporre al proprio personale con la finalità di supportarne e migliorarne le conoscenze e le competenze. Sono oggetto della presente manifestazione di interesse iniziative di alta formazione (master universitari, corsi executive, corsi di specializzazione, ecc.) le cui aree tematiche devono essere inerenti alle competenze dirette di Regione Lombardia, come specificato nell’Avviso allegato. Le lezioni potranno aver luogo in presenza ovvero in modalità sincrona da remoto. Le iniziative formative dovranno decorrere dal 1° novembre 2026. BURL - Come partecipare Ciascun soggetto in possesso dei requisiti potrà presentare, in forma libera, la proposta di autocandidatura alla presente manifestazione di interesse inviandola tramite la piattaforma regionale, a firma del proprio rappresentante legale o di suo delegato, fino alle ore 23.59 del 21 settembre 2026, secondo le condizioni e le modalità dettagliate nella Manifestazione di interesse allegata. Procedura selezione Le proposte formative presentate saranno istruite da apposito Gruppo di Lavoro costituito in seno alla UO “Organizzazione e gestione del Personale” della Giunta di Regione Lombardia, che verificherà il rispetto dei requisiti di cui al presente Avviso. I soggetti proponenti potranno proporre al massimo due iniziative formative e, nel caso di selezione, dovranno impegnarsi a riservare almeno n. 2 posti per ogni iniziativa al personale di Regione Lombardia al quale verrà applicata una quota di partecipazione scontata. Al termine dell’istruttoria, le proposte formative selezionate costituiranno il catalogo dei corsi che verrà proposto ai dipendenti regionali, il quale verrà pubblicato sul sito intranet di Regione Lombardia. Informazioni e contatti Per eventuali richieste in merito al presente avviso si può fare riferimento all'Ufficio Formazione di Regione Lombardia al seguente indirizzo e-mail: FormazioneRL@regione.lombardia.it Per informazioni tecniche relative all'accesso e profilazione a Bandi e servizi: email bandi@regione.lombardia.it numero verde 800 131 151 Allegati DECRETO N. 9862 - 22/07/2026 MANIFESTAZIONE DI INTERESSE CREAZIONE CATALOGO DI CORSI DI ALTA FORMAZIONE - 22/07/2026 Informativa sul Trattamento dei Dati Personali - 27/07/2026"
       },
       "triage": {
-        "status": "rules-resolved",
-        "needsAnalysis": false,
-        "reasons": [],
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
         "evidence": [
           "titolo_specifico",
           "fonte_ufficiale_collegata",
           "territorio_noto",
           "natura_bando_riconoscibile",
-          "destinatari_ets_espliciti",
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     },
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924": {
@@ -214,9 +227,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
       "contentHash": "47696a47e7363f9f803fa7487c59e2655536966d2d6ac29ddf18b7b4e8b53176",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -300,7 +313,7 @@
         "status": "ai-required",
         "needsAnalysis": true,
         "reasons": [
-          "destinatari_ets_da_interpretare"
+          "destinatari_da_interpretare"
         ],
         "evidence": [
           "titolo_specifico",
@@ -310,8 +323,14 @@
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     },
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904": {
@@ -319,9 +338,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/avviso-finanziamento-percorsi-istruzione-formazione-professionale-iefp-ambito-budget-duale-anno-formativo-2026-2027-RLW12025050904",
       "contentHash": "8d582ee4db537d11299dadfd74eeacf959cadb367ec6b82c6380c0901e42f6de",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -405,7 +424,7 @@
         "status": "ai-required",
         "needsAnalysis": true,
         "reasons": [
-          "destinatari_ets_da_interpretare"
+          "destinatari_da_interpretare"
         ],
         "evidence": [
           "titolo_specifico",
@@ -415,8 +434,14 @@
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     },
     "url:https://www.fondazionecariplo.it/bando/innovawelfare-2": {
@@ -424,16 +449,16 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus"
       ],
-      "needsAnalysis": true,
+      "needsAnalysis": false,
       "snapshot": {
         "title": "InnovaWelfare",
         "source": "Fondazione Cariplo",
@@ -509,21 +534,30 @@
         "discoveryText": "Stato: Attivo Fase 1 14/07/2026 Fase 2 25/03/2027 Destinatari: Enti privati non profit Aree di intervento: Area Ricerca Scientifica Area Servizi alla Persona Partner: Factory Plus Fondazione Social Venture Giordano dall’Amore (FSVGDA) Temi affrontati: Benessere Innovazione Contatti: Alessandro Masciadri InnovaWelfare - Impact4Coop E-mail tel +39 02 6239256 Raffaele Di Tria Capacity Building Riprogettiamo il futuro - Innovawelfare E-mail +39 02 6239242 Francesca Pierini Ricerca sociale e umanistica E-mail tel. +39 02 6239308 Info Innovawelfare E-mail TIPO Bando con scadenza a due fasi SOSTEGNO FORNITO € 2.500.000 OBIETTIVO Applicare il potenziale della tecnologia e/o del digitale per innovare i servizi di welfare in risposta all’evoluzione dei bisogni. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo € 220.000 e non superiore all’80% dei costi. Premessa Il bando è emesso dall’area Servizi alla Persona e dall’area Ricerca Scientifica di Fondazione Cariplo nell’ambito della linea di mandato 4 “ Creare le condizioni abilitanti al rafforzamento delle comunità ” con il supporto di Factory Plus e Fondazione Social Venture Giordano dell’Amore (FSVGDA). Contesto Il sistema di welfare italiano sta affrontando, oltre alle criticità storiche — quali ad esempio il peso eccessivo dei trasferimenti monetari, la frammentazione delle risorse e delle responsabilità istituzionali — profonde trasformazioni strutturali che ne mettono in discussione la sostenibilità nel medio‑lungo periodo. In particolare, i cambiamenti demografici in atto, connessi all’acuirsi della denatalità e all’invecchiamento della popolazione, stanno modificando in modo significativo la composizione e l’intensità dei bisogni sociali e socio-sanitari, aumentando la domanda di cura e assistenza a fronte di una base contributiva e di una forza lavoro attiva sempre più ridotte. Nel 2024 si sono registrate circa 370.000 nascite (dodicesimo minimo storico dal 2013) e gli ultra sessantacinquenni hanno superato i 14,5 milioni, pari al 24,7% della popolazione. A queste dinamiche strutturali si aggiungono ulteriori sfide, tra cui la crescente crisi delle professioni di cura , l’emersione di bisogni complessi legati alla salute mentale – con particolare riferimento ai giovani – e l’aumento delle condizioni di solitudine e fragilità che coinvolgono fasce sempre più ampie di popolazione. In questo quadro, la crescente complessità dei bisogni e la pressione sui servizi rendono necessario individuare nuove modalità d’intervento per garantire la sostenibilità e l’efficacia del sistema del welfare nel tempo. In relazione a queste esigenze, l’ evoluzione tecnologica — con nuove opportunità di strumenti digitali, intelligenza artificiale e automazione — offre leve concrete per la riprogettazione dei processi, l’innovazione dei modelli di servizio e l’ampliamento della capacità operativa. Se correttamente adottate e integrate, queste tecnologie possono migliorare la qualità, l’accessibilità e l’efficienza delle attività degli enti privati senza scopo di lucro. Questo bando intende favorire l’incontro e la collaborazione tra enti privati senza scopo di lucro e soggetti che sviluppano soluzioni tecnologiche e sostenere la sperimentazione e l’adozione di soluzioni nell’ambito dei servizi di welfare. La nuova edizione del bando InnovaWelfare è stata lanciata con un evento di presentazione il 26 maggio 2026: clicca qui per i dettagli e per rivedere l’evento. Documenti di approfondimento Bando InnovaWelfare Scarica il file FAQ_Bando InnovaWelfare_fase 1 Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
       },
       "triage": {
-        "status": "ai-required",
-        "needsAnalysis": true,
-        "reasons": [
-          "destinatari_ets_da_interpretare"
-        ],
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "reasons": [],
         "evidence": [
           "titolo_specifico",
           "fonte_ufficiale_collegata",
           "territorio_noto",
           "natura_bando_riconoscibile",
+          "destinatari_nonprofit_espliciti",
+          "forma_giuridica_specifica_non_confermata",
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": true,
+          "scope": "nonprofit-broad",
+          "evidence": [
+            "enti privati non profit",
+            "senza scopo di lucro"
+          ],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     },
     "url:https://www.fondazionecariplo.it/bando/luoghi-plurali": {
@@ -531,16 +565,16 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-29T13:44:10+02:00",
+      "lastChangedAt": "2026-08-29T13:56:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus"
       ],
-      "needsAnalysis": true,
+      "needsAnalysis": false,
       "snapshot": {
         "title": "Luoghi plurali",
         "source": "Fondazione Cariplo",
@@ -616,29 +650,37 @@
         "discoveryText": "Stato: Attivo Fase 1 30/06/2026 Fase 2 25/02/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Ambiente Area Arte e Cultura Area Servizi alla Persona Temi affrontati: Benessere Cittadinanza attiva Patrimonio culturale e ambientale Contatti: Info Luoghi plurali E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Recuperare e riattivare luoghi in disuso o fortemente sottoutilizzati – edifici e spazi aperti – con lo sviluppo di funzioni culturali, sociali e ambientali, e rafforzare le capacità degli attori locali di progettare, gestire e mantenere nel tempo spazi sostenibili, vivi e inclusivi, in grado di rispondere ai bisogni delle comunità e generare nuove opportunità. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: € 100.000 Contributo massimo: € 750.000 Cofinanziamento minimo: 30% del costo totale Premessa Il bando è emesso congiuntamente dalle Aree Arte e cultura, Servizi alla persona e Ambiente nell’ambito della Linea di mandato 1 “Creare valore condiviso, attraverso il sostegno alla creazione e allo sviluppo sostenibile di ecosistemi territoriali”. Contesto Il fenomeno degli spazi dismessi – siano essi edifici abbandonati o spazi aperti in disuso o sottoutilizzati – rappresenta una sfida rilevante per molti territori italiani. La letteratura evidenzia come la perdita di funzione di questi luoghi non genera soltanto “vuoti urbani”, ma anche effetti economici, sociali e culturali che indeboliscono i territori e riducono le opportunità delle persone che vi abitano, alimentando cicli di marginalità, esclusione e diminuzione del capitale sociale. Rigenerare questi luoghi significa quindi restituire valore alle comunità, rafforzare legami e creare nuove condizioni per attrarre risorse, innovazione e partecipazione. Restituire dignità, bellezza e vitalità a spazi spesso abbandonati da tempo rappresenta una leva per innescare processi di cambiamento sostenibili, capaci di integrare competenze e aggregare attori pubblici e privati valorizzando le potenzialità dei territori. Fondazione Cariplo promuove da tempo interventi a favore del recupero di edifici e di aree in disuso e della valorizzazione di spazi aperti, con l’intento di riattivare la comunità e promuovere lo sviluppo sostenibile dei territori. Le esperienze promosse negli ultimi anni mostrano che per stimolare processi di rigenerazione efficaci e sostenibili è indispensabile adottare un approccio multidisciplinare, capace di integrare in modo organico differenti dimensioni e rispondere a problemi complessi. Sulla base di tali esperienze, la Fondazione ha deciso di promuovere un bando finalizzato a sostenere risposte plurali e integrate, favorendo la connessione sinergica tra funzioni sociali, culturali e ambientali nei processi di rigenerazione dei luoghi. Documenti di approfondimento Bando Luoghi Plurali Scarica il file Atto notorio modello Scarica il file Format proposta_Luoghi plurali Scarica il file FAQ_Luoghi plurali Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
       },
       "triage": {
-        "status": "ai-required",
-        "needsAnalysis": true,
-        "reasons": [
-          "destinatari_ets_da_interpretare"
-        ],
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "reasons": [],
         "evidence": [
           "titolo_specifico",
           "fonte_ufficiale_collegata",
           "territorio_noto",
           "natura_bando_riconoscibile",
+          "destinatari_nonprofit_espliciti",
+          "forma_giuridica_specifica_non_confermata",
           "testo_sufficiente",
           "stato_o_scadenza_noti"
         ],
-        "ruleVersion": 1,
-        "evaluatedAt": "2026-08-29T13:44:10+02:00"
+        "audience": {
+          "known": true,
+          "scope": "nonprofit-broad",
+          "evidence": [
+            "enti pubblici o privati non profit"
+          ],
+          "specificLegalFormConfirmed": false
+        },
+        "ruleVersion": 2,
+        "evaluatedAt": "2026-08-29T13:56:27+02:00"
       }
     }
   },
-  "triageUpdatedAt": "2026-08-29T13:44:10+02:00",
+  "triageUpdatedAt": "2026-08-29T13:56:27+02:00",
   "triageSummary": {
-    "rulesResolved": 1,
-    "aiRequired": 5,
+    "rulesResolved": 2,
+    "aiRequired": 4,
     "notPresent": 0,
-    "ruleVersion": 1
+    "ruleVersion": 2
   }
 }
