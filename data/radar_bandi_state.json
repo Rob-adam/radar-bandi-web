@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-08-31T14:23:40+02:00",
+  "catalogUpdatedAt": "2026-08-31T20:23:43+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -12,9 +12,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "contentHash": "8899f1f2ff5e24a39ebb99b4bd67c0dc1c42108397e194cfcab9fb7c0db8a189",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -112,7 +112,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -361,8 +361,8 @@
       "version": 32,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
       "lastChangedAt": "2026-08-31T14:23:40+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-08-31T20:23:35+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -980,7 +980,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1116,7 +1116,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1256,7 +1256,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1394,7 +1394,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1530,7 +1530,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1539,9 +1539,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
       "contentHash": "027387b4f5248686311f1cb631981918a584206f71584cefa6acff0fb0479605",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1645,7 +1645,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1654,9 +1654,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-nuova-istituzione-distretto-RLO12025045523",
       "contentHash": "734e98c1b0aab041c97f11f92c9947e101995563a9a6c177bf3c1a7cdd52e2f8",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1758,7 +1758,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     },
@@ -1767,9 +1767,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-domanda-modificazione-RLO12025045525",
       "contentHash": "8ffaad9210d9ccc09332ef685658642e7242604e2cc3647337d61081d99c22fc",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-08-31T14:23:40+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1869,17 +1869,127 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-08-31T14:23:40+02:00"
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863": {
+      "id": "RLAM2026055863",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863",
+      "contentHash": "ec6a8e36c004958e00b1dce07f8471eee87a87c2ea255bb414ab6a5eba96041e",
+      "version": 2,
+      "firstSeenAt": "2026-08-31T20:23:35+02:00",
+      "lastChangedAt": "2026-08-31T20:23:43+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "FEC 24/26 ACQUISIZIONE DEL SERVIZIO “ASSISTENZA TECNICA PER STOCCAGGIO, SPEDIZIONE E SMALTIMENTO DEI MATERIALI DI PROMOZIONE TURISTICA” PER LA DIREZIONE GENERALE TURISMO, MARKETING TERRITORIALE E MODA",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-18",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "acquisizione",
+          "servizio",
+          "assistenza",
+          "tecnica",
+          "stoccaggio",
+          "codice",
+          "rlam",
+          "durata",
+          "contratto",
+          "mesi"
+        ],
+        "sectors": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "acquisizione",
+          "servizio",
+          "assistenza",
+          "tecnica"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863",
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Fare shopping / FEC 24/26 ACQUISIZIONE DEL SERVIZIO “ASSISTENZA TECNICA PER STOCCAGGIO, SPEDIZIONE E SMALTIMENTO DEI MATERIALI DI PROMOZIONE TURISTICA” PER LA DIREZIONE GENERALE TURISMO, MARKETING TERRITORIALE E MODA Aperto FEC 24/26 ACQUISIZIONE DEL SERVIZIO “ASSISTENZA TECNICA PER STOCCAGGIO, SPEDIZIONE E SMALTIMENTO DEI MATERIALI DI PROMOZIONE TURISTICA” PER LA DIREZIONE GENERALE TURISMO, MARKETING TERRITORIALE E MODA Codice: RLAM2026055863 Pubblicato il: 31/08/2026 , ore 17:16 Domande dal: 31/08/2026 , ore 13:00 Scade il: 18/09/2026 , ore 12:00 Durata del contratto : 24 mesi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026055863 Pubblicato il: 31/08/2026 , ore 17:16 Domande dal: 31/08/2026 , ore 13:00 Scade il: 18/09/2026 , ore 12:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BCD1DD6E6B Base d'asta € 108.000,00 Di cosa si tratta Gestione logistica, trasporto, spedizione e smaltimento di materiale promo-pubblicitario della Direzione Generale Turismo, Marketing Territoriale e Moda in manifestazioni ed eventi di promozione turistica e più in generale di interesse per le attività della DG Come partecipare Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al sito www.ariaspa.it . Per le informazioni di tipo tecnico, si faccia riferimento al documento allegato “ Modalità tecniche per l’utilizzo della piattaforma Sintel ” ed esclusivamente al numero verde del gestore della Piattaforma SINTEL presso ARIA 800.116.738 Informazioni e contatti VALENTINA CONVERTINI - Dirigente Struttura Programmazione Acquisti e Gestione Appalti Allegati documentazione di gara - 31/08/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-08-31T20:23:43+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-08-31T14:23:40+02:00",
+  "triageUpdatedAt": "2026-08-31T20:23:43+02:00",
   "triageSummary": {
     "rulesResolved": 8,
-    "rulesExcludedForEts": 1,
-    "aiRequired": 4,
-    "notPresent": 2,
+    "rulesExcludedForEts": 0,
+    "aiRequired": 5,
+    "notPresent": 3,
     "ruleVersion": 3
   }
 }
