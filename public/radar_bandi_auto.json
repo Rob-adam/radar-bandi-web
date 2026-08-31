@@ -1,5 +1,5 @@
 {
-  "updatedAt": "31/08/2026 08:23",
+  "updatedAt": "31/08/2026 14:23",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -90,12 +90,101 @@
     }
   ],
   "bandiByRegion": {
+    "lombardia": 7,
     "emilia-romagna": 1,
-    "lombardia": 6,
     "piemonte": 5
   },
   "errors": [],
   "bandi": [
+    {
+      "id": "RLD12026052603",
+      "title": "Avviso per l'adesione dei Comuni lombardi alla misura Nidi Gratis Plus – 2026/2027",
+      "source": "Regione Lombardia",
+      "deadline": "2026-09-09",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "avviso",
+        "adesione",
+        "comuni",
+        "lombardi",
+        "misura",
+        "nidi",
+        "gratis",
+        "plus",
+        "codice",
+        "fino",
+        "settembre",
+        "lombardia",
+        "potranno",
+        "presentare",
+        "propria",
+        "grati"
+      ],
+      "sectors": [
+        "chiude",
+        "manifestazione",
+        "interesse",
+        "avviso",
+        "adesione",
+        "comuni",
+        "lombardi",
+        "misura"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Politiche Sociali / Famiglia / Avviso per l'adesione dei Comuni lombardi alla misura Nidi Gratis Plus – 2026/2027 Aperto Avviso per l'adesione dei Comuni lombardi alla misura Nidi Gratis Plus – 2026/2027 Codice: RLD12026052603 Pubblicato il: 28/05/2026 , ore 13:26 Domande dal: 31/08/2026 , ore 12:00 Scade il: 09/09/2026 , ore 12:00 Fino alle ore 12.00 del 9 settembre 2026 i Comuni della Lombardia potranno presentare la propria Manifestazione di Interesse alla Misura Nidi Gratis Plus 2026/2027 del PR FSE+ 2021-2027. La domanda dovrà indicare le strutture presso cui le famiglie potranno usufruire dell'agevolazione prevista dal bando. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLD12026052603 Pubblicato il: 28/05/2026 , ore 13:26 Domande dal: 31/08/2026 , ore 12:00 Scade il: 09/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al presente Avviso i Comuni in forma singola o associata (ad esempio i Consorzi di Comuni, le Unioni di Comuni e le Comunità Montane). I requisiti per l’ammissione sono i seguenti: compartecipare alla spesa per i servizi per la prima infanzia (asili nido/micro-nidi/nidi famiglia); adottare agevolazioni tariffarie, differenziate in base all’ISEE, a favore delle famiglie, per la frequenza dei bambini ai servizi per la prima infanzia (asili nido/micro-nidi/nidi famiglia); essere titolari in forma singola o associata di nidi e/o micro-nidi pubblici e/o di avere sottoscritto convenzioni per l’annualità 2026-2027 per l’acquisto di posti in convenzione con asili nido e/o micro-nidi e/o nidi famiglia privati autorizzati; non aver applicato per l’annualità 2026-2027 aumenti di tariffe rispetto all’annualità 2025-2026, ad eccezione di aumenti della quota di retta a carico della famiglia contenuti entro il 7%. Di cosa si tratta La misura “Nidi Gratis Plus 2026/2027” ha l’obiettivo di: - sostenere le famiglie in condizione di vulnerabilità economica e sociale per facilitare l’accesso ai servizi per la prima infanzia, rispondendo ai bisogni di conciliazione vita-lavoro e favorendo la permanenza nel mercato del lavoro, in particolare delle madri; - contribuire all’abbattimento dei costi della retta dovuta dai genitori per la frequenza del/la proprio/a figlio/a in nidi e micro-nidi pubblici o in posti in nidi, micro-nidi e nidi famiglia privati autorizzati acquistati in convenzione dal Comune, nel rispetto dei regolamenti comunali. Dotazione finanziaria 20.000.000 € Caratteristiche dell'agevolazione La Misura prevede un sostegno attraverso erogazione di “buoni servizio” ai soggetti destinatari dell’Avviso rivolto alle famiglie, con modalità indiretta di erogazione all’operatore in nome e per conto del destinatario. Regime di Aiuto di Stato Il presente intervento non si configura come Aiuto di Stato. BURL BURL n. 22 del 29/05/2026 Azioni - Come partecipare I Comuni potranno presentare la domanda di adesione alla Misura Nidi Gratis Plus 2026/2027 esclusivamente attraverso Bandi e Servizi, raggiungibile all’indirizzo www.bandi.regione.lombardia.it . Procedura selezione Procedura valutativa a sportello Informazioni e contatti Qualsiasi informazione relativa ai contenuti dell’Avviso e agli adempimenti connessi, potrà essere richiesta all’indirizzo: nidigratispluscomuni@regione.lombardia.it . Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il call center di bandi on-line al numero verde 800.131.151, oppure inviare una e-mail a: bandi@regione.lombardia.it . Allegati Decreto approvazione avviso - 26/05/2026 Avviso adesione Comuni 26/27 - Allegato A - 26/05/2026 Allegato A1 Fac simile Scheda Riassuntiva Adesione Comuni 26_27 - 25/05/2026 Informativa sul Trattamento dei Dati Personali - 25/05/2026 Atto di Nomina - 25/05/2026 Manuale Adesione Comuni NIDI GRATIS 26-27 - 25/05/2026 Manuale Modifica Rappresentante Legale Comune - 25/05/2026 FAQ Avviso Comuni Nidi Gratis Plus 2026-2027 - 04/06/2026 DGR 6201 del 250526 - 25/05/2026 Allegato A DGR NIDI 26 27 - 25/05/2026 Modello Registro presenza Nidi Gratis Plus - 26/05/2026 DGR 6201 del 250526 - 25/05/2026 Mostra altri Comunicazioni correlate 27/08/2026 Manifestazione di interesse Servizio: Avviso per l'adesione dei Comuni lombardi alla misura Nidi Gratis Plus – 2026/2027 Approvazione Esiti istruttori Comuni Regione Lombardia ha approvato con DDUO i provvedimenti con gli esiti istruttori Nidi Gratis 2026/2027. L'Allegato A riporta l'elenco delle strutture (comunali/private autorizzate convenzionate) am... Vedi dettaglio",
+      "tracking": {
+        "contentHash": "027387b4f5248686311f1cb631981918a584206f71584cefa6acff0fb0479605",
+        "version": 2,
+        "firstSeenAt": "2026-08-31T14:23:32+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
+      "detailFetchOk": true
+    },
     {
       "id": "ER-AUTO-6200443629C7",
       "title": "Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\"",
@@ -255,9 +344,9 @@
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Imprese turistiche / BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI MERCATI ITALIANO ED ESTERO PRIMO SEMESTRE 2027 Aperto BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI MERCATI ITALIANO ED ESTERO PRIMO SEMESTRE 2027 Codice: RLP12026054984 Pubblicato il: 04/08/2026 , ore 10:02 Domande dal: 24/08/2026 , ore 10:00 Scade il: 15/09/2026 , ore 16:00 Partecipazione degli operatori turistici lombardi alle iniziative di promozione turistica promosse da Regione Lombardia sui mercati italiano ed estero - Primo Semestre 2027 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLP12026054984 Pubblicato il: 04/08/2026 , ore 10:02 Domande dal: 24/08/2026 , ore 10:00 Scade il: 15/09/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare a) Enti locali e/o loro enti strumentali, ad esclusione di Province e Città Metropolitana di Milano e/o loro Enti strumentali. È ammessa a partecipare la sola Provincia di Sondrio e/o suoi enti strumentali secondo quanto previsto dal comma 5, art. 6 della l.r. n. 27/2015; b) Soggetti con rappresentatività territoriale che promuovono la destinazione Lombardia: Camere di Commercio e/o loro Enti strumentali, Enti pubblici non economici; Consorzi turistici, Agenzie di promozione, Enti privati in forma non imprenditoriale; c) Soggetti che commercializzano direttamente l’offerta turistica lombarda: Operatori turistici in forma imprenditoriale in forma singola; Outlet della filiera moda e design. Per la manifestazione fieristica FITUR Madrid potranno fare richiesta di partecipazione i soggetti di cui ai punti b), c); Per la manifestazione fieristica BIT Milano potranno fare richiesta di partecipazione i soggetti di cui ai punti a), b), c); Per la manifestazione fieristica ITB Berlino potranno fare richiesta di partecipazione i soggetti di cui ai punti b), c); Per la manifestazione fieristica ATM Dubai potranno fare richiesta di partecipazione i soggetti di cui ai punti b), c); Per la manifestazione fieristica ITB China Shangai potranno fare richiesta di partecipazione i soggetti di cui ai punti b), c). Per la manifestazione fieristica ATM Dubai la partecipazione è riservata ai soggetti che promuovono e/o commercializzano l’offerta turistica lusso, secondo quanto specificato nella relativa Scheda Iniziativa (Allegato A). Per tutte le iniziative sono esclusi dalla categoria dei soggetti beneficiari alla lettera c): ostelli della gioventù, campeggi, case vacanza e appartamenti, rifugi alpini, alberghi 1 e 2 stelle Di cosa si tratta Regione Lombardia propone agli operatori del settore turistico la partecipazione ad iniziative in ambito turistico da realizzarsi in Italia e all’estero, al fine di promuovere e valorizzazione del “territorio lombardo e le sue destinazioni turistiche, in collegamento e relazione con tutti gli attori operanti sul territorio stesso, anche attraverso la realizzazione, lo sviluppo e la distribuzione di prodotti e servizi turistici”. Le manifestazioni fieristiche individuate per il semestre di riferimento sono: FITUR, Madrid dal 20 al 24 gennaio Borsa Internazionale del Turismo, Milano dal 9 al 11 febbraio Internationale Tourismus-Börse, Berlino dal 16 al 18 marzo Arabian Travel Market, Dubai a maggio 2027 (in attesa di comunicazione ufficiale) Internationale Tourismus-Börse China, Shanghai dal 25 al 27 maggio Dotazione finanziaria 0 Caratteristiche dell'agevolazione Sostegno non finanziario Regime di Aiuto di Stato Regime de minimis BURL n.32 del 04/08/2026 Azioni n.d. Come partecipare La domanda di partecipazione deve essere presentata esclusivamente online tramite questa piattaforma caricando gli Allegati richiesti dal Bando, sulla base dei Modelli di documento disponibili. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per Assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di ARIA S.p.A. al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: · dalle ore 8.30 alle ore 17.00 per richieste di assistenza alla compilazione; · dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico. Per informazioni relative ai contenuti ed agli adempimenti connessi al bando via e-mail all’indirizzo: fiere_turismo@regione.lombardia.it Allegati Allegato 1_Bando fiere 2027_Primo semestre - 30/07/2026 All.B4 Dichiarazione De Minimis - 24/08/2026 All.B5 Manleva - 24/08/2026 All. B6 Scheda Offerta - 24/08/2026 All. B7 Incarico sottoscrizione delega - 24/08/2026 Informativa sul Trattamento dei Dati Personali - 30/07/2026 (DC) Approvazione Bando per la partecipazione alle iniziative di promozione turistica sui mercati italiano ed estero - Primo semestre 2027 - 30/07/2026 (DL) APPROVAZIONE DEI NUOVI CRITERI PER LA PARTECIPAZIONE E LA SELEZIONE DEGLI OPERATORI TURISTICI LOMBARDI ALLE MANIFESTAZIONI FIERISTICHE E ALLE INIZIATIVE B2B IN AMBITO TURISTICO PARTECIPATE DA REGIONE LOMBARDIA - 22/06/2026 Mostra altri",
       "tracking": {
         "contentHash": "8899f1f2ff5e24a39ebb99b4bd67c0dc1c42108397e194cfcab9fb7c0db8a189",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -266,7 +355,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
       "detailFetchOk": true
     },
     {
@@ -358,94 +447,6 @@
         "etsRelevant": true,
         "excludedForEts": false
       }
-    },
-    {
-      "id": "RLAG2026055223",
-      "title": "Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27",
-      "source": "Regione Lombardia",
-      "deadline": "2026-09-21",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "corsi",
-        "alta",
-        "formazione",
-        "personale",
-        "codice",
-        "rlag",
-        "finalizzata",
-        "raccolta",
-        "iniziative",
-        "master",
-        "universitari",
-        "executive",
-        "special"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "corsi",
-        "alta",
-        "formazione"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/corsi-alta-formazione-personale-regione-lombardia-2026-27-RLAG2026055223",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Progetti per le scuole / Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27 Aperto Manifestazione di interesse - Corsi di alta formazione per il personale di Regione Lombardia 2026-27 Codice: RLAG2026055223 Pubblicato il: 27/07/2026 , ore 11:18 Domande dal: 31/07/2026 , ore 10:00 Scade il: 21/09/2026 , ore 23:59 La Manifestazione di interesse è finalizzata alla raccolta di iniziative di alta formazione (master universitari, corsi executive, corsi di specializzazione, ecc.) con lo scopo di predisporre un catalogo formativo di elevato livello da proporre al personale dipendente di ruolo di Regione Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAG2026055223 Pubblicato il: 27/07/2026 , ore 11:18 Domande dal: 31/07/2026 , ore 10:00 Scade il: 21/09/2026 , ore 23:59 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare a) Istituzioni universitarie statali, non statali e telematiche autorizzate e accreditate dal Ministero dell'Università e della Ricerca (MUR); b) Consorzi universitari ed interuniversitari ai quali il MUR ha riconosciuto con decreto la personalità giuridica e le Fondazioni universitarie correlati ad un Ateneo riconosciuto dal MUR per il rilascio di titoli accademici. Di cosa si tratta Regione Lombardia intende predisporre un catalogo di corsi di alta formazione da proporre al proprio personale con la finalità di supportarne e migliorarne le conoscenze e le competenze. Sono oggetto della presente manifestazione di interesse iniziative di alta formazione (master universitari, corsi executive, corsi di specializzazione, ecc.) le cui aree tematiche devono essere inerenti alle competenze dirette di Regione Lombardia, come specificato nell’Avviso allegato. Le lezioni potranno aver luogo in presenza ovvero in modalità sincrona da remoto. Le iniziative formative dovranno decorrere dal 1° novembre 2026. BURL - Come partecipare Ciascun soggetto in possesso dei requisiti potrà presentare, in forma libera, la proposta di autocandidatura alla presente manifestazione di interesse inviandola tramite la piattaforma regionale, a firma del proprio rappresentante legale o di suo delegato, fino alle ore 23.59 del 21 settembre 2026, secondo le condizioni e le modalità dettagliate nella Manifestazione di interesse allegata. Procedura selezione Le proposte formative presentate saranno istruite da apposito Gruppo di Lavoro costituito in seno alla UO “Organizzazione e gestione del Personale” della Giunta di Regione Lombardia, che verificherà il rispetto dei requisiti di cui al presente Avviso. I soggetti proponenti potranno proporre al massimo due iniziative formative e, nel caso di selezione, dovranno impegnarsi a riservare almeno n. 2 posti per ogni iniziativa al personale di Regione Lombardia al quale verrà applicata una quota di partecipazione scontata. Al termine dell’istruttoria, le proposte formative selezionate costituiranno il catalogo dei corsi che verrà proposto ai dipendenti regionali, il quale verrà pubblicato sul sito intranet di Regione Lombardia. Informazioni e contatti Per eventuali richieste in merito al presente avviso si può fare riferimento all'Ufficio Formazione di Regione Lombardia al seguente indirizzo e-mail: FormazioneRL@regione.lombardia.it Per informazioni tecniche relative all'accesso e profilazione a Bandi e servizi: email bandi@regione.lombardia.it numero verde 800 131 151 Allegati DECRETO N. 9862 - 22/07/2026 MANIFESTAZIONE DI INTERESSE CREAZIONE CATALOGO DI CORSI DI ALTA FORMAZIONE - 22/07/2026 Informativa sul Trattamento dei Dati Personali - 27/07/2026",
-      "tracking": {
-        "contentHash": "2fe5a53d8cb82fccb19a4574ba8701f0ea38dd580b609db759be98d07cba32a1",
-        "version": 30,
-        "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-excluded-ets",
-        "triageRuleVersion": 3,
-        "audienceScope": "specialist-university",
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": false,
-        "excludedForEts": true
-      },
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
-      "detailFetchOk": true
     },
     {
       "id": "PIE-AUTO-10A0782FB267",
@@ -628,94 +629,6 @@
       }
     },
     {
-      "id": "RLF12025045924",
-      "title": "IRCCS – Ricerca & Trasferisci",
-      "source": "Regione Lombardia",
-      "deadline": "2026-10-28",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "irccs",
-        "ricerca",
-        "trasferisci",
-        "codice",
-        "sostiene",
-        "investimenti",
-        "industriale",
-        "sviluppo",
-        "sperimentale",
-        "realizzati",
-        "dagli",
-        "pubblici",
-        "privati",
-        "lombardia"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "irccs",
-        "ricerca",
-        "trasferisci",
-        "codice",
-        "sostiene"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/ricerca-sperimentazione-ambito-sanitario/irccs-ricerca-trasferisci-RLF12025045924",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Ricerca e Innovazione / Ricerca e sperimentazione in ambito sanitario / IRCCS – Ricerca & Trasferisci Aperto IRCCS – Ricerca & Trasferisci Codice: RLF12025045924 Pubblicato il: 23/07/2026 , ore 17:32 Domande dal: 28/07/2026 , ore 10:00 Scade il: 28/10/2026 , ore 15:00 Il bando sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia, con l’obiettivo di favorire il trasferimento tecnologico dei risultati della ricerca verso il sistema imprenditoriale lombardo, in particolare le PMI, e accrescere il potenziale di valorizzazione delle innovazioni sviluppate. Con una dotazione di 32 milioni di euro, la misura sostiene lo sviluppo di innovazioni in ambito Salute e Life Science in grado di migliorare la qualità dei trattamenti e delle cure al paziente, promuovendo la valorizzazione dei risultati scientifici e l’avanzamento della maturità tecnologica delle soluzioni proposte. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FESR 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLF12025045924 Pubblicato il: 23/07/2026 , ore 17:32 Domande dal: 28/07/2026 , ore 10:00 Scade il: 28/10/2026 , ore 15:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda di partecipazione al bando gli Istituti di Ricovero e Cura a Carattere Scientifico (IRCCS), di diritto pubblico e privato, aventi il riconoscimento del Ministero della Salute in corso di validità ai sensi del D.Lgs. 288/2003. I progetti devono essere realizzati in una o più Sedi dell’IRCCS ubicate in Lombardia e riconosciute dal Ministero della Salute, già esistenti oppure da costituire entro la data di richiesta della prima erogazione; a tali sedi devono afferire le spese sostenute e presentate in rendicontazione ai fini della verifica della loro ammissibilità. Di cosa si tratta Il bando “IRCCS – Ricerca & Trasferisci” sostiene gli investimenti in Ricerca Industriale e/o Sviluppo Sperimentale realizzati dagli IRCCS pubblici e privati della Lombardia con l’obiettivo di favorire il trasferimento tecnologico dei risultati della ricerca verso il sistema imprenditoriale lombardo, in particolare le PMI, e accrescere il potenziale di valorizzazione delle innovazioni sviluppate. I progetti devono afferire ad una delle 11 priorità dell’Ecosistema “Salute e Life Science” della Strategia di Specializzazione Intelligente per la Ricerca e l’innovazione – S3 di Regione e devono partire da un livello di maturità tecnologica TRL pari ad almeno 3, prevedere un incremento di almeno un livello TRL e raggiungere un livello finale non superiore a TRL 8. La misura dispone di una dotazione finanziaria di 32 milioni di euro, a valere sull’Azione 1.1.2 “Sostegno al trasferimento tecnologico tra mondo della ricerca e delle imprese lombarde” del Programma Regionale FESR Lombardia 2021-2027, nell’ambito dell’Obiettivo Specifico 1.1 dedicato al rafforzamento delle capacità di ricerca, innovazione e introduzione di tecnologie avanzate. Il contributo è concesso a fondo perduto fino a 3 milioni di euro per beneficiario. Gli IRCCS interessati possono presentare un solo progetto con richiesta di agevolazione fino a 3 milioni di euro (Opzione A) o, alternativamente, massimo due progetti con richiesta di agevolazione fino a 1,5 milioni di euro ciascuno (Opzione B). Le due opzioni sono tra loro alternative. Le proposte devono inoltre includere un piano di disseminazione e valorizzazione dei risultati del progetto verso il sistema imprenditoriale lombardo che preveda azioni di diffusione dei risultati (quali convegni, pubblicazione, ecc.) ed elementi abilitanti al trasferimento tecnologico e alla collaborazione con le imprese lombarde. La durata massima dei progetti è di 24 mesi. La misura è gestita da Finlombarda S.p.A., Organismo Intermedio individuato da Regione Lombardia per le attività di selezione, gestione e concessione delle agevolazioni. Dotazione finanziaria La misura dispone di una dotazione finanziaria di 32 milioni di euro, a valere sul Programma Regionale FESR Lombardia 2021-2027. Caratteristiche dell'agevolazione L’agevolazione è concessa nella forma di contributo a fondo perduto. L’intensità dell’agevolazione può arrivare fino all’80% delle spese ammissibili nel caso di progetti inquadrati come Non Aiuto. Per i progetti inquadrati come Aiuto GBER, il contributo è riconosciuto secondo le intensità previste dall’art. 25 del Regolamento GBER per le attività di Ricerca Industriale e di Sviluppo Sperimentale, con la maggiorazione prevista in presenza di un’ampia diffusione dei risultati del progetto: in tal caso il contributo è pari al 65% per la Ricerca Industriale e 40% per lo Sviluppo Sperimentale. L’erogazione del contributo avviene per tranche e può prevedere un anticipo fino al 40% dell’agevolazione concessa, una tranche intermedia fino a un massimo del 70% a fronte dello stato di avanzamento delle attività e della rendicontazione delle spese sostenute e una tranche a saldo a conclusione del progetto e a seguito della verifica dei risultati raggiunti e delle spese rendicontate. Sono ammissibili le spese relative a personale, strumentazioni e attrezzature, ricerca contrattuale, conoscenze e brevetti acquisiti o ottenuti in licenza, servizi di consulenza e servizi equivalenti, nonché spese generali supplementari e altri costi di esercizio direttamente imputabili al progetto. Regime di Aiuto di Stato L’agevolazione può essere concessa secondo due distinti regimi, in funzione delle caratteristiche del progetto e delle attività svolte dal beneficiario: “Non Aiuto” oppure “Aiuto GBER”, nel rispetto della normativa europea in materia di aiuti di Stato. In fase di presentazione della domanda, ciascun IRCCS individua il regime applicabile al progetto che, se confermato in fase di concessione, resta invariato per tutta la durata dell’intervento. Nel caso di Non Aiuto, l’agevolazione è concessa nella misura dell’80% delle spese ammissibili e si applica ai progetti per i quali l’attività economica non supera il 20% della capacità annua complessiva del progetto, verificata secondo un driver economico basato sul rapporto tra i ricavi derivanti da attività economiche direttamente connesse al progetto e il Valore dell’Investimento. Qualora la verifica effettuata in fase istruttoria abbia esito negativo, il progetto è inquadrato d’ufficio nel regime Aiuto GBER. Nel caso di Aiuto GBER, l’agevolazione è concessa fino al 50% delle spese ammissibili per attività di Ricerca Industriale e fino al 25% per attività di Sviluppo Sperimentale, con una maggiorazione del 15% in presenza di un’ampia diffusione dei risultati del progetto. L’intensità massima può pertanto raggiungere il 65% per la Ricerca Industriale e il 40% per lo Sviluppo Sperimentale. BURL BURL del 24/07/2026 Azioni Azione 1.1.2 “Sostegno al trasferimento tecnologico tra mondo della ricerca e delle imprese lombarde” del Programma Regionale FESR Lombardia 2021-2027 Come partecipare La domanda di partecipazione deve essere presentata esclusivamente in forma telematica attraverso la piattaforma Bandi e Servizi di Regione Lombardia (www.bandi.regione.lombardia.it), previa profilazione e registrazione del soggetto richiedente. Le domande possono essere presentate dalle ore 10.00 del 28 luglio 2026 alle ore 15.00 del 21 ottobre 2026. Alla domanda devono essere allegati, tra gli altri, la Scheda tecnica di Progetto, il cronoprogramma delle attività e la documentazione prevista dal bando in funzione della tipologia di soggetto proponente e del regime di agevolazione prescelto. Procedura selezione L’agevolazione è concessa mediante una procedura valutativa a graduatoria. Le domande presentate sono sottoposte a una fase di verifica di ammissibilità e, per quelle che la superano, a una successiva valutazione tecnica. I progetti sono valutati sulla base di tre ambiti principali: Qualità dell’operazione, Grado di innovazione dell’operazione e Capacità dei proponenti. Sono inoltre previste premialità per il possesso di sistemi di gestione ambientale e/o energetica, per l’adozione di un Piano di Uguaglianza di Genere (GEP) e per l’appartenenza a un Cluster Tecnologico Lombardo da almeno un anno alla data di presentazione della domanda. I progetti ammissibili sono collocati in graduatoria in ordine decrescente di punteggio e sono finanziati fino ad esaurimento delle risorse disponibili. Informazioni e contatti Per quesiti relativi alle modalità di presentazione della domanda e alla fase di istruttoria è possibile consultare la sezione dedicata al bando sulla piattaforma Open Innovation Lombardia. Per informazioni sulle fasi successive alla concessione dell’agevolazione è disponibile l’indirizzo e-mail ricercaetrasferisci@finlombarda.it. Per assistenza tecnica sull’utilizzo della piattaforma Bandi e Servizi è possibile scrivere a bandi@regione.lombardia.it oppure contattare il Numero Verde 800.131.151, attivo dal lunedì al sabato dalle ore 8.00 alle ore 20.00, esclusi i giorni festivi. Allegati Delibera n. 5496 del 15/12/2025 - Approvazione degli elementi essenziali della Misura IRCCS - Ricerca & Trasferisci - 15/12/2025 Decreto n. 9821 del 21/07/2026 - Approvazione bando IRCCS - Ricerca & Trasferisci - 21/07/2026 Allegato A al Decreto n. 9821 del 21/07/2026 - 21/07/2026 Fac simile Domanda di Agevolazione - 21/07/2026 Fac simile Scheda tecnica di Progetto - 21/07/2026 Fac simile Cronoprogramma - 21/07/2026 Modulo Antimafia_DSAN soggetti iscritti CCIAA - 21/07/2026 Modulo Antimafia_DSAN soggetti NON iscritti CCIAA - 21/07/2026 Modulo Antimafia_DSAN familiari conviventi - 21/07/2026 Modulo dichiarazione assenza condanne penali - 21/07/2026 Fac simile Modulo verifica Requisito Non Aiuto - 21/07/2026 Elenco priorità S3 - Salute e Life Science - 21/07/2026 Mostra altri",
-      "tracking": {
-        "contentHash": "47696a47e7363f9f803fa7487c59e2655536966d2d6ac29ddf18b7b4e8b53176",
-        "version": 30,
-        "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-excluded-ets",
-        "triageRuleVersion": 3,
-        "audienceScope": "specialist-irccs",
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": false,
-        "excludedForEts": true
-      },
-      "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
-      "detailFetchOk": true
-    },
-    {
       "id": "RLW12025050904",
       "title": "Avviso per il finanziamento dei percorsi di Istruzione e Formazione Professionale (IeFP) nell'ambito del Budget Duale - Anno formativo 2026/2027",
       "source": "Regione Lombardia",
@@ -790,9 +703,9 @@
       "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Avviso per il finanziamento dei percorsi di Istruzione e Formazione Professionale (IeFP) nell'ambito del Budget Duale - Anno formativo 2026/2027 Aperto Avviso per il finanziamento dei percorsi di Istruzione e Formazione Professionale (IeFP) nell'ambito del Budget Duale - Anno formativo 2026/2027 Codice: RLW12025050904 Pubblicato il: 30/07/2026 , ore 18:12 Domande dal: 04/08/2026 , ore 12:00 Scade il: 22/04/2027 , ore 13:00 L'Avviso promuove e finanzia percorsi e progetti di Istruzione e Formazione Professionale (IeFP) volti a garantire esperienze formative di qualità, fortemente integrate con il mondo delle imprese. La domanda di anticipo liquidazione può essere presentata dalle ore 12:00 del 4 agosto 2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050904 Pubblicato il: 30/07/2026 , ore 18:12 Domande dal: 04/08/2026 , ore 12:00 Scade il: 22/04/2027 , ore 13:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono accedere al finanziamento le Istituzioni formative accreditate e iscritte alla sezione A dell'Albo regionale, ai sensi della DGR n. 6696/2022 e del decreto attuativo n. 15516/2022, che abbiano presentato un'offerta formativa a finanziamento pubblico ai sensi del Decreto n. 15823/2025 o che proseguano nell'anno formativo 2026/2027 percorsi già finanziati nell'ambito dell'offerta pubblica. Di cosa si tratta L’Avviso ha l’obiettivo di promuovere la realizzazione dell’offerta formativa di Istruzione e Formazione Professionale (IeFP) sul territorio regionale. A tale scopo, finanzia attraverso lo strumento della dote la realizzazione di: percorsi triennali per il conseguimento della Qualifica professionale e percorsi quadriennali e di IV anno per il conseguimento del Diploma professionale; percorsi personalizzati per allievi con disabilità (PPD); attività di sostegno didattico rivolte agli allievi con disabilità certificata, attivate nell'ambito dei percorsi triennali, quadriennali e di IV anno; percorsi di prima, seconda e terza annualità finalizzati al contrasto della dispersione scolastica. Dotazione finanziaria Le risorse pubbliche disponibili, salvo eventuali integrazioni successive, ammontano complessivamente a € 174.681.310,65 e finanziano i percorsi ordinari di prima, seconda, terza e quarta annualità e di IV anno, i percorsi modulari di prima, seconda e terza annualità finalizzati al contrasto della dispersione scolastica e i Percorsi Personalizzati per Disabili (PPD), qualora il budget dedicato non sia sufficiente a garantire la copertura totale del finanziamento per tutti gli allievi iscritti. Caratteristiche dell'agevolazione La dote copre tutte le spese direttamente correlate al percorso formativo, comprese quelle relative al personale docente, alla manutenzione degli edifici scolastici, ai materiali utilizzati e ai costi amministrativi. Regime di Aiuto di Stato Il contributo concesso non rileva ai fini della disciplina sugli Aiuti di Stato, in quanto è finalizzato a garantire l'assolvimento del diritto-dovere di istruzione e formazione. Come partecipare La domanda di anticipo liquidazione può essere presentata dalle ore 12:00 del 4 agosto 2026. Le domande di dote possono essere presentate esclusivamente online attraverso la piattaforma Bandi e Servizi, accedendo con SPID, CIE o CNS/CRS, dalle ore 12:00 del 18 novembre 2026 alle ore 13:00 del 22 aprile 2027. Procedura selezione Assegnazione Budget/Operatore – Sistema Dotale. Informazioni e contatti Assistenza tecnica Bandi Online/Servizio Helpdesk Per problemi tecnici sul sistema informativo esclusivamente a: SIUF email assistenza-siuf@ariaspa.it Bandi e servizi email bandi@regione.lombardia.it Informazioni al pubblico Regione Lombardia/Struttura Sistema IeFP ordinamentoiefp@regione.lombardia.it . Allegati DDS 10334 del 30/07/26 Approvazione Avviso - 30/07/2026 DDS 10334/26 Allegato A - Avviso IeFP 26/27 - 30/07/2026 DDS 10334 del 30/07/26 ALLEGATI AVVISO - 30/07/2026 Allegato 9 al D.d.s. 10334/2026 - Schema di fidejussione_IeFP - 03/08/2026 Mostra altri",
       "tracking": {
         "contentHash": "8d582ee4db537d11299dadfd74eeacf959cadb367ec6b82c6380c0901e42f6de",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-excluded-ets",
         "triageRuleVersion": 3,
@@ -801,7 +714,181 @@
         "etsRelevant": false,
         "excludedForEts": true
       },
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "RLO12025045523",
+      "title": "Distretti del Commercio - Nuova Istituzione Distretto",
+      "source": "Regione Lombardia",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "distretti",
+        "commercio",
+        "nuova",
+        "istituzione",
+        "distretto",
+        "enti",
+        "operatori",
+        "procedimenti",
+        "amministrativi",
+        "codice",
+        "rappresentano",
+        "modalità",
+        "valorizzazione",
+        "territoriale",
+        "innovativa",
+        "promuovere",
+        "efficace",
+        "fattore"
+      ],
+      "sectors": [
+        "distretti",
+        "commercio",
+        "nuova",
+        "istituzione",
+        "distretto",
+        "enti",
+        "operatori",
+        "procedimenti"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-nuova-istituzione-distretto-RLO12025045523",
+      "autoDiscovered": true,
+      "discoveryText": "Procedimenti / Attività Produttive/Imprese / Imprese commerciali / Distretti del Commercio - Nuova Istituzione Distretto Aperto Distretti del Commercio - Nuova Istituzione Distretto Codice: RLO12025045523 Pubblicato il: 15/04/2025 , ore 09:00 Domande dal: 31/08/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. I Distretti del Commercio rappresentano una modalità di valorizzazione territoriale innovativa per promuovere il commercio come efficace fattore di aggregazione in grado di attivare dinamiche economiche, sociali e culturali. I Distretti del Commercio possono essere di due tipi: Distretti urbani del Commercio (DUC) e Distretti Diffusi di rilevanza Intercomunale (DiD). Il presente procedimento permette di richiedere l’istituzione di un Nuovo Distretto del Commercio. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLO12025045523 Pubblicato il: 15/04/2025 , ore 09:00 Domande dal: 31/08/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare L’istituzione di un nuovo Distretto del Commercio è presentata dall’Ente che ricopre il ruolo di Capofila del Distretto: Comune Unione di Comuni Comunità Montana Di cosa si tratta Secondo quanto previsto dalla DGR 10397/2009, il Direttore Generale della Direzione competente in materia di commercio, procede all'individuazione e alla modificazione degli ambiti territoriali dei Distretti del Commercio. La richiesta è presentata dal capofila del Distretto (Comune, Unione di Comuni o Comunità Montana) anche su segnalazione delle Associazioni imprenditoriali maggiormente rappresentative per il settore del commercio a livello provinciale ai sensi della Legge 580/93 e comunque previo accordo con le stesse, sentite le Associazioni dei lavoratori maggiormente rappresentative per il settore del commercio a livello provinciale e quelle dei consumatori. I Distretti del Commercio possono essere di due tipi: Distretti urbani del Commercio (DUC) : il Distretto del Commercio è costituito sul territorio di un unico Comune o parte di esso; Distretti Diffusi di rilevanza Intercomunale (DiD) : il Distretto del Commercio è costituito sul territorio di più Comuni. L’elenco dei Distretti del Commercio costantemente aggiornato è pubblicato sul Portale OpenData di Regione Lombardia ed è consultabile ai seguenti link: Elenco completo dei Distretti del Commercio , comprensivo del dettaglio dei Comuni partner dei DID al seguente link Elenco dei Distretti del Commercio in forma aggregata al seguente link Mappa di dettaglio con la delimitazione dei Distretti Urbani del Commercio al seguente link Dashboard con dati di sintesi e rappresentazioni grafiche/cartografiche al seguente link Quando E' possibile presentare la domanda in qualsiasi periodo dell'anno, ad eccezione di specifici intervalli di sospensione del servizio nei mesi di Agosto e Dicembre. Cosa serve La documentazione prevista dalla DGR 10397/2009 che dovrà essere allegata alla richiesta, a pena di inammissibilità, è la seguente: una relazione illustrativa degli elementi di cui al paragrafo 3.1 della DGR citata; copia dell' Accordo di Distretto tra i soggetti di cui al comma 2 della DGR citata; copia del Programma del Distretto ; cartografia e relativa perimetrazione dell'ambito territoriale costituente il Distretto del Commercio : per i DUC occorre specificare se l’area del Distretto del Commercio è relativa all’intero territorio comunale oppure riguarda un’area specifica del territorio Comunale (in quest’ultimo caso dovrà essere inviato un file vettoriale in formato Shapefile) mentre, per i DID , occorre allegare un file immagine (pdf o jpeg) con la delimitazione dei Comuni appartenenti al Distretto del Commercio. Come partecipare La compilazione delle richieste e la documentazione da presentare sono guidate dalla Piattaforma Informatica: verranno presentate le sole opzioni possibili disponibili per l’Ente Capofila (Comune, Unione di Comuni o Comunità Montana) che sta procedendo alla richiesta di istituzione di un nuovo Distretto. Prima di procedere è consigliabile consultare il manuale disponibile nella sezione allegati. Informazioni e contatti Per assistenza sulla piattaforma Bandi e Servizi: · bandi@regione.lombardia.it · Numero verde 800.131.151 Per informazioni e quesiti di tipo amministrativo è possibile inviare una PEC al seguente indirizzo: sviluppo_economico@pec.regione.lombardia.it Allegati Manuale utente - Presentazione domanda Istituzione - 27/02/2026 Manuale utente - Bandi e Servizi - 15/04/2025 Informativa sul Trattamento dei Dati Personali - 10/04/2025 DGR 10397_2009 - 10/04/2025 Mostra altri",
+      "tracking": {
+        "contentHash": "734e98c1b0aab041c97f11f92c9947e101995563a9a6c177bf3c1a7cdd52e2f8",
+        "version": 2,
+        "firstSeenAt": "2026-08-31T14:23:32+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "RLO12025045525",
+      "title": "Distretti del commercio - Domanda di Modificazione",
+      "source": "Regione Lombardia",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "distretti",
+        "commercio",
+        "modificazione",
+        "enti",
+        "operatori",
+        "procedimenti",
+        "amministrativi",
+        "codice",
+        "rappresentano",
+        "modalità",
+        "valorizzazione",
+        "territoriale",
+        "innovativa",
+        "promuovere",
+        "efficace",
+        "fattore"
+      ],
+      "sectors": [
+        "distretti",
+        "commercio",
+        "modificazione",
+        "enti",
+        "operatori",
+        "procedimenti",
+        "amministrativi",
+        "codice"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-domanda-modificazione-RLO12025045525",
+      "autoDiscovered": true,
+      "discoveryText": "Procedimenti / Attività Produttive/Imprese / Imprese commerciali / Distretti del commercio - Domanda di Modificazione Aperto Distretti del commercio - Domanda di Modificazione Codice: RLO12025045525 Pubblicato il: 15/04/2025 , ore 09:00 Domande dal: 31/08/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. I Distretti del Commercio rappresentano una modalità di valorizzazione territoriale innovativa per promuovere il commercio come efficace fattore di aggregazione in grado di attivare dinamiche economiche, sociali e culturali. I Distretti del Commercio possono essere di due tipi: Distretti urbani del Commercio (DUC) e Distretti Diffusi di rilevanza Intercomunale (DiD). Il presente procedimento permette di modificare un Distretto del Commercio esistente. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLO12025045525 Pubblicato il: 15/04/2025 , ore 09:00 Domande dal: 31/08/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare La modificazione di un Distretto del Commercio esistente è presentata dall’Ente che ricopre il ruolo di Capofila del Distretto: Comune Unione di Comuni Comunità Montana Di cosa si tratta Vengono di seguito indicate le modalità per l'individuazione di nuovi Distretti del Commercio e alla modificazione degli ambiti territoriali dei Distretti del Commercio esistenti. I Distretti del Commercio rappresentano una modalità di valorizzazione territoriale innovativa per promuovere il commercio come efficace fattore di aggregazione in grado di attivare dinamiche economiche, sociali e culturali. I Distretti del Commercio possono essere di due tipi: Distretti urbani del Commercio (DUC): il Distretto del Commercio è costituito sul territorio di un unico Comune o parte di esso; Distretti Diffusi di rilevanza Intercomunale (DiD): il Distretto del Commercio è costituito sul territorio di più Comuni. L’elenco dei distretti costantemente aggiornato è disponibile sul portale OpenData Quando E' possibile presentare la domanda in qualsiasi periodo dell'anno, ad eccezione di specifici intervalli di sospensione del servizio nei mesi di Agosto e Dicembre. Cosa serve La documentazione prevista dalla DGR 10397/2009 che dovrà essere allegata alla richiesta, a pena di inammissibilità, è la seguente: una relazione illustrativa degli elementi di cui al paragrafo 3.1 della DGR citata; copia dell' Accordo di Distretto tra i soggetti di cui al comma 2 della DGR citata; copia del Programma del Distretto ; cartografia e relativa perimetrazione dell'ambito territoriale costituente il Distretto del Commercio : per i DUC occorre specificare se l’area del Distretto del Commercio è relativa all’intero territorio comunale oppure riguarda un’area specifica del territorio Comunale (in quest’ultimo caso dovrà essere inviato un file vettoriale in formato Shapefile) mentre, per i DID , occorre allegare un file immagine (pdf o jpeg) con la delimitazione dei Comuni appartenenti al Distretto del Commercio. N.B.: a seconda della tipologia di modificazione , la Piattaforma Informatica propone la sola documentazione necessaria da allegare/aggiornare. Come partecipare Secondo quanto previsto dalla DGR 10397/2009, il Direttore Generale della Direzione competente in materia di commercio, procede all'individuazione e alla modificazione degli ambiti territoriali dei Distretti del Commercio. La richiesta è presentata dal capofila del Distretto (Comune, Unione di Comuni o Comunità Montana) anche su segnalazione delle Associazioni imprenditoriali maggiormente rappresentative per il settore del commercio a livello provinciale ai sensi della Legge 580/93 e comunque previo accordo con le stesse, sentite le Associazioni dei lavoratori maggiormente rappresentative per il settore del commercio a livello provinciale e quelle dei consumatori. A partire dal 15 Aprile 2025 le richieste di “ Istituzione di un nuovo distretto ” e di “ Modificazione di un Distretto esistente ” dovranno essere presentate esclusivamente mediante la piattaforma informatica Bandi e Servizi - sezione “Procedimenti” selezionando quello oggetto della richiesta (istituzione o modificazione). Nella successiva sezione Allegati e, nelle pagine informative dei due procedimenti presenti nella Piattaforma Bandi e Servizi sono consultabili i manuali relativi a: Accesso a Bandi e Servizi e gestione profilo; Istituzione nuovo Distretto del Commercio; Modificazione territoriale di un Distretto del Commercio esistente. La compilazione delle richieste e la documentazione da presentare sono guidate dalla Piattaforma Informatica: verranno presentate le sole opzioni possibili disponibili per l’Ente Capofila (Comune, Unione di Comuni o Comunità Montana) che sta procedendo alla richiesta di istituzione o modificazione di un Distretto. Prima di procedere è consigliabile consultare il manuale relativo alla richiesta specifica. Si evidenzia che la documentazione prevista dalla DGR 10397/2009 che dovrà essere allegata alla richiesta, a pena di inammissibilità, è la seguente: una relazione illustrativa degli elementi di cui al paragrafo 3.1 della DGR citata; copia dell' Accordo di Distretto tra i soggetti di cui al comma 2 della DGR citata; copia del Programma del Distretto ; cartografia e relativa perimetrazione dell'ambito territoriale costituente il Distretto del Commercio : per i DUC occorre specificare se l’area del Distretto del Commercio è relativa all’intero territorio comunale oppure riguarda un’area specifica del territorio Comunale (in quest’ultimo caso dovrà essere inviato un file vettoriale in formato Shapefile) mentre, per i DID , occorre allegare un file immagine (pdf o jpeg) con la delimitazione dei Comuni appartenenti al Distretto del Commercio. Termine e conclusione del procedimento I Capofila dei Distretti possono inviare le richieste di istituzione di un nuovo Distretto o modificazione dell’ambito territoriale di un Distretto esistente in qualsiasi momento dell’anno . Le richieste verranno prese in carico dall’ufficio competente di Regione Lombardia e verrà predisposto il Decreto entro 30 giorni dall’avvenuta protocollazione della richiesta compilata mediante il procedimento presente nella Piattaforma Bandi e Servizi. L’elenco dei Distretti del Commercio costantemente aggiornato è pubblicato sul Portale OpenData di Regione Lombardia ed è consultabile ai seguenti link: Elenco completo dei Distretti del Commercio , comprensivo del dettaglio dei Comuni partner dei DID al seguente link Elenco dei Distretti del Commercio in forma aggregata al seguente link Mappa di dettaglio con la delimitazione dei Distretti Urbani del Commercio al seguente link Dashboard con dati di sintesi e rappresentazioni grafiche/cartografiche al seguente link Informazioni e contatti Roberto Lambicchi Dirigente Unità Organizzativa Programmazione Comunitaria e Commercio tel. 02 67654589 roberto_lambicchi@regione.lombardia.it Per assistenza sulla piattaforma Bandi e Servizi: bandi@regione.lombardia.it Numero verde 800.131.151 Allegati Dgr 10397 del 28 ottobre 2009 - 30/07/2026 Manuale Accesso e gestione profili Bandi e Servizi - 30/07/2026 Manuale per l’Istituzione di un Distretto del Commercio - 30/07/2026 Manuale di modificazione di un Distretto del Commercio esistente - 30/07/2026 Informativa Trattamento dati personali - 30/07/2026 Mostra altri",
+      "tracking": {
+        "contentHash": "8ffaad9210d9ccc09332ef685658642e7242604e2cc3647337d61081d99c22fc",
+        "version": 2,
+        "firstSeenAt": "2026-08-31T14:23:32+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
       "detailFetchOk": true
     },
     {
@@ -880,9 +967,9 @@
       "discoveryText": "Stato: Attivo Fase 1 14/07/2026 Fase 2 25/03/2027 Destinatari: Enti privati non profit Aree di intervento: Area Ricerca Scientifica Area Servizi alla Persona Partner: Factory Plus Fondazione Social Venture Giordano dall’Amore (FSVGDA) Temi affrontati: Benessere Innovazione Contatti: Alessandro Masciadri InnovaWelfare - Impact4Coop E-mail tel +39 02 6239256 Raffaele Di Tria Capacity Building Riprogettiamo il futuro - Innovawelfare E-mail +39 02 6239242 Francesca Pierini Ricerca sociale e umanistica E-mail tel. +39 02 6239308 Info Innovawelfare E-mail TIPO Bando con scadenza a due fasi SOSTEGNO FORNITO € 2.500.000 OBIETTIVO Applicare il potenziale della tecnologia e/o del digitale per innovare i servizi di welfare in risposta all’evoluzione dei bisogni. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo € 220.000 e non superiore all’80% dei costi. Premessa Il bando è emesso dall’area Servizi alla Persona e dall’area Ricerca Scientifica di Fondazione Cariplo nell’ambito della linea di mandato 4 “ Creare le condizioni abilitanti al rafforzamento delle comunità ” con il supporto di Factory Plus e Fondazione Social Venture Giordano dell’Amore (FSVGDA). Contesto Il sistema di welfare italiano sta affrontando, oltre alle criticità storiche — quali ad esempio il peso eccessivo dei trasferimenti monetari, la frammentazione delle risorse e delle responsabilità istituzionali — profonde trasformazioni strutturali che ne mettono in discussione la sostenibilità nel medio‑lungo periodo. In particolare, i cambiamenti demografici in atto, connessi all’acuirsi della denatalità e all’invecchiamento della popolazione, stanno modificando in modo significativo la composizione e l’intensità dei bisogni sociali e socio-sanitari, aumentando la domanda di cura e assistenza a fronte di una base contributiva e di una forza lavoro attiva sempre più ridotte. Nel 2024 si sono registrate circa 370.000 nascite (dodicesimo minimo storico dal 2013) e gli ultra sessantacinquenni hanno superato i 14,5 milioni, pari al 24,7% della popolazione. A queste dinamiche strutturali si aggiungono ulteriori sfide, tra cui la crescente crisi delle professioni di cura , l’emersione di bisogni complessi legati alla salute mentale – con particolare riferimento ai giovani – e l’aumento delle condizioni di solitudine e fragilità che coinvolgono fasce sempre più ampie di popolazione. In questo quadro, la crescente complessità dei bisogni e la pressione sui servizi rendono necessario individuare nuove modalità d’intervento per garantire la sostenibilità e l’efficacia del sistema del welfare nel tempo. In relazione a queste esigenze, l’ evoluzione tecnologica — con nuove opportunità di strumenti digitali, intelligenza artificiale e automazione — offre leve concrete per la riprogettazione dei processi, l’innovazione dei modelli di servizio e l’ampliamento della capacità operativa. Se correttamente adottate e integrate, queste tecnologie possono migliorare la qualità, l’accessibilità e l’efficienza delle attività degli enti privati senza scopo di lucro. Questo bando intende favorire l’incontro e la collaborazione tra enti privati senza scopo di lucro e soggetti che sviluppano soluzioni tecnologiche e sostenere la sperimentazione e l’adozione di soluzioni nell’ambito dei servizi di welfare. La nuova edizione del bando InnovaWelfare è stata lanciata con un evento di presentazione il 26 maggio 2026: clicca qui per i dettagli e per rivedere l’evento. Documenti di approfondimento Bando InnovaWelfare Scarica il file FAQ_Bando InnovaWelfare_fase 1 Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-        "version": 32,
+        "version": 34,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -892,7 +979,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
       "detailFetchOk": true
     },
     {
@@ -1152,9 +1239,9 @@
       "discoveryText": "Stato: Attivo Fase 1 30/06/2026 Fase 2 25/02/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Ambiente Area Arte e Cultura Area Servizi alla Persona Temi affrontati: Benessere Cittadinanza attiva Patrimonio culturale e ambientale Contatti: Info Luoghi plurali E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Recuperare e riattivare luoghi in disuso o fortemente sottoutilizzati – edifici e spazi aperti – con lo sviluppo di funzioni culturali, sociali e ambientali, e rafforzare le capacità degli attori locali di progettare, gestire e mantenere nel tempo spazi sostenibili, vivi e inclusivi, in grado di rispondere ai bisogni delle comunità e generare nuove opportunità. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: € 100.000 Contributo massimo: € 750.000 Cofinanziamento minimo: 30% del costo totale Premessa Il bando è emesso congiuntamente dalle Aree Arte e cultura, Servizi alla persona e Ambiente nell’ambito della Linea di mandato 1 “Creare valore condiviso, attraverso il sostegno alla creazione e allo sviluppo sostenibile di ecosistemi territoriali”. Contesto Il fenomeno degli spazi dismessi – siano essi edifici abbandonati o spazi aperti in disuso o sottoutilizzati – rappresenta una sfida rilevante per molti territori italiani. La letteratura evidenzia come la perdita di funzione di questi luoghi non genera soltanto “vuoti urbani”, ma anche effetti economici, sociali e culturali che indeboliscono i territori e riducono le opportunità delle persone che vi abitano, alimentando cicli di marginalità, esclusione e diminuzione del capitale sociale. Rigenerare questi luoghi significa quindi restituire valore alle comunità, rafforzare legami e creare nuove condizioni per attrarre risorse, innovazione e partecipazione. Restituire dignità, bellezza e vitalità a spazi spesso abbandonati da tempo rappresenta una leva per innescare processi di cambiamento sostenibili, capaci di integrare competenze e aggregare attori pubblici e privati valorizzando le potenzialità dei territori. Fondazione Cariplo promuove da tempo interventi a favore del recupero di edifici e di aree in disuso e della valorizzazione di spazi aperti, con l’intento di riattivare la comunità e promuovere lo sviluppo sostenibile dei territori. Le esperienze promosse negli ultimi anni mostrano che per stimolare processi di rigenerazione efficaci e sostenibili è indispensabile adottare un approccio multidisciplinare, capace di integrare in modo organico differenti dimensioni e rispondere a problemi complessi. Sulla base di tali esperienze, la Fondazione ha deciso di promuovere un bando finalizzato a sostenere risposte plurali e integrate, favorendo la connessione sinergica tra funzioni sociali, culturali e ambientali nei processi di rigenerazione dei luoghi. Documenti di approfondimento Bando Luoghi Plurali Scarica il file Atto notorio modello Scarica il file Format proposta_Luoghi plurali Scarica il file FAQ_Luoghi plurali Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-        "version": 32,
+        "version": 34,
         "firstSeenAt": "2026-08-29T10:53:30+02:00",
-        "lastChangedAt": "2026-08-31T08:23:39+02:00",
+        "lastChangedAt": "2026-08-31T14:23:40+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1164,7 +1251,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-08-31T08:23:31+02:00",
+      "detailFetchedAt": "2026-08-31T14:23:32+02:00",
       "detailFetchOk": true
     }
   ],
@@ -1172,10 +1259,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-08-31T06:23:14"
+    "checkedAt": "2026-08-31T12:23:17"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-08-31T06:23:22",
+    "checkedAt": "2026-08-31T12:23:25",
     "checked": 4,
     "active": 3,
     "added": 1,
@@ -1207,7 +1294,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-08-31T06:23:25",
+    "checkedAt": "2026-08-31T12:23:27",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -1242,7 +1329,7 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-08-31T06:23:31",
+    "checkedAt": "2026-08-31T12:23:32",
     "checked": 5,
     "activeOrProgrammed": 5,
     "added": 5,
@@ -1277,7 +1364,7 @@
   "incremental": true,
   "trackingSummary": {
     "new": 0,
-    "modified": 6,
+    "modified": 7,
     "unchanged": 6,
     "reappeared": 0,
     "missing": 0
@@ -1286,14 +1373,14 @@
     "enabled": true,
     "ruleVersion": 3,
     "rulesResolved": 8,
-    "rulesExcludedForEts": 3,
-    "aiRequired": 1
+    "rulesExcludedForEts": 1,
+    "aiRequired": 4
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-08-31T08:23:31+02:00",
-    "attempted": 6,
-    "enriched": 6,
+    "updatedAt": "2026-08-31T14:23:32+02:00",
+    "attempted": 7,
+    "enriched": 7,
     "unchanged": 0,
     "failed": 0
   }
