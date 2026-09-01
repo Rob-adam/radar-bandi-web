@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-01T02:39:10+02:00",
+  "catalogUpdatedAt": "2026-09-01T08:35:27+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -12,9 +12,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "contentHash": "8899f1f2ff5e24a39ebb99b4bd67c0dc1c42108397e194cfcab9fb7c0db8a189",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -112,7 +112,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -980,7 +980,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1116,7 +1116,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1256,7 +1256,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1394,7 +1394,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1530,7 +1530,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1539,9 +1539,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
       "contentHash": "027387b4f5248686311f1cb631981918a584206f71584cefa6acff0fb0479605",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1645,7 +1645,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1654,9 +1654,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-nuova-istituzione-distretto-RLO12025045523",
       "contentHash": "734e98c1b0aab041c97f11f92c9947e101995563a9a6c177bf3c1a7cdd52e2f8",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1758,7 +1758,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1767,9 +1767,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-domanda-modificazione-RLO12025045525",
       "contentHash": "8ffaad9210d9ccc09332ef685658642e7242604e2cc3647337d61081d99c22fc",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1869,7 +1869,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     },
@@ -1878,9 +1878,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863",
       "contentHash": "ec6a8e36c004958e00b1dce07f8471eee87a87c2ea255bb414ab6a5eba96041e",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-08-31T20:23:35+02:00",
-      "lastChangedAt": "2026-09-01T02:39:10+02:00",
+      "lastChangedAt": "2026-09-01T08:35:27+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1979,12 +1979,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T02:39:10+02:00"
+        "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-01T02:39:10+02:00",
+  "triageUpdatedAt": "2026-09-01T08:35:27+02:00",
   "triageSummary": {
     "rulesResolved": 8,
     "rulesExcludedForEts": 0,

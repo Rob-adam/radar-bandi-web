@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T02:39:10+02:00",
+  "generatedAt": "2026-09-01T08:35:27+02:00",
   "ruleVersion": 3,
   "count": 5,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
       "id": "RLD12026052603",
-      "version": 6,
+      "version": 8,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
       "title": "Avviso per l'adesione dei Comuni lombardi alla misura Nidi Gratis Plus – 2026/2027",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "id": "RLP12026054984",
-      "version": 36,
+      "version": 38,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "title": "BANDO PER LA PARTECIPAZIONE ALLE INIZIATIVE DI PROMOZIONE TURISTICA SUI MERCATI ITALIANO ED ESTERO PRIMO SEMESTRE 2027",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-nuova-istituzione-distretto-RLO12025045523",
       "id": "RLO12025045523",
-      "version": 6,
+      "version": 8,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-nuova-istituzione-distretto-RLO12025045523",
       "title": "Distretti del Commercio - Nuova Istituzione Distretto",
@@ -80,7 +80,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-domanda-modificazione-RLO12025045525",
       "id": "RLO12025045525",
-      "version": 6,
+      "version": 8,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/distretti-commercio-domanda-modificazione-RLO12025045525",
       "title": "Distretti del commercio - Domanda di Modificazione",
@@ -105,7 +105,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863",
       "id": "RLAM2026055863",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-shopping/fec-24-26-acquisizione-servizio-assistenza-tecnica-stoccaggio-spedizione-smaltimento-materiali-promozione-turistica-direzione-generale-turismo-marketing-territoriale-moda-RLAM2026055863",
       "title": "FEC 24/26 ACQUISIZIONE DEL SERVIZIO “ASSISTENZA TECNICA PER STOCCAGGIO, SPEDIZIONE E SMALTIMENTO DEI MATERIALI DI PROMOZIONE TURISTICA” PER LA DIREZIONE GENERALE TURISMO, MARKETING TERRITORIALE E MODA",
