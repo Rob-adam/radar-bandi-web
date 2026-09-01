@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-01T08:35:27+02:00",
+  "catalogUpdatedAt": "2026-09-01T14:34:41+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -15,8 +15,8 @@
       "version": 38,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
       "lastChangedAt": "2026-09-01T08:35:27+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-01T14:34:34+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T08:35:27+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T08:35:27+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -980,7 +980,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -1116,7 +1116,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -1256,7 +1256,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -1394,7 +1394,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -1530,7 +1530,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T08:35:27+02:00"
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
       },
       "excludedForEts": false
     },
@@ -1542,8 +1542,8 @@
       "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
       "lastChangedAt": "2026-09-01T08:35:27+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-01T14:34:34+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -1657,8 +1657,8 @@
       "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
       "lastChangedAt": "2026-09-01T08:35:27+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-01T14:34:34+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -1770,8 +1770,8 @@
       "version": 8,
       "firstSeenAt": "2026-08-31T14:23:32+02:00",
       "lastChangedAt": "2026-09-01T08:35:27+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-01T14:34:34+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -1881,8 +1881,8 @@
       "version": 6,
       "firstSeenAt": "2026-08-31T20:23:35+02:00",
       "lastChangedAt": "2026-09-01T08:35:27+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-01T14:34:34+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -1982,14 +1982,465 @@
         "evaluatedAt": "2026-09-01T08:35:27+02:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083": {
+      "id": "RLH12026055083",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
+      "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
+      "version": 2,
+      "firstSeenAt": "2026-09-01T14:34:34+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Bando per la presentazione di proposte di intervento per incentivare la messa a disposizione, in locazione, di patrimonio immobiliare pubblico e privato. Linea 1 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026.",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "presentazione",
+          "proposte",
+          "intervento",
+          "incentivare",
+          "codice",
+          "finanziamento",
+          "interventi",
+          "edilizia",
+          "volti",
+          "recupero",
+          "riqualificazione",
+          "immobili",
+          "inutilizzati",
+          "pubblici",
+          "privati"
+        ],
+        "sectors": [
+          "chiude",
+          "presentazione",
+          "proposte",
+          "intervento",
+          "incentivare",
+          "codice",
+          "finanziamento",
+          "interventi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
+        "discoveryText": "Bandi / Politiche Sociali / Housing sociale / Bando per la presentazione di proposte di intervento per incentivare la messa a disposizione, in locazione, di patrimonio immobiliare pubblico e privato. Linea 1 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026. Aperto Bando per la presentazione di proposte di intervento per incentivare la messa a disposizione, in locazione, di patrimonio immobiliare pubblico e privato. Linea 1 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026. Codice: RLH12026055083 Pubblicato il: 23/07/2026 , ore 14:19 Domande dal: 01/09/2026 , ore 12:00 Scade il: 30/10/2026 , ore 12:00 Bando per il finanziamento di interventi di edilizia volti al recupero e alla riqualificazione di immobili inutilizzati, pubblici o privati, da destinare ad alloggi sociali in locazione permanente, a canoni inferiori a quelli di mercato, da mettere a disposizione di nuclei familiari e persone con difficoltà nell’accesso al mercato immobiliare privato. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FESR 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLH12026055083 Pubblicato il: 23/07/2026 , ore 14:19 Domande dal: 01/09/2026 , ore 12:00 Scade il: 30/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda i soggetti pubblici, ad esclusione delle Aziende Lombarde per l’Edilizia Residenziale (ALER), e i soggetti privati costituiti in forma di persona giuridica, con sede operativa in Lombardia. I beneficiari del contributo devono essere proprietari esclusivi o titolari di altro diritto reale di godimento sugli immobili oggetto di intervento, per tutta la durata dell'intervento e della gestione degli alloggi sociali. Di cosa si tratta Bando per il sostegno di interventi di edilizia volti al recupero e alla riqualificazione di immobili inutilizzati, pubblici o privati, da destinare ad alloggi sociali in locazione permanente. Gli alloggi saranno concessi in locazione a canoni calmierati, inferiori a quelli di mercato, da destinare a nuclei familiari e persone con difficoltà nell’accesso al mercato abitativo privato, pur non possedendo i requisiti per l’accesso ai servizi abitativi pubblici. Dotazione finanziaria La dotazione finanziaria complessiva è pari a 48 milioni di euro, finanziati nell’ambito del PR FESR 2021-2027 di Regione Lombardia, Asse 10 “Affordable Housing”. Caratteristiche dell'agevolazione L’agevolazione consiste nella concessione di un contributo a fondo perduto per il finanziamento di interventi edilizi di riqualificazione, restauro, risanamento conservativo o ristrutturazione, finalizzati alla messa a disposizione di alloggi per servizi abitativi sociali. Il contributo massimo concedibile per ciascuna proposta è pari a € 2.000.000. Non sono ammessi progetti con investimento pari o inferiore a € 200.000. Il contributo è calcolato sulla superficie utile abitabile, applicando un costo convenzionale differenziato in base alla durata del vincolo di destinazione a servizi abitativi sociali: 700 euro/mq per 20-21 anni, 800 euro/mq per oltre 21 e fino a 23 anni, 900 euro/mq per oltre 23 anni. È possibile una maggiorazione fino al 20% per elementi di qualità gestionale. Regime di Aiuto di Stato Il contributo è riconducibile alla disciplina europea sugli aiuti di Stato sotto forma di compensazione per obblighi di servizio pubblico, nell’ambito dei Servizi di Interesse Economico Generale (SIEG). I beneficiari del contributo devono rispettare gli obblighi di verifica dell’assenza di sovracompensazione ed evitare qualsiasi doppio finanziamento delle medesime spese, anche in caso di cumulo con altri incentivi pubblici, per tutta la durata del servizio abitativo. BURL BURL Serie Ordinaria n. 30 del 23 luglio 2026 Azioni AZIONE 4.7.1: Promuovere l’accesso ad alloggi sostenibili e a prezzi accessibili. Come partecipare La domanda deve essere presentata esclusivamente online tramite la piattaforma informatica Bandi e Servizi di Regione Lombardia a decorrere dalle ore 12:00 del 1° settembre 2026 e fino alle ore 12:00 del 30 ottobre 2026. La modulistica è disponibile nella sezione dedicata della piattaforma Bandi e Servizi. La domanda si intende validamente presentata solo a seguito di invio al protocollo e dell’assegnazione del numero identificativo rilasciato dal sistema. Procedura selezione La selezione delle domande avviene mediante procedura valutativa a graduatoria. Le domande sono prima verificate sotto il profilo dell’ammissibilità formale e poi valutate nel merito tecnico, con attribuzione di un punteggio massimo di 100 punti. I contributi sono assegnati in ordine di graduatoria fino ad esaurimento delle risorse disponibili. La graduatoria è approvata entro 120 giorni dal termine di presentazione delle domande. In caso di parità di punteggio, sarà data precedenza alla domanda presentata per prima, secondo l’ordine cronologico di protocollazione della domanda. Informazioni e contatti Il bando e i relativi allegati sono pubblicati sul Bollettino Ufficiale di Regione Lombardia (B.U.R.L.), sulla piattaforma Bandi e Servizi e sul sito istituzionale di Regione Lombardia: www.regione.lombardia.it Per informazioni sui contenuti del bando e sugli adempimenti scrivere a: housing_FESR@regione.lombardia.it Per assistenza tecnica alla compilazione della domanda online è disponibile il Call Center al NUMERO VERDE 800.131.151 , dal lunedì al sabato, esclusi i festivi: dalle 8:00 alle 20:00 per quesiti tecnici e dalle 8:30 alle 17:00 per richieste di assistenza tecnica. Allegati Avviso - 06/08/2026 decreto n. 9843 del 21 luglio 2026 - approvazione BANDO - 21/07/2026 Bando e allegati parti integranti - 21/07/2026 d.g.r. 6389/2026 - Approvazione dello schema di convenzione - 29/06/2026 d.g.r. 6209/2026 - Approvazione dei criteri - 25/05/2026 Classificazione dei comuni per intensità di fabbisogno abitativo (allegato al PRERP 2014-2016) - 30/07/2014 B.U.R.L. Serie Ordinaria n. 30 del 23 luglio 2026 - 23/07/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063": {
+      "id": "RLH12026055063",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
+      "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
+      "version": 2,
+      "firstSeenAt": "2026-09-01T14:34:34+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Bando per l’attivazione di un programma di riqualificazione dei quartieri di proprietà delle ALER, anche attraverso la collaborazione pubblico-privato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "attivazione",
+          "programma",
+          "riqualificazione",
+          "quartier",
+          "codice",
+          "finanziamento",
+          "interventi",
+          "edilizia",
+          "immobili",
+          "destinare",
+          "servizi",
+          "abitativi",
+          "sociali",
+          "locazione",
+          "permanente",
+          "canoni"
+        ],
+        "sectors": [
+          "chiude",
+          "attivazione",
+          "programma",
+          "riqualificazione",
+          "quartier",
+          "codice",
+          "finanziamento",
+          "interventi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
+        "discoveryText": "Bandi / Politiche Sociali / Housing sociale / Bando per l’attivazione di un programma di riqualificazione dei quartieri di proprietà delle ALER, anche attraverso la collaborazione pubblico-privato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026 Aperto Bando per l’attivazione di un programma di riqualificazione dei quartieri di proprietà delle ALER, anche attraverso la collaborazione pubblico-privato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026 Codice: RLH12026055063 Pubblicato il: 23/07/2026 , ore 14:24 Domande dal: 01/09/2026 , ore 12:00 Scade il: 30/10/2026 , ore 12:00 Finanziamento di interventi di riqualificazione edilizia su immobili da destinare a servizi abitativi sociali in locazione permanente, con canoni calmierati inferiori a quelli di mercato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento FSC_21_27 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLH12026055063 Pubblicato il: 23/07/2026 , ore 14:24 Domande dal: 01/09/2026 , ore 12:00 Scade il: 30/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda le Aziende Lombarde per l’Edilizia Residenziale (ALER), proprietarie o titolari di un diritto reale di godimento sugli immobili oggetto di intervento. È possibile il ricorso a forme di partenariato pubblico-privato, ma il beneficiario del contributo economico resta esclusivamente l’ALER proponente. Di cosa si tratta Il bando finanzia interventi di riqualificazione edilizia su immobili da destinare a servizi abitativi sociali, in locazione permanente, a canoni calmierati inferiori a quelli di mercato. L’obiettivo è quello di ampliare l’offerta di alloggi accessibili, valorizzare il patrimonio pubblico, rigenerare i quartieri residenziali e promuovere l’inclusione sociale ed il mix abitativo. Dotazione finanziaria La dotazione finanziaria complessiva del bando è pari a 35.000.000 euro, a valere sul Fondo per lo Sviluppo e la Coesione (FSC) 2021/2027, Linea di intervento “Promuovere l’accesso ad alloggi sostenibili e a prezzi accessibili”. Caratteristiche dell'agevolazione L’agevolazione consiste nella concessione di un contributo a fondo perduto per interventi edilizi di riqualificazione, restauro, risanamento conservativo o ristrutturazione, finalizzati alla messa a disposizione di alloggi o posti alloggio per servizi abitativi sociali. Il contributo massimo concedibile per ciascuna proposta è pari a 15.000.000 euro. Non sono ammessi progetti con investimento pari o inferiore a 200.000 euro. Il contributo è calcolato sulla superficie utile abitabile, con un costo convenzionale differenziato in base alla durata del vincolo di destinazione a servizi abitativi sociali: 700 euro/mq per 20-21 anni, 800 euro/mq per oltre 21 e fino a 23 anni, 900 euro/mq per oltre 23 anni. È possibile una maggiorazione fino al 20% per elementi di qualità gestionale. Regime di Aiuto di Stato Il contributo è riconducibile alla disciplina europea sugli aiuti di Stato sotto forma di compensazione per obblighi di servizio pubblico, nell’ambito dei Servizi di Interesse Economico Generale (SIEG). I beneficiari devono rispettare gli obblighi di verifica dell’assenza di sovracompensazione ed evitare qualsiasi doppio finanziamento delle medesime spese, anche in caso di cumulo con altri incentivi pubblici, per tutta la durata del servizio abitativo. BURL BURL Serie Ordinaria N.30 del 23 luglio 2026 Azioni Promuovere l’accesso ad alloggi sostenibili e a prezzi accessibili. Come partecipare La domanda deve essere presentata esclusivamente online tramite la piattaforma Bandi e Servizi di Regione Lombardia. a decorrere dalle ore 12:00 del 1° settembre 2026 fino alle ore 12:00 del 30 ottobre 2026. La modulistica è disponibile nella sezione dedicata della piattaforma Bandi e Servizi di Regione Lombardia. La domanda si intende validamente presentata solo a seguito di invio al protocollo e dell’assegnazione del numero identificativo rilasciato dal sistema. Procedura selezione La selezione delle domande avviene mediante procedura valutativa a graduatoria. Le domande sono prima verificate sotto il profilo dell’ammissibilità formale e poi valutate nel merito tecnico, con attribuzione di un punteggio massimo di 100 punti. I contributi sono assegnati in ordine di graduatoria fino a esaurimento delle risorse disponibili. La graduatoria è approvata entro 120 giorni dal termine di presentazione delle domande. In caso di parità di punteggio, sarà data precedenza alla domanda presentata per prima, secondo l’ordine cronologico di protocollazione della domanda. Informazioni e contatti Il bando e i relativi allegati sono pubblicati sul Bollettino Ufficiale di Regione Lombardia (B.U.R.L.), sulla piattaforma Bandi e Servizi e sul sito istituzionale di Regione Lombardia: www.regione.lombardia.it Per informazioni sui contenuti del bando e sugli adempimenti è possibile scrivere a housing_FSC@regione.lombardia.it Per assistenza tecnica alla compilazione della domanda online è disponibile il Call Center al NUMERO VERDE 800.131.151 , dal lunedì al sabato, esclusi i festivi: dalle 8:00 alle 20:00 per quesiti tecnici e dalle 8:30 alle 17:00 per richieste di assistenza tecnica. Allegati Decreto n. 9827 del 21/07/2026 - approvazione bando - 21/07/2026 Bando e allegati parti integranti - 21/07/2026 d.g.r. 6389/2026 - Approvazione schema di convenzione - 29/06/2026 d.g.r. 6209/2026 - Approvazione dei criteri - 25/05/2026 Comuni ATA D.C.R. 30 luglio 2014 N_X456_PRERP 2014_2016 - 23/07/2026 BURL Serie Ordinaria n.30 del 23 luglio 2026 - 23/07/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/avviso-pubblico-esperienze-formative-mobilit-internazionale-favore-studenti-percorsi-iefp-ifts-lombardia-anni-formativi-2025-2026-2026-2027-RLW12025050943": {
+      "id": "RLW12025050943",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/avviso-pubblico-esperienze-formative-mobilit-internazionale-favore-studenti-percorsi-iefp-ifts-lombardia-anni-formativi-2025-2026-2026-2027-RLW12025050943",
+      "contentHash": "d2aef1df9cbb567ff7c950ce21a363243bfcf58c4673e144030fb8202703a7e5",
+      "version": 2,
+      "firstSeenAt": "2026-09-01T14:34:34+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Avviso pubblico per esperienze formative di mobilità internazionale, a favore degli studenti dei Percorsi IeFP e IFTS della Lombardia: anni formativi 2025/2026 e 2026/2027",
+        "source": "Regione Lombardia",
+        "deadline": "2027-03-01",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "avviso",
+          "pubblico",
+          "esperienze",
+          "formative",
+          "mobilità",
+          "internazionale",
+          "codice",
+          "lombardia",
+          "sostiene",
+          "progetti",
+          "attraverso",
+          "estero",
+          "consolidamento",
+          "reti",
+          "collabor"
+        ],
+        "sectors": [
+          "chiude",
+          "avviso",
+          "pubblico",
+          "esperienze",
+          "formative",
+          "mobilità",
+          "internazionale",
+          "codice"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/avviso-pubblico-esperienze-formative-mobilit-internazionale-favore-studenti-percorsi-iefp-ifts-lombardia-anni-formativi-2025-2026-2026-2027-RLW12025050943",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Progetti per le scuole / Avviso pubblico per esperienze formative di mobilità internazionale, a favore degli studenti dei Percorsi IeFP e IFTS della Lombardia: anni formativi 2025/2026 e 2026/2027 Aperto Avviso pubblico per esperienze formative di mobilità internazionale, a favore degli studenti dei Percorsi IeFP e IFTS della Lombardia: anni formativi 2025/2026 e 2026/2027 Codice: RLW12025050943 Pubblicato il: 01/09/2026 , ore 11:56 Domande dal: 01/09/2026 , ore 12:00 Scade il: 01/03/2027 , ore 12:00 Regione Lombardia sostiene i progetti di mobilità internazionale attraverso esperienze formative all’estero e il consolidamento di reti di collaborazione e scambio tra Enti. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050943 Pubblicato il: 01/09/2026 , ore 11:56 Domande dal: 01/09/2026 , ore 12:00 Scade il: 01/03/2027 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per l’anno scolastico e formativo 2026/2027, a partire dal 1° settembre 2026 ore 12.00 , potranno presentare domanda sul Sistema informativo Bandi e Servizi ( www.bandi.regione.lombardia.it ): le Istituzioni formative accreditate nella Sezione “A” dell’Albo regionale di cui all’articolo 25 della legge regionale n. 19/2007 e gli Istituti professionali di Stato che realizzano Percorsi di IeFP in regime di sussidiarietà ai sensi dell’Accordo Territoriale del 4 agosto 2022, come rinnovato con DGR n. 4732 del 14 luglio 2025, tra Regione Lombardia ed Ufficio Scolastico Regionale per la Lombardia; le Istituzioni scolastiche e gli Enti formativi accreditati capofila di ATS (Associazione Temporanea di Scopo), esclusivamente nei casi di attivazione di Percorsi di IFTS; le Fondazioni ITS Academy, costituite ai sensi del DPCM 25 gennaio 2008, aventi sede in Lombardia, esclusivamente nei casi di attivazione di Percorsi IFTS. Di cosa si tratta Con decreto n. 12874 del 19 settembre 2025 è stato approvato l’Avviso pubblico “ Esperienze formative di mobilità internazionale a favore degli studenti dei Percorsi di IeFP e IFTS della Lombardia – anni formativi 2025/2026 e 2026/2027”, finalizzato a promuovere progetti di mobilità internazionale destinati agli studenti dell’IeFP e dell’IFTS e per favorire la costruzione di reti di relazioni e di collaborazione degli Enti formativi, delle istituzioni scolastiche con soggetti formativi e realtà aziendali estere. L’iniziativa per il biennio 2025/2026 e 2026/2027 si articola quindi in due Linee di azione: Linea A – Progetti di mobilità internazionale: finalizzata al sostegno di Progetti formativi all’estero per gli studenti frequentanti un Percorso IeFP o IFTS; Linea B – Azioni a supporto della mobilità internazionale: finalizzata al rimborso di missioni ed iniziative dedicate alla partecipazione a reti di collaborazione e di scambio con Enti formativi, nel quadro delle relazioni internazionali istituzionali di Regione Lombardia; Per l’anno scolastico e formativo 2026/2027, a partire dal 1° settembre 2026 ore 12.00 , potranno presentare domanda sul Sistema informativo Bandi e Servizi ( www.bandi.regione.lombardia.it ): le Istituzioni formative accreditate nella Sezione “A” dell’Albo regionale di cui all’articolo 25 della legge regionale n. 19/2007 e gli Istituti professionali di Stato che realizzano Percorsi di IeFP in regime di sussidiarietà ai sensi dell’Accordo Territoriale del 4 agosto 2022, come rinnovato con DGR n. 4732 del 14 luglio 2025, tra Regione Lombardia ed Ufficio Scolastico Regionale per la Lombardia; le Istituzioni scolastiche e gli Enti formativi accreditati capofila di ATS (Associazione Temporanea di Scopo), esclusivamente nei casi di attivazione di Percorsi di IFTS; le Fondazioni ITS Academy, costituite ai sensi del DPCM 25 gennaio 2008, aventi sede in Lombardia, esclusivamente nei casi di attivazione di Percorsi IFTS. Dotazione finanziaria 2.000.000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL - Azioni - Come partecipare - Procedura selezione Procedura valutativa a sportello Informazioni e contatti - Allegati DDS 12874 del 19.09.2025 Approvazione Avviso - 19/09/2025 DDS 12874/25 Allegati Mobilita internazionale 2025-2027 - 19/09/2025"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autorizzazione-ambientali/centri-dati-RLT12026055189": {
+      "id": "RLT12026055189",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autorizzazione-ambientali/centri-dati-RLT12026055189",
+      "contentHash": "b8f9b1003c9d9c8c00fcbab8d1652cf612cd97e98fb9c6431d487dfd93dc98e0",
+      "version": 2,
+      "firstSeenAt": "2026-09-01T14:34:34+02:00",
+      "lastChangedAt": "2026-09-01T14:34:41+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "PU DATACENTER - Procedimento Unico per l’Autorizzazione Unica di Centri Dati di cui all'articolo 8 del Decreto-Legge 20 febbraio 2026, n. 21, convertito con modificazioni dalla Legge 10 aprile 2026, n. 49",
+        "source": "Regione Lombardia",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "datacenter",
+          "procedimento",
+          "unico",
+          "autorizzazione",
+          "unica",
+          "centri",
+          "procedimenti",
+          "amministrativi",
+          "codice",
+          "servizio",
+          "consente",
+          "presentare",
+          "modalità",
+          "telematica",
+          "istanze",
+          "rilascio",
+          "autorizzazioni",
+          "relative"
+        ],
+        "sectors": [
+          "datacenter",
+          "procedimento",
+          "unico",
+          "autorizzazione",
+          "unica",
+          "centri",
+          "procedimenti",
+          "amministrativi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autorizzazione-ambientali/centri-dati-RLT12026055189",
+        "discoveryText": "Procedimenti / Ambiente e Territorio / Autorizzazione ambientali / PU DATACENTER - Procedimento Unico per l’Autorizzazione Unica di Centri Dati di cui all'articolo 8 del Decreto-Legge 20 febbraio 2026, n. 21, convertito con modificazioni dalla Legge 10 aprile 2026, n. 49 Aperto PU DATACENTER - Procedimento Unico per l’Autorizzazione Unica di Centri Dati di cui all'articolo 8 del Decreto-Legge 20 febbraio 2026, n. 21, convertito con modificazioni dalla Legge 10 aprile 2026, n. 49 Codice: RLT12026055189 Pubblicato il: 31/08/2026 , ore 16:32 Domande dal: 01/09/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Il servizio Procedimento Unico (PU) consente di presentare in modalità telematica le istanze per il rilascio delle autorizzazioni relative alla realizzazione, all'ampliamento e all'esercizio dei centri dati (Data Center) e delle relative reti di connessione. Il procedimento, introdotto dall'articolo 8 del Decreto-Legge 20 febbraio 2026, n. 21 e convertito con modificazioni dalla Legge 10 aprile 2026, n. 49, è disciplinato dalla L.R. Lombardia 3 giugno 2026, n. 11 e dalle Deliberazioni di Regione Lombardia del 3 agosto 2026, n. 6645 e 6646. Il servizio è disponibile sulla piattaforma Bandi e Servizi di Regione Lombardia, in coerenza con la normativa regionale e nazionale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLT12026055189 Pubblicato il: 31/08/2026 , ore 16:32 Domande dal: 01/09/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domande di Procedimento Unico tutti i soggetti interessati alla realizzazione o modifica di un centro dati, soggetti ad AIA, ossia con impianti di combustione (gruppi elettrogeni/ motori di emergenza) di potenza termica nominale totale pari o superiore a 50 MW e inferiore a 300 MWt (Allegato VIII alla Parte II del D.Lgs. 152/2006 – categoria 1.1.) sul territorio della Regione Lombardia. L’Ente competente al rilascio dell’autorizzazione è, di norma, Regione Lombardia. Fanno eccezione i centri dati considerati di interesse strategico nazionale, ai sensi dell’articolo 13 del decreto-legge 10 agosto 2023, n. 104, convertito con modificazioni dalla L. 9 ottobre 2023, n. 136 (in tal caso con nomina di un commissario straordinario di Governo). Si ricorda che sono invece esclusi dal PU i casi in cui: la potenza dei gruppi elettrogeni sia tale da non determinare l’assoggettamento ad AIA (potenza inferiore ai 50 MWt), oppure non siano presenti attività soggette ad AIA (quali la presenza di gruppi elettrogeni), In tal caso, ai fini della realizzazione degli stessi dovranno essere acquisiti i vari titoli/autorizzazioni previsti dalle normative settoriali (a titolo meramente esemplificativo AUA o autorizzazione ex art. 272 c.2 del d.lgs 152/2006, titoli edilizi) rilasciati dalle rispettive Autorità competenti, espletate le eventuali valutazioni preliminari (verifica di VIA/VIA). Di cosa si tratta Il servizio Procedimento Unico (PU) consente di presentare in modalità telematica le istanze per il rilascio dell’autorizzazione unica per la realizzazione, l'ampliamento e l'esercizio dei centri dati (Data Center) nonché delle relative reti di connessione di utenza, di qualunque tensione. La procedura comprende anche gli interventi di modifica, potenziamento e rifacimento totale o parziale degli impianti, nonché la realizzazione delle opere connesse e delle infrastrutture indispensabili al loro esercizio. Il servizio è stato adeguato alle disposizioni dell'articolo 8 del Decreto-Legge 20 febbraio 2026, n. 21 (così detto “Decreto Bollette”), convertito con modificazioni dalla Legge 10 aprile 2026, n. 49, recepite da Regione Lombardia con L.R. Lombardia 3 giugno 2026, n. 11, e dalle Deliberazioni di Regione Lombardia del 3 agosto 2026, n. 6645 e 6646, con l’obiettivo di semplificare e rendere omogenee le modalità di presentazione e gestione dei regimi amministrativi relativi ai centri dati. La presentazione delle pratiche avviene esclusivamente in modalità telematica ed è gestita tramite la piattaforma Bandi e Servizi, lo strumento regionale che consente la cooperazione tra i diversi enti coinvolti, la standardizzazione dei procedimenti, la tracciabilità delle informazioni e il monitoraggio delle attività economiche e produttive. Una volta presentata la domanda, il sistema trasmette automaticamente la pratica all’Autorità Competente per territorio, lo ‘Sportello regionale per i centri dati’ individuato presso la Direzione Generale Ambiente e Clima, che avvia l’iter istruttorio previsto dalla normativa. Termine di conclusione del procedimento: entro 10 mesi dall’avvio del Procedimento Unico, prorogabile in casi eccezionali legati alla complessità o portata del progetto, per un massimo di ulteriori tre mesi . Come partecipare Per utilizzare il servizio PU è necessario accedere tramite la piattaforma Bandi e Servizi, completando i seguenti passaggi preliminari: Registrazione alla piattaforma Bandi e Servizi, utilizzando le credenziali SPID, CIE o CNS. Profilazione dell’utente, attraverso la creazione di un profilo coerente con la categoria di appartenenza (Persona giuridica). La corretta profilazione è indispensabile per poter presentare una pratica PU. Una volta completata la registrazione e la profilazione, l’utente può procedere con la compilazione della domanda PU in modalità digitale, accedendo alla sezione dedicata, inserendo nel campo di ricerca il titolo PU DATACENTER, o, in alternativa, il codice RLT12026055189 , potendo così allegare la documentazione richiesta e inviare l’istanza all’Autorità Competente tramite la piattaforma. La piattaforma permette inoltre di seguire lo stato di avanzamento della pratica, ricevere comunicazioni ufficiali e consultare i documenti trasmessi e ricevuti. Per maggiori dettagli sulle modalità di autenticazione e profilazione è possibile consultare la sezione AIUTO accessibile dalla Home page della piattaforma tramite il collegamento disponibile in alto a destra, o rivolgendosi all’assistenza tecnica/informatica. Informazioni e contatti Per quesiti di carattere normativo/procedurale, è possibile rivolgersi alla casella sportello_datacenter@regione.lombardia. Per assistenza tecnico-informatica per l’utilizzo dell’applicativo BES, si prega di scrivere a bandi@regione.lombardia.it oppure di contattare il Numero verde 800.131.151, a cui operatori specializzati rispondono dal lunedì al sabato, dalle 08.00 alle 20.00, esclusi i festivi. Allegati Legge regionale 3 giugno 2026 - n. 11 Disposizioni in materia di insediamento di centri dati - 03/06/2026 DEFINIZIONE DELLE PRIORITÀ INSEDIATIVE ED ENERGETICO-AMBIENTALI DEI CENTRI DATI, DELL’APPLICAZIONE DELLE MISURE PREMIALI E DEI CONTENUTI DELLA RELAZIONE ENERGETICA AI SENSI DEGLI ARTT. 2 C. 2, 3 C. 1 E 4 C. 5 E 6, DELLA LEGGE REGIONALE 3 GIUGNO 2026, N. 11 \"DISPOSIZIONI IN MATERIA DI INSEDIAMENTO DI CENTRI DATI\" - 03/08/2026 LINEE DI INDIRIZZO TECNICO-AMMINISTRATIVO PER LA GESTIONE DEI PROCEDIMENTI UNICI VOLTI AL RILASCIO DELLE AUTORIZZAZIONI AI CENTRI DATI (O DATA CENTER), AI SENSI DELL’ART. 4 COMMA 8 DELLA LEGGE REGIONALE 3 GIUGNO 2026, N. 11 ‘DISPOSIZIONI IN MATERIA DI INSEDIAMENTO DI CENTRI DATI’ - 03/08/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-01T14:34:41+02:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-01T08:35:27+02:00",
+  "triageUpdatedAt": "2026-09-01T14:34:41+02:00",
   "triageSummary": {
     "rulesResolved": 8,
     "rulesExcludedForEts": 0,
-    "aiRequired": 5,
-    "notPresent": 3,
+    "aiRequired": 4,
+    "notPresent": 8,
     "ruleVersion": 3
   }
 }
