@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-01T20:31:50+02:00",
+  "catalogUpdatedAt": "2026-09-02T02:36:38+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -980,7 +980,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -1116,7 +1116,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -1256,7 +1256,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -1394,7 +1394,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -1530,7 +1530,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -1988,9 +1988,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2091,7 +2091,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -2100,9 +2100,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2204,7 +2204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -2325,9 +2325,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autorizzazione-ambientali/centri-dati-RLT12026055189",
       "contentHash": "b8f9b1003c9d9c8c00fcbab8d1652cf612cd97e98fb9c6431d487dfd93dc98e0",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2430,7 +2430,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     },
@@ -2439,9 +2439,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-01T20:31:50+02:00",
+      "lastChangedAt": "2026-09-02T02:36:38+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2545,12 +2545,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-01T20:31:51+02:00"
+        "evaluatedAt": "2026-09-02T02:36:38+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-01T20:31:51+02:00",
+  "triageUpdatedAt": "2026-09-02T02:36:38+02:00",
   "triageSummary": {
     "rulesResolved": 8,
     "rulesExcludedForEts": 0,
