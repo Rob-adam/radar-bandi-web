@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-04T08:34:04+02:00",
+  "catalogUpdatedAt": "2026-09-04T14:34:44+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -852,14 +852,16 @@
       "id": "PIE-AUTO-4B878C02EDB9",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-orientamento-precoce-sostegno-prime-transizioni-periodo-2026-2028",
-      "contentHash": "9f34552313bf4baa163c287b77b6d932d9bc333bd23cb0f638194404cf4cfcdd",
-      "version": 9,
+      "contentHash": "1bf30592104f0d37dcf5f7cece1daca6ba4670776ab93bb5f6bd93adec42967d",
+      "version": 10,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:37+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "discoveryText"
+        "discoveryText",
+        "eligibility",
+        "keywords"
       ],
       "needsAnalysis": false,
       "snapshot": {
@@ -875,7 +877,7 @@
           "piemonte"
         ],
         "eligibility": [
-          "Requisiti da verificare nella fonte ufficiale"
+          "Requisiti estratti dalla fonte ufficiale e da verificare nel dettaglio"
         ],
         "keywords": [
           "azioni",
@@ -886,7 +888,6 @@
           "transizioni",
           "periodo",
           "bandi",
-          "piemonte",
           "salta",
           "contenuto",
           "principale",
@@ -897,7 +898,8 @@
           "facebook",
           "youtube",
           "linkedin",
-          "instagram"
+          "instagram",
+          "whatsapp"
         ],
         "sectors": [
           "azioni",
@@ -934,7 +936,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-orientamento-precoce-sostegno-prime-transizioni-periodo-2026-2028",
         "sourceStatus": "aperto",
-        "discoveryText": "Azioni di orientamento precoce e a sostegno delle prime transizioni - Periodo 2026-2028 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Avviso regionale “Azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, in attuazione dell’Atto di indirizzo “Sistema regionale di orientamento permanente: azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, approvato con D.G.R. n. 4-2728 del 26/06/2026. Domande dal Mar, 18/08/2026 - 12:00 Scadenza Ven, 18/09/2026 - 11:00 Temi Altro Rivolto a Cittadini Enti pubblici Imprese e liberi professionisti Terzo settore Risorse Fse Plus Procedura Bando Il presente avviso è finalizzato all’attuazione dell’Intervento “Azioni di orientamento precoce e a sostegno delle prime transizioni”, previsto dall’Atto di indirizzo “Sistema regionale di orientamento permanente: azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, di cui alla D.G.R. n. 4-2728 del 26/06/2026 e ha la finalità di sostenere – attraverso attività di carattere orientativo dirette all’utenza e azioni di supporto al coordinamento, alla progettazione e al lavoro di rete – i bambini, gli adolescenti, i giovani e le loro famiglie nei percorsi di scelta e prime transizioni tra i sistemi (secondaria di 1° e 2° grado, formazione professionale, università, mercato del lavoro). Chi può partecipare Raggruppamenti temporanei (R.T.) composti da operatori accreditati per l’orientamento appartenenti alle seguenti tipologie: Enti con finalità statutaria di orientamento professionale (art. 5 L.R. n. 63 del 13/04/1995); Agenzie formative (art. 11 lettere a) b) c) della L.R. n. 63 del 13/04/1995), inclusa Città Studi S.p.A. Dotazione finanziaria Euro 11.000.000,00 – risorse PR FSE+ 2021/2027 Come presentare domanda La domanda dovrà essere presentata esclusivamente attraverso l’applicativo “Presentazione domanda” disponibile sul portale “Servizi on line” della Regione Piemonte all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom La domanda, una volta compilata in tutte le sue parti, corredata dagli allegati previsti e regolarizzata ai sensi della normativa vigente in materia di imposta di bollo, dovrà essere firmata digitalmente dal legale rappresentante o dal procuratore speciale e inviata tramite FLAIDOM all’Amministrazione regionale entro le ore 11 del 18 settembre 2026. Non deve essere consegnata alcuna documentazione su supporto cartaceo presso gli uffici regionali né inviata alcuna PEC. Struttura di riferimento Direzione A1500B – Istruzione e Diritto allo Studio Universitario, Formazione e Lavoro Settore A1504D - Standard Formativi e Orientamento Permanente Contatti Ufficio Orientamento Permanente: Raffaella Nervi – raffaella.nervi@regione.piemonte.it - 011/4322291 Giuliana Leidi – giuliana.leidi@regione.piemonte.it - 0131/285008 Allegato testo procedura DD di approvazione del bando Documento PDF - 218.44 KB Testo del bando Documento PDF - 958.5 KB Allegato B - Linee guida regionali orientamento permanente 2026-2028 Documento PDF - 11.7 MB Allegato C - Manuale per la valutazione ex ante delle proposte progettuali Documento PDF - 337.34 KB Allegato A.1 Formulario Documento Word - 113.9 KB Allegato A.2 Dichiarazione esperienza professionale Documento Word - 81.36 KB Allegato A.3.1 Lettera adesione a rete territoriale Documento Word - 73.99 KB Allegato A.3.2 Lettera adesione a rete territoriale istituzioni scolastiche Documento Word - 72.84 KB Allegato A.3.3 Prospetto componenti Documento Word - 72.81 KB Allegato A.5 Prospetto progetti Documento Word - 72.41 KB"
+        "discoveryText": "Azioni di orientamento precoce e a sostegno delle prime transizioni - Periodo 2026-2028 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Azioni di orientamento precoce e a sostegno delle prime transizioni - Periodo 2026-2028 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Avviso regionale “Azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, in attuazione dell’Atto di indirizzo “Sistema regionale di orientamento permanente: azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, approvato con D.G.R. n. 4-2728 del 26/06/2026. Domande dal Mar, 18/08/2026 - 12:00 Scadenza Ven, 18/09/2026 - 11:00 Temi Altro Rivolto a Cittadini Enti pubblici Imprese e liberi professionisti Terzo settore Risorse Fse Plus Procedura Bando Il presente avviso è finalizzato all’attuazione dell’Intervento “Azioni di orientamento precoce e a sostegno delle prime transizioni”, previsto dall’Atto di indirizzo “Sistema regionale di orientamento permanente: azioni di orientamento precoce e a sostegno delle prime transizioni” - Periodo 2026-2028, di cui alla D.G.R. n. 4-2728 del 26/06/2026 e ha la finalità di sostenere – attraverso attività di carattere orientativo dirette all’utenza e azioni di supporto al coordinamento, alla progettazione e al lavoro di rete – i bambini, gli adolescenti, i giovani e le loro famiglie nei percorsi di scelta e prime transizioni tra i sistemi (secondaria di 1° e 2° grado, formazione professionale, università, mercato del lavoro). Chi può partecipare Raggruppamenti temporanei (R.T.) composti da operatori accreditati per l’orientamento appartenenti alle seguenti tipologie: Enti con finalità statutaria di orientamento professionale (art. 5 L.R. n. 63 del 13/04/1995); Agenzie formative (art. 11 lettere a) b) c) della L.R. n. 63 del 13/04/1995), inclusa Città Studi S.p.A. Dotazione finanziaria Euro 11.000.000,00 – risorse PR FSE+ 2021/2027 Come presentare domanda La domanda dovrà essere presentata esclusivamente attraverso l’applicativo “Presentazione domanda” disponibile sul portale “Servizi on line” della Regione Piemonte all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom La domanda, una volta compilata in tutte le sue parti, corredata dagli allegati previsti e regolarizzata ai sensi della normativa vigente in materia di imposta di bollo, dovrà essere firmata digitalmente dal legale rappresentante o dal procuratore speciale e inviata tramite FLAIDOM all’Amministrazione regionale entro le ore 11 del 18 settembre 2026. Non deve essere consegnata alcuna documentazione su supporto cartaceo presso gli uffici regionali né inviata alcuna PEC. Struttura di riferimento Direzione A1500B – Istruzione e Diritto allo Studio Universitario, Formazione e Lavoro Settore A1504D - Standard Formativi e Orientamento Permanente Contatti Ufficio Orientamento Permanente: Raffaella Nervi – raffaella.nervi@regione.piemonte.it - 011/4322291 Giuliana Leidi – giuliana.leidi@regione.piemonte.it - 0131/285008 Allegato testo procedura DD di approvazione del bando Documento PDF - 218.44 KB Testo del bando Documento PDF - 958.5 KB Allegato B - Linee guida regionali orientamento permanente 2026-2028 Documento PDF - 11.7 MB Allegato C - Manuale per la valutazione ex ante delle proposte progettuali Documento PDF - 337.34 KB Allegato A.1 Formulario Documento Word - 113.9 KB Allegato A.2 Dichiarazione esperienza professionale Documento Word - 81.36 KB Allegato A.3.1 Lettera adesione a rete territoriale Documento Word - 73.99 KB Allegato A.3.2 Lettera adesione a rete territoriale istituzioni scolastiche Documento Word - 72.84 KB Allegato A.3.3 Prospetto componenti Documento Word - 72.81 KB Allegato A.5 Prospetto progetti Documento Word - 72.41 KB Menu strumenti Agevolazioni imprese Bandi Enti Locali Bollettino Ufficiale Osservatorio lavori pubblici SCR Finpiemonte Contatti Sede Istituzionale Piazza Piemonte 1 Torino 011 432 1111 (Centralino) Partita Iva 02843860012 Codice fiscale 80087670016 URP Via Arsenale 14/G, Torino tel. 011-4321647 fax 011-4323683 urp@regione.piemonte.it Call Center Numero verde da fisso 800 333 444 da cellulare ed estero 011 08 24 222 dal lunedì al venerdì dalle ore 8:00 alle 18:00 Impostazione cookie seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Menu footer Dichiarazione di accessibilità Note legali e privacy Cookie policy Loghi ufficiali Redazione e feedback Posta elettronica certificata Intranet Tutti Contributi e finanziamenti Gare d'appalto Nomine Concorsi, incarichi e stage Avvisi pubblici e per beni regionali"
       },
       "triage": {
         "status": "rules-resolved",
@@ -961,7 +963,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -1097,7 +1099,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -1237,7 +1239,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -1375,7 +1377,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1513,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -1969,9 +1971,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2072,7 +2074,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -2081,9 +2083,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2185,7 +2187,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -2306,9 +2308,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autorizzazione-ambientali/centri-dati-RLT12026055189",
       "contentHash": "b8f9b1003c9d9c8c00fcbab8d1652cf612cd97e98fb9c6431d487dfd93dc98e0",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2411,7 +2413,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -2420,9 +2422,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-04T08:34:04+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2526,7 +2528,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -2670,39 +2672,21 @@
       "id": "PIE-AUTO-EBDB37A47A02",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-investimenti-irrigui-srd02-azione-c-bando-2026",
-      "contentHash": "7c2bd3ede364971f044828be213aeed58de211c7ed73d15507f27488e9c4c9ec",
-      "version": 1,
+      "contentHash": "fec8184e1709afd4980b2204d09babac6116988dd448bbeceb5e06cea662089f",
+      "version": 2,
       "firstSeenAt": "2026-09-03T14:35:12+02:00",
-      "lastChangedAt": "2026-09-03T14:35:12+02:00",
+      "lastChangedAt": "2026-09-04T14:34:37+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "title",
-        "source",
         "deadline",
-        "fund",
-        "maxGrant",
-        "aid",
-        "tags",
-        "eligibility",
-        "keywords",
-        "sectors",
-        "beneficiaries",
-        "activities",
-        "purposes",
-        "territories",
-        "legalForms",
-        "hardRequirements",
-        "hardKeyword",
-        "sourceUrl",
-        "sourceStatus",
         "discoveryText"
       ],
       "needsAnalysis": false,
       "snapshot": {
         "title": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026",
         "source": "Regione Piemonte · Bandi",
-        "deadline": "2026-10-03",
+        "deadline": "2026-10-30",
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -2771,7 +2755,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-investimenti-irrigui-srd02-azione-c-bando-2026",
         "sourceStatus": "aperto",
-        "discoveryText": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Piano Strategico della PAC (PSP) 2023-2027. Complemento Regionale per lo Sviluppo Rurale (CSR 2023-2027). Bando SRD02C/3/2026. SRD02 - Azione C - Investimenti irrigui Domande dal Gio, 03/09/2026 - 00:00 Scadenza Sab, 03/10/2026 - 23:59 Temi Agricoltura Rivolto a Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L’azione C Investimenti irrigui prevede un sostegno per investim"
+        "discoveryText": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Piano Strategico della PAC (PSP) 2023-2027. Complemento Regionale per lo Sviluppo Rurale (CSR 2023-2027). Bando SRD02C/3/2026. SRD02 - Azione C - Investimenti irrigui Domande dal Gio, 03/09/2026 - 00:00 Scadenza Ven, 30/10/2026 - 23:59 Temi Agricoltura Rivolto a Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L’azione C Investimenti irrigui prevede un sostegno per investim"
       },
       "triage": {
         "status": "rules-resolved",
@@ -2798,7 +2782,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     },
@@ -2934,14 +2918,131 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-04T08:34:04+02:00"
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-sostegno-agli-investimenti-vivaisti-legge-n-2062023-disposizioni-organiche-valorizzazione": {
+      "id": "PIE-AUTO-6B27D1FBE977",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-sostegno-agli-investimenti-vivaisti-legge-n-2062023-disposizioni-organiche-valorizzazione",
+      "contentHash": "977aba9a1847ae81d9eada0f166960b78ef221c7989e8684d4bbdcf48489c17a",
+      "version": 2,
+      "firstSeenAt": "2026-09-04T14:34:37+02:00",
+      "lastChangedAt": "2026-09-04T14:34:44+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Bando per il sostegno agli investimenti per la vivaisti. Legge n. 206/2023 “Disposizioni organiche per la valorizzazione, la promozione e la tutela del made in Italy”, articolo 8. Decreto interministeriale del 20 febbraio 2025, articoli 5 e 6",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-09-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "sostegno",
+          "agli",
+          "investimenti",
+          "vivaisti",
+          "legge",
+          "disposizioni",
+          "organiche",
+          "valorizzazione",
+          "promozione",
+          "tutela",
+          "made",
+          "italy",
+          "articolo",
+          "decreto",
+          "interministeriale",
+          "febbraio",
+          "articoli",
+          "bandi",
+          "piemonte",
+          "salta"
+        ],
+        "sectors": [
+          "sostegno",
+          "agli",
+          "investimenti",
+          "vivaisti",
+          "legge",
+          "disposizioni",
+          "organiche",
+          "valorizzazione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-sostegno-agli-investimenti-vivaisti-legge-n-2062023-disposizioni-organiche-valorizzazione",
+        "sourceStatus": "aperto",
+        "discoveryText": "Bando per il sostegno agli investimenti per la vivaisti. Legge n. 206/2023 “Disposizioni organiche per la valorizzazione, la promozione e la tutela del made in Italy”, articolo 8. Decreto interministeriale del 20 febbraio 2025, articoli 5 e 6 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Il bando è rivolto all’ammodernamento dei processi di produzione di materiali forestali di moltiplicazione attraverso investimenti da parte di aziende vivaistiche forestali e realizzazione di strutture aziendali, incremento del parco macchine e attrezzature nonché introduzione di innovazione tecnica e gestionale. Domande dal Gio, 25/06/2026 - 23:00 Scadenza Mer, 30/09/2026 - 18:00 Temi Ambiente e Territorio Rivolto a Cittadini Enti pubblici Imprese e liberi professionisti Terzo settore Risorse Risorse regionali Procedura Bando Gli interventi ammissibili sono elencati all’interno del bando, in particolare saranno riconosciute a contributo le spese relative a: Acquisto e installazione di celle climatizzate e impianti per la conservazione del MFM; Realizzazione di impianti di raffrescamento, riscaldamento, irrigazione; Miglioramento, rinnovo e ripristino degli impianti irrigui esistenti; Costruzione, miglioramento, ristrutturazione di serre, ombrai e tunnel; Acquisto di macchinari e attrezzature mobili per coltivazione o confezionamento del MFM; Investimenti immateriali collegati al miglioramento dei processi produttivi. Sono finanziabili interventi localizzati all’interno del territorio regionale. Il contributo è concedibile in una misura del 65% delle spese sostenute, a fronte di una spesa minima ammissibile per ciascuna domanda di € 25.000,00 e di una spesa massima di € 120.000,00. Chi può partecipare Potranno presentare domanda i soggetti iscritti al Registro ufficiale dei produttori di materiali forestali del Piemonte , consultabile al link: https://www.regione.piemonte.it/web/temi/ambiente-territorio/foreste/vivai-operai-forestali/risorse-genetiche-forestali-vivaistica Dotazione finanziaria La dotazione finanziaria del presente bando è pari a € 378.289,29. Come presentare domanda La domanda dovrà essere inviata a mezzo posta elettronica certificata (PEC) con il seguente oggetto: “Istanza nome soggetto - Bando MIMIT investimenti per la vivaistica forestale” all’ indirizzo PEC: foreste@cert.regione.piemonte.it , redatta su modello dell’Allegato B e completa di tutti gli allegati come previsto al par. C.2 del Bando; In seguito alla verifica dei requisiti da parte del Settore Foreste verrà pubblicata la graduatoria dei soggetti ammessi a finanziamento. Struttura di riferimento Direzione A1600A - Ambiente, energia e territorio Settore A1614A – Foreste Contatti Lorenzo Camoriano Email lorenzo.camoriano@regione.piemonte.it Elisa Catalano Email elisa.catalano@ regione.piemonte. it Allegato testo procedura DD-A16_462 18.6.2026.pdf Documento PDF - 101.45 KB DD-462_2026 - Allegato 1.pdf Documento PDF - 679.59 KB Altri allegati Allegato H - Quadro economico application/vnd.oasis.opendocument.spreadsheet - 30.5 KB Tabella punteggi application/vnd.oasis.opendocument.spreadsheet - 25.3 KB FAQ Bando MIMIT Vivaistica forestale Documento PDF - 108.17 KB Sono disponibili le FAQ relative al bando MIMIT per gli investimenti per la vivaistica forestale."
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-04T14:34:44+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-04T08:34:04+02:00",
+  "triageUpdatedAt": "2026-09-04T14:34:44+02:00",
   "triageSummary": {
-    "rulesResolved": 10,
+    "rulesResolved": 11,
     "rulesExcludedForEts": 0,
     "aiRequired": 4,
     "notPresent": 10,
