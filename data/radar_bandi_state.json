@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-09T14:36:08+02:00",
+  "catalogUpdatedAt": "2026-09-09T20:33:17+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 104,
+      "version": 106,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 104,
+      "version": 106,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -963,7 +963,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1099,7 +1099,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1239,7 +1239,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1377,7 +1377,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1513,7 +1513,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1971,9 +1971,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2074,7 +2074,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -2083,9 +2083,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2187,7 +2187,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -2422,9 +2422,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2528,7 +2528,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -2782,7 +2782,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-08T20:33:53+02:00"
@@ -3045,9 +3045,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3148,7 +3148,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -3157,9 +3157,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3257,7 +3257,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     },
@@ -3266,9 +3266,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-realizzazione-dei-percorsi-formativi-apprendistato-alta-formazione-ricerca-validita",
       "contentHash": "3240e968dba028f1cc3e2a4d33dad819764057efd9612f171871abb6ca64d79a",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T14:36:08+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3375,14 +3375,131 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T14:36:08+02:00"
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0": {
+      "id": "PIE-AUTO-D548C5F5F78F",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0",
+      "contentHash": "914bef92ad1addcb93d034af27a6c8ccc31f470b63a71cab8b3b6719ff5c6b08",
+      "version": 2,
+      "firstSeenAt": "2026-09-09T20:33:09+02:00",
+      "lastChangedAt": "2026-09-09T20:33:17+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "CSR 2023-2027. Partecipazione a regimi di qualità (SRG03)",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-31",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "partecipazione",
+          "regimi",
+          "qualità",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube",
+          "linkedin",
+          "instagram",
+          "whatsapp",
+          "ricerca",
+          "start",
+          "searching"
+        ],
+        "sectors": [
+          "partecipazione",
+          "regimi",
+          "qualità",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0",
+        "sourceStatus": "aperto",
+        "discoveryText": "CSR 2023-2027. Partecipazione a regimi di qualità (SRG03) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L'operazione sostiene con una sovvenzione a fondo perduto concesso sotto forma di pagamento annuale i costi riferiti all’anno solare per la partecipazione ai regimi di qualità istituiti dall’UE e ai sistemi di qualità nazionali e regionali: • delle aziende agricole in forma singola • delle associazioni e altri organismi di tipo associativo o cooperativo che devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Domande dal Lun, 20/04/2026 - 17:00 Scadenza Sab, 31/10/2026 - 23:59 Riferimento Bollettino Ufficiale Bollettino Ufficiale Regione Piemonte Temi Agricoltura Rivolto a Cittadini Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L'operazione sostiene gli agricoltori e loro associazioni che partecipano ai regimi di qualità: - DOP, IGP, STG; DOC, DOCG; - indicazioni geografiche delle bevande spiritose; - vini aromatizzati, bevande aromatizzate a base di vino e dei cocktail aromatizzati di prodotti vitivinicoli; - BIOLOGICO; - sistema di qualità nazionale per la zootecnia (SQNZ); - sistema di qualità nazionale di produzione integrata (SQNPI); - sistema di qualità nazionale per il benessere animale (SQNBA); - regimi facoltativi di certificazione dei prodotti agricoli etico - sociali elencati nel bando. Rettifiche Determinazione di apertura domande di sostegno Documento PDF - 102.92 KB Chi può partecipare Il presente bando è riservato alle aziende singole o forme associative degli agricoltori di nuova costituzione o già esistenti, di qualsiasi natura giuridica, che aderiscono a regimi di qualità istituiti dall’Unione Europea, dallo Stato membro e dalle Regioni. L'imprenditore agricolo e gli agricoltori che fanno parte delle forme associative, per poter essere i destinatari finali dell'intervento, devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Le OP, AOP e i Consorzi di tutela devono essere riconosciuti ai sensi della pertinente normativa nazionale e regionale. Nel caso di domanda presentata “in approccio collettivo” per associazioni di agricoltori si intendono forme associative che raggruppano, ancorché in forma non esclusiva, agricoltori che partecipano per la prima volta ai regimi di qualità dei prodotti agricoli e alimentari: organizzazioni di produttori e loro associazioni, riconosciute; organizzazioni interprofessionali riconosciute; gruppi definiti all’art. 3, comma 2, del Reg. UE 1151/2012, compresi i consorzi di tutela delle Dop, Igp e Stg riconosciuti ai sensi della normativa nazionale art. 53 della legge 128/1998 come sostituito dall’art. 14 della legge 526/1999 associazioni di qualsiasi natura giuridica, compresi i consorzi di tutela vitivinicoli riconosciuti ai sensi della normativa nazionale art. 41 della legge n. 238/2016; associazioni di produttori biologici e loro raggruppamenti; associazioni di produttori agricoli costituite ai sensi della normativa nazionale; cooperative agricole e loro consorzi; gruppi o associazioni di produttori (associazioni, consorzi) anche in forma temporanea (ATI e ATS) e altre forme associative costituite con atto pubblico notarile o scrittura privata autenticata.. Sono ammissibili al sostegno tutte le imprese agricole ubicate e operanti sul territorio regionale. Dotazione finanziaria Euro 731.686,42 per il bando anno 2026. Come presentare domanda Come presentare domanda Le domande di pre-adesione sono condizione necessaria per la presentazione della domanda di sostegno, entrambe devono essere trasmesse esclusivamente attraverso l’apposito servizio on-line del sistema informativo agricolo piemontese (SIAP) “PSR 2014-2020 - Procedimenti”, pubblicato sul portale www.sistemapiemonte.it , nella sezione “Agricoltura - Finanziamenti, contributi e certificazioni”. Struttura di riferimento Direzione Agricoltura e Cibo Settore A1717A Politiche del cibo, valorizzazione e promozione del sistema agroalimentare Contatti Stefania Convertini | stefania.convertini@regione.piemonte.it Allegato testo procedura Determinazione di approvazione del bando Documento PDF - 1.33 MB Bando 2026 intervento SRG03 Documento PDF - 1005.83 KB Allegato Modalità e documentazione di pagamento Documento PDF - 142.2 KB Allegato Trattamento dati personali Documento PDF - 86.26 KB Tabella costi standard biologico application/octet-stream - 58.37 KB Tabella costi standard produzione integrata application/octet-stream - 41.69 KB Determinazione su riduzioni ed esclusioni SRG03 Documento PDF - 384.1 KB Determinazione modificata e integrata dalla DD. 711 del 25/8/2025 Altri allegati Mandato approccio collettivo per bando 2026 Documento Word - 13.48 KB Dichiarazione sostitutiva soci per bando 2026 Documento Word - 5.28 MB Altri link Pagina web SRG03 CSR 2023-2027"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-09T20:33:17+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-09T14:36:08+02:00",
+  "triageUpdatedAt": "2026-09-09T20:33:17+02:00",
   "triageSummary": {
-    "rulesResolved": 10,
+    "rulesResolved": 11,
     "rulesExcludedForEts": 0,
     "aiRequired": 5,
     "notPresent": 13,
