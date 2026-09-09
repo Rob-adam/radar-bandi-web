@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-09T08:36:16+02:00",
+  "catalogUpdatedAt": "2026-09-09T14:36:08+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 102,
+      "version": 104,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 102,
+      "version": 104,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -844,7 +844,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -963,7 +963,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1099,7 +1099,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1239,7 +1239,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1377,7 +1377,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1513,7 +1513,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1971,9 +1971,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2074,7 +2074,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -2083,9 +2083,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2187,7 +2187,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -2422,9 +2422,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 60,
+      "version": 62,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2528,7 +2528,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -2782,7 +2782,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-08T20:33:53+02:00"
@@ -3045,9 +3045,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3148,7 +3148,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -3157,9 +3157,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3257,7 +3257,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     },
@@ -3265,10 +3265,10 @@
       "id": "PIE-AUTO-EEC5F1453CAB",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-realizzazione-dei-percorsi-formativi-apprendistato-alta-formazione-ricerca-validita",
-      "contentHash": "1b0c4c34bf4b81070c11d643156fe1a33b99faeef826efb9758dade753456cd1",
-      "version": 8,
+      "contentHash": "3240e968dba028f1cc3e2a4d33dad819764057efd9612f171871abb6ca64d79a",
+      "version": 10,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-09T08:36:16+02:00",
+      "lastChangedAt": "2026-09-09T14:36:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3348,7 +3348,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-realizzazione-dei-percorsi-formativi-apprendistato-alta-formazione-ricerca-validita",
         "sourceStatus": "aperto",
-        "discoveryText": "Avviso pubblico per la realizzazione dei percorsi formativi in apprendistato di Alta Formazione e di Ricerca. Validità 2022-2024 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Programma Regionale FSE+ 2021-2027 - Approvazione dell'Avviso pubblico 2022-2024 per l'individuazione e la gestione dell'offerta formativa pubblica per l'apprendistato di alta formazione e di ricerca ai sensi dell'art. 45 del D. Lgs. 15 maggio 2015, n. 81, dello schema di domanda, del Manuale tecnico di valutazione e costituzione del Nucleo di valutazione, in attuazione della D.G.R. n. 4-4372 del 22/12/2021. Successiva estensione durata validità Avviso pubblico al 31/12/2026 (DD. 807 del 24/12/2024) Domande dal Lun, 12/01/2026 - 09:00 Scadenza Mar, 10/11/2026 - 16:00 Riferimento Bollettino Ufficiale Atto pubblicato sul Bollettino Ufficiale della Regione Piemonte Temi Formazione professionale Rivolto a Cittadini Enti pubblici Imprese e liberi professionisti Terzo settore Risorse FSE Procedura Avviso L'Avviso pubblico disciplina, con riferimento a tutto il territorio della Regione Piemonte, le modalità di individuazione e gestione della Vetrina dell’Offerta formativa pubblica per l’Alta Formazione e Ricerca in Apprendistato. L'Avviso, approvato con Determinazione n. 114 del 3 marzo 2022, prevede la concessione di contributi ex art. 12 della Legge 241/1990 per la realizzazione, nell’ambito del contratto di apprendistato di alta formazione e di ricerca di cui all’art. 45 del D.Lgs. 81/2015, dei seguenti percorsi: - Diploma di Istruzione Tecnica Superiore - ITS (Livello 5 EQF); - Laurea professionalizzante (Livello 6 EQF); - Laurea triennale o Diploma accademico di I livello (Livello 6 EQF); - Laurea magistrale o Diploma accademico di II livello (Livello 7 EQF); - Laurea a ciclo unico o Diploma accademico di specializzazione (Livello 7 EQF); - Master universitari o accademici di I e II livello (Livello 7 e 8 EQF); - Dottorato di ricerca o Diploma accademico di formazione alla ricerca (Livello 8 EQF); - Attività di ricerca. Approvazione della Vetrina dell'offerta formativa pubblica per l'apprendistato di alta formazione e ricerca Atto dirigenziale del 3 maggio 2022 n. 218 Aggiornamento della Vetrina dell'offerta formativa pubblica per l'apprendistato di alta formazione e ricerca Atto dirigenziale del 12 aprile 2023 n. 164 Per l'elenco dei soggetti inseriti nella Vetrina, consultare in questa pagina la sezione \"Altri allegati\". ESTENSIONE DURATA VALIDITA' AVVISO PUBBLICO AL 31/12/2026 \" Con D.D. n. 807 del 24/12/2024 è stata estesa al 31/12/2026 la durata della validità dell'Avviso pubblico approvato con la D.D. 114 del 3 marzo 2022, come modificato dalla D.D. n. 451 del 17/08/2022. Contestualmente, è stata estesa alla stessa data la validità della Vetrina dell'Offerta formativa pubblica , approvata con D.D. n. 218 del 03/05/2022, successivamente aggiornata con D.D. n. 164 del 12/04/2023. La Vetrina viene costantemente aggiornata con l'inserimento di eventuali nuovi soggetti interessati, che possono presentare la proposta di candidatura in qualsiasi momento, durante la validità dell'Avviso, secondo le modalità previste dall'Avviso medesimo.. NB : I soggetti attuatori già inseriti nella Vetrina, non dovranno presentare una nuova proposta di candidatura, in quanto il relativo inserimento resterà valido fino alla nuova scadenza dell'Avviso, stabilita alla data del 31/12/2026. La documentazione riguardante l'estensione della validità dell'Avviso è consultabile all'interno delle sezioni \"Allegato testo procedura\" ed \" Altri allegati \" Chi può partecipare Sono ammissibili, in qualità di soggetti proponenti, le seguenti istituzioni formative purché in possesso di almeno una sede operativa sul territorio piemontese iscritta all’anagrafe regionale: - Fondazioni ITS (Istituti tecnici superiori di cui agli articoli da 6 a 8 del Decreto del Presidente del Consiglio dei Ministri del 25 gennaio 2008), individuate in Regione Piemonte con D.G.R. n. 40-522 del 04/08/2010, D.D. 5 novembre 2014, n. 680, D.D. 16 dicembre 2014, n. 47, D.D. 16 dicembre 2014, n. 49, D.D. 3 giugno 2016, n. 334 e successivi provvedimenti di modifica e integrazione; - Istituzioni universitarie italiane, statali e non statali, comunque denominate, ivi compresi gli istituti universitari a ordinamento speciale e le università telematiche, che rilasciano titoli di studio aventi valore legale, in relazione a sedi e corsi di studio universitari accreditati ai sensi dell’art. 5, comma 3, della legge n.240/2010 e delle relative disposizioni di attuazione; - Istituzioni di Alta Formazione Artistica, Musicale e Coreutica istituite ai sensi della legge n. 508/1999 e successive modifiche e integrazioni e della relativa normativa di attuazione, ivi comprese le istituzioni non statali autorizzate dal Ministero dell'Università e della Ricerca al rilascio di titoli aventi valore legale (art.11, D.P.R. 8 luglio 2005, n.212).; - Istituzioni di ricerca iscritte all’Anagrafe Nazionale delle Ricerche con almeno una sede accreditata in Regione Piemonte per l’Orientamento-Macroarea “Sostegno all’inserimento lavorativo” (MIL). Dotazione finanziaria Le risorse disponibili per il finanziamento della misura oggetto dell'Avviso pubblico ammontano complessivamente a € 8.000.000,00 (8 milioni) a valere su risorse PR FSE+Piemonte 2021/2027. Come presentare domanda 1. La domanda di inserimento nella vetrina, predisposta mediante l’utilizzo dell’apposito format, deve essere inviata tramite messaggio di PEC all’indirizzo: settoreformazioneprofessionale@cert.regione.piemonte.it a partire dal 17 marzo 2022 fino al 31 marzo 2022. Terminata la prima fase di approvazione della Vetrina, avvenuta con la D.D. n. 218 del 03/05/2022, la Regione Piemonte procede costantemente al suo aggiornamento, inserendovi le istituzioni formative interessate, che presentino domanda, dopo la pubblicazione, i n qualsiasi momento fino alla validità dell' Avviso, validità attualmente estesa al 31/12/2026, secondo le modalità previste alla sezione 5 dell'Avviso medesimo. 2. La domanda di contributi per i servizi individuali per ITS , Lauree e Diplomi accademici , Master , Dottorati di ricerca e per Attività di ricerca deve essere presentata, esclusivamente per mezzo della procedura informatizzata FLAIDOM, disponibile all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom Le domande possono essere presentate per l’anno 2022 a partire dal 16 maggio 2022 e fino al 10 novembre 2022 con modalità a sportello aperto; a partire dall’anno successivo e fino al termine di validità del presente Avviso, di norma, da gennaio al 10 novembre di ogni anno. (Vedi sezione 7.1 dell'Avviso pubblico) 3. La domanda di contributi per i percorsi di gruppo per Master progettati ad hoc deve essere presentata esclusivamente per mezzo della procedura informatizzata FLAIDOM, disponibile all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom Le domande possono essere presentate per l’anno 2022 a partire dal 16 maggio 2022 e fino al 10 novembre 2022 con modalità a sportello aperto; a partire dall’anno successivo e fino al termine di validità del presente Avviso, di norma, da gennaio al 10 novembre di ogni anno. (Vedi sezione 7.1 dell'Avviso pubblico) Struttura di riferimento Settore Formazione professionale Direzione Istruzione, Formazione e Lavoro Contatti Maurizio Bordone tel. 011 4322607 e-mail: apprendistato@regione.piemonte.it lun - gio dalle 10.00 alle 12.00 e dalle 14.00 alle 17.00 ven dalle 10.00 alle 12.00 Allegato testo procedura Atto di approvazione dell'Avviso pubblico Documento PDF - 740.21 KB Testo dell'Avviso pubblico Documento PDF - 2.87 MB Facsimile domanda di inserimento nella vetrina Documento PDF - 195.19 KB Manuale di valutazione Documento PDF - 370.84 KB Domanda per l'inserimento nella vetrina Documento Word - 147.18 KB Integrazione dell'Avviso pubblico Documento PDF - 245.98 KB D.D. n. 807 del 24/12/2024 - Estensione al 31/12/2026 durata validità Avviso pubblico Documento PDF - 537.41 KB Allegato \"A\" alla D.D. n. 807 del 24/12/2024 - Adeguamento Avviso Documento PDF - 417.18 KB Altri allegati Elenco soggetti inseriti nella Vetrina Documento PDF - 122.76 KB Aggiornamento soggetti inseriti nella Vetrina Documento PDF - 95.6 KB Azioni di informazione e comunicazione Documento PDF - 357.66 KB Istruzioni ai responsabili esterni Documento PDF - 400.79 KB Informativa ai destinatari Documento PDF - 125.86 KB DD n. 768 del 22/12/2022 - Approvazione e finanziamento percorsi - I tranche Documento PDF - 185.74 KB Elenco PERCORSI INDIVIDUALI approvati con DD n. 768/22 Documento PDF - 91.32 KB Elenco PERCORSI DI GRUPPO approvati con DD n. 768/22 Documento PDF - 76.45 KB DD n. 79 del 27/02/2023 - Approvazione e finanziamento percorsi Documento PDF - 5.41 MB Elenco PERCORSI INDIVIDUALI approvati con DD n. 79/23 Documento PDF - 70.71 KB Elenco PERCORSI DI GRUPPO approvati con DD n. 79/23 Documento PDF - 78.64 KB DD 168 del 18/04/2023 - Approvazione e finanziamento percorsi Documento PDF - 316.73 KB DD 280 del 07/06/2023 - Approvazione e finanziamento percorsi Documento PDF - 467.59 KB DD 636 del 23/11/2023 - Approvazione e finanziamento percorsi Documento PDF - 438.87 KB DD 717 del 12/12/2023 - Approvazione e finanziamento percorsi Documento PDF - 342.17 KB DD 87 del 04/03/2024 - Approvazione e finanziamento percorsi Documento PDF - 3.06 MB DD 116 DEL 22/03/2024 - Approvazione e finanziamento percorsi Documento PDF - 314.91 KB DD 619 del 30/10/2024 - Approvazione e finanziamento percorsi Documento PDF - 439.53 KB DD 662 del 19/11/2024 - Approvazione e finanziamento percorsi Documento PDF - 889.74 KB DD 725 del 6/12/2024 - Approvazione e finanziamento percorsi Documento PDF - 772.37 KB D.D. n. 807 del 24/12/2024 - Estensione al 31/12/2026 durata Avviso Documento PDF - 537.41 KB Allegato \"A\" alla D.D. n. 807 del 24/12/2024 - Adeguamento testo Avviso Documento PDF - 417.18 KB DD 171 del 3/4/2025 - Approvazione e finanziamento percorsi Documento PDF - 704.25 KB DD 364 del 27/6/2025 - Approvazione e finanziamento percorsi Documento PDF - 417.82 KB DD 550 del 24/9/2025 - Approvazione e finanziamento percorsi Documento PDF - 418.72 KB DD 647 del 6/11/2025 - Approvazione e finanziamento percorsi Documento PDF - 526.07 KB DD 701 del 26/11/2025 - Approvazione e finanziamento percorsi Documento PDF - 673.27 KB DD 99 del 10/03/2026 - Approvazione e finanziamento percorsi Documento PDF - 778.7 KB DD 163 del 03/04/2026 - Approvazione e finanziamento percorsi Documento PDF - 792.39 KB DD 225 del 05/07/2026 - Approvazione e finanziamento percorsi Documento PDF - 418.25 KB DD 368 del 28/07/2026 - Approvazione e finanziamento percorsi Documento PDF - 417.91 KB Altri link Vetrina dell'Apprendistato di alta formazione e ricerca"
+        "discoveryText": "Avviso pubblico per la realizzazione dei percorsi formativi in apprendistato di Alta Formazione e di Ricerca. Validità 2022-2024 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Programma Regionale FSE+ 2021-2027 - Approvazione dell'Avviso pubblico 2022-2024 per l'individuazione e la gestione dell'offerta formativa pubblica per l'apprendistato di alta formazione e di ricerca ai sensi dell'art. 45 del D. Lgs. 15 maggio 2015, n. 81, dello schema di domanda, del Manuale tecnico di valutazione e costituzione del Nucleo di valutazione, in attuazione della D.G.R. n. 4-4372 del 22/12/2021. Successiva estensione durata validità Avviso pubblico al 31/12/2026 (DD. 807 del 24/12/2024) Domande dal Lun, 12/01/2026 - 09:00 Scadenza Mar, 10/11/2026 - 16:00 Riferimento Bollettino Ufficiale Atto pubblicato sul Bollettino Ufficiale della Regione Piemonte Temi Formazione professionale Rivolto a Cittadini Enti pubblici Imprese e liberi professionisti Terzo settore Risorse FSE Procedura Avviso L'Avviso pubblico disciplina, con riferimento a tutto il territorio della Regione Piemonte, le modalità di individuazione e gestione della Vetrina dell’Offerta formativa pubblica per l’Alta Formazione e Ricerca in Apprendistato. L'Avviso, approvato con Determinazione n. 114 del 3 marzo 2022, prevede la concessione di contributi ex art. 12 della Legge 241/1990 per la realizzazione, nell’ambito del contratto di apprendistato di alta formazione e di ricerca di cui all’art. 45 del D.Lgs. 81/2015, dei seguenti percorsi: - Diploma di Istruzione Tecnica Superiore - ITS (Livello 5 EQF); - Laurea professionalizzante (Livello 6 EQF); - Laurea triennale o Diploma accademico di I livello (Livello 6 EQF); - Laurea magistrale o Diploma accademico di II livello (Livello 7 EQF); - Laurea a ciclo unico o Diploma accademico di specializzazione (Livello 7 EQF); - Master universitari o accademici di I e II livello (Livello 7 e 8 EQF); - Dottorato di ricerca o Diploma accademico di formazione alla ricerca (Livello 8 EQF); - Attività di ricerca. Approvazione della Vetrina dell'offerta formativa pubblica per l'apprendistato di alta formazione e ricerca Atto dirigenziale del 3 maggio 2022 n. 218 Aggiornamento della Vetrina dell'offerta formativa pubblica per l'apprendistato di alta formazione e ricerca Atto dirigenziale del 12 aprile 2023 n. 164 Per l'elenco dei soggetti inseriti nella Vetrina, consultare in questa pagina la sezione \"Altri allegati\". ESTENSIONE DURATA VALIDITA' AVVISO PUBBLICO AL 31/12/2026 \" Con D.D. n. 807 del 24/12/2024 è stata estesa al 31/12/2026 la durata della validità dell'Avviso pubblico approvato con la D.D. 114 del 3 marzo 2022, come modificato dalla D.D. n. 451 del 17/08/2022. Contestualmente, è stata estesa alla stessa data la validità della Vetrina dell'Offerta formativa pubblica , approvata con D.D. n. 218 del 03/05/2022, successivamente aggiornata con D.D. n. 164 del 12/04/2023. La Vetrina viene costantemente aggiornata con l'inserimento di eventuali nuovi soggetti interessati, che possono presentare la proposta di candidatura in qualsiasi momento, durante la validità dell'Avviso, secondo le modalità previste dall'Avviso medesimo.. NB : I soggetti attuatori già inseriti nella Vetrina, non dovranno presentare una nuova proposta di candidatura, in quanto il relativo inserimento resterà valido fino alla nuova scadenza dell'Avviso, stabilita alla data del 31/12/2026. La documentazione riguardante l'estensione della validità dell'Avviso è consultabile all'interno delle sezioni \"Allegato testo procedura\" ed \" Altri allegati \" Chi può partecipare Sono ammissibili, in qualità di soggetti proponenti, le seguenti istituzioni formative purché in possesso di almeno una sede operativa sul territorio piemontese iscritta all’anagrafe regionale: - Fondazioni ITS (Istituti tecnici superiori di cui agli articoli da 6 a 8 del Decreto del Presidente del Consiglio dei Ministri del 25 gennaio 2008), individuate in Regione Piemonte con D.G.R. n. 40-522 del 04/08/2010, D.D. 5 novembre 2014, n. 680, D.D. 16 dicembre 2014, n. 47, D.D. 16 dicembre 2014, n. 49, D.D. 3 giugno 2016, n. 334 e successivi provvedimenti di modifica e integrazione; - Istituzioni universitarie italiane, statali e non statali, comunque denominate, ivi compresi gli istituti universitari a ordinamento speciale e le università telematiche, che rilasciano titoli di studio aventi valore legale, in relazione a sedi e corsi di studio universitari accreditati ai sensi dell’art. 5, comma 3, della legge n.240/2010 e delle relative disposizioni di attuazione; - Istituzioni di Alta Formazione Artistica, Musicale e Coreutica istituite ai sensi della legge n. 508/1999 e successive modifiche e integrazioni e della relativa normativa di attuazione, ivi comprese le istituzioni non statali autorizzate dal Ministero dell'Università e della Ricerca al rilascio di titoli aventi valore legale (art.11, D.P.R. 8 luglio 2005, n.212).; - Istituzioni di ricerca iscritte all’Anagrafe Nazionale delle Ricerche con almeno una sede accreditata in Regione Piemonte per l’Orientamento-Macroarea “Sostegno all’inserimento lavorativo” (MIL). Dotazione finanziaria Le risorse disponibili per il finanziamento della misura oggetto dell'Avviso pubblico ammontano complessivamente a € 8.000.000,00 (8 milioni) a valere su risorse PR FSE+Piemonte 2021/2027. Come presentare domanda 1. La domanda di inserimento nella vetrina, predisposta mediante l’utilizzo dell’apposito format, deve essere inviata tramite messaggio di PEC all’indirizzo: settoreformazioneprofessionale@cert.regione.piemonte.it a partire dal 17 marzo 2022 fino al 31 marzo 2022. Terminata la prima fase di approvazione della Vetrina, avvenuta con la D.D. n. 218 del 03/05/2022, la Regione Piemonte procede costantemente al suo aggiornamento, inserendovi le istituzioni formative interessate, che presentino domanda, dopo la pubblicazione, i n qualsiasi momento fino alla validità dell' Avviso, validità attualmente estesa al 31/12/2026, secondo le modalità previste alla sezione 5 dell'Avviso medesimo. 2. La domanda di contributi per i servizi individuali per ITS , Lauree e Diplomi accademici , Master , Dottorati di ricerca e per Attività di ricerca deve essere presentata, esclusivamente per mezzo della procedura informatizzata FLAIDOM, disponibile all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom Le domande possono essere presentate per l’anno 2022 a partire dal 16 maggio 2022 e fino al 10 novembre 2022 con modalità a sportello aperto; a partire dall’anno successivo e fino al termine di validità del presente Avviso, di norma, da gennaio al 10 novembre di ogni anno. (Vedi sezione 7.1 dell'Avviso pubblico) 3. La domanda di contributi per i percorsi di gruppo per Master progettati ad hoc deve essere presentata esclusivamente per mezzo della procedura informatizzata FLAIDOM, disponibile all’indirizzo: https://servizi.regione.piemonte.it/catalogo/presentazione-domanda-flaidom Le domande possono essere presentate per l’anno 2022 a partire dal 16 maggio 2022 e fino al 10 novembre 2022 con modalità a sportello aperto; a partire dall’anno successivo e fino al termine di validità del presente Avviso, di norma, da gennaio al 10 novembre di ogni anno. (Vedi sezione 7.1 dell'Avviso pubblico) Struttura di riferimento Settore Formazione professionale Direzione Istruzione, Formazione e Lavoro Contatti Maurizio Bordone tel. 011 4322607 e-mail: apprendistato@regione.piemonte.it lun - gio dalle 10.00 alle 12.00 e dalle 14.00 alle 17.00 ven dalle 10.00 alle 12.00 Allegato testo procedura Atto di approvazione dell'Avviso pubblico Documento PDF - 740.21 KB Testo dell'Avviso pubblico Documento PDF - 2.87 MB Facsimile domanda di inserimento nella vetrina Documento PDF - 195.19 KB Manuale di valutazione Documento PDF - 370.84 KB Domanda per l'inserimento nella vetrina Documento Word - 147.18 KB Integrazione dell'Avviso pubblico Documento PDF - 245.98 KB D.D. n. 807 del 24/12/2024 - Estensione al 31/12/2026 durata validità Avviso pubblico Documento PDF - 537.41 KB Allegato \"A\" alla D.D. n. 807 del 24/12/2024 - Adeguamento Avviso Documento PDF - 417.18 KB Altri allegati Elenco soggetti inseriti nella Vetrina Documento PDF - 122.76 KB Aggiornamento soggetti inseriti nella Vetrina Documento PDF - 95.6 KB Azioni di informazione e comunicazione Documento PDF - 357.66 KB Istruzioni ai responsabili esterni Documento PDF - 400.79 KB Informativa ai destinatari Documento PDF - 125.86 KB DD n. 768 del 22/12/2022 - Approvazione e finanziamento percorsi - I tranche Documento PDF - 185.74 KB Elenco PERCORSI INDIVIDUALI approvati con DD n. 768/22 Documento PDF - 91.32 KB Elenco PERCORSI DI GRUPPO approvati con DD n. 768/22 Documento PDF - 76.45 KB DD n. 79 del 27/02/2023 - Approvazione e finanziamento percorsi Documento PDF - 5.41 MB Elenco PERCORSI INDIVIDUALI approvati con DD n. 79/23 Documento PDF - 70.71 KB Elenco PERCORSI DI GRUPPO approvati con DD n. 79/23 Documento PDF - 78.64 KB DD 168 del 18/04/2023 - Approvazione e finanziamento percorsi Documento PDF - 316.73 KB DD 280 del 07/06/2023 - Approvazione e finanziamento percorsi Documento PDF - 467.59 KB DD 636 del 23/11/2023 - Approvazione e finanziamento percorsi Documento PDF - 438.87 KB DD 717 del 12/12/2023 - Approvazione e finanziamento percorsi Documento PDF - 342.17 KB DD 87 del 04/03/2024 - Approvazione e finanziamento percorsi Documento PDF - 3.06 MB DD 116 DEL 22/03/2024 - Approvazione e finanziamento percorsi Documento PDF - 314.91 KB DD 619 del 30/10/2024 - Approvazione e finanziamento percorsi Documento PDF - 439.53 KB DD 662 del 19/11/2024 - Approvazione e finanziamento percorsi Documento PDF - 889.74 KB DD 725 del 6/12/2024 - Approvazione e finanziamento percorsi Documento PDF - 772.37 KB D.D. n. 807 del 24/12/2024 - Estensione al 31/12/2026 durata Avviso Documento PDF - 537.41 KB Allegato \"A\" alla D.D. n. 807 del 24/12/2024 - Adeguamento testo Avviso Documento PDF - 417.18 KB DD 171 del 3/4/2025 - Approvazione e finanziamento percorsi Documento PDF - 704.25 KB DD 364 del 27/6/2025 - Approvazione e finanziamento percorsi Documento PDF - 417.82 KB DD 550 del 24/9/2025 - Approvazione e finanziamento percorsi Documento PDF - 418.72 KB DD 647 del 6/11/2025 - Approvazione e finanziamento percorsi Documento PDF - 526.07 KB DD 701 del 26/11/2025 - Approvazione e finanziamento percorsi Documento PDF - 673.27 KB DD 99 del 10/03/2026 - Approvazione e finanziamento percorsi Documento PDF - 778.7 KB DD 163 del 03/04/2026 - Approvazione e finanziamento percorsi Documento PDF - 792.39 KB DD 225 del 07/05/2026 - Approvazione e finanziamento percorsi Documento PDF - 418.25 KB DD 368 del 28/07/2026 - Approvazione e finanziamento percorsi Documento PDF - 417.91 KB Altri link Vetrina dell'Apprendistato di alta formazione e ricerca"
       },
       "triage": {
         "status": "rules-resolved",
@@ -3375,12 +3375,12 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-09T08:36:16+02:00"
+        "evaluatedAt": "2026-09-09T14:36:08+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-09T08:36:16+02:00",
+  "triageUpdatedAt": "2026-09-09T14:36:08+02:00",
   "triageSummary": {
     "rulesResolved": 10,
     "rulesExcludedForEts": 0,
