@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-10T14:36:11+02:00",
+  "catalogUpdatedAt": "2026-09-10T20:31:01+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -479,8 +479,8 @@
       "version": 112,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
       "lastChangedAt": "2026-09-10T14:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T20:30:55+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus"
@@ -599,8 +599,8 @@
       "version": 112,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
       "lastChangedAt": "2026-09-10T14:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T20:30:55+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus"
@@ -825,7 +825,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1952,9 +1952,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 72,
+      "version": 74,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2055,7 +2055,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -2064,9 +2064,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 72,
+      "version": 74,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2168,7 +2168,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -2403,9 +2403,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 70,
+      "version": 72,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2509,7 +2509,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -3026,9 +3026,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3129,7 +3129,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -3138,9 +3138,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3238,7 +3238,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     },
@@ -3485,8 +3485,8 @@
       "version": 2,
       "firstSeenAt": "2026-09-10T14:36:00+02:00",
       "lastChangedAt": "2026-09-10T14:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T20:30:55+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -3600,8 +3600,8 @@
       "version": 2,
       "firstSeenAt": "2026-09-10T14:36:00+02:00",
       "lastChangedAt": "2026-09-10T14:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T20:30:55+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -3714,9 +3714,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-catalogazione-digitalizzazione-patrimonio-bibliografico",
       "contentHash": "031d86cbe7078aafca775004d0899260b1c26e9761c0684a441abb85761f7ef2",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-10T14:36:00+02:00",
-      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3822,17 +3822,134 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.fondazionecariplo.it/bando/erc-attrattivita": {
+      "id": "FC-AUTO-C3D08ACE153F",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
+      "contentHash": "8895af2a2c3e37383b9a49feaf7b768c87d54dcb57d279f1fe52c67da2685373",
+      "version": 2,
+      "firstSeenAt": "2026-09-10T20:30:55+02:00",
+      "lastChangedAt": "2026-09-10T20:31:01+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "ERC Attrattività",
+        "source": "Fondazione Cariplo",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Fondazione Cariplo",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "attrattività",
+          "benessere",
+          "cittadinanza",
+          "attiva",
+          "giovani",
+          "generazioni",
+          "patrimonio",
+          "culturale",
+          "ambientale",
+          "musei",
+          "accessibilità",
+          "universale",
+          "innovazione",
+          "produrre",
+          "conoscenza",
+          "fondazione",
+          "cariplo",
+          "telethon",
+          "joint",
+          "call"
+        ],
+        "sectors": [
+          "attrattività",
+          "benessere",
+          "cittadinanza",
+          "attiva",
+          "giovani",
+          "generazioni",
+          "patrimonio",
+          "culturale"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
+        "sourceStatus": "aperto",
+        "discoveryText": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente bando Emblematici Maggiori, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca italiani collocando il nostro Paese al quarto posto in graduatoria. Con riferimento alle statistiche relative alla call ERC Consolidator Grant , la performance del Paese è purtroppo peggiore: l’Italia conferma il secondo posto per numero di finanziamenti ottenuti a livello di singoli ricercatori ma precipita al settimo posto per numero di finanziamenti ospitati. Infatti, su 308 vincitori, gli italiani sono 36 ma solo 15 progetti si realizzeranno in Italia. Documenti di approfondimento Bndo Erc attrattività 2024 Scarica il file Autodichiarazione volonta di trasferimento Scarica il file communication plan fac-simile Scarica il file erc attractiveness 2024 english Scarica il file FAQ erc Scarica il file Programme form attrattivita fac-simile Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-10T20:31:01+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-10T14:36:11+02:00",
+  "triageUpdatedAt": "2026-09-10T20:31:01+02:00",
   "triageSummary": {
-    "rulesResolved": 10,
+    "rulesResolved": 7,
     "rulesExcludedForEts": 0,
     "aiRequired": 6,
-    "notPresent": 16,
+    "notPresent": 20,
     "ruleVersion": 3
   }
 }

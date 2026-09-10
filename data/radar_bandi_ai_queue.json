@@ -1,13 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T14:36:11+02:00",
+  "generatedAt": "2026-09-10T20:31:01+02:00",
   "ruleVersion": 3,
   "count": 6,
   "items": [
     {
+      "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
+      "id": "FC-AUTO-C3D08ACE153F",
+      "version": 2,
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
+      "title": "ERC Attrattività",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": null,
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente bando Emblematici Maggiori, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca italiani "
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "id": "RLH12026055083",
-      "version": 72,
+      "version": 74,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "title": "Bando per la presentazione di proposte di intervento per incentivare la messa a disposizione, in locazione, di patrimonio immobiliare pubblico e privato. Linea 1 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026.",
@@ -31,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "id": "RLT12026052304",
-      "version": 18,
+      "version": 20,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "title": "Bando per l’assegnazione di contributi agli Enti locali per la rimozione di manufatti contenenti amianto da edifici pubblici e la loro sostituzione – Ed. 2026",
@@ -55,7 +79,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "id": "RLH12026055063",
-      "version": 72,
+      "version": 74,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "title": "Bando per l’attivazione di un programma di riqualificazione dei quartieri di proprietà delle ALER, anche attraverso la collaborazione pubblico-privato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026",
@@ -79,7 +103,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "id": "RLP12026054730",
-      "version": 70,
+      "version": 72,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "title": "INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI",
@@ -101,33 +125,9 @@
       "text": "Bandi / Cultura, Turismo e Sport / Promozione turistica / INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI Aperto INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI Codice: RLP12026054730 Pubblicato il: 31/07/2026 , ore 10:10 Domande dal: 01/09/2026 , ore 15:00 Scade il: 30/09/2026 , ore 15:00 La misura intende sostenere le associazioni pro loco e le loro unioni iscritte all’albo regionale delle pro loco, che collaborano alla promozione turistica di base, allo scopo di agevolarne ed incentivarne l’attività Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLP12026054730 Pubblicato il: 31/07/2026 , ore 10:10 Domande dal: 01/09/2026 , ore 15:00 Scade il: 30/09/2026 , ore 15:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono beneficiare del contributo le associazioni pro loco e loro unioni, in possesso dei seguenti requisiti di ammissibilità: - iscrizione all’albo regionale delle pro loco, alla data di apertura della misura in oggetto: 1° settembre 2026 - adesione formale alla misura tra il 1° e il 30 settembre 2026 ore 15.00. Ogni soggetto in possesso dei requisiti sopra indicati ha diritto ad un solo contributo. In ogni caso, le agevolazioni saranno erogate dopo l’acquisizione delle dichiarazioni, rese ai sensi del DPR 445/2000, in merito alla regolarità contributiva ove ap"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/caccia-pesca/misure-sostegno-interventi-costruzione-ristrutturazione-ammodernamento-recupero-manutenzione-straordinaria-impianti-attrezzature-allevamenti-zootecnici-aree-montane-edizione-2026-RLM12026054463",
-      "id": "RLM12026054463",
-      "version": 2,
-      "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/caccia-pesca/misure-sostegno-interventi-costruzione-ristrutturazione-ammodernamento-recupero-manutenzione-straordinaria-impianti-attrezzature-allevamenti-zootecnici-aree-montane-edizione-2026-RLM12026054463",
-      "title": "Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026",
-      "territories": [
-        "lombardia"
-      ],
-      "deadline": "2026-09-10",
-      "sourceStatus": null,
-      "reasons": [
-        "destinatari_da_interpretare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "Bandi / Agricoltura / Zootecnia / Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026 Aperto Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026 Codice: RLM12026054463 Pubblicato il: 03/06/2026 , ore 08:33 Domande dal: 10/09/2026 , ore 14:00 Scade il: 10/09/2026 , ore 16:00 Domande dal: 7 luglio all'8 settembre 2026. Possono partecipare: soggetti pubblici proprietari di terreni agricoli e/o di fabbricati e strutture ad uso zootecnico ubicati in comuni montani (Allegato B alla D.g.r. 9 dicembre 2019, n. 2611). Dotazione finanziaria complessiva pari a 1.000.000,00 euro (2027) e1.500.000,00 euro (2028). Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLM12026054463 Pubblicato il: 03/06/2026 , ore 08:33 Domande dal: 10/09/2026 , ore 14:00 Scade il: 10/09/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Soggetti pubblici proprietari di terreni agricoli e/o di fabbricati e strutture ad uso zootecnico ubicati in comuni montani (Allegato B alla D.g.r. 9 dicembre 2019, n. 2611). Di cosa si tratta La misura intende supportare le strutture zootecniche di montagna, al fine di valorizzare e potenziare le attività già presenti, rafforzandone l’economia e il"
-    },
-    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "id": "RLD12025045643",
-      "version": 18,
+      "version": 20,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
