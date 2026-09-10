@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-10T08:35:38+02:00",
+  "catalogUpdatedAt": "2026-09-10T14:36:11+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -476,9 +476,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/innovawelfare-2/",
       "contentHash": "1858aa52b0012b695edeb0c096a335a91857caaf423ee463a47c74e1645f8d50",
-      "version": 110,
+      "version": 112,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -587,7 +587,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -596,9 +596,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/luoghi-plurali/",
       "contentHash": "aeae13d80759c61096f623860896513d96e8f8fd7d6cf8e02accb32f55ba42b8",
-      "version": 110,
+      "version": 112,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -706,7 +706,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -714,32 +714,13 @@
       "id": "ER-AUTO-6200443629C7",
       "source": "Regione Emilia-Romagna · Sociale",
       "sourceUrl": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/avviso-pubblico-per-lindividuazione-e-il-coinvolgimento-di-enti-del-terzo-settore-disponibili-alla-co-progettazione-nellambito-del-piano-una-giustizia-piu-inclusiva-attuazione-modelli-di-intervento-per-linclusione-attiva-dei-soggetti-in-uscita-ed-es",
-      "contentHash": "45a66ad7eaf417d7916661dd67562754c59baaa43b1910c68e3f9d515ef10330",
-      "version": 1,
+      "contentHash": "4c9cb254643179958eb03e9aa74d0b52ef03bc6ad682a75d44d139b272f23007",
+      "version": 2,
       "firstSeenAt": "2026-08-29T14:16:39+02:00",
-      "lastChangedAt": "2026-08-29T14:16:39+02:00",
+      "lastChangedAt": "2026-09-10T14:36:00+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "title",
-        "source",
-        "deadline",
-        "fund",
-        "maxGrant",
-        "aid",
-        "tags",
-        "eligibility",
-        "keywords",
-        "sectors",
-        "beneficiaries",
-        "activities",
-        "purposes",
-        "territories",
-        "legalForms",
-        "hardRequirements",
-        "hardKeyword",
-        "sourceUrl",
-        "sourceStatus",
         "discoveryText"
       ],
       "needsAnalysis": false,
@@ -815,7 +796,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/avviso-pubblico-per-lindividuazione-e-il-coinvolgimento-di-enti-del-terzo-settore-disponibili-alla-co-progettazione-nellambito-del-piano-una-giustizia-piu-inclusiva-attuazione-modelli-di-intervento-per-linclusione-attiva-dei-soggetti-in-uscita-ed-es",
         "sourceStatus": "aperto",
-        "discoveryText": "Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" - Sociale Vai al contenuto Vai alla navigazione Vai al footer Regione Emilia-Romagna Sociale Seguici su Cerca Sociale Argomenti Adozioni Anziani Bambini e adolescenti Caregiver familiare Esecuzione penale Contro le discriminazioni Persone con disabilità Economia solidale Famiglie Immigrazione Intercultura Nidi e scuole dell'infanzia Politiche abitative (link esterno) Povertà Prostituzione e tratta di esseri umani Servizio civile Terzo settore Novità Notizie Pubblicazioni Appuntamenti Servizi Leggi Atti Bandi Menu selezionato Piani Programmi Progetti Seguici su Home / Leggi Atti Bandi / Bandi / 2026 / Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" Salta al contenuto Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" Attuazione Modelli di intervento per l'inclusione attiva dei soggetti in uscita ed esecuzione penale esterna (AMA ES)\" Bando Aperto Condividi Facebook Twitter LinkedIn Whatsapp Telegram Vedi azioni Stampa Invia Descrizione L'Avviso pubblico La Regione Emilia-Romagna approva l'Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore (ETS), in forma singola o associata , disponibili, ai sensi dell'art. 55 del D.Lgs. 117/2017, alla co-progettazione, nel ruolo di partner, di interventi da realizzarsi nell'ambito del Piano \"Una giustizia più inclusiva – Attuazione Modelli di intervento per l'inclusione attiva dei soggetti in uscita ed esecuzione penale esterna (AMA ES) \". L'avviso è adottato in attuazione della Deliberazione di Giunta regionale n. 337 del 10 marzo 2025 e della Deliberazione di Giunta regionale n. 243 del 23 febbraio 2026 ed è stato approvato con Determinazione dirigenziale n. 12383 del 24 giugno 2026 . L'iniziativa si inserisce nel Programma Nazionale Inclusione e Lotta alla Povertà 2021-2027 e mira a promuovere percorsi di inclusione sociale, autonomia e reinserimento per persone in esecuzione penale esterna o in uscita dagli istituti penitenziari. CUP: E41H25000640007 CLP: PRG-AMAES-1393-REGIONE EMILIA-ROMAGNA Finalità Attraverso il percorso di co-progettazione la Regione Emilia-Romagna intende definire e realizzare interventi integrati finalizzati a: favorire il reinserimento sociale delle persone in esecuzione penale esterna e in uscita dagli istituti penitenziari; sostenere l'autonomia abitativa e personale; promuovere percorsi di inclusione socio-lavorativa; rafforzare le reti territoriali e la giustizia di comunità; contrastare il rischio di esclusione sociale e di recidiva. Aree tematiche 1 Residenzialità temporanea e autonomia abitativa individuazione e gestione di soluzioni alloggiative temporanee; accompagnamento educativo verso l'autonomia abitativa; sostegno ai percorsi di inclusione sociale e di vita indipendente. 2 Animazione territoriale e giustizia di comunità laboratori educativi e di empowerment; attività di partecipazione sociale e cittadinanza attiva; iniziative culturali e aggregative rivolte ai destinatari e alle comunità locali; interventi per il rafforzamento delle reti di prossimità. 3 Sensibilizzazione territoriale e inclusione socio-lavorativa promozione di percorsi di inclusione lavorativa; coinvolgimento delle imprese e degli attori economici del territorio; sviluppo di opportunità occupazionali e formative; promozione del lavoro di pubblica utilità e delle attività di comunità; attivazione e coordinamento di reti territoriali per l'inclusione. Destinatari dell'intervento Gli interventi sono rivolti a persone adulte: in esecuzione penale esterna; sottoposte a misure e sanzioni di comunità; in carico agli Uffici Interdistrettuali di Esecuzione Penale Esterna (UIEPE). Soggetti ammessi Possono presentare candidatura gli Enti del Terzo Settore iscritti al Registro Unico Nazionale del Terzo Settore (RUNTS), in forma singola o associata . Ambiti territoriali Raggruppamento Ovest: Piacenza Parma Reggio Emilia Modena Raggruppamento Est: Ravenna Forlì-Cesena Rimini Sarà selezionato un soggetto partner per ciascun raggruppamento territoriale. Risorse disponibili Le risorse complessivamente destinate all'attuazione degli interventi ammontano a euro 1.371.182,26. Ripartizione territoriale: Raggruppamento Ovest: euro 843.522,70; Raggruppamento Est: euro 527.659,58. Scadenza Le candidature dovranno essere trasmesse entro le ore 12.00 del 10 settembre 2026 esclusivamente tramite PEC all'indirizzo: politichesociali@postacert.regione.emilia-romagna.it Documentazione allegata Avviso pubblico ( PDF - 1,5 MB ) Domanda di candidatura (Allegato 1) ( Word - 164,7 KB ) Dichiarazione sostitutiva di affidabilità giuridico-economico-finanziaria (Allegato 2) ( Word - 154,0 KB ) Dichiarazione di intenti a costituire ATS (Allegato 3) ( Word - 156,3 KB ) Informativa privacy (Allegato 5) ( PDF - 137,6 KB ) Informazioni Per informazioni è possibile contattare: viviana.bussadori@regione.emilia-romagna.it chiara.iannizzotto@regione.emilia-romagna.it berardino.ricucci@regione.emilia-romagna.it Chi può fare domanda Enti del Terzo settore Tipologia del bando Agevolazioni, finanziamenti, contributi Finanziato con fondi europei Tempi e scadenze 24 giugno 2026 Data di pubblicazione 24 giugno 2026 16:00 - Apertura del bando 10 settembre 2026 12:00 - Scadenza dei termini per partecipare al bando Allegati Documenti Determinazione dirigenziale n. 12383 del 24 giugno 2026 ( PDF - 1,46 MB ) ALLEGATO 1_Domanda.docx ( Word - 164,74 kB ) ALLEGATO 2_Dichiarazione sostitutiva affidabilità.docx ( Word - 154,01 kB ) ALLEGATO 3_dichiarazione intenti.docx ( Word - 156,27 kB ) ALLEGATO 4_convenzione con enti.docx ( Word - 168,15 kB ) Informativa_privacy.pdf ( PDF -"
+        "discoveryText": "Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" - Sociale Vai al contenuto Vai alla navigazione Vai al footer Regione Emilia-Romagna Sociale Seguici su Cerca Sociale Argomenti Adozioni Anziani Bambini e adolescenti Caregiver familiare Esecuzione penale Contro le discriminazioni Persone con disabilità Economia solidale Famiglie Immigrazione Intercultura Nidi e scuole dell'infanzia Politiche abitative (link esterno) Povertà Prostituzione e tratta di esseri umani Servizio civile Terzo settore Novità Notizie Pubblicazioni Appuntamenti Servizi Leggi Atti Bandi Menu selezionato Piani Programmi Progetti Seguici su Home / Leggi Atti Bandi / Bandi / 2026 / Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" Salta al contenuto Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore disponibili alla co-progettazione nell'ambito del Piano \"Una giustizia più inclusiva\" Attuazione Modelli di intervento per l'inclusione attiva dei soggetti in uscita ed esecuzione penale esterna (AMA ES)\" Bando In corso Condividi Facebook Twitter LinkedIn Whatsapp Telegram Vedi azioni Stampa Invia Descrizione L'Avviso pubblico La Regione Emilia-Romagna approva l'Avviso pubblico per l'individuazione e il coinvolgimento di Enti del Terzo Settore (ETS), in forma singola o associata , disponibili, ai sensi dell'art. 55 del D.Lgs. 117/2017, alla co-progettazione, nel ruolo di partner, di interventi da realizzarsi nell'ambito del Piano \"Una giustizia più inclusiva – Attuazione Modelli di intervento per l'inclusione attiva dei soggetti in uscita ed esecuzione penale esterna (AMA ES) \". L'avviso è adottato in attuazione della Deliberazione di Giunta regionale n. 337 del 10 marzo 2025 e della Deliberazione di Giunta regionale n. 243 del 23 febbraio 2026 ed è stato approvato con Determinazione dirigenziale n. 12383 del 24 giugno 2026 . L'iniziativa si inserisce nel Programma Nazionale Inclusione e Lotta alla Povertà 2021-2027 e mira a promuovere percorsi di inclusione sociale, autonomia e reinserimento per persone in esecuzione penale esterna o in uscita dagli istituti penitenziari. CUP: E41H25000640007 CLP: PRG-AMAES-1393-REGIONE EMILIA-ROMAGNA Finalità Attraverso il percorso di co-progettazione la Regione Emilia-Romagna intende definire e realizzare interventi integrati finalizzati a: favorire il reinserimento sociale delle persone in esecuzione penale esterna e in uscita dagli istituti penitenziari; sostenere l'autonomia abitativa e personale; promuovere percorsi di inclusione socio-lavorativa; rafforzare le reti territoriali e la giustizia di comunità; contrastare il rischio di esclusione sociale e di recidiva. Aree tematiche 1 Residenzialità temporanea e autonomia abitativa individuazione e gestione di soluzioni alloggiative temporanee; accompagnamento educativo verso l'autonomia abitativa; sostegno ai percorsi di inclusione sociale e di vita indipendente. 2 Animazione territoriale e giustizia di comunità laboratori educativi e di empowerment; attività di partecipazione sociale e cittadinanza attiva; iniziative culturali e aggregative rivolte ai destinatari e alle comunità locali; interventi per il rafforzamento delle reti di prossimità. 3 Sensibilizzazione territoriale e inclusione socio-lavorativa promozione di percorsi di inclusione lavorativa; coinvolgimento delle imprese e degli attori economici del territorio; sviluppo di opportunità occupazionali e formative; promozione del lavoro di pubblica utilità e delle attività di comunità; attivazione e coordinamento di reti territoriali per l'inclusione. Destinatari dell'intervento Gli interventi sono rivolti a persone adulte: in esecuzione penale esterna; sottoposte a misure e sanzioni di comunità; in carico agli Uffici Interdistrettuali di Esecuzione Penale Esterna (UIEPE). Soggetti ammessi Possono presentare candidatura gli Enti del Terzo Settore iscritti al Registro Unico Nazionale del Terzo Settore (RUNTS), in forma singola o associata . Ambiti territoriali Raggruppamento Ovest: Piacenza Parma Reggio Emilia Modena Raggruppamento Est: Ravenna Forlì-Cesena Rimini Sarà selezionato un soggetto partner per ciascun raggruppamento territoriale. Risorse disponibili Le risorse complessivamente destinate all'attuazione degli interventi ammontano a euro 1.371.182,26. Ripartizione territoriale: Raggruppamento Ovest: euro 843.522,70; Raggruppamento Est: euro 527.659,58. Scadenza Le candidature dovranno essere trasmesse entro le ore 12.00 del 10 settembre 2026 esclusivamente tramite PEC all'indirizzo: politichesociali@postacert.regione.emilia-romagna.it Documentazione allegata Avviso pubblico ( PDF - 1,5 MB ) Domanda di candidatura (Allegato 1) ( Word - 164,7 KB ) Dichiarazione sostitutiva di affidabilità giuridico-economico-finanziaria (Allegato 2) ( Word - 154,0 KB ) Dichiarazione di intenti a costituire ATS (Allegato 3) ( Word - 156,3 KB ) Informativa privacy (Allegato 5) ( PDF - 137,6 KB ) Informazioni Per informazioni è possibile contattare: viviana.bussadori@regione.emilia-romagna.it chiara.iannizzotto@regione.emilia-romagna.it berardino.ricucci@regione.emilia-romagna.it Chi può fare domanda Enti del Terzo settore Tipologia del bando Agevolazioni, finanziamenti, contributi Finanziato con fondi europei Tempi e scadenze 24 giugno 2026 Data di pubblicazione 24 giugno 2026 16:00 - Apertura del bando 10 settembre 2026 12:00 - Scadenza dei termini per partecipare al bando Allegati Documenti Determinazione dirigenziale n. 12383 del 24 giugno 2026 ( PDF - 1,46 MB ) ALLEGATO 1_Domanda.docx ( Word - 164,74 kB ) ALLEGATO 2_Dichiarazione sostitutiva affidabilità.docx ( Word - 154,01 kB ) ALLEGATO 3_dichiarazione intenti.docx ( Word - 156,27 kB ) ALLEGATO 4_convenzione con enti.docx ( Word - 168,15 kB ) Informativa_privacy.pdf ( PDF"
       },
       "triage": {
         "status": "rules-resolved",
@@ -844,7 +825,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -963,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -1099,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -1239,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -1377,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -1513,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -1971,9 +1952,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "contentHash": "2f98077deaf4ab5bdd0a475645320fad455866225a98eb23fed9a861d0f73fed",
-      "version": 70,
+      "version": 72,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2074,7 +2055,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -2083,9 +2064,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "contentHash": "8f32f632a470fe0236b48b5d64183550c462c13ff94c692510122ae1ae07e56d",
-      "version": 70,
+      "version": 72,
       "firstSeenAt": "2026-09-01T14:34:34+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2187,7 +2168,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -2422,9 +2403,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "contentHash": "42e59cb585259067603a1883e573f90318b4c917f11e3eee381f881c50c961c5",
-      "version": 68,
+      "version": 70,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -2528,7 +2509,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -2676,8 +2657,8 @@
       "version": 2,
       "firstSeenAt": "2026-09-03T14:35:12+02:00",
       "lastChangedAt": "2026-09-04T14:34:37+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T14:36:00+02:00",
       "lastChangeFields": [
         "deadline",
         "discoveryText"
@@ -3045,9 +3026,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3148,7 +3129,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -3157,9 +3138,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3257,7 +3238,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
       },
       "excludedForEts": false
     },
@@ -3269,8 +3250,8 @@
       "version": 16,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
       "lastChangedAt": "2026-09-10T08:35:38+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T14:36:00+02:00",
       "lastChangeFields": [
         "deadline",
         "discoveryText"
@@ -3387,8 +3368,8 @@
       "version": 6,
       "firstSeenAt": "2026-09-09T20:33:09+02:00",
       "lastChangedAt": "2026-09-10T08:35:38+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-10T14:36:00+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -3495,14 +3476,363 @@
         "evaluatedAt": "2026-09-10T08:35:38+02:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/caccia-pesca/misure-sostegno-interventi-costruzione-ristrutturazione-ammodernamento-recupero-manutenzione-straordinaria-impianti-attrezzature-allevamenti-zootecnici-aree-montane-edizione-2026-RLM12026054463": {
+      "id": "RLM12026054463",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/caccia-pesca/misure-sostegno-interventi-costruzione-ristrutturazione-ammodernamento-recupero-manutenzione-straordinaria-impianti-attrezzature-allevamenti-zootecnici-aree-montane-edizione-2026-RLM12026054463",
+      "contentHash": "de4c45c0cfa141f6f1f473116c8c8d34bee9fa80b1df8d7212d946b6615db419",
+      "version": 2,
+      "firstSeenAt": "2026-09-10T14:36:00+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-10",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "misure",
+          "sostegno",
+          "interventi",
+          "costruzione",
+          "ristrutturazione",
+          "codice",
+          "domande",
+          "luglio",
+          "settembre",
+          "possono",
+          "partecipare",
+          "soggetti",
+          "pubblici",
+          "proprietari",
+          "terreni",
+          "agricoli",
+          "fabbricati",
+          "strutture"
+        ],
+        "sectors": [
+          "chiude",
+          "misure",
+          "sostegno",
+          "interventi",
+          "costruzione",
+          "ristrutturazione",
+          "codice",
+          "domande"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/caccia-pesca/misure-sostegno-interventi-costruzione-ristrutturazione-ammodernamento-recupero-manutenzione-straordinaria-impianti-attrezzature-allevamenti-zootecnici-aree-montane-edizione-2026-RLM12026054463",
+        "discoveryText": "Bandi / Agricoltura / Zootecnia / Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026 Aperto Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane - Edizione 2026 Codice: RLM12026054463 Pubblicato il: 03/06/2026 , ore 08:33 Domande dal: 10/09/2026 , ore 14:00 Scade il: 10/09/2026 , ore 16:00 Domande dal: 7 luglio all'8 settembre 2026. Possono partecipare: soggetti pubblici proprietari di terreni agricoli e/o di fabbricati e strutture ad uso zootecnico ubicati in comuni montani (Allegato B alla D.g.r. 9 dicembre 2019, n. 2611). Dotazione finanziaria complessiva pari a 1.000.000,00 euro (2027) e1.500.000,00 euro (2028). Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLM12026054463 Pubblicato il: 03/06/2026 , ore 08:33 Domande dal: 10/09/2026 , ore 14:00 Scade il: 10/09/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Soggetti pubblici proprietari di terreni agricoli e/o di fabbricati e strutture ad uso zootecnico ubicati in comuni montani (Allegato B alla D.g.r. 9 dicembre 2019, n. 2611). Di cosa si tratta La misura intende supportare le strutture zootecniche di montagna, al fine di valorizzare e potenziare le attività già presenti, rafforzandone l’economia e il ruolo nella difesa del territorio e del paesaggio. Sono finalità specifiche della misura: migliorare la produttività delle strutture e degli impianti pubblici per allevamenti zootecnici; favorire lo sviluppo delle attività collegate alla produzione zootecnica primaria, quali la trasformazione, la conservazione, la commercializzazione e la vendita diretta dei prodotti trasformati; recuperare il patrimonio edilizio storico montano (maggenghi, alpi, malghe, ecc.); favorire la multifunzionalità delle strutture; aumentare l’efficienza energetica delle strutture. Dotazione finanziaria La dotazione finanziaria complessiva è pari a 1.000.000,00 euro sull’esercizio finanziario 2027 e 1.500.000,00 euro sull’esercizio finanziario 2028. Caratteristiche dell'agevolazione Contributo a fondo perduto erogato con i seguenti massimali: fino al 90% della spesa ammessa a finanziamento per i Comuni con popolazione residente; fino a 5.000 abitanti (risultante dall'ultimo dato ufficiale disponibile dell'Istituto nazionale di Statistica), gli Enti gestori delle aree protette e dei siti di Rete Natura 2000, le Comunità montane; fino al 50% della spesa ammessa a finanziamento per gli altri soggetti beneficiari. Regime di Aiuto di Stato Regime de minimis. BURL Serie Ordinaria n. 23 - Mercoledì 03 giugno 2026. Azioni Misure di sostegno per interventi di costruzione, ristrutturazione, ammodernamento, recupero e manutenzione straordinaria impianti e attrezzature per allevamenti zootecnici in aree montane. Come partecipare Le domande devono essere presentate a Regione Lombardia – Direzione Generale Agricoltura, Sovranità alimentare e Foreste, tramite la piattaforma www.bandi.regione.lombardia.it. Procedura selezione Procedura valutativa a graduatoria sulla base di criteri di ammissibilità, valutativi e di premialità. Informazioni e contatti Responsabile del procedimento: Francesco Brignone Referenti: Daniela Bergamo Tel. 02.6765.5390 – daniela_bergamo@regione.lombardia.it Stefano Asti Tel. 02.6765.5277 – stefano_asti@regione.lombardia.it Michela di Noia Tel. 02.6765.2531 – michela_di_noia@regione.lombardia.it Andrea Cadei Tel. 02.6765.3002 – andrea_cadei@regione.lombardia.it Per richiedere supporto tecnico nell'accesso ai servizi alle funzionalità di Bandi e Servizi: contattare il numero 800.131.151 oppure inviare una mail a bandi@regione.lombardia.it Allegati Decreto 31 luglio 2026 - n. 10463 - modifiche allegato A paragrafo C.8.2 Varianti - decreto 27 maggio 2026 - n. 7022 - 05/08/2026 Decreto 27 maggio 2026 - n. 7022 - bando - edizione 2026 - 03/06/2026 Allegati editabili per la domanda - 08/06/2026 Elenco Comuni ammissibili - 08/06/2026 linee guida per la gestione delle malghe e l'esercizio dell'attività d'alpeggio - 09/06/2026 FAQ - 03/08/2026 Mostra altri Link utili Bandi e Servizi"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-descrizione-catalogazione-digitalizzazione-archivi": {
+      "id": "PIE-AUTO-E52C6D342BB6",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-descrizione-catalogazione-digitalizzazione-archivi",
+      "contentHash": "24cd8d6407a9198ada3fb38c8478acc5eb12429be41a3b87ff692439a4b177b5",
+      "version": 2,
+      "firstSeenAt": "2026-09-10T14:36:00+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Contributo 2026 per interventi di Conservazione, descrizione, catalogazione e digitalizzazione di archivi e patrimonio documentale di interesse culturale",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-05",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contributo",
+          "interventi",
+          "conservazione",
+          "descrizione",
+          "catalogazione",
+          "digitalizzazione",
+          "archivi",
+          "patrimonio",
+          "documentale",
+          "interesse",
+          "culturale",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter"
+        ],
+        "sectors": [
+          "contributo",
+          "interventi",
+          "conservazione",
+          "descrizione",
+          "catalogazione",
+          "digitalizzazione",
+          "archivi",
+          "patrimonio"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-descrizione-catalogazione-digitalizzazione-archivi",
+        "sourceStatus": "aperto",
+        "discoveryText": "Contributo 2026 per interventi di Conservazione, descrizione, catalogazione e digitalizzazione di archivi e patrimonio documentale di interesse culturale Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L.r. 11/2018 art. 23 Avviso pubblico di finanziamento per la presentazione di domanda di contributo, da parte di enti privati e pubblici, a sostegno di interventi di Conservazione, descrizione, catalogazione e digitalizzazione di archivi e patrimonio documentale di interesse culturale per l’anno 2026. Domande dal Gio, 10/09/2026 - 09:00 Scadenza Lun, 05/10/2026 - 12:00 Riferimento Bollettino Ufficiale BUR n. 36 del 10/09/2026 Temi Cultura Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso Obiettivo prioritario dell'avviso è contribuire al sostegno degli enti pubblici e privati piemontesi che intendano realizzare interventi di conservazione, descrizione, catalogazione e digitalizzazione di archivi e patrimonio documentale di interesse culturale. Rientrano in questa tipologia gli interventi che hanno come oggetto i fondi archivistici e documentali piemontesi di interesse storico-culturale e precisamente: interventi di ricognizione, censimento, schedatura, riordino, conservazione, redazione di inventari, guide, elenchi etc. di patrimonio archivistico, fotografico, sonoro, audiovisivo e documentale; interventi di digitalizzazione di patrimonio archivistico, fotografico, sonoro, audiovisivo e documentale; acquisto di strumenti fotografici, scanner, lampade e altre attrezzature, solo nell’ambito della progettazione di un adeguato intervento di digitalizzazione ; restauro di materiale archivistico e documentale; recupero e conversione di database; spolveratura di fondi archivistici; disinfezione e disinfestazione del patrimonio archivistico e documentale e degli ambienti in cui è conservato; acquisto di materiale specifico destinato alla conservazione e al condizionamento dei documenti e acquisto di attrezzature tecniche per il mantenimento dei parametri ottimali di conservazione negli ambienti. Il patrimonio archivistico e documentale oggetto dell’intervento deve essere conservato in Piemonte ed essere afferente a enti pubblici o a enti privati senza fini di lucro (es.: archivi di istituzioni private, archivi di enti ecclesiastici, archivi scolastici). Non sono ammessi progetti relativi a beni di proprietà di privati cittadini o imprese. Si specifica che si intende per archivio l’insieme della documentazione prodotta e/o ricevuta da una persona fisica o persona giuridica di diritto pubblico o privato nello svolgimento della propria attività e conservata in appoggio e per gli scopi dell'attività stessa. Si specifica inoltre che: in relazione alla fruibilità, i fondi archivistici e documentali oggetto dell’intervento devono essere disponibili al pubblico per la consultazione; il progetto tecnico, da allegare all’istanza, qualora comprenda , in aggiunta all’attività prettamente archivistica, anche la digitalizzazione del/dei fondo/i, deve prevedere la descrizione delle specifiche tecniche relative all’attività di digitalizzazione, che, indipendentemente dall’applicativo di esposizione utilizzato, dovranno aderire alle Linee guida per i progetti di digitalizzazione elaborate dalla Regione Piemonte e dal Csi-Piemonte. Il contributo massimo assegnabile non potrà essere superiore all’ 80% delle spese complessive di progetto ritenute ammissibili, fermi restando i seguenti tetti di contribuzione: contributo minimo richiedibile e assegnabile: Euro 5.000,00 contributo massimo richiedibile e assegnabile: Euro 20.000,00. Chi può partecipare Enti locali singoli o associati, pubbliche amministrazioni, istituzioni culturali e formative, enti e istituzioni religiose, associazioni e fondazioni private e pubbliche, altri enti che operano senza fine di lucro, cooperative a mutualità prevalente senza fini di lucro. Dotazione finanziaria Euro 398.000,00 così ripartiti: Euro 206.000,00 a favore di soggetti privati Euro 192.000,00 a favore di soggetti pubblici. Come presentare domanda L’ istanza deve essere presentata, a pena di inammissibilità, dal legale rappresentante o da suo delegato a partire dalle ore 9.00 del giorno 10 settembre 2026 e perentoriamente entro le ore 12,00 del giorno 05 ottobre 2026 tramite Sistema Piemonte Finanziamenti Domande seguendo le indicazioni dell’Avviso pubblico, nonché le istruzioni contenute nelle “Regole di compilazione” e nel Manuale Utente presenti sullo stesso sito. Per accedere a Sistema Piemonte, il legale rappresentante o suo sostituto deve autenticarsi tramite Certificato di Autenticazione o SPID - Sistema Pubblico di Identità Digitale. L’istanza deve essere sottoscritta tramite firma digitale (unicamente in formato CADES p7m) dal legale rappresentante o da suo delegato con poteri di firma, e inviata in pdf, unitamente a tutta la documentazione obbligatoria, attraverso Sistema Piemonte – Finanziamenti Domande. Delega alla firma Per gli Enti Privati - L’ eventuale delega del legale rappresentante alla firma dell’istanza deve essere redatta nella forma della procura generale o speciale sottoscritta dal legale rappresentante dell’ente richiedente con cui viene incaricato il soggetto alla sottoscrizione della domanda, corredata dalla copia del documento di identità in corso di validità del legale rappresentante, qualora la procura sia sottoscritta con firma autografa. La mancanza di tale delega, redatta nelle forme indicate, comporta l’inammissibilità dell’istanza . Per gli Enti Pubblici - Sono accettati gli atti amministrativi con cui il legale rappresentate dell'ente pubblico, nell'ambito dell'autonomia statutaria dell'ente, delega un altro soggetto della stessa amministrazione alla gestione di un dato servizio o ambito di competenze. La mancanza di tale delega, redatta nelle forme indicate, comporta l’inammissibilità dell’istanza. All’inserimento della nuova domanda è necessario indicare la tipologia del richiedente (Pubblico o Privato). Tale scelta non è successivamente modificabile e, se errata, comporta la non ammissibilità dell’istanza. Documenti da allegare alla domanda Documentazione obbligatoria pena inammissibilità per la quale non sarà attivato il servizio istruttorio: 1) relazione descrittiva dell’iniziativa oggetto dell’istanza, resa sul Modulo Rel_ConsAR d i cui all’allegato 1a; 2) progetto tecnico dell’intervento, firmato digitalmente dal professionista incaricato e/o dal legale rappresentante o suo delegato; il progetto tecnico dovrà presentare in modo esaustivo gli elementi significativi che caratterizzano l’intervento e contemplare, tra gli altri, i seguenti punti: descrizione accurata dei fondi archivistici oggetto dell’intervento; descrizione delle attività da realizzare; attrezzature, strumenti utilizzati e riferimenti tecnici; fasi dei lavori; norme e criteri adottati; contenuti e obiettivi che si vogliono raggiungere; strumenti di corredo prodotti; valore del progetto per la ricerca, la conoscenza del patrimonio culturale e la diffusione della cultura della conservazione; Q ualora l’intervento previsto debba essere autorizzato da parte della Soprintendenza archivistica e bibliografica del Piemonte e della Valle d’Aosta, il progetto tecnico va redatto utilizzando il Modulo PT_ConsAR di cui all’allegato 1b. 3) se necessario, delega del legale rappresentante al sostituto delegato alla firma digitale della domanda. Per gli enti privati l'eventuale delega del legale rappresentante alla firma dell’istanza deve essere redatta nella forma della procura generale o speciale sottoscritta dal legale rappresentante del richiedente con cui viene incaricato il soggetto alla sottoscrizione della domanda, corredata dalla copia del documento di identità in corso di validità del legale rappresentante, qualora la procura sia sottoscritta con firma autografa; per gli enti pubblici sono accettati gli atti amministrativi con cui il legale rappresentante dell'ente pubblico, nell'ambito dell'autonomia statutaria dell'ente, delega un altro soggetto alla gestione di un dato servizio o ambito di competenze ; q ualora, esclusivamente per gli enti privati, l’istanza sia firmata in maniera autografa, deve sempre essere allegato alla stessa il documento di identità del legale rappresentante in corso di validità. Ulteriori documenti da allegare alla domanda 1) copia dell’atto costitutivo e dello statuto in vigore (solo per soggetti privati in caso di prima istanza sulla presente linea di finanziamento o in caso di variazioni intercorse allo statuto rispetto a quello già presentato); 2) breve curriculum del soggetto proponente e descrizione delle attività svolte dall’ente (solo per soggetti privati in caso di prima istanza); 3a) copia dell’eventuale accordo di corealizzazione di cui ai punti 3.2.1-3.2.6, che regolamenta la condivisione del progetto (in caso di co-realizzazione economica/gestionale del progetto con altri enti) e che definisca compiti e oneri economici e gestionali di ciascun partner e individui un solo soggetto privato o pubblico percettore dell’eventuale contributo di cui al presente avviso; 3b) dichiarazione sostitutiva dell’atto di notorietà, resa su modulo Aut di cui all’allegato 1c, dal Legale Rappresentante di ciascuno dei soggetti partner, attestante i fatti di seguito elencati: la condivisione e/o coproduzione economica/gestionale, da parte del soggetto rappresentato, dell’iniziativa col soggetto capofila richiedente il contributo regionale; la presenza agli atti dell’ente rappresentato della documentazione di spesa riferita all’iniziativa condivisa con il capofila richiedente il contributo regionale e la visionabilità della medesima documentazione da parte della Regione Piemonte, per le proprie finalità istituzionali, nel caso di assegnazione del contributo al capofila e di specifica richiesta dell’Amministrazione regionale; 3c) copia del documento di identità, in corso di validità, del legale rappresentante di ciascuno dei soggetti partner del progetto; 3d) curriculum di ciascuno dei soggetti partner, qualora privati, con particolare riferimento all’ambito a cui attiene l’attività su cui verte l’istanza di contributo; 4) autorizzazione o richiesta di autorizzazione agli interventi inviata alla Soprintendenza archivistica e bibliografica del Piemonte e della Valle d’Aosta corredata dalla ricevuta di avvenuto invio, oppure dichiarazione attestante che l’intervento non è soggetto ad autorizzazione ai sensi del D.Lgs 42/2004 . Al fine di ottenere l’autorizzazione definitiva all’intervento, è necessario inviare alla Soprintendenza, insieme alla richiesta di autorizzazione, il relativo progetto tecnico, così come disposto dall’art. 21 D.Lgs. 42/2004. I n proposito, si raccomanda di seguire le indicazioni contenute nel vademecum consultabile alle seguenti pagine web: Bandi Regione Piemonte. Contributi e Finanziamenti Servizionline. Bandi Cultura, Turismo e Sport - FINanziamenti DOMande . I file relativi agli allegati sopra elencati (che è possibile visionare nella sezione Allegati), sono scaricabili direttamente da Sistema Piemonte al'indirizzo web FINanziamenti DOMande e vanno obbligatoriamente trasmessi attraverso Sistema Piemonte – FINanziamenti DOMande. Struttura di riferimento Settore Promozione dei Beni librari e archivistici, editoria e istituti culturali Contatti Informazioni e chiarimenti sui contenuti dell’Avviso e le modalità di presentazione delle domande potranno essere richiesti al Settore Promozione dei Beni librari e archivistici, editoria e istituti culturali Piazza Piemonte 1 - 10127 Torino: Elena Timossi tel. 011.432. 5447, e-mail: elena.timossi@regione.piemonte.it Per problemi tecnici relativi alla funzionalità di Sistema Piemonte – Finanziamenti Domande rivolgersi al Form Assistenza presente nella pagina di accesso. Allegato testo procedura Determinazione dirigenziale 432/A2001D/2026 del 07/09/2026 Documento PDF - 207.82 KB File primario Testo dell'avviso pubblico Documen"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-catalogazione-digitalizzazione-patrimonio-bibliografico": {
+      "id": "PIE-AUTO-7AABAB1CB8C2",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-catalogazione-digitalizzazione-patrimonio-bibliografico",
+      "contentHash": "031d86cbe7078aafca775004d0899260b1c26e9761c0684a441abb85761f7ef2",
+      "version": 2,
+      "firstSeenAt": "2026-09-10T14:36:00+02:00",
+      "lastChangedAt": "2026-09-10T14:36:11+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Contributo 2026 per interventi di conservazione, catalogazione e digitalizzazione del patrimonio bibliografico di interesse culturale Enti privati e pubblici",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-05",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contributo",
+          "interventi",
+          "conservazione",
+          "catalogazione",
+          "digitalizzazione",
+          "patrimonio",
+          "bibliografico",
+          "interesse",
+          "culturale",
+          "enti",
+          "privati",
+          "pubblici",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici"
+        ],
+        "sectors": [
+          "contributo",
+          "interventi",
+          "conservazione",
+          "catalogazione",
+          "digitalizzazione",
+          "patrimonio",
+          "bibliografico",
+          "interesse"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-interventi-conservazione-catalogazione-digitalizzazione-patrimonio-bibliografico",
+        "sourceStatus": "aperto",
+        "discoveryText": "Contributo 2026 per interventi di conservazione, catalogazione e digitalizzazione del patrimonio bibliografico di interesse culturale Enti privati e pubblici Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Avviso pubblico di finanziamento per la presentazione di domanda di contributo a sostegno di interventi di Conservazione, catalogazione e digitalizzazione del patrimonio bibliografico di interesse culturale per l’anno 2026. L.r. 11/2018 art. 21 ENTI PRIVATI E PUBBLICI Domande dal Gio, 10/09/2026 - 09:00 Scadenza Lun, 05/10/2026 - 12:00 Riferimento Bollettino Ufficiale BUR n. 36 del 10/09/2026 Temi Cultura Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso Obiettivo prioritario dell'avviso è contribuire al sostegno degli enti pubblici e privati piemontesi che intendano realizzare interventi di conservazione, catalogazione e digitalizzazione del patrimonio bibliografico di interesse culturale. Interventi ammessi a contributo: interventi di riordino, censimento, inventariazione e catalogazione di patrimonio bibliografico di interesse culturale mediante applicativo informatico (saranno accettati unicamente applicativi che dialoghino con l’Indice nazionale SBN); restauro di patrimonio bibliografico di interesse culturale; trattamento fisico di patrimonio bibliografico di interesse culturale (spolveratura, etichettatura, timbratura); disinfezione e disinfestazione del patrimonio bibliografico di interesse culturale e degli ambienti in cui è conservato; recupero e conversione di database catalografici riferiti a patrimonio bibliografico di interesse culturale; digitalizzazione di patrimonio bibliografico di interesse culturale secondo le linee guida regionali (Linee guida per i progetti di digitalizzazione elaborate dalla Regione Piemonte e dal Csi-Piemonte, reperibili in Mèmora ) e acquisto di strumenti fotografici, lampade e altre attrezzature solo se compreso nell’ambito di un’adeguata progettazione di un intervento di digitalizzazione; formazione di collezioni digitali del patrimonio bibliografico di interesse culturale; acquisto di materiale specifico destinato alla conservazione e al condizionamento del patrimonio bibliografico di interesse culturale; acquisto attrezzature tecniche per il controllo e il mantenimento dei parametri ambientali. Si precisa che, ai fini del presente avviso pubblico, sono considerati beni bibliografici di interesse culturale i fondi bibliografici appartenenti a enti pubblici e a persone giuridiche private senza fine di lucro, compresi gli enti ecclesiastici civilmente riconosciuti, che presentano interesse artistico, storico, archeologico o etnoantropologico per le quali sia intervenuta la verifica dell'interesse culturale o che sono opera di autore non più vivente e la cui esecuzione risale ad oltre 70 anni. Sono ammessi altresì interventi su “fondi bibliografici personali” (fondi bibliografici raccolti e/o prodotti da persone significative del mondo della cultura, delle professioni e delle arti o che costituiscano raccolte di notevole interesse in ambito culturale e professionale) costituiti per la maggior parte da edizioni pubblicate prima del 1960. Il contributo massimo assegnabile non potrà essere superiore all’ 80% delle spese complessive di progetto ritenute ammissibili, fermi restando i seguenti tetti di contribuzione: Contributo minimo richiedibile e assegnabile: Euro 5.000,00 Contributo massimo richiedibile e assegnabile: Euro 20.000,00. Chi può partecipare Enti locali singoli o associati, pubbliche amministrazioni, istituzioni culturali e formative, enti e istituzioni religiose, associazioni e fondazioni private e pubbliche, altri enti che operano senza fine di lucro, cooperative a mutualità prevalente senza fini di lucro. Dotazione finanziaria Euro 199.000,00 così ripartiti: Euro 103.000,00 a favore di soggetti privati Euro 96.000,00 a favore di soggetti pubblici. Come presentare domanda L’ istanza deve essere presentata, a pena di inammissibilità, dal legale rappresentante o da suo delegato a partire dalle ore 9.00 del giorno 10/09/2026 e perentoriamente entro le ore 12.00 del 05/10/2026 tramite Sistema Piemonte al'indirizzo web FINanziamenti DOMande seguendo le indicazioni dell’Avviso pubblico, nonché le istruzioni contenute nelle “Regole di compilazione” e nel Manuale Utente presenti sullo stesso sito. Per accedere a Sistema Piemonte , il legale rappresentante o suo sostituto deve autenticarsi tramite Certificato di Autenticazione o SPID - Sistema Pubblico di Identità Digitale. All’inserimento della nuova domanda è necessario indicare la tipologia del richiedente (Pubblico o Privato) . L’istanza deve essere sottoscritta dal legale rappresentante o da suo delegato con apposizione di firma digitale (unicamente in formato CADES p7m) applicata su documento in formato pdf e inviata attraverso Sistema Piemonte – FINanziamenti DOMande. L'eventuale delega del legale rappresentante alla firma dell’istanza deve essere redatta nella forma della procura generale o speciale sottoscritta dal legale rappresentante dell'ente richiedente con cui viene incaricato il soggetto alla sottoscrizione della domanda, corredata dalla copia del documento di identità in corso di validità del legale rappresentante, qualora la procura sia sottoscritta con firma autografa. La mancanza di tale delega, redatta nelle forme indicate, comporta l’inammissibilità dell’istanza . Il richiedente dovrà procedere all’upload e contestuale invio della domanda unitamente a tutta la documentazione obbligatoria. Documenti da allegare alla domanda DOCUMENTAZIONE OBBLIGATORIA PENA INAMMISSIBILITA’ PER LA QUALE NON SARA’ ATTIVATO IL SOCCORSO ISTRUTTORIO: La domanda deve essere corredata dai seguenti allegati : 1) relazione descrittiva dell’iniziativa oggetto dell’istanza, resa sul modulo Rel_ConsBL di cui all’allegato 1a; 2) progetto tecnico dell’intervento, firmato digitalmente dal professionista incaricato e/o dal legale rappresentante o suo delegato; il progetto tecnico dovrà comunque presentare in modo esaustivo gli elementi significativi che caratterizzano l’iniziativa e contemplare, tra gli altri, i seguenti punti: descrizione accurata dei fondi bibliografici oggetto dell’intervento con quantificazione dei volumi e indicazione della datazione delle pubblicazioni; descrizione delle attività da realizzare; strumenti utilizzati e riferimenti tecnici; fasi dei lavori; criteri adottati; contenuti e obiettivi che si vogliono raggiungere; qualora l’intervento previsto debba essere autorizzato da parte della Soprintendenza archivistica e bibliografica del Piemonte e della Valle d’Aosta, il progetto tecnico va redatto utilizzando il modulo modulo Prog_Tecn_ConBL di cui all’allegato 1b; 3) se necessario, delega del Legale rappresentante al sostituto delegato alla firma digitale della domanda; per gli enti privati : l'eventuale delega del legale rappresentante alla firma dell’istanza deve essere redatta nella forma della procura generale o speciale sottoscritta dal legale rappresentante dell’ente richiedente con cui viene incaricato il soggetto alla sottoscrizione della domanda, corredata dalla copia del documento di identità in corso di validità del legale rappresentante, qualora la procura sia sottoscritta con firma autografa. per gli enti pubblici : sono accettati gli atti amministrativi con cui il legale rappresentate dell'ente pubblico, nell'ambito dell'autonomia statutaria dell'ente, delega un altro soggetto della stessa amministrazione alla gestione di un dato servizio o ambito di competenze. Ulteriori documenti da allegare alla domanda: 1) breve curriculum del soggetto proponente e descrizione delle attività svolte dall’ente (solo per Soggetti Privati in caso di prima istanza) 2) copia dell’atto costitutivo e dello statuto in vigore (solo per soggetti privati in caso di prima istanza sulla presente linea di finanziamento o in caso di variazioni intercorse allo statuto rispetto a quello già presentato); 3a) copia dell’eventuale accordo di corealizzazione di cui al punto 3.2, che regolamenta la condivisione del progetto; 3b) dichiarazione sostitutiva dell’atto di notorietà, resa su modulo Aut di cui all’allegato 1c, dal Legale Rappresentante di ciascuno dei soggetti partner, attestante i fatti di seguito elencati: la condivisione e/o coproduzione economica/gestionale, da parte del soggetto rappresentato, dell’iniziativa col soggetto capofila richiedente il contributo regionale; la presenza agli atti dell’ente rappresentato della documentazione di spesa riferita all’iniziativa condivisa con il capofila richiedente il contributo regionale e la visionabilità della medesima documentazione da parte della Regione Piemonte, per le proprie finalità istituzionali, nel caso di assegnazione del contributo al capofila e di specifica richiesta dell’Amministrazione regionale; 3c) copia del documento di identità, in corso di validità, del legale rappresentante di ciascuno dei soggetti partner del progetto; 3d) curriculum di ciascuno dei soggetti partner, con particolare riferimento all’ambito a cui attiene l’attività su cui verte l’istanza di contributo; 4) autorizzazione o richiesta di autorizzazione agli interventi inviata alla Soprintendenza archivistica e bibliografica del Piemonte e della Valle d’Aosta corredata dalla ricevuta di avvenuto invio oppure dichiarazione del richiedente attestante che l’intervento non è soggetto ad autorizzazione ai sensi del D.Lgs 42/2004. Al fine di ottenere l’autorizzazione definitiva all’intervento, è necessario inviare alla Soprintendenza, insieme alla richiesta di autorizzazione, il relativo progetto tecnico, così come disposto dall’art. 21 D.Lgs. 42/2004. In proposito, si raccomanda di seguire le indicazioni contenute nel vademecum consultabile alle seguenti pagine web: Bandi Regione Piemonte. Contributi e Finanziamenti Servizionline. Bandi Cultura, Turismo e Sport - FINanziamenti DOMande . I file relativi agli allegati sopra elencati (che è possibile visionare nella sezione Allegati), sono scaricabili direttamente da Sistema Piemonte al'indirizzo web FINanziamenti DOMande e vanno obbligatoriamente trasmessi attraverso Sistema Piemonte – FINanziamenti DOMande. Struttura di riferimento Settore Promozione dei beni librari e archivistici, editoria e istituti culturali Contatti Informazioni e chiarimenti sui contenuti dell’Avviso e le modalità di presentazione delle domande potranno essere richiesti al Settore Promozione dei beni librari e archivistici, editoria e istituti culturali Valentina Verga – Tel. 011.432.2063 – valentina.verga@regione.piemonte.it Maria Prano - Tel. 011.432.3599 - maria.prano@regione.piemonte.it Per problemi tecnici relativi alla funzionalità di Sistema Piemonte – Finanziamenti Domande rivolgersi al Form Assistenza presente nella pagina di accesso. Allegato testo procedura Determinazione dirigenziale 424/A2001D/2026 del 03/09/2026 Documento PDF - 229.36 KB File primario Testo dell'avviso pubblico Documento PDF - 504.28 KB Allegato 1 della determinazione dirigenziale 424/A2001D/2026 del 03/09/2026 Altri allegati Modello Rel_ConsBL Allegato 1a.doc Documento Word - 70 KB Relazione illustrativa del progetto oggetto dell’istanza Modello ProgTec_ConsBL Allegato 1b.doc Documento Word - 30 KB Modello progetto tecnico Modello Aut_ConsBL Allegato 1c.doc Documento Word - 28 KB Dichiarazione sostitutiva dell’atto di notorietà degli enti co-titolari del progetto Regole di compilazione della domanda telematica Documento PDF - 259.76 KB Vademecum per richiesta di autorizzazione alla Soprintendenza Documento PDF - 82.77 KB Vademecum operativo richiesta di autorizzazione alla Soprintendenza Archivistica e Bibliografica del Piemonte e della Valle d’Aosta per gli interventi ammessi dal Bando Determinazione dirigenziale 75/A2000C/2026 del 19/02/2026 Documento PDF - 728.36 KB Oggetto: L.R. 11/2018 – Determinazione Dirigenziale n. 253/A2000C/2025 (L.R 11/2018. D.G.R. n. 5-1262/2025. Nuove di"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-10T14:36:11+02:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-10T08:35:38+02:00",
+  "triageUpdatedAt": "2026-09-10T14:36:11+02:00",
   "triageSummary": {
-    "rulesResolved": 11,
+    "rulesResolved": 10,
     "rulesExcludedForEts": 0,
-    "aiRequired": 5,
-    "notPresent": 13,
+    "aiRequired": 6,
+    "notPresent": 16,
     "ruleVersion": 3
   }
 }
