@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T02:35:58+02:00",
+  "generatedAt": "2026-09-11T08:35:14+02:00",
   "ruleVersion": 3,
   "count": 6,
   "items": [
     {
       "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
       "id": "FC-AUTO-C3D08ACE153F",
-      "version": 4,
+      "version": 6,
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "title": "ERC Attrattività",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "id": "RLH12026055083",
-      "version": 76,
+      "version": 78,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-presentazione-proposte-intervento-incentivare-messa-disposizione-locazione-patrimonio-immobiliare-pubblico-privato-linea-1-d-g-r-n-xii-6209-25-maggio-2026-RLH12026055083",
       "title": "Bando per la presentazione di proposte di intervento per incentivare la messa a disposizione, in locazione, di patrimonio immobiliare pubblico e privato. Linea 1 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026.",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "id": "RLT12026052304",
-      "version": 22,
+      "version": 24,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "title": "Bando per l’assegnazione di contributi agli Enti locali per la rimozione di manufatti contenenti amianto da edifici pubblici e la loro sostituzione – Ed. 2026",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "id": "RLH12026055063",
-      "version": 76,
+      "version": 78,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/housing-sociale/bando-l-attivazione-programma-riqualificazione-quartieri-propriet-aler-attraverso-collaborazione-pubblico-privato-linea-2-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-RLH12026055063",
       "title": "Bando per l’attivazione di un programma di riqualificazione dei quartieri di proprietà delle ALER, anche attraverso la collaborazione pubblico-privato. Linea 2 – Housing sociale - D.G.R. n. XII/6209 del 25 maggio 2026",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "id": "RLP12026054730",
-      "version": 74,
+      "version": 76,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
       "title": "INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "id": "RLD12025045643",
-      "version": 22,
+      "version": 24,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
