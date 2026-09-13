@@ -1,0 +1,91 @@
+name: Ripristina UI cliente BANDOVERA
+
+on:
+  push:
+    paths:
+      - '.github/workflows/ripristina-ui-cliente.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch-client:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Ripristina Preferiti Privacy Policy e refresh automatico
+        shell: python
+        run: |
+          from pathlib import Path
+
+          p = Path('public/index.html')
+          s = p.read_text(encoding='utf-8')
+          original = s
+
+          # 1) Rimuove definitivamente il pulsante manuale, lasciando il refresh automatico.
+          s = s.replace('<button class="btn primary" id="refreshBtn">↻ Aggiorna bandi</button>', '')
+
+          # 2) Aggiunge Preferiti come filtro reale della pagina.
+          old_filter = '<option value="excluded">Non compatibili</option></select>'
+          new_filter = '<option value="excluded">Non compatibili</option><option value="favorites">Preferiti</option></select>'
+          if old_filter in s and 'option value="favorites"' not in s:
+              s = s.replace(old_filter, new_filter, 1)
+
+          old_logic = 'f==="excluded"?b.r.eligibilityState==="no":true)'
+          new_logic = 'f==="excluded"?b.r.eligibilityState==="no":f==="favorites"?favs.includes(b.id):true)'
+          if old_logic in s:
+              s = s.replace(old_logic, new_logic, 1)
+
+          # 3) Footer: Privacy e Policy sono parte della pagina statica, non dipendono più dal Worker.
+          old_footer = '<div class="product-footer"><div class="copyright">© <b>BANDOVERA</b> 2025 — Tutti i diritti sono riservati</div><div class="mission">La tua missione. Le giuste opportunità.</div></div>'
+          new_footer = '''<div class="product-footer"><div class="copyright">© <b>BANDOVERA</b> 2025 — Tutti i diritti sono riservati</div><div class="mission">La tua missione. Le giuste opportunità.</div><div class="legal-links" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:13px"><button type="button" class="btn ghost" data-legal="privacy" style="padding:6px 10px">Privacy</button><button type="button" class="btn ghost" data-legal="policy" style="padding:6px 10px">Policy</button></div></div>'''
+          if old_footer in s and 'data-legal="privacy"' not in s:
+              s = s.replace(old_footer, new_footer, 1)
+
+          # 4) Modale legale.
+          marker = '<script>\n(()=>{"use strict";'
+          legal_modal = '''<div id="legalModal" class="modal-wrap hidden"><div class="card modal"><div style="display:flex;justify-content:space-between;gap:12px;align-items:flex-start"><h2 id="legalTitle" style="margin-top:0"></h2><button type="button" class="btn ghost" id="legalClose">Chiudi</button></div><div id="legalBody" class="small" style="font-size:14px;line-height:1.65;color:#c4d6e2"></div></div></div>'''
+          if marker in s and 'id="legalModal"' not in s:
+              s = s.replace(marker, legal_modal + marker, 1)
+
+          # 5) La funzione refresh non cerca più un bottone che non esiste.
+          s = s.replace('async function refresh(){const btn=$("refreshBtn");btn.disabled=true;btn.textContent="Aggiornamento…";try{', 'async function refresh(){try{', 1)
+          s = s.replace('finally{btn.disabled=false;btn.textContent="↻ Aggiorna bandi"}', '', 1)
+          s = s.replace('$("refreshBtn").onclick=refresh;', '', 1)
+
+          # 6) Gestione Privacy/Policy direttamente nella pagina cliente.
+          hook = '$("search").oninput=render;$("filter").onchange=render;'
+          legal_js = r'''const legalModal=$("legalModal"),legalTitle=$("legalTitle"),legalBody=$("legalBody");const legalContent={privacy:'<p><b>Informativa privacy BANDOVERA</b></p><p>BANDOVERA tratta esclusivamente i dati necessari alla gestione della licenza, alla personalizzazione del servizio e alle eventuali richieste di supporto inviate dall\'utente.</p><p>I dati non vengono utilizzati per finalità diverse da quelle connesse all\'erogazione del servizio, salvo obblighi di legge o specifico consenso dell\'interessato.</p><p>Per richieste relative ai dati personali, rettifica o cancellazione è possibile contattare il gestore del servizio.</p>',policy:'<p><b>Policy di utilizzo BANDOVERA</b></p><p>BANDOVERA è uno strumento informativo di supporto alla ricerca di bandi e opportunità per gli Enti del Terzo Settore.</p><p>I punteggi di compatibilità sono orientativi e non costituiscono garanzia di ammissibilità, concessione del contributo o finanziamento.</p><p>Prima di presentare una candidatura è necessario verificare sempre il testo ufficiale del bando, gli allegati, i requisiti e le scadenze pubblicate dall\'ente promotore.</p><p>La licenza è nominativa e destinata esclusivamente all\'organizzazione per la quale è stata attivata.</p>'};document.querySelectorAll('[data-legal]').forEach(btn=>btn.onclick=()=>{const k=btn.dataset.legal;legalTitle.textContent=k==='privacy'?'Privacy':'Policy';legalBody.innerHTML=legalContent[k]||'';legalModal.classList.remove('hidden')});$("legalClose").onclick=()=>legalModal.classList.add('hidden');legalModal.onclick=e=>{if(e.target===legalModal)legalModal.classList.add('hidden')};'''
+          if hook in s and 'const legalContent=' not in s:
+              s = s.replace(hook, legal_js + hook, 1)
+
+          if s == original:
+              raise SystemExit('Nessuna modifica applicata: struttura inattesa.')
+
+          # Controlli minimi prima del commit.
+          required = [
+              'option value="favorites"',
+              'f==="favorites"?favs.includes(b.id):true',
+              'data-legal="privacy"',
+              'data-legal="policy"',
+              'id="legalModal"'
+          ]
+          missing = [x for x in required if x not in s]
+          if missing:
+              raise SystemExit('Controllo fallito, elementi mancanti: ' + ', '.join(missing))
+          if 'id="refreshBtn"' in s:
+              raise SystemExit('Controllo fallito: refreshBtn ancora presente.')
+
+          p.write_text(s, encoding='utf-8')
+
+      - name: Commit pagina cliente corretta
+        run: |
+          git config user.name "BANDOVERA Automation"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Ripristina Preferiti Privacy Policy e refresh automatico"
+          git push
