@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-14T14:36:51+02:00",
+  "generatedAt": "2026-09-14T20:33:24+02:00",
   "ruleVersion": 3,
   "count": 7,
   "items": [
     {
       "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
       "id": "FC-AUTO-C3D08ACE153F",
-      "version": 32,
+      "version": 34,
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "title": "ERC Attrattività",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "id": "RLT12026052304",
-      "version": 50,
+      "version": 52,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "title": "Bando per l’assegnazione di contributi agli Enti locali per la rimozione di manufatti contenenti amianto da edifici pubblici e la loro sostituzione – Ed. 2026",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "id": "RLV12026055943",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "title": "COSTARGA 2026 - GESTIONI ASSOCIATE Domanda di Contributo Statale Regionalizzato",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "id": "RLM12026055263",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "title": "Contributi per l’attuazione di interventi selvicolturali con promozione della gestione forestale sostenibile",
@@ -101,12 +101,12 @@
       "text": "Bandi / Agricoltura / Boschi e foreste / Contributi per l’attuazione di interventi selvicolturali con promozione della gestione forestale sostenibile Aperto Contributi per l’attuazione di interventi selvicolturali con promozione della gestione forestale sostenibile Codice: RLM12026055263 Pubblicato il: 05/08/2026 , ore 11:21 Domande dal: 14/09/2026 , ore 12:00 Scade il: 09/10/2026 , ore 16:00 Criteri per l’assegnazione di contributi a favore di interventi selvicolturali con promozione della gestione forestale sostenibile, in attuazione dei decreti ministeriali MIPAAF 29 settembre 2021, MASAF n.494675 del 27 settembre 2024 e MASAF n.531282 del 8 ottobre 2024. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLM12026055263 Pubblicato il: 05/08/2026 , ore 11:21 Domande dal: 14/09/2026 , ore 12:00 Scade il: 09/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda di contributo: Misura 1-Interventi per la resilienza e il pregio ambientale delle foreste. Sono soggetti beneficiari gli enti gestori di aree protette, definiti dalla l.r. 30 novembre 1983, n. 86 “Piano regionale delle aree regionali protette. Norme per l’istituzione e la gestione delle riserve, dei parchi e dei monumenti naturali nonché delle aree di particolare rilevanza naturale e ambientale”, i quali devono essere proprietari, concessionari, possessori o gestori di boschi, come definiti dall’art.42 della l.r.31/2008. I richiedenti non devono aver beneficiato di"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
-      "id": "RLP12026054730",
-      "version": 102,
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183",
+      "id": "RLAM2026056183",
+      "version": 2,
       "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/intervento-sostegno-associazioni-pro-loco-loro-unioni-iscritte-albo-regionale-sensi-dgr-04-dicembre-2023-n-1493-criteri-attuativi-RLP12026054730",
-      "title": "INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183",
+      "title": "FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting",
       "territories": [
         "lombardia"
       ],
@@ -122,12 +122,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "Bandi / Cultura, Turismo e Sport / Promozione turistica / INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI Aperto INTERVENTO A SOSTEGNO DELLE ASSOCIAZIONI PRO LOCO E DELLE LORO UNIONI ISCRITTE ALL’ALBO REGIONALE, AI SENSI DELLA DGR 04 DICEMBRE 2023, N. 1493 – CRITERI ATTUATIVI Codice: RLP12026054730 Pubblicato il: 31/07/2026 , ore 10:10 Domande dal: 01/09/2026 , ore 15:00 Scade il: 30/09/2026 , ore 15:00 La misura intende sostenere le associazioni pro loco e le loro unioni iscritte all’albo regionale delle pro loco, che collaborano alla promozione turistica di base, allo scopo di agevolarne ed incentivarne l’attività Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLP12026054730 Pubblicato il: 31/07/2026 , ore 10:10 Domande dal: 01/09/2026 , ore 15:00 Scade il: 30/09/2026 , ore 15:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono beneficiare del contributo le associazioni pro loco e loro unioni, in possesso dei seguenti requisiti di ammissibilità: - iscrizione all’albo regionale delle pro loco, alla data di apertura della misura in oggetto: 1° settembre 2026 - adesione formale alla misura tra il 1° e il 30 settembre 2026 ore 15.00. Ogni soggetto in possesso dei requisiti sopra indicati ha diritto ad un solo contributo. In ogni caso, le agevolazioni saranno erogate dopo l’acquisizione delle dichiarazioni, rese ai sensi del DPR 445/2000, in merito alla regolarità contributiva ove ap"
+      "text": "Bandi / Ricerca e Innovazione / Accordi di collaborazione per l'innovazione / FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting Aperto FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting Codice: RLAM2026056183 Pubblicato il: 14/09/2026 , ore 16:06 Domande dal: 14/09/2026 , ore 12:00 Scade il: 30/09/2026 , ore 12:00 DURATA DEL CONTRATTO: dalla sottoscrizione del Foglio Patti e Condizione al 31/12/2027 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026056183 Pubblicato il: 14/09/2026 , ore 16:06 Domande dal: 14/09/2026 , ore 12:00 Scade il: 30/09/2026 , ore 12:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BCF7258F65 Base d'asta € 90.000,00 Di cosa si tratta Acquisizione del servizio di ricerca, supporto operativo e capacity building sul Green Budgeting con Follow-up del progetto «Technical support to develop green budgeting methodologies in Lombardy, Italy» finanziato dalla Commissione Europea – SG Reform e concluso nel mese di giugno 2026. Il servizio prevede un’attività di supporto per il passaggio dalla fase pilota del progetto, conclusasi a gennaio 2026, all’applicazione progressiva della metodologia al Rendiconto generale dell’esercizio finanziario 2025, consolidando strumenti, competenze e capacità operative interne all’Amministrazione Regionale. Come partecipare Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al "
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "id": "RLW12025050925",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "title": "Inclusione scolastica studenti con disabilità nel secondo ciclo di istruzione - A.S. 2026/2027",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "id": "RLD12025045643",
-      "version": 50,
+      "version": 52,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",

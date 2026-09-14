@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-14T14:36:51+02:00",
+  "catalogUpdatedAt": "2026-09-14T20:33:24+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -2406,8 +2406,8 @@
       "version": 102,
       "firstSeenAt": "2026-09-01T20:31:45+02:00",
       "lastChangedAt": "2026-09-14T14:36:51+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-14T20:33:16+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -2909,9 +2909,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-sostegno-agli-investimenti-vivaisti-legge-n-2062023-disposizioni-organiche-valorizzazione",
       "contentHash": "275e200449182dc1153b6771afe619bc064062965f95c35036a584d9a410cdc5",
-      "version": 56,
+      "version": 58,
       "firstSeenAt": "2026-09-04T14:34:37+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3017,7 +3017,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -3026,9 +3026,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 50,
+      "version": 52,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3129,7 +3129,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -3138,9 +3138,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 50,
+      "version": 52,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3238,7 +3238,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "8895af2a2c3e37383b9a49feaf7b768c87d54dcb57d279f1fe52c67da2685373",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -3948,9 +3948,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "contentHash": "02994b421f4255a2351efb81ce1ece35bd2597e75580a9ac5a6095d28b89d803",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4047,7 +4047,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-14T14:36:51+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,17 +4273,130 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-14T14:36:51+02:00"
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183": {
+      "id": "RLAM2026056183",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183",
+      "contentHash": "870a58aa440e54061f6eb990238f8c5a6070c61c479a0686c17bea5cde2da308",
+      "version": 2,
+      "firstSeenAt": "2026-09-14T20:33:16+02:00",
+      "lastChangedAt": "2026-09-14T20:33:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "acquisizione",
+          "servizio",
+          "ricerca",
+          "supporto",
+          "operativo",
+          "codice",
+          "rlam",
+          "durata",
+          "contratto",
+          "sottoscrizione",
+          "foglio",
+          "patti",
+          "condizione"
+        ],
+        "sectors": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "acquisizione",
+          "servizio",
+          "ricerca",
+          "supporto"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183",
+        "discoveryText": "Bandi / Ricerca e Innovazione / Accordi di collaborazione per l'innovazione / FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting Aperto FEC 27/2026 Acquisizione del servizio di ricerca, supporto operativo e capacity building di consolidamento delle pratiche di Green Budgeting Codice: RLAM2026056183 Pubblicato il: 14/09/2026 , ore 16:06 Domande dal: 14/09/2026 , ore 12:00 Scade il: 30/09/2026 , ore 12:00 DURATA DEL CONTRATTO: dalla sottoscrizione del Foglio Patti e Condizione al 31/12/2027 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026056183 Pubblicato il: 14/09/2026 , ore 16:06 Domande dal: 14/09/2026 , ore 12:00 Scade il: 30/09/2026 , ore 12:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BCF7258F65 Base d'asta € 90.000,00 Di cosa si tratta Acquisizione del servizio di ricerca, supporto operativo e capacity building sul Green Budgeting con Follow-up del progetto «Technical support to develop green budgeting methodologies in Lombardy, Italy» finanziato dalla Commissione Europea – SG Reform e concluso nel mese di giugno 2026. Il servizio prevede un’attività di supporto per il passaggio dalla fase pilota del progetto, conclusasi a gennaio 2026, all’applicazione progressiva della metodologia al Rendiconto generale dell’esercizio finanziario 2025, consolidando strumenti, competenze e capacità operative interne all’Amministrazione Regionale. Come partecipare Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al sito www.ariaspa.it . Per le informazioni di tipo tecnico, si faccia riferimento al documento allegato “ Modalità tecniche per l’utilizzo della piattaforma Sintel ” ed esclusivamente al numero verde del gestore della Piattaforma SINTEL presso ARIA 800.116.738. ¿¿¿¿¿¿¿ Informazioni e contatti VALENTINA CONVERTINI - Dirigente Struttura Programmazione Acquisti e Gestione Appalti Allegati Documentazione di gara - 14/09/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-14T20:33:24+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-14T14:36:51+02:00",
+  "triageUpdatedAt": "2026-09-14T20:33:24+02:00",
   "triageSummary": {
     "rulesResolved": 6,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 23,
+    "notPresent": 24,
     "ruleVersion": 3
   }
 }
