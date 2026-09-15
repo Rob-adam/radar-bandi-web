@@ -84,6 +84,39 @@ export default {
    if(!rec)return json({configured:true,registered:false,active:true,license:code,versionTimestamp:vts});
    const expired=isExpired(rec.expiresAt);
    return json({configured:true,registered:true,license:code,active:rec.active!==false&&!expired,expired,expiresAt:rec.expiresAt||null,versionTimestamp:vts});
+  } if(url.pathname==='/api/admin/licenses'&&request.method==='GET'){
+   if(!env.LICENSES)return json({error:'Archivio KV LICENSES non configurato'},503);
+   if(!authOk(request,env))return json({error:'Chiave amministratore non valida'},401);
+
+   const records=[];
+   let cursor;
+
+   do{
+      const page=await env.LICENSES.list({
+         prefix:'license:',
+         cursor,
+         limit:1000
+      });
+
+      for(const key of page.keys){
+         const rec=await env.LICENSES.get(key.name,{type:'json'});
+         if(rec){
+            records.push({
+               ...(rec.profile||{}),
+               license:rec.license||key.name.replace('license:',''),
+               name:rec.name||rec.profile?.name||'',
+               active:rec.active!==false,
+               expiresAt:rec.expiresAt||'',
+               price:Number(rec.price)||0
+            });
+         }
+      }
+
+      cursor=page.list_complete?undefined:page.cursor;
+   }while(cursor);
+
+   records.sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''),'it'));
+   return json({ok:true,clients:records});
   }
   if(url.pathname==='/api/admin/license'&&request.method==='POST'){
    if(!env.LICENSES)return json({error:'Archivio KV LICENSES non configurato'},503);
