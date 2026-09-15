@@ -56,25 +56,8 @@ function apiKey(){let k=sessionStorage.getItem(SK)||"";if(!k){k=prompt("Chiave a
  }
 
  const remote=Array.isArray(d.clients)?d.clients:[];
- const codes=new Set(
-  remote.map(c=>String(c.license||'').trim().toUpperCase())
- );
-
- for(const c of clients){
-  const code=String(c.license||'').trim().toUpperCase();
-  if(code&&!codes.has(code)){
-   try{
-    await syncLicense(c);
-    remote.push(c);
-    codes.add(code);
-   }catch(e){
-    console.warn('Cliente locale non sincronizzato',code,e);
-   }
-  }
- }
-
- clients=remote;
- localStorage.setItem(KEY,JSON.stringify(clients));
+clients=remote;
+localStorage.setItem(KEY,JSON.stringify(clients));
 }
 async function syncLicense(c){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,name:c.name||'',active:c.active!==false,expiresAt:c.expiresAt||'',price:+c.price||0,profile:c})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
 async function syncExpiry(c,expiresAt){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,active:c.active!==false,expiresAt})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
