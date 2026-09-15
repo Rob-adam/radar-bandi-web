@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-15T08:37:02+02:00",
+  "catalogUpdatedAt": "2026-09-15T14:34:49+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -2912,8 +2912,8 @@
       "version": 62,
       "firstSeenAt": "2026-09-04T14:34:37+02:00",
       "lastChangedAt": "2026-09-15T08:37:02+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-15T14:34:40+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -3029,8 +3029,8 @@
       "version": 56,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
       "lastChangedAt": "2026-09-15T08:37:02+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-15T14:34:40+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -3141,8 +3141,8 @@
       "version": 56,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
       "lastChangedAt": "2026-09-15T08:37:02+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-15T14:34:40+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "8895af2a2c3e37383b9a49feaf7b768c87d54dcb57d279f1fe52c67da2685373",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-15T08:37:02+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -3948,9 +3948,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "contentHash": "02994b421f4255a2351efb81ce1ece35bd2597e75580a9ac5a6095d28b89d803",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T08:37:02+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4047,7 +4047,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T08:37:02+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T08:37:02+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,7 +4273,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
       },
       "excludedForEts": false
     },
@@ -4285,8 +4285,8 @@
       "version": 6,
       "firstSeenAt": "2026-09-14T20:33:16+02:00",
       "lastChangedAt": "2026-09-15T08:37:02+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-15T14:34:40+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4389,14 +4389,357 @@
         "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184": {
+      "id": "RLM12026055184",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
+      "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
+      "version": 2,
+      "firstSeenAt": "2026-09-15T14:34:40+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Contenimento della nutria: contributi per Province e Città metropolitana di Milano",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "contenimento",
+          "nutria",
+          "contributi",
+          "province",
+          "città",
+          "metropolita",
+          "codice",
+          "favore",
+          "metropolitana",
+          "milano",
+          "interventi",
+          "impiego",
+          "ditte",
+          "special"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "contenimento",
+          "nutria",
+          "contributi",
+          "province",
+          "città"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
+        "discoveryText": "Bandi / Agricoltura / Fauna selvatica e caccia / Contenimento della nutria: contributi per Province e Città metropolitana di Milano Aperto Contenimento della nutria: contributi per Province e Città metropolitana di Milano Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Contributi a favore delle Province e della Città metropolitana di Milano per interventi di contenimento della nutria con l’impiego di ditte specializzate nel settore o associazioni, anche venatorie. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il bando è destinato alle Province e alla Città metropolitana di Milano. Di cosa si tratta L’azione è finalizzata all’erogazione nell’anno 2026, tramite bando, di contributi per interventi di contenimento della nutria con l’impiego di ditte specializzate del settore o di associazioni, anche venatorie. Dotazione finanziaria 80.000 euro per l'anno 2026 Caratteristiche dell'agevolazione I progetti potranno essere finanziati al 100% con un contributo a fondo perduto per spese correnti fino a un massimo di euro 80.000,00 per progetto. Ogni richiedente può presentare una sola istanza di partecipazione. Il contributo massimo concedibile è pari a euro 80.000,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n. 37 - Giovedì 10 settembre 2026. Azioni Contenimento della nutria: contributi per Province e Città metropolitana di Milano. Come partecipare La domanda deve essere compilata dal legale rappresentante o suo delegato esclusivamente online esclusivamente tramite la procedura sul sistema informativo Bandi e Servizi, disponibile all’indirizzo www.bandi.regione.lombardia.it allegando il progetto. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti email: comunicazioni_caccia@regione.lombardia.it Numero verde 800.131.151 email: bandi@regione.lombardia.it Allegati (DL) L.R. 20/2002. APPROVAZIONE DEI CRITERI PER FINANZIARE PROGETTI INNOVATIVI DELLE PROVINCE E DELLA CITT¿ METROPOLITANA DI MILANO PER IL CONTENIMENTO DELLA NUTRIA CON L¿IMPIEGO DI DITTE SPECIALIZZATE DEL SETTORE. ANNO 2026 - 03/08/2026 BANDO CONTRIBUTI PER PROGETTI INNOVATIVI PER IL CONTENIMENTO DELLA NUTRIA. ANNO 2026 - 07/09/2026 Informativa sul Trattamento dei Dati Personali - 03/09/2026 Decreto 7 settembre 2026 - n. 11559 - bando contributi - BURL SEO n. 37 di giovedì 10-09-2026 - 10/09/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464": {
+      "id": "RLL12026054464",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
+      "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
+      "version": 2,
+      "firstSeenAt": "2026-09-15T14:34:40+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "deadline",
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027”",
+        "source": "Regione Lombardia",
+        "deadline": "2026-07-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "avviso",
+          "pubblico",
+          "selezione",
+          "soggetti",
+          "linea",
+          "nell",
+          "ambito",
+          "codice",
+          "progetto",
+          "futura",
+          "spettacolo",
+          "lombardia",
+          "precedentemente",
+          "denominato",
+          "next",
+          "laboratorio",
+          "idee",
+          "produzione",
+          "programmazione"
+        ],
+        "sectors": [
+          "chiude",
+          "avviso",
+          "pubblico",
+          "selezione",
+          "soggetti",
+          "linea",
+          "nell",
+          "ambito"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Aperto AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Il progetto “Futura – Lo spettacolo in Lombardia” (precedentemente denominato “Next – Laboratorio delle idee per la produzione e programmazione dello spettacolo lombardo – Annualità 2026 e 2027”) è promosso da Regione Lombardia – D.G. Cultura, con la collaborazione di AGIS Lombarda in qualità di ente attuatore, al fine di incentivare la produzione e la distribuzione di spettacoli e sostenere la programmazione delle sedi di spettacolo sul territorio. Il presente Bando si occupa della linea D.Sostegno alla circuitazione regionale e internazionale delle compagnie di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo e multidisciplinare. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “Futura – Lo spettacolo in Lombardia”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale. I requisiti generali per la linea D sono i seguenti: essere organismi di produzione professionali legalmente costituiti (atto costitutivo e statuto) ed essere in possesso di Partita IVA; avere sede legale in Lombardia; essere in possesso di agibilità INPS in corso di validità e con titolarità dei permessi SIAE; essere in regola con le contribuzioni fiscali e previdenziali e ottemperare gli obblighi dei CCNL; non avere previsione di finalità di lucro oppure avere l’obbligo di reinvestire gli utili nell’attività, come previsto nello statuto o nell’atto costitutivo; svolgere attività continuativa di produzione nel settore di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo o multidisciplinare, da almeno 2 anni; aver prodotto almeno uno spettacolo presente nel catalogo di Next edizione 2022/2023, edizione 2023/2024, edizione 2024/2025 o edizione 2025/2026 (consultabile sulla piattaforma nextlaboratoriodelleidee.it). Sono inoltre previsti specifici requisiti ed esclusioni a seconda dell’ambito di sostegno. Di cosa si tratta Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “ Futura – Lo spettacolo in Lombardia ”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale . Si intende, da un lato, incentivare la fruizione e la partecipazione delle comunità locali e favorire la promozione di territori svantaggiati sul versante dell’offerta culturale in Lombardia e, dall’altro, supportare il processo di internazionalizzazione dei soggetti professionali di spettacolo. Il c o n tri bu t o v errà a t tri bu ito c o n p r o c ed u ra a s p o r t ell o con valutazione , fi n o a esaur i m e n to d elle ri s o rse d is p o n i b ili. Quando Sono previste due fasi di apertura dello sportello relativo al sostegno della circuitazione internazionale degli spettacoli: prima fase di apertura a p artire d al 30 giugno 2026 o r e 10 . 0 0 ed entro il 30 luglio 2026 ore 16.30 ; nella seconda fase di apertura a p artire d al 15 settembre 2026 o r e 10 . 0 0 ed entro il 21 ottobre 2026 ore 16.30 . In coincidenza con l’apertura sarà comunicata la disponibilità di risorse a disposizione, detratti gli importi dei contributi già assegnati nella prima fase di apertura. In entrambe le fasi di apertura possono presentare domanda di contributo tutti i soggetti in possesso dei requisiti previsti. Dotazione finanziaria € 390.000 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL BURL Serie Ordinaria n. 26 del 22 giugno 2026 Come partecipare L a do m a nd a d i p artecipa z i o n e al b a nd o do v rà e s sere p res e n tata, p ena la n o n a m m issi b ilità, d al So gg e t t o ric h ie d ente obb l i g a t o ri a me n te i n f o r ma tel e mati ca , p er m ez z o d ella p iattaf o r m a Ba nd i e Servizi . Procedura selezione Il contributo verrà attribuito con procedura a sportello con valutazione, fino a esaurimento delle risorse disponibili. Informazioni e contatti Per informazioni riferite al bando: Direzione Generale Cultura – Struttura Attività Performative Multidisciplinari, Cinema ed Eventi e-mail: spettacoloedeventi@regione.lombardia.it Per progetti di Teatro : Martina Bolognini tel. 02 6765.4823 Luigi Gargiulo tel. 02.6765.5914 Marianna Cairo tel. 02 6765.2843 Per progetti di Danza, Multidisciplinare e Circo contemporaneo : Elisa Piria tel. 02 6765.3362 Barbara Rosenberg tel. 02 6765.6312 Antonella Gradellini tel.02 6765.0710 Per informazioni sulla procedura on line : N° verde 800.131.151 e-mail: bandi@regione.lombardia.it Allegati Bando | decreto n. 8070 del 18 giugno 2026 - 22/06/2026 Delibera 9 marzo 2026 n. 5824 - 09/03/2026 Primo provvedimento esiti - D.d.s. 31/07/2026, n. 10444 - 31/07/2026 Scheda progetto - circuitazione regionale - 18/06/2026 Scheda progetto - circuitazione internazionale - 18/06/2026 Scheda budget - circuitazione regionale - 18/06/2026 Scheda budget - circuitazione internazionale - 18/06/2026 Scheda di circuitazione regionale - 18/06/2026 Scheda di circuitazione internazionale - 18/06/2026 Dichiarazione Statuto - 18/06/2026 Dichiarazione IVA e ritenuta - 18/06/2026 Dichiarazione bilancio - 18/06/2026 Mostra altri Comunicazioni correlate 31/07/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Primo provvedimento esiti Con d.d.s. 31/07/2026, n. 10444, è stato approvato il primo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Futu... Vedi dettaglio"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731": {
+      "id": "RLZ12026054731",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
+      "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
+      "version": 2,
+      "firstSeenAt": "2026-09-15T14:34:40+02:00",
+      "lastChangedAt": "2026-09-15T14:34:49+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Sismica: contributi 2026 ai Comuni per l’esercizio delle funzioni in zone sismiche",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sismica",
+          "contributi",
+          "comuni",
+          "esercizio",
+          "funzioni",
+          "codice",
+          "trasferite",
+          "singoli",
+          "associati",
+          "materia",
+          "opere",
+          "costruzioni",
+          "relativa",
+          "vigilanza"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sismica",
+          "contributi",
+          "comuni",
+          "esercizio",
+          "funzioni"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
+        "discoveryText": "Bandi / Ambiente e Territorio / Autonomie locali / Sismica: contributi 2026 ai Comuni per l’esercizio delle funzioni in zone sismiche Aperto Sismica: contributi 2026 ai Comuni per l’esercizio delle funzioni in zone sismiche Codice: RLZ12026054731 Pubblicato il: 10/09/2026 , ore 18:05 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/10/2026 , ore 16:00 Contributi per l’esercizio delle funzioni trasferite ai Comuni, singoli o associati, in materia di opere o di costruzioni e relativa vigilanza in zone sismiche (l.r. n. 33 del 2015, art. 2 c. 1), relativi all'annualità 2026 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLZ12026054731 Pubblicato il: 10/09/2026 , ore 18:05 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare i Comuni, singoli o associati, classificati nelle zone sismiche 2 e 3 ai sensi della d.g.r. n. 4244 del 2025 con accelerazione massima al suolo a g > 0,125 g (Allegato 7 dell'O.C.D.P.C. n. 978 del 24 marzo 2023) ed elencati nell'Allegato A della d.g.r. n. 5992 del 2026. Di cosa si tratta Intervento a sostegno delle spese sostenute nell’annualità 2026 per lo svolgimento delle funzioni trasferite in ambito sismico dalla legge regionale n. 33 del 2015 \"Disposizioni in materia di opere o di costruzioni e relativa vigilanza in zone sismiche\". Dotazione finanziaria Dotazione complessiva pari a 350.000,00 €. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato. BURL BURL n. 27, Serie ordinaria, del 30 giugno 2026 Come partecipare La domanda dovrà essere presentata in forma telematica esclusivamente tramite la presente piattaforma Bandi e Servizi, pena la non ammissibilità. Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per assistenza tecnica sull'utilizzo della piattaforma Bandi e Servizi è possibile: contattare il call center al numero verde 800 131 151 scrivere all'indirizzo e-mail bandi@regione.lombardia.it Per informazioni relative ai contenuti tecnici del bando : Direzione Generale Territorio e Sistemi verdi Alessandro Ballini, tel. 02 6765 4328, e-mail alessandro_ballini@regione.lombardia.it Vittorio Leoni, tel. 02 6765 3147, e-mail vittorio_leoni@regione.lombardia.it Allegati Approvazione del bando per la concessione di contributi per l'esercizio delle funzioni trasferite ai comuni, singoli o associati, in materia di opere o di costruzioni e relativa vigilanza in zone sismiche, annualità 2026 (d.d.s. 7903/2026) - 16/06/2026 Criteri di assegnazione - Contributi per l'esercizio delle funzioni trasferite ai comuni, singoli o associati, in materia di opere o di costruzioni e relativa vigilanza in zone sismiche, annualità 2026 (d.g.r. 5992/2026) - 13/04/2026 Informativa sul Trattamento dei Dati Personali - 19/06/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-15T14:34:49+02:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-15T08:37:02+02:00",
+  "triageUpdatedAt": "2026-09-15T14:34:49+02:00",
   "triageSummary": {
-    "rulesResolved": 6,
+    "rulesResolved": 5,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 24,
+    "notPresent": 28,
     "ruleVersion": 3
   }
 }
