@@ -247,7 +247,13 @@ if(raw){
       cursor=page.list_complete?undefined:page.cursor;
    }while(cursor);
 
-   records.sort((a,b)=>String(a.name||'').localeCompare(String(b.name||''),'it'));
+   records.sort((a,b)=>
+   String(a.license||'').localeCompare(
+      String(b.license||''),
+      'it',
+      {numeric:true}
+   )
+);
    return json({ok:true,clients:records});
   }
   if(url.pathname==='/api/admin/license'&&request.method==='POST'){
