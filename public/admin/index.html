@@ -30,7 +30,52 @@
 (()=>{
 const KEY="radar_bandi_admin_clients_v1",SK="bandovera_admin_api_key";const $=id=>document.getElementById(id);let clients=JSON.parse(localStorage.getItem(KEY)||"[]");
 const origin=location.origin;
-function apiKey(){let k=sessionStorage.getItem(SK)||"";if(!k){k=prompt("Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:")||"";if(k)sessionStorage.setItem(SK,k)}return k}
+function apiKey(){let k=sessionStorage.getItem(SK)||"";if(!k){k=prompt("Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:")||"";if(k)sessionStorage.setItem(SK,k)}return k} 
+  async function loadClientsFromCloud(){
+ const key=apiKey();
+ if(!key)return;
+
+ let r;
+ try{
+  r=await fetch('/api/admin/licenses',{
+   headers:{'authorization':'Bearer '+key},
+   cache:'no-store'
+  });
+ }catch(e){
+  alert('Impossibile contattare l’archivio centrale BANDOVERA.');
+  return;
+ }
+
+ let d={};
+ try{d=await r.json()}catch{}
+
+ if(!r.ok){
+  if(r.status===401)sessionStorage.removeItem(SK);
+  alert(d.error||'Caricamento clienti non riuscito.');
+  return;
+ }
+
+ const remote=Array.isArray(d.clients)?d.clients:[];
+ const codes=new Set(
+  remote.map(c=>String(c.license||'').trim().toUpperCase())
+ );
+
+ for(const c of clients){
+  const code=String(c.license||'').trim().toUpperCase();
+  if(code&&!codes.has(code)){
+   try{
+    await syncLicense(c);
+    remote.push(c);
+    codes.add(code);
+   }catch(e){
+    console.warn('Cliente locale non sincronizzato',code,e);
+   }
+  }
+ }
+
+ clients=remote;
+ localStorage.setItem(KEY,JSON.stringify(clients));
+}
 async function syncLicense(c){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,name:c.name||'',active:c.active!==false,expiresAt:c.expiresAt||'',price:+c.price||0,profile:c})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
 async function syncExpiry(c,expiresAt){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,active:c.active!==false,expiresAt})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
 async function checkCloud(){const el=$('cloudStatus');try{const r=await fetch('/api/admin/sync-status',{cache:'no-store'});const d=await r.json();if(d.configured&&d.adminSecret){el.textContent='Cloudflare KV · operativo';el.className='small cloud-ok'}else{el.textContent='Cloudflare KV · configurazione incompleta';el.className='small cloud-warn'}}catch(e){el.textContent='Cloudflare KV · verifica non disponibile';el.className='small cloud-warn'}}
@@ -49,6 +94,12 @@ document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=async()=>{const c=
 document.querySelectorAll('[data-renew]').forEach(b=>b.onclick=async()=>{const i=+b.dataset.renew,c=clients[i],next={...c,expiresAt:addMonths(new Date(c.expiresAt+'T12:00:00'),12),active:true};b.disabled=true;b.textContent='Sincronizzo…';try{await syncLicense(next);clients[i]=next;save()}catch(e){alert('Rinnovo non eseguito: '+e.message);b.disabled=false;b.textContent='+12 mesi'}});
 document.querySelectorAll('[data-expiry]').forEach(b=>b.onclick=async()=>{const i=+b.dataset.expiry,c=clients[i];const value=prompt('Nuova scadenza per '+c.license+' (AAAA-MM-GG):',c.expiresAt||'');if(value===null)return;const v=String(value).trim();if(!/^\d{4}-\d{2}-\d{2}$/.test(v)||Number.isNaN(Date.parse(v+'T12:00:00'))){alert('Data non valida. Usa il formato AAAA-MM-GG.');return}const next={...c,expiresAt:v};b.disabled=true;b.textContent='Salvataggio…';try{const d=await syncExpiry(c,v);if(d.expiresAt&&d.expiresAt!==v)throw new Error('Cloudflare non ha confermato la nuova scadenza');clients[i]=next;save();alert('Scadenza aggiornata: '+new Date(v+'T12:00:00').toLocaleDateString('it-IT'));}catch(e){alert('Scadenza non modificata: '+e.message);b.disabled=false;b.textContent='Modifica scadenza'}});
 document.querySelectorAll('[data-toggle]').forEach(b=>b.onclick=async()=>{const i=+b.dataset.toggle,c=clients[i],next={...c,active:!(c.active!==false)};const action=next.active?'Riattivazione':'Sospensione';b.disabled=true;b.textContent='Sincronizzo…';try{const d=await syncLicense(next);if(Boolean(d.active)!==Boolean(next.active))throw new Error('Il server non ha confermato il nuovo stato');clients[i]=next;save();alert(action+' confermata da Cloudflare.')}catch(e){alert(action+' non eseguita: '+e.message);b.disabled=false;b.textContent=next.active?'Riattiva':'Sospendi'}});}
-resetForm();render();checkCloud();
+async function start(){
+ await loadClientsFromCloud();
+ resetForm();
+ render();
+ checkCloud();
+}
+start();
 })();
 </script></body></html>
