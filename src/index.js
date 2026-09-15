@@ -33,7 +33,134 @@ function shortLinkError(code,message,status=404){return new Response(`<!doctype 
 
 const clientGuard=`<script id="bandovera-license-guard">(()=>{try{const raw=new URLSearchParams(location.search).get('p');if(!raw)return;const c=raw.trim().replace(/\\s+/g,'');const b=(c+'='.repeat((4-c.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/');const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes));const code=String(p.license||'').trim();if(!code)return;function showState(text,ok){const box=document.querySelector('.license');if(!box)return;let el=document.getElementById('licenseCloudState');if(!el){el=document.createElement('div');el.id='licenseCloudState';el.style.cssText='margin-top:8px;display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:900;padding:5px 8px;border-radius:999px;border:1px solid '+(ok?'#215c49':'#6a2c38')+';background:'+(ok?'#10382e':'#3b1720')+';color:'+(ok?'#8af0c3':'#ffb4bd');box.appendChild(el)}el.textContent='● '+text}function showVersion(ts){if(!ts)return;const el=document.getElementById('appUpdatedBadge');if(!el)return;const d=new Date(ts);el.textContent='Ultimo aggiornamento BANDOVERA: '+new Intl.DateTimeFormat('it-IT',{timeZone:'Europe/Rome',day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'}).format(d)}function addLegalUi(){const refresh=document.getElementById('refreshBtn');if(refresh)refresh.remove();if(document.getElementById('bandoveraLegalLinks'))return;const footer=document.querySelector('.product-footer');if(!footer)return;const wrap=document.createElement('div');wrap.id='bandoveraLegalLinks';wrap.style.cssText='display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-size:13px';wrap.innerHTML='<button type="button" data-legal="privacy" style="border:0;background:none;color:#67d8d0;cursor:pointer;padding:0;font:inherit">Privacy</button><span style="color:#4e6a7d">·</span><button type="button" data-legal="policy" style="border:0;background:none;color:#67d8d0;cursor:pointer;padding:0;font:inherit">Policy</button>';footer.appendChild(wrap);const modal=document.createElement('div');modal.id='bandoveraLegalModal';modal.style.cssText='position:fixed;inset:0;background:rgba(0,6,13,.82);backdrop-filter:blur(4px);display:none;place-items:center;padding:20px;z-index:9999';modal.innerHTML='<div style="width:min(760px,100%);max-height:82vh;overflow:auto;background:#0e1b2c;border:1px solid #243a55;border-radius:18px;padding:24px;color:#edf5ff;box-shadow:0 30px 90px rgba(0,0,0,.45)"><div style="display:flex;justify-content:space-between;gap:14px;align-items:flex-start"><h2 id="bandoveraLegalTitle" style="margin:0 0 16px"></h2><button id="bandoveraLegalClose" type="button" style="border:1px solid #2a4a61;background:#102438;color:#edf5ff;border-radius:9px;padding:7px 10px;cursor:pointer">Chiudi</button></div><div id="bandoveraLegalBody" style="color:#c4d6e2;line-height:1.65;font-size:14px"></div></div>';document.body.appendChild(modal);const privacy='<p><b>Informativa privacy BANDOVERA</b></p><p>BANDOVERA tratta esclusivamente i dati necessari alla gestione della licenza, alla personalizzazione del servizio e alle eventuali richieste di supporto inviate dall\'utente.</p><p>I dati non vengono utilizzati per finalità diverse da quelle connesse all\'erogazione del servizio, salvo obblighi di legge o specifico consenso dell\'interessato.</p><p>Per richieste relative ai dati personali, rettifica o cancellazione è possibile contattare il gestore del servizio.</p>';const policy='<p><b>Policy di utilizzo BANDOVERA</b></p><p>BANDOVERA è uno strumento informativo di supporto alla ricerca di bandi e opportunità per gli Enti del Terzo Settore.</p><p>I punteggi di compatibilità sono orientativi e non costituiscono garanzia di ammissibilità, concessione del contributo o finanziamento. Prima di presentare una candidatura è necessario verificare sempre il testo ufficiale del bando, gli allegati, i requisiti e le scadenze pubblicate dall\'ente promotore.</p><p>La licenza è nominativa e destinata esclusivamente all\'organizzazione per la quale è stata attivata.</p>';function openLegal(kind){document.getElementById('bandoveraLegalTitle').textContent=kind==='privacy'?'Privacy':'Policy';document.getElementById('bandoveraLegalBody').innerHTML=kind==='privacy'?privacy:policy;modal.style.display='grid'}wrap.addEventListener('click',e=>{const b=e.target.closest('[data-legal]');if(b)openLegal(b.dataset.legal)});document.getElementById('bandoveraLegalClose').onclick=()=>modal.style.display='none';modal.addEventListener('click',e=>{if(e.target===modal)modal.style.display='none'})}addLegalUi();fetch('/api/license/'+encodeURIComponent(code),{cache:'no-store'}).then(r=>r.json()).then(s=>{if(!s)return;showVersion(s.versionTimestamp);if(!s.configured||!s.registered)return;if(s.active===false||s.expired){showState('SOSPESA',false);document.documentElement.innerHTML='<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BANDOVERA · Licenza non attiva</title><style>body{margin:0;background:#07111f;color:#edf5ff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;display:grid;place-items:center;min-height:100vh;padding:24px}.box{max-width:620px;background:#0e1b2c;border:1px solid #243a55;border-radius:18px;padding:28px;text-align:center}.box h1{margin:0 0 12px}.muted{color:#9fb2c8}.code{margin-top:16px;font-weight:800;color:#50d5ff}.state{display:inline-block;margin-top:14px;padding:6px 10px;border-radius:999px;background:#3b1720;border:1px solid #6a2c38;color:#ffb4bd;font-size:12px;font-weight:900}</style></head><body><div class="box"><h1>Licenza BANDOVERA non attiva</h1><p class="muted">Il servizio è sospeso o la licenza è scaduta. Per riattivare l’accesso è necessario il rinnovo del servizio.</p><div class="state">● SOSPESA</div><div class="code">'+code.replace(/[&<>]/g,'')+'</div></div></body></html>';}else{showState('ATTIVA',true)}}).catch(()=>{});}catch(e){console.warn('BANDOVERA license check',e)}})();</script>`;
 
-const adminSync=`<script id="bandovera-admin-sync">(()=>{const KEY='radar_bandi_admin_clients_v1',SK='bandovera_admin_api_key';function apiKey(){let k=sessionStorage.getItem(SK)||'';if(!k){k=prompt('Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:')||'';if(k)sessionStorage.setItem(SK,k)}return k}function clients(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}}async function sync(c){if(!c||!c.license)return;const key=apiKey();if(!key)return;try{const r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,name:c.name||'',active:c.active!==false,expiresAt:c.expiresAt||'',price:+c.price||0,profile:c})});const d=await r.json();if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);alert(d.error||'Sincronizzazione licenza non riuscita.');return}console.info('Licenza centralizzata aggiornata',d)}catch(e){alert('Archivio licenze centrale non ancora disponibile. La Dashboard locale continua a funzionare.') }}document.addEventListener('click',e=>{const t=e.target.closest('[data-toggle],[data-renew],#generate');if(!t)return;setTimeout(()=>{const list=clients();let c=null;if(t.id==='generate')c=list[list.length-1];else if(t.dataset.toggle!=null)c=list[+t.dataset.toggle];else if(t.dataset.renew!=null)c=list[+t.dataset.renew];if(c)sync(c)},80)},true);window.BANDOVERA_syncAll=async()=>{for(const c of clients())await sync(c)};})();</script>`;
+const adminSync=`<script id="bandovera-admin-sync">
+(()=>{
+ const KEY='radar_bandi_admin_clients_v1';
+ const SK='bandovera_admin_api_key';
+ const LOADED='bandovera_cloud_clients_loaded_v1';
+
+ function apiKey(){
+  let k=sessionStorage.getItem(SK)||'';
+  if(!k){
+   k=prompt('Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:')||'';
+   if(k)sessionStorage.setItem(SK,k);
+  }
+  return k;
+ }
+
+ function clients(){
+  try{return JSON.parse(localStorage.getItem(KEY)||'[]')}
+  catch{return []}
+ }
+
+ function licenseCode(c){
+  return String(c?.license||'').trim().toUpperCase();
+ }
+
+ async function sync(c){
+  if(!c||!c.license)return false;
+  const key=apiKey();
+  if(!key)return false;
+
+  try{
+   const r=await fetch('/api/admin/license',{
+    method:'POST',
+    headers:{
+     'content-type':'application/json',
+     'authorization':'Bearer '+key
+    },
+    body:JSON.stringify({
+     license:c.license,
+     name:c.name||'',
+     active:c.active!==false,
+     expiresAt:c.expiresAt||'',
+     price:+c.price||0,
+     profile:c
+    })
+   });
+
+   const d=await r.json();
+
+   if(!r.ok){
+    if(r.status===401)sessionStorage.removeItem(SK);
+    alert(d.error||'Sincronizzazione licenza non riuscita.');
+    return false;
+   }
+
+   console.info('Licenza centralizzata aggiornata',d);
+   return true;
+  }catch(e){
+   alert('Archivio licenze centrale non disponibile.');
+   return false;
+  }
+ }
+
+ async function loadFromCloud(){
+  if(sessionStorage.getItem(LOADED))return;
+
+  const key=apiKey();
+  if(!key)return;
+
+  try{
+   const r=await fetch('/api/admin/licenses',{
+    headers:{'authorization':'Bearer '+key},
+    cache:'no-store'
+   });
+
+   const d=await r.json();
+
+   if(!r.ok){
+    if(r.status===401)sessionStorage.removeItem(SK);
+    alert(d.error||'Caricamento clienti non riuscito.');
+    return;
+   }
+
+   const remote=Array.isArray(d.clients)?d.clients:[];
+   const local=clients();
+   const remoteCodes=new Set(remote.map(licenseCode));
+
+   for(const c of local){
+    const code=licenseCode(c);
+    if(code&&!remoteCodes.has(code)){
+     const saved=await sync(c);
+     if(saved){
+      remote.push(c);
+      remoteCodes.add(code);
+     }
+    }
+   }
+
+   localStorage.setItem(KEY,JSON.stringify(remote));
+   sessionStorage.setItem(LOADED,'1');
+   location.reload();
+  }catch(e){
+   alert('Impossibile caricare i clienti dall’archivio centrale.');
+  }
+ }
+
+ document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-toggle],[data-renew],#generate');
+  if(!t)return;
+
+  setTimeout(()=>{
+   const list=clients();
+   let c=null;
+
+   if(t.id==='generate')c=list[list.length-1];
+   else if(t.dataset.toggle!=null)c=list[+t.dataset.toggle];
+   else if(t.dataset.renew!=null)c=list[+t.dataset.renew];
+
+   if(c)sync(c);
+  },80);
+ },true);
+
+ window.BANDOVERA_syncAll=async()=>{
+  for(const c of clients())await sync(c);
+ };
+
+ loadFromCloud();
+})();
+<\/script>`;
 
 async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard'))text=text.replace('</body>',script+'</body>');const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');h.append('set-cookie','bandovera_region=; Path=/; SameSite=Lax; Max-Age=0');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
 
