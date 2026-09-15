@@ -226,7 +226,12 @@ export default {
       );
 
       for(const key of page.keys){
-         const rec=await env.LICENSES.get(key.name,{type:'json'});
+         const raw=await env.LICENSES.get(key.name);
+let rec=null;
+if(raw){
+ try{rec=JSON.parse(raw)}
+ catch(e){console.warn('Record KV non valido ignorato:',key.name)}
+}
          if(rec){
             records.push({
                ...(rec.profile||{}),
