@@ -219,11 +219,11 @@ export default {
    let cursor;
 
    do{
-      const page=await env.LICENSES.list({
-         prefix:'license:',
-         cursor,
-         limit:1000
-      });
+     const page=await env.LICENSES.list(
+         cursor
+            ? {prefix:'license:',cursor,limit:1000}
+            : {prefix:'license:',limit:1000}
+      );
 
       for(const key of page.keys){
          const rec=await env.LICENSES.get(key.name,{type:'json'});
