@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-15T02:38:10+02:00",
+  "catalogUpdatedAt": "2026-09-15T08:37:02+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -2909,9 +2909,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-sostegno-agli-investimenti-vivaisti-legge-n-2062023-disposizioni-organiche-valorizzazione",
       "contentHash": "275e200449182dc1153b6771afe619bc064062965f95c35036a584d9a410cdc5",
-      "version": 60,
+      "version": 62,
       "firstSeenAt": "2026-09-04T14:34:37+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3017,7 +3017,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -3026,9 +3026,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3129,7 +3129,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -3138,9 +3138,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/gestione-rifiuti/bando-l-assegnazione-contributi-enti-locali-rimozione-manufatti-contenenti-amianto-edifici-pubblici-loro-sostituzione-ed-2026-RLT12026052304",
       "contentHash": "8e926c4c859b5c0cf68ea05dd414edcd45b0ded3019fe7d14ff69efaa950af76",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3238,7 +3238,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "8895af2a2c3e37383b9a49feaf7b768c87d54dcb57d279f1fe52c67da2685373",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -3948,9 +3948,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "contentHash": "02994b421f4255a2351efb81ce1ece35bd2597e75580a9ac5a6095d28b89d803",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4047,7 +4047,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,7 +4273,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     },
@@ -4282,9 +4282,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ricerca-innovazione/accordi-collaborazione-innovazione/fec-27-2026-acquisizione-servizio-ricerca-supporto-operativo-capacity-building-consolidamento-pratiche-green-budgeting-RLAM2026056183",
       "contentHash": "870a58aa440e54061f6eb990238f8c5a6070c61c479a0686c17bea5cde2da308",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-14T20:33:16+02:00",
-      "lastChangedAt": "2026-09-15T02:38:10+02:00",
+      "lastChangedAt": "2026-09-15T08:37:02+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4386,12 +4386,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T02:38:10+02:00"
+        "evaluatedAt": "2026-09-15T08:37:02+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-15T02:38:10+02:00",
+  "triageUpdatedAt": "2026-09-15T08:37:02+02:00",
   "triageSummary": {
     "rulesResolved": 6,
     "rulesExcludedForEts": 0,
