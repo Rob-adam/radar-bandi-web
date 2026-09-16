@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-16T08:35:39+02:00",
-  "attempted": 7,
-  "enriched": 7,
+  "generatedAt": "2026-09-16T14:35:27+02:00",
+  "attempted": 8,
+  "enriched": 8,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -23,6 +23,14 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",

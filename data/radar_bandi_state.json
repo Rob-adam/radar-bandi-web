@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-16T08:35:46+02:00",
+  "catalogUpdatedAt": "2026-09-16T14:35:34+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "8895af2a2c3e37383b9a49feaf7b768c87d54dcb57d279f1fe52c67da2685373",
-      "version": 46,
+      "version": 48,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -3948,9 +3948,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/costarga-2026-gestioni-associate-domanda-contributo-statale-regionalizzato-RLV12026055943",
       "contentHash": "02994b421f4255a2351efb81ce1ece35bd2597e75580a9ac5a6095d28b89d803",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4047,7 +4047,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,7 +4273,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-16T08:35:46+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,14 +4729,131 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-16T08:35:46+02:00"
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari": {
+      "id": "PIE-AUTO-7331C7A0C816",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari",
+      "contentHash": "2d434ab036936eacef029e00a6a99bc486288c34bc2cdd2a497879c70aa14b97",
+      "version": 2,
+      "firstSeenAt": "2026-09-16T14:35:27+02:00",
+      "lastChangedAt": "2026-09-16T14:35:34+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Contributo 2026 per promozione del libro e della lettura, dei premi e dei concorsi letterari",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-05",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contributo",
+          "promozione",
+          "libro",
+          "lettura",
+          "premi",
+          "concorsi",
+          "letterari",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube",
+          "linkedin",
+          "instagram"
+        ],
+        "sectors": [
+          "contributo",
+          "promozione",
+          "libro",
+          "lettura",
+          "premi",
+          "concorsi",
+          "letterari",
+          "bandi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari",
+        "sourceStatus": "aperto",
+        "discoveryText": "Contributo 2026 per promozione del libro e della lettura, dei premi e dei concorsi letterari Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L.r. 11/2018 art. 27 Avviso pubblico di finanziamento per la presentazione di domanda di contributo, da parte di enti privati e pubblici, a sostegno di attività di promozione del Libro e della Lettura dei premi e dei concorsi letterari per l’anno 2026 Domande dal Gio, 10/09/2026 - 09:00 Scadenza Lun, 05/10/2026 - 12:00 Riferimento Bollettino Ufficiale BUR n. 36 del 10/09/2026 Temi Cultura Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso Obiettivo prioritario del seguente avviso è contribuire alla diffusione dell’abitudine alla lettura e al rafforzamento del suo valore sociale come strumento per la crescita individuale e per lo sviluppo civile, sociale ed economico e quale fondamento per il benessere della cittadinanza, per l’inclusione e per la coesione sociale, favorendo la crescita e il radicamento delle iniziative e delle organizzazioni culturali. Per l’attuazione dell’intervento viene attivato un avviso pubblico destinato a due linee di intervento: Linea A Promozione del Libro e della lettura. Rientrano in questa tipologia:Festival, rassegne e manifestazioni di carattere letterario, progetti e attività volti a promuovere la lettura contribuendo alla sua diffusione, cicli di incontri di carattere letterario finalizzati a promuovere la lettura, il libro e la conoscenza degli autori, attività e progetti di lettura ad alta voce finalizzati a diffondere l’abitudine alla lettura e le buone pratiche, mostre mercato del libro ed altre attività aventi quale obiettivo quello di promuovere la lettura e la diffusione del libro . Linea B premi e concorsi letterari. Rientrano in questa tipologia i premi ed i concorsi di carattere letterario che potranno contemplare diverse forme di scrittura( narrativa, romanzo storico, saggistica, poesia, ecc ) Possono essere previste anche sezioni dedicate ad altre forme espressive, ma la parte prevalente e significativa deve essere di natura letteraria. Il contributo massimo assegnabile non potrà essere superiore al 50% delle spese complessive di progetto ritenute ammissibili, fermi restando i seguenti tetti di contribuzione: Tetto massimo: Linea A Promozione del libro e della lettura Enti privati ed Enti pubblici: contributo massimo richiedibile ed assegnabile Euro 35.000,00 Linea B Premi e concorsi letterari Enti privati ed Enti pubblici: contributo massimo richiedibile ed assegnabile Euro 25.000,00. Chi può partecipare Enti locali singoli o associati, pubbliche amministrazioni, istituzioni culturali e formative, enti e istituzioni religiose, associazioni e fondazioni private e pubbliche, altri enti che operano senza fine di lucro, cooperative a mutualità prevalente senza fini di lucro. Dotazione finanziaria Euro 937.394,00 così ripartiti: - Euro 746.194,00 a favore di soggetti privati senza scopo di lucro, comprese le società cooperative a mutualità prevalente, di cui il 75% destinato alla linea A Promozione del Libro e della Lettura ed il restante 25% destinato alla linea B premi e concorsi letterari: Linea A Promozione del libro e della Lettura Enti privati Euro 559.645,50 Linea B Premi e concorsi letterari Enti privati Enti privati Euro 186.548,50; - Euro 191.200,00 a favore di soggetti pubblici di cui il 75% (destinato alla linea A Promozione del Libro ed ella Lettura ed il restante 25% destinato alla linea B premi e concorsi letterari: Linea A Promozione del libro e della Lettura Enti pubblici Euro 143.400,00 Linea B Premi e concorsi letterari Enti privati Enti pubblici Euro 47.800,00. Eventuali economie su una linea potranno andare ad incrementare, qualora necessario, il budget dell’altra nel rispetto dei criteri e dei massimali stabiliti nell’avviso. In tal caso si procederà alla scorrimento della relativa graduatoria nel rispetto dei criteri e dei massimali stabiliti nell’avviso pubblico. Come presentare domanda L’ istanza deve essere presentata, a pena di inammissibilità, dal legale rappresentante o da suo delegato a partire dalle ore 9.00 del giorno 10 settembre 2026 e perentoriamente entro le ore 12,00 del giorno 5 ottobre 2026 tramite Sistema Piemonte Finanziamenti Domande , seguendo le indicazioni dell’Avviso pubblico, nonché le istruzioni contenute nelle “Regole di compilazione” e nel Manuale Utente presenti sullo stesso sito. Per accedere a Sistema Piemonte, il legale rappresentante o suo sostituto deve autenticarsi tramite Certificato di Autenticazione o SPID - Sistema Pubblico di Identità Digitale. L’istanza deve essere sottoscritta tramite firma digitale (unicamente in formato CADES p7m) dal legale rappresentante o da suo delegato con poteri di firma, e inviata in pdf, unitamente a tutta la documentazione obbligatoria, attraverso Sistema Piemonte – Finanziamenti Domande. Delega alla firma Per gli Enti Privati - L’ eventuale delega del legale rappresentante alla firma dell’istanza deve essere redatta nella forma della procura generale o speciale sottoscritta dal legale rappresentante dell’ente richiedente con cui viene incaricato il soggetto alla compilazione, sottoscrizione e presentazione della domanda, corredata dalla copia del documento di identità in corso di validità del legale rappresentante, qualora la procura sia sottoscritta con firma autografa. La mancanza di tale delega, redatta nelle forme indicate, comporta l’inammissibilità dell’istanza. . Per gli Enti Pubblici - Sono accettati gli atti amministrativi con cui il legale rappresentate dell'ente pubblico, nell'ambito dell'autonomia statutaria dell'ente, delega un altro soggetto della stessa amministrazione alla gestione di un dato servizio o ambito di competenze. Qualora la delega sia firmata con firma autografa, deve essere allegato il documento di identità del legale rappresentante in corso di validità. La mancanza di tale delega, redatta nelle forme indicate, comporta l’inammissibilità dell’istanza. All’inserimento della nuova domanda è necessario indicare la tipologia del richiedente (Pubblico o Privato). Tale scelta non è successivamente modificabile e, se errata, comporta la non ammissibilità dell’istanza. Sempre in fase di inserimento della domanda, è necessario altresì indicare la tipologia di intervento per la quale si intende presentare l’istanza di contributo(se Linea A - Promozione del libro e della lettura oppure Linea B - Premi e concorsi letterari). Tale scelta non è successivamente modificabile e, se errata, comporta la non ammissibilità dell’istanza. Documenti da allegare alla domanda La domanda deve essere corredata dai seguenti allegati: 1a) in caso di linea di intervento A Promozione del libro e della lettura , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_Promozione Lettura (Allegato 1A) ; ta le documento è obbligatorio: il mancato invio comporta l’inammissibilità della domanda ; 1b) in caso di linea di intervento B Premi e concorsi Letterari , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_ Premi e Concorsi ( Allegato 1B); tale documento è obbligatorio: il mancato invio comporta l’inammissibilità della domanda ; 3) (se necessario), delega del Legale rappresentante al sostituto delegato alla firma digitale della domanda, redatta secondo le modalità indicate nell’avviso pubblico; 4) copia dell’atto costitutivo e dello statuto in vigore (obbligatorio per soggetti privati in caso di pr ima istanza sulla presente linea di finanziamento o in caso di variazioni intercorse allo statuto rispetto a quello già presentato); 5) breve relazione sulle precedenti edizioni dell’iniziativa (in caso di prima istanza) ; 6 a ) in caso di corealizzazione : copia della eventuale convenzione e/o accordo scritto , che regolamenta la condivisione del progetto (in caso di co-realizzazione economica/gestionale del progetto con altri enti) e che definisca compiti e oneri economici e gestionali di ciascun partner e individui un solo soggetto privato o pubblico percettore dell’eventuale contributo di cui al presente avviso, definita secondo quanto previsto nell’avviso pubblico; 6 b) in caso di corealizzazione : copia della dichiarazione sostitutiva dell’atto di notorietà, resa su modulo Aut (Allegato 1C) dal Legale Rappresentante di ciascuno dei soggetti contitolari del progetto con il soggetto capofila richiedente (in caso di co-realizzazione economica/gestionale del progetto con altri enti); 6 c) in caso di corealizzazione : Copia del documento di identità in corso di validità del legale rappresentante di ciascuno dei soggetti co-titolari del progetto (se co-realizzazione economica/gestionale del progetto con altri enti); 6 d) in caso di corealizzazione: Curriculum di ciascuno dei soggetti contitolari, con particolare riferimento all’ambito a cui attiene l’attività su cui verte l’istanza del contributo ( in caso di co-realizzazione economica/gestionale del progetto con altri enti) ; 7) copia di eventuali altre convenzioni, accordi, concessioni, lettere; 8) copia del bando (in caso di premi e concorsi letterari e qualora il progetto lo contempli; 9) eventuali altri allegati. La documentazione sopra elencata, che è possibile visionare nella sezione Allegati, è scaricabile direttamente da Servizionline e va obbligatoriamente trasmessa attraverso lo stesso indirizzo. Struttura di riferimento Settore Promozione dei beni librari e archivistici, editoria e istituti culturali Contatti Informazioni e chiarimenti sui contenuti dell’Avviso e le modalità di presentazione delle domande potranno essere richiesti al Settore Promozione dei beni librari e archivistici, editoria e istituti culturali Piazza Piemonte 1 - 10127 Torino: Maria Paola Gatti – 011.432.3597 paola.gatti@regione.piemonte.it Loredana Prisco 011.432.4006 loredana.prisco@regione.piemonte.it Gesuè Sanzone - 011. 432.5676 gesue.sanzone@regione.piemonte.it Per problemi tecnici relativi alla funzionalità di Sistema Piemonte – Finanziamenti Domande rivolgersi al Form Assistenza presente nella pagina di accesso. Allegato testo procedura Determinazione dirigenziale 425/A2001D/2026 del 03/09/2026 Documento PDF - 196.65 KB File primario Testo dell'avviso pubblico Documento PDF - 681.96 KB Allegato 1 corretto con determinazione dirigenziale 461/A2001D/2026 del 15/09/2026 . Altri allegati Modulo Rel_Promozione Lettura (Allegato 1A).doc Documento Word - 109 KB Linea di intervento A Promozione del libro e della lettura , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_Promozione Lettura (Allegato 1A) formato .doc Modulo Rel_Promozione Lettura (Allegato 1A).pdf Documento PDF - 235.93 KB Linea di intervento A Promozione del libro e della lettura , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_Promozione Lettura (Allegato 1A) formato .pdf Modulo Rel_ Premi e Concorsi ( Allegato 1B).doc Documento Word - 107 KB Linea di intervento B Premi e concorsi Letterari , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_ Premi e Concorsi ( Allegato 1B) formato .doc Modulo Rel_ Premi e Concorsi ( Allegato 1B).pdf Documento PDF - 255.96 KB Linea di intervento B Premi e concorsi Letterari , Relazione illustrativa del progetto oggetto dell’istanza resa sul Modulo Rel_ Premi e Concorsi ( Allegato 1B) formato .pdf Modulo Aut ALLEGATO 1C.doc Documento Word - 28 KB Dichiarazione sostitutiva dell’atto di notorietà degli enti co-titolari del progetto, Modello Aut (Allegato 1c.) formato .doc Modulo Aut ALLEGATO 1C.pdf Documento PDF - 122.98 KB Dichiarazione sostitutiva dell’atto di notorietà degli enti co-titolari del progetto, Modello Aut (Allegato 1c.) formato .pdf Regole di compilazione. Promozione del libro e della lettura Documento PDF - 450.81 KB Determinazione dirigenziale 75/A2000C/2026 del 19/02/2026 Documento PDF - 728.36 KB Oggetto: L.R. 11/2018 – Determinazione Dirigenziale n. 253/A2000C/2025 (L."
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-16T14:35:34+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-16T08:35:46+02:00",
+  "triageUpdatedAt": "2026-09-16T14:35:34+02:00",
   "triageSummary": {
-    "rulesResolved": 5,
+    "rulesResolved": 6,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
     "notPresent": 28,
