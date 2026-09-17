@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-17T08:36:03+02:00",
+  "catalogUpdatedAt": "2026-09-17T14:35:08+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "c5f19ac5f7d2a3a8f475ab8f78cced3b8c1df7f0b3753f6d468f3b521d282963",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-17T08:36:03+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,11 +4056,11 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": false,
-      "missingSince": "2026-09-17T08:36:01+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -4394,19 +4394,19 @@
       "id": "RLM12026055184",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
-      "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 14,
+      "contentHash": "1fb6baade48831fb352cb22059831fab41cc1ca066cb4ffd00af6ac2f9b78f8f",
+      "version": 15,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": false,
-      "missingSince": "2026-09-17T08:36:01+02:00",
+      "lastChangedAt": "2026-09-17T14:34:37+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
       ],
       "needsAnalysis": true,
       "snapshot": {
-        "title": "Contenimento della nutria: contributi per Province e Città metropolitana di Milano",
+        "title": "30-09-2026",
         "source": "Regione Lombardia",
         "deadline": "2026-09-30",
         "fund": 0,
@@ -4473,7 +4473,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
-        "discoveryText": "Bandi / Agricoltura / Fauna selvatica e caccia / Contenimento della nutria: contributi per Province e Città metropolitana di Milano Aperto Contenimento della nutria: contributi per Province e Città metropolitana di Milano Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Contributi a favore delle Province e della Città metropolitana di Milano per interventi di contenimento della nutria con l’impiego di ditte specializzate nel settore o associazioni, anche venatorie. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il bando è destinato alle Province e alla Città metropolitana di Milano. Di cosa si tratta L’azione è finalizzata all’erogazione nell’anno 2026, tramite bando, di contributi per interventi di contenimento della nutria con l’impiego di ditte specializzate del settore o di associazioni, anche venatorie. Dotazione finanziaria 80.000 euro per l'anno 2026 Caratteristiche dell'agevolazione I progetti potranno essere finanziati al 100% con un contributo a fondo perduto per spese correnti fino a un massimo di euro 80.000,00 per progetto. Ogni richiedente può presentare una sola istanza di partecipazione. Il contributo massimo concedibile è pari a euro 80.000,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n. 37 - Giovedì 10 settembre 2026. Azioni Contenimento della nutria: contributi per Province e Città metropolitana di Milano. Come partecipare La domanda deve essere compilata dal legale rappresentante o suo delegato esclusivamente online esclusivamente tramite la procedura sul sistema informativo Bandi e Servizi, disponibile all’indirizzo www.bandi.regione.lombardia.it allegando il progetto. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti email: comunicazioni_caccia@regione.lombardia.it Numero verde 800.131.151 email: bandi@regione.lombardia.it Allegati (DL) L.R. 20/2002. APPROVAZIONE DEI CRITERI PER FINANZIARE PROGETTI INNOVATIVI DELLE PROVINCE E DELLA CITT¿ METROPOLITANA DI MILANO PER IL CONTENIMENTO DELLA NUTRIA CON L¿IMPIEGO DI DITTE SPECIALIZZATE DEL SETTORE. ANNO 2026 - 03/08/2026 BANDO CONTRIBUTI PER PROGETTI INNOVATIVI PER IL CONTENIMENTO DELLA NUTRIA. ANNO 2026 - 07/09/2026 Informativa sul Trattamento dei Dati Personali - 03/09/2026 Decreto 7 settembre 2026 - n. 11559 - bando contributi - BURL SEO n. 37 di giovedì 10-09-2026 - 10/09/2026 Mostra altri"
+        "discoveryText": "Enti e operatori Aperto chiude il 30-09-2026 Bando Contenimento della nutria: contributi per Province e Città metropolita... Codice: RLM12026055184 Contributi a favore delle Province e della Città metropolitana di Milano per interventi di contenimento della nutria con l’impiego di ditte special... Fai domanda Scopri di più"
       },
       "triage": {
         "status": "ai-required",
@@ -4481,10 +4481,10 @@
         "etsRelevant": null,
         "excludedForEts": false,
         "reasons": [
+          "titolo_ambiguo_o_non_descrittivo",
           "destinatari_da_interpretare"
         ],
         "evidence": [
-          "titolo_specifico",
           "fonte_ufficiale_collegata",
           "territorio_noto",
           "natura_bando_riconoscibile",
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,11 +4508,11 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": false,
-      "missingSince": "2026-09-17T08:36:01+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "deadline",
         "discoveryText",
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,11 +4625,11 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": false,
-      "missingSince": "2026-09-17T08:36:01+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     },
@@ -4738,9 +4738,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari",
       "contentHash": "2d434ab036936eacef029e00a6a99bc486288c34bc2cdd2a497879c70aa14b97",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-16T14:35:27+02:00",
-      "lastChangedAt": "2026-09-17T08:36:03+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4846,17 +4846,242 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T08:36:03+02:00"
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929": {
+      "id": "RLW12025050929",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
+      "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
+      "version": 2,
+      "firstSeenAt": "2026-09-17T14:34:37+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-23",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "strumento",
+          "supporto",
+          "repository",
+          "raccolta",
+          "candidature",
+          "filiere",
+          "formative",
+          "tecnologico",
+          "profess",
+          "codice",
+          "professionali"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "strumento",
+          "supporto",
+          "repository",
+          "raccolta",
+          "candidature"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Aperto Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 12:00 Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istituzioni formative di IeFP iscritte alla sezione A dell’elenco regionale. Di cosa si tratta Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Come partecipare La domanda di partecipazione da parte dell’istituzione formativa capofila deve essere presentata sulla piattaforma Bandi e Servizi. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti filiereformative@regione.lombardia.it"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/manutenzione-straordinaria-parchi-2026-RLZ12026053834": {
+      "id": "RLZ12026053834",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/manutenzione-straordinaria-parchi-2026-RLZ12026053834",
+      "contentHash": "c6c358f0311b143b6cac2b5b846855be7074b6b9df2af4be61ee58168c016b9c",
+      "version": 2,
+      "firstSeenAt": "2026-09-17T14:34:37+02:00",
+      "lastChangedAt": "2026-09-17T14:35:08+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Manutenzione Straordinaria Parchi 2026",
+        "source": "Regione Lombardia",
+        "deadline": "2026-09-23",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "manutenzione",
+          "straordinaria",
+          "parchi",
+          "codice",
+          "presenti",
+          "disposizioni",
+          "lombardia",
+          "concede",
+          "contributi",
+          "conto",
+          "capitale",
+          "agli",
+          "gestori",
+          "regionali",
+          "sostenere",
+          "spese"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "manutenzione",
+          "straordinaria",
+          "parchi",
+          "codice",
+          "presenti"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/manutenzione-straordinaria-parchi-2026-RLZ12026053834",
+        "discoveryText": "Bandi / Ambiente e Territorio / Parchi e aree protette / Manutenzione Straordinaria Parchi 2026 Aperto Manutenzione Straordinaria Parchi 2026 Codice: RLZ12026053834 Pubblicato il: 24/06/2026 , ore 16:25 Domande dal: 17/09/2026 , ore 10:00 Scade il: 23/09/2026 , ore 16:00 Con le presenti disposizioni Regione Lombardia concede contributi in conto capitale, agli Enti Gestori dei Parchi regionali, per sostenere le spese finalizzate alla realizzazione di interventi di tutela ambientale, di salvaguardia delle risorse naturali disponibili, di mantenimento in efficienza di strutture ed infrastrutture presenti nei parchi regionali e di recupero di aree degradate Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLZ12026053834 Pubblicato il: 24/06/2026 , ore 16:25 Domande dal: 17/09/2026 , ore 10:00 Scade il: 23/09/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti gestori dei parchi regionali Di cosa si tratta Con le presenti disposizioni Regione Lombardia concede contributi in conto capitale, agli Enti Gestori dei Parchi regionali, per sostenere le spese finalizzate alla realizzazione di interventi di tutela ambientale, di salvaguardia delle risorse naturali disponibili, di mantenimento in efficienza di strutture ed infrastrutture presenti nei parchi regionali e di recupero di aree degradate. Dotazione finanziaria 4.600.000,00 euro Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Non previsto Come partecipare La presentazione del progetto avviene tramite domanda, firmata digitalmente o elettronicamente, del legale rappresentante dell’ente parco, o, tramite sua delega, dal Direttore o dal Responsabile dell’ente parco, esclusivamente per mezzo del Sistema Informativo Integrato “Bandi e servizi”. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per Informazioni relative alla presente linea di finanziamento ed agli adempimenti ad esso connessi potranno essere richieste telefonando o inviando una mail ai seguenti indirizzi: agostino_marino@regione.lombardia.it - tel. 02 6765 8027 valentina_ruberto@regione.lombardia.it - tel. 02 6765 2793 Per richieste di assistenza tecnica alla compilazione online e per quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di ARIA S.p.A. al numero verde 800 131 151 , operativo dal lunedì al venerdì dalle ore 8.30 alle ore 17.00, escluso festivi. Allegati Informativa sul Trattamento dei Dati Personali - 24/06/2026 Decreto n.8362 - 24/06/2026 Disposizioni - 24/06/2026 Modulo 1 Accettazione - 24/06/2026 Modulo 2 QE - 24/06/2026 Modulo 3 CRONOPROGRAMMA - 24/06/2026 MODULO 4 Dic Rendicontazione - 24/06/2026 Moudulo 5 Proroga - 24/06/2026 Modulo 6 2acconto avvio lav - 24/06/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-17T08:36:03+02:00",
+  "triageUpdatedAt": "2026-09-17T14:35:08+02:00",
   "triageSummary": {
     "rulesResolved": 6,
     "rulesExcludedForEts": 0,
-    "aiRequired": 1,
-    "notPresent": 34,
+    "aiRequired": 7,
+    "notPresent": 30,
     "ruleVersion": 3
   }
 }
