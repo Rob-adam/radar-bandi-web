@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-17T02:36:11+02:00",
+  "catalogUpdatedAt": "2026-09-17T08:36:03+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -944,7 +944,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "c5f19ac5f7d2a3a8f475ab8f78cced3b8c1df7f0b3753f6d468f3b521d282963",
-      "version": 52,
+      "version": 54,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
+      "lastChangedAt": "2026-09-17T08:36:03+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     },
@@ -3951,8 +3951,8 @@
       "version": 22,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4059,8 +4059,8 @@
       "version": 22,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -4170,8 +4170,8 @@
       "version": 22,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4398,8 +4398,8 @@
       "version": 14,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4511,8 +4511,8 @@
       "version": 14,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "deadline",
         "discoveryText",
@@ -4628,8 +4628,8 @@
       "version": 14,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-17T02:36:11+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-17T08:36:01+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4738,9 +4738,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributo-2026-promozione-libro-lettura-dei-premi-dei-concorsi-letterari",
       "contentHash": "2d434ab036936eacef029e00a6a99bc486288c34bc2cdd2a497879c70aa14b97",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-16T14:35:27+02:00",
-      "lastChangedAt": "2026-09-17T02:36:11+02:00",
+      "lastChangedAt": "2026-09-17T08:36:03+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4846,17 +4846,17 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-17T02:36:11+02:00"
+        "evaluatedAt": "2026-09-17T08:36:03+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-17T02:36:11+02:00",
+  "triageUpdatedAt": "2026-09-17T08:36:03+02:00",
   "triageSummary": {
     "rulesResolved": 6,
     "rulesExcludedForEts": 0,
-    "aiRequired": 7,
-    "notPresent": 28,
+    "aiRequired": 1,
+    "notPresent": 34,
     "ruleVersion": 3
   }
 }
