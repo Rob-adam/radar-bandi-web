@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-18T08:34:35+02:00",
+  "catalogUpdatedAt": "2026-09-18T14:33:31+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -837,8 +837,8 @@
       "version": 10,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
       "lastChangedAt": "2026-09-04T14:34:37+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-18T14:33:24+02:00",
       "lastChangeFields": [
         "discoveryText",
         "eligibility",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -3830,10 +3830,10 @@
       "id": "FC-AUTO-C3D08ACE153F",
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
-      "contentHash": "c5f19ac5f7d2a3a8f475ab8f78cced3b8c1df7f0b3753f6d468f3b521d282963",
-      "version": 62,
+      "contentHash": "c86789048fcfddf535292e8d5152a50df5e40929d20182a20dd50f78a751e67f",
+      "version": 64,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3913,7 +3913,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
         "sourceStatus": "aperto",
-        "discoveryText": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente bando Emblematici Maggiori, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca italiani collocando il nostro Paese al quarto posto in graduatoria. Con riferimento alle statistiche relative alla call ERC Consolidator Grant , la performance del Paese è purtroppo peggiore: l’Italia conferma il secondo posto per numero di finanziamenti ottenuti a livello di singoli ricercatori ma precipita al settimo posto per numero di finanziamenti ospitati. Infatti, su 308 vincitori, gli italiani sono 36 ma solo 15 progetti si realizzeranno in Italia. Documenti di approfondimento Bndo Erc attrattività 2024 Scarica il file Autodichiarazione volonta di trasferimento Scarica il file communication plan fac-simile Scarica il file erc attractiveness 2024 english Scarica il file FAQ erc Scarica il file Programme form attrattivita fac-simile Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
+        "discoveryText": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente Programma Interventi Emblematici, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca italiani collocando il nostro Paese al quarto posto in graduatoria. Con riferimento alle statistiche relative alla call ERC Consolidator Grant , la performance del Paese è purtroppo peggiore: l’Italia conferma il secondo posto per numero di finanziamenti ottenuti a livello di singoli ricercatori ma precipita al settimo posto per numero di finanziamenti ospitati. Infatti, su 308 vincitori, gli italiani sono 36 ma solo 15 progetti si realizzeranno in Italia. Documenti di approfondimento Bndo Erc attrattività 2024 Scarica il file Autodichiarazione volonta di trasferimento Scarica il file communication plan fac-simile Scarica il file erc attractiveness 2024 english Scarica il file FAQ erc Scarica il file Programme form attrattivita fac-simile Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
       },
       "triage": {
         "status": "ai-required",
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,7 +4273,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 20,
+      "version": 22,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -4741,8 +4741,8 @@
       "version": 16,
       "firstSeenAt": "2026-09-16T14:35:27+02:00",
       "lastChangedAt": "2026-09-18T08:34:35+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-18T14:33:24+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -4855,9 +4855,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
-      "lastChangedAt": "2026-09-18T08:34:35+02:00",
+      "lastChangedAt": "2026-09-18T14:33:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4956,7 +4956,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-18T08:34:35+02:00"
+        "evaluatedAt": "2026-09-18T14:33:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5076,12 +5076,12 @@
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-18T08:34:35+02:00",
+  "triageUpdatedAt": "2026-09-18T14:33:31+02:00",
   "triageSummary": {
-    "rulesResolved": 6,
+    "rulesResolved": 4,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 30,
+    "notPresent": 32,
     "ruleVersion": 3
   }
 }

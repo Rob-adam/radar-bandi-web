@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-18T08:34:35+02:00",
+  "generatedAt": "2026-09-18T14:33:31+02:00",
   "ruleVersion": 3,
   "count": 7,
   "items": [
     {
       "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
       "id": "FC-AUTO-C3D08ACE153F",
-      "version": 62,
+      "version": 64,
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "title": "ERC Attrattività",
@@ -26,12 +26,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente bando Emblematici Maggiori, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca italiani "
+      "text": "Stato: Attivo Bando senza scadenza Destinatari: Enti che svolgono direttamente attività di ricerca scientifica. Aree di intervento: Area Ricerca Scientifica Temi affrontati: Reti internazionali Contatti: Diana Pozzoli Vice Direttrice Area Scientifica E-mail tel +39 02 6239326 Valentina Cairo Progetto AGER-Agroalimentare e Ricerca, Referente Programma Interventi Emblematici, Iniziative internazionali E-mail tel +39 02 6239214 Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale TIPO Bando senza scadenza. SOSTEGNO FORNITO € 900.000 OBIETTIVO Potenziamento del contesto di ricerca locale. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo massimo: € 300.000 Premessa Il bando “ ERC Attrattività – Reclutare i vincitori dei grant dell’ European Research Council per potenziare il sistema della ricerca locale” è un bando senza scadenza che si inserisce nella linea di mandato “Creare le condizioni abilitanti al rafforzamento delle comunità” . Contesto Nel panorama dei finanziamenti europei alla ricerca, i bandi promossi dall’ European Research Council ( ERC ) si caratterizzano per l’elevata competitività premiando solo gli scienziati migliori dotati di idee innovative. I dati relativi all’andamento delle call 20231 testimoniano che gli italiani sono molto competitivi, ma il nostro Paese si conferma poco attrattivo in termini di numero di ricercatori che decidono di svolgervi la propria ricerca. Secondo le statistiche relative alla call ERC Starting Grant , su 400 vincitori, gli italiani sono 57 posizionando il nostro Paese al secondo posto dopo la Germania per numero di finanziamenti ottenuti. Tuttavia, osservando i dati relativi ai paesi ospitanti, solo 32 progetti verranno realizzati presso università e centri di ricerca ita"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "id": "RLL12026054464",
-      "version": 22,
+      "version": 24,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "title": "AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027”",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "id": "RLM12026055184",
-      "version": 20,
+      "version": 22,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "title": "Contenimento della nutria: contributi per Province e Città metropolitana di Milano",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "id": "RLM12026055263",
-      "version": 30,
+      "version": 32,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "title": "Contributi per l’attuazione di interventi selvicolturali con promozione della gestione forestale sostenibile",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "id": "RLW12025050925",
-      "version": 28,
+      "version": 30,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "title": "Inclusione scolastica studenti con disabilità nel secondo ciclo di istruzione - A.S. 2026/2027",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "id": "RLW12025050929",
-      "version": 8,
+      "version": 10,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "title": "Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "id": "RLZ12026054731",
-      "version": 22,
+      "version": 24,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "title": "Sismica: contributi 2026 ai Comuni per l’esercizio delle funzioni in zone sismiche",
