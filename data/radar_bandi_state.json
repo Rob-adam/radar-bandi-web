@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-20T08:33:01+02:00",
+  "catalogUpdatedAt": "2026-09-20T14:32:39+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "daabdc4b91cb90d0e41860d2649e9ca8db4c0bd70c1ef03df81b15d9cfb3bcd4",
-      "version": 78,
+      "version": 80,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 46,
+      "version": 48,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4167,9 +4167,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
       "contentHash": "9d082cba522421bee577236f975ddebd8a2ce563eff9d724551afd9937386679",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4273,7 +4273,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -4855,9 +4855,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
-      "lastChangedAt": "2026-09-20T08:33:01+02:00",
+      "lastChangedAt": "2026-09-20T14:32:39+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4956,7 +4956,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-20T08:33:01+02:00"
+        "evaluatedAt": "2026-09-20T14:32:39+02:00"
       },
       "excludedForEts": false
     },
@@ -5076,7 +5076,7 @@
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-20T08:33:01+02:00",
+  "triageUpdatedAt": "2026-09-20T14:32:39+02:00",
   "triageSummary": {
     "rulesResolved": 4,
     "rulesExcludedForEts": 0,
