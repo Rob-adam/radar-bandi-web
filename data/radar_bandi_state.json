@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-21T06:59:42+02:00",
+  "catalogUpdatedAt": "2026-09-21T14:53:23+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "daabdc4b91cb90d0e41860d2649e9ca8db4c0bd70c1ef03df81b15d9cfb3bcd4",
-      "version": 84,
+      "version": 86,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -4056,9 +4056,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 52,
+      "version": 54,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4158,7 +4158,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -4170,8 +4170,8 @@
       "version": 50,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-21T06:59:42+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-21T14:53:14+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 42,
+      "version": 44,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -4855,9 +4855,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
-      "lastChangedAt": "2026-09-21T06:59:42+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4956,7 +4956,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-21T06:59:42+02:00"
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
       },
       "excludedForEts": false
     },
@@ -5074,14 +5074,129 @@
         "evaluatedAt": "2026-09-17T14:35:08+02:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423": {
+      "id": "RLL12026054423",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
+      "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
+      "version": 2,
+      "firstSeenAt": "2026-09-21T14:53:14+02:00",
+      "lastChangedAt": "2026-09-21T14:53:23+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-14",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sostegno",
+          "investimenti",
+          "recupero",
+          "mulini",
+          "storici",
+          "codice",
+          "lombardia",
+          "sostiene",
+          "progetti",
+          "finalizzati",
+          "presenti",
+          "territorio",
+          "lombardo",
+          "quanto",
+          "espressione",
+          "patrimoni"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sostegno",
+          "investimenti",
+          "recupero",
+          "mulini",
+          "storici"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Aperto Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Regione Lombardia sostiene progetti finalizzati al recupero dei mulini storici presenti sul territorio lombardo in quanto espressione del patrimonio storico del paesaggio regionale, riconoscendone la funzione sociale, culturale, identitaria e di valorizzazione territoriale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici, organismi di diritto pubblico, ecomusei riconosciuti e soggetti privati senza fine di lucro (ad esempio, fondazioni, associazioni, istituzioni sociali private, privati persone fisiche) che siano proprietari, titolari o gestori di mulini storici in coerenza con la definizione dell’art. 1, comma 2 della l.r. n. 9 del 4 maggio 2026. Sono escluse le imprese. Sono escluse le amministrazioni statali. Di cosa si tratta Il bando triennale 2026-2028 si prefigge i seguenti obiettivi specifici: migliorare la conservazione dei mulini storici con interventi di manutenzione ordinaria delle strutture e delle parti costitutive; favorire la fruizione dei mulini storici attraverso l’acquisto di strumenti necessari alla loro valorizzazione; favorirne l’accessibilità attraverso l’acquisto, il miglioramento e il completamento di allestimenti per la fruizione degli spazi. Sono ammissibili le seguenti tipologie di attività: Interventi di recupero e di manutenzione delle strutture e delle parti costitutive; Allestimenti e arredi permanenti per migliorare l’esposizione, la conservazione e la fruizione da parte del pubblico del bene oggetto dell’intervento; Acquisto e installazione della strumentazione per favorire l’accessibilità degli spazi; Acquisto di strumentazione idonea alla valorizzazione del bene; Acquisto di hardware e software per potenziare la fruizione di fondi, raccolte e collezioni legati al bene oggetto dell’intervento; Digitalizzazione di beni (con particolare attenzione alla cartografia e alla documentazione storica) collegati al bene oggetto dell’intervento. Dotazione finanziaria Le risorse finanziarie ammontano a € 100.000,00 annui, per una dotazione triennale complessiva pari a € 300.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Sarà valutato caso per caso se i progetti presentati rilevino ai sensi della normativa europea sugli aiuti di Stato. BURL BURL Serie Ordinaria n. 31 del 31 luglio 2026 Come partecipare La domanda di contributo deve essere presentata esclusivamente in forma telematica tramite la piattaforma Bandi e Servizi, dalle ore 10:00 del 21/09/2026 alle ore 16:00 del 14/10/2026, dove è presente la modulistica da utilizzare. Procedura selezione Procedura valutativa a sportello. Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it cultura@pec.regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati Informativa sul Trattamento dei Dati Personali - 31/07/2026 Estratto BURL Serie Ordinaria n. 31 del 31 luglio 2026 | Decreto n. 10159 del 28 luglio 2026 - 31/07/2026 Bando - 31/07/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-21T14:53:23+02:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-21T06:59:42+02:00",
+  "triageUpdatedAt": "2026-09-21T14:53:23+02:00",
   "triageSummary": {
     "rulesResolved": 4,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 32,
+    "notPresent": 33,
     "ruleVersion": 3
   }
 }

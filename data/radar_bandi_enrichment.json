@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-21T06:59:33+02:00",
+  "generatedAt": "2026-09-21T14:53:15+02:00",
   "attempted": 7,
   "enriched": 7,
   "unchanged": 0,
@@ -35,6 +35,15 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263"
     },
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "ok": true,
       "changed": [
@@ -52,15 +61,6 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/raccolta-fabbisogno-servizi-inclusione-scolastica-studenti-disabilit-s-2026-2027-RLW12025050925"
     },
     {
       "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
