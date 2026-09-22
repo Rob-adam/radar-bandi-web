@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-22T07:00:35+02:00",
+  "catalogUpdatedAt": "2026-09-22T13:42:51+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -3831,9 +3831,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/erc-attrattivita/",
       "contentHash": "daabdc4b91cb90d0e41860d2649e9ca8db4c0bd70c1ef03df81b15d9cfb3bcd4",
-      "version": 90,
+      "version": 92,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3939,7 +3939,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -4059,8 +4059,8 @@
       "version": 58,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-22T07:00:35+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-22T13:42:44+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 48,
+      "version": 50,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 50,
+      "version": 52,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 50,
+      "version": 52,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -4855,9 +4855,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
       "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4956,7 +4956,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     },
@@ -5080,9 +5080,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5186,17 +5186,271 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723": {
+      "id": "RLL12024041723",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
+      "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
+      "version": 2,
+      "firstSeenAt": "2026-09-22T13:42:44+02:00",
+      "lastChangedAt": "2026-09-22T13:42:51+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-05",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "strumento",
+          "supporto",
+          "individuazione",
+          "soggetti",
+          "svolgono",
+          "attività",
+          "rilevan",
+          "codice",
+          "lombardia",
+          "concede",
+          "riconoscimento",
+          "rilevanza",
+          "operano",
+          "continuità",
+          "professionalità",
+          "territorio",
+          "lombardo"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "strumento",
+          "supporto",
+          "individuazione",
+          "soggetti",
+          "svolgono"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Aperto Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istanze di adesione al monitoraggio Procedura riservata ai soggetti già riconosciuti di rilevanza regionale nel 2026 che sono tenuti a partecipare al monitoraggio per il mantenimento del riconoscimento. Nuove richieste di riconoscimento Come previsto dall’art. 7 comma 2 della l.r. 25/2016, i requisiti generali per l’individuazione dei soggetti di rilevanza regionale sono: previsione nello statuto o nell’atto costitutivo della finalità di promozione educativa culturale attività svolta prevalentemente in Lombardia svolgimento di una documentata attività di elevato interesse culturale , anche con valenza di carattere educativo Ulteriori requisiti specifici di ammissibilità dei soggetti: soggetti di diritto privato senza scopo di lucro che operano con continuità e professionalità sul territorio lombardo e che propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale cinque anni di attività continuativa nel settore della promozione educativa culturale anche con altra denominazione e / o natura giuridica presenza di personale organizzativo, amministrativo e/o tecnico regolarmente retribuito totale dei costi annuali a bilancio uguale o superiore a euro 100.000 per l’anno 2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Di cosa si tratta Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno, nonché per l'elevato livello qualitativo. Regione Lombardia, con questo provvedimento, intende proseguire nella valorizzazione del ruolo dei soggetti che si distinguono per l’organizzazione di specifiche attività di promozione educativa culturale: Festival di letteratura e di poesia, di divulgazione scientifica, di filosofia, di arte contemporanea Iniziative/eventi di valorizzazione e di promozione dei beni culturali Iniziative di promozione culturale in contesti non usuali Quando Le stanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. Cosa serve I stanze di adesione al monitoraggio L’istanza di adesione al monitoraggio deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di istanza di adesione al monitoraggio per il mantenimento del riconoscimento Atto di delega di firma, se il firmatario non coincide con il legale rappresentante Copia dello statuto vigente SOLO se lo statuto è stato modificato successivamente al riconoscimento del 2026 Copia del Bilancio approvato riferito all’anno 2025 Nuove richieste di riconoscimento La domanda deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di richiesta di riconoscimento Atto di delega di firma se il firmatario non coincide con il legale rappresentante Copia dell’atto costitutivo e dello statuto vigenti Copia dei Bilanci approvati riferiti agli anni 2021, 2022, 2023, 2024 e 2025 Relazione attività 2021-2025 Scheda conti economici 2021-2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Dotazione finanziaria Il provvedimento non ha riflessi di natura finanziaria. Caratteristiche dell'agevolazione Il riconoscimento avrà validità quadriennale per i soggetti riconosciuti nel 2025, triennale per i soggetti riconosciuti nel 2026 e biennale per i soggetti riconosciuti nel 2027. Ogni anno successivo al primo, sarà verificato il mantenimento dei requisiti che hanno consentito a Regione Lombardia il riconoscimento di rilevanza regionale e sarà anche possibile inviare nuove istanze per l’attribuzione di nuovi riconoscimenti. Qualora un soggetto riconosciuto, a seguito di monitoraggio, non risulti più in possesso di uno o più requisiti, si stabilirà la decadenza del riconoscimento regionale. La richiesta di riconoscimento è relativa al settore Promozione educativa culturale e non al settore Spettacolo. Regime di Aiuto di Stato - Come partecipare Le istanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. I soggetti già riconosciuti di rilevanza regionale nel 2026 non dovranno presentare una nuova richiesta di riconoscimento, ma, in Bandi e Servizi, dovranno entrare nella domanda già presentata nel 2025 o nel 2026, prendere in carico la pratica e avviare il monitoraggio . La mancata osservanza delle modalità di presentazione e il mancato caricamento elettronico dei documenti costituirà causa di inammissibilità della richiesta. Procedura selezione Procedura valutativa Informazioni e contatti Per informazioni riferite al bando : e-mail: legge25promozione@regione.lombardia.it Rosanna Coviello: tel. 02 67652729 Alessandra Cattadori: tel. 02 67652620 Pietro Balzarini: tel. 02 6765.2635 Per assistenza alla compilazione on-line e quesiti di ordine tecnico sulle procedure informatizzate: Call Center di Aria S.p.A. numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica). e-mail: bandi@regione.lombardia.it Allegati Estratto BURL - SO 38 del 17/09/2026 | Decreto n. 11818 -11/09/2026 - 17/09/2026 Comunicazioni correlate Enti e operatori 13/01/2026 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2026 Con decreto n. 216 del 13 gennaio 2026 sono stati approvati gli esiti istruttori del «Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozio... Vedi dettaglio Enti e operatori 30/12/2024 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2025 Con Decreto n. 20382 del 19 dicembre 2024, pubblicato sul BURL Serie Ordinaria n. 52 del 27 dicembre 2024, sono stati approvazione gli esiti del «Bando per l’individuazione dei soggetti che svolgon... Vedi dettaglio"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_nonprofit_espliciti",
+          "forma_giuridica_specifica_non_confermata",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "nonprofit-broad",
+          "evidence": [
+            "senza scopo di lucro"
+          ],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-istituzionali-manifestazioni-eventi-2026": {
+      "id": "PIE-AUTO-48C7D2B0C13F",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-istituzionali-manifestazioni-eventi-2026",
+      "contentHash": "f5d40952c02dd11c1116e274d1377dfec12a1ed3999873a4a8458e79d324a486",
+      "version": 1,
+      "firstSeenAt": "2026-09-22T13:42:44+02:00",
+      "lastChangedAt": "2026-09-22T13:42:44+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-22",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contributi",
+          "iniziative",
+          "istituzionali",
+          "manifestazioni",
+          "eventi",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube",
+          "linkedin",
+          "instagram",
+          "whatsapp",
+          "ricerca"
+        ],
+        "sectors": [
+          "contributi",
+          "iniziative",
+          "istituzionali",
+          "manifestazioni",
+          "eventi",
+          "bandi",
+          "piemonte",
+          "salta"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-istituzionali-manifestazioni-eventi-2026",
+        "sourceStatus": "aperto",
+        "discoveryText": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Bando per la presentazione delle domande di contributo per l’anno 2026 ai sensi della Legge regionale 14 gennaio 1977, n. 6 Domande dal Mar, 22/09/2026 - 09:00 Scadenza Gio, 22/10/2026 - 12:00 Temi Altro Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso La Legge regionale 14 gennaio 1977 n. 6 e s.m.i. “Norme per l'organizzazione e la partecipazione a convegni, congres"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-22T13:42:51+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-22T07:00:35+02:00",
+  "triageUpdatedAt": "2026-09-22T13:42:51+02:00",
   "triageSummary": {
-    "rulesResolved": 4,
+    "rulesResolved": 6,
     "rulesExcludedForEts": 0,
-    "aiRequired": 7,
-    "notPresent": 33,
+    "aiRequired": 6,
+    "notPresent": 34,
     "ruleVersion": 3
   }
 }
