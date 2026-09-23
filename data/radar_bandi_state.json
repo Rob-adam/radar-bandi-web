@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-23T19:05:06+02:00",
+  "catalogUpdatedAt": "2026-09-23T23:32:25+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -2645,7 +2645,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-23T19:04:56+02:00"
@@ -4057,9 +4057,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 60,
+      "version": 62,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4159,7 +4159,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -4396,9 +4396,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 60,
+      "version": 62,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4500,7 +4500,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -4509,9 +4509,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4617,7 +4617,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -4626,9 +4626,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4730,7 +4730,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -5081,9 +5081,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5187,7 +5187,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -5196,9 +5196,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 12,
+      "version": 14,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5305,7 +5305,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -5422,7 +5422,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -5431,9 +5431,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "d6f357d20273842c57aa5ea41f0694f1a042ce0799a8308c23a2110a4d89c77d",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5541,7 +5541,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     },
@@ -5550,9 +5550,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "d58f30cd9dfb449e62e1ac637eb1e8d2a83baff8cae272dc835e5de4cde74b08",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "lastChangedAt": "2026-09-23T23:32:25+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5648,12 +5648,12 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+        "evaluatedAt": "2026-09-23T23:32:25+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-23T19:05:07+02:00",
+  "triageUpdatedAt": "2026-09-23T23:32:25+02:00",
   "triageSummary": {
     "rulesResolved": 9,
     "rulesExcludedForEts": 0,
