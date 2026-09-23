@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-23T06:48:47+02:00",
+  "catalogUpdatedAt": "2026-09-23T13:41:30+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -3834,8 +3834,8 @@
       "version": 98,
       "firstSeenAt": "2026-09-10T20:30:55+02:00",
       "lastChangedAt": "2026-09-23T06:48:47+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-23T13:41:23+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus"
@@ -4395,9 +4395,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 56,
+      "version": 58,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4499,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -4508,9 +4508,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4616,7 +4616,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4625,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4729,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -4854,10 +4854,10 @@
       "id": "RLW12025050929",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
-      "contentHash": "5b384f15f4cb3b0ef7c9fed2292419d1ce95b297d0c2b1a3ddf6b0a64c3eff94",
-      "version": 44,
+      "contentHash": "c28ecb9a881a094be077509d54b60de82bea9bae7954df52480f4b652d082471",
+      "version": 46,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4930,7 +4930,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/repository-raccolta-candidature-filiere-formative-tecnologico-professionali-f-2027-2028-RLW12025050929",
-        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Aperto Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 12:00 Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istituzioni formative di IeFP iscritte alla sezione A dell’elenco regionale. Di cosa si tratta Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Come partecipare La domanda di partecipazione da parte dell’istituzione formativa capofila deve essere presentata sulla piattaforma Bandi e Servizi. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti filiereformative@regione.lombardia.it"
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Aperto Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 16:00 Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12025050929 Pubblicato il: 17/09/2026 , ore 11:53 Domande dal: 17/09/2026 , ore 12:00 Scade il: 23/09/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istituzioni formative di IeFP iscritte alla sezione A dell’elenco regionale. Di cosa si tratta Repository di raccolta candidature filiere formative tecnologico-professionali a.f. 2027/2028 Come partecipare La domanda di partecipazione da parte dell’istituzione formativa capofila deve essere presentata sulla piattaforma Bandi e Servizi. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti filiereformative@regione.lombardia.it"
       },
       "triage": {
         "status": "ai-required",
@@ -4956,7 +4956,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -5080,9 +5080,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5186,7 +5186,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -5195,9 +5195,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-23T06:48:47+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5304,7 +5304,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     },
@@ -5421,17 +5421,136 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T06:48:47+02:00"
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.fondazionecariplo.it/bando/anita-reti-mille": {
+      "id": "FC-AUTO-ED155B6967E0",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
+      "contentHash": "bfa3390cf8d55567abacddb72ac200319f62e7ccd9482c70787754260ade95ed",
+      "version": 2,
+      "firstSeenAt": "2026-09-23T13:41:23+02:00",
+      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "deadline",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Anita Reti Mille",
+        "source": "Fondazione Cariplo",
+        "deadline": "2026-02-18",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Fondazione Cariplo",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "anita",
+          "reti",
+          "mille",
+          "accesso",
+          "risorse",
+          "benessere",
+          "giovani",
+          "generazioni",
+          "cittadinanza",
+          "attiva",
+          "progettazione",
+          "innovazione",
+          "patrimonio",
+          "culturale",
+          "ambientale",
+          "produrre",
+          "conoscenza",
+          "musei",
+          "accessibilità",
+          "universale"
+        ],
+        "sectors": [
+          "anita",
+          "reti",
+          "mille",
+          "accesso",
+          "risorse",
+          "benessere",
+          "giovani",
+          "generazioni"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
+        "sourceStatus": "aperto",
+        "discoveryText": "Stato: Attivo Scadenza 18/02/2026 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-23T13:41:30+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-23T06:48:47+02:00",
+  "triageUpdatedAt": "2026-09-23T13:41:30+02:00",
   "triageSummary": {
-    "rulesResolved": 6,
+    "rulesResolved": 7,
     "rulesExcludedForEts": 0,
-    "aiRequired": 6,
-    "notPresent": 34,
+    "aiRequired": 5,
+    "notPresent": 35,
     "ruleVersion": 3
   }
 }

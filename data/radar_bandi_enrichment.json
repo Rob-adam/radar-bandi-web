@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T06:48:40+02:00",
+  "generatedAt": "2026-09-23T13:41:23+02:00",
   "attempted": 7,
   "enriched": 7,
   "unchanged": 0,
@@ -62,13 +62,14 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731"
     },
     {
-      "key": "url:https://www.fondazionecariplo.it/bando/erc-attrattivita",
+      "key": "url:https://www.fondazionecariplo.it/bando/anita-reti-mille",
       "ok": true,
       "changed": [
         "discoveryText",
+        "deadline",
         "sourceStatus"
       ],
-      "url": "https://www.fondazionecariplo.it/bando/erc-attrattivita/"
+      "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     }
   ]
 }
