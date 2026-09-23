@@ -16,4 +16,192 @@ function geoReqResult(opts){const requested=norm((opts||[]).join(" "));const reg
 function hardReqResult(req){const opts=Array.isArray(req?.anyOf)?req.anyOf:[];if(!opts.length)return true;const label=norm(req?.label||""),optText=norm(opts.join(" ")),pr=norm(profile.region||""),pp=norm(profile.province||"");const isGeo=/provincia|territorio|sede|localizz|operativita/.test(label)||(pr&&optText.includes(pr))||(pp&&optText.includes(pp))||/(lombardia|monza|brianza|italia|novara|verbania)/.test(optText);const isLegal=/runts|iscrizion|forma giuridica|ente non profit|odv|aps|onlus|ets|terzo settore/.test(label+" "+optText);let source="";if(isGeo)return geoReqResult(opts);else if(isLegal){source=legalAliases().join(" ")}else{source=[profile.sector,profile.subSector,profile.areas,profile.statutoryPurposes,profile.activities,profile.capabilities].filter(Boolean).join(" ");if(!norm(source))return null}if(!norm(source))return null;return opts.some(x=>containsAny(source,[x])||containsAny(x,legalAliases()))}
 function calc(b){const sector=fieldMatch([profile.sector,profile.subSector,profile.areas].join(" "),(b.sectors||[]).length?b.sectors:b.keywords);const activities=fieldMatch([profile.activities,profile.capabilities].join(" "),(b.activities||[]).length?b.activities:b.keywords);const beneficiaries=fieldMatch(profile.beneficiaries,(b.beneficiaries||[]).length?b.beneficiaries:b.keywords);const purposes=fieldMatch(profile.statutoryPurposes,(b.purposes||[]).length?b.purposes:b.keywords);const territory=territoryScore(b.territories||[]);const legal=legalScore(b.legalForms||[]);let eligibilityState="verify",failedReqs=[],unknownReqs=[];if(Array.isArray(b.hardRequirements)&&b.hardRequirements.length){const checked=b.hardRequirements.map(r=>({r,v:hardReqResult(r)}));failedReqs=checked.filter(x=>x.v===false).map(x=>x.r);unknownReqs=checked.filter(x=>x.v===null).map(x=>x.r);if(failedReqs.length)eligibilityState="no"}if(b.hardKeyword&&!containsAny([profile.statutoryPurposes,profile.activities,profile.capabilities].join(" "),[b.hardKeyword]))eligibilityState="no";const parts=[{s:sector,w:.38},{s:activities,w:.22},{s:beneficiaries,w:.12},{s:purposes,w:.18}];let n=0,d=0;for(const x of parts)if(x.s!==null){n+=x.s*x.w;d+=x.w}const mission=d?n/d:null;let score=mission===null?0:Math.round(mission*.82+(territory??50)*.09+(legal??50)*.09);score=Math.max(0,Math.min(100,score));return{score,eligibilityState,failedReqs,unknownReqs,breakdown:{sector,activities,beneficiaries,purposes,territory,legal},profileComplete:mission!==null}}
 function days(s){if(!s)return Infinity;return Math.ceil((new Date(s+"T23:59:59")-new Date())/86400000)}function status(r){if(r.eligibilityState==="no")return["NON COMPATIBILE","badtxt"];if(r.score>=70)return["MATCH ALTO","goodtxt"];if(r.score>=40)return["DA VALUTARE","warntxt"];return["MATCH BASSO","badtxt"]}function urgency(b){if(!b.deadline)return["CONTINUA","low"];const d=days(b.deadline);if(d<0)return["SCADUTO","low"];if(d<=30)return["ALTA","high"];if(d<=60)return["MEDIA","med"];return["BASSA","low"]}const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));const euro=n=>n?new Intl.NumberFormat("it-IT",{style:"currency",currency:"EUR",maximumFractionDigits:0}).format(n):"Da verificare";function render(){const q=norm($("search").value),f=$("filter").value;const rows=bandi.map(b=>({...b,r:calc(b),d:days(b.deadline)})).filter(b=>!q||norm(allText(b)).includes(q)).filter(b=>f==="match"?b.r.eligibilityState!=="no"&&b.r.score>=70:f==="urgent"?b.d>=0&&b.d<=60:f==="excluded"?b.r.eligibilityState==="no":f==="favorites"?favs.includes(b.id):true);$("kTotal").textContent=bandi.length;$("kMatch").textContent=bandi.filter(b=>{const r=calc(b);return r.eligibilityState!=="no"&&r.score>=70}).length;$("kSoon").textContent=bandi.filter(b=>{const d=days(b.deadline);return d>=0&&d<=60}).length;$("kFav").textContent=favs.length;$("updatedBadge").textContent=updatedAt?"Ultimo aggiornamento bandi: "+updatedAt:"Ultimo aggiornamento bandi: in corso…";$("opps").innerHTML=rows.map(b=>{const[st,cl]=status(b.r),[pr,pc]=urgency(b),blocked=b.r.eligibilityState==="no",sc=blocked?"bad":b.r.score>=70?"good":b.r.score>=40?"warn":"bad";return `<div class="opp"><div class="score ${sc}">${blocked?"NO":b.r.score+"%"}</div><div><b>${esc(b.title)}</b><div class="meta">${esc(b.source)} · ${b.deadline?new Date(b.deadline+"T12:00:00").toLocaleDateString("it-IT")+" · "+b.d+" giorni":"Senza scadenza"}</div><div class="tags"><span class="prio ${pc}">URGENZA SCADENZA ${pr}</span>${(b.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}</div></div><div><div class="status ${cl}">${st}</div><button class="btn ghost analyze" data-id="${esc(b.id)}" style="margin-top:8px">Analizza</button></div></div>`}).join("")||'<div class="card">Nessun bando con questi filtri.</div>';$("opps").onclick=e=>{const btn=e.target.closest(".analyze");if(btn)openDetail(btn.dataset.id)}}function val(v){return v===null?"n.d.":v+"%"}function openDetail(id){const b=bandi.find(x=>x.id===id);if(!b)return;current=b;const r=calc(b),[st,cl]=status(r),[urg]=urgency(b),state=states[b.id]||"Da valutare";$("detail").innerHTML=`<div class="grid detailgrid"><div class="card"><h2>${esc(b.title)}</h2><div class="status ${cl}">${st}</div><div class="meta" style="margin-top:5px"><b>Urgenza scadenza: ${urg}</b> · Ammissibilità formale: <b>${r.eligibilityState==="no"?"NO — NON ACCESSIBILE":"DA VERIFICARE"}</b>${r.eligibilityState==="no"?` · Coerenza tematica teorica: <b>${r.score}%</b> (non utilizzabile ai fini della candidatura)`: ` · Match / coerenza missione: <b>${r.score}%</b>`}</div><h3>Come nasce il punteggio</h3><div class="row"><span>Settore / tema</span><b>${val(r.breakdown.sector)}</b></div><div class="row"><span>Beneficiari</span><b>${val(r.breakdown.beneficiaries)}</b></div><div class="row"><span>Attività</span><b>${val(r.breakdown.activities)}</b></div><div class="row"><span>Finalità statutarie</span><b>${val(r.breakdown.purposes)}</b></div><div class="row"><span>Territorio</span><b>${val(r.breakdown.territory)}</b></div><div class="row"><span>Forma giuridica / RUNTS</span><b>${val(r.breakdown.legal)}</b></div><h3>Requisiti chiave</h3>${r.failedReqs&&r.failedReqs.length?`<div class="reason" style="border-left:4px solid var(--bad)"><b>Requisito bloccante non soddisfatto:</b> ${r.failedReqs.map(x=>esc(x.label||"Requisito specifico")).join("; ")}</div>`:""}${r.unknownReqs&&r.unknownReqs.length?`<div class="reason" style="border-left:4px solid var(--warn)"><b>Requisito da verificare:</b> ${r.unknownReqs.map(x=>esc(x.label||"Requisito specifico")).join("; ")}</div>`:""}${(b.eligibility||[]).map(x=>`<div class="reason">${esc(x)}</div>`).join("")}<a href="${esc(b.sourceUrl)}" target="_blank" rel="noopener">Apri fonte ufficiale ↗</a></div><div class="card"><h3>Dati economici</h3><div class="row"><span>Dotazione</span><b>${euro(b.fund)}</b></div><div class="row"><span>Contributo massimo</span><b>${euro(b.maxGrant)}</b></div><div class="row"><span>Scadenza</span><b>${b.deadline?new Date(b.deadline+"T12:00:00").toLocaleDateString("it-IT"):"Senza scadenza"}</b></div><select id="state">${["Da valutare","Interessato","In preparazione","Presentato","Finanziato","Non finanziato","Non presentato"].map(s=>`<option ${s===state?"selected":""}>${s}</option>`).join("")}</select><button class="btn ghost" id="fav" style="width:100%;margin-top:10px">${favs.includes(b.id)?"★ Rimuovi dai preferiti":"☆ Aggiungi ai preferiti"}</button>${r.eligibilityState==="no"?`<div class="reason" style="margin-top:10px;border-left:4px solid var(--bad)"><b>Candidatura non disponibile.</b><br>Il profilo dell’ente non soddisfa almeno un requisito bloccante del bando.</div>`:`<button class="btn primary" id="support" style="width:100%;margin-top:10px">Richiedi supporto per la tua candidatura</button>`}<button class="btn ghost" id="closeDetail" style="width:100%;margin-top:8px">Chiudi</button></div></div>`;$("detail").classList.add("open");requestAnimationFrame(()=>$("detail").scrollIntoView({behavior:"smooth",block:"start"}));$("state").onchange=e=>{states[b.id]=e.target.value;localStorage.setItem(P+"states",JSON.stringify(states))};$("fav").onclick=()=>{favs=favs.includes(b.id)?favs.filter(x=>x!==b.id):[...favs,b.id];localStorage.setItem(P+"favs",JSON.stringify(favs));openDetail(b.id);render()};if($("support"))$("support").onclick=()=>{$("contactBando").textContent=b.title;$("contact").classList.remove("hidden")};$("closeDetail").onclick=()=>$("detail").classList.remove("open")}async function refresh(){try{const ts=Date.now();const [r1,r2]=await Promise.all([fetch(CATALOG_URL+"?t="+ts,{cache:"no-store"}),fetch(EXTRA_CATALOG_URL+"?t="+ts,{cache:"no-store"})]);if(!r1.ok)throw Error("Catalogo principale HTTP "+r1.status);const d1=await r1.json();let d2={bandi:[]};if(r2.ok)d2=await r2.json();if(!Array.isArray(d1.bandi)||!Array.isArray(d2.bandi))throw Error("Catalogo non valido");const map=new Map();[...d1.bandi,...d2.bandi].forEach(b=>map.set(b.id,b));bandi=[...map.values()];updatedAt=d2.updatedAt||d1.updatedAt||new Date().toLocaleString("it-IT");$("refreshMsg").innerHTML=`<div class="msg ok"><b>Controllo completato.</b> ${bandi.length} bandi disponibili.</div>`;render()}catch(e){$("refreshMsg").innerHTML=`<div class="msg err">Aggiornamento non riuscito: ${esc(e.message)}</div>`}}const legalModal=$("legalModal"),legalTitle=$("legalTitle"),legalBody=$("legalBody");const legalContent={privacy:'<p><b>Informativa privacy BANDOVERA</b></p><p>BANDOVERA tratta esclusivamente i dati necessari alla gestione della licenza, alla personalizzazione del servizio e alle eventuali richieste di supporto inviate dall\'utente.</p><p>I dati non vengono utilizzati per finalità diverse da quelle connesse all\'erogazione del servizio, salvo obblighi di legge o specifico consenso dell\'interessato.</p><p>Per richieste relative ai dati personali, rettifica o cancellazione è possibile contattare il gestore del servizio.</p>',policy:'<p><b>Policy di utilizzo BANDOVERA</b></p><p>BANDOVERA è uno strumento informativo di supporto alla ricerca di bandi e opportunità per gli Enti del Terzo Settore.</p><p>I punteggi di compatibilità sono orientativi e non costituiscono garanzia di ammissibilità, concessione del contributo o finanziamento.</p><p>Prima di presentare una candidatura è necessario verificare sempre il testo ufficiale del bando, gli allegati, i requisiti e le scadenze pubblicate dall\'ente promotore.</p><p>La licenza è nominativa e destinata esclusivamente all\'organizzazione per la quale è stata attivata.</p>'};document.querySelectorAll('[data-legal]').forEach(btn=>btn.onclick=()=>{const k=btn.dataset.legal;legalTitle.textContent=k==='privacy'?'Privacy':'Policy';legalBody.innerHTML=legalContent[k]||'';legalModal.classList.remove('hidden')});$("legalClose").onclick=()=>legalModal.classList.add('hidden');legalModal.onclick=e=>{if(e.target===legalModal)legalModal.classList.add('hidden')};$("search").oninput=render;$("filter").onchange=render;$("close").onclick=()=>$("contact").classList.add("hidden");$("send").onclick=()=>{if(!current)return;const n=$("cName").value.trim(),e=$("cEmail").value.trim();if(!n||!e){$("contactMsg").innerHTML='<div class="msg err">Inserisci nome ed email.</div>';return}const details=["Associazione: "+profile.name,"Referente: "+n,"Email: "+e,"Telefono: "+$("cPhone").value,"Bando: "+current.title,"Messaggio: "+($("cMessage").value||"Richiesta di supporto")].join("\n");window.open("https://formsubmit.co/el/vayone?subject="+encodeURIComponent("BANDOVERA — richiesta supporto: "+current.title)+"&message="+encodeURIComponent(details),"_blank","noopener")};render();refresh()})();
-</script><script id="bandovera-ui-fix">(()=>{const bandiBadge=document.getElementById('updatedBadge');if(bandiBadge)bandiBadge.style.display='none';const appBadge=document.getElementById('appUpdatedBadge');if(appBadge){appBadge.style.fontSize='14px';appBadge.style.fontWeight='750';appBadge.style.padding='10px 13px'}const copyright=document.querySelector('.product-footer .copyright');if(copyright)copyright.innerHTML='© <b>BANDOVERA</b> 2025–'+new Date().getFullYear()+' — Tutti i diritti sono riservati';const privacy=document.querySelector('.product-footer [data-legal="privacy"]');if(privacy)privacy.textContent='Privacy';const policy=document.querySelector('.product-footer [data-legal="policy"]');if(policy)policy.textContent='Policy';const links=document.querySelector('.product-footer .legal-links');if(links&&!links.querySelector('[data-legal="cookie"]')){const cookie=document.createElement('button');cookie.type='button';cookie.className='btn ghost';cookie.dataset.legal='cookie';cookie.style.cssText='padding:6px 10px';cookie.textContent='Cookie Policy';links.appendChild(cookie);cookie.onclick=()=>{const modal=document.getElementById('legalModal');const title=document.getElementById('legalTitle');const body=document.getElementById('legalBody');if(title)title.textContent='Cookie Policy';if(body)body.innerHTML='<p><b>Cookie Policy BANDOVERA</b></p><p>BANDOVERA utilizza esclusivamente dati tecnici e memorie locali necessari al funzionamento del servizio, alla gestione della licenza e al salvataggio delle preferenze dell\'utente.</p><p>Non vengono utilizzati cookie pubblicitari o di profilazione.</p>';if(modal)modal.classList.remove('hidden')}}})()</script></body></html>
+</script><script id="bandovera-ui-fix">(()=>{const bandiBadge=document.getElementById('updatedBadge');if(bandiBadge)bandiBadge.style.display='none';const appBadge=document.getElementById('appUpdatedBadge');if(appBadge){appBadge.style.fontSize='14px';appBadge.style.fontWeight='750';appBadge.style.padding='10px 13px'}const copyright=document.querySelector('.product-footer .copyright');if(copyright)copyright.innerHTML='© <b>BANDOVERA</b> 2025–'+new Date().getFullYear()+' — Tutti i diritti sono riservati';const privacy=document.querySelector('.product-footer [data-legal="privacy"]');if(privacy)privacy.textContent='Privacy';const policy=document.querySelector('.product-footer [data-legal="policy"]');if(policy)policy.textContent='Policy';const links=document.querySelector('.product-footer .legal-links');if(links&&!links.querySelector('[data-legal="cookie"]')){const cookie=document.createElement('button');cookie.type='button';cookie.className='btn ghost';cookie.dataset.legal='cookie';cookie.style.cssText='padding:6px 10px';cookie.textContent='Cookie Policy';links.appendChild(cookie);cookie.onclick=()=>{const modal=document.getElementById('legalModal');const title=document.getElementById('legalTitle');const body=document.getElementById('legalBody');if(title)title.textContent='Cookie Policy';if(body)body.innerHTML='<p><b>Cookie Policy BANDOVERA</b></p><p>BANDOVERA utilizza esclusivamente dati tecnici e memorie locali necessari al funzionamento del servizio, alla gestione della licenza e al salvataggio delle preferenze dell\'utente.</p><p>Non vengono utilizzati cookie pubblicitari o di profilazione.</p>';if(modal)modal.classList.remove('hidden')}}})()</script>
+<script id="bandovera-assistenza-permanente">
+(()=>{
+  "use strict";
+
+  const EMAIL_DEST="presidente@unrespirodisperanzalombardia.com";
+
+  function decodeProfile(){
+    try{
+      const raw=new URLSearchParams(location.search).get("p");
+      if(!raw)return {};
+      const c=raw.trim().replace(/\s+/g,"");
+      const b=(c+"=".repeat((4-c.length%4)%4)).replace(/-/g,"+").replace(/_/g,"/");
+      const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));
+      return JSON.parse(new TextDecoder().decode(bytes))||{};
+    }catch(e){
+      return {};
+    }
+  }
+
+  const profile=decodeProfile();
+
+  function makeInput(name,type,placeholder,required=false){
+    const el=document.createElement("input");
+    el.name=name;
+    el.type=type;
+    el.placeholder=placeholder;
+    if(required)el.required=true;
+    el.style.cssText="box-sizing:border-box;width:100%;margin:5px 0;padding:11px;border-radius:9px;border:1px solid #2a4a61;background:#091728;color:#edf5ff";
+    return el;
+  }
+
+  function closeModal(modal){
+    modal.classList.add("hidden");
+  }
+
+  async function sendFormSubmit(form,msg){
+    const email=form.querySelector('input[type="email"]');
+    if(email){
+      email.setCustomValidity("");
+      if(!email.checkValidity()){
+        email.setCustomValidity("Controlla se hai scritto correttamente la mail.");
+      }
+    }
+    if(!form.reportValidity())return false;
+
+    msg.innerHTML='<div class="msg" style="background:rgba(20,63,82,.7);border:1px solid rgba(103,185,255,.35);color:#cfeeff">Invio in corso…</div>';
+
+    try{
+      const data=new FormData(form);
+      if(email){
+        data.set("email",email.value.trim());
+        data.set("_replyto",email.value.trim());
+      }
+      data.set("_captcha","false");
+
+      const response=await fetch("https://formsubmit.co/ajax/"+EMAIL_DEST,{
+        method:"POST",
+        body:data,
+        headers:{Accept:"application/json"}
+      });
+
+      const result=await response.json().catch(()=>({}));
+      if(!response.ok || result.success===false || result.success==="false"){
+        throw new Error(result.message||"Invio non riuscito");
+      }
+
+      msg.innerHTML='<div class="msg ok"><b>Richiesta inviata correttamente.</b> Ti ricontatteremo appena possibile.</div>';
+      return true;
+    }catch(err){
+      console.error("BANDOVERA assistenza",err);
+      msg.innerHTML='<div class="msg err"><b>Invio non riuscito.</b> Riprova tra poco.</div>';
+      return false;
+    }
+  }
+
+  /* ASSISTENZA DISSERVIZIO: pulsante permanente sotto la licenza */
+  const licenseBox=document.querySelector(".license");
+  if(licenseBox && !document.getElementById("assistDisservizio")){
+    const btn=document.createElement("button");
+    btn.type="button";
+    btn.id="assistDisservizio";
+    btn.className="btn ghost";
+    btn.textContent="Richiedi assistenza disservizio";
+    btn.style.cssText="width:100%;margin-top:10px";
+    licenseBox.insertAdjacentElement("afterend",btn);
+
+    const modal=document.createElement("div");
+    modal.id="assistDisservizioModal";
+    modal.className="modal-wrap hidden";
+    modal.innerHTML=`
+      <div class="card modal">
+        <h2 style="margin-top:0">Richiedi assistenza disservizio</h2>
+        <div class="small">Segnala un problema tecnico o di funzionamento di BANDOVERA.</div>
+        <form id="assistDisservizioForm" class="form" style="margin-top:14px">
+          <input type="hidden" name="_subject" value="BANDOVERA — richiesta assistenza disservizio">
+          <input type="hidden" name="Organizzazione" value="">
+          <input type="hidden" name="Licenza" value="">
+          <input name="Nome referente" required placeholder="Nome referente *">
+          <input name="Email" type="email" required placeholder="Email *">
+          <input name="Telefono" placeholder="Telefono">
+          <textarea name="Messaggio" required rows="4" placeholder="Descrivi il problema riscontrato *"></textarea>
+          <div id="assistDisservizioMsg"></div>
+          <div style="display:flex;gap:8px;margin-top:2px">
+            <button class="btn primary" type="submit">Invia richiesta</button>
+            <button class="btn ghost" type="button" id="assistDisservizioClose">Annulla</button>
+          </div>
+        </form>
+      </div>`;
+
+    document.body.appendChild(modal);
+
+    const form=modal.querySelector("#assistDisservizioForm");
+    form.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
+    form.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
+
+    btn.onclick=()=>modal.classList.remove("hidden");
+    modal.querySelector("#assistDisservizioClose").onclick=()=>closeModal(modal);
+    modal.onclick=e=>{if(e.target===modal)closeModal(modal)};
+
+    form.addEventListener("submit",async e=>{
+      e.preventDefault();
+      const ok=await sendFormSubmit(form,modal.querySelector("#assistDisservizioMsg"));
+      if(ok){
+        setTimeout(()=>{
+          form.reset();
+          form.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
+          form.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
+          closeModal(modal);
+          modal.querySelector("#assistDisservizioMsg").innerHTML="";
+        },1800);
+      }
+    });
+  }
+
+  /* SUPPORTO CANDIDATURA: mantiene il pulsante esistente ma invia senza aprire pagine esterne */
+  const supportSend=document.getElementById("send");
+  const supportModal=document.getElementById("contact");
+  if(supportSend && supportModal){
+    supportSend.onclick=async()=>{
+      const name=document.getElementById("cName")?.value.trim()||"";
+      const email=document.getElementById("cEmail")?.value.trim()||"";
+      const phone=document.getElementById("cPhone")?.value.trim()||"";
+      const message=document.getElementById("cMessage")?.value.trim()||"Richiesta di supporto";
+      const bando=document.getElementById("contactBando")?.textContent.trim()||"";
+
+      const msg=document.getElementById("contactMsg");
+      if(!name || !email){
+        msg.innerHTML='<div class="msg err">Inserisci nome ed email.</div>';
+        return;
+      }
+
+      const temp=document.createElement("form");
+      temp.innerHTML=`
+        <input name="_subject">
+        <input name="Organizzazione">
+        <input name="Licenza">
+        <input name="Nome referente">
+        <input name="Email" type="email">
+        <input name="Telefono">
+        <input name="Bando">
+        <textarea name="Messaggio"></textarea>`;
+
+      temp.querySelector('[name="_subject"]').value="BANDOVERA — richiesta supporto: "+bando;
+      temp.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
+      temp.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
+      temp.querySelector('[name="Nome referente"]').value=name;
+      temp.querySelector('[name="Email"]').value=email;
+      temp.querySelector('[name="Telefono"]').value=phone;
+      temp.querySelector('[name="Bando"]').value=bando;
+      temp.querySelector('[name="Messaggio"]').value=message;
+
+      const ok=await sendFormSubmit(temp,msg);
+      if(ok){
+        setTimeout(()=>{
+          ["cName","cEmail","cPhone","cMessage"].forEach(id=>{
+            const el=document.getElementById(id);
+            if(el)el.value="";
+          });
+          closeModal(supportModal);
+          msg.innerHTML="";
+        },1800);
+      }
+    };
+  }
+})();
+</script>
+
+</body></html>
