@@ -168,6 +168,14 @@ function days(s){if(!s)return Infinity;return Math.ceil((new Date(s+"T23:59:59")
         return;
       }
 
+      const emailCheck=document.createElement("input");
+      emailCheck.type="email";
+      emailCheck.value=email;
+      if(!emailCheck.checkValidity()){
+        msg.innerHTML='<div class="msg err">Controlla se hai scritto correttamente la mail.</div>';
+        return;
+      }
+
       const temp=document.createElement("form");
       temp.innerHTML=`
         <input name="_subject">
