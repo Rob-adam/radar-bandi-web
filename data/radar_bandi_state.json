@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-23T13:41:30+02:00",
+  "catalogUpdatedAt": "2026-09-23T19:05:06+02:00",
   "regionsEnabled": [
     "lombardia",
     "emilia-romagna",
@@ -1080,7 +1080,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1220,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1358,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -2521,8 +2521,8 @@
       "version": 1,
       "firstSeenAt": "2026-09-03T08:35:08+02:00",
       "lastChangedAt": "2026-09-03T08:35:08+02:00",
-      "present": false,
-      "missingSince": "2026-09-03T20:32:12+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "title",
         "source",
@@ -2645,9 +2645,10 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-03T14:35:19+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-09-23T19:04:56+02:00"
     },
     "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-investimenti-irrigui-srd02-azione-c-bando-2026": {
       "id": "PIE-AUTO-EBDB37A47A02",
@@ -4056,11 +4057,11 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-22T07:00:35+02:00",
-      "present": false,
-      "missingSince": "2026-09-22T13:42:44+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -4158,7 +4159,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-22T07:00:35+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -4395,9 +4396,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4499,7 +4500,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -4507,10 +4508,10 @@
       "id": "RLL12026054464",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
-      "contentHash": "e734ba21e44a51518ecde44c9428ad1c5097a12b956257e6b6fe371ae8b46539",
-      "version": 60,
+      "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
+      "version": 62,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4590,7 +4591,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
-        "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Aperto AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Il progetto “Futura – Lo spettacolo in Lombardia” (precedentemente denominato “Next – Laboratorio delle idee per la produzione e programmazione dello spettacolo lombardo – Annualità 2026 e 2027”) è promosso da Regione Lombardia – D.G. Cultura, con la collaborazione di AGIS Lombarda in qualità di ente attuatore, al fine di incentivare la produzione e la distribuzione di spettacoli e sostenere la programmazione delle sedi di spettacolo sul territorio. Il presente Bando si occupa della linea D.Sostegno alla circuitazione regionale e internazionale delle compagnie di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo e multidisciplinare. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “Futura – Lo spettacolo in Lombardia”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale. I requisiti generali per la linea D sono i seguenti: essere organismi di produzione professionali legalmente costituiti (atto costitutivo e statuto) ed essere in possesso di Partita IVA; avere sede legale in Lombardia; essere in possesso di agibilità INPS in corso di validità e con titolarità dei permessi SIAE; essere in regola con le contribuzioni fiscali e previdenziali e ottemperare gli obblighi dei CCNL; non avere previsione di finalità di lucro oppure avere l’obbligo di reinvestire gli utili nell’attività, come previsto nello statuto o nell’atto costitutivo; svolgere attività continuativa di produzione nel settore di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo o multidisciplinare, da almeno 2 anni; aver prodotto almeno uno spettacolo presente nel catalogo di Next edizione 2022/2023, edizione 2023/2024, edizione 2024/2025 o edizione 2025/2026 (consultabile sulla piattaforma nextlaboratoriodelleidee.it). Sono inoltre previsti specifici requisiti ed esclusioni a seconda dell’ambito di sostegno. Di cosa si tratta Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “ Futura – Lo spettacolo in Lombardia ”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale . Si intende, da un lato, incentivare la fruizione e la partecipazione delle comunità locali e favorire la promozione di territori svantaggiati sul versante dell’offerta culturale in Lombardia e, dall’altro, supportare il processo di internazionalizzazione dei soggetti professionali di spettacolo. Il c o n tri bu t o v errà a t tri bu ito c o n p r o c ed u ra a s p o r t ell o con valutazione , fi n o a esaur i m e n to d elle ri s o rse d is p o n i b ili. Quando Sono previste due fasi di apertura dello sportello relativo al sostegno della circuitazione internazionale degli spettacoli: prima fase di apertura a p artire d al 30 giugno 2026 o r e 10 . 0 0 ed entro il 30 luglio 2026 ore 16.30 ; nella seconda fase di apertura a p artire d al 15 settembre 2026 o r e 10 . 0 0 ed entro il 21 ottobre 2026 ore 16.30 . In coincidenza con l’apertura sarà comunicata la disponibilità di risorse a disposizione, detratti gli importi dei contributi già assegnati nella prima fase di apertura. In entrambe le fasi di apertura possono presentare domanda di contributo tutti i soggetti in possesso dei requisiti previsti. Dotazione finanziaria € 390.000 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL BURL Serie Ordinaria n. 26 del 22 giugno 2026 Come partecipare L a do m a nd a d i p artecipa z i o n e al b a nd o do v rà e s sere p res e n tata, p ena la n o n a m m issi b ilità, d al So gg e t t o ric h ie d ente obb l i g a t o ri a me n te i n f o r ma tel e mati ca , p er m ez z o d ella p iattaf o r m a Ba nd i e Servizi . Procedura selezione Il contributo verrà attribuito con procedura a sportello con valutazione, fino a esaurimento delle risorse disponibili. Informazioni e contatti Per informazioni riferite al bando: Direzione Generale Cultura – Struttura Attività Performative Multidisciplinari, Cinema ed Eventi e-mail: spettacoloedeventi@regione.lombardia.it Per progetti di Teatro : Martina Bolognini tel. 02 6765.4823 Luigi Gargiulo tel. 02.6765.5914 Marianna Cairo tel. 02 6765.2843 Per progetti di Danza, Multidisciplinare e Circo contemporaneo : Elisa Piria tel. 02 6765.3362 Barbara Rosenberg tel. 02 6765.6312 Antonella Gradellini tel.02 6765.0710 Per informazioni sulla procedura on line : N° verde 800.131.151 e-mail: bandi@regione.lombardia.it Allegati Bando | decreto n. 8070 del 18 giugno 2026 - 22/06/2026 Delibera 9 marzo 2026 n. 5824 - 09/03/2026 Primo provvedimento esiti - D.d.s. 31/07/2026, n. 10444 - 31/07/2026 Scheda progetto - circuitazione regionale - 18/06/2026 Scheda progetto - circuitazione internazionale - 18/06/2026 Scheda budget - circuitazione regionale - 18/06/2026 Scheda budget - circuitazione internazionale - 18/06/2026 Scheda di circuitazione regionale - 18/06/2026 Scheda di circuitazione internazionale - 18/06/2026 Dichiarazione Statuto - 18/06/2026 Dichiarazione IVA e ritenuta - 18/06/2026 Dichiarazione bilancio - 18/06/2026 Mostra altri Comunicazioni correlate 31/07/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Primo provvedimento esiti Con d.d.s. 31/07/2026, n. 10444, è stato approvato il primo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Futu... Vedi dettaglio"
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Aperto AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Il progetto “Futura – Lo spettacolo in Lombardia” (precedentemente denominato “Next – Laboratorio delle idee per la produzione e programmazione dello spettacolo lombardo – Annualità 2026 e 2027”) è promosso da Regione Lombardia – D.G. Cultura, con la collaborazione di AGIS Lombarda in qualità di ente attuatore, al fine di incentivare la produzione e la distribuzione di spettacoli e sostenere la programmazione delle sedi di spettacolo sul territorio. Il presente Bando si occupa della linea D.Sostegno alla circuitazione regionale e internazionale delle compagnie di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo e multidisciplinare. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “Futura – Lo spettacolo in Lombardia”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale. I requisiti generali per la linea D sono i seguenti: essere organismi di produzione professionali legalmente costituiti (atto costitutivo e statuto) ed essere in possesso di Partita IVA; avere sede legale in Lombardia; essere in possesso di agibilità INPS in corso di validità e con titolarità dei permessi SIAE; essere in regola con le contribuzioni fiscali e previdenziali e ottemperare gli obblighi dei CCNL; non avere previsione di finalità di lucro oppure avere l’obbligo di reinvestire gli utili nell’attività, come previsto nello statuto o nell’atto costitutivo; svolgere attività continuativa di produzione nel settore di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo o multidisciplinare, da almeno 2 anni; aver prodotto almeno uno spettacolo presente nel catalogo di Next edizione 2022/2023, edizione 2023/2024, edizione 2024/2025 o edizione 2025/2026 (consultabile sulla piattaforma nextlaboratoriodelleidee.it). Sono inoltre previsti specifici requisiti ed esclusioni a seconda dell’ambito di sostegno. Di cosa si tratta Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “ Futura – Lo spettacolo in Lombardia ”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale . Si intende, da un lato, incentivare la fruizione e la partecipazione delle comunità locali e favorire la promozione di territori svantaggiati sul versante dell’offerta culturale in Lombardia e, dall’altro, supportare il processo di internazionalizzazione dei soggetti professionali di spettacolo. Il c o n tri bu t o v errà a t tri bu ito c o n p r o c ed u ra a s p o r t ell o con valutazione , fi n o a esaur i m e n to d elle ri s o rse d is p o n i b ili. Quando Sono previste due fasi di apertura dello sportello relativo al sostegno della circuitazione internazionale degli spettacoli: prima fase di apertura a p artire d al 30 giugno 2026 o r e 10 . 0 0 ed entro il 30 luglio 2026 ore 16.30 ; nella seconda fase di apertura a p artire d al 15 settembre 2026 o r e 10 . 0 0 ed entro il 21 ottobre 2026 ore 16.30 . In coincidenza con l’apertura sarà comunicata la disponibilità di risorse a disposizione, detratti gli importi dei contributi già assegnati nella prima fase di apertura. In entrambe le fasi di apertura possono presentare domanda di contributo tutti i soggetti in possesso dei requisiti previsti. Dotazione finanziaria € 390.000 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL BURL Serie Ordinaria n. 26 del 22 giugno 2026 Come partecipare L a do m a nd a d i p artecipa z i o n e al b a nd o do v rà e s sere p res e n tata, p ena la n o n a m m issi b ilità, d al So gg e t t o ric h ie d ente obb l i g a t o ri a me n te i n f o r ma tel e mati ca , p er m ez z o d ella p iattaf o r m a Ba nd i e Servizi . Procedura selezione Il contributo verrà attribuito con procedura a sportello con valutazione, fino a esaurimento delle risorse disponibili. Informazioni e contatti Per informazioni riferite al bando: Direzione Generale Cultura – Struttura Attività Performative Multidisciplinari, Cinema ed Eventi e-mail: spettacoloedeventi@regione.lombardia.it Per progetti di Teatro : Martina Bolognini tel. 02 6765.4823 Luigi Gargiulo tel. 02.6765.5914 Marianna Cairo tel. 02 6765.2843 Per progetti di Danza, Multidisciplinare e Circo contemporaneo : Elisa Piria tel. 02 6765.3362 Barbara Rosenberg tel. 02 6765.6312 Antonella Gradellini tel.02 6765.0710 Per informazioni sulla procedura on line : N° verde 800.131.151 e-mail: bandi@regione.lombardia.it Allegati Bando | decreto n. 8070 del 18 giugno 2026 - 22/06/2026 Delibera 9 marzo 2026 n. 5824 - 09/03/2026 Primo provvedimento esiti - D.d.s. 31/07/2026, n. 10444 - 31/07/2026 Secondo provvedimento esiti con allegati - D.d.s. n. 12373 del 23.09.26 - 23/09/2026 Scheda progetto - circuitazione regionale - 18/06/2026 Scheda progetto - circuitazione internazionale - 18/06/2026 Scheda budget - circuitazione regionale - 18/06/2026 Scheda budget - circuitazione internazionale - 18/06/2026 Scheda di circuitazione regionale - 18/06/2026 Scheda di circuitazione internazionale - 18/06/2026 Dichiarazione Statuto - 18/06/2026 Dichiarazione IVA e ritenuta - 18/06/2026 Dichiarazione bilancio - 18/06/2026 Mostra altri Comunicazioni correlate 23/09/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Secondo provvedimento esiti Con d.d.s. 23/09/2026, n. 12373, è stato approvato il secondo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Fu... Vedi dettaglio 31/07/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Primo provvedimento esiti Con d.d.s. 31/07/2026, n. 10444, è stato approvato il primo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Futu... Vedi dettaglio"
       },
       "triage": {
         "status": "ai-required",
@@ -4616,7 +4617,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -4625,9 +4626,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 60,
+      "version": 62,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4729,7 +4730,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -4858,8 +4859,8 @@
       "version": 46,
       "firstSeenAt": "2026-09-17T14:34:37+02:00",
       "lastChangedAt": "2026-09-23T13:41:30+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-23T19:04:56+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -5080,9 +5081,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5186,7 +5187,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -5195,9 +5196,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5304,7 +5305,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -5421,7 +5422,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     },
@@ -5429,10 +5430,10 @@
       "id": "FC-AUTO-ED155B6967E0",
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
-      "contentHash": "bfa3390cf8d55567abacddb72ac200319f62e7ccd9482c70787754260ade95ed",
-      "version": 2,
+      "contentHash": "d6f357d20273842c57aa5ea41f0694f1a042ce0799a8308c23a2110a4d89c77d",
+      "version": 4,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-23T13:41:30+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5463,20 +5464,20 @@
           "accesso",
           "risorse",
           "benessere",
+          "progettazione",
+          "valorizzazione",
+          "dati",
+          "carcere",
+          "comunità",
+          "rete",
           "giovani",
           "generazioni",
           "cittadinanza",
           "attiva",
-          "progettazione",
           "innovazione",
           "patrimonio",
           "culturale",
-          "ambientale",
-          "produrre",
-          "conoscenza",
-          "musei",
-          "accessibilità",
-          "universale"
+          "ambientale"
         ],
         "sectors": [
           "anita",
@@ -5485,8 +5486,8 @@
           "accesso",
           "risorse",
           "benessere",
-          "giovani",
-          "generazioni"
+          "progettazione",
+          "valorizzazione"
         ],
         "beneficiaries": [],
         "activities": [],
@@ -5540,17 +5541,124 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T13:41:30+02:00"
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete": {
+      "id": "FC-AUTO-2374B2828A88",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
+      "contentHash": "d58f30cd9dfb449e62e1ac637eb1e8d2a83baff8cae272dc835e5de4cde74b08",
+      "version": 2,
+      "firstSeenAt": "2026-09-23T19:04:56+02:00",
+      "lastChangedAt": "2026-09-23T19:05:06+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Carcere e comunità in rete",
+        "source": "Fondazione Cariplo",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Fondazione Cariplo",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "carcere",
+          "comunità",
+          "rete",
+          "accesso",
+          "risorse",
+          "benessere",
+          "progettazione",
+          "valorizzazione",
+          "dati"
+        ],
+        "sectors": [
+          "carcere",
+          "comunità",
+          "rete",
+          "accesso",
+          "risorse",
+          "benessere",
+          "progettazione",
+          "valorizzazione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
+        "sourceStatus": "aperto",
+        "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 500.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi è spesso limitata dalla frammentazione delle risposte, dalla difficoltà di coordinamento tra i diversi soggetti coinvolti e dalla difficile integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con il supporto metodologico dell’Associazione Antigone. I report interattivi sono disponibili ai seguenti link: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-23T19:05:07+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-23T13:41:30+02:00",
+  "triageUpdatedAt": "2026-09-23T19:05:07+02:00",
   "triageSummary": {
-    "rulesResolved": 7,
+    "rulesResolved": 9,
     "rulesExcludedForEts": 0,
     "aiRequired": 5,
-    "notPresent": 35,
+    "notPresent": 34,
     "ruleVersion": 3
   }
 }
