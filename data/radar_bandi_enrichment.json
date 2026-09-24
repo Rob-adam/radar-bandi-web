@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-23T23:32:16+02:00",
-  "attempted": 8,
-  "enriched": 8,
+  "generatedAt": "2026-09-24T06:55:28+02:00",
+  "attempted": 7,
+  "enriched": 7,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -61,16 +61,6 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731"
-    },
-    {
-      "key": "url:https://www.fondazionecariplo.it/bando/anita-reti-mille",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "deadline",
-        "sourceStatus"
-      ],
-      "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     },
     {
       "key": "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete",
