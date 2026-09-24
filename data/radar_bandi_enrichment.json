@@ -1,11 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T06:55:28+02:00",
-  "attempted": 7,
-  "enriched": 7,
+  "generatedAt": "2026-09-24T13:50:04+02:00",
+  "attempted": 9,
+  "enriched": 9,
   "unchanged": 0,
   "failed": 0,
   "items": [
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/avviso-l-adesione-comuni-lombardi-misura-nidi-gratis-plus-2026-2027-RLD12026052603"
+    },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "ok": true,
@@ -23,16 +32,6 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText",
-        "sourceStatus"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
@@ -54,6 +53,14 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464"
     },
     {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-occasione-giornata-regionale-memoria-dellimpegno-ricordo-vittime-mafie",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-occasione-giornata-regionale-memoria-dellimpegno-ricordo-vittime-mafie"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "ok": true,
       "changed": [
@@ -61,6 +68,16 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731"
+    },
+    {
+      "key": "url:https://www.fondazionecariplo.it/bando/anita-reti-mille",
+      "ok": true,
+      "changed": [
+        "discoveryText",
+        "deadline",
+        "sourceStatus"
+      ],
+      "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     },
     {
       "key": "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete",
