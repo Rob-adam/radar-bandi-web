@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T13:50:04+02:00",
-  "attempted": 9,
-  "enriched": 9,
+  "generatedAt": "2026-09-24T19:14:26+02:00",
+  "attempted": 8,
+  "enriched": 8,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -51,14 +51,6 @@
         "deadline"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-occasione-giornata-regionale-memoria-dellimpegno-ricordo-vittime-mafie",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-occasione-giornata-regionale-memoria-dellimpegno-ricordo-vittime-mafie"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
