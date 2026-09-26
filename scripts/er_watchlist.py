@@ -17,6 +17,10 @@ HEADERS = {"User-Agent": "BANDOVERA/1.4 (+monitoraggio bandi pubblici)"}
 WATCH = [
     {
         "source": "Regione Emilia-Romagna · Sociale",
+        "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-progetti-di-rilevanza-locale-2026-2027",
+    },
+    {
+        "source": "Regione Emilia-Romagna · Sociale",
         "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/avviso-pubblico-per-lindividuazione-e-il-coinvolgimento-di-enti-del-terzo-settore-disponibili-alla-co-progettazione-nellambito-del-piano-una-giustizia-piu-inclusiva-attuazione-modelli-di-intervento-per-linclusione-attiva-dei-soggetti-in-uscita-ed-es",
     },
     {
