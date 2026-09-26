@@ -14,6 +14,13 @@ PUBLIC = ROOT / "public"
 OUT = PUBLIC / "radar_bandi_auto.json"
 ITALY_TZ = ZoneInfo("Europe/Rome")
 
+REGION_SLUGS = [
+    "abruzzo", "basilicata", "calabria", "campania", "emilia-romagna",
+    "friuli-venezia-giulia", "lazio", "liguria", "lombardia", "marche",
+    "molise", "piemonte", "puglia", "sardegna", "sicilia", "toscana",
+    "trentino-alto-adige", "umbria", "valle-d-aosta", "veneto",
+]
+
 SOURCES = [
     {
         "name": "Regione Lombardia",
@@ -51,6 +58,26 @@ SOURCES = [
         "url": "https://bandi.regione.piemonte.it/",
         "kind": "piemonte",
     },
+
+    # Portali ufficiali regionali: parser generico conservativo.
+    {"name": "Regione Abruzzo · Bandi", "region": "abruzzo", "url": "https://www.regione.abruzzo.it/content/bandi-gare-e-concorsi", "kind": "generic-region"},
+    {"name": "Regione Basilicata · Bandi", "region": "basilicata", "url": "https://portalebandi.regione.basilicata.it/PortaleBandi/", "kind": "generic-region"},
+    {"name": "Regione Calabria · Bandi", "region": "calabria", "url": "https://calabriaeuropa.regione.calabria.it/bandi/", "kind": "generic-region"},
+    {"name": "Regione Campania · Bandi", "region": "campania", "url": "https://www.regione.campania.it/regione/it/tematiche/magazine-bandi-e-gare", "kind": "generic-region"},
+    {"name": "Regione Friuli-Venezia Giulia · Bandi", "region": "friuli-venezia-giulia", "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/bandi-avvisi/", "kind": "generic-region"},
+    {"name": "Regione Lazio · Bandi", "region": "lazio", "url": "https://www.regione.lazio.it/bandi", "kind": "generic-region"},
+    {"name": "Regione Liguria · Bandi", "region": "liguria", "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi.html", "kind": "generic-region"},
+    {"name": "Regione Marche · Bandi", "region": "marche", "url": "https://www.regione.marche.it/Entra-in-Regione/Bandi-e-Opportunita", "kind": "generic-region"},
+    {"name": "Regione Molise · Bandi", "region": "molise", "url": "https://www.regione.molise.it/", "kind": "generic-region"},
+    {"name": "Regione Puglia · Bandi", "region": "puglia", "url": "https://www.regione.puglia.it/bandi-e-avvisi", "kind": "generic-region"},
+    {"name": "Regione Sardegna · Bandi", "region": "sardegna", "url": "https://www.regione.sardegna.it/atti-bandi-archivi/atti-amministrativi/bandi", "kind": "generic-region"},
+    {"name": "Regione Sicilia · Bandi", "region": "sicilia", "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi", "kind": "generic-region"},
+    {"name": "Regione Toscana · Bandi", "region": "toscana", "url": "https://www.regione.toscana.it/bandi-aperti", "kind": "generic-region"},
+    {"name": "Regione Trentino-Alto Adige · Bandi", "region": "trentino-alto-adige", "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti", "kind": "generic-region"},
+    {"name": "Regione Umbria · Bandi", "region": "umbria", "url": "https://www.regione.umbria.it/bandi", "kind": "generic-region"},
+    {"name": "Regione Valle d'Aosta · Bandi", "region": "valle-d-aosta", "url": "https://www.regione.vda.it/amministrazione/bandi/default_i.asp", "kind": "generic-region"},
+    {"name": "Regione Veneto · Bandi", "region": "veneto", "url": "https://bandi.regione.veneto.it/Public/Elenco", "kind": "generic-region"},
+
     {
         "name": "Fondazione Cariplo",
         "region": "sovraregionale",
@@ -82,6 +109,23 @@ ER_SIGNALS = (
     "bando", "avviso", "contribut", "finanzi", "manifestazione di interesse",
     "presentazione di progetti", "presentazione progetti", "domande", "candidatur",
     "programmato", "apertura", "scadenza",
+)
+
+GENERIC_ETS_SIGNALS = (
+    "terzo settore", "enti del terzo settore", "organizzazioni di volontariato",
+    "organizzazione di volontariato", "associazioni di promozione sociale",
+    "associazione di promozione sociale", "odv", "aps", "non profit",
+    "senza scopo di lucro", "associazioni", "fondazioni", "ets",
+)
+
+GENERIC_CLOSED_SIGNALS = (
+    "bando chiuso", "avviso chiuso", "bando scaduto", "termini scaduti",
+    "domande chiuse", "procedura conclusa", "procedimento concluso",
+)
+
+GENERIC_BAD_PATH_PARTS = (
+    "/archivio", "/conclus", "/graduator", "/esiti", "/normativa",
+    "/document", "/modulistica", "/faq",
 )
 
 
@@ -243,6 +287,61 @@ def emilia_romagna_items(html, base, source_name):
     return out
 
 
+
+def generic_region_items(html, base, source_name, territory):
+    """Parser prudente per i portali regionali senza parser dedicato.
+
+    Accetta solo schede che, nel testo visibile della pagina elenco, mostrano
+    contemporaneamente segnali di bando e segnali ETS/non profit. In questo modo
+    allarghiamo la copertura senza riempire il catalogo di gare o avvisi irrilevanti.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    out = []
+    seen = set()
+    base_host = (urlparse(base).hostname or "").lower()
+
+    for a in soup.find_all("a", href=True):
+        href = a.get("href", "")
+        url = urljoin(base, href)
+        p = urlparse(url)
+        host = (p.hostname or "").lower()
+        if not host:
+            continue
+        if base_host and host != base_host and not host.endswith("." + base_host):
+            continue
+
+        path = p.path.lower()
+        if url.rstrip("/") == base.rstrip("/"):
+            continue
+        if any(part in path for part in GENERIC_BAD_PATH_PARTS):
+            continue
+        if re.search(r"\.(pdf|doc|docx|xls|xlsx|zip|jpg|jpeg|png)(?:$|\?)", path):
+            continue
+
+        title = useful_title(a)
+        if len(title) < 10:
+            continue
+        block = nearby_text(a)
+        combined = clean(f"{title} {block}").lower()
+
+        if not any(signal in combined for signal in ER_SIGNALS):
+            continue
+        if not any(signal in combined for signal in GENERIC_ETS_SIGNALS):
+            continue
+        if any(signal in combined for signal in GENERIC_CLOSED_SIGNALS):
+            continue
+
+        rec_id = slug_id("REG-AUTO", url, title)
+        if rec_id in seen:
+            continue
+        seen.add(rec_id)
+
+        rec = make_record(rec_id, title, source_name, url, block, territory)
+        rec["sourceStatus"] = "da-verificare"
+        out.append(rec)
+
+    return out
+
 def piemonte_title(a):
     title = clean(a.get_text(" ", strip=True))
     title = re.sub(r"^Per saperne di più su\s*", "", title, flags=re.I)
@@ -396,6 +495,8 @@ def main():
                 found.extend(emilia_romagna_items(r.text, src["url"], src["name"]))
             elif src["kind"] == "piemonte":
                 found.extend(piemonte_items(r.text, src["url"], src["name"]))
+            elif src["kind"] == "generic-region":
+                found.extend(generic_region_items(r.text, src["url"], src["name"], src["region"]))
             elif src["kind"] == "cariplo":
                 found.extend(cariplo_items(r.text, src["url"]))
             source_stats.append({"source": src["name"], "region": src["region"], "found": len(found) - count_before, "ok": True})
@@ -417,9 +518,9 @@ def main():
 
     payload = {
         "updatedAt": datetime.now(ITALY_TZ).strftime("%d/%m/%Y %H:%M"),
-        "schemaVersion": 6,
+        "schemaVersion": 7,
         "automatic": True,
-        "regionsEnabled": ["lombardia", "emilia-romagna", "piemonte"],
+        "regionsEnabled": REGION_SLUGS,
         "sourcesChecked": [s["name"] for s in SOURCES],
         "sourceStats": source_stats,
         "bandiByRegion": by_region,
