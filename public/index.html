@@ -84,6 +84,18 @@ const MISSION_GATES=[
  {label:"musei e patrimonio culturale",b:["musei","patrimonio culturale","biblioteche"],p:["musei","patrimonio culturale","biblioteche"]},
  {label:"sport",b:["progetti sportivi","attivita sportiva","associazioni sportive"],p:["sport","sportivo","attivita motoria","attivita fisica"]}
 ];
+function etsCrossCuttingScore(b){
+ const t=norm(missionText(b));
+ const profileTxt=norm((profile.type||"")+" "+(profile.runts||""));
+ const etsProfile=profileTxt.includes("odv")||profileTxt.includes("aps")||profileTxt.includes("ets")||profileTxt.includes("ente del terzo settore")||profileTxt.includes("organizzazione di volontariato")||profileTxt.includes("associazione di promozione sociale");
+ if(!etsProfile)return 0;
+ const strong=["sviluppo e trasformazione del terzo settore","rafforzamento del terzo settore","rafforzamento dell ente","innovazione organizzativa","sviluppo gestionale","digitalizzazione","rafforzamento competenze","capacity building","volontariato e territorio"];
+ const broad=["terzo settore","volontariato","reti territoriali","collaborazione tra enti","welfare di prossimita","welfare generativo","sostenibilita organizzativa"];
+ if(strong.some(x=>t.includes(norm(x))))return 78;
+ if(broad.filter(x=>t.includes(norm(x))).length>=2)return 62;
+ if(t.includes("terzo settore")||t.includes("volontariato"))return 52;
+ return 0;
+}
 function missionText(b){return [b.title,b.discoveryText,(b.beneficiaries||[]).join(" "),(b.activities||[]).join(" "),(b.purposes||[]).join(" "),(b.eligibility||[]).join(" ")].join(" ")}
 function profileMissionText(){return [profile.sector,profile.subSector,profile.areas,profile.beneficiaries,profile.statutoryPurposes,profile.activities,profile.capabilities].filter(Boolean).join(" ")}
 function missionGateWarnings(b){const bt=norm(missionText(b)),pt=norm(profileMissionText()),out=[];for(const g of MISSION_GATES){const specific=g.b.some(x=>bt.includes(norm(x)));if(!specific)continue;const aligned=g.p.some(x=>pt.includes(norm(x)));if(!aligned)out.push(g.label)}return out}
@@ -116,6 +128,8 @@ function calc(b){
  else if(ptConcepts.has("salute")&&btConcepts.has("salute"))mission=Math.max(mission,65);
 
  const thematicWarnings=missionGateWarnings(b);
+ const etsFloor=etsCrossCuttingScore(b);
+ if(!thematicWarnings.length&&etsFloor>0)mission=Math.max(mission,etsFloor);
  if(thematicWarnings.length)mission=Math.min(mission,30);
  mission=Math.max(0,Math.min(100,mission));
 
