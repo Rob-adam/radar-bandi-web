@@ -1,10 +1,27 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-26T07:02:43+02:00",
+  "catalogUpdatedAt": "2026-09-26T13:03:21+02:00",
   "regionsEnabled": [
-    "lombardia",
+    "abruzzo",
+    "basilicata",
+    "calabria",
+    "campania",
     "emilia-romagna",
-    "piemonte"
+    "friuli-venezia-giulia",
+    "lazio",
+    "liguria",
+    "lombardia",
+    "marche",
+    "molise",
+    "piemonte",
+    "puglia",
+    "sardegna",
+    "sicilia",
+    "toscana",
+    "trentino-alto-adige",
+    "umbria",
+    "valle-d-aosta",
+    "veneto"
   ],
   "records": {
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984": {
@@ -1080,7 +1097,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -1220,7 +1237,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -1358,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -1494,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -4057,9 +4074,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 72,
+      "version": 74,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4159,7 +4176,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -4396,9 +4413,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 80,
+      "version": 82,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4500,7 +4517,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -4509,9 +4526,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4617,7 +4634,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -4626,9 +4643,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4730,7 +4747,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -5081,9 +5098,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5187,7 +5204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -5196,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5305,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -5431,9 +5448,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5541,7 +5558,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -5550,9 +5567,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-26T07:02:43+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5648,7 +5665,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     },
@@ -5904,16 +5921,948 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T07:02:43+02:00"
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare": {
+      "id": "REG-AUTO-F9B793AFCAD3",
+      "source": "Regione Toscana · Bandi",
+      "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
+      "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
+        "source": "Regione Toscana · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Toscana · Bandi",
+          "toscana"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "economia",
+          "circolare",
+          "incentivi",
+          "contrasto",
+          "allo",
+          "spreco",
+          "alimentare",
+          "progetti",
+          "solidali",
+          "legati",
+          "recupero",
+          "ridistribuzione",
+          "cibo",
+          "fini",
+          "sociali",
+          "finanziati",
+          "mila",
+          "euro",
+          "favore",
+          "organizzazioni"
+        ],
+        "sectors": [
+          "economia",
+          "circolare",
+          "incentivi",
+          "contrasto",
+          "allo",
+          "spreco",
+          "alimentare",
+          "progetti"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "toscana"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: toscana",
+            "anyOf": [
+              "toscana"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Economia circolare: incentivi per il contrasto allo spreco alimentare Bando in: Ambiente | Rifiuti e bonifiche Economia circolare: incentivi per il contrasto allo spreco alimentare Progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali finanziati con 900 mila euro a favore delle Organizzazioni ETS Data di pubblicazione bando su Burt: 30.09.2026 Numero e parte del Burt: n. 39 Parte III Data di scadenza presentazione domande: 30.10.2026 14:00 Stato: Stato: Aperto Indice delle pagine Indice delle pagine Il Bando Allegati Link utili Con decreto dirigenziale 20605 del 17-09-2026 è stato approvato l’ avviso con il quale Regione Toscana mette a disposizione 900.000,00 euro (di cui 650.000 euro per spese di investimento e 250.000 euro per spese correnti) a favore delle organizzazioni ETS per finanziare progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali per la prevenzione dello spreco e delle eccedenze alimentari lungo tutta la filiera agroalimentare, distributiva e di consumo. Tanti sono gli interventi ammissibili, indicati nell’avviso a titolo esemplificativo: recupero delle eccedenze da mercati ortofrutticoli, grande distribuzione, mense scolastiche, aziendali, ospedaliere e settore alberghiero; allestimento e arredo di empori e mense solidali per la distribuzione gratuita di generi di prima necessità; creazione di HUB di quartiere , intesi come centri fisici di raccolta per le reti solidali locali; potenziamento della logistica , inclusi i sistemi di stoccaggio, trasporto e conservazione delle derrate, con l'obbligo di registrare i flussi in ingresso e in uscita. La domanda di finanziamento può essere presentata esclusivamente da un singolo ETS ma possono partecipare al progetto partner attivi sul territorio regionale. La presentazione della domanda dovrà avvenire esclusivamente per via telematica, tramite PEC , all’indirizzo PEC della “Regione Toscana” ( regionetoscana@postacert.toscana.it ) entro la scadenza, pena l’esclusione, prevista alle ore 14 del giorno 30 ottobre 2026 . Nella Documentazione in fondo a questa pagina è disponibile l’apposito modulo - allegato A del presente avviso in formato editabile (raccomandato). È ammessa una sola domanda di finanziamento per ciascun soggetto proponente. Per ogni informazione utile farà fede l’avviso. Per quesiti sui contenuti scrivere all'indirizzo e-mail: economia.circolare@regione.toscana.it Organismo emittente: Regione Toscana Allegati Allegato A domanda partecipazione spreco alimentare formato EDITABILE - Apre una nuova tab del browser Torna alle voci di esplorazione del bando Link utili Decreto 20605 del 17-09-2026 Torna alle voci di esplorazione del bando Condividi Aggiornato al: 24.09.2026 Article ID: 247238151 Preferenze dei cookie Nascosta"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "ets"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025": {
+      "id": "REG-AUTO-2D064C887B2A",
+      "source": "Regione Sicilia · Bandi",
+      "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
+      "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "deadline",
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Dipartimento della famiglia e delle politiche sociali",
+        "source": "Regione Sicilia · Bandi",
+        "deadline": "2026-10-30",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Sicilia · Bandi",
+          "sicilia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "leggi",
+          "avvisi",
+          "pubblici",
+          "avviso",
+          "pubblico",
+          "codice",
+          "terzo",
+          "settore",
+          "annualità",
+          "scade"
+        ],
+        "sectors": [
+          "leggi",
+          "avvisi",
+          "pubblici",
+          "avviso",
+          "pubblico",
+          "codice",
+          "terzo",
+          "settore"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "sicilia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: sicilia",
+            "anyOf": [
+              "sicilia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi / AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Dipartimento della famiglia e delle politiche sociali Indice Descrizione Tecnica Descrizione Bando Documenti Allegati Descrizione Tecnica Tipologia: Avvisi pubblici Struttura regionale: Dipartimento della famiglia e delle politiche sociali Oggetto: AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Data pubblicazione: 18/09/2026 Data scadenza: 30/10/2026 entro le 00:00 Descrizione bando D.D.G. n. 3176 del 17.09.2026 - Approvazione A vviso Pubblico per il finanziamento di iniziative e progetti di rilevanza regionale promossi da organizzazioni di volontariato, associazioni di promozione sociale e fondazioni del terzo settore per la realizzazione di attivita’ di interesse generale di cui all’art. 5 del codice del terzo settore – accordi di programma 2022-2024. annualità 2024 e accordo di programma 2025-2027 annualità 2025. Le istanze corredate della documentazione richiesta, devono pervenire esclusivamente mezzo PEC entro e non oltre il 30 Ottobre 2026. Ultimo aggiornamento 18/09/2026, 09:42 Condividi"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "organizzazioni di volontariato",
+            "associazioni di promozione sociale"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali": {
+      "id": "REG-AUTO-08D6D4AFECD7",
+      "source": "Regione Toscana · Bandi",
+      "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
+      "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Progetto WELT \"WE in Lavoro Toscana\", selezione di enti del Terzo settore per la co-progettazione: al via le candidature",
+        "source": "Regione Toscana · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Toscana · Bandi",
+          "toscana"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "progetto",
+          "welt",
+          "lavoro",
+          "toscana",
+          "selezione",
+          "enti",
+          "terzo",
+          "settore",
+          "progettazione",
+          "candidature"
+        ],
+        "sectors": [
+          "progetto",
+          "welt",
+          "lavoro",
+          "toscana",
+          "selezione",
+          "enti",
+          "terzo",
+          "settore"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "toscana"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: toscana",
+            "anyOf": [
+              "toscana"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Progetto WELT \"WE in Lavoro Toscana\", selezione di enti del Terzo settore per la co-progettazione: al via le candidature Bando in: Lavoro | Sociale | Europa Progetto WELT \"WE in Lavoro Toscana\", selezione di enti del Terzo settore per la co-progettazione: al via le candidature Avviso di manifestazione di interesse per l’individuazione di Enti del terzo settore (ETS), in qualità di partner di co-progettazione di Regione Toscana, tramite la presentazione di proposte progettuali, nell’ambito del progetto “WELT – WE in Lavoro Toscana”. Data di scadenza presentazione domande: 09.10.2026 Stato: Stato: Aperto Avviso di manifestazione di interesse per l'individuazione di Enti del terzo settore (ETS), in qualità di partner di co-progettazione di Regione Toscana ai sensi dell’art. 55 del decreto legislativo 117/2017 e degli articoli 11 e 13 della legge regionale 65/2020, tramite la presentazione di proposte progettuali, nell’ambito del progetto “ WELT – WE in Lavoro Toscana ” finanziato dal Ministero del Lavoro e delle politiche sociali con le risorse assegnate alla priorità 1 “Sostegno all’inclusione sociale e lotta alla povertà”, obiettivo specifico ESO4.9 “Promuovere l'integrazione socioeconomica di cittadini di paesi terzi, compresi i migranti (FSE+)” del Programma nazionale Inclusione e lotta alla povertà 2021-2027 , complementare all’azione 02 \"Valorizzazione, messa in trasparenza e sviluppo delle competenze, realizzazione individuale, socializzazione e partecipazione\", lettera h dell’ avviso multi-azione n. 1/2023, finanziato attraverso le risorse del Fondo Asilo Migrazione e Integrazione 2021-2027. Codice unico progetto D51J26000470007. Il progetto WELT mira a consolidare le azioni di accompagnamento e tutoraggio nelle fasi di avvio dei percorsi formativi e di inserimento nel mercato del lavoro, anche attraverso la sperimentazione di interventi mirati e personalizzati in funzione dei diversi target, prevedendo misure di supporto individualizzato – quali attività di orientamento specialistico, sviluppo di life skills, validazione e valorizzazione delle competenze – al fine di favorire la continuità, la qualità e l’efficacia dei percorsi . Ed inoltre a valorizzare le reti territoriali già attivate nell’ambito del progetto Fami WE IN Toscana Work, Empowerment, Inclusion Toscana , basate sulla collaborazione tra Servizi sociali dei Comuni e Centri per l’Impiego, attraverso la presa in carico integrata sociale-lavoro delle equipe multidisciplinari, ampliandone il perimetro di intervento al sistema delle imprese e al mondo del lavoro, al fine di rafforzare il collegamento tra presa in carico e percorsi di formazione e inserimento lavorativo. Capofila del progetto è Regione Toscana , in partenariato con Arti Agenzia regionale toscana per l’impiego, Anci Toscana, Comune di Firenze, Comune di Prato, Comune di Pistoia, Comune di Livorno, Comune di Capannori per la zona Piana di Lucca, Comune di Carrara, Coeso Società della Salute di Grosseto per la zona Amiata Grossetana-Colline Metallifere-Grossetana, ed un s oggetto privato da individuarsi attraverso questo avviso pubblico. Destinatari delle attività del progetto sono cittadini di Paesi terzi regolarmente soggiornanti, già coinvolti o presi in carico nell’ambito dell’Azione “02) Valorizzazione, messa in trasparenza e sviluppo delle competenze, realizzazione individuale, socializzazione e partecipazione – lett. h)”, con specifico riferimento ai beneficiari del progetto Fami WE IN Toscana Work Empowerment Inclusion Toscana , per i quali emergono fabbisogni ulteriori legati al consolidamento e alla qualificazione dei percorsi di inclusione sociale e lavorativa avviati. Finalità dell'avviso pubblico L'avviso pubblico, mira ad individuare Enti del terzo settore in forma di Raggruppamento (Associazione Temporanea di Scopo) con gli altri soggetti di cui all’art. 2, per partecipare alla co- progettazione, ai sensi dell’art. 55 co. I e III del Codice del terzo settore (decreto legislativo 117/2017), nonché successiva realizzazione del progetto WELT– WE in Lavoro Toscana” , finanziato con risorse del Programma nazionale (Pn) Inclusione e lotta alla povertà 2021-2027. La Regione Toscana selezionerà il soggetto ritenuto idoneo secondo i criteri specificati nel testo integrale dell'avviso pubblico. Il soggetto selezionato verrà chiamato a partecipare a un processo di co-progettazione in partenariato come definito all’art. 4. Tale attività di co-progettazione non sarà retribuita e non costituisce impegno finanziario di nessun genere a carico di Regione Toscana. Al termine dell'attività di co-progettazione coordinata dalla Regione Toscana in qualità di capofila, il soggetto selezionato e gli altri partner pubblici previamente individuati, dovranno predisporre il progetto esecutivo e realizzare le azioni in esso previste; I rapporti tra la Regione Toscana e i partner pubblici saranno disciplinati nell’ambito della Convenzione di Sovvenzione sottoscritta con il Ministero, mentre i rapporti tra Regione Toscana e ATS saranno disciplinati da apposito Accordo sottoscritto tra le parti. Destinatari dell'avviso pubblico Ai fini della partecipazione alla co-progettazione, sono ammessi a presentare la propria candidatura in risposta al presente Avviso, esclusivamente Associazioni Temporanee di Scopo (di seguito ATS), già costituite o costituende tra i seguenti soggetti: a) Enti del Terzo settore di cui all’articolo 4, comma 1 del Codice del Terzo settore decreto legislativo 117/2017 , operanti nello specifico settore di riferimento oggetto dell’avviso, nonché iscritti al Runt b) Associazioni iscritte al Registro di cui all’art. 42 del Testo unico delle disposizioni concernenti la disciplina dell'immigrazione e norme sulla condizione dello straniero (decreto legislativo 286/1998) ; c) Società cooperative e Società consortili operanti nello specifico settore di riferimento oggetto dell’avviso; d) Enti ecclesiastici civilmente riconosciuti ai sensi dell’art. 7 della legge 222/1985; e) Operatori pubblici e privati accreditati per lo svolgimento di servizi al lavoro ai sensi del D.lgs. n. 276/2003 e del D.lgs. n. 150/2015; f) Organismi accreditati dalle singole Regioni/Province autonome per lo svolgimento di attività di formazione professionale e servizi al lavoro ai sensi del Decreto del Ministero del Lavoro e della Previdenza Sociale del 25 maggio 2001 n. 166. g) Associazioni datoriali e organizzazioni sindacali; h) Fondi interprofessionali ed enti bilaterali ; i) Patronati ; j) Organismi e organizzazioni internazionali o intergovernativi inseriti nella lista delle organizzazioni internazionali pubblicata dal Ministero degli Affari Esteri e della Cooperazione Internazionale, operanti nello specifico settore di riferimento oggetto dell’avviso; k) Consorzi o reti tra i soggetti sopraelencati. Scadenza e presentazione della proposta progettuale L’apertura della presentazione delle candidature coincide con la data di pubblicazione dell'avviso sul sito web della Regione alla pagina link https:// www.regione.toscana.it/bandi-aperti . La domanda e i relativi allegati, in formato pdf non modificabile, firmati digitalmente, devono essere trasmessi entro il giorno 9 ottobre 2026 mediante Posta elettronica certificata all'indirizzo: regionetoscana@postacert.toscana.it indicando nell’oggetto della pec “ All’attenzione Settore Lavoro – Avviso di manifestazione di interesse per l’individuazione di Enti del terzo settore (ETS), in qualità di Partner di coprogettazione di Regione Toscana ai sensi dell’art. 55 del D. Lgs. n.117/2017 e degli artt. 11 e 13 della L. R. 65/2020, tramite la presentazione di proposte progettuali, a valere sul progetto “WELT – WE in Lavoro Toscana ”. Le candidature pervenute dopo tale termine e/o con modalità difformi da quelle indicate non saranno prese in considerazione e quindi escluse dalla selezione. Le domande devono contenere, a pena di esclusione dalla procedura di manifestazione d’interesse, i seguenti documenti: Candidatura redatta secondo il modello (Allegato 1 dell'avviso) sottoscritta digitalmente; Dichiarazione sostitutiva di affidabilità giuridico-economico-finanziaria ai sensi del Dpr 445/2000 artt. 46 e 47 sottoscritto digitalmente (Allegato 2); Modello di dichiarazione di intenti a costituire ATS sottoscritto digitalmente da tutti i soggetti aderenti (Allegato 3). Si ricorda che nel caso di costituenda ATS : La domanda di candidatura, di cui all’Allegato 1, in caso di ATS costituenda dovrà essere sottoscritta digitalmente da tutti i Soggetti aderenti al raggruppamento; l’auto-dichiarazione, di cui all’Allegato 2, dovrà essere presentata per ognuno dei componenti il raggruppamento. Dotazione finanziaria Le risorse stimate destinate al finanziamento delle attività di cui al presente avviso pubblico sono pari ad euro un milione 226 mila 528,32 euro suscettibili di variazione e/o rimodulazione in sede di co- progettazione. Per conoscere tutti i dettagli necessari a presentare correttamente la manifestazione di interesse, consultare integralmente il bando e i suoi allegati Avviso pubblico (allegato A del decreto) Allegati: Modello di candidatura (allegato 1): scarica il file editabile Dichiarazione sostitutiva (allegato 2): scarica il file editabile Dichiarazione intenti ATS (allegato 3): scarica il file editabile Sintesi Progetto FAMI WE IN Toscana (allegato 4) Informativa protezione dati personali (allegato 5). Per saperne di più Informazioni possono essere richieste scrivendo al settore Lavoro della Regione Toscana , responsabile del procedimento lavoromigranti@regione.toscana.it Tutte le informazioni e gli atti di avanzamento della procedura di avviso pubblico saranno pubblicati in questa pagina web che ha indirizzo breve www.regione.toscana.it/progettowelt-selezione-entiterzosettore Organismo emittente: Regione Toscana Link e allegati Progetto WELT - WE in Lavoro Toscana Condividi Aggiornato al: 18.09.2026 Article ID: 247210525 Preferenze dei cookie Nascosta"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore",
+            "ets"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content": {
+      "id": "REG-AUTO-3904FD5DE8C6",
+      "source": "Regione Sicilia · Bandi",
+      "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
+      "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Bandi | Regione Siciliana",
+        "source": "Regione Sicilia · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Sicilia · Bandi",
+          "sicilia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "salta",
+          "contenuto",
+          "principale",
+          "skip",
+          "footer",
+          "content",
+          "back",
+          "accedi",
+          "area",
+          "personale",
+          "siciliana",
+          "portale",
+          "istituzionale",
+          "seguici",
+          "cerca",
+          "istituzioni",
+          "presidente",
+          "giunta",
+          "assemblea",
+          "strutture"
+        ],
+        "sectors": [
+          "salta",
+          "contenuto",
+          "principale",
+          "skip",
+          "footer",
+          "content",
+          "back",
+          "accedi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "sicilia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: sicilia",
+            "anyOf": [
+              "sicilia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scade il: 01/10/2026 - 00:00 Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scade il: 30/09/2026 - 23:59 Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content": {
+      "id": "REG-AUTO-29AC9639BA24",
+      "source": "Regione Sicilia · Bandi",
+      "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
+      "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Bandi | Regione Siciliana",
+        "source": "Regione Sicilia · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Sicilia · Bandi",
+          "sicilia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "skip",
+          "footer",
+          "content",
+          "salta",
+          "contenuto",
+          "principale",
+          "back",
+          "accedi",
+          "area",
+          "personale",
+          "siciliana",
+          "portale",
+          "istituzionale",
+          "seguici",
+          "cerca",
+          "istituzioni",
+          "presidente",
+          "giunta",
+          "assemblea",
+          "strutture"
+        ],
+        "sectors": [
+          "skip",
+          "footer",
+          "content",
+          "salta",
+          "contenuto",
+          "principale",
+          "back",
+          "accedi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "sicilia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: sicilia",
+            "anyOf": [
+              "sicilia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scade il: 01/10/2026 - 00:00 Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scade il: 30/09/2026 - 23:59 Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.puglia.it/bandi-e-avvisi#content": {
+      "id": "REG-AUTO-323C49FE70D2",
+      "source": "Regione Puglia · Bandi",
+      "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
+      "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "sourceStatus",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Elenco bandi e avvisi",
+        "source": "Regione Puglia · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Puglia · Bandi",
+          "puglia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contenuto",
+          "menu",
+          "organi",
+          "istituzione",
+          "presidente",
+          "giunta",
+          "consiglio",
+          "organizzazione",
+          "organigramma",
+          "persone",
+          "contatti",
+          "agenzie",
+          "regionali",
+          "strategiche",
+          "enti",
+          "fondazioni",
+          "società",
+          "partecipate",
+          "trasparenza",
+          "amministrazione"
+        ],
+        "sectors": [
+          "contenuto",
+          "menu",
+          "organi",
+          "istituzione",
+          "presidente",
+          "giunta",
+          "consiglio",
+          "organizzazione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "puglia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: puglia",
+            "anyOf": [
+              "puglia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
+        "sourceStatus": "aperto",
+        "discoveryText": "Top Vai al contenuto A A Menu La Regione ORGANI Istituzione Presidente Giunta Consiglio regionale ORGANIZZAZIONE Organigramma Persone e contatti Agenzie Regionali Strategiche Enti, fondazioni e società partecipate TRASPARENZA Amministrazione trasparente Elenco curricula Prevenzione della corruzione Portali tematici Agricoltura Ambiente Competitività e innovazione Istituzione e partecipazione Lavoro e formazione Pari opportunità Politiche europee e cooperazione internazionale Politiche giovanili Salute, Sport e buona vita Territorio, mobilità e infrastrutture Turismo e cultura Welfare, diritti e cittadinanza Come fare per Vivi la Puglia Fiera del Levante 2026 - Tutta la Puglia Muoversi in Puglia Bandiera Blu Programma culturale Fiere ed eventi Agenda istituzionale La Puglia per le famiglie Parchi e aree naturali Puglia sportiva Protezione Civile Puglia Press Regione URP Rubrica × About Services Clients Contact Bandi e avvisi Homepage Bandi e avvisi Elenco bandi e avvisi Cerca tra i bandi Ricerca testuale Ricerca estesa al contenuto Data pubblicazione Aree Tematiche Seleziona Agricoltura Ambiente Competitività, ricerca e Innovazione Istituzione e partecipazione Lavoro, Istruzione e Formazione Parità di genere Politiche Europee e Cooperazione Internazionale Politiche giovanili Salute, sport e buona vita Territorio, mobilità e infrastrutture Turismo e Cultura Welfare, Diritti e Cittadinanza Argomenti Seleziona Agenda di genere Aiuti Covid Albo cooperative sociali Ambiente Antimafia sociale Comunicazione Istituzionale Concorsi Consigliera di parità Conti Pubblici Territoriali Coronavirus CSR 2023-2027 CUG Delegazione romana Demanio Armentizio Demanio e Patrimonio Immobiliare Demanio marittimo Difesa del suolo Disabilità e non autosufficienza Elezioni regionali 2020 Emergenza Ucraina Eni Cbc Med Europuglia Expo 2020 Feamp FEAMPA 21-27 Fesr Fiera del levante 2019 Fiera del Levante 2020 Fiera del Levante 2022 Fiera del Levante 2023 Fiera del Levante 2024 Fiera del Levante 2025 Fiera del Levante 2026 Filiere agroalimentari Fondo di Rotazione Food4Health Foreste caccia pesca e biodiversità FSC 21-27 Galattica Health Marketplace Horizon ILVA Inno Innovazione in agricoltura Internazionalizzazione Interreg Invecchiamento attivo JTF Taranto Legalità e Antimafia sociale Lotta alla violenza di genere Minori Next MED 21-27 Nidi Nvvip Open data ORCA Puglia Osservatorio Agricoltura Biologica Osservatorio regionale contratti pubblici Osservatorio Regionale dello Spettacolo Pac Pagamenti elettronici Pari opportunità per tutti e lotta alle discriminazioni Pianificazione sociale Piano strategico 20-30 Piil Pin Politiche di Genere Politiche energetiche Politiche migratorie Politiche per le famiglie Por Povertà e inclusione PR 2021-2027 Produzioni di qualità Programmazione FESR FSE 2021-2027 Protezione Civile PSR 2014-2022 Puglia digitale Puglia Partecipa Puglia Sportiva Rigenerazione olivicola Servizio civile Servizio civile regionale Servizi sanitari digitali Sezione Statistica Spazi di prossimità Strategia regionale di sviluppo sostenibile Strategia regionale sostenibilità Tecnonidi Terzo settore Transizione digitale Trasformazione digitale Tributi Turismo Usi civici Vaccino Anti-Covid Welfare e territorio Xylella Cancella filtri Cerca Nascosta Footer Ascolta Valuta questo sito Area riservata Contatti e indirizzi Lungomare N. Sauro, 33 - 70121 Bari Via G. Gentile, 52 - 70126 Bari Elenco PEC e Rubrica Eventi e Stampa Ufficio stampa della Giunta Press Regione Logo e identità regionale Accessibilità Dichiarazione di accessibilità Obiettivi di accessibilità URP Telefono: 800 713939 Scrivici: email Redazione Responsabili di pubblicazione Protezione civile Vai al sito di Protezione Civile Puglia Iniziativa finanziata con risorse del POR Puglia 2014/2020 - Asse XI Note legali Cookie e privacy Atti di notifica Feed RSS Servizi Intranet © Regione Puglia Per offrire informazioni e servizi nel miglior modo possibile, questo sito utilizza cookie tecnici e cookie di terze parti. Per maggiori informazioni sui cookie utilizzati e su come eventualmente disabilitarli leggi la nostra privacy policy Accetta vedi Privacy Policy"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content": {
+      "id": "REG-AUTO-CBCCCA8ED639",
+      "source": "Regione Trentino-Alto Adige · Bandi",
+      "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
+      "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "deadline",
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Amministrazione Trasparente",
+        "source": "Regione Trentino-Alto Adige · Bandi",
+        "deadline": "2023-12-31",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Trentino-Alto Adige · Bandi",
+          "trentino-alto-adige"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contenuto",
+          "principale",
+          "footer",
+          "governo",
+          "italiano",
+          "links",
+          "amministrazione",
+          "trasparente",
+          "consiglio",
+          "trentino",
+          "alto",
+          "adige",
+          "accedi",
+          "area",
+          "personale",
+          "autonoma",
+          "südtirol",
+          "seguici",
+          "cerca",
+          "servizi"
+        ],
+        "sectors": [
+          "contenuto",
+          "principale",
+          "footer",
+          "governo",
+          "italiano",
+          "links",
+          "amministrazione",
+          "trasparente"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "trentino-alto-adige"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: trentino-alto-adige",
+            "anyOf": [
+              "trentino-alto-adige"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Regione autonoma Trentino-Alto Adige/Südtirol Amministrazione Trasparente Bandi di gara e contratti Amministrazione Trasparente La trasparenza è intesa come accessibilità totale delle informazioni concernenti l'organizzazione e l'attività delle pubbliche amministrazioni, allo scopo di favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche. Condividi Facebook Twitter Linkedin Whatsapp Vedi azioni Invia Amministrazione Trasparente Disposizioni generali Piano triennale per la prevenzione della corruzione e della trasparenza Atti generali Riferimenti normativi su organizzazione e attività Atti amministrativi generali Documenti di programmazione strategico-gestionale Statuti e leggi regionali Codice disciplinare, codice di condotta e codice di comportamento contro le molestie e gli atti lesivi della dignità personale sul luogo di lavoro Oneri informativi per cittadini e imprese Burocrazia zero Organizzazione Titolari di incarichi politici, di amministrazione, di direzione o di governo Titolari di incarichi politici di cui all'art.14, co.1, del d.lgs n. 33/2013 Titolari di incarichi di amministrazione, di direzione o di governo di cui all'art.14, co. 1-bis, del d.lgs n.33/2013 Cessati dall'incarico Sanzioni per mancata comunicazione dei dati Rendiconti gruppi consiliari regionali/provinciali Articolazione degli uffici Telefono e posta elettronica Consulenti e collaboratori Titolari di incarichi di collaborazione o consulenza Personale Titolari di incarichi dirigenziali amministrativi di vertice Titolari di incarichi dirigenziali (dirigenti non generali) Dirigenti cessati Sanzioni per mancata comunicazione dei dati Posizioni organizzative Dotazione organica Personale non a tempo indeterminato Costo del personale non a tempo indeterminato Personale non a tempo indeterminato Tassi di assenza Incarichi conferiti e autorizzati ai dipendenti (dirigenti e non dirigenti) Contrattazione collettiva Contrattazione integrativa OIV Dati di genere Bandi di concorso Performance Sistema di misurazione e valutazione della Performance Piano della performance Relazione sulla performance Ammontare complessivo dei premi Dati relativi ai premi Benessere organizzativo Enti controllati Enti pubblici vigilati Società partecipate Dati società partecipate Provvedimenti Enti di diritto privato controllati Rappresentazione grafica Attività e procedimenti Dati aggregati attività amministrativa Tipologie di procedimento Monitoraggio tempi procedimentali Dichiarazioni sostitutive e acquisizione d'ufficio dei dati Provvedimenti Provvedimenti organi indirizzo politico Decreti del Presidente e degli Assessori Deliberazioni della Giunta regionale Provvedimenti dirigenti Controlli sulle imprese Bandi di gara e contratti Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Atti relativi alla programmazione di lavori, opere, servizi e forniture Atti relativi alle procedure per l’affidamento di appalti pubblici di servizi, forniture, lavori e opere, di concorsi pubblici di progettazione, di concorsi di idee e di concessioni Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati Sovvenzioni, contributi, sussidi, vantaggi economici Criteri e modalità Atti di concessione Bilanci Bilancio preventivo e consuntivo Bilancio preventivo Bilancio consuntivo Piano degli indicatori e dei risultati attesi di bilancio Beni immobili e gestione patrimonio Patrimonio immobiliare Canoni di locazione o affitto Controlli e rilievi sull'amministrazione Organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe Attestazione dell'OIV o di altra struttura analoga nell'assolvimento degli obblighi di pubblicazione Organi di revisione amministrativa e contabile Corte dei conti Servizi erogati Carta dei servizi e standard di qualità Class action Costi contabilizzati Liste di attesa Servizi in rete Pagamenti dell'amministrazione Dati sui pagamenti Dati sui pagamenti del servizio sanitario nazionale Indicatore di tempestività dei pagamenti Indicatore di tempestività dei pagamenti Ammontare complessivo dei debiti IBAN e pagamenti informatici Opere pubbliche Nuclei di valutazione e verifica degli investimenti pubblici Atti di programmazione delle opere pubbliche Tempi costi e indicatori di realizzazione delle opere pubbliche Pianificazione e governo del territorio Informazioni ambientali Strutture sanitarie private accreditate Interventi straordinari e di emergenza Altri contenuti Prevenzione della Corruzione Piano triennale per la prevenzione della corruzione e per la trasparenza Responsabile della prevenzione della corruzione e della trasparenza Regolamenti per la prevenzione e la repressione della corruzione e dell'illegalità Relazione del responsabile della prevenzione della corruzione e della trasparenza Provvedimenti adottati dall'A.N.AC. ed atti di adeguamento a tali provvedimenti Atti di accertamento delle violazioni WHISTLEBLOWING - Segnalazione di presunti illeciti Accesso civico Accesso civico \"semplice\" concernente dati, documenti e informazioni soggetti a pubblicazione obbligatoria Accesso civico \"generalizzato\" concernente documenti ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria Registro degli accessi Gestore delle segnalazioni antiriciclaggio Accessibilità e Catalogo di dati, metadati e banche dati Catalogo dei dati, metadati e delle banche dati Regolamenti Obiettivi di accessibilità Dati ulteriori Protezione dei dati personali Spese di rappresentanza Censimento autovetture Bandi di gara e contratti Nota In questa sezione sono pubblicati i bandi di gara e le informazioni, nonché i dati relativi all'attività contrattuale dell'Amministrazione regionale. Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer": {
+      "id": "REG-AUTO-B502E34F2C01",
+      "source": "Regione Trentino-Alto Adige · Bandi",
+      "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
+      "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
+      "version": 2,
+      "firstSeenAt": "2026-09-26T13:03:03+02:00",
+      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "deadline",
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Amministrazione Trasparente",
+        "source": "Regione Trentino-Alto Adige · Bandi",
+        "deadline": "2023-12-31",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Trentino-Alto Adige · Bandi",
+          "trentino-alto-adige"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "footer",
+          "contenuto",
+          "principale",
+          "governo",
+          "italiano",
+          "links",
+          "amministrazione",
+          "trasparente",
+          "consiglio",
+          "trentino",
+          "alto",
+          "adige",
+          "accedi",
+          "area",
+          "personale",
+          "autonoma",
+          "südtirol",
+          "seguici",
+          "cerca",
+          "servizi"
+        ],
+        "sectors": [
+          "footer",
+          "contenuto",
+          "principale",
+          "governo",
+          "italiano",
+          "links",
+          "amministrazione",
+          "trasparente"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "trentino-alto-adige"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: trentino-alto-adige",
+            "anyOf": [
+              "trentino-alto-adige"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Regione autonoma Trentino-Alto Adige/Südtirol Amministrazione Trasparente Bandi di gara e contratti Amministrazione Trasparente La trasparenza è intesa come accessibilità totale delle informazioni concernenti l'organizzazione e l'attività delle pubbliche amministrazioni, allo scopo di favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche. Condividi Facebook Twitter Linkedin Whatsapp Vedi azioni Invia Amministrazione Trasparente Disposizioni generali Piano triennale per la prevenzione della corruzione e della trasparenza Atti generali Riferimenti normativi su organizzazione e attività Atti amministrativi generali Documenti di programmazione strategico-gestionale Statuti e leggi regionali Codice disciplinare, codice di condotta e codice di comportamento contro le molestie e gli atti lesivi della dignità personale sul luogo di lavoro Oneri informativi per cittadini e imprese Burocrazia zero Organizzazione Titolari di incarichi politici, di amministrazione, di direzione o di governo Titolari di incarichi politici di cui all'art.14, co.1, del d.lgs n. 33/2013 Titolari di incarichi di amministrazione, di direzione o di governo di cui all'art.14, co. 1-bis, del d.lgs n.33/2013 Cessati dall'incarico Sanzioni per mancata comunicazione dei dati Rendiconti gruppi consiliari regionali/provinciali Articolazione degli uffici Telefono e posta elettronica Consulenti e collaboratori Titolari di incarichi di collaborazione o consulenza Personale Titolari di incarichi dirigenziali amministrativi di vertice Titolari di incarichi dirigenziali (dirigenti non generali) Dirigenti cessati Sanzioni per mancata comunicazione dei dati Posizioni organizzative Dotazione organica Personale non a tempo indeterminato Costo del personale non a tempo indeterminato Personale non a tempo indeterminato Tassi di assenza Incarichi conferiti e autorizzati ai dipendenti (dirigenti e non dirigenti) Contrattazione collettiva Contrattazione integrativa OIV Dati di genere Bandi di concorso Performance Sistema di misurazione e valutazione della Performance Piano della performance Relazione sulla performance Ammontare complessivo dei premi Dati relativi ai premi Benessere organizzativo Enti controllati Enti pubblici vigilati Società partecipate Dati società partecipate Provvedimenti Enti di diritto privato controllati Rappresentazione grafica Attività e procedimenti Dati aggregati attività amministrativa Tipologie di procedimento Monitoraggio tempi procedimentali Dichiarazioni sostitutive e acquisizione d'ufficio dei dati Provvedimenti Provvedimenti organi indirizzo politico Decreti del Presidente e degli Assessori Deliberazioni della Giunta regionale Provvedimenti dirigenti Controlli sulle imprese Bandi di gara e contratti Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Atti relativi alla programmazione di lavori, opere, servizi e forniture Atti relativi alle procedure per l’affidamento di appalti pubblici di servizi, forniture, lavori e opere, di concorsi pubblici di progettazione, di concorsi di idee e di concessioni Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati Sovvenzioni, contributi, sussidi, vantaggi economici Criteri e modalità Atti di concessione Bilanci Bilancio preventivo e consuntivo Bilancio preventivo Bilancio consuntivo Piano degli indicatori e dei risultati attesi di bilancio Beni immobili e gestione patrimonio Patrimonio immobiliare Canoni di locazione o affitto Controlli e rilievi sull'amministrazione Organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe Attestazione dell'OIV o di altra struttura analoga nell'assolvimento degli obblighi di pubblicazione Organi di revisione amministrativa e contabile Corte dei conti Servizi erogati Carta dei servizi e standard di qualità Class action Costi contabilizzati Liste di attesa Servizi in rete Pagamenti dell'amministrazione Dati sui pagamenti Dati sui pagamenti del servizio sanitario nazionale Indicatore di tempestività dei pagamenti Indicatore di tempestività dei pagamenti Ammontare complessivo dei debiti IBAN e pagamenti informatici Opere pubbliche Nuclei di valutazione e verifica degli investimenti pubblici Atti di programmazione delle opere pubbliche Tempi costi e indicatori di realizzazione delle opere pubbliche Pianificazione e governo del territorio Informazioni ambientali Strutture sanitarie private accreditate Interventi straordinari e di emergenza Altri contenuti Prevenzione della Corruzione Piano triennale per la prevenzione della corruzione e per la trasparenza Responsabile della prevenzione della corruzione e della trasparenza Regolamenti per la prevenzione e la repressione della corruzione e dell'illegalità Relazione del responsabile della prevenzione della corruzione e della trasparenza Provvedimenti adottati dall'A.N.AC. ed atti di adeguamento a tali provvedimenti Atti di accertamento delle violazioni WHISTLEBLOWING - Segnalazione di presunti illeciti Accesso civico Accesso civico \"semplice\" concernente dati, documenti e informazioni soggetti a pubblicazione obbligatoria Accesso civico \"generalizzato\" concernente documenti ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria Registro degli accessi Gestore delle segnalazioni antiriciclaggio Accessibilità e Catalogo di dati, metadati e banche dati Catalogo dei dati, metadati e delle banche dati Regolamenti Obiettivi di accessibilità Dati ulteriori Protezione dei dati personali Spese di rappresentanza Censimento autovetture Bandi di gara e contratti Nota In questa sezione sono pubblicati i bandi di gara e le informazioni, nonché i dati relativi all'attività contrattuale dell'Amministrazione regionale. Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-26T13:03:21+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-26T07:02:43+02:00",
+  "triageUpdatedAt": "2026-09-26T13:03:21+02:00",
   "triageSummary": {
-    "rulesResolved": 8,
+    "rulesResolved": 10,
     "rulesExcludedForEts": 0,
-    "aiRequired": 5,
+    "aiRequired": 11,
     "notPresent": 37,
     "ruleVersion": 3
   }
