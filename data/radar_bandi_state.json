@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-26T13:03:21+02:00",
+  "catalogUpdatedAt": "2026-09-26T13:06:19+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1097,7 +1097,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -1237,7 +1237,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -4074,9 +4074,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/contributi-favore-interventi-selvicolturali-promozione-gestione-forestale-sostenibile-RLM12026055263",
       "contentHash": "65bf2fd2cffffbe83a66789ee11f0c26e6e13f8a0b4c02f99b455a4cb8633108",
-      "version": 74,
+      "version": 76,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4176,7 +4176,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -4413,9 +4413,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4517,7 +4517,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -4526,9 +4526,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-      "version": 84,
+      "version": 86,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4634,7 +4634,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -4643,9 +4643,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 84,
+      "version": 86,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4747,7 +4747,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5098,9 +5098,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5204,7 +5204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5448,9 +5448,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5558,7 +5558,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5567,9 +5567,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5665,7 +5665,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5921,7 +5921,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -5930,9 +5930,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6039,7 +6039,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6048,9 +6048,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6150,7 +6150,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6159,9 +6159,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6260,7 +6260,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6269,9 +6269,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6379,7 +6379,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6388,9 +6388,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6498,7 +6498,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6507,9 +6507,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6617,7 +6617,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6626,9 +6626,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6735,7 +6735,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     },
@@ -6744,9 +6744,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-26T13:03:03+02:00",
-      "lastChangedAt": "2026-09-26T13:03:21+02:00",
+      "lastChangedAt": "2026-09-26T13:06:19+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6853,12 +6853,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-26T13:03:21+02:00"
+        "evaluatedAt": "2026-09-26T13:06:19+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-26T13:03:21+02:00",
+  "triageUpdatedAt": "2026-09-26T13:06:19+02:00",
   "triageSummary": {
     "rulesResolved": 10,
     "rulesExcludedForEts": 0,
