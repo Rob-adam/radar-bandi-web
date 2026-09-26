@@ -60,12 +60,12 @@ SOURCES = [
     },
 
     # Portali ufficiali regionali: parser generico conservativo.
-    {"name": "Regione Abruzzo · Bandi", "region": "abruzzo", "url": "https://www.regione.abruzzo.it/content/bandi-gare-e-concorsi", "kind": "generic-region"},
+    {"name": "Regione Abruzzo · Bandi", "region": "abruzzo", "url": "https://www.regione.abruzzo.it/contenuti/bandi", "kind": "generic-region"},
     {"name": "Regione Basilicata · Bandi", "region": "basilicata", "url": "https://portalebandi.regione.basilicata.it/PortaleBandi/", "kind": "generic-region"},
     {"name": "Regione Calabria · Bandi", "region": "calabria", "url": "https://calabriaeuropa.regione.calabria.it/bandi/", "kind": "generic-region"},
-    {"name": "Regione Campania · Bandi", "region": "campania", "url": "https://www.regione.campania.it/regione/it/tematiche/magazine-bandi-e-gare", "kind": "generic-region"},
-    {"name": "Regione Friuli-Venezia Giulia · Bandi", "region": "friuli-venezia-giulia", "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/bandi-avvisi/", "kind": "generic-region"},
-    {"name": "Regione Lazio · Bandi", "region": "lazio", "url": "https://www.regione.lazio.it/bandi", "kind": "generic-region"},
+    {"name": "Regione Campania · Bandi", "region": "campania", "url": "https://www.regione.campania.it/servizi/bandi-gare", "kind": "generic-region"},
+    {"name": "Regione Friuli-Venezia Giulia · Bandi", "region": "friuli-venezia-giulia", "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/", "kind": "generic-region"},
+    {"name": "Regione Lazio · Bandi", "region": "lazio", "url": "https://www.regione.lazio.it/bandi-di-concorso-avvisi/ricerca", "kind": "generic-region"},
     {"name": "Regione Liguria · Bandi", "region": "liguria", "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi.html", "kind": "generic-region"},
     {"name": "Regione Marche · Bandi", "region": "marche", "url": "https://www.regione.marche.it/Entra-in-Regione/Bandi-e-Opportunita", "kind": "generic-region"},
     {"name": "Regione Molise · Bandi", "region": "molise", "url": "https://www.regione.molise.it/", "kind": "generic-region"},
@@ -74,8 +74,8 @@ SOURCES = [
     {"name": "Regione Sicilia · Bandi", "region": "sicilia", "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi", "kind": "generic-region"},
     {"name": "Regione Toscana · Bandi", "region": "toscana", "url": "https://www.regione.toscana.it/bandi-aperti", "kind": "generic-region"},
     {"name": "Regione Trentino-Alto Adige · Bandi", "region": "trentino-alto-adige", "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti", "kind": "generic-region"},
-    {"name": "Regione Umbria · Bandi", "region": "umbria", "url": "https://www.regione.umbria.it/bandi", "kind": "generic-region"},
-    {"name": "Regione Valle d'Aosta · Bandi", "region": "valle-d-aosta", "url": "https://www.regione.vda.it/amministrazione/bandi/default_i.asp", "kind": "generic-region"},
+    {"name": "Regione Umbria · Bandi", "region": "umbria", "url": "https://www.regione.umbria.it/bandi-fse", "kind": "generic-region"},
+    {"name": "Regione Valle d'Aosta · Bandi", "region": "valle-d-aosta", "url": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi", "kind": "generic-region"},
     {"name": "Regione Veneto · Bandi", "region": "veneto", "url": "https://bandi.regione.veneto.it/Public/Elenco", "kind": "generic-region"},
 
     {
