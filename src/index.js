@@ -22,6 +22,14 @@ function territoryAllowed(b,region){const r=normTerritory(region);if(!r)return t
  if(territories.some(t=>universal.some(u=>t===u||t.includes(u))))return true;
  return territories.some(t=>t===r||t.includes(r)||r.includes(t));
 }
+function opportunityCurrent(b){
+ const status=normTerritory(b?.sourceStatus||"");
+ if(["chiuso","scaduto","closed","expired"].includes(status))return false;
+ const raw=String(b?.deadline||"").trim();
+ if(!raw)return true;
+ const t=Date.parse(raw+"T23:59:59");
+ return !Number.isFinite(t)||t>=Date.now();
+}
 function cleanProfile(input,code,rec){
  if(!input||typeof input!=="object")return null;
  const s=v=>String(v??"").slice(0,4000);
@@ -174,7 +182,7 @@ async function filteredMainCatalog(request,env){
  let d;try{d=await r.json()}catch{return json({error:'Catalogo principale non valido'},500)}
  const region=regionFromRequest(request);
  const all=Array.isArray(d.bandi)?d.bandi:[];
- const bandi=all.filter(b=>territoryAllowed(b,region));
+ const bandi=all.filter(b=>territoryAllowed(b,region)&&opportunityCurrent(b));
  return json({...d,selectedRegion:region||null,bandi});
 }
 
@@ -196,7 +204,7 @@ async function mergedExtraCatalog(request,env){
   const key=String(b?.sourceUrl||b?.id||'').replace(/\/$/,'');
   if(key)map.set(key,b);
  }
- const bandi=[...map.values()].filter(b=>territoryAllowed(b,region));
+ const bandi=[...map.values()].filter(b=>territoryAllowed(b,region)&&opportunityCurrent(b));
  return json({...d1,updatedAt:d2.updatedAt||d1.updatedAt||null,automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],selectedRegion:region||null,bandi});
 }
 
