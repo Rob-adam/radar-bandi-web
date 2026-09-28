@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-28T07:28:59+02:00",
+  "catalogUpdatedAt": "2026-09-28T16:02:13+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1097,7 +1097,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -1237,7 +1237,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -3382,12 +3382,12 @@
       "id": "PIE-AUTO-D548C5F5F78F",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0",
-      "contentHash": "914bef92ad1addcb93d034af27a6c8ccc31f470b63a71cab8b3b6719ff5c6b08",
-      "version": 6,
+      "contentHash": "dae3fc7893b93205118e87eaaf43362976d9e2c5e94df02a665bbd86ffc49f16",
+      "version": 8,
       "firstSeenAt": "2026-09-09T20:33:09+02:00",
-      "lastChangedAt": "2026-09-10T08:35:38+02:00",
-      "present": false,
-      "missingSince": "2026-09-10T14:36:00+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -3395,7 +3395,7 @@
       "snapshot": {
         "title": "CSR 2023-2027. Partecipazione a regimi di qualità (SRG03)",
         "source": "Regione Piemonte · Bandi",
-        "deadline": "2026-10-31",
+        "deadline": "2026-10-30",
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -3464,7 +3464,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0",
         "sourceStatus": "aperto",
-        "discoveryText": "CSR 2023-2027. Partecipazione a regimi di qualità (SRG03) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L'operazione sostiene con una sovvenzione a fondo perduto concesso sotto forma di pagamento annuale i costi riferiti all’anno solare per la partecipazione ai regimi di qualità istituiti dall’UE e ai sistemi di qualità nazionali e regionali: • delle aziende agricole in forma singola • delle associazioni e altri organismi di tipo associativo o cooperativo che devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Domande dal Lun, 20/04/2026 - 17:00 Scadenza Sab, 31/10/2026 - 23:59 Riferimento Bollettino Ufficiale Bollettino Ufficiale Regione Piemonte Temi Agricoltura Rivolto a Cittadini Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L'operazione sostiene gli agricoltori e loro associazioni che partecipano ai regimi di qualità: - DOP, IGP, STG; DOC, DOCG; - indicazioni geografiche delle bevande spiritose; - vini aromatizzati, bevande aromatizzate a base di vino e dei cocktail aromatizzati di prodotti vitivinicoli; - BIOLOGICO; - sistema di qualità nazionale per la zootecnia (SQNZ); - sistema di qualità nazionale di produzione integrata (SQNPI); - sistema di qualità nazionale per il benessere animale (SQNBA); - regimi facoltativi di certificazione dei prodotti agricoli etico - sociali elencati nel bando. Rettifiche Determinazione di apertura domande di sostegno Documento PDF - 102.92 KB Chi può partecipare Il presente bando è riservato alle aziende singole o forme associative degli agricoltori di nuova costituzione o già esistenti, di qualsiasi natura giuridica, che aderiscono a regimi di qualità istituiti dall’Unione Europea, dallo Stato membro e dalle Regioni. L'imprenditore agricolo e gli agricoltori che fanno parte delle forme associative, per poter essere i destinatari finali dell'intervento, devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Le OP, AOP e i Consorzi di tutela devono essere riconosciuti ai sensi della pertinente normativa nazionale e regionale. Nel caso di domanda presentata “in approccio collettivo” per associazioni di agricoltori si intendono forme associative che raggruppano, ancorché in forma non esclusiva, agricoltori che partecipano per la prima volta ai regimi di qualità dei prodotti agricoli e alimentari: organizzazioni di produttori e loro associazioni, riconosciute; organizzazioni interprofessionali riconosciute; gruppi definiti all’art. 3, comma 2, del Reg. UE 1151/2012, compresi i consorzi di tutela delle Dop, Igp e Stg riconosciuti ai sensi della normativa nazionale art. 53 della legge 128/1998 come sostituito dall’art. 14 della legge 526/1999 associazioni di qualsiasi natura giuridica, compresi i consorzi di tutela vitivinicoli riconosciuti ai sensi della normativa nazionale art. 41 della legge n. 238/2016; associazioni di produttori biologici e loro raggruppamenti; associazioni di produttori agricoli costituite ai sensi della normativa nazionale; cooperative agricole e loro consorzi; gruppi o associazioni di produttori (associazioni, consorzi) anche in forma temporanea (ATI e ATS) e altre forme associative costituite con atto pubblico notarile o scrittura privata autenticata.. Sono ammissibili al sostegno tutte le imprese agricole ubicate e operanti sul territorio regionale. Dotazione finanziaria Euro 731.686,42 per il bando anno 2026. Come presentare domanda Come presentare domanda Le domande di pre-adesione sono condizione necessaria per la presentazione della domanda di sostegno, entrambe devono essere trasmesse esclusivamente attraverso l’apposito servizio on-line del sistema informativo agricolo piemontese (SIAP) “PSR 2014-2020 - Procedimenti”, pubblicato sul portale www.sistemapiemonte.it , nella sezione “Agricoltura - Finanziamenti, contributi e certificazioni”. Struttura di riferimento Direzione Agricoltura e Cibo Settore A1717A Politiche del cibo, valorizzazione e promozione del sistema agroalimentare Contatti Stefania Convertini | stefania.convertini@regione.piemonte.it Allegato testo procedura Determinazione di approvazione del bando Documento PDF - 1.33 MB Bando 2026 intervento SRG03 Documento PDF - 1005.83 KB Allegato Modalità e documentazione di pagamento Documento PDF - 142.2 KB Allegato Trattamento dati personali Documento PDF - 86.26 KB Tabella costi standard biologico application/octet-stream - 58.37 KB Tabella costi standard produzione integrata application/octet-stream - 41.69 KB Determinazione su riduzioni ed esclusioni SRG03 Documento PDF - 384.1 KB Determinazione modificata e integrata dalla DD. 711 del 25/8/2025 Altri allegati Mandato approccio collettivo per bando 2026 Documento Word - 13.48 KB Dichiarazione sostitutiva soci per bando 2026 Documento Word - 5.28 MB Altri link Pagina web SRG03 CSR 2023-2027"
+        "discoveryText": "CSR 2023-2027. Partecipazione a regimi di qualità (SRG03) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L'operazione sostiene con una sovvenzione a fondo perduto concesso sotto forma di pagamento annuale i costi riferiti all’anno solare per la partecipazione ai regimi di qualità istituiti dall’UE e ai sistemi di qualità nazionali e regionali: • delle aziende agricole in forma singola • delle associazioni e altri organismi di tipo associativo o cooperativo che devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Domande dal Lun, 20/04/2026 - 17:00 Scadenza Ven, 30/10/2026 - 23:59 Riferimento Bollettino Ufficiale Bollettino Ufficiale Regione Piemonte Temi Agricoltura Rivolto a Cittadini Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L'operazione sostiene gli agricoltori e loro associazioni che partecipano ai regimi di qualità: - DOP, IGP, STG; DOC, DOCG; - indicazioni geografiche delle bevande spiritose; - vini aromatizzati, bevande aromatizzate a base di vino e dei cocktail aromatizzati di prodotti vitivinicoli; - BIOLOGICO; - sistema di qualità nazionale per la zootecnia (SQNZ); - sistema di qualità nazionale di produzione integrata (SQNPI); - sistema di qualità nazionale per il benessere animale (SQNBA); - regimi facoltativi di certificazione dei prodotti agricoli etico - sociali elencati nel bando. Rettifiche Determinazione di apertura domande di sostegno Documento PDF - 102.92 KB Chi può partecipare Il presente bando è riservato alle aziende singole o forme associative degli agricoltori di nuova costituzione o già esistenti, di qualsiasi natura giuridica, che aderiscono a regimi di qualità istituiti dall’Unione Europea, dallo Stato membro e dalle Regioni. L'imprenditore agricolo e gli agricoltori che fanno parte delle forme associative, per poter essere i destinatari finali dell'intervento, devono partecipare per la prima volta ai regimi di qualità ammissibili o devono aver partecipato ai medesimi regimi per la prima volta nei cinque anni precedenti alla presentazione della domanda di sostegno. Le OP, AOP e i Consorzi di tutela devono essere riconosciuti ai sensi della pertinente normativa nazionale e regionale. Nel caso di domanda presentata “in approccio collettivo” per associazioni di agricoltori si intendono forme associative che raggruppano, ancorché in forma non esclusiva, agricoltori che partecipano per la prima volta ai regimi di qualità dei prodotti agricoli e alimentari: organizzazioni di produttori e loro associazioni, riconosciute; organizzazioni interprofessionali riconosciute; gruppi definiti all’art. 3, comma 2, del Reg. UE 1151/2012, compresi i consorzi di tutela delle Dop, Igp e Stg riconosciuti ai sensi della normativa nazionale art. 53 della legge 128/1998 come sostituito dall’art. 14 della legge 526/1999 associazioni di qualsiasi natura giuridica, compresi i consorzi di tutela vitivinicoli riconosciuti ai sensi della normativa nazionale art. 41 della legge n. 238/2016; associazioni di produttori biologici e loro raggruppamenti; associazioni di produttori agricoli costituite ai sensi della normativa nazionale; cooperative agricole e loro consorzi; gruppi o associazioni di produttori (associazioni, consorzi) anche in forma temporanea (ATI e ATS) e altre forme associative costituite con atto pubblico notarile o scrittura privata autenticata.. Sono ammissibili al sostegno tutte le imprese agricole ubicate e operanti sul territorio regionale. Dotazione finanziaria Euro 731.686,42 per il bando anno 2026. Come presentare domanda Come presentare domanda Le domande di pre-adesione sono condizione necessaria per la presentazione della domanda di sostegno, entrambe devono essere trasmesse esclusivamente attraverso l’apposito servizio on-line del sistema informativo agricolo piemontese (SIAP) “PSR 2014-2020 - Procedimenti”, pubblicato sul portale www.sistemapiemonte.it , nella sezione “Agricoltura - Finanziamenti, contributi e certificazioni”. Struttura di riferimento Direzione Agricoltura e Cibo Settore A1717A Politiche del cibo, valorizzazione e promozione del sistema agroalimentare Contatti Stefania Convertini | stefania.convertini@regione.piemonte.it Allegato testo procedura Determinazione di approvazione del bando Documento PDF - 1.33 MB Bando 2026 intervento SRG03 Documento PDF - 1005.83 KB Allegato Modalità e documentazione di pagamento Documento PDF - 142.2 KB Allegato Trattamento dati personali Documento PDF - 86.26 KB Tabella costi standard biologico application/octet-stream - 58.37 KB Tabella costi standard produzione integrata application/octet-stream - 41.69 KB Determinazione su riduzioni ed esclusioni SRG03 Documento PDF - 384.1 KB Determinazione modificata e integrata dalla DD. 711 del 25/8/2025 Altri allegati Mandato approccio collettivo per bando 2026 Documento Word - 13.48 KB Dichiarazione sostitutiva soci per bando 2026 Documento Word - 5.28 MB Altri link Pagina web SRG03 CSR 2023-2027"
       },
       "triage": {
         "status": "rules-resolved",
@@ -3491,7 +3491,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-10T08:35:38+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -4077,8 +4077,8 @@
       "version": 92,
       "firstSeenAt": "2026-09-14T14:36:43+02:00",
       "lastChangedAt": "2026-09-28T07:28:59+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-28T16:01:35+02:00",
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -4413,9 +4413,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 100,
+      "version": 102,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4517,7 +4517,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -4526,9 +4526,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-      "version": 102,
+      "version": 104,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4634,7 +4634,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -4643,9 +4643,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
       "contentHash": "d2c770618f1e4fd55d5aeba2b3d127fefc79622e3e905595f118e38bc9025a14",
-      "version": 102,
+      "version": 104,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4747,7 +4747,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5098,9 +5098,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5204,7 +5204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 52,
+      "version": 54,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5448,9 +5448,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 42,
+      "version": 44,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5558,7 +5558,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5567,9 +5567,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 42,
+      "version": 44,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5665,7 +5665,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5795,8 +5795,8 @@
       "version": 1,
       "firstSeenAt": "2026-09-25T13:54:15+02:00",
       "lastChangedAt": "2026-09-25T13:54:15+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-28T16:01:35+02:00",
       "lastChangeFields": [
         "title",
         "source",
@@ -5930,9 +5930,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6039,7 +6039,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6048,9 +6048,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6150,7 +6150,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6159,9 +6159,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6260,7 +6260,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6269,9 +6269,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6379,7 +6379,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6388,9 +6388,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6498,7 +6498,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6507,9 +6507,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6617,7 +6617,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6626,9 +6626,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6735,7 +6735,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6744,9 +6744,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-28T07:28:59+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6853,17 +6853,267 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-28T07:28:59+02:00"
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/ricerca-partner-co-progettazione-gestione-interventi-promozione-attivita-contrasto-allabbandono": {
+      "id": "PIE-AUTO-0741B71D9B32",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/ricerca-partner-co-progettazione-gestione-interventi-promozione-attivita-contrasto-allabbandono",
+      "contentHash": "90de8cb7aa424078604554647e91385ed9d91aa296b15334967d0f2e8128b1fe",
+      "version": 1,
+      "firstSeenAt": "2026-09-28T16:01:35+02:00",
+      "lastChangedAt": "2026-09-28T16:01:35+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": "2026-10-14",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "ricerca",
+          "partner",
+          "progettazione",
+          "gestione",
+          "interventi",
+          "promozione",
+          "attività",
+          "contrasto",
+          "abbandono",
+          "sociale",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook"
+        ],
+        "sectors": [
+          "ricerca",
+          "partner",
+          "progettazione",
+          "gestione",
+          "interventi",
+          "promozione",
+          "attività",
+          "contrasto"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/ricerca-partner-co-progettazione-gestione-interventi-promozione-attivita-contrasto-allabbandono",
+        "sourceStatus": "aperto",
+        "discoveryText": "Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Procedura comparativa finalizzata all’individuazione di Enti del Terzo Settore (ETS) per la co-progettazione e gestione di un intervento avente ad oggetto azioni di valorizzazione delle esperienze attive che operano nell'ambito dell'ascolto quale forma di contrasto all'abbandono sociale Domande d"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore",
+            "ets"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884": {
+      "id": "RLW12025050884",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
+      "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
+      "version": 2,
+      "firstSeenAt": "2026-09-28T16:01:35+02:00",
+      "lastChangedAt": "2026-09-28T16:02:13+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Apprendistato di Primo Livello – A.F. 2026/2027",
+        "source": "Regione Lombardia",
+        "deadline": "2027-09-08",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "apprendistato",
+          "primo",
+          "livello",
+          "codice",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "istituzioni",
+          "formative",
+          "accreditate",
+          "fondazioni",
+          "academy",
+          "associazioni",
+          "temporanee",
+          "scopo"
+        ],
+        "sectors": [
+          "chiude",
+          "apprendistato",
+          "primo",
+          "livello",
+          "codice",
+          "avviso",
+          "pubblico",
+          "rivolto"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato di Primo Livello – A.F. 2026/2027 Aperto Apprendistato di Primo Livello – A.F. 2026/2027 Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formativo 2026/2027, di percorsi di apprendistato di primo livello finalizzati al conseguimento di un titolo di studio, ai sensi dell’articolo 43 del D.Lgs. 81/2015. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per i percorsi finalizzati al conseguimento della Qualifica professionale o della Qualifica e successivamente del Diploma professionale: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007, della DGR n. 6696/2022 e del relativo decreto attuativo n. 15516/2022. Per i percorsi finalizzati alla frequenza del corso annuale integrativo per l’accesso all’esame di Stato: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007 e ss.mm.ii., che, in collaborazione con gli Istituti Professionali statali, erogano percorsi annuali di IeFP finalizzati all’ammissione all’esame di Stato per il conseguimento del Diploma di Istruzione Professionale, secondo le modalità definite nello specifico Avviso per la realizzazione del corso annuale. Per i percorsi finalizzati al conseguimento del Certificato IFTS: Fondazioni ITS Academy costituite ai sensi del Decreto del Presidente del Consiglio dei Ministri del 25 gennaio 2008 e accreditate ai sensi della L. 99/2022, con sede in Lombardia; Associazioni Temporanee di Scopo (ATS) che raggruppano, quale standard organizzativo minimo, i seguenti quattro soggetti: Istituti scolastici del secondo ciclo di istruzione con sede nel territorio regionale; Istituzioni Formative accreditate e iscritte alla Sezione A dell’Albo regionale; Università o dipartimenti universitari con sede nel territorio regionale; Imprese o associazioni di imprese con sede in Lombardia. Di cosa si tratta L’Avviso è finalizzato a promuovere, per l’Anno Formativo 2026/2027, percorsi di apprendistato di primo livello finalizzati al conseguimento dei seguenti titoli: Qualifica IeFP e Diploma IeFP, presso le Istituzioni formative accreditate alla Sezione A dell’Albo regionale; Certificato IFTS (Istruzione e Formazione Tecnica Superiore); Diploma di Istruzione Professionale, a seguito della frequenza del quinto anno integrativo, presso le Istituzioni formative accreditate. Dotazione finanziaria Le risorse pubbliche disponibili per il presente Avviso ammontano a € 25.000.000,00, comprensive della quota destinata alla componente disabilità. Queste risorse sono trasferimenti statali di natura vincolata da parte del Ministero del Lavoro e delle Politiche Sociali, ai sensi della Legge 144/1999, destinate al finanziamento del sistema duale ordinario Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Il Bando è finanziato con lo strumento della Dote, che si compone di due elementi: dote formazione e componente disabilità, quest’ultima limitata agli studenti con disabilità certificata. Dote Formazione: la Dote Formazione finanzia il servizio formativo per ciascun apprendista con contratto di apprendistato di primo livello attraverso un Piano di Intervento Personalizzato (PIP). Per ogni giovane apprendista è riconosciuto un contributo pari all'Unità di Costo Standard (UCS) di € 6.654,00. Il contributo è erogato a risultato per ogni allievo formato, con riferimento a ciascuna annualità formativa. Ai fini del riconoscimento dell'intero importo del servizio formativo, l'allievo deve conseguire una relevant certification, ovvero l'ammissione all'annualità successiva o il conseguimento del titolo di studio. Componente Disabilità: la Componente Disabilità, aggiuntiva rispetto alla Dote Formazione, finanzia le ore di sostegno destinate agli studenti in possesso di certificazione di disabilità. Per ciascun allievo è riconoscibile un contributo massimo di € 2.250,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL - Azioni - Come partecipare Preliminarmente alla richiesta di dote il soggetto esecutore deve provvedere alla creazione del percorso tramite il sistema informativo SIUF. La richiesta di dote è condizionata alla trasmissione da parte del soggetto esecutore dell’ Atto di Adesione Unico . Il soggetto esecutore è tenuto ad acquisire dal sistema informativo: il Piano di Intervento Personalizzato (PIP) il Modulo di domanda di partecipazione Il perfezionamento della richiesta di dote e la conferma del PIP da parte dell’Istituzione formativa avvengono mediante la trasmissione della Dichiarazione Riassuntiva Unica ( DRU ), firmata elettronicamente dal rappresentante legale o da altro soggetto con potere di firma, sul sistema informativo Bandi e Servizi. Inoltre, per tutti i percorsi la domanda di dote dovrà essere corredata dal Modello Unilav di avvio del rapporto di lavoro e dalla registrazione del codice identificativo della COB in Bandi e Servizi. La richiesta di dote, pertanto, risulta composta da: Dichiarazione Riassuntiva Unica Riferimento al CF dell’apprendista e all’ID SEZIONE già creata in SIUF (contenente tutti i dati utili del percorso formativo in apprendistato) Modello UNILAV di avvio del rapporto di lavoro e registrazione del codice identificativo della COB in Bandi e Servizi. Solo per gli IFTS: Atto di costituzione dell’ATS Le domande possono essere presentate esclusivamente online , attraverso la presente piattaforma Bandi e Servizi, autenticandosi tramite SPID, CIE o CNS/CRS , a partire dal 28 settembre 2026 alle ore 10.00 fino all'8 settembre 2027 alle ore 14.00. Procedura selezione Valutativa a sportello. È prevista una procedura di assegnazione a sportello con selezione automatica, secondo l’ordine cronologico di presentazione online delle domande e fino ad esaurimento delle risorse disponibili sul presente Avviso nel periodo di riferimento. Informazioni e contatti Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it , previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: supporto-siuf@ariaspa.i t , indicando obbligatoriamente: ID sezione generata da SIUF e ID PFI laddove pertinente ID matricola studente CF, nome e cognome destinatario Indicazione dell’errore presente a sistema Breve descrizione dell’errore Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione di SIUF e ID PFI laddove pertinente Indicazione dell’errore presente a sistema Breve descrizione dell’errore oppure contattare il numero verde 800.131.151. Per quanto riguarda i problemi tecnico informatici occorre attendere la risposta dei servizi di assistenza alle piattaforme Bandi e Servizi e SIUF. Assistenza tecnica Bandi Online/Servizio Helpdesk Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a: bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione in SIUF Indicazione dell’errore presente a sistema Breve descrizione dell’errore Oppure contattare il numero verde 800.131.151 Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: Supporto-siuf@ariaspa.it, indicando obbligatoriamente: · ID sezione generata da SIUF e ID PFI se pertinente · ID matricola studente · CF nome e cognome destinatario · Indicazione dell’errore presente a sistema · Breve descrizione dell’errore Informazioni al pubblico Regione Lombardia/ Struttura SISTEMA IeFP (ISTRUZIONE E FORMAZIONE PROFESSIONALE) e-mail: apprendistato@regione.lombardia.it Allegati DDS 10557 del 04/08/2026 Approvazione avviso Apprendistato I livello 2026/27 - 04/08/2026 DDS 10557_26 All. 11 - Loghi Apprendistato 2026_27 - 04/08/2026 DDS 1055_26 All. 10 - Format scheda stage - 04/08/2026 DDS 10557_2026 All. 9 - Modulo richiesta accesso agli atti - 04/08/2026 DDS 10557_2026 All. 8 - Informativa privacy - 04/08/2026 Mostra altri Comunicazioni correlate 25/09/2026 Bando Servizio: Apprendistato di Primo Livello – A.F. 2026/2027 Apprendistato di primo livello 2026/2027 – comunicazione apertura Bandi e servizi per la presentazione delle domande di dote Con riferimento all’Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formati... Vedi dettaglio"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-28T16:02:13+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-28T07:28:59+02:00",
+  "triageUpdatedAt": "2026-09-28T16:02:13+02:00",
   "triageSummary": {
-    "rulesResolved": 10,
+    "rulesResolved": 11,
     "rulesExcludedForEts": 0,
     "aiRequired": 11,
-    "notPresent": 37,
+    "notPresent": 38,
     "ruleVersion": 3
   }
 }
