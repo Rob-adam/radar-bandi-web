@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T07:48:11+02:00",
-  "attempted": 17,
-  "enriched": 17,
+  "generatedAt": "2026-09-29T14:58:30+02:00",
+  "attempted": 22,
+  "enriched": 16,
   "unchanged": 0,
-  "failed": 0,
+  "failed": 6,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
@@ -14,6 +14,16 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
@@ -44,23 +54,6 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/sismica-contributi-2026-comuni-l-esercizio-funzioni-zone-sismiche-RLZ12026054731"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-partecipazione-regimi-qualita-srg03-0"
-    },
-    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "ok": true,
       "changed": [
@@ -80,6 +73,12 @@
       "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     },
     {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651"
+    },
+    {
       "key": "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete",
       "ok": true,
       "changed": [
@@ -97,6 +96,18 @@
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
     },
     {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082"
+    },
+    {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "ok": true,
       "changed": [
@@ -105,6 +116,18 @@
         "deadline"
       ],
       "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
+      "ok": false,
+      "error": "testo pagina insufficiente",
+      "url": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263"
     },
     {
       "key": "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
@@ -151,6 +174,12 @@
         "deadline"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
+      "ok": false,
+      "error": "testo pagina insufficiente",
+      "url": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent"
     },
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",

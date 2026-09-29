@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-29T07:48:32+02:00",
+  "catalogUpdatedAt": "2026-09-29T14:59:01+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1097,7 +1097,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1237,7 +1237,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -3043,12 +3043,12 @@
       "id": "RLD12025045643",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
-      "contentHash": "b862a687d066ea9a90537bc32132a49a51e6e5e7df547e6f4980b03c6c3717d8",
-      "version": 56,
+      "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
+      "version": 58,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-15T08:37:02+02:00",
-      "present": false,
-      "missingSince": "2026-09-15T14:34:40+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -3058,7 +3058,7 @@
       "snapshot": {
         "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
         "source": "Regione Lombardia",
-        "deadline": "2026-09-24",
+        "deadline": "2026-10-02",
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -3080,11 +3080,11 @@
           "comuni",
           "codice",
           "misura",
-          "quarta",
-          "ultima",
+          "apertura",
+          "straordinaria",
           "finestra",
-          "dall",
-          "settembre"
+          "settembre",
+          "ottobre"
         ],
         "sectors": [
           "chiude",
@@ -3121,7 +3121,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
         "sourceStatus": "aperto",
-        "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Aperto NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 08/09/2026 , ore 12:00 Scade il: 24/09/2026 , ore 12:00 Misura Nidi gratis plus 2025/2026. Quarta e ultima finestra di rendicontazione dall'8 settembre 2026 h.12.00 al 24 settembre 2026 h.12. 00. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 08/09/2026 , ore 12:00 Scade il: 24/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il soggetto destinatario della Misura è il genitore che presenta la domanda di adesione, compresi i genitori adottivi e affidatari. In particolare, alla data della presentazione della domanda, il nucleo familiare del genitore che presenta domanda di adesione deve essere in possesso dei seguenti requisiti: figli iscritti a nidi e micro-nidi pubblici e/o privati indicati dai Comuni e ammessi alla Misura “Nidi Gratis Plus 2025/2026”; Attestazione ISEE minorenni protocollata dell’indicatore della situazione economica equivalente in corso di validità - sulla base della normativa ISEE (D.P.C.M. 05 dicembre 2013, n. 159) – inferiore o uguale a 25.000,00; retta mensile a carico dei genitori superiore all'importo rimborsabile da INPS, pari a € 272,73 per le prime 10 mensilità e 272,70 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,30 per l’undicesima, nei casi previsti dalla misura nazionale. Di cosa si tratta L'iniziativa regionale garantisce l’abbattimento delle rette di frequenza degli asili nido pubblici e privati autorizzati convenzionati in favore dei nuclei familiari con ISEE Minorenni fino a 25.000 euro . L’intervento regionale è a copertura della quota di retta mensile che eccede l’importo rimborsabile da INPS (pari a € 272,73 per le prime 10 mensilità e 272,30 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,70 per l’undicesima nei casi previsti dalla misura nazionale), per la fascia ISEE fino ad euro 25.000,00 secondo le seguenti modalità: per le famiglie con ISEE minorenni 0 - 20.000,00 l’intervento regionale c opre l’intera quota di retta mensile che eccede l’importo rimborsabile da INPS; per le famiglie con ISEE minorenni 20.000,01 - 25.000,00 l’intervento regionale copre la quota di retta mensile che eccede l’importo rimborsabile da INPS fino ad un contributo pubblico massimo di 100,00 euro mensili . La domanda deve essere presentata dal genitore, anche affidatario, per i figli fino ai 3 anni che frequentano nidi e micro-nido pubblici e/o posti acquistati in convenzione dai Comuni (in forma singola o associata) presso strutture private autorizzate. L’elenco dei Comuni ammessi alla misura con le relative strutture e/o posti in convezione è disponibile a fondo pagina. Il contributo viene erogato direttamente ai Comuni. La famiglia non è tenuta al pagamento delle rette per la frequenza del bambino al nido per la quota di retta mensile eccedente l’importo riconosciuto da Inps e secondo i massimali sotto dettagliati secondo la fascia Isee di appartenenza, a partire già dal mese di settembre. Dotazione finanziaria 20000000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 19 del 19/9/22025 Serie ordinaria n. 43 del 24/10/2025 Azioni La Misura esclude espressamente il pagamento da parte delle famiglie per la frequenzadei nidi e micro-nidi della quota di retta mensile aggiuntiva rispetto all’importo rimborsabile da INPS. Come partecipare I destinatari possono presentare la domanda di adesione alla Misura Nidi Gratis Plus 2025/2026 a partire da lunedì 27 ottobre 2025, ore 12.00 fino a giovedì 20 novembre 2025, ore 12.00 (riapertura strordinaria dal 3 all'11 dicembre 2025 ore 12) e comunque nel rispetto della dotazione finanziaria, esclusivamente attraverso il sistema informativo Bandi e Servizi. Le domande possono essere presentate da uno dei genitori previa registrazione in Bandi e Servizi, esclusivamente attraverso il sistema pubblico di identità digitale (SPID), la Carta Regionale dei Servizi (CRS) o Carta Nazionale dei Servizi (CNS), la Carta di Identità Elettronica (CIE) Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi chiarimento o informazione in merito all’Avviso è possibile rivolgersi a: nidigratisplusfamiglie@regione.lombardia.it numero unico 02.67653333 (attivo dalle ore 9.30 alle ore 12.30 dalle ore 14.30 alle ore 16.30 da lunedì a giovedì - dalle ore 9.30 alle ore 12.30 di venerdì) Call Center di Regione Lombardia 800.318.318 digitando 1 . Per richiedere assistenza tecnica in fase di compilazione: numero verde 800 131 151 (sempre gratuito) scrivere a bandi@regione.lombardia.it . Per informazioni e contatti e in caso di smarrimento, furto o mancata consegna della Carta Regionale dei Servizi o per avere maggiori informazioni sui servizi abilitati è attivo il Numero Verde 800.030.606 . Allegati FAQ NIDI GRATIS PLUS 25_26 - 11/02/2026 D. d. u. o. 14807 del 22 ottobre 2025 - Approvazione Avviso Famiglie - 22/10/2025 Allegato A - D. d. u. o. 14807 del 22 ottobre 2025 - Avviso - 22/10/2025 Elenco strutture ammesse - 22/10/2025 Faq - Avviso Famiglie - 22/10/2025 Manuale di adesione - Avviso Famiglie - 06/11/2025 DDUO 16211 del 13/11/2025 - 17/11/2025 DDUO 16211 del 13/11/2025 - Allegato A - 17/11/2025 DDUO 17340 del 28/11/2025 - Riapertura Nidi Gratis Plus 2025/2026 - 28/11/2025 Registro presenze - 28/11/2025 DDUO n. 17615 del 2.12.25 e relativo allegato - 04/12/2025 Registro presenze xls - 15/12/2025 DDUO 18483 del 15/12/2025 - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato A - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato B - 16/12/2025 DDUO 194 del 13/01/2026 - Posticipo data prima rendicontazione - 15/01/2026 DDUO 345/2025 - IV PROVVEDIMENTO ESITI ISTRUTTORI - 16/01/2026 ALLEGATO A IV DDUO - AMMESSE - 16/01/2026 ALLEGATO B IV DDUO - NON AMMESSE - 16/01/2026 DDUO 690/2026 - V PROVVEDIMENTO ESITI ISTRUTTORI - 26/01/2026 ALLEGATO A V DDUO - AMMESSE - 26/01/2026 ALLEGATO B V DDUO - NON AMMESSE - 26/01/2026 DDUO 2186 del 20/02/26 - VI provvedimento - 04/03/2026 ALLEGATO A VI provvedimento - 04/03/2026 DDUO 2778 del 4/03/2026 - VII provvedimento - 04/03/2026 ALLEGATO A - VII provvedimento - 04/03/2026 DDUO 4540 del 2026 - Aggiornamento periodi rendicontazione - 13/04/2026 DDUO 690 del 230126 V PROVVEDIMENTO e allegati - 21/05/2026 DDUO 6544_2026 - 22/05/2026 ALLEGATO A VIII provvedimento - 22/05/2026 DDUO 6822 del 22/05/2026 - 25/05/2026 ALLEGATO A - IX PROVVEDIMENTO - 25/05/2026 DDUO 8000 del 17/06/26 - 18/06/2026 Allegato A - X provvedimento - 18/06/2026 DDUO 4540 del 9/4/26 AGGIORNAMENTO PERIODI RENDICONTAZIONE - 09/04/2026 Mostra altri Comunicazioni correlate 12/08/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni III finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla terza finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 21/07/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni II finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla seconda finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 03/04/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni I finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla prima finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 01/12/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la presentazione delle domande da parte delle famiglie Regione Lombardia ha approvato, con decreto n. 17340 del 28 novembre 2025, la riapertura della finestra per la presentazione delle domande di adesione da parte delle famiglie alla Misura Nidi Grati... Vedi dettaglio 23/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Erogazione anticipo Comuni Approvati i primi decreti per l'impegno e la liquidazione della quota di anticipo ai Comuni che ne hanno fatto richiesta. I decreti in oggetto sono i seguenti: n. 13885 del 8/10/25; n. 14232 del 13... Vedi dettaglio 21/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la richiesta di anticipo ai Comuni Regione Lombardia ha approvato, con decreto n. 14674 del 20 ottobre 2025, la riapertura della finestra per la richiesta di anticipo ai Comuni. I Comuni interessati potranno presentare domanda dalle... Vedi dettaglio Vedi tutte"
+        "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Aperto NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Misura Nidi gratis plus 2025/2026. Apertura straordinaria della finestra di rendicontazione dal 29 settembre 2026 h.12.00 al 2 ottobre 2026 h.12. 00. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il soggetto destinatario della Misura è il genitore che presenta la domanda di adesione, compresi i genitori adottivi e affidatari. In particolare, alla data della presentazione della domanda, il nucleo familiare del genitore che presenta domanda di adesione deve essere in possesso dei seguenti requisiti: figli iscritti a nidi e micro-nidi pubblici e/o privati indicati dai Comuni e ammessi alla Misura “Nidi Gratis Plus 2025/2026”; Attestazione ISEE minorenni protocollata dell’indicatore della situazione economica equivalente in corso di validità - sulla base della normativa ISEE (D.P.C.M. 05 dicembre 2013, n. 159) – inferiore o uguale a 25.000,00; retta mensile a carico dei genitori superiore all'importo rimborsabile da INPS, pari a € 272,73 per le prime 10 mensilità e 272,70 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,30 per l’undicesima, nei casi previsti dalla misura nazionale. Di cosa si tratta L'iniziativa regionale garantisce l’abbattimento delle rette di frequenza degli asili nido pubblici e privati autorizzati convenzionati in favore dei nuclei familiari con ISEE Minorenni fino a 25.000 euro . L’intervento regionale è a copertura della quota di retta mensile che eccede l’importo rimborsabile da INPS (pari a € 272,73 per le prime 10 mensilità e 272,30 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,70 per l’undicesima nei casi previsti dalla misura nazionale), per la fascia ISEE fino ad euro 25.000,00 secondo le seguenti modalità: per le famiglie con ISEE minorenni 0 - 20.000,00 l’intervento regionale c opre l’intera quota di retta mensile che eccede l’importo rimborsabile da INPS; per le famiglie con ISEE minorenni 20.000,01 - 25.000,00 l’intervento regionale copre la quota di retta mensile che eccede l’importo rimborsabile da INPS fino ad un contributo pubblico massimo di 100,00 euro mensili . La domanda deve essere presentata dal genitore, anche affidatario, per i figli fino ai 3 anni che frequentano nidi e micro-nido pubblici e/o posti acquistati in convenzione dai Comuni (in forma singola o associata) presso strutture private autorizzate. L’elenco dei Comuni ammessi alla misura con le relative strutture e/o posti in convezione è disponibile a fondo pagina. Il contributo viene erogato direttamente ai Comuni. La famiglia non è tenuta al pagamento delle rette per la frequenza del bambino al nido per la quota di retta mensile eccedente l’importo riconosciuto da Inps e secondo i massimali sotto dettagliati secondo la fascia Isee di appartenenza, a partire già dal mese di settembre. Dotazione finanziaria 20000000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 19 del 19/9/22025 Serie ordinaria n. 43 del 24/10/2025 Azioni La Misura esclude espressamente il pagamento da parte delle famiglie per la frequenzadei nidi e micro-nidi della quota di retta mensile aggiuntiva rispetto all’importo rimborsabile da INPS. Come partecipare I destinatari possono presentare la domanda di adesione alla Misura Nidi Gratis Plus 2025/2026 a partire da lunedì 27 ottobre 2025, ore 12.00 fino a giovedì 20 novembre 2025, ore 12.00 (riapertura strordinaria dal 3 all'11 dicembre 2025 ore 12) e comunque nel rispetto della dotazione finanziaria, esclusivamente attraverso il sistema informativo Bandi e Servizi. Le domande possono essere presentate da uno dei genitori previa registrazione in Bandi e Servizi, esclusivamente attraverso il sistema pubblico di identità digitale (SPID), la Carta Regionale dei Servizi (CRS) o Carta Nazionale dei Servizi (CNS), la Carta di Identità Elettronica (CIE) Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi chiarimento o informazione in merito all’Avviso è possibile rivolgersi a: nidigratisplusfamiglie@regione.lombardia.it numero unico 02.67653333 (attivo dalle ore 9.30 alle ore 12.30 dalle ore 14.30 alle ore 16.30 da lunedì a giovedì - dalle ore 9.30 alle ore 12.30 di venerdì) Call Center di Regione Lombardia 800.318.318 digitando 1 . Per richiedere assistenza tecnica in fase di compilazione: numero verde 800 131 151 (sempre gratuito) scrivere a bandi@regione.lombardia.it . Per informazioni e contatti e in caso di smarrimento, furto o mancata consegna della Carta Regionale dei Servizi o per avere maggiori informazioni sui servizi abilitati è attivo il Numero Verde 800.030.606 . Allegati FAQ NIDI GRATIS PLUS 25_26 - 11/02/2026 D. d. u. o. 14807 del 22 ottobre 2025 - Approvazione Avviso Famiglie - 22/10/2025 Allegato A - D. d. u. o. 14807 del 22 ottobre 2025 - Avviso - 22/10/2025 Elenco strutture ammesse - 22/10/2025 Faq - Avviso Famiglie - 22/10/2025 Manuale di adesione - Avviso Famiglie - 06/11/2025 DDUO 16211 del 13/11/2025 - 17/11/2025 DDUO 16211 del 13/11/2025 - Allegato A - 17/11/2025 DDUO 17340 del 28/11/2025 - Riapertura Nidi Gratis Plus 2025/2026 - 28/11/2025 Registro presenze - 28/11/2025 DDUO n. 17615 del 2.12.25 e relativo allegato - 04/12/2025 Registro presenze xls - 15/12/2025 DDUO 18483 del 15/12/2025 - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato A - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato B - 16/12/2025 DDUO 194 del 13/01/2026 - Posticipo data prima rendicontazione - 15/01/2026 DDUO 345/2025 - IV PROVVEDIMENTO ESITI ISTRUTTORI - 16/01/2026 ALLEGATO A IV DDUO - AMMESSE - 16/01/2026 ALLEGATO B IV DDUO - NON AMMESSE - 16/01/2026 DDUO 690/2026 - V PROVVEDIMENTO ESITI ISTRUTTORI - 26/01/2026 ALLEGATO A V DDUO - AMMESSE - 26/01/2026 ALLEGATO B V DDUO - NON AMMESSE - 26/01/2026 DDUO 2186 del 20/02/26 - VI provvedimento - 04/03/2026 ALLEGATO A VI provvedimento - 04/03/2026 DDUO 2778 del 4/03/2026 - VII provvedimento - 04/03/2026 ALLEGATO A - VII provvedimento - 04/03/2026 DDUO 4540 del 2026 - Aggiornamento periodi rendicontazione - 13/04/2026 DDUO 690 del 230126 V PROVVEDIMENTO e allegati - 21/05/2026 DDUO 6544_2026 - 22/05/2026 ALLEGATO A VIII provvedimento - 22/05/2026 DDUO 6822 del 22/05/2026 - 25/05/2026 ALLEGATO A - IX PROVVEDIMENTO - 25/05/2026 DDUO 8000 del 17/06/26 - 18/06/2026 Allegato A - X provvedimento - 18/06/2026 DDUO 4540 del 9/4/26 AGGIORNAMENTO PERIODI RENDICONTAZIONE - 09/04/2026 D.d.u.o. n. 12586 del 28/09/2026 - Apertura straordinaria - 28/09/2026 Mostra altri Comunicazioni correlate 12/08/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni III finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla terza finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 21/07/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni II finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla seconda finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 03/04/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni I finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla prima finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 01/12/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la presentazione delle domande da parte delle famiglie Regione Lombardia ha approvato, con decreto n. 17340 del 28 novembre 2025, la riapertura della finestra per la presentazione delle domande di adesione da parte delle famiglie alla Misura Nidi Grati... Vedi dettaglio 23/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Erogazione anticipo Comuni Approvati i primi decreti per l'impegno e la liquidazione della quota di anticipo ai Comuni che ne hanno fatto richiesta. I decreti in oggetto sono i seguenti: n. 13885 del 8/10/25; n. 14232 del 13... Vedi dettaglio 21/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la richiesta di anticipo ai Comuni Regione Lombardia ha approvato, con decreto n. 14674 del 20 ottobre 2025, la riapertura della finestra per la richiesta di anticipo ai Comuni. I Comuni interessati potranno presentare domanda dalle... Vedi dettaglio Vedi tutte"
       },
       "triage": {
         "status": "ai-required",
@@ -3147,7 +3147,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-15T08:37:02+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -3386,8 +3386,8 @@
       "version": 12,
       "firstSeenAt": "2026-09-09T20:33:09+02:00",
       "lastChangedAt": "2026-09-29T07:48:32+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-29T14:58:30+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -4413,9 +4413,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
       "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-      "version": 106,
+      "version": 108,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4517,7 +4517,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -4526,9 +4526,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
       "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-      "version": 108,
+      "version": 110,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -4634,7 +4634,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -4646,8 +4646,8 @@
       "version": 108,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-29T07:48:32+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-29T14:58:30+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -5098,9 +5098,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5204,7 +5204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -5448,9 +5448,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 48,
+      "version": 50,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5558,7 +5558,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -5567,9 +5567,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 48,
+      "version": 50,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5665,7 +5665,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -5930,9 +5930,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6039,7 +6039,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6048,9 +6048,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6150,7 +6150,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6159,9 +6159,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6260,7 +6260,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6269,9 +6269,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6379,7 +6379,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6388,9 +6388,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6498,7 +6498,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6507,9 +6507,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6617,7 +6617,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6626,9 +6626,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6735,7 +6735,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6744,9 +6744,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6853,7 +6853,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -6861,39 +6861,20 @@
       "id": "PIE-AUTO-0741B71D9B32",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/ricerca-partner-co-progettazione-gestione-interventi-promozione-attivita-contrasto-allabbandono",
-      "contentHash": "90de8cb7aa424078604554647e91385ed9d91aa296b15334967d0f2e8128b1fe",
-      "version": 1,
+      "contentHash": "e32aaccc7492fc1be24e9dc5fad47609a9d76f5fe34c588b300464ecbbb26488",
+      "version": 2,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
-      "lastChangedAt": "2026-09-28T16:01:35+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "title",
-        "source",
-        "deadline",
-        "fund",
-        "maxGrant",
-        "aid",
-        "tags",
-        "eligibility",
-        "keywords",
-        "sectors",
-        "beneficiaries",
-        "activities",
-        "purposes",
-        "territories",
-        "legalForms",
-        "hardRequirements",
-        "hardKeyword",
-        "sourceUrl",
-        "sourceStatus",
-        "discoveryText"
+        "deadline"
       ],
       "needsAnalysis": false,
       "snapshot": {
         "title": "Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale",
         "source": "Regione Piemonte · Bandi",
-        "deadline": "2026-10-14",
+        "deadline": "2026-10-19",
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -6991,7 +6972,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     },
@@ -7000,9 +6981,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
-      "lastChangedAt": "2026-09-29T07:48:32+02:00",
+      "lastChangedAt": "2026-09-29T14:59:01+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7103,17 +7084,823 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-29T07:48:32+02:00"
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651": {
+      "id": "REG-AUTO-7494A9B9CE0E",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "contentHash": "5e51a04096e691dad462556bfc2757e4c67b8cd888d66d455883fc461c76c1af",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Avviso 23 AF - Formazione continua",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "avviso",
+          "formazione",
+          "continua",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione",
+          "borsa",
+          "studio",
+          "attività",
+          "ricerca",
+          "offerte",
+          "lavoro",
+          "pubblico",
+          "voucher",
+          "formativi",
+          "favore",
+          "piccole",
+          "imprese"
+        ],
+        "sectors": [
+          "avviso",
+          "formazione",
+          "continua",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079": {
+      "id": "REG-AUTO-DF7D58841FE5",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "contentHash": "b2ca3e27f8c274eeb2b9b4851eb7339549171444f06d59832983581914b84750",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Enti pubblici e privati",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "pubblici",
+          "privati",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione",
+          "borsa",
+          "studio",
+          "attività",
+          "ricerca",
+          "offerte",
+          "lavoro",
+          "pubblico",
+          "voucher",
+          "formativi",
+          "favore",
+          "piccole",
+          "imprese"
+        ],
+        "sectors": [
+          "enti",
+          "pubblici",
+          "privati",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082": {
+      "id": "REG-AUTO-363CB25C2F0D",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "contentHash": "008b9c8c9a6380edb4d756e8cc10e54932154bb6ea45392778b927dfbbcb3c4a",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Formazione",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "formazione",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione",
+          "borsa",
+          "studio",
+          "attività",
+          "ricerca",
+          "offerte",
+          "lavoro",
+          "pubblico",
+          "voucher",
+          "formativi",
+          "favore",
+          "piccole",
+          "imprese",
+          "continua",
+          "avviso"
+        ],
+        "sectors": [
+          "formazione",
+          "scade",
+          "fondazione",
+          "oncologica",
+          "valdostana",
+          "selezione",
+          "borsa",
+          "studio"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi": {
+      "id": "REG-AUTO-47D5D22FCDF6",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
+      "contentHash": "cbfbb9436c47eb6fc6c99afcaa082ed443d6948835a9fc64b9442de8f1796c78",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Non hai trovato quello che cerchi?",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "trovato",
+          "quello",
+          "cerchi",
+          "contenuto",
+          "principale",
+          "autonoma",
+          "valle",
+          "aosta",
+          "région",
+          "autonome",
+          "vallée",
+          "aoste",
+          "italiano",
+          "italia",
+          "français",
+          "france",
+          "cittadini",
+          "prime",
+          "informazioni",
+          "servizi"
+        ],
+        "sectors": [
+          "trovato",
+          "quello",
+          "cerchi",
+          "contenuto",
+          "principale",
+          "autonoma",
+          "valle",
+          "aosta"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Vai al contenuto principale Regione Autonoma Valle d’Aosta - Région Autonome Vallée d’Aoste ITA italiano (Italia) français (France) Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione delle competenze Apprendistato Chiamate Pubbliche Progetti di Inclusione Attiva Voucher di conciliazione vita-lavoro Consigliera di parità Prime informazioni Il Ruolo della Consigliera Rapporto biennale imprese Contatta la Consigliera Valle d'Aosta Lavoro Progetto cofinanziato da: Unione Europea Repubblica Italiana Regione Autonoma Valle d'Aosta Fondo FSE Seguici su Facebook Instagram Linkedin Youtube Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione del"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263": {
+      "id": "REG-AUTO-DBDF4835980E",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "contentHash": "e27606dd13a382a613d136462cab9533ec1f20305b55cbb974960245f20da6b3",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Offerte lavoro pubblico",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "offerte",
+          "lavoro",
+          "pubblico",
+          "scade",
+          "avviso",
+          "selezione",
+          "pubblica",
+          "titoli",
+          "esami",
+          "assunzione",
+          "responsabile",
+          "operativo",
+          "servizi",
+          "amministrativi"
+        ],
+        "sectors": [
+          "offerte",
+          "lavoro",
+          "pubblico",
+          "scade",
+          "avviso",
+          "selezione",
+          "pubblica",
+          "titoli"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "SCADE IL 09/10/2026 APS S.p.a. - Avviso di selezione pubblica, per titoli ed esami, per l'assunzione di n.1 Responsabile Operativo Servizi Amministrativi Offerte lavoro pubblico"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "aps"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent": {
+      "id": "REG-AUTO-F8CE3895F2D6",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "sourceUrl": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
+      "contentHash": "f1ed679dd9bdd9a1a666ca9b095660c828a1fcb8c2dfdaf7dfd3c5020e2b70a1",
+      "version": 1,
+      "firstSeenAt": "2026-09-29T14:58:30+02:00",
+      "lastChangedAt": "2026-09-29T14:58:30+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Vai al contenuto principale",
+        "source": "Regione Valle d'Aosta · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Valle d'Aosta · Bandi",
+          "valle-d-aosta"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contenuto",
+          "principale",
+          "autonoma",
+          "valle",
+          "aosta",
+          "région",
+          "autonome",
+          "vallée",
+          "aoste",
+          "italiano",
+          "italia",
+          "français",
+          "france",
+          "cittadini",
+          "prime",
+          "informazioni",
+          "servizi",
+          "lavoro",
+          "formazione",
+          "giovani"
+        ],
+        "sectors": [
+          "contenuto",
+          "principale",
+          "autonoma",
+          "valle",
+          "aosta",
+          "région",
+          "autonome",
+          "vallée"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "valle-d-aosta"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: valle-d-aosta",
+            "anyOf": [
+              "valle-d-aosta"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Vai al contenuto principale Regione Autonoma Valle d’Aosta - Région Autonome Vallée d’Aoste ITA italiano (Italia) français (France) Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione delle competenze Apprendistato Chiamate Pubbliche Progetti di Inclusione Attiva Voucher di conciliazione vita-lavoro Consigliera di parità Prime informazioni Il Ruolo della Consigliera Rapporto biennale imprese Contatta la Consigliera Valle d'Aosta Lavoro Progetto cofinanziato da: Unione Europea Repubblica Italiana Regione Autonoma Valle d'Aosta Fondo FSE Seguici su Facebook Instagram Linkedin Youtube Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione del"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-29T14:59:01+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-29T07:48:32+02:00",
+  "triageUpdatedAt": "2026-09-29T14:59:01+02:00",
   "triageSummary": {
-    "rulesResolved": 11,
+    "rulesResolved": 10,
     "rulesExcludedForEts": 0,
-    "aiRequired": 11,
-    "notPresent": 38,
+    "aiRequired": 17,
+    "notPresent": 39,
     "ruleVersion": 3
   }
 }
