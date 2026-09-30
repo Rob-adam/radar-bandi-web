@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-30T07:37:43+02:00",
+  "catalogUpdatedAt": "2026-09-30T14:40:24+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1097,7 +1097,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1109,8 +1109,8 @@
       "version": 1,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
       "lastChangedAt": "2026-08-29T14:19:47+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-30T14:39:50+02:00",
       "lastChangeFields": [
         "title",
         "source",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -3044,9 +3044,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3147,7 +3147,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -4416,8 +4416,8 @@
       "version": 112,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-30T07:37:43+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-30T14:39:50+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -4529,8 +4529,8 @@
       "version": 114,
       "firstSeenAt": "2026-09-15T14:34:40+02:00",
       "lastChangedAt": "2026-09-30T07:37:43+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-30T14:39:50+02:00",
       "lastChangeFields": [
         "deadline",
         "discoveryText",
@@ -5097,10 +5097,10 @@
       "id": "RLL12026054423",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
-      "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-      "version": 70,
+      "contentHash": "7192e7c0e8a3d80e2a94fd9f55db9426c99ad8ac0619921e4d3dd2c497276622",
+      "version": 72,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5178,7 +5178,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
-        "discoveryText": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Aperto Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Regione Lombardia sostiene progetti finalizzati al recupero dei mulini storici presenti sul territorio lombardo in quanto espressione del patrimonio storico del paesaggio regionale, riconoscendone la funzione sociale, culturale, identitaria e di valorizzazione territoriale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici, organismi di diritto pubblico, ecomusei riconosciuti e soggetti privati senza fine di lucro (ad esempio, fondazioni, associazioni, istituzioni sociali private, privati persone fisiche) che siano proprietari, titolari o gestori di mulini storici in coerenza con la definizione dell’art. 1, comma 2 della l.r. n. 9 del 4 maggio 2026. Sono escluse le imprese. Sono escluse le amministrazioni statali. Di cosa si tratta Il bando triennale 2026-2028 si prefigge i seguenti obiettivi specifici: migliorare la conservazione dei mulini storici con interventi di manutenzione ordinaria delle strutture e delle parti costitutive; favorire la fruizione dei mulini storici attraverso l’acquisto di strumenti necessari alla loro valorizzazione; favorirne l’accessibilità attraverso l’acquisto, il miglioramento e il completamento di allestimenti per la fruizione degli spazi. Sono ammissibili le seguenti tipologie di attività: Interventi di recupero e di manutenzione delle strutture e delle parti costitutive; Allestimenti e arredi permanenti per migliorare l’esposizione, la conservazione e la fruizione da parte del pubblico del bene oggetto dell’intervento; Acquisto e installazione della strumentazione per favorire l’accessibilità degli spazi; Acquisto di strumentazione idonea alla valorizzazione del bene; Acquisto di hardware e software per potenziare la fruizione di fondi, raccolte e collezioni legati al bene oggetto dell’intervento; Digitalizzazione di beni (con particolare attenzione alla cartografia e alla documentazione storica) collegati al bene oggetto dell’intervento. Dotazione finanziaria Le risorse finanziarie ammontano a € 100.000,00 annui, per una dotazione triennale complessiva pari a € 300.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Sarà valutato caso per caso se i progetti presentati rilevino ai sensi della normativa europea sugli aiuti di Stato. BURL BURL Serie Ordinaria n. 31 del 31 luglio 2026 Come partecipare La domanda di contributo deve essere presentata esclusivamente in forma telematica tramite la piattaforma Bandi e Servizi, dalle ore 10:00 del 21/09/2026 alle ore 16:00 del 14/10/2026, dove è presente la modulistica da utilizzare. Procedura selezione Procedura valutativa a sportello. Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it cultura@pec.regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati Informativa sul Trattamento dei Dati Personali - 31/07/2026 Estratto BURL Serie Ordinaria n. 31 del 31 luglio 2026 | Decreto n. 10159 del 28 luglio 2026 - 31/07/2026 Bando - 31/07/2026"
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Aperto Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Regione Lombardia sostiene progetti finalizzati al recupero dei mulini storici presenti sul territorio lombardo in quanto espressione del patrimonio storico del paesaggio regionale, riconoscendone la funzione sociale, culturale, identitaria e di valorizzazione territoriale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici, organismi di diritto pubblico, ecomusei riconosciuti e soggetti privati senza fine di lucro (ad esempio, fondazioni, associazioni, istituzioni sociali private, privati persone fisiche) che siano proprietari, titolari o gestori di mulini storici in coerenza con la definizione dell’art. 1, comma 2 della l.r. n. 9 del 4 maggio 2026. Sono escluse le imprese. Sono escluse le amministrazioni statali. Di cosa si tratta Il bando triennale 2026-2028 si prefigge i seguenti obiettivi specifici: migliorare la conservazione dei mulini storici con interventi di manutenzione ordinaria delle strutture e delle parti costitutive; favorire la fruizione dei mulini storici attraverso l’acquisto di strumenti necessari alla loro valorizzazione; favorirne l’accessibilità attraverso l’acquisto, il miglioramento e il completamento di allestimenti per la fruizione degli spazi. Sono ammissibili le seguenti tipologie di attività: Interventi di recupero e di manutenzione delle strutture e delle parti costitutive; Allestimenti e arredi permanenti per migliorare l’esposizione, la conservazione e la fruizione da parte del pubblico del bene oggetto dell’intervento; Acquisto e installazione della strumentazione per favorire l’accessibilità degli spazi; Acquisto di strumentazione idonea alla valorizzazione del bene; Acquisto di hardware e software per potenziare la fruizione di fondi, raccolte e collezioni legati al bene oggetto dell’intervento; Digitalizzazione di beni (con particolare attenzione alla cartografia e alla documentazione storica) collegati al bene oggetto dell’intervento. Dotazione finanziaria Le risorse finanziarie ammontano a € 100.000,00 annui, per una dotazione triennale complessiva pari a € 300.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Sarà valutato caso per caso se i progetti presentati rilevino ai sensi della normativa europea sugli aiuti di Stato. BURL BURL Serie Ordinaria n. 31 del 31 luglio 2026 Come partecipare La domanda di contributo deve essere presentata esclusivamente in forma telematica tramite la piattaforma Bandi e Servizi, dalle ore 10:00 del 21/09/2026 alle ore 16:00 del 14/10/2026, dove è presente la modulistica da utilizzare. Procedura selezione Procedura valutativa a sportello. Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it cultura@pec.regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati Informativa sul Trattamento dei Dati Personali - 31/07/2026 Estratto BURL Serie Ordinaria n. 31 del 31 luglio 2026 | Decreto n. 10159 del 28 luglio 2026 - 31/07/2026 Bando - 31/07/2026 FAQ - 30/09/2026 Mostra altri"
       },
       "triage": {
         "status": "ai-required",
@@ -5204,7 +5204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5334,8 +5334,8 @@
       "version": 2,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
       "lastChangedAt": "2026-09-22T18:59:32+02:00",
-      "present": false,
-      "missingSince": "2026-09-24T06:55:28+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -5439,18 +5439,19 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-23T23:32:25+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-09-30T14:39:50+02:00"
     },
     "url:https://www.fondazionecariplo.it/bando/anita-reti-mille": {
       "id": "FC-AUTO-ED155B6967E0",
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5558,7 +5559,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5567,9 +5568,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5665,7 +5666,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5930,9 +5931,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6039,7 +6040,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6048,9 +6049,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6150,7 +6151,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6159,9 +6160,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6260,7 +6261,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6269,9 +6270,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6379,7 +6380,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6388,9 +6389,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6498,7 +6499,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6507,9 +6508,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6617,7 +6618,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6626,9 +6627,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6735,7 +6736,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6744,9 +6745,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6853,7 +6854,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6865,8 +6866,8 @@
       "version": 2,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
       "lastChangedAt": "2026-09-29T14:58:30+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-09-30T14:39:50+02:00",
       "lastChangeFields": [
         "deadline"
       ],
@@ -6981,9 +6982,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-      "version": 12,
+      "version": 14,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7084,7 +7085,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7219,7 +7220,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7354,7 +7355,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7489,7 +7490,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7624,7 +7625,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7755,7 +7756,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7890,7 +7891,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     },
@@ -7899,9 +7900,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-09-30T07:37:43+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8007,17 +8008,246 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T07:37:43+02:00"
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503": {
+      "id": "RLY12026056503",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
+      "contentHash": "4e235b1c648161a7b35696b8debb62b3904be5009389d74e8dd7f80fa85ed3d9",
+      "version": 2,
+      "firstSeenAt": "2026-09-30T14:39:50+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "sourceStatus",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-19",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "manifestazione",
+          "interesse",
+          "manifestazioni",
+          "sottoscrizione",
+          "protocollo",
+          "intesa",
+          "codice",
+          "avviso",
+          "direzione",
+          "generale",
+          "sicurezza",
+          "protezione",
+          "civile",
+          "presentazione",
+          "protocoll"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "manifestazione",
+          "interesse",
+          "manifestazioni",
+          "sottoscrizione",
+          "protocollo"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
+        "sourceStatus": "aperto",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Aperto MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 AVVISO DELLA DIREZIONE GENERALE SICUREZZA E PROTEZIONE CIVILE PER LA PRESENTAZIONE DI MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI (L.R. 4/2025, ART.6) - DESTINATO AGLI ORGANISMI DI COMPOSIZIONE DELLA CRISI (OCC) DI NATURA PUBBLICA CON SEDE LEGALE ED OPERATIVA NEL TERRITORIO LOMBARDO Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I destinatari del presente avviso sono: a) gli OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, di natura pubblica; b) le aggregazioni di OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, il cui capofila deve avere natura pubblica. I destinatari devono avere sede legale e operativa nel territorio della Regione Lombardia alla data di presentazione della manifestazione di interesse. Di cosa si tratta Regione intende erogare contributi agli Organismi di Composizione della Crisi (OCC) del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, per le attività di assistenza, orientamento e consulenza legale e tecnica del soggetto interessato nella fase antecedente l'avvio delle procedure di composizione della crisi da sovraindebitamento e di esdebitazione, anche dell'incapiente, nonché per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. Dotazione finanziaria Per la realizzazione delle suddette finalità Regione riconosce all’OCC capofila un contributo di € 100.000,00 (centomila) per l’anno 2026 e di € 130.000,00 (centotrentamila) per l’anno 2027. Della misura complessiva di € 230.000,00 (duecentotrentamila) , € 30.000 (trentamila) sono destinati per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. BURL - Come partecipare La domanda di partecipazione al bando dovrà essere presentata esclusivamente online attraverso la piattaforma informatizzata Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it. Ai fini della determinazione della data di presentazione della domanda, faranno fede esclusivamente la data e l’ora di potocollo della domanda. La manifestazione di interesse deve, altresì, contenere: Indicazione dell’OCC capofila; Indicazione degli eventuali soggetti aggregati; Indicazione del numero di pratiche gestite nel biennio 2024/2025 in tema di sovraindebitamento dall’OCC o, in caso di aggregazione, dall’OCC capofila. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti La partecipazione alla Manifestazione di Interesse è riservata esclusivamente agli Organismi di Composizione della Crisi (OCC) in possesso dei requisiti previsti dalla manifestazione di interesse. La manifestazione di interesse NON è rivolto a persone fisiche o cittadini. Per informazioni sulle modalità di partecipazione alla Manifestazione di Interesse Per quesiti e richieste di chiarimento relativi ai contenuti del bando, ai requisiti, alle modalità di partecipazione e agli interventi finanziabili è possibile scrivere a: sovraindebitamento@regione.lombardia.it Nell’oggetto della e-mail indicare: “Manifestazione di Interesse per il sovraindebitamento”. Per Assistenza Tecnica sulla piattaforma Bandi e Servizi Per problemi relativi alla compilazione e alla trasmissione della domanda online e, più in generale, per quesiti di natura tecnica riguardanti le procedure informatizzate, è possibile contattare il CALL CENTER dedicato alla gestione tecnica e informatica della Piattaforma “Bandi e Servizi” al seguente Numero verde 800.131.151 Il servizio di CALL CENTER è attivo dal lunedì al sabato, esclusi i festivi , nei seguenti orari: 8.00 – 20.00 per quesiti di ordine tecnico; 8.30 – 17.00 per richieste di assistenza tecnica. Attenzione: il Call Center fornisce assistenza esclusivamente per gli aspetti tecnici relativi alla piattaforma e alla procedura online. Per quesiti relativi ai contenuti del bando è necessario utilizzare l’indirizzo e-mail dedicato sovraindebitamento@regione.lombardia.it Allegati PROTOCOLLO D’INTESA - 24/09/2026 MANIFESTAZIONI DI INTERESSE - 24/09/2026 DELIBERAZIONE N. XII/ 6841 - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 24/09/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823": {
+      "id": "RLAM2026056823",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
+      "contentHash": "b01477b5cbd91ceb964db70deb6cf81d5424672b6c479f6352d41121d9bbdbe1",
+      "version": 2,
+      "firstSeenAt": "2026-09-30T14:39:50+02:00",
+      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI",
+        "source": "Regione Lombardia",
+        "deadline": "2026-11-06",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "geca",
+          "procedura",
+          "aperta",
+          "appalto",
+          "servizio",
+          "assistenza",
+          "codice",
+          "rlam",
+          "durata",
+          "contratto",
+          "mesi",
+          "decorrenti",
+          "sottoscrizione"
+        ],
+        "sectors": [
+          "chiude",
+          "gare",
+          "beni",
+          "servizi",
+          "geca",
+          "procedura",
+          "aperta",
+          "appalto"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
+        "discoveryText": "Bandi / Infrastrutture, Trasporti e Mobilità / Acquisti e contratti pubblici / GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Aperto GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 DURATA DEL CONTRATTO: 36 mesi decorrenti dalla sottoscrizione del contratto. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BD21D6B03A BD21D6C10D Base d'asta lotto 1 € 310.080,00 lotto 2 € 145.920,00 per un totale di € 456.000,00 Di cosa si tratta LOTTO 1 – ASSISTENZA GIURIDICA- CIG BD21D6B03A LOTTO 2 - ASSISTENZA TECNICA ECONOMICA- CIG BD21D6C10D Come partecipare ¿¿¿¿¿¿¿ Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al sito www.ariaspa.it . Per le informazioni di tipo tecnico, si faccia riferimento al documento allegato “ Modalità tecniche per l’utilizzo della piattaforma Sintel ” ed esclusivamente al numero verde del gestore della Piattaforma SINTEL presso ARIA 800.116.738. Informazioni e contatti VALENTINA CONVERTINI - Dirigente Struttura Programmazione Acquisti e Gestione Appalti Allegati DECRETO - 28/09/2026 Atti pubblicazione gara - 29/09/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-09-30T14:40:24+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-30T07:37:43+02:00",
+  "triageUpdatedAt": "2026-09-30T14:40:24+02:00",
   "triageSummary": {
-    "rulesResolved": 10,
+    "rulesResolved": 9,
     "rulesExcludedForEts": 0,
     "aiRequired": 18,
-    "notPresent": 39,
+    "notPresent": 42,
     "ruleVersion": 3
   }
 }

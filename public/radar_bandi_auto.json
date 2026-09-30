@@ -1,5 +1,5 @@
 {
-  "updatedAt": "30/09/2026 07:37",
+  "updatedAt": "30/09/2026 14:40",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -110,11 +110,11 @@
     {
       "source": "Regione Piemonte · Bandi",
       "region": "piemonte",
-      "found": 4,
+      "found": 3,
       "ok": true,
       "directChecked": 5,
-      "directActiveOrProgrammed": 4,
-      "directAdded": 4
+      "directActiveOrProgrammed": 3,
+      "directAdded": 3
     },
     {
       "source": "Regione Abruzzo · Bandi",
@@ -227,7 +227,7 @@
   ],
   "bandiByRegion": {
     "lombardia": 8,
-    "piemonte": 5,
+    "piemonte": 4,
     "valle-d-aosta": 6,
     "toscana": 2,
     "liguria": 1,
@@ -237,96 +237,9 @@
   },
   "errors": [
     "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
-    "Regione Basilicata · Bandi: HTTPSConnectionPool(host='portalebandi.regione.basilicata.it', port=443): Max retries exceeded with url: /PortaleBandi/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='portalebandi.regione.basilicata.it', port=443) at 0x7f949fc3f3e0>, 'Connection to portalebandi.regione.basilicata.it timed out. (connect timeout=30)'))"
+    "Regione Basilicata · Bandi: HTTPSConnectionPool(host='portalebandi.regione.basilicata.it', port=443): Max retries exceeded with url: /PortaleBandi/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='portalebandi.regione.basilicata.it', port=443) at 0x7f60c8049130>, 'Connection to portalebandi.regione.basilicata.it timed out. (connect timeout=30)'))"
   ],
   "bandi": [
-    {
-      "id": "RLM12026055184",
-      "title": "Contenimento della nutria: contributi per Province e Città metropolitana di Milano",
-      "source": "Regione Lombardia",
-      "deadline": "2026-09-30",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "contenimento",
-        "nutria",
-        "contributi",
-        "province",
-        "città",
-        "metropolita",
-        "codice",
-        "favore",
-        "metropolitana",
-        "milano",
-        "interventi",
-        "impiego",
-        "ditte",
-        "special"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "contenimento",
-        "nutria",
-        "contributi",
-        "province",
-        "città"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/fauna-selvatica-caccia/contenimento-nutria-contributi-province-citt-metropolitana-milano-RLM12026055184",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Agricoltura / Fauna selvatica e caccia / Contenimento della nutria: contributi per Province e Città metropolitana di Milano Aperto Contenimento della nutria: contributi per Province e Città metropolitana di Milano Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Contributi a favore delle Province e della Città metropolitana di Milano per interventi di contenimento della nutria con l’impiego di ditte specializzate nel settore o associazioni, anche venatorie. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLM12026055184 Pubblicato il: 07/09/2026 , ore 17:15 Domande dal: 15/09/2026 , ore 10:00 Scade il: 30/09/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il bando è destinato alle Province e alla Città metropolitana di Milano. Di cosa si tratta L’azione è finalizzata all’erogazione nell’anno 2026, tramite bando, di contributi per interventi di contenimento della nutria con l’impiego di ditte specializzate del settore o di associazioni, anche venatorie. Dotazione finanziaria 80.000 euro per l'anno 2026 Caratteristiche dell'agevolazione I progetti potranno essere finanziati al 100% con un contributo a fondo perduto per spese correnti fino a un massimo di euro 80.000,00 per progetto. Ogni richiedente può presentare una sola istanza di partecipazione. Il contributo massimo concedibile è pari a euro 80.000,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n. 37 - Giovedì 10 settembre 2026. Azioni Contenimento della nutria: contributi per Province e Città metropolitana di Milano. Come partecipare La domanda deve essere compilata dal legale rappresentante o suo delegato esclusivamente online esclusivamente tramite la procedura sul sistema informativo Bandi e Servizi, disponibile all’indirizzo www.bandi.regione.lombardia.it allegando il progetto. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti email: comunicazioni_caccia@regione.lombardia.it Numero verde 800.131.151 email: bandi@regione.lombardia.it Allegati (DL) L.R. 20/2002. APPROVAZIONE DEI CRITERI PER FINANZIARE PROGETTI INNOVATIVI DELLE PROVINCE E DELLA CITT¿ METROPOLITANA DI MILANO PER IL CONTENIMENTO DELLA NUTRIA CON L¿IMPIEGO DI DITTE SPECIALIZZATE DEL SETTORE. ANNO 2026 - 03/08/2026 BANDO CONTRIBUTI PER PROGETTI INNOVATIVI PER IL CONTENIMENTO DELLA NUTRIA. ANNO 2026 - 07/09/2026 Informativa sul Trattamento dei Dati Personali - 03/09/2026 Decreto 7 settembre 2026 - n. 11559 - bando contributi - BURL SEO n. 37 di giovedì 10-09-2026 - 10/09/2026 Mostra altri",
-      "tracking": {
-        "contentHash": "dce3d4840e00bd6c701ca72e30621fd7245c234d2e52a790ff4cbc526f588352",
-        "version": 112,
-        "firstSeenAt": "2026-09-15T14:34:40+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
-      "detailFetchOk": true
-    },
     {
       "id": "PIE-AUTO-10A0782FB267",
       "title": "Bando Piemonte e Africa subsahariana Anno 2026",
@@ -418,96 +331,6 @@
       }
     },
     {
-      "id": "PIE-AUTO-176C458EF40D",
-      "title": "Patrimonio linguistico e dialettale del Piemonte - Avviso pubblico di finanziamento - Invito alla presentazione di progetti relativi ad attività di valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte – Anno 2026",
-      "source": "Regione Piemonte · Bandi",
-      "deadline": "2026-09-30",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Piemonte · Bandi",
-        "piemonte"
-      ],
-      "eligibility": [
-        "Requisiti estratti dalla fonte ufficiale e da verificare nel dettaglio"
-      ],
-      "keywords": [
-        "patrimonio",
-        "linguistico",
-        "dialettale",
-        "avviso",
-        "pubblico",
-        "finanziamento",
-        "invito",
-        "presentazione",
-        "progetti",
-        "relativi",
-        "attività",
-        "valorizzazione",
-        "promozione",
-        "anno",
-        "bandi",
-        "salta",
-        "contenuto",
-        "principale",
-        "istituzione",
-        "appartenenza"
-      ],
-      "sectors": [
-        "patrimonio",
-        "linguistico",
-        "dialettale",
-        "avviso",
-        "pubblico",
-        "finanziamento",
-        "invito",
-        "presentazione"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "piemonte"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: piemonte",
-          "anyOf": [
-            "piemonte"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/patrimonio-linguistico-dialettale-piemonte-avviso-pubblico-finanziamento-invito-alla-presentazione",
-      "sourceStatus": "aperto",
-      "autoDiscovered": true,
-      "discoveryText": "Patrimonio linguistico e dialettale del Piemonte - Avviso pubblico di finanziamento - Invito alla presentazione di progetti relativi ad attività di valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte – Anno 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Patrimonio linguistico e dialettale del Piemonte - Avviso pubblico di finanziamento - Invito alla presentazione di progetti relativi ad attività di valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte – Anno 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Invito alla presentazione di progetti relativi ad attività di valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte. Anno 2026. Domande dal Mar, 01/09/2026 - 09:00 Scadenza Mer, 30/09/2026 - 12:00 Temi Cultura Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso La l.r. 11/2018 stabilisce che per la realizzazione degli interventi, delle attività e delle iniziative in materia di cultura, la Regione può assegnare contributi a favore degli enti organizzatori e realizzatori con procedure di evidenza pubblica, che consentono una valutazione oggettiva degli elementi di quantità e qualità. Ai sensi dell’art. 6 della l.r. 11/2018, con deliberazione Deliberazione n. 89 - 13551 del 17 Giugno 2025, il Consiglio regionale il Consiglio Regionale ha approvato il Programma triennale della cultura, definito quale strumento per la programmazione degli interventi della Regione in materia di beni e attività culturali. Con riferimento alla valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte, il Programma triennale della cultura ha previsto l’attivazione di un bando annuale ai sensi degli artt. 38 e 38 bis della Legge regionale 11/2018 relativo a iniziative di valorizzazione e promozione del patrimonio linguistico e dialettale del Piemonte per l’anno 2026. Chi può partecipare - Enti non lucrativi di diritto privato, quali, a titolo esemplificativo e non esaustivo: Associazioni di Promozione Sociale, Organizzazioni di Volontariato, Associazioni riconosciute, Associazioni non riconosciute, Fondazioni, Imprese sociali (incluse le Cooperative sociali) e tutte le tipologie di ETS – Ente del Terzo Settore – di cui al decreto legislativo 117/2017 e s.m.i. “Codice del terzo settore”. - Enti Locali e altre Pubbliche Amministrazioni Dotazione finanziaria Per l’anno 2026 lo stanziamento ammonta a complessivi Euro 80.000,00. Come presentare domanda L’istanza deve essere presentata, a pena di inammissibilità, dal legale rappresentante o da suo delegato, perentoriamente nel periodo sopraindicato tramite Servizionline Bandi Piemonte. FINanziamenti DOMande all’indirizzo web: https://servizi.regione.piemonte.it/catalogo/bandi-cultura-turismo-sport-finanziamenti-domande seguendo le istruzioni contenute nelle “Regole di compilazione” e nel Manuale utente presente sulla destra della pagina Web sopra indicata. Per accedere a Servizionline, il richiedente deve autenticarsi tramite Certificato di Autenticazione o SPID - Sistema Pubblico di Identità Digitale secondo le modalità indicate nella pagina sopra indicata alla sezione “Presentazione”. Se non si dispone del Certificato di Autenticazione o SPID consultare la pagina “Come accedere ai servizi” all’indirizzo: https://servizi.regione.piemonte.it/come-accedere-ai-servizi Struttura di riferimento Direzione Cultura, Turismo, Sport e Commercio – Settore Promozione delle Attività culturali Contatti Paolo Fiore tel. 011 432 2361 – e-mail: paolo.fiore@regione.piemonte.it Bruna Margherita tel. 011 432 2808 – e-mail: bruna.margherita@regione.piemonte.it Allegato testo procedura Avviso patrimonio linguistico e dialettale del Piemonte 2026 Documento PDF - 185.14 KB DD 377/A2003D/2026 Approvazione Avviso Patrimonio linguistico e dialettale 2026 Documento PDF - 401.62 KB Altri link Programma Triennale della Cultura 2025-2027 DD 75/A2000C del 19.02.2026 Disposizioni presentazione dell'istanza, rendiconta… DD 94/A2000C del 26.02.2026 Riordino delle modalità di svolgimento dei controll… Menu strumenti Agevolazioni imprese Bandi Enti Locali Bollettino Ufficiale Osservatorio lavori pubblici SCR Finpiemonte Contatti Sede Istituzionale Piazza Piemonte 1 Torino 011 432 1111 (Centralino) Partita Iva 02843860012 Codice fiscale 80087670016 URP Via Arsenale 14/G, Torino tel. 011-4321647 fax 011-4323683 urp@regione.piemonte.it Call Center Numero verde da fisso 800 333 444 da cellulare ed estero 011 08 24 222 dal lunedì al venerdì dalle ore 8:00 alle 18:00 Impostazione cookie seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Menu footer Dichiarazione di accessibilità Note legali e privacy Cookie policy Loghi ufficiali Redazione e feedback Posta elettronica certificata Intranet Tutti Contributi e finanziamenti Gare d'appalto Nomine Concorsi, incarichi e stage Avvisi pubblici e per beni regionali",
-      "discoveryMethod": "official-direct-watch",
-      "tracking": {
-        "contentHash": "ed4cf7b9afb186ded7a8cf84c71f7e76d303a94ff08b1b774f1fcb94e17a14d9",
-        "version": 1,
-        "firstSeenAt": "2026-08-29T14:19:47+02:00",
-        "lastChangedAt": "2026-08-29T14:19:47+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-resolved",
-        "triageRuleVersion": 3,
-        "audienceScope": "ets-specific",
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true,
-        "excludedForEts": false
-      }
-    },
-    {
       "id": "RLD12025045643",
       "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
       "source": "Regione Lombardia",
@@ -577,9 +400,9 @@
       "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Aperto NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Misura Nidi gratis plus 2025/2026. Apertura straordinaria della finestra di rendicontazione dal 29 settembre 2026 h.12.00 al 2 ottobre 2026 h.12. 00. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il soggetto destinatario della Misura è il genitore che presenta la domanda di adesione, compresi i genitori adottivi e affidatari. In particolare, alla data della presentazione della domanda, il nucleo familiare del genitore che presenta domanda di adesione deve essere in possesso dei seguenti requisiti: figli iscritti a nidi e micro-nidi pubblici e/o privati indicati dai Comuni e ammessi alla Misura “Nidi Gratis Plus 2025/2026”; Attestazione ISEE minorenni protocollata dell’indicatore della situazione economica equivalente in corso di validità - sulla base della normativa ISEE (D.P.C.M. 05 dicembre 2013, n. 159) – inferiore o uguale a 25.000,00; retta mensile a carico dei genitori superiore all'importo rimborsabile da INPS, pari a € 272,73 per le prime 10 mensilità e 272,70 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,30 per l’undicesima, nei casi previsti dalla misura nazionale. Di cosa si tratta L'iniziativa regionale garantisce l’abbattimento delle rette di frequenza degli asili nido pubblici e privati autorizzati convenzionati in favore dei nuclei familiari con ISEE Minorenni fino a 25.000 euro . L’intervento regionale è a copertura della quota di retta mensile che eccede l’importo rimborsabile da INPS (pari a € 272,73 per le prime 10 mensilità e 272,30 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,70 per l’undicesima nei casi previsti dalla misura nazionale), per la fascia ISEE fino ad euro 25.000,00 secondo le seguenti modalità: per le famiglie con ISEE minorenni 0 - 20.000,00 l’intervento regionale c opre l’intera quota di retta mensile che eccede l’importo rimborsabile da INPS; per le famiglie con ISEE minorenni 20.000,01 - 25.000,00 l’intervento regionale copre la quota di retta mensile che eccede l’importo rimborsabile da INPS fino ad un contributo pubblico massimo di 100,00 euro mensili . La domanda deve essere presentata dal genitore, anche affidatario, per i figli fino ai 3 anni che frequentano nidi e micro-nido pubblici e/o posti acquistati in convenzione dai Comuni (in forma singola o associata) presso strutture private autorizzate. L’elenco dei Comuni ammessi alla misura con le relative strutture e/o posti in convezione è disponibile a fondo pagina. Il contributo viene erogato direttamente ai Comuni. La famiglia non è tenuta al pagamento delle rette per la frequenza del bambino al nido per la quota di retta mensile eccedente l’importo riconosciuto da Inps e secondo i massimali sotto dettagliati secondo la fascia Isee di appartenenza, a partire già dal mese di settembre. Dotazione finanziaria 20000000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 19 del 19/9/22025 Serie ordinaria n. 43 del 24/10/2025 Azioni La Misura esclude espressamente il pagamento da parte delle famiglie per la frequenzadei nidi e micro-nidi della quota di retta mensile aggiuntiva rispetto all’importo rimborsabile da INPS. Come partecipare I destinatari possono presentare la domanda di adesione alla Misura Nidi Gratis Plus 2025/2026 a partire da lunedì 27 ottobre 2025, ore 12.00 fino a giovedì 20 novembre 2025, ore 12.00 (riapertura strordinaria dal 3 all'11 dicembre 2025 ore 12) e comunque nel rispetto della dotazione finanziaria, esclusivamente attraverso il sistema informativo Bandi e Servizi. Le domande possono essere presentate da uno dei genitori previa registrazione in Bandi e Servizi, esclusivamente attraverso il sistema pubblico di identità digitale (SPID), la Carta Regionale dei Servizi (CRS) o Carta Nazionale dei Servizi (CNS), la Carta di Identità Elettronica (CIE) Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi chiarimento o informazione in merito all’Avviso è possibile rivolgersi a: nidigratisplusfamiglie@regione.lombardia.it numero unico 02.67653333 (attivo dalle ore 9.30 alle ore 12.30 dalle ore 14.30 alle ore 16.30 da lunedì a giovedì - dalle ore 9.30 alle ore 12.30 di venerdì) Call Center di Regione Lombardia 800.318.318 digitando 1 . Per richiedere assistenza tecnica in fase di compilazione: numero verde 800 131 151 (sempre gratuito) scrivere a bandi@regione.lombardia.it . Per informazioni e contatti e in caso di smarrimento, furto o mancata consegna della Carta Regionale dei Servizi o per avere maggiori informazioni sui servizi abilitati è attivo il Numero Verde 800.030.606 . Allegati FAQ NIDI GRATIS PLUS 25_26 - 11/02/2026 D. d. u. o. 14807 del 22 ottobre 2025 - Approvazione Avviso Famiglie - 22/10/2025 Allegato A - D. d. u. o. 14807 del 22 ottobre 2025 - Avviso - 22/10/2025 Elenco strutture ammesse - 22/10/2025 Faq - Avviso Famiglie - 22/10/2025 Manuale di adesione - Avviso Famiglie - 06/11/2025 DDUO 16211 del 13/11/2025 - 17/11/2025 DDUO 16211 del 13/11/2025 - Allegato A - 17/11/2025 DDUO 17340 del 28/11/2025 - Riapertura Nidi Gratis Plus 2025/2026 - 28/11/2025 Registro presenze - 28/11/2025 DDUO n. 17615 del 2.12.25 e relativo allegato - 04/12/2025 Registro presenze xls - 15/12/2025 DDUO 18483 del 15/12/2025 - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato A - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato B - 16/12/2025 DDUO 194 del 13/01/2026 - Posticipo data prima rendicontazione - 15/01/2026 DDUO 345/2025 - IV PROVVEDIMENTO ESITI ISTRUTTORI - 16/01/2026 ALLEGATO A IV DDUO - AMMESSE - 16/01/2026 ALLEGATO B IV DDUO - NON AMMESSE - 16/01/2026 DDUO 690/2026 - V PROVVEDIMENTO ESITI ISTRUTTORI - 26/01/2026 ALLEGATO A V DDUO - AMMESSE - 26/01/2026 ALLEGATO B V DDUO - NON AMMESSE - 26/01/2026 DDUO 2186 del 20/02/26 - VI provvedimento - 04/03/2026 ALLEGATO A VI provvedimento - 04/03/2026 DDUO 2778 del 4/03/2026 - VII provvedimento - 04/03/2026 ALLEGATO A - VII provvedimento - 04/03/2026 DDUO 4540 del 2026 - Aggiornamento periodi rendicontazione - 13/04/2026 DDUO 690 del 230126 V PROVVEDIMENTO e allegati - 21/05/2026 DDUO 6544_2026 - 22/05/2026 ALLEGATO A VIII provvedimento - 22/05/2026 DDUO 6822 del 22/05/2026 - 25/05/2026 ALLEGATO A - IX PROVVEDIMENTO - 25/05/2026 DDUO 8000 del 17/06/26 - 18/06/2026 Allegato A - X provvedimento - 18/06/2026 DDUO 4540 del 9/4/26 AGGIORNAMENTO PERIODI RENDICONTAZIONE - 09/04/2026 D.d.u.o. n. 12586 del 28/09/2026 - Apertura straordinaria - 28/09/2026 Mostra altri Comunicazioni correlate 12/08/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni III finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla terza finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 21/07/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni II finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla seconda finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 03/04/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni I finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla prima finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 01/12/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la presentazione delle domande da parte delle famiglie Regione Lombardia ha approvato, con decreto n. 17340 del 28 novembre 2025, la riapertura della finestra per la presentazione delle domande di adesione da parte delle famiglie alla Misura Nidi Grati... Vedi dettaglio 23/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Erogazione anticipo Comuni Approvati i primi decreti per l'impegno e la liquidazione della quota di anticipo ai Comuni che ne hanno fatto richiesta. I decreti in oggetto sono i seguenti: n. 13885 del 8/10/25; n. 14232 del 13... Vedi dettaglio 21/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la richiesta di anticipo ai Comuni Regione Lombardia ha approvato, con decreto n. 14674 del 20 ottobre 2025, la riapertura della finestra per la richiesta di anticipo ai Comuni. I Comuni interessati potranno presentare domanda dalle... Vedi dettaglio Vedi tutte",
       "tracking": {
         "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
-        "version": 62,
+        "version": 64,
         "firstSeenAt": "2026-09-08T14:36:23+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -589,7 +412,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -668,9 +491,9 @@
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Aperto Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istanze di adesione al monitoraggio Procedura riservata ai soggetti già riconosciuti di rilevanza regionale nel 2026 che sono tenuti a partecipare al monitoraggio per il mantenimento del riconoscimento. Nuove richieste di riconoscimento Come previsto dall’art. 7 comma 2 della l.r. 25/2016, i requisiti generali per l’individuazione dei soggetti di rilevanza regionale sono: previsione nello statuto o nell’atto costitutivo della finalità di promozione educativa culturale attività svolta prevalentemente in Lombardia svolgimento di una documentata attività di elevato interesse culturale , anche con valenza di carattere educativo Ulteriori requisiti specifici di ammissibilità dei soggetti: soggetti di diritto privato senza scopo di lucro che operano con continuità e professionalità sul territorio lombardo e che propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale cinque anni di attività continuativa nel settore della promozione educativa culturale anche con altra denominazione e / o natura giuridica presenza di personale organizzativo, amministrativo e/o tecnico regolarmente retribuito totale dei costi annuali a bilancio uguale o superiore a euro 100.000 per l’anno 2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Di cosa si tratta Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno, nonché per l'elevato livello qualitativo. Regione Lombardia, con questo provvedimento, intende proseguire nella valorizzazione del ruolo dei soggetti che si distinguono per l’organizzazione di specifiche attività di promozione educativa culturale: Festival di letteratura e di poesia, di divulgazione scientifica, di filosofia, di arte contemporanea Iniziative/eventi di valorizzazione e di promozione dei beni culturali Iniziative di promozione culturale in contesti non usuali Quando Le stanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. Cosa serve I stanze di adesione al monitoraggio L’istanza di adesione al monitoraggio deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di istanza di adesione al monitoraggio per il mantenimento del riconoscimento Atto di delega di firma, se il firmatario non coincide con il legale rappresentante Copia dello statuto vigente SOLO se lo statuto è stato modificato successivamente al riconoscimento del 2026 Copia del Bilancio approvato riferito all’anno 2025 Nuove richieste di riconoscimento La domanda deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di richiesta di riconoscimento Atto di delega di firma se il firmatario non coincide con il legale rappresentante Copia dell’atto costitutivo e dello statuto vigenti Copia dei Bilanci approvati riferiti agli anni 2021, 2022, 2023, 2024 e 2025 Relazione attività 2021-2025 Scheda conti economici 2021-2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Dotazione finanziaria Il provvedimento non ha riflessi di natura finanziaria. Caratteristiche dell'agevolazione Il riconoscimento avrà validità quadriennale per i soggetti riconosciuti nel 2025, triennale per i soggetti riconosciuti nel 2026 e biennale per i soggetti riconosciuti nel 2027. Ogni anno successivo al primo, sarà verificato il mantenimento dei requisiti che hanno consentito a Regione Lombardia il riconoscimento di rilevanza regionale e sarà anche possibile inviare nuove istanze per l’attribuzione di nuovi riconoscimenti. Qualora un soggetto riconosciuto, a seguito di monitoraggio, non risulti più in possesso di uno o più requisiti, si stabilirà la decadenza del riconoscimento regionale. La richiesta di riconoscimento è relativa al settore Promozione educativa culturale e non al settore Spettacolo. Regime di Aiuto di Stato - Come partecipare Le istanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. I soggetti già riconosciuti di rilevanza regionale nel 2026 non dovranno presentare una nuova richiesta di riconoscimento, ma, in Bandi e Servizi, dovranno entrare nella domanda già presentata nel 2025 o nel 2026, prendere in carico la pratica e avviare il monitoraggio . La mancata osservanza delle modalità di presentazione e il mancato caricamento elettronico dei documenti costituirà causa di inammissibilità della richiesta. Procedura selezione Procedura valutativa Informazioni e contatti Per informazioni riferite al bando : e-mail: legge25promozione@regione.lombardia.it Rosanna Coviello: tel. 02 67652729 Alessandra Cattadori: tel. 02 67652620 Pietro Balzarini: tel. 02 6765.2635 Per assistenza alla compilazione on-line e quesiti di ordine tecnico sulle procedure informatizzate: Call Center di Aria S.p.A. numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica). e-mail: bandi@regione.lombardia.it Allegati Estratto BURL - SO 38 del 17/09/2026 | Decreto n. 11818 -11/09/2026 - 17/09/2026 Comunicazioni correlate Enti e operatori 13/01/2026 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2026 Con decreto n. 216 del 13 gennaio 2026 sono stati approvati gli esiti istruttori del «Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozio... Vedi dettaglio Enti e operatori 30/12/2024 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2025 Con Decreto n. 20382 del 19 dicembre 2024, pubblicato sul BURL Serie Ordinaria n. 52 del 27 dicembre 2024, sono stati approvazione gli esiti del «Bando per l’individuazione dei soggetti che svolgon... Vedi dettaglio",
       "tracking": {
         "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-        "version": 64,
+        "version": 66,
         "firstSeenAt": "2026-09-22T13:42:44+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -679,7 +502,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -754,12 +577,12 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Aperto Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Regione Lombardia sostiene progetti finalizzati al recupero dei mulini storici presenti sul territorio lombardo in quanto espressione del patrimonio storico del paesaggio regionale, riconoscendone la funzione sociale, culturale, identitaria e di valorizzazione territoriale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici, organismi di diritto pubblico, ecomusei riconosciuti e soggetti privati senza fine di lucro (ad esempio, fondazioni, associazioni, istituzioni sociali private, privati persone fisiche) che siano proprietari, titolari o gestori di mulini storici in coerenza con la definizione dell’art. 1, comma 2 della l.r. n. 9 del 4 maggio 2026. Sono escluse le imprese. Sono escluse le amministrazioni statali. Di cosa si tratta Il bando triennale 2026-2028 si prefigge i seguenti obiettivi specifici: migliorare la conservazione dei mulini storici con interventi di manutenzione ordinaria delle strutture e delle parti costitutive; favorire la fruizione dei mulini storici attraverso l’acquisto di strumenti necessari alla loro valorizzazione; favorirne l’accessibilità attraverso l’acquisto, il miglioramento e il completamento di allestimenti per la fruizione degli spazi. Sono ammissibili le seguenti tipologie di attività: Interventi di recupero e di manutenzione delle strutture e delle parti costitutive; Allestimenti e arredi permanenti per migliorare l’esposizione, la conservazione e la fruizione da parte del pubblico del bene oggetto dell’intervento; Acquisto e installazione della strumentazione per favorire l’accessibilità degli spazi; Acquisto di strumentazione idonea alla valorizzazione del bene; Acquisto di hardware e software per potenziare la fruizione di fondi, raccolte e collezioni legati al bene oggetto dell’intervento; Digitalizzazione di beni (con particolare attenzione alla cartografia e alla documentazione storica) collegati al bene oggetto dell’intervento. Dotazione finanziaria Le risorse finanziarie ammontano a € 100.000,00 annui, per una dotazione triennale complessiva pari a € 300.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Sarà valutato caso per caso se i progetti presentati rilevino ai sensi della normativa europea sugli aiuti di Stato. BURL BURL Serie Ordinaria n. 31 del 31 luglio 2026 Come partecipare La domanda di contributo deve essere presentata esclusivamente in forma telematica tramite la piattaforma Bandi e Servizi, dalle ore 10:00 del 21/09/2026 alle ore 16:00 del 14/10/2026, dove è presente la modulistica da utilizzare. Procedura selezione Procedura valutativa a sportello. Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it cultura@pec.regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati Informativa sul Trattamento dei Dati Personali - 31/07/2026 Estratto BURL Serie Ordinaria n. 31 del 31 luglio 2026 | Decreto n. 10159 del 28 luglio 2026 - 31/07/2026 Bando - 31/07/2026",
+      "discoveryText": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Aperto Bando a sostegno degli investimenti per il recupero dei mulini storici della Lombardia in attuazione della l.r. n.9/2026 – Triennio 2026-2028 Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Regione Lombardia sostiene progetti finalizzati al recupero dei mulini storici presenti sul territorio lombardo in quanto espressione del patrimonio storico del paesaggio regionale, riconoscendone la funzione sociale, culturale, identitaria e di valorizzazione territoriale. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054423 Pubblicato il: 31/07/2026 , ore 09:12 Domande dal: 21/09/2026 , ore 10:00 Scade il: 14/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici, organismi di diritto pubblico, ecomusei riconosciuti e soggetti privati senza fine di lucro (ad esempio, fondazioni, associazioni, istituzioni sociali private, privati persone fisiche) che siano proprietari, titolari o gestori di mulini storici in coerenza con la definizione dell’art. 1, comma 2 della l.r. n. 9 del 4 maggio 2026. Sono escluse le imprese. Sono escluse le amministrazioni statali. Di cosa si tratta Il bando triennale 2026-2028 si prefigge i seguenti obiettivi specifici: migliorare la conservazione dei mulini storici con interventi di manutenzione ordinaria delle strutture e delle parti costitutive; favorire la fruizione dei mulini storici attraverso l’acquisto di strumenti necessari alla loro valorizzazione; favorirne l’accessibilità attraverso l’acquisto, il miglioramento e il completamento di allestimenti per la fruizione degli spazi. Sono ammissibili le seguenti tipologie di attività: Interventi di recupero e di manutenzione delle strutture e delle parti costitutive; Allestimenti e arredi permanenti per migliorare l’esposizione, la conservazione e la fruizione da parte del pubblico del bene oggetto dell’intervento; Acquisto e installazione della strumentazione per favorire l’accessibilità degli spazi; Acquisto di strumentazione idonea alla valorizzazione del bene; Acquisto di hardware e software per potenziare la fruizione di fondi, raccolte e collezioni legati al bene oggetto dell’intervento; Digitalizzazione di beni (con particolare attenzione alla cartografia e alla documentazione storica) collegati al bene oggetto dell’intervento. Dotazione finanziaria Le risorse finanziarie ammontano a € 100.000,00 annui, per una dotazione triennale complessiva pari a € 300.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Regime di Aiuto di Stato Sarà valutato caso per caso se i progetti presentati rilevino ai sensi della normativa europea sugli aiuti di Stato. BURL BURL Serie Ordinaria n. 31 del 31 luglio 2026 Come partecipare La domanda di contributo deve essere presentata esclusivamente in forma telematica tramite la piattaforma Bandi e Servizi, dalle ore 10:00 del 21/09/2026 alle ore 16:00 del 14/10/2026, dove è presente la modulistica da utilizzare. Procedura selezione Procedura valutativa a sportello. Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it cultura@pec.regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati Informativa sul Trattamento dei Dati Personali - 31/07/2026 Estratto BURL Serie Ordinaria n. 31 del 31 luglio 2026 | Decreto n. 10159 del 28 luglio 2026 - 31/07/2026 Bando - 31/07/2026 FAQ - 30/09/2026 Mostra altri",
       "tracking": {
-        "contentHash": "a33b1e94fbcecf19fc7dfef0872b52170a96a704cf823b4fde50528055a027e9",
-        "version": 70,
+        "contentHash": "7192e7c0e8a3d80e2a94fd9f55db9426c99ad8ac0619921e4d3dd2c497276622",
+        "version": 72,
         "firstSeenAt": "2026-09-21T14:53:14+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -768,103 +591,14 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
-      "id": "PIE-AUTO-0741B71D9B32",
-      "title": "Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale",
-      "source": "Regione Piemonte · Bandi",
-      "deadline": "2026-10-19",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Piemonte · Bandi",
-        "piemonte"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "ricerca",
-        "partner",
-        "progettazione",
-        "gestione",
-        "interventi",
-        "promozione",
-        "attività",
-        "contrasto",
-        "abbandono",
-        "sociale",
-        "bandi",
-        "piemonte",
-        "salta",
-        "contenuto",
-        "principale",
-        "istituzione",
-        "appartenenza",
-        "seguici",
-        "twitter",
-        "facebook"
-      ],
-      "sectors": [
-        "ricerca",
-        "partner",
-        "progettazione",
-        "gestione",
-        "interventi",
-        "promozione",
-        "attività",
-        "contrasto"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "piemonte"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: piemonte",
-          "anyOf": [
-            "piemonte"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/ricerca-partner-co-progettazione-gestione-interventi-promozione-attivita-contrasto-allabbandono",
-      "autoDiscovered": true,
-      "discoveryText": "Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Ricerca partner per co-progettazione e gestione di interventi di promozione di attività di contrasto all'abbandono sociale Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Procedura comparativa finalizzata all’individuazione di Enti del Terzo Settore (ETS) per la co-progettazione e gestione di un intervento avente ad oggetto azioni di valorizzazione delle esperienze attive che operano nell'ambito dell'ascolto quale forma di contrasto all'abbandono sociale Domande d",
-      "sourceStatus": "aperto",
-      "tracking": {
-        "contentHash": "e32aaccc7492fc1be24e9dc5fad47609a9d76f5fe34c588b300464ecbbb26488",
-        "version": 2,
-        "firstSeenAt": "2026-09-28T16:01:35+02:00",
-        "lastChangedAt": "2026-09-29T14:58:30+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-resolved",
-        "triageRuleVersion": 3,
-        "audienceScope": "ets-specific",
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true,
-        "excludedForEts": false
-      }
-    },
-    {
-      "id": "RLL12026054464",
-      "title": "AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027”",
+      "id": "RLY12026056503",
+      "title": "MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI",
       "source": "Regione Lombardia",
-      "deadline": "2026-07-30",
+      "deadline": "2026-10-19",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -877,36 +611,34 @@
         "Requisiti da verificare nella fonte ufficiale"
       ],
       "keywords": [
+        "enti",
+        "operatori",
         "chiude",
-        "avviso",
-        "pubblico",
-        "selezione",
-        "soggetti",
-        "linea",
-        "nell",
-        "ambito",
+        "manifestazione",
+        "interesse",
+        "manifestazioni",
+        "sottoscrizione",
+        "protocollo",
+        "intesa",
         "codice",
-        "progetto",
-        "futura",
-        "spettacolo",
-        "lombardia",
-        "precedentemente",
-        "denominato",
-        "next",
-        "laboratorio",
-        "idee",
-        "produzione",
-        "programmazione"
+        "avviso",
+        "direzione",
+        "generale",
+        "sicurezza",
+        "protezione",
+        "civile",
+        "presentazione",
+        "protocoll"
       ],
       "sectors": [
+        "enti",
+        "operatori",
         "chiude",
-        "avviso",
-        "pubblico",
-        "selezione",
-        "soggetti",
-        "linea",
-        "nell",
-        "ambito"
+        "manifestazione",
+        "interesse",
+        "manifestazioni",
+        "sottoscrizione",
+        "protocollo"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -931,14 +663,14 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/avviso-pubblico-selezione-soggetti-linea-d-ambito-progetto-futura-spettacolo-lombardia-annualita-2026-2027-RLL12026054464",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Aperto AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Il progetto “Futura – Lo spettacolo in Lombardia” (precedentemente denominato “Next – Laboratorio delle idee per la produzione e programmazione dello spettacolo lombardo – Annualità 2026 e 2027”) è promosso da Regione Lombardia – D.G. Cultura, con la collaborazione di AGIS Lombarda in qualità di ente attuatore, al fine di incentivare la produzione e la distribuzione di spettacoli e sostenere la programmazione delle sedi di spettacolo sul territorio. Il presente Bando si occupa della linea D.Sostegno alla circuitazione regionale e internazionale delle compagnie di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo e multidisciplinare. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054464 Pubblicato il: 22/06/2026 , ore 09:47 Domande dal: 15/09/2026 , ore 10:00 Scade il: 21/10/2026 , ore 16:30 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “Futura – Lo spettacolo in Lombardia”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale. I requisiti generali per la linea D sono i seguenti: essere organismi di produzione professionali legalmente costituiti (atto costitutivo e statuto) ed essere in possesso di Partita IVA; avere sede legale in Lombardia; essere in possesso di agibilità INPS in corso di validità e con titolarità dei permessi SIAE; essere in regola con le contribuzioni fiscali e previdenziali e ottemperare gli obblighi dei CCNL; non avere previsione di finalità di lucro oppure avere l’obbligo di reinvestire gli utili nell’attività, come previsto nello statuto o nell’atto costitutivo; svolgere attività continuativa di produzione nel settore di prosa, teatro per l’infanzia e la gioventù, danza contemporanea, circo contemporaneo o multidisciplinare, da almeno 2 anni; aver prodotto almeno uno spettacolo presente nel catalogo di Next edizione 2022/2023, edizione 2023/2024, edizione 2024/2025 o edizione 2025/2026 (consultabile sulla piattaforma nextlaboratoriodelleidee.it). Sono inoltre previsti specifici requisiti ed esclusioni a seconda dell’ambito di sostegno. Di cosa si tratta Per la linea D saranno sostenute le compagnie nella distribuzione di propri spettacoli, nell’ambito del progetto “ Futura – Lo spettacolo in Lombardia ”. Sono previsti due ambiti di sostegno: per la circuitazione sul territorio lombardo e per la circuitazione internazionale . Si intende, da un lato, incentivare la fruizione e la partecipazione delle comunità locali e favorire la promozione di territori svantaggiati sul versante dell’offerta culturale in Lombardia e, dall’altro, supportare il processo di internazionalizzazione dei soggetti professionali di spettacolo. Il c o n tri bu t o v errà a t tri bu ito c o n p r o c ed u ra a s p o r t ell o con valutazione , fi n o a esaur i m e n to d elle ri s o rse d is p o n i b ili. Quando Sono previste due fasi di apertura dello sportello relativo al sostegno della circuitazione internazionale degli spettacoli: prima fase di apertura a p artire d al 30 giugno 2026 o r e 10 . 0 0 ed entro il 30 luglio 2026 ore 16.30 ; nella seconda fase di apertura a p artire d al 15 settembre 2026 o r e 10 . 0 0 ed entro il 21 ottobre 2026 ore 16.30 . In coincidenza con l’apertura sarà comunicata la disponibilità di risorse a disposizione, detratti gli importi dei contributi già assegnati nella prima fase di apertura. In entrambe le fasi di apertura possono presentare domanda di contributo tutti i soggetti in possesso dei requisiti previsti. Dotazione finanziaria € 390.000 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL BURL Serie Ordinaria n. 26 del 22 giugno 2026 Come partecipare L a do m a nd a d i p artecipa z i o n e al b a nd o do v rà e s sere p res e n tata, p ena la n o n a m m issi b ilità, d al So gg e t t o ric h ie d ente obb l i g a t o ri a me n te i n f o r ma tel e mati ca , p er m ez z o d ella p iattaf o r m a Ba nd i e Servizi . Procedura selezione Il contributo verrà attribuito con procedura a sportello con valutazione, fino a esaurimento delle risorse disponibili. Informazioni e contatti Per informazioni riferite al bando: Direzione Generale Cultura – Struttura Attività Performative Multidisciplinari, Cinema ed Eventi e-mail: spettacoloedeventi@regione.lombardia.it Per progetti di Teatro : Martina Bolognini tel. 02 6765.4823 Luigi Gargiulo tel. 02.6765.5914 Marianna Cairo tel. 02 6765.2843 Per progetti di Danza, Multidisciplinare e Circo contemporaneo : Elisa Piria tel. 02 6765.3362 Barbara Rosenberg tel. 02 6765.6312 Antonella Gradellini tel.02 6765.0710 Per informazioni sulla procedura on line : N° verde 800.131.151 e-mail: bandi@regione.lombardia.it Allegati Bando | decreto n. 8070 del 18 giugno 2026 - 22/06/2026 Delibera 9 marzo 2026 n. 5824 - 09/03/2026 Primo provvedimento esiti - D.d.s. 31/07/2026, n. 10444 - 31/07/2026 Secondo provvedimento esiti con allegati - D.d.s. n. 12373 del 23.09.26 - 23/09/2026 Scheda progetto - circuitazione regionale - 18/06/2026 Scheda progetto - circuitazione internazionale - 18/06/2026 Scheda budget - circuitazione regionale - 18/06/2026 Scheda budget - circuitazione internazionale - 18/06/2026 Scheda di circuitazione regionale - 18/06/2026 Scheda di circuitazione internazionale - 18/06/2026 Dichiarazione Statuto - 18/06/2026 Dichiarazione IVA e ritenuta - 18/06/2026 Dichiarazione bilancio - 18/06/2026 Mostra altri Comunicazioni correlate 23/09/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Secondo provvedimento esiti Con d.d.s. 23/09/2026, n. 12373, è stato approvato il secondo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Fu... Vedi dettaglio 31/07/2026 Bando Servizio: AVVISO PUBBLICO PER LA SELEZIONE DEI SOGGETTI DELLA LINEA D NELL’AMBITO DEL PROGETTO “FUTURA - LO SPETTACOLO IN LOMBARDIA – ANNUALITA’ 2026 E 2027” Primo provvedimento esiti Con d.d.s. 31/07/2026, n. 10444, è stato approvato il primo provvedimento relativo agli esiti relativo all'Avviso pubblico per la selezione dei soggetti della linea D nell’ambito del progetto “Futu... Vedi dettaglio",
+      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Aperto MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 AVVISO DELLA DIREZIONE GENERALE SICUREZZA E PROTEZIONE CIVILE PER LA PRESENTAZIONE DI MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI (L.R. 4/2025, ART.6) - DESTINATO AGLI ORGANISMI DI COMPOSIZIONE DELLA CRISI (OCC) DI NATURA PUBBLICA CON SEDE LEGALE ED OPERATIVA NEL TERRITORIO LOMBARDO Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I destinatari del presente avviso sono: a) gli OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, di natura pubblica; b) le aggregazioni di OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, il cui capofila deve avere natura pubblica. I destinatari devono avere sede legale e operativa nel territorio della Regione Lombardia alla data di presentazione della manifestazione di interesse. Di cosa si tratta Regione intende erogare contributi agli Organismi di Composizione della Crisi (OCC) del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, per le attività di assistenza, orientamento e consulenza legale e tecnica del soggetto interessato nella fase antecedente l'avvio delle procedure di composizione della crisi da sovraindebitamento e di esdebitazione, anche dell'incapiente, nonché per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. Dotazione finanziaria Per la realizzazione delle suddette finalità Regione riconosce all’OCC capofila un contributo di € 100.000,00 (centomila) per l’anno 2026 e di € 130.000,00 (centotrentamila) per l’anno 2027. Della misura complessiva di € 230.000,00 (duecentotrentamila) , € 30.000 (trentamila) sono destinati per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. BURL - Come partecipare La domanda di partecipazione al bando dovrà essere presentata esclusivamente online attraverso la piattaforma informatizzata Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it. Ai fini della determinazione della data di presentazione della domanda, faranno fede esclusivamente la data e l’ora di potocollo della domanda. La manifestazione di interesse deve, altresì, contenere: Indicazione dell’OCC capofila; Indicazione degli eventuali soggetti aggregati; Indicazione del numero di pratiche gestite nel biennio 2024/2025 in tema di sovraindebitamento dall’OCC o, in caso di aggregazione, dall’OCC capofila. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti La partecipazione alla Manifestazione di Interesse è riservata esclusivamente agli Organismi di Composizione della Crisi (OCC) in possesso dei requisiti previsti dalla manifestazione di interesse. La manifestazione di interesse NON è rivolto a persone fisiche o cittadini. Per informazioni sulle modalità di partecipazione alla Manifestazione di Interesse Per quesiti e richieste di chiarimento relativi ai contenuti del bando, ai requisiti, alle modalità di partecipazione e agli interventi finanziabili è possibile scrivere a: sovraindebitamento@regione.lombardia.it Nell’oggetto della e-mail indicare: “Manifestazione di Interesse per il sovraindebitamento”. Per Assistenza Tecnica sulla piattaforma Bandi e Servizi Per problemi relativi alla compilazione e alla trasmissione della domanda online e, più in generale, per quesiti di natura tecnica riguardanti le procedure informatizzate, è possibile contattare il CALL CENTER dedicato alla gestione tecnica e informatica della Piattaforma “Bandi e Servizi” al seguente Numero verde 800.131.151 Il servizio di CALL CENTER è attivo dal lunedì al sabato, esclusi i festivi , nei seguenti orari: 8.00 – 20.00 per quesiti di ordine tecnico; 8.30 – 17.00 per richieste di assistenza tecnica. Attenzione: il Call Center fornisce assistenza esclusivamente per gli aspetti tecnici relativi alla piattaforma e alla procedura online. Per quesiti relativi ai contenuti del bando è necessario utilizzare l’indirizzo e-mail dedicato sovraindebitamento@regione.lombardia.it Allegati PROTOCOLLO D’INTESA - 24/09/2026 MANIFESTAZIONI DI INTERESSE - 24/09/2026 DELIBERAZIONE N. XII/ 6841 - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 24/09/2026 Mostra altri",
       "tracking": {
-        "contentHash": "904670b7eb90af0636140c8628d09cc33afdb201ee89db89a2e9147fb083d572",
-        "version": 114,
-        "firstSeenAt": "2026-09-15T14:34:40+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "contentHash": "4e235b1c648161a7b35696b8debb62b3904be5009389d74e8dd7f80fa85ed3d9",
+        "version": 2,
+        "firstSeenAt": "2026-09-30T14:39:50+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -947,7 +679,184 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "sourceStatus": "aperto",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "PIE-AUTO-48C7D2B0C13F",
+      "title": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026",
+      "source": "Regione Piemonte · Bandi",
+      "deadline": "2026-10-22",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Piemonte · Bandi",
+        "piemonte"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "contributi",
+        "iniziative",
+        "istituzionali",
+        "manifestazioni",
+        "eventi",
+        "bandi",
+        "piemonte",
+        "salta",
+        "contenuto",
+        "principale",
+        "istituzione",
+        "appartenenza",
+        "seguici",
+        "twitter",
+        "facebook",
+        "youtube",
+        "linkedin",
+        "instagram",
+        "whatsapp",
+        "ricerca"
+      ],
+      "sectors": [
+        "contributi",
+        "iniziative",
+        "istituzionali",
+        "manifestazioni",
+        "eventi",
+        "bandi",
+        "piemonte",
+        "salta"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "piemonte"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: piemonte",
+          "anyOf": [
+            "piemonte"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-istituzionali-manifestazioni-eventi-2026",
+      "autoDiscovered": true,
+      "discoveryText": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Bando per la presentazione delle domande di contributo per l’anno 2026 ai sensi della Legge regionale 14 gennaio 1977, n. 6 Domande dal Mar, 22/09/2026 - 09:00 Scadenza Gio, 22/10/2026 - 12:00 Riferimento Bollettino Ufficiale D.D. 21 Settembre 2026, n. 154 Temi Altro Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso La Legge regionale 14 gennaio 1977 n. 6 e s.m.i. “No",
+      "sourceStatus": "aperto",
+      "tracking": {
+        "contentHash": "74fd72ee2db037ab704d3e5de7ec150cef75e64bdc7e64379b2ff1002131ca41",
+        "version": 2,
+        "firstSeenAt": "2026-09-22T13:42:44+02:00",
+        "lastChangedAt": "2026-09-22T18:59:32+02:00",
+        "needsAnalysis": false,
+        "triageStatus": "rules-resolved",
+        "triageRuleVersion": 3,
+        "audienceScope": "ets-specific",
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true,
+        "excludedForEts": false
+      }
+    },
+    {
+      "id": "RLAM2026056823",
+      "title": "GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI",
+      "source": "Regione Lombardia",
+      "deadline": "2026-11-06",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "gare",
+        "beni",
+        "servizi",
+        "geca",
+        "procedura",
+        "aperta",
+        "appalto",
+        "servizio",
+        "assistenza",
+        "codice",
+        "rlam",
+        "durata",
+        "contratto",
+        "mesi",
+        "decorrenti",
+        "sottoscrizione"
+      ],
+      "sectors": [
+        "chiude",
+        "gare",
+        "beni",
+        "servizi",
+        "geca",
+        "procedura",
+        "aperta",
+        "appalto"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Infrastrutture, Trasporti e Mobilità / Acquisti e contratti pubblici / GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Aperto GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 DURATA DEL CONTRATTO: 36 mesi decorrenti dalla sottoscrizione del contratto. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BD21D6B03A BD21D6C10D Base d'asta lotto 1 € 310.080,00 lotto 2 € 145.920,00 per un totale di € 456.000,00 Di cosa si tratta LOTTO 1 – ASSISTENZA GIURIDICA- CIG BD21D6B03A LOTTO 2 - ASSISTENZA TECNICA ECONOMICA- CIG BD21D6C10D Come partecipare ¿¿¿¿¿¿¿ Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al sito www.ariaspa.it . Per le informazioni di tipo tecnico, si faccia riferimento al documento allegato “ Modalità tecniche per l’utilizzo della piattaforma Sintel ” ed esclusivamente al numero verde del gestore della Piattaforma SINTEL presso ARIA 800.116.738. Informazioni e contatti VALENTINA CONVERTINI - Dirigente Struttura Programmazione Acquisti e Gestione Appalti Allegati DECRETO - 28/09/2026 Atti pubblicazione gara - 29/09/2026",
+      "tracking": {
+        "contentHash": "b01477b5cbd91ceb964db70deb6cf81d5424672b6c479f6352d41121d9bbdbe1",
+        "version": 2,
+        "firstSeenAt": "2026-09-30T14:39:50+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1022,9 +931,9 @@
       "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato di Primo Livello – A.F. 2026/2027 Aperto Apprendistato di Primo Livello – A.F. 2026/2027 Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formativo 2026/2027, di percorsi di apprendistato di primo livello finalizzati al conseguimento di un titolo di studio, ai sensi dell’articolo 43 del D.Lgs. 81/2015. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per i percorsi finalizzati al conseguimento della Qualifica professionale o della Qualifica e successivamente del Diploma professionale: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007, della DGR n. 6696/2022 e del relativo decreto attuativo n. 15516/2022. Per i percorsi finalizzati alla frequenza del corso annuale integrativo per l’accesso all’esame di Stato: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007 e ss.mm.ii., che, in collaborazione con gli Istituti Professionali statali, erogano percorsi annuali di IeFP finalizzati all’ammissione all’esame di Stato per il conseguimento del Diploma di Istruzione Professionale, secondo le modalità definite nello specifico Avviso per la realizzazione del corso annuale. Per i percorsi finalizzati al conseguimento del Certificato IFTS: Fondazioni ITS Academy costituite ai sensi del Decreto del Presidente del Consiglio dei Ministri del 25 gennaio 2008 e accreditate ai sensi della L. 99/2022, con sede in Lombardia; Associazioni Temporanee di Scopo (ATS) che raggruppano, quale standard organizzativo minimo, i seguenti quattro soggetti: Istituti scolastici del secondo ciclo di istruzione con sede nel territorio regionale; Istituzioni Formative accreditate e iscritte alla Sezione A dell’Albo regionale; Università o dipartimenti universitari con sede nel territorio regionale; Imprese o associazioni di imprese con sede in Lombardia. Di cosa si tratta L’Avviso è finalizzato a promuovere, per l’Anno Formativo 2026/2027, percorsi di apprendistato di primo livello finalizzati al conseguimento dei seguenti titoli: Qualifica IeFP e Diploma IeFP, presso le Istituzioni formative accreditate alla Sezione A dell’Albo regionale; Certificato IFTS (Istruzione e Formazione Tecnica Superiore); Diploma di Istruzione Professionale, a seguito della frequenza del quinto anno integrativo, presso le Istituzioni formative accreditate. Dotazione finanziaria Le risorse pubbliche disponibili per il presente Avviso ammontano a € 25.000.000,00, comprensive della quota destinata alla componente disabilità. Queste risorse sono trasferimenti statali di natura vincolata da parte del Ministero del Lavoro e delle Politiche Sociali, ai sensi della Legge 144/1999, destinate al finanziamento del sistema duale ordinario Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Il Bando è finanziato con lo strumento della Dote, che si compone di due elementi: dote formazione e componente disabilità, quest’ultima limitata agli studenti con disabilità certificata. Dote Formazione: la Dote Formazione finanzia il servizio formativo per ciascun apprendista con contratto di apprendistato di primo livello attraverso un Piano di Intervento Personalizzato (PIP). Per ogni giovane apprendista è riconosciuto un contributo pari all'Unità di Costo Standard (UCS) di € 6.654,00. Il contributo è erogato a risultato per ogni allievo formato, con riferimento a ciascuna annualità formativa. Ai fini del riconoscimento dell'intero importo del servizio formativo, l'allievo deve conseguire una relevant certification, ovvero l'ammissione all'annualità successiva o il conseguimento del titolo di studio. Componente Disabilità: la Componente Disabilità, aggiuntiva rispetto alla Dote Formazione, finanzia le ore di sostegno destinate agli studenti in possesso di certificazione di disabilità. Per ciascun allievo è riconoscibile un contributo massimo di € 2.250,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL - Azioni - Come partecipare Preliminarmente alla richiesta di dote il soggetto esecutore deve provvedere alla creazione del percorso tramite il sistema informativo SIUF. La richiesta di dote è condizionata alla trasmissione da parte del soggetto esecutore dell’ Atto di Adesione Unico . Il soggetto esecutore è tenuto ad acquisire dal sistema informativo: il Piano di Intervento Personalizzato (PIP) il Modulo di domanda di partecipazione Il perfezionamento della richiesta di dote e la conferma del PIP da parte dell’Istituzione formativa avvengono mediante la trasmissione della Dichiarazione Riassuntiva Unica ( DRU ), firmata elettronicamente dal rappresentante legale o da altro soggetto con potere di firma, sul sistema informativo Bandi e Servizi. Inoltre, per tutti i percorsi la domanda di dote dovrà essere corredata dal Modello Unilav di avvio del rapporto di lavoro e dalla registrazione del codice identificativo della COB in Bandi e Servizi. La richiesta di dote, pertanto, risulta composta da: Dichiarazione Riassuntiva Unica Riferimento al CF dell’apprendista e all’ID SEZIONE già creata in SIUF (contenente tutti i dati utili del percorso formativo in apprendistato) Modello UNILAV di avvio del rapporto di lavoro e registrazione del codice identificativo della COB in Bandi e Servizi. Solo per gli IFTS: Atto di costituzione dell’ATS Le domande possono essere presentate esclusivamente online , attraverso la presente piattaforma Bandi e Servizi, autenticandosi tramite SPID, CIE o CNS/CRS , a partire dal 28 settembre 2026 alle ore 10.00 fino all'8 settembre 2027 alle ore 14.00. Procedura selezione Valutativa a sportello. È prevista una procedura di assegnazione a sportello con selezione automatica, secondo l’ordine cronologico di presentazione online delle domande e fino ad esaurimento delle risorse disponibili sul presente Avviso nel periodo di riferimento. Informazioni e contatti Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it , previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: supporto-siuf@ariaspa.i t , indicando obbligatoriamente: ID sezione generata da SIUF e ID PFI laddove pertinente ID matricola studente CF, nome e cognome destinatario Indicazione dell’errore presente a sistema Breve descrizione dell’errore Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione di SIUF e ID PFI laddove pertinente Indicazione dell’errore presente a sistema Breve descrizione dell’errore oppure contattare il numero verde 800.131.151. Per quanto riguarda i problemi tecnico informatici occorre attendere la risposta dei servizi di assistenza alle piattaforme Bandi e Servizi e SIUF. Assistenza tecnica Bandi Online/Servizio Helpdesk Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a: bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione in SIUF Indicazione dell’errore presente a sistema Breve descrizione dell’errore Oppure contattare il numero verde 800.131.151 Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: Supporto-siuf@ariaspa.it, indicando obbligatoriamente: · ID sezione generata da SIUF e ID PFI se pertinente · ID matricola studente · CF nome e cognome destinatario · Indicazione dell’errore presente a sistema · Breve descrizione dell’errore Informazioni al pubblico Regione Lombardia/ Struttura SISTEMA IeFP (ISTRUZIONE E FORMAZIONE PROFESSIONALE) e-mail: apprendistato@regione.lombardia.it Allegati DDS 10557 del 04/08/2026 Approvazione avviso Apprendistato I livello 2026/27 - 04/08/2026 DDS 10557_26 All. 11 - Loghi Apprendistato 2026_27 - 04/08/2026 DDS 1055_26 All. 10 - Format scheda stage - 04/08/2026 DDS 10557_2026 All. 9 - Modulo richiesta accesso agli atti - 04/08/2026 DDS 10557_2026 All. 8 - Informativa privacy - 04/08/2026 Mostra altri Comunicazioni correlate 25/09/2026 Bando Servizio: Apprendistato di Primo Livello – A.F. 2026/2027 Apprendistato di primo livello 2026/2027 – comunicazione apertura Bandi e servizi per la presentazione delle domande di dote Con riferimento all’Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formati... Vedi dettaglio",
       "tracking": {
         "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-        "version": 12,
+        "version": 14,
         "firstSeenAt": "2026-09-28T16:01:35+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1033,7 +942,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1112,9 +1021,9 @@
       "discoveryText": "Stato: Attivo Scadenza 18/02/2027 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-        "version": 54,
+        "version": 56,
         "firstSeenAt": "2026-09-23T13:41:23+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1124,7 +1033,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1215,7 +1124,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -1283,9 +1192,9 @@
       "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 300.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. L’iniziativa si inserisce inoltre nel quadro della collaborazione avviata tra Fondazione Cariplo e Regione Lombardia per il rafforzamento delle politiche di welfare penale e di giustizia di comunità nell’ambito degli indirizzi definiti dalla D.G.R. n. XII/6371 del 29 giugno 2026 in materia di “Rafforzamento del sistema regionale di welfare penale e sviluppo di azioni di giustizia di comunità e di coesione sociale Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi può ancora essere rafforzata, potenziando il coordinamento tra i diversi soggetti coinvolti e favorendo una maggiore integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con la collaborazione del Provveditorato Regionale dell’amministrazione penitenziaria della Lombardia e il supporto metodologico dell’Associazione Antigone.: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-        "version": 54,
+        "version": 56,
         "firstSeenAt": "2026-09-23T19:04:56+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1295,7 +1204,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1375,9 +1284,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1386,7 +1295,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1477,7 +1386,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -1568,7 +1477,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -1739,9 +1648,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-09-30T00:20:08+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1750,7 +1659,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -1910,9 +1819,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1921,7 +1830,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2012,7 +1921,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -2097,7 +2006,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -2167,9 +2076,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2178,7 +2087,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2258,9 +2167,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2269,7 +2178,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2349,9 +2258,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2360,7 +2269,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2440,9 +2349,9 @@
       "sourceStatus": "aperto",
       "tracking": {
         "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2451,7 +2360,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2531,9 +2440,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2542,7 +2451,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     },
     {
@@ -2633,7 +2542,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": false
     },
     {
@@ -2713,9 +2622,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-        "version": 30,
+        "version": 32,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-09-30T07:37:43+02:00",
+        "lastChangedAt": "2026-09-30T14:40:24+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2724,7 +2633,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-09-30T07:37:18+02:00",
+      "detailFetchedAt": "2026-09-30T14:39:50+02:00",
       "detailFetchOk": true
     }
   ],
@@ -2732,10 +2641,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-09-30T05:37:03"
+    "checkedAt": "2026-09-30T12:39:35"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-09-30T05:37:10",
+    "checkedAt": "2026-09-30T12:39:44",
     "checked": 5,
     "active": 2,
     "added": 0,
@@ -2773,7 +2682,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-09-30T05:37:12",
+    "checkedAt": "2026-09-30T12:39:46",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -2808,10 +2717,10 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-09-30T05:37:18",
+    "checkedAt": "2026-09-30T12:39:50",
     "checked": 5,
-    "activeOrProgrammed": 4,
-    "added": 4,
+    "activeOrProgrammed": 3,
+    "added": 3,
     "items": [
       {
         "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-orientamento-precoce-sostegno-prime-transizioni-periodo-2026-2028",
@@ -2820,7 +2729,7 @@
       },
       {
         "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/patrimonio-linguistico-dialettale-piemonte-avviso-pubblico-finanziamento-invito-alla-presentazione",
-        "state": "aperto",
+        "state": "chiuso",
         "error": null
       },
       {
@@ -2844,20 +2753,20 @@
   "trackingSummary": {
     "new": 0,
     "modified": 17,
-    "unchanged": 11,
+    "unchanged": 10,
     "reappeared": 0,
     "missing": 0
   },
   "triage": {
     "enabled": true,
     "ruleVersion": 3,
-    "rulesResolved": 10,
+    "rulesResolved": 9,
     "rulesExcludedForEts": 0,
     "aiRequired": 18
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-09-30T07:37:18+02:00",
+    "updatedAt": "2026-09-30T14:39:50+02:00",
     "attempted": 23,
     "enriched": 17,
     "unchanged": 0,
