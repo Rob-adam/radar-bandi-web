@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-09-30T14:40:24+02:00",
+  "catalogUpdatedAt": "2026-10-01T00:20:40+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -973,8 +973,8 @@
       "version": 1,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
       "lastChangedAt": "2026-08-29T14:19:47+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-01T00:20:05+02:00",
       "lastChangeFields": [
         "title",
         "source",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -3044,9 +3044,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3147,7 +3147,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -5101,8 +5101,8 @@
       "version": 72,
       "firstSeenAt": "2026-09-21T14:53:14+02:00",
       "lastChangedAt": "2026-09-30T14:40:24+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-01T00:20:05+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 66,
+      "version": 68,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -5439,7 +5439,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-30T14:39:50+02:00"
@@ -5449,9 +5449,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 56,
+      "version": 58,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5559,7 +5559,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -5568,9 +5568,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 56,
+      "version": 58,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5666,7 +5666,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -5931,9 +5931,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6040,7 +6040,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6049,9 +6049,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6151,7 +6151,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6160,9 +6160,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6261,7 +6261,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6270,9 +6270,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6380,7 +6380,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6389,9 +6389,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6499,7 +6499,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6508,9 +6508,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6618,7 +6618,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6627,9 +6627,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6736,7 +6736,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6745,9 +6745,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6854,7 +6854,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -6982,9 +6982,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7085,7 +7085,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7220,7 +7220,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7355,7 +7355,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7490,7 +7490,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7625,7 +7625,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7756,7 +7756,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7891,7 +7891,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -7900,9 +7900,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8008,7 +8008,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -8017,9 +8017,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
       "contentHash": "4e235b1c648161a7b35696b8debb62b3904be5009389d74e8dd7f80fa85ed3d9",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-30T14:39:50+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8124,7 +8124,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     },
@@ -8133,9 +8133,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
       "contentHash": "b01477b5cbd91ceb964db70deb6cf81d5424672b6c479f6352d41121d9bbdbe1",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-09-30T14:39:50+02:00",
-      "lastChangedAt": "2026-09-30T14:40:24+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8237,17 +8237,2147 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-09-30T14:40:24+02:00"
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9124.html": {
+      "id": "REG-AUTO-06B7835B9289",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9124.html",
+      "contentHash": "e4ef1b8ea9a4a3d807cb49d497517b1e8fb58bff8e961eb5c315eb847ca5e06b",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "enti",
+          "terzo",
+          "settore",
+          "finanziamento",
+          "progetti",
+          "finalizzati",
+          "realizzazione",
+          "azioni",
+          "interventi",
+          "decreto",
+          "ministra",
+          "famiglia",
+          "natalità",
+          "pari",
+          "opportunità",
+          "direzione"
+        ],
+        "sectors": [
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "enti",
+          "terzo",
+          "settore",
+          "finanziamento"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9124.html",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse": {
+      "id": "REG-AUTO-572850462D22",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
+      "contentHash": "2e0c9e9e52e8ed5100ff813bfb849ae73692e1e16063751a9a8eb4ba8dc3f413",
+      "version": 2,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "bandi e avvisi",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "cerca",
+          "bandi",
+          "testo",
+          "ricercare",
+          "toggle",
+          "navigation",
+          "persone",
+          "uffici",
+          "seguici",
+          "aree",
+          "tematiche",
+          "informazioni",
+          "facebook",
+          "twitter",
+          "instagram",
+          "linkedin",
+          "whatsapp",
+          "youtube",
+          "avvisi",
+          "indetti"
+        ],
+        "sectors": [
+          "cerca",
+          "bandi",
+          "testo",
+          "ricercare",
+          "toggle",
+          "navigation",
+          "persone",
+          "uffici"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione finalizzata al mantenimento e utilizzo di uno specchio acqueo per l’ormeggio di un’imbarcazione da diporto presso l’isola della Schiusa, riva sant’Andrea in Comune Amministrativo e Censuario di Grado (GO) 2.8.3-0802 Direzione patrimonio, demanio, servizi generali e sistemi informativi 30.09.2026 - scadenza 30.10.2026 Avviso per la concessione dei contributi straordinari previsti dall’articolo 9, comma 60, della legge regionale 4 agosto 2017, n. 31 a sostegno della fase di avvio delle sperimentazioni regionali in materia di abitare possibile e domiciliarità innovativa – anno 2026. Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 15.10.2026 Avviso presentazione istanza di concessione per derivare acqua mediante opera di presa da falda sotterranea in comune di Gorizia da parte della ditta Vacuum - Tech srl (GO IPD 0565.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 14.10.2026 Avviso pubblicazione progetto per la richiesta di rinnovo della concessione per continuare a derivare acqua mediante opera di presa da falda sotterranea in comune di Fiume Veneto (PN) da parte della ditta DDSS sas di Dal Santo A e D & C (PN IPD 3106.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 15.10.2026 Avviso rilascio provvedimenti di concessione del diritto a derivare acqua richiedenti e pratiche vari: GO/IPD/0325.6; PN/IPD/3957; UD/IPD/7017; UD/IPD/7018; UD/IPD/7024; PN/IPD/3996; TS/IPD/0030 Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici di Medicina Generale e Graduatoria regionale provvisoria degli ufficiali medici valevoli per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici Pediatri di Libera Scelta valevole per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 29.09.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando del Comune di Lusevera Centri per l'impiego 1 2 3 4 5 6 7 8 9 10 11 12 13 CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca Tutti i bandi e avvisi Bandi e avvisi dei Centri per l'Impiego Bandi e avvisi del Collocamento mirato Regione Autonoma Friuli Venezia Giulia c.f. 80014930327; p.iva 00526040324 | piazza Unità d'Italia 1 Trieste | +39 040 3771111 | regione.friuliveneziagiulia@certregione.fvg.it amministrazione trasparente | privacy | cookie | note legali | accessibilità | rss | dichiarazione di accessibilità | feedback | cambio preferenze cookie | seguici su sito a cura dell' ufficio stampa e comunicazione realizzazione web design × Header contenuto Chiudi × Attenzione! Il sito è ottimizzato per le versioni recenti dei browser più utilizzati. Chiudi"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2": {
+      "id": "REG-AUTO-E80D7CD16DA5",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
+      "contentHash": "5bb0253b7b192fc86c147820a30426f87e2d214d7c7c71a871a1b81e39ae1418",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3": {
+      "id": "REG-AUTO-C4D64EF9767F",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
+      "contentHash": "673292effd55880bed762041152ec69ec2060ef5076fd905c6df263442a40b85",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4": {
+      "id": "REG-AUTO-B6D3DFB99915",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
+      "contentHash": "645cf52702dbafaedcc28771f22c3bc4fa18f40c8ceac4395ba7f23acdbc2a91",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5": {
+      "id": "REG-AUTO-49AF4A0A61E5",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
+      "contentHash": "e32b84b721c11a073065a9c0e6ed95d248d72f288e557382d0fd3b792992bec0",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6": {
+      "id": "REG-AUTO-3DE82F69AE45",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
+      "contentHash": "13c3dc35bd9de477810b518a672b0e51310a3a924a5e48803c143c7f40f8190f",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7": {
+      "id": "REG-AUTO-35FD65D0E429",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
+      "contentHash": "5e7e2b00ce102e82a3b6dc39e8c05b2733ead74e86d82dee23fa9d82a41b3a77",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8": {
+      "id": "REG-AUTO-1449567C89D7",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
+      "contentHash": "04ec221c0d52f9d2d929f679fcf34dd01167c5af0e59332bcc32fdc44df80770",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9": {
+      "id": "REG-AUTO-27DB3CB4DE1D",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
+      "contentHash": "b738094f88aa1bb7c242584e93d47c9a0ee1a1ea764345d6146651cc483f52cc",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10": {
+      "id": "REG-AUTO-A7A50C46E095",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
+      "contentHash": "95838346f9c1501ccf388c1fc2f7a9c30b0113178ca62fd69a321304c9a81d15",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11": {
+      "id": "REG-AUTO-29DCCC24BD3D",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
+      "contentHash": "d2f1f14a15f2293530e86f261b244bdaa117331d740cc8a3953bb52803af427e",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12": {
+      "id": "REG-AUTO-403C35EC8C29",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
+      "contentHash": "45db57c8f8b412b0bf40a98824d9544fc0e4f271ca025984f567b04acd94979a",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=13": {
+      "id": "REG-AUTO-6FEEE937D792",
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=13",
+      "contentHash": "80816a930e3bc36123040041e535ac24b0b40e64861e93a289fee9fd89106c97",
+      "version": 1,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:05+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "title",
+        "source",
+        "deadline",
+        "fund",
+        "maxGrant",
+        "aid",
+        "tags",
+        "eligibility",
+        "keywords",
+        "sectors",
+        "beneficiaries",
+        "activities",
+        "purposes",
+        "territories",
+        "legalForms",
+        "hardRequirements",
+        "hardKeyword",
+        "sourceUrl",
+        "sourceStatus",
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "tutti i bandi e gli avvisi in corso",
+        "source": "Regione Friuli-Venezia Giulia · Bandi",
+        "deadline": "2026-10-16",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Friuli-Venezia Giulia · Bandi",
+          "friuli-venezia-giulia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura",
+          "strutture",
+          "regionali",
+          "competenti",
+          "scadenza",
+          "avviso",
+          "pubblico",
+          "rivolto",
+          "servizi",
+          "sociali",
+          "comuni",
+          "finanziamento",
+          "progetti"
+        ],
+        "sectors": [
+          "tutti",
+          "bandi",
+          "avvisi",
+          "corso",
+          "informazioni",
+          "documenti",
+          "pubblicati",
+          "cura"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "friuli-venezia-giulia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: friuli-venezia-giulia",
+            "anyOf": [
+              "friuli-venezia-giulia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=13",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743": {
+      "id": "RLZ12026056743",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
+      "contentHash": "8d2dc50af9f72935afbf4f46f94f8f400b66bb99398670468ffdbc2b32e7e829",
+      "version": 2,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Servizio istanze sismiche",
+        "source": "Regione Lombardia",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "servizio",
+          "istanze",
+          "sismiche",
+          "procedimenti",
+          "amministrativi",
+          "codice",
+          "quale",
+          "accedere",
+          "scrivanie",
+          "consultare",
+          "compilare",
+          "pratica",
+          "sismica",
+          "comunicazione",
+          "deposito",
+          "sismico",
+          "istanza",
+          "autorizzaz"
+        ],
+        "sectors": [
+          "servizio",
+          "istanze",
+          "sismiche",
+          "procedimenti",
+          "amministrativi",
+          "codice",
+          "quale",
+          "accedere"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
+        "discoveryText": "Procedimenti / Ambiente e Territorio / Pianificazione territoriale / Servizio istanze sismiche Aperto Servizio istanze sismiche Codice: RLZ12026056743 Pubblicato il: 30/09/2026 , ore 16:51 Domande dal: 30/09/2026 , ore 10:00 Servizio dal quale accedere alle scrivanie per consultare o compilare una pratica sismica (Comunicazione di Deposito sismico, Istanza di Autorizzazione sismica, Istanza di Certificazione alla Sopraelevazione, Variante sostanziale) e i Moduli 14 (Deposito della Relazione a struttura ultimata),15 (Comunicazione di Deposito del Certificato di Collaudo statico) e 16 (Comunicazione di Deposito della Dichiarazione di regolare esecuzione) Leggi di più Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLZ12026056743 Pubblicato il: 30/09/2026 , ore 16:51 Domande dal: 30/09/2026 , ore 10:00 Scheda informativa Chi può partecipare Cittadini o persone giuridiche Di cosa si tratta Il servizio rendere più semplice, accessibile e usabile la compilazione delle istanze sismiche per cittadini, professionisti ed Enti locali attraverso una procedura ottimizzata di consultazione e compilazione online. Il nuovo applicativo consente a cittadini, professionisti e imprese di presentare e consultare le proprie istanze sismiche, mentre ai comuni territorialmente competenti di ricevere, istruire e consultare le istanze a loro destinate. Il servizio garantisce la coerenza dei contenuti della modulistica sismica vigente, approvata con d.g.r. n. 5001/2016 e successivi aggiornamenti, e restano ferme le disposizioni della l.r. 12 ottobre 2015, n. 33 Come partecipare Accedere al servizio, previa registrazione e autenticazione, selezionando \" Fai domanda \" per presentare una nuova istanza, mentre per visualizzare istanze già presentate accedendo alla propria scrivania nella sezione \" La mia area \" Informazioni e contatti Per assistenza tecnica sull'utilizzo della piattaforma Bandi e Servizi : contattare il call center al numero verde 800 131 151 (interno 3 PROCEDIMENTI) scrivere all'indirizzo e-mail assistenza-sismica@ariaspa.it Per informazioni relative al procedimento : Direzione Generale Territorio e Sistemi Verdi Alessandro Ballini, tel. 02 6765 4328, e-mail alessandro_ballini@regione.lombardia.it scrivere all'indirizzo e-mail vigilanzasismica@regione.lombardia.it Servizi associati In apertura apre il 01-10-2026 Procedimenti Amministrativi Istanza sismica (L.R.33/2015) Codice: RLZ12026056083 Le amministrazioni comunali e Regione Lombardia recepiscono le istanze per le pratiche sismiche (D.P.R. 380/2001 e ss.mm.ii. e l.r. 33/2015) esclus... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Deposito della relazione a struttura ultimata (Modulo 14) Codice: RLZ12026056763 Il deposito della relazione a struttura ultimata (DRSU) è l'atto formale con cui il Direttore dei Lavori dichiara che le opere strutturali (in c.a.... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Comunicazione di deposito del certificato di collaudo statico (Modulo 15) Codice: RLZ12026056764 Tutte le costruzioni di cui all’art. 53, comma 1 del DPR 380/2001 la cui sicurezza possa comunque interessare la pubblica incolumità, devono essere... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Comunicazione di deposito della dichiarazione di regolare esecuzione (Mo... Codice: RLZ12026056803 La Comunicazione di deposito della dichiarazione di regolare esecuzione è l'adempimento tecnico-amministrativo con cui si attesta che le opere stru... Scopri di più Non hai trovato quello che cercavi? Vai alla sezione Aiuto"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html": {
+      "id": "REG-AUTO-6E3B78B0A572",
+      "source": "Regione Liguria · Bandi",
+      "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
+      "contentHash": "b6c86fd528f5225c478576f43cc50a2a1bd45611aae1397157656f77fc7440f2",
+      "version": 2,
+      "firstSeenAt": "2026-10-01T00:20:05+02:00",
+      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "canale bandi e avvisi",
+        "source": "Regione Liguria · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Liguria · Bandi",
+          "liguria"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "contributi",
+          "favore",
+          "associazioni",
+          "rappresentanza",
+          "cooperative",
+          "modalità",
+          "criteri",
+          "presentazione",
+          "proposte",
+          "progettuali",
+          "nell",
+          "ambito",
+          "linee",
+          "intervento",
+          "articolo",
+          "comma",
+          "legge",
+          "dicembre",
+          "concessione",
+          "relativi"
+        ],
+        "sectors": [
+          "contributi",
+          "favore",
+          "associazioni",
+          "rappresentanza",
+          "cooperative",
+          "modalità",
+          "criteri",
+          "presentazione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "liguria"
+        ],
+        "legalForms": [
+          "ets",
+          "odv",
+          "aps",
+          "associazione",
+          "fondazione",
+          "ente non profit"
+        ],
+        "hardRequirements": [
+          {
+            "label": "Territorio: liguria",
+            "anyOf": [
+              "liguria"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
+        "sourceStatus": "da-verificare",
+        "discoveryText": "Homepage / homepage bandi e avvisi / contributi a favore delle associazioni di rappresentanza delle cooperative Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile contributi a favore delle associazioni di rappresentanza delle cooperative modalità e criteri per la presentazione delle proposte progettuali nell'ambito delle linee di intervento di cui all'articolo 3, comma 1 della legge regionale n.19 del 7 dicembre 2010 e per la concessione dei relativi contributi, annualità 2026 Data pubblicazione: 30 Settembre 2026 Data apertura: 01 Ottobre 2026 Data chiusura: 31 Ottobre 2026 Soggetto proponente: Regione Liguria Documenti avviso e allegati pdf (554.7 Kb) Iscriviti alla Newsletter Seguici sui social"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-01T00:20:40+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-09-30T14:40:24+02:00",
+  "triageUpdatedAt": "2026-10-01T00:20:40+02:00",
   "triageSummary": {
-    "rulesResolved": 9,
+    "rulesResolved": 22,
     "rulesExcludedForEts": 0,
-    "aiRequired": 18,
-    "notPresent": 42,
+    "aiRequired": 19,
+    "notPresent": 44,
     "ruleVersion": 3
   }
 }

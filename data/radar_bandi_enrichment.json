@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T14:39:50+02:00",
-  "attempted": 23,
-  "enriched": 17,
+  "generatedAt": "2026-10-01T00:20:05+02:00",
+  "attempted": 25,
+  "enriched": 19,
   "unchanged": 0,
   "failed": 6,
   "items": [
@@ -26,13 +26,13 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423",
+      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
       "ok": true,
       "changed": [
         "title",
         "discoveryText"
       ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-investimenti-recupero-mulini-storici-lombardia-attuazione-l-r-n-9-2026-triennio-2026-2028-RLL12026054423"
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
@@ -156,6 +156,14 @@
       "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content"
     },
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743"
+    },
+    {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "ok": true,
       "changed": [
@@ -199,6 +207,15 @@
         "deadline"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
+    },
+    {
+      "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html"
     }
   ]
 }
