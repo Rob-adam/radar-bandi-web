@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-01T00:20:40+02:00",
+  "catalogUpdatedAt": "2026-10-01T08:01:31+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -3044,9 +3044,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
-      "version": 66,
+      "version": 68,
       "firstSeenAt": "2026-09-08T14:36:23+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -3147,7 +3147,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5213,9 +5213,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
       "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-      "version": 68,
+      "version": 70,
       "firstSeenAt": "2026-09-22T13:42:44+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5322,7 +5322,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5439,7 +5439,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-30T14:39:50+02:00"
@@ -5449,9 +5449,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5559,7 +5559,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5568,9 +5568,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 58,
+      "version": 60,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5666,7 +5666,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5931,9 +5931,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6040,7 +6040,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6049,9 +6049,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6151,7 +6151,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6160,9 +6160,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6261,7 +6261,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6269,10 +6269,10 @@
       "id": "REG-AUTO-3904FD5DE8C6",
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
-      "contentHash": "fed1f79cf6c6b808e89f86e3e43367f84b8beb1933db6c10524a2c899c44e403",
-      "version": 34,
+      "contentHash": "caa4c8647c550f540c472b58383b0ee9ab089cf4c94b42e73e78bdb3cc1ca456",
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6352,7 +6352,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scade il: 01/10/2026 - 00:00 Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scade il: 30/09/2026 - 23:59 Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
       },
       "triage": {
         "status": "ai-required",
@@ -6380,7 +6380,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6388,10 +6388,10 @@
       "id": "REG-AUTO-29AC9639BA24",
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
-      "contentHash": "3b02c0c9cfe17b07c546bbbdee48151136d8a374796116924d78d7811262313c",
-      "version": 34,
+      "contentHash": "37e0ae14b848462ffafb6b83848660cedb362461d980fccee6709159ac0aa77f",
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6471,7 +6471,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scade il: 01/10/2026 - 00:00 Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scade il: 30/09/2026 - 23:59 Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scade il: 09/10/2026 - 23:59 Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
       },
       "triage": {
         "status": "ai-required",
@@ -6499,7 +6499,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6508,9 +6508,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6618,7 +6618,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6627,9 +6627,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6736,7 +6736,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6745,9 +6745,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6854,7 +6854,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6982,9 +6982,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-09-28T16:01:35+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7085,7 +7085,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7220,7 +7220,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7355,7 +7355,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7490,7 +7490,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7625,7 +7625,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7756,7 +7756,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7891,7 +7891,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -7900,9 +7900,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8008,7 +8008,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8017,9 +8017,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
       "contentHash": "4e235b1c648161a7b35696b8debb62b3904be5009389d74e8dd7f80fa85ed3d9",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-30T14:39:50+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8124,7 +8124,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8133,9 +8133,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
       "contentHash": "b01477b5cbd91ceb964db70deb6cf81d5424672b6c479f6352d41121d9bbdbe1",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-09-30T14:39:50+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8237,7 +8237,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8374,7 +8374,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8382,13 +8382,14 @@
       "id": "REG-AUTO-572850462D22",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
-      "contentHash": "2e0c9e9e52e8ed5100ff813bfb849ae73692e1e16063751a9a8eb4ba8dc3f413",
-      "version": 2,
+      "contentHash": "b329c39852321d917131117c9493d28756d7270e5ca6d7d5e7f1f52c8cc9e6ce",
+      "version": 4,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
+        "deadline",
         "discoveryText",
         "title"
       ],
@@ -8396,7 +8397,7 @@
       "snapshot": {
         "title": "bandi e avvisi",
         "source": "Regione Friuli-Venezia Giulia · Bandi",
-        "deadline": "2026-10-16",
+        "deadline": "2027-01-31",
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -8465,7 +8466,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
         "sourceStatus": "da-verificare",
-        "discoveryText": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione finalizzata al mantenimento e utilizzo di uno specchio acqueo per l’ormeggio di un’imbarcazione da diporto presso l’isola della Schiusa, riva sant’Andrea in Comune Amministrativo e Censuario di Grado (GO) 2.8.3-0802 Direzione patrimonio, demanio, servizi generali e sistemi informativi 30.09.2026 - scadenza 30.10.2026 Avviso per la concessione dei contributi straordinari previsti dall’articolo 9, comma 60, della legge regionale 4 agosto 2017, n. 31 a sostegno della fase di avvio delle sperimentazioni regionali in materia di abitare possibile e domiciliarità innovativa – anno 2026. Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 15.10.2026 Avviso presentazione istanza di concessione per derivare acqua mediante opera di presa da falda sotterranea in comune di Gorizia da parte della ditta Vacuum - Tech srl (GO IPD 0565.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 14.10.2026 Avviso pubblicazione progetto per la richiesta di rinnovo della concessione per continuare a derivare acqua mediante opera di presa da falda sotterranea in comune di Fiume Veneto (PN) da parte della ditta DDSS sas di Dal Santo A e D & C (PN IPD 3106.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 15.10.2026 Avviso rilascio provvedimenti di concessione del diritto a derivare acqua richiedenti e pratiche vari: GO/IPD/0325.6; PN/IPD/3957; UD/IPD/7017; UD/IPD/7018; UD/IPD/7024; PN/IPD/3996; TS/IPD/0030 Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici di Medicina Generale e Graduatoria regionale provvisoria degli ufficiali medici valevoli per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici Pediatri di Libera Scelta valevole per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 29.09.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando del Comune di Lusevera Centri per l'impiego 1 2 3 4 5 6 7 8 9 10 11 12 13 CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca Tutti i bandi e avvisi Bandi e avvisi dei Centri per l'Impiego Bandi e avvisi del Collocamento mirato Regione Autonoma Friuli Venezia Giulia c.f. 80014930327; p.iva 00526040324 | piazza Unità d'Italia 1 Trieste | +39 040 3771111 | regione.friuliveneziagiulia@certregione.fvg.it amministrazione trasparente | privacy | cookie | note legali | accessibilità | rss | dichiarazione di accessibilità | feedback | cambio preferenze cookie | seguici su sito a cura dell' ufficio stampa e comunicazione realizzazione web design × Header contenuto Chiudi × Attenzione! Il sito è ottimizzato per le versioni recenti dei browser più utilizzati. Chiudi"
+        "discoveryText": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione finalizzata al mantenimento e utilizzo di uno specchio acqueo per l’ormeggio di un’imbarcazione da diporto presso l’isola della Schiusa, riva sant’Andrea in Comune Amministrativo e Censuario di Grado (GO) 2.8.3-0802 Direzione patrimonio, demanio, servizi generali e sistemi informativi 30.09.2026 - scadenza 30.10.2026 Avviso per la concessione dei contributi straordinari previsti dall’articolo 9, comma 60, della legge regionale 4 agosto 2017, n. 31 a sostegno della fase di avvio delle sperimentazioni regionali in materia di abitare possibile e domiciliarità innovativa – anno 2026. Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 15.10.2026 Avviso presentazione istanza di concessione per derivare acqua mediante opera di presa da falda sotterranea in comune di Gorizia da parte della ditta Vacuum - Tech srl (GO IPD 0565.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 14.10.2026 Avviso pubblicazione progetto per la richiesta di rinnovo della concessione per continuare a derivare acqua mediante opera di presa da falda sotterranea in comune di Fiume Veneto (PN) da parte della ditta DDSS sas di Dal Santo A e D & C (PN IPD 3106.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 15.10.2026 Avviso rilascio provvedimenti di concessione del diritto a derivare acqua richiedenti e pratiche vari: GO/IPD/0325.6; PN/IPD/3957; UD/IPD/7017; UD/IPD/7018; UD/IPD/7024; PN/IPD/3996; TS/IPD/0030 Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici di Medicina Generale e Graduatoria regionale provvisoria degli ufficiali medici valevoli per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 31.10.2026 Graduatoria regionale provvisoria per i Medici Pediatri di Libera Scelta valevole per l’anno 2027 Direzione centrale salute, politiche sociali e disabilità 1 2 3 4 5 6 7 8 9 10 11 12 13 CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca Tutti i bandi e avvisi Bandi e avvisi dei Centri per l'Impiego Bandi e avvisi del Collocamento mirato Regione Autonoma Friuli Venezia Giulia c.f. 80014930327; p.iva 00526040324 | piazza Unità d'Italia 1 Trieste | +39 040 3771111 | regione.friuliveneziagiulia@certregione.fvg.it amministrazione trasparente | privacy | cookie | note legali | accessibilità | rss | dichiarazione di accessibilità | feedback | cambio preferenze cookie | seguici su sito a cura dell' ufficio stampa e comunicazione realizzazione web design × Header contenuto Chiudi × Attenzione! Il sito è ottimizzato per le versioni recenti dei browser più utilizzati. Chiudi"
       },
       "triage": {
         "status": "rules-resolved",
@@ -8493,7 +8494,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8630,7 +8631,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8767,7 +8768,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -8904,7 +8905,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9041,7 +9042,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9178,7 +9179,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9315,7 +9316,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9452,7 +9453,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9589,7 +9590,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9726,7 +9727,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -9863,7 +9864,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -10000,7 +10001,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -10137,7 +10138,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -10146,9 +10147,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
       "contentHash": "8d2dc50af9f72935afbf4f46f94f8f400b66bb99398670468ffdbc2b32e7e829",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10250,7 +10251,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     },
@@ -10259,9 +10260,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "contentHash": "b6c86fd528f5225c478576f43cc50a2a1bd45611aae1397157656f77fc7440f2",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-01T00:20:40+02:00",
+      "lastChangedAt": "2026-10-01T08:01:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10367,12 +10368,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-01T00:20:40+02:00"
+        "evaluatedAt": "2026-10-01T08:01:31+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-01T00:20:40+02:00",
+  "triageUpdatedAt": "2026-10-01T08:01:31+02:00",
   "triageSummary": {
     "rulesResolved": 22,
     "rulesExcludedForEts": 0,

@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T00:20:40+02:00",
+  "generatedAt": "2026-10-01T08:01:31+02:00",
   "ruleVersion": 3,
   "count": 19,
   "items": [
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 8,
+      "version": 10,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -32,7 +32,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 2,
+      "version": 4,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -57,7 +57,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "id": "RLW12025050884",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
       "title": "Apprendistato di Primo Livello – A.F. 2026/2027",
@@ -81,7 +81,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
       "id": "RLAM2026056823",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
       "title": "GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI",
@@ -105,7 +105,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
       "id": "RLY12026056503",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
       "title": "MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI",
@@ -129,7 +129,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "id": "RLD12025045643",
-      "version": 66,
+      "version": 68,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
       "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
@@ -153,7 +153,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
       "id": "RLZ12026056743",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
       "title": "Servizio istanze sismiche",
@@ -178,7 +178,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 34,
+      "version": 36,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "title": "Bandi | Regione Siciliana",
@@ -204,7 +204,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "id": "REG-AUTO-29AC9639BA24",
-      "version": 34,
+      "version": 36,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "title": "Bandi | Regione Siciliana",
@@ -230,7 +230,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 34,
+      "version": 36,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -256,7 +256,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "id": "REG-AUTO-08D6D4AFECD7",
-      "version": 34,
+      "version": 36,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "title": "Progetto WELT \"WE in Lavoro Toscana\", selezione di enti del Terzo settore per la co-progettazione: al via le candidature",
@@ -284,7 +284,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 34,
+      "version": 36,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -308,7 +308,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 34,
+      "version": 36,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
