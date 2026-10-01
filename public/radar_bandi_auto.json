@@ -1,5 +1,5 @@
 {
-  "updatedAt": "01/10/2026 08:01",
+  "updatedAt": "01/10/2026 15:23",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -126,7 +126,7 @@
       "source": "Regione Basilicata · Bandi",
       "region": "basilicata",
       "found": 0,
-      "ok": false
+      "ok": true
     },
     {
       "source": "Regione Calabria · Bandi",
@@ -228,24 +228,23 @@
   "bandiByRegion": {
     "lombardia": 8,
     "friuli-venezia-giulia": 14,
-    "piemonte": 3,
     "valle-d-aosta": 6,
     "toscana": 2,
     "liguria": 2,
     "sicilia": 3,
     "puglia": 1,
-    "trentino-alto-adige": 2
+    "trentino-alto-adige": 2,
+    "piemonte": 2
   },
   "errors": [
-    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
-    "Regione Basilicata · Bandi: HTTPSConnectionPool(host='portalebandi.regione.basilicata.it', port=443): Max retries exceeded with url: /PortaleBandi/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='portalebandi.regione.basilicata.it', port=443) at 0x7f2522148350>, 'Connection to portalebandi.regione.basilicata.it timed out. (connect timeout=30)'))"
+    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
   ],
   "bandi": [
     {
-      "id": "RLD12025045643",
-      "title": "NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni",
+      "id": "RLD12026053903",
+      "title": "07-10-2026",
       "source": "Regione Lombardia",
-      "deadline": "2026-10-02",
+      "deadline": "2026-10-07",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -262,26 +261,29 @@
         "nidi",
         "gratis",
         "plus",
-        "rendicontazione",
-        "parte",
+        "anticipo",
         "comuni",
         "codice",
-        "misura",
-        "apertura",
-        "straordinaria",
-        "finestra",
-        "settembre",
-        "ottobre"
+        "hanno",
+        "partecipato",
+        "precedente",
+        "edizione",
+        "numero",
+        "domande",
+        "presentate",
+        "famiglie",
+        "uguale",
+        "superiore"
       ],
       "sectors": [
         "chiude",
         "nidi",
         "gratis",
         "plus",
-        "rendicontazione",
-        "parte",
+        "anticipo",
         "comuni",
-        "codice"
+        "codice",
+        "hanno"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -306,14 +308,14 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2025-26-anticipo-comuni-RLD12025045643",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Aperto NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Misura Nidi gratis plus 2025/2026. Apertura straordinaria della finestra di rendicontazione dal 29 settembre 2026 h.12.00 al 2 ottobre 2026 h.12. 00. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12025045643 Pubblicato il: 19/09/2025 , ore 09:03 Domande dal: 29/09/2026 , ore 12:00 Scade il: 02/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Il soggetto destinatario della Misura è il genitore che presenta la domanda di adesione, compresi i genitori adottivi e affidatari. In particolare, alla data della presentazione della domanda, il nucleo familiare del genitore che presenta domanda di adesione deve essere in possesso dei seguenti requisiti: figli iscritti a nidi e micro-nidi pubblici e/o privati indicati dai Comuni e ammessi alla Misura “Nidi Gratis Plus 2025/2026”; Attestazione ISEE minorenni protocollata dell’indicatore della situazione economica equivalente in corso di validità - sulla base della normativa ISEE (D.P.C.M. 05 dicembre 2013, n. 159) – inferiore o uguale a 25.000,00; retta mensile a carico dei genitori superiore all'importo rimborsabile da INPS, pari a € 272,73 per le prime 10 mensilità e 272,70 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,30 per l’undicesima, nei casi previsti dalla misura nazionale. Di cosa si tratta L'iniziativa regionale garantisce l’abbattimento delle rette di frequenza degli asili nido pubblici e privati autorizzati convenzionati in favore dei nuclei familiari con ISEE Minorenni fino a 25.000 euro . L’intervento regionale è a copertura della quota di retta mensile che eccede l’importo rimborsabile da INPS (pari a € 272,73 per le prime 10 mensilità e 272,30 per l’undicesima, oppure a € 327,27 per le prime 10 mensilità e 327,70 per l’undicesima nei casi previsti dalla misura nazionale), per la fascia ISEE fino ad euro 25.000,00 secondo le seguenti modalità: per le famiglie con ISEE minorenni 0 - 20.000,00 l’intervento regionale c opre l’intera quota di retta mensile che eccede l’importo rimborsabile da INPS; per le famiglie con ISEE minorenni 20.000,01 - 25.000,00 l’intervento regionale copre la quota di retta mensile che eccede l’importo rimborsabile da INPS fino ad un contributo pubblico massimo di 100,00 euro mensili . La domanda deve essere presentata dal genitore, anche affidatario, per i figli fino ai 3 anni che frequentano nidi e micro-nido pubblici e/o posti acquistati in convenzione dai Comuni (in forma singola o associata) presso strutture private autorizzate. L’elenco dei Comuni ammessi alla misura con le relative strutture e/o posti in convezione è disponibile a fondo pagina. Il contributo viene erogato direttamente ai Comuni. La famiglia non è tenuta al pagamento delle rette per la frequenza del bambino al nido per la quota di retta mensile eccedente l’importo riconosciuto da Inps e secondo i massimali sotto dettagliati secondo la fascia Isee di appartenenza, a partire già dal mese di settembre. Dotazione finanziaria 20000000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 19 del 19/9/22025 Serie ordinaria n. 43 del 24/10/2025 Azioni La Misura esclude espressamente il pagamento da parte delle famiglie per la frequenzadei nidi e micro-nidi della quota di retta mensile aggiuntiva rispetto all’importo rimborsabile da INPS. Come partecipare I destinatari possono presentare la domanda di adesione alla Misura Nidi Gratis Plus 2025/2026 a partire da lunedì 27 ottobre 2025, ore 12.00 fino a giovedì 20 novembre 2025, ore 12.00 (riapertura strordinaria dal 3 all'11 dicembre 2025 ore 12) e comunque nel rispetto della dotazione finanziaria, esclusivamente attraverso il sistema informativo Bandi e Servizi. Le domande possono essere presentate da uno dei genitori previa registrazione in Bandi e Servizi, esclusivamente attraverso il sistema pubblico di identità digitale (SPID), la Carta Regionale dei Servizi (CRS) o Carta Nazionale dei Servizi (CNS), la Carta di Identità Elettronica (CIE) Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi chiarimento o informazione in merito all’Avviso è possibile rivolgersi a: nidigratisplusfamiglie@regione.lombardia.it numero unico 02.67653333 (attivo dalle ore 9.30 alle ore 12.30 dalle ore 14.30 alle ore 16.30 da lunedì a giovedì - dalle ore 9.30 alle ore 12.30 di venerdì) Call Center di Regione Lombardia 800.318.318 digitando 1 . Per richiedere assistenza tecnica in fase di compilazione: numero verde 800 131 151 (sempre gratuito) scrivere a bandi@regione.lombardia.it . Per informazioni e contatti e in caso di smarrimento, furto o mancata consegna della Carta Regionale dei Servizi o per avere maggiori informazioni sui servizi abilitati è attivo il Numero Verde 800.030.606 . Allegati FAQ NIDI GRATIS PLUS 25_26 - 11/02/2026 D. d. u. o. 14807 del 22 ottobre 2025 - Approvazione Avviso Famiglie - 22/10/2025 Allegato A - D. d. u. o. 14807 del 22 ottobre 2025 - Avviso - 22/10/2025 Elenco strutture ammesse - 22/10/2025 Faq - Avviso Famiglie - 22/10/2025 Manuale di adesione - Avviso Famiglie - 06/11/2025 DDUO 16211 del 13/11/2025 - 17/11/2025 DDUO 16211 del 13/11/2025 - Allegato A - 17/11/2025 DDUO 17340 del 28/11/2025 - Riapertura Nidi Gratis Plus 2025/2026 - 28/11/2025 Registro presenze - 28/11/2025 DDUO n. 17615 del 2.12.25 e relativo allegato - 04/12/2025 Registro presenze xls - 15/12/2025 DDUO 18483 del 15/12/2025 - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato A - 16/12/2025 DDUO 18483 del 15/12/2025 - Allegato B - 16/12/2025 DDUO 194 del 13/01/2026 - Posticipo data prima rendicontazione - 15/01/2026 DDUO 345/2025 - IV PROVVEDIMENTO ESITI ISTRUTTORI - 16/01/2026 ALLEGATO A IV DDUO - AMMESSE - 16/01/2026 ALLEGATO B IV DDUO - NON AMMESSE - 16/01/2026 DDUO 690/2026 - V PROVVEDIMENTO ESITI ISTRUTTORI - 26/01/2026 ALLEGATO A V DDUO - AMMESSE - 26/01/2026 ALLEGATO B V DDUO - NON AMMESSE - 26/01/2026 DDUO 2186 del 20/02/26 - VI provvedimento - 04/03/2026 ALLEGATO A VI provvedimento - 04/03/2026 DDUO 2778 del 4/03/2026 - VII provvedimento - 04/03/2026 ALLEGATO A - VII provvedimento - 04/03/2026 DDUO 4540 del 2026 - Aggiornamento periodi rendicontazione - 13/04/2026 DDUO 690 del 230126 V PROVVEDIMENTO e allegati - 21/05/2026 DDUO 6544_2026 - 22/05/2026 ALLEGATO A VIII provvedimento - 22/05/2026 DDUO 6822 del 22/05/2026 - 25/05/2026 ALLEGATO A - IX PROVVEDIMENTO - 25/05/2026 DDUO 8000 del 17/06/26 - 18/06/2026 Allegato A - X provvedimento - 18/06/2026 DDUO 4540 del 9/4/26 AGGIORNAMENTO PERIODI RENDICONTAZIONE - 09/04/2026 D.d.u.o. n. 12586 del 28/09/2026 - Apertura straordinaria - 28/09/2026 Mostra altri Comunicazioni correlate 12/08/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni III finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla terza finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 21/07/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni II finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla seconda finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 03/04/2026 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni I finestra rendicontazione Comuni Pubblicati i decreti di liquidazione relativi alla prima finestra di rendicontazione dei Comuni. In allegato i provvedimenti. Vedi dettaglio 01/12/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la presentazione delle domande da parte delle famiglie Regione Lombardia ha approvato, con decreto n. 17340 del 28 novembre 2025, la riapertura della finestra per la presentazione delle domande di adesione da parte delle famiglie alla Misura Nidi Grati... Vedi dettaglio 23/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Erogazione anticipo Comuni Approvati i primi decreti per l'impegno e la liquidazione della quota di anticipo ai Comuni che ne hanno fatto richiesta. I decreti in oggetto sono i seguenti: n. 13885 del 8/10/25; n. 14232 del 13... Vedi dettaglio 21/10/2025 Bando Servizio: NIDI GRATIS PLUS - 2025/26 - Rendicontazione da parte dei Comuni Riapertura della finestra per la richiesta di anticipo ai Comuni Regione Lombardia ha approvato, con decreto n. 14674 del 20 ottobre 2025, la riapertura della finestra per la richiesta di anticipo ai Comuni. I Comuni interessati potranno presentare domanda dalle... Vedi dettaglio Vedi tutte",
+      "discoveryText": "Aperto chiude il 07-10-2026 Bando NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Codice: RLD12026053903 I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a c... Fai domanda Scopri di più",
       "tracking": {
-        "contentHash": "c83c10a60a80f18484f7fcde753e3e672127edf31ffd016101a5ba78540b0ae0",
-        "version": 68,
-        "firstSeenAt": "2026-09-08T14:36:23+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "contentHash": "239c52fb06f2c6103bb81bdd07718de11b49bc6e470db60c27b0f5b56742ffec",
+        "version": 1,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -322,99 +324,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "RLL12024041723",
-      "title": "Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028",
-      "source": "Regione Lombardia",
-      "deadline": "2026-10-05",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "strumento",
-        "supporto",
-        "individuazione",
-        "soggetti",
-        "svolgono",
-        "attività",
-        "rilevan",
-        "codice",
-        "lombardia",
-        "concede",
-        "riconoscimento",
-        "rilevanza",
-        "operano",
-        "continuità",
-        "professionalità",
-        "territorio",
-        "lombardo"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "strumento",
-        "supporto",
-        "individuazione",
-        "soggetti",
-        "svolgono"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-l-individuazione-soggetti-che-svolgono-attivita-rilevanza-regionale-settore-promozione-educativa-culturale-art-7-l-r-25-2016-anni-2025-2028-RLL12024041723",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Cultura, Turismo e Sport / Spettacolo / Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Aperto Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLL12024041723 Pubblicato il: 05/11/2024 , ore 10:00 Domande dal: 22/09/2026 , ore 10:00 Scade il: 05/10/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Istanze di adesione al monitoraggio Procedura riservata ai soggetti già riconosciuti di rilevanza regionale nel 2026 che sono tenuti a partecipare al monitoraggio per il mantenimento del riconoscimento. Nuove richieste di riconoscimento Come previsto dall’art. 7 comma 2 della l.r. 25/2016, i requisiti generali per l’individuazione dei soggetti di rilevanza regionale sono: previsione nello statuto o nell’atto costitutivo della finalità di promozione educativa culturale attività svolta prevalentemente in Lombardia svolgimento di una documentata attività di elevato interesse culturale , anche con valenza di carattere educativo Ulteriori requisiti specifici di ammissibilità dei soggetti: soggetti di diritto privato senza scopo di lucro che operano con continuità e professionalità sul territorio lombardo e che propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale cinque anni di attività continuativa nel settore della promozione educativa culturale anche con altra denominazione e / o natura giuridica presenza di personale organizzativo, amministrativo e/o tecnico regolarmente retribuito totale dei costi annuali a bilancio uguale o superiore a euro 100.000 per l’anno 2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Di cosa si tratta Regione Lombardia concede il riconoscimento di rilevanza regionale a soggetti che operano con continuità e professionalità sul territorio lombardo e propongono iniziative di promozione educativa culturale contraddistinte per la continuità pluriennale nella formula di offerta culturale, pur nella differenziazione dei temi proposti al pubblico di anno in anno, nonché per l'elevato livello qualitativo. Regione Lombardia, con questo provvedimento, intende proseguire nella valorizzazione del ruolo dei soggetti che si distinguono per l’organizzazione di specifiche attività di promozione educativa culturale: Festival di letteratura e di poesia, di divulgazione scientifica, di filosofia, di arte contemporanea Iniziative/eventi di valorizzazione e di promozione dei beni culturali Iniziative di promozione culturale in contesti non usuali Quando Le stanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. Cosa serve I stanze di adesione al monitoraggio L’istanza di adesione al monitoraggio deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di istanza di adesione al monitoraggio per il mantenimento del riconoscimento Atto di delega di firma, se il firmatario non coincide con il legale rappresentante Copia dello statuto vigente SOLO se lo statuto è stato modificato successivamente al riconoscimento del 2026 Copia del Bilancio approvato riferito all’anno 2025 Nuove richieste di riconoscimento La domanda deve essere corredata dai seguenti allegati da caricare elettronicamente sul sistema informativo: Modulo di richiesta di riconoscimento Atto di delega di firma se il firmatario non coincide con il legale rappresentante Copia dell’atto costitutivo e dello statuto vigenti Copia dei Bilanci approvati riferiti agli anni 2021, 2022, 2023, 2024 e 2025 Relazione attività 2021-2025 Scheda conti economici 2021-2025 Si rimanda alla lettura completa del bando in allegato per ulteriori approfondimenti. Dotazione finanziaria Il provvedimento non ha riflessi di natura finanziaria. Caratteristiche dell'agevolazione Il riconoscimento avrà validità quadriennale per i soggetti riconosciuti nel 2025, triennale per i soggetti riconosciuti nel 2026 e biennale per i soggetti riconosciuti nel 2027. Ogni anno successivo al primo, sarà verificato il mantenimento dei requisiti che hanno consentito a Regione Lombardia il riconoscimento di rilevanza regionale e sarà anche possibile inviare nuove istanze per l’attribuzione di nuovi riconoscimenti. Qualora un soggetto riconosciuto, a seguito di monitoraggio, non risulti più in possesso di uno o più requisiti, si stabilirà la decadenza del riconoscimento regionale. La richiesta di riconoscimento è relativa al settore Promozione educativa culturale e non al settore Spettacolo. Regime di Aiuto di Stato - Come partecipare Le istanze di adesione al monitoraggio e le nuove richieste di riconoscimento dovranno essere presentate, pena la non ammissibilità, dalle ore 10:00 di martedì 22 settembre alle ore 16:00 di lunedì 5 ottobre 2026 obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi. I soggetti già riconosciuti di rilevanza regionale nel 2026 non dovranno presentare una nuova richiesta di riconoscimento, ma, in Bandi e Servizi, dovranno entrare nella domanda già presentata nel 2025 o nel 2026, prendere in carico la pratica e avviare il monitoraggio . La mancata osservanza delle modalità di presentazione e il mancato caricamento elettronico dei documenti costituirà causa di inammissibilità della richiesta. Procedura selezione Procedura valutativa Informazioni e contatti Per informazioni riferite al bando : e-mail: legge25promozione@regione.lombardia.it Rosanna Coviello: tel. 02 67652729 Alessandra Cattadori: tel. 02 67652620 Pietro Balzarini: tel. 02 6765.2635 Per assistenza alla compilazione on-line e quesiti di ordine tecnico sulle procedure informatizzate: Call Center di Aria S.p.A. numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica). e-mail: bandi@regione.lombardia.it Allegati Estratto BURL - SO 38 del 17/09/2026 | Decreto n. 11818 -11/09/2026 - 17/09/2026 Comunicazioni correlate Enti e operatori 13/01/2026 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2026 Con decreto n. 216 del 13 gennaio 2026 sono stati approvati gli esiti istruttori del «Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozio... Vedi dettaglio Enti e operatori 30/12/2024 Strumento di Supporto Servizio: Bando per l’individuazione dei soggetti che svolgono attività di rilevanza regionale nel settore della promozione educativa culturale - Art. 7 della L.R. 25/2016 attivazione del monitoraggio per il mantenimento dei requisiti da parte dei soggetti già riconosciuti nel 2026 e invio nuove richieste per il biennio 2027-2028 Esiti per l’anno 2025 Con Decreto n. 20382 del 19 dicembre 2024, pubblicato sul BURL Serie Ordinaria n. 52 del 27 dicembre 2024, sono stati approvazione gli esiti del «Bando per l’individuazione dei soggetti che svolgon... Vedi dettaglio",
-      "tracking": {
-        "contentHash": "c685b4272d125f3d49f1130e66aa7e1fdb419b3a04314a872e9455dd9ce00895",
-        "version": 70,
-        "firstSeenAt": "2026-09-22T13:42:44+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-resolved",
-        "triageRuleVersion": 3,
-        "audienceScope": "nonprofit-broad",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
-      "detailFetchOk": true
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
+      "detailFetchOk": false
     },
     {
       "id": "REG-AUTO-06B7835B9289",
@@ -506,6 +417,276 @@
       }
     },
     {
+      "id": "RLAV2026055344",
+      "title": "29-10-2026",
+      "source": "Regione Lombardia",
+      "deadline": "2026-10-29",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "enti",
+        "operatori",
+        "chiude",
+        "area",
+        "sportiva",
+        "giovani",
+        "riqualificazione",
+        "aree",
+        "aggregative",
+        "giovan",
+        "codice",
+        "rlav",
+        "iniziativa",
+        "finalizzata",
+        "sostenere",
+        "realizzazione",
+        "rigenerazione",
+        "urbane",
+        "periurbane",
+        "fruibili"
+      ],
+      "sectors": [
+        "enti",
+        "operatori",
+        "chiude",
+        "area",
+        "sportiva",
+        "giovani",
+        "riqualificazione",
+        "aree"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
+      "autoDiscovered": true,
+      "discoveryText": "Enti e operatori Aperto chiude il 29-10-2026 Bando Bando area sportiva giovani -Riqualificazione di aree aggregative giovan... Codice: RLAV2026055344 L’iniziativa è finalizzata a sostenere la realizzazione, la rigenerazione e la riqualificazione di aree urbane e periurbane, fruibili in sicurezza ... Fai domanda Scopri di più",
+      "tracking": {
+        "contentHash": "08adc9118e1bb9f7d8d933e6163544a991dc578e41798fa87dda9cf2a49d6eb1",
+        "version": 1,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
+      "detailFetchOk": false
+    },
+    {
+      "id": "RLW12026056843",
+      "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
+      "source": "Regione Lombardia",
+      "deadline": "2026-11-17",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "enti",
+        "operatori",
+        "chiude",
+        "affidamenti",
+        "diretti",
+        "beni",
+        "servizi",
+        "progetto",
+        "procedura",
+        "affidamento",
+        "serv",
+        "codice",
+        "servizio",
+        "welcome",
+        "coffee",
+        "corner",
+        "light",
+        "lunch",
+        "realizzazione",
+        "comitato"
+      ],
+      "sectors": [
+        "enti",
+        "operatori",
+        "chiude",
+        "affidamenti",
+        "diretti",
+        "beni",
+        "servizi",
+        "progetto"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Aperto AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026 - 18-19 novembre 2026 - Milano presso Palazzo Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Scheda informativa Chi può partecipare Affidamento diretto CIG BD162A922A Base d'asta 2.200,00 Di cosa si tratta Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026. 18-19 novembre 2026 Milano presso Palazzo Lombardia Come partecipare Affidamento diretto Informazioni e contatti Brunella Reverberi U.O. POLITICHE EUROPEE PER IL CAPITALE UMANO, AUTORITÀ DI GESTIONE FSE E COORDINAMENTO MISURE PNRR DIREZIONE GENERALE ISTRUZIONE, FORMAZIONE, LAVORO brunella_reverberi@regione.lombardia.it Allegati Decreto n.12674 - Catering - 29 settembre 2026 - 30/09/2026",
+      "tracking": {
+        "contentHash": "4eda5601e54d5808e2a16f0cbc0532a19f5bc648fc8e536aae8ce8fde795a9c0",
+        "version": 2,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "RLJ12026053845",
+      "title": "Leva civica lombarda senior",
+      "source": "Regione Lombardia",
+      "deadline": "2026-11-30",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "leva",
+        "civica",
+        "lombarda",
+        "senior",
+        "codice",
+        "avviso",
+        "pubblico",
+        "finalizzato",
+        "avviare",
+        "progetti",
+        "sperimentali",
+        "funzionali",
+        "promo",
+        "zione",
+        "dell",
+        "invecchiamento",
+        "prevenzione",
+        "feno"
+      ],
+      "sectors": [
+        "chiude",
+        "leva",
+        "civica",
+        "lombarda",
+        "senior",
+        "codice",
+        "avviso",
+        "pubblico"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/leva-civica-lombarda-senior-RLJ12026053845",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Politiche Sociali / Terzo settore e volontariato / Leva civica lombarda senior Aperto Leva civica lombarda senior Codice: RLJ12026053845 Pubblicato il: 29/09/2026 , ore 10:43 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/11/2026 , ore 17:00 L'Avviso pubblico è finalizzato ad avviare progetti sperimentali funzionali alla promo-zione dell’invecchiamento attivo e alla prevenzione dei fenomeni di isolamento sociale, solitudine e decadimento psicofisico delle persone anziane, attraverso il loro coinvolgimento volontario in percorsi di cittadinanza attiva contenenti azioni di utilità sociale, educativa, culturale e ambientale a beneficio della comunità. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLJ12026053845 Pubblicato il: 29/09/2026 , ore 10:43 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/11/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Gli Enti promotori (pubblici e privati no profit) iscritti all’Albo degli Enti di Leva Civica Lombarda Volontaria di cui all’art. 6 della L.R. n. 16/2019. Di cosa si tratta Avviso per il finanziamento di progetti di cittadinanza attiva presentati dagli Enti (pubblici e privati no profit) iscritti all’Albo degli Enti di Leva Civica Lombarda Volontaria. È un’esperienza di cittadinanza attiva, compresa tra 8 e 12 mesi, rivolta a soggetti di età pari o superiore a 65 anni, finalizzata ad offrire esperienze nei settori indicati dall’art. 2 della L.R. n. 16/2019. Dotazione finanziaria Le risorse disponibili ammontano a 1.246.313,87 euro. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL L'Avviso è pubblicato sul BURL Serie Ordinaria n. 40 del 29 settembre 2026 Come partecipare La domanda di partecipazione al bando dovrà essere presentata, pena la non ammissibilità, dal soggetto richiedente obbligatoriamente in forma telematica, per mezzo del sistema Informativo Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it Ai fini della determinazione della data di presentazione della domanda verrà considerata esclusivamente la data e l’ora di avvenuta protocollazione elettronica tramite il sistema Bandi e Servizi come indicato nel Bando. Le domande di accesso al contributo sono trasmesse e protocollate elettronicamente solo a seguito del completamento delle fasi sopra riportate cliccando il pulsante “Invia al protocollo”. In mancanza di tale invio la domanda si considera non presentata. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per assistenza tecnica sull'utilizzo del servizio on line della piattaforma Bandi e Servizi - Sistema Agevolazioni scrivere a bandi@regione.lombardia.it o contattare il numero verde 800.131.151 attivo dal lunedì al sabato, escluso festivi, dalle ore 10:00 alle ore 20:00 . Per informazioni e segnalazioni relative al bando, rivolgersi al numero telefonico dedicato al Servizio Civile Universale: 02.6765.8850 oppure scrivere alla casella di posta elettronica dedicata: serviziocivile@regione.lombardia.it Allegati Decreto n. 12259 del 21.9.2026 - 28/09/2026 All_A Avviso Leva civica lombarda Senior - 28/09/2026 All_A1 Linee guida per la gestione e la rendicontazione - 28/09/2026 All_A2 Domanda accesso - 28/09/2026 All_A3 Scheda Progetto - 28/09/2026 All_A4 Piano dei Conti - 28/09/2026 All_A5 Incarico per la sottoscrizione digitale - 28/09/2026 All_A6 Informativa trattamento dati personali - 28/09/2026 All_A7 Accesso agli atti - 28/09/2026 DGR n. 5974 del 13.4.26 - 28/09/2026 Mostra altri",
+      "tracking": {
+        "contentHash": "d6c35088d92d25d9de664b6012fd74ba5b5df9f33d66f87c533a1155cd153bbc",
+        "version": 2,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
+        "needsAnalysis": false,
+        "triageStatus": "rules-resolved",
+        "triageRuleVersion": 3,
+        "audienceScope": "ets-specific",
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true,
+        "excludedForEts": false
+      },
+      "sourceStatus": "aperto",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
+      "detailFetchOk": true
+    },
+    {
       "id": "REG-AUTO-572850462D22",
       "title": "bandi e avvisi",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
@@ -582,9 +763,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "b329c39852321d917131117c9493d28756d7270e5ca6d7d5e7f1f52c8cc9e6ce",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -593,14 +774,14 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
       "id": "REG-AUTO-E80D7CD16DA5",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -625,14 +806,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -669,13 +850,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "5bb0253b7b192fc86c147820a30426f87e2d214d7c7c71a871a1b81e39ae1418",
-        "version": 1,
+        "contentHash": "f6840ac928cd5edfc24d1e84c5d91caefdef53dfa813bcf3c0b1b03badb7f974",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -689,7 +870,7 @@
       "id": "REG-AUTO-C4D64EF9767F",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -714,14 +895,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -758,13 +939,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "673292effd55880bed762041152ec69ec2060ef5076fd905c6df263442a40b85",
-        "version": 1,
+        "contentHash": "7adf04dc2ca6a0bc8bcf71113c54d4c56e3a707144c3b50dacb4aee7c8c3263e",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -778,7 +959,7 @@
       "id": "REG-AUTO-B6D3DFB99915",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -803,14 +984,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -847,13 +1028,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "645cf52702dbafaedcc28771f22c3bc4fa18f40c8ceac4395ba7f23acdbc2a91",
-        "version": 1,
+        "contentHash": "5afa0e67b0cf06726cfb02815c56d52d9869e0733576170db5f465d883c9921a",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -867,7 +1048,7 @@
       "id": "REG-AUTO-49AF4A0A61E5",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -892,14 +1073,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -936,13 +1117,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "e32b84b721c11a073065a9c0e6ed95d248d72f288e557382d0fd3b792992bec0",
-        "version": 1,
+        "contentHash": "2a3aed36717f33119537b6bbeb8703944679c38570e057d27a8807713670bb07",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -956,7 +1137,7 @@
       "id": "REG-AUTO-3DE82F69AE45",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -981,14 +1162,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1025,13 +1206,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "13c3dc35bd9de477810b518a672b0e51310a3a924a5e48803c143c7f40f8190f",
-        "version": 1,
+        "contentHash": "704915fc28dec90617161407b4e170f5a5fddcdb6ad43877361783c15f153a2d",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1045,7 +1226,7 @@
       "id": "REG-AUTO-35FD65D0E429",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1070,14 +1251,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1114,13 +1295,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "5e7e2b00ce102e82a3b6dc39e8c05b2733ead74e86d82dee23fa9d82a41b3a77",
-        "version": 1,
+        "contentHash": "c83e391920156003622108c1a53f9fb31db93fa37e3a01e1ce5082fce739e274",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1134,7 +1315,7 @@
       "id": "REG-AUTO-1449567C89D7",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1159,14 +1340,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1203,13 +1384,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "04ec221c0d52f9d2d929f679fcf34dd01167c5af0e59332bcc32fdc44df80770",
-        "version": 1,
+        "contentHash": "4914f992ec429f0b5ce0a2e851d71089ccfe02175d9909ccd089d0264293120e",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1223,7 +1404,7 @@
       "id": "REG-AUTO-27DB3CB4DE1D",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1248,14 +1429,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1292,13 +1473,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "b738094f88aa1bb7c242584e93d47c9a0ee1a1ea764345d6146651cc483f52cc",
-        "version": 1,
+        "contentHash": "def046a985e5623b29f839d301e6b0a08f2069375b735770b186b6617f109249",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1312,7 +1493,7 @@
       "id": "REG-AUTO-A7A50C46E095",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1337,14 +1518,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1381,13 +1562,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "95838346f9c1501ccf388c1fc2f7a9c30b0113178ca62fd69a321304c9a81d15",
-        "version": 1,
+        "contentHash": "abd1626f94461825f86140a324c8073d1842cd300160baab7ce742f4f798effe",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1401,7 +1582,7 @@
       "id": "REG-AUTO-29DCCC24BD3D",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1426,14 +1607,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1470,13 +1651,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "d2f1f14a15f2293530e86f261b244bdaa117331d740cc8a3953bb52803af427e",
-        "version": 1,
+        "contentHash": "3406e52006d11863cf19de111ed35259a8c2d66b3af335f8e19ffbe643df7927",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1490,7 +1671,7 @@
       "id": "REG-AUTO-403C35EC8C29",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1515,14 +1696,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1559,13 +1740,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "45db57c8f8b412b0bf40a98824d9544fc0e4f271ca025984f567b04acd94979a",
-        "version": 1,
+        "contentHash": "50892678265a07cfff329b539a57caedddf5a2634685f81658662cc6f68b844d",
+        "version": 2,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1579,7 +1760,7 @@
       "id": "REG-AUTO-6FEEE937D792",
       "title": "tutti i bandi e gli avvisi in corso",
       "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "deadline": "2026-10-16",
+      "deadline": "2027-01-31",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1604,14 +1785,14 @@
         "regionali",
         "competenti",
         "scadenza",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "servizi",
-        "sociali",
-        "comuni",
-        "finanziamento",
-        "progetti"
+        "avviamento",
+        "selezione",
+        "presso",
+        "amministrazione",
+        "pubblica",
+        "graduatoria",
+        "comune",
+        "bagnaria"
       ],
       "sectors": [
         "tutti",
@@ -1648,191 +1829,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=13",
       "autoDiscovered": true,
-      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 30.10.2026 Avviso presentazione istanza di concessione final",
+      "discoveryText": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 01.10.2026 - scadenza 31.01.2027 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Bagnaria Arsa Centri per l'impiego 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto ai servizi sociali dei Comuni per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pari opportunità 29.12.2025 Direzione centrale salute, politiche sociali e disabilità 30.09.2026 - scadenza 16.10.2026 Avviso pubblico rivolto a enti del Terzo settore per il finanziamento di progetti finalizzati alla realizzazione delle azioni e degli interventi di cui all'art. 3 del Decreto della Ministra per la famiglia, la natalità e le pa",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "80816a930e3bc36123040041e535ac24b0b40e64861e93a289fee9fd89106c97",
-        "version": 1,
-        "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T00:20:05+02:00",
-        "needsAnalysis": false,
-        "triageStatus": "rules-resolved",
-        "triageRuleVersion": 3,
-        "audienceScope": "ets-specific",
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true,
-        "excludedForEts": false
-      }
-    },
-    {
-      "id": "RLY12026056503",
-      "title": "MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI",
-      "source": "Regione Lombardia",
-      "deadline": "2026-10-19",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "manifestazioni",
-        "sottoscrizione",
-        "protocollo",
-        "intesa",
-        "codice",
-        "avviso",
-        "direzione",
-        "generale",
-        "sicurezza",
-        "protezione",
-        "civile",
-        "presentazione",
-        "protocoll"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "manifestazione",
-        "interesse",
-        "manifestazioni",
-        "sottoscrizione",
-        "protocollo"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/manifestazioni-interesse-sottoscrizione-protocollo-d-intesa-l-accesso-contributi-interventi-prevenzione-contrasto-sovraindebitammento-biennio-2026-2027-RLY12026056503",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Aperto MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 AVVISO DELLA DIREZIONE GENERALE SICUREZZA E PROTEZIONE CIVILE PER LA PRESENTAZIONE DI MANIFESTAZIONI DI INTERESSE ALLA SOTTOSCRIZIONE DEL PROTOCOLLO D’INTESA PER INTERVENTI DI PREVENZIONE E CONTRASTO AL SOVRAINDEBITAMMENTO PER IL BIENNIO 2026 – 2027 E ACCESSO AI CONTRIBUTI (L.R. 4/2025, ART.6) - DESTINATO AGLI ORGANISMI DI COMPOSIZIONE DELLA CRISI (OCC) DI NATURA PUBBLICA CON SEDE LEGALE ED OPERATIVA NEL TERRITORIO LOMBARDO Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026056503 Pubblicato il: 28/09/2026 , ore 16:45 Domande dal: 30/09/2026 , ore 10:00 Scade il: 19/10/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I destinatari del presente avviso sono: a) gli OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, di natura pubblica; b) le aggregazioni di OCC del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, il cui capofila deve avere natura pubblica. I destinatari devono avere sede legale e operativa nel territorio della Regione Lombardia alla data di presentazione della manifestazione di interesse. Di cosa si tratta Regione intende erogare contributi agli Organismi di Composizione della Crisi (OCC) del territorio lombardo iscritti nel registro di cui all’art. 15, comma 2, L. n. 3/2012, per le attività di assistenza, orientamento e consulenza legale e tecnica del soggetto interessato nella fase antecedente l'avvio delle procedure di composizione della crisi da sovraindebitamento e di esdebitazione, anche dell'incapiente, nonché per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. Dotazione finanziaria Per la realizzazione delle suddette finalità Regione riconosce all’OCC capofila un contributo di € 100.000,00 (centomila) per l’anno 2026 e di € 130.000,00 (centotrentamila) per l’anno 2027. Della misura complessiva di € 230.000,00 (duecentotrentamila) , € 30.000 (trentamila) sono destinati per attività di comunicazione, educazione finanziaria, organizzazione di seminari e/o convegni, corsi e formazione accreditata in materia di sovraindebitamento, realizzazione di sportelli di consulenza sul debito e di preistruttoria o alla valorizzazione di quelli esistenti. BURL - Come partecipare La domanda di partecipazione al bando dovrà essere presentata esclusivamente online attraverso la piattaforma informatizzata Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it. Ai fini della determinazione della data di presentazione della domanda, faranno fede esclusivamente la data e l’ora di potocollo della domanda. La manifestazione di interesse deve, altresì, contenere: Indicazione dell’OCC capofila; Indicazione degli eventuali soggetti aggregati; Indicazione del numero di pratiche gestite nel biennio 2024/2025 in tema di sovraindebitamento dall’OCC o, in caso di aggregazione, dall’OCC capofila. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti La partecipazione alla Manifestazione di Interesse è riservata esclusivamente agli Organismi di Composizione della Crisi (OCC) in possesso dei requisiti previsti dalla manifestazione di interesse. La manifestazione di interesse NON è rivolto a persone fisiche o cittadini. Per informazioni sulle modalità di partecipazione alla Manifestazione di Interesse Per quesiti e richieste di chiarimento relativi ai contenuti del bando, ai requisiti, alle modalità di partecipazione e agli interventi finanziabili è possibile scrivere a: sovraindebitamento@regione.lombardia.it Nell’oggetto della e-mail indicare: “Manifestazione di Interesse per il sovraindebitamento”. Per Assistenza Tecnica sulla piattaforma Bandi e Servizi Per problemi relativi alla compilazione e alla trasmissione della domanda online e, più in generale, per quesiti di natura tecnica riguardanti le procedure informatizzate, è possibile contattare il CALL CENTER dedicato alla gestione tecnica e informatica della Piattaforma “Bandi e Servizi” al seguente Numero verde 800.131.151 Il servizio di CALL CENTER è attivo dal lunedì al sabato, esclusi i festivi , nei seguenti orari: 8.00 – 20.00 per quesiti di ordine tecnico; 8.30 – 17.00 per richieste di assistenza tecnica. Attenzione: il Call Center fornisce assistenza esclusivamente per gli aspetti tecnici relativi alla piattaforma e alla procedura online. Per quesiti relativi ai contenuti del bando è necessario utilizzare l’indirizzo e-mail dedicato sovraindebitamento@regione.lombardia.it Allegati PROTOCOLLO D’INTESA - 24/09/2026 MANIFESTAZIONI DI INTERESSE - 24/09/2026 DELIBERAZIONE N. XII/ 6841 - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 24/09/2026 Mostra altri",
-      "tracking": {
-        "contentHash": "4e235b1c648161a7b35696b8debb62b3904be5009389d74e8dd7f80fa85ed3d9",
-        "version": 6,
-        "firstSeenAt": "2026-09-30T14:39:50+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "PIE-AUTO-48C7D2B0C13F",
-      "title": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026",
-      "source": "Regione Piemonte · Bandi",
-      "deadline": "2026-10-22",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Piemonte · Bandi",
-        "piemonte"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "contributi",
-        "iniziative",
-        "istituzionali",
-        "manifestazioni",
-        "eventi",
-        "bandi",
-        "piemonte",
-        "salta",
-        "contenuto",
-        "principale",
-        "istituzione",
-        "appartenenza",
-        "seguici",
-        "twitter",
-        "facebook",
-        "youtube",
-        "linkedin",
-        "instagram",
-        "whatsapp",
-        "ricerca"
-      ],
-      "sectors": [
-        "contributi",
-        "iniziative",
-        "istituzionali",
-        "manifestazioni",
-        "eventi",
-        "bandi",
-        "piemonte",
-        "salta"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "piemonte"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: piemonte",
-          "anyOf": [
-            "piemonte"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/contributi-iniziative-istituzionali-manifestazioni-eventi-2026",
-      "autoDiscovered": true,
-      "discoveryText": "Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti Contributi per iniziative istituzionali, manifestazioni ed eventi 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Bando per la presentazione delle domande di contributo per l’anno 2026 ai sensi della Legge regionale 14 gennaio 1977, n. 6 Domande dal Mar, 22/09/2026 - 09:00 Scadenza Gio, 22/10/2026 - 12:00 Riferimento Bollettino Ufficiale D.D. 21 Settembre 2026, n. 154 Temi Altro Rivolto a Enti pubblici Terzo settore Risorse Risorse regionali Procedura Avviso La Legge regionale 14 gennaio 1977 n. 6 e s.m.i. “No",
-      "sourceStatus": "aperto",
-      "tracking": {
-        "contentHash": "74fd72ee2db037ab704d3e5de7ec150cef75e64bdc7e64379b2ff1002131ca41",
+        "contentHash": "1c67e71df5fa0c1a52033f7f87d4eec39b6e64cca650c73cfb1445d91f5e27c9",
         "version": 2,
-        "firstSeenAt": "2026-09-22T13:42:44+02:00",
-        "lastChangedAt": "2026-09-22T18:59:32+02:00",
+        "firstSeenAt": "2026-10-01T00:20:05+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1843,10 +1846,10 @@
       }
     },
     {
-      "id": "RLAM2026056823",
-      "title": "GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI",
+      "id": "RLW12025050865",
+      "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
       "source": "Regione Lombardia",
-      "deadline": "2026-11-06",
+      "deadline": "2027-04-30",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1859,33 +1862,36 @@
         "Requisiti da verificare nella fonte ufficiale"
       ],
       "keywords": [
+        "enti",
+        "operatori",
         "chiude",
-        "gare",
-        "beni",
-        "servizi",
-        "geca",
-        "procedura",
-        "aperta",
-        "appalto",
-        "servizio",
-        "assistenza",
+        "contributo",
+        "abbattimento",
+        "interessi",
+        "sull",
+        "iniziativa",
+        "finanziamento",
         "codice",
-        "rlam",
-        "durata",
-        "contratto",
-        "mesi",
-        "decorrenti",
-        "sottoscrizione"
+        "data",
+        "ottobre",
+        "aprono",
+        "termini",
+        "dell",
+        "avviso",
+        "finlombarda",
+        "rivolto",
+        "agli",
+        "accreditati"
       ],
       "sectors": [
+        "enti",
+        "operatori",
         "chiude",
-        "gare",
-        "beni",
-        "servizi",
-        "geca",
-        "procedura",
-        "aperta",
-        "appalto"
+        "contributo",
+        "abbattimento",
+        "interessi",
+        "sull",
+        "iniziativa"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -1910,14 +1916,14 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/infrastrutture-trasporti-mobilita/acquisti-contratti-pubblici/geca-13-2026-procedura-aperta-l-appalto-servizio-assistenza-tecnica-specialistica-carattere-giuridico-tecnico-ed-economico-tpl-navigazione-interna-due-lotti-RLAM2026056823",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Infrastrutture, Trasporti e Mobilità / Acquisti e contratti pubblici / GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Aperto GECA 13/2026 - PROCEDURA APERTA PER L’APPALTO DEL SERVIZIO DI ASSISTENZA TECNICA SPECIALISTICA DI CARATTERE GIURIDICO, TECNICO ED ECONOMICO PER IL TPL E LA NAVIGAZIONE INTERNA IN DUE LOTTI Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 DURATA DEL CONTRATTO: 36 mesi decorrenti dalla sottoscrizione del contratto. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAM2026056823 Pubblicato il: 30/09/2026 , ore 09:49 Domande dal: 28/09/2026 , ore 16:00 Scade il: 06/11/2026 , ore 14:00 Scheda informativa Chi può partecipare Le imprese qualificate sulla piattaforma regionale di e-procurement Sintel CIG BD21D6B03A BD21D6C10D Base d'asta lotto 1 € 310.080,00 lotto 2 € 145.920,00 per un totale di € 456.000,00 Di cosa si tratta LOTTO 1 – ASSISTENZA GIURIDICA- CIG BD21D6B03A LOTTO 2 - ASSISTENZA TECNICA ECONOMICA- CIG BD21D6C10D Come partecipare ¿¿¿¿¿¿¿ Tramite la piattaforma telematica Sintel di Regione Lombardia disponibile al sito www.ariaspa.it . Per le informazioni di tipo tecnico, si faccia riferimento al documento allegato “ Modalità tecniche per l’utilizzo della piattaforma Sintel ” ed esclusivamente al numero verde del gestore della Piattaforma SINTEL presso ARIA 800.116.738. Informazioni e contatti VALENTINA CONVERTINI - Dirigente Struttura Programmazione Acquisti e Gestione Appalti Allegati DECRETO - 28/09/2026 Atti pubblicazione gara - 29/09/2026",
+      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Aperto Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 In data 1 ottobre 2026 aprono i termini dell’Avviso di Finlombarda rivolto agli Enti accreditati destinatari del Budget Duale anno formativo 2026/2027, che intendono richiedere un contributo per l’abbattimento degli interessi sul finanziamento. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti Accreditati IeFP, destinatari del Budget Duale IeFP 2026/2027, assegnato da Regione Lombardia e in possesso dei requisiti previsti nell’Avviso “Finanziamento per il sistema di istruzione e formazione professionale” (paragrafo A.4 “Soggetti richiedenti”). Di cosa si tratta Iniziativa promossa da Finlombarda S.p.A. per supportare l’offerta formativa del sistema regionale di istruzione e formazione professionale (IeFP). Gli enti accreditati per i servizi di Istruzione e Formazione, beneficiari dei finanziamenti concessi da Finlombarda relativi all’Avviso “ Finanziamento per il sistema di Istruzione e formazione professionale ”, possono richiedere un contributo per l’abbattimento di interessi sul finanziamento. Possono aderire gli Enti che non abbiano già richiesto l’anticipazione tramite fidejussione, così come previsto dall’ Avviso IEFP ordinaria 2026/2027 per la realizzazione dell'offerta formativa dei percorsi del sistema regionale di Istruzione e Formazione Professionale, in attuazione della D.g.r. 6546 del 20/07/2026 , parzialmente finanziato a valere sul PR FSE+ 2021-2027 (Priorità 2 - ESO4.6 - Azione F.1), approvato con Decreto n. 10334/2026. Cosa serve Tutti i soggetti beneficiari che intendono erogare servizi nell’ambito del presente Avviso devono: • sottoscrivere digitalmente l’Atto di Adesione Unico di cui al Manuale di Gestione e inviarlo tramite il sistema informativo Bandi e Servizi (di seguito “BeS”), raggiungibile all’indirizzo www.bandi.regione.lombardia.it Dotazione finanziaria La dotazione finanziaria disponibile per la concessione dei Contributi Abbattimento Interessi è pari a euro 1.603.650,02 (unmilioneseicentotremilaseicentocinquanta/02) a valere sul Fondo Abbattimento Interessi costituito da Regione Lombardia e stanziati con la DGR Istitutiva n. 4616 del 23/06/2025. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 32 del 04/08/2026 Come partecipare La domanda di Contributo deve essere presentata, successivamente alla presentazione della domanda di Finanziamento, sulla presente piattaforma Bandi e Servizi ( www.bandi.servizirl.it ), a partire dalle ore 12:00 del giorno 1 ottobre 2026 alle ore 17:00 del 30 aprile 2027 e in ogni caso sino all’esaurimento della dotazione o alla chiusura dell’iniziativa da parte di Finlombarda. Procedura selezione La tipologia di procedura utilizzata è valutativa a sportello, secondo l’ordine cronologico di protocollazione elettronica da parte di Bandi e Servizi. Informazioni e contatti Contatti assistenza tecnica Per problemi tecnici sul sistema informativo occorre scrivere esclusivamente a: • bandi@regione.lombardia.it (Bandi e Servizi) Oppure contattare il numero verde 800.131.151 (Bandi e Servizi). Contatti assistenza amministrativa Qualsiasi informazione relativa ai contenuti dell’avviso e agli adempimenti connessi può essere richiesta a: • infobando.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle modalità di presentazione delle domande; • infopratica.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle domande ammesse o in lavorazione. Allegati DGR 6546 del 20-07-2026 - 20/07/2026 DGR 6546_26 Allegato A - Rinnovo iniziativa per 2026-2027 - 20/07/2026 DGR 6546_26 Allegato B - Aggiornamento Prospetto di raccordo - 20/07/2026 Decreto 8192 del 19/6/26 - Budget IeFP 2026-2027 - 19/06/2026 BURL n. 32 - 2026 - estratto Avviso Finanziamenti - 05/08/2026 Avviso Finanziamenti IEFP 26-27 - testo integrale - 05/08/2026 Avviso Contributo IEFP 26-27 - testo integrale - 05/08/2026 Mostra altri",
       "tracking": {
-        "contentHash": "b01477b5cbd91ceb964db70deb6cf81d5424672b6c479f6352d41121d9bbdbe1",
-        "version": 6,
-        "firstSeenAt": "2026-09-30T14:39:50+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "contentHash": "2e31cd0b079d33cec00e40a62b5c3f39fcd1c6170dcb12a1c39cd89476d87a0c",
+        "version": 2,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1926,14 +1932,14 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
-      "id": "RLW12025050884",
-      "title": "Apprendistato di Primo Livello – A.F. 2026/2027",
+      "id": "RLM12026056583",
+      "title": "PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026",
       "source": "Regione Lombardia",
-      "deadline": "2027-09-08",
+      "deadline": "2027-05-20",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -1946,32 +1952,33 @@
         "Requisiti da verificare nella fonte ufficiale"
       ],
       "keywords": [
+        "enti",
+        "operatori",
         "chiude",
-        "apprendistato",
-        "primo",
-        "livello",
+        "formazione",
+        "imprenditori",
+        "agricoli",
+        "addetti",
+        "imprese",
         "codice",
-        "avviso",
-        "pubblico",
-        "rivolto",
-        "istituzioni",
-        "formative",
-        "accreditate",
-        "fondazioni",
-        "academy",
-        "associazioni",
-        "temporanee",
-        "scopo"
+        "intervento",
+        "dotazione",
+        "finanziaria",
+        "presentazione",
+        "domande",
+        "ottobre",
+        "gennaio",
+        "febbraio"
       ],
       "sectors": [
+        "enti",
+        "operatori",
         "chiude",
-        "apprendistato",
-        "primo",
-        "livello",
-        "codice",
-        "avviso",
-        "pubblico",
-        "rivolto"
+        "formazione",
+        "imprenditori",
+        "agricoli",
+        "addetti",
+        "imprese"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -1996,14 +2003,14 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-primo-livello-f-2026-2027-RLW12025050884",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/organizzazioni-comuni-mercato-ocm/psn-pac-2023-2027-formazione-imprenditori-agricoli-addetti-imprese-operanti-settori-agricoltura-zootecnia-industrie-alimentari-altri-soggetti-privati-pubblici-funzionali-sviluppo-aree-rurali-sviluppo-rurale-bando-2026-RLM12026056583",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato di Primo Livello – A.F. 2026/2027 Aperto Apprendistato di Primo Livello – A.F. 2026/2027 Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formativo 2026/2027, di percorsi di apprendistato di primo livello finalizzati al conseguimento di un titolo di studio, ai sensi dell’articolo 43 del D.Lgs. 81/2015. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050884 Pubblicato il: 17/09/2026 , ore 12:48 Domande dal: 28/09/2026 , ore 10:00 Scade il: 08/09/2027 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Per i percorsi finalizzati al conseguimento della Qualifica professionale o della Qualifica e successivamente del Diploma professionale: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007, della DGR n. 6696/2022 e del relativo decreto attuativo n. 15516/2022. Per i percorsi finalizzati alla frequenza del corso annuale integrativo per l’accesso all’esame di Stato: Istituzioni Formative accreditate alla Sezione A dell’Albo regionale, ai sensi dell’articolo 25 della L.R. 19/2007 e ss.mm.ii., che, in collaborazione con gli Istituti Professionali statali, erogano percorsi annuali di IeFP finalizzati all’ammissione all’esame di Stato per il conseguimento del Diploma di Istruzione Professionale, secondo le modalità definite nello specifico Avviso per la realizzazione del corso annuale. Per i percorsi finalizzati al conseguimento del Certificato IFTS: Fondazioni ITS Academy costituite ai sensi del Decreto del Presidente del Consiglio dei Ministri del 25 gennaio 2008 e accreditate ai sensi della L. 99/2022, con sede in Lombardia; Associazioni Temporanee di Scopo (ATS) che raggruppano, quale standard organizzativo minimo, i seguenti quattro soggetti: Istituti scolastici del secondo ciclo di istruzione con sede nel territorio regionale; Istituzioni Formative accreditate e iscritte alla Sezione A dell’Albo regionale; Università o dipartimenti universitari con sede nel territorio regionale; Imprese o associazioni di imprese con sede in Lombardia. Di cosa si tratta L’Avviso è finalizzato a promuovere, per l’Anno Formativo 2026/2027, percorsi di apprendistato di primo livello finalizzati al conseguimento dei seguenti titoli: Qualifica IeFP e Diploma IeFP, presso le Istituzioni formative accreditate alla Sezione A dell’Albo regionale; Certificato IFTS (Istruzione e Formazione Tecnica Superiore); Diploma di Istruzione Professionale, a seguito della frequenza del quinto anno integrativo, presso le Istituzioni formative accreditate. Dotazione finanziaria Le risorse pubbliche disponibili per il presente Avviso ammontano a € 25.000.000,00, comprensive della quota destinata alla componente disabilità. Queste risorse sono trasferimenti statali di natura vincolata da parte del Ministero del Lavoro e delle Politiche Sociali, ai sensi della Legge 144/1999, destinate al finanziamento del sistema duale ordinario Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. Il Bando è finanziato con lo strumento della Dote, che si compone di due elementi: dote formazione e componente disabilità, quest’ultima limitata agli studenti con disabilità certificata. Dote Formazione: la Dote Formazione finanzia il servizio formativo per ciascun apprendista con contratto di apprendistato di primo livello attraverso un Piano di Intervento Personalizzato (PIP). Per ogni giovane apprendista è riconosciuto un contributo pari all'Unità di Costo Standard (UCS) di € 6.654,00. Il contributo è erogato a risultato per ogni allievo formato, con riferimento a ciascuna annualità formativa. Ai fini del riconoscimento dell'intero importo del servizio formativo, l'allievo deve conseguire una relevant certification, ovvero l'ammissione all'annualità successiva o il conseguimento del titolo di studio. Componente Disabilità: la Componente Disabilità, aggiuntiva rispetto alla Dote Formazione, finanzia le ore di sostegno destinate agli studenti in possesso di certificazione di disabilità. Per ciascun allievo è riconoscibile un contributo massimo di € 2.250,00. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL - Azioni - Come partecipare Preliminarmente alla richiesta di dote il soggetto esecutore deve provvedere alla creazione del percorso tramite il sistema informativo SIUF. La richiesta di dote è condizionata alla trasmissione da parte del soggetto esecutore dell’ Atto di Adesione Unico . Il soggetto esecutore è tenuto ad acquisire dal sistema informativo: il Piano di Intervento Personalizzato (PIP) il Modulo di domanda di partecipazione Il perfezionamento della richiesta di dote e la conferma del PIP da parte dell’Istituzione formativa avvengono mediante la trasmissione della Dichiarazione Riassuntiva Unica ( DRU ), firmata elettronicamente dal rappresentante legale o da altro soggetto con potere di firma, sul sistema informativo Bandi e Servizi. Inoltre, per tutti i percorsi la domanda di dote dovrà essere corredata dal Modello Unilav di avvio del rapporto di lavoro e dalla registrazione del codice identificativo della COB in Bandi e Servizi. La richiesta di dote, pertanto, risulta composta da: Dichiarazione Riassuntiva Unica Riferimento al CF dell’apprendista e all’ID SEZIONE già creata in SIUF (contenente tutti i dati utili del percorso formativo in apprendistato) Modello UNILAV di avvio del rapporto di lavoro e registrazione del codice identificativo della COB in Bandi e Servizi. Solo per gli IFTS: Atto di costituzione dell’ATS Le domande possono essere presentate esclusivamente online , attraverso la presente piattaforma Bandi e Servizi, autenticandosi tramite SPID, CIE o CNS/CRS , a partire dal 28 settembre 2026 alle ore 10.00 fino all'8 settembre 2027 alle ore 14.00. Procedura selezione Valutativa a sportello. È prevista una procedura di assegnazione a sportello con selezione automatica, secondo l’ordine cronologico di presentazione online delle domande e fino ad esaurimento delle risorse disponibili sul presente Avviso nel periodo di riferimento. Informazioni e contatti Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it , previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: supporto-siuf@ariaspa.i t , indicando obbligatoriamente: ID sezione generata da SIUF e ID PFI laddove pertinente ID matricola studente CF, nome e cognome destinatario Indicazione dell’errore presente a sistema Breve descrizione dell’errore Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione di SIUF e ID PFI laddove pertinente Indicazione dell’errore presente a sistema Breve descrizione dell’errore oppure contattare il numero verde 800.131.151. Per quanto riguarda i problemi tecnico informatici occorre attendere la risposta dei servizi di assistenza alle piattaforme Bandi e Servizi e SIUF. Assistenza tecnica Bandi Online/Servizio Helpdesk Per quesiti sulle modalità di finanziamento e funzionamento dell’Avviso occorre aprire un ticket su https://cll.regione.lombardia.it previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a: bandi@regione.lombardia.it , indicando obbligatoriamente: Codice ID bando di riferimento ID sede CF, nome e cognome destinatario ID domanda BES ID sezione in SIUF Indicazione dell’errore presente a sistema Breve descrizione dell’errore Oppure contattare il numero verde 800.131.151 Per problemi tecnici sul sistema informativo SIUF occorre scrivere esclusivamente a: Supporto-siuf@ariaspa.it, indicando obbligatoriamente: · ID sezione generata da SIUF e ID PFI se pertinente · ID matricola studente · CF nome e cognome destinatario · Indicazione dell’errore presente a sistema · Breve descrizione dell’errore Informazioni al pubblico Regione Lombardia/ Struttura SISTEMA IeFP (ISTRUZIONE E FORMAZIONE PROFESSIONALE) e-mail: apprendistato@regione.lombardia.it Allegati DDS 10557 del 04/08/2026 Approvazione avviso Apprendistato I livello 2026/27 - 04/08/2026 DDS 10557_26 All. 11 - Loghi Apprendistato 2026_27 - 04/08/2026 DDS 1055_26 All. 10 - Format scheda stage - 04/08/2026 DDS 10557_2026 All. 9 - Modulo richiesta accesso agli atti - 04/08/2026 DDS 10557_2026 All. 8 - Informativa privacy - 04/08/2026 Mostra altri Comunicazioni correlate 25/09/2026 Bando Servizio: Apprendistato di Primo Livello – A.F. 2026/2027 Apprendistato di primo livello 2026/2027 – comunicazione apertura Bandi e servizi per la presentazione delle domande di dote Con riferimento all’Avviso pubblico rivolto alle Istituzioni formative accreditate, alle Fondazioni ITS Academy e alle Associazioni Temporanee di Scopo (ATS) per la realizzazione, nell’anno formati... Vedi dettaglio",
+      "discoveryText": "Bandi / Agricoltura / Organizzazioni Comuni di Mercato (OCM) / PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026 Aperto PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026 Codice: RLM12026056583 Pubblicato il: 22/09/2026 , ore 10:39 Domande dal: 01/10/2026 , ore 10:00 Scade il: 20/05/2027 , ore 23:59 INTERVENTO SRH03. Dotazione finanziaria di € 350.000,00. Presentazione domande: 1° ottobre 2026 – 30 ottobre 2026 / 15 gennaio 2027– 15 febbraio 2027 / 20 aprile 2027–20 maggio 2027. Possono partecipare: Enti di formazione accreditati. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento OLD PSR FEASR Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLM12026056583 Pubblicato il: 22/09/2026 , ore 10:39 Domande dal: 01/10/2026 , ore 10:00 Scade il: 20/05/2027 , ore 23:59 Scheda informativa Chi può partecipare Enti di formazione accreditati. Di cosa si tratta Corsi di formazione collettivi per addetti al settore agricolo e nei territori rurali. Dotazione finanziaria La dotazione finanziaria dell’Intervento è pari € 350.000,00. Caratteristiche dell'agevolazione La percentuale di contribuzione è pari al 100% della spesa ammessa, al netto dell’IVA. L’ammontare massimo di spesa ammissibile è pari a € 26.125. Regime di Aiuto di Stato Regolamento (UE) 2023/2831 “de minimis” relativamente ai corsi di formazione che esulano dal settore agricolo. I corsi di formazione relativi al settore agricolo, ai sensi dell’art. 145 del Reg. (UE) 2115/2021, non sono soggetti alla normativa aiuti di Stato. BURL Serie Ordinaria n. 38 - Venerdì 18 settembre 2026. Azioni Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali. Come partecipare I richiedenti possono presentare fino a sei domande per ciascun periodo di presentazione esclusivamente per via telematica tramite la compilazione della domanda informatizzata presente nel Sistema Informatico delle Conoscenze della Regione Lombardia (Sis.Co.), previa apertura e/o aggiornamento del fascicolo aziendale informatizzato. Alla domanda di aiuto deve essere allegata la documentazione prevista al paragrafo 13.4 delle presenti disposizioni attuative. Procedura selezione Procedura valutativa. Le domande sono valutate in base ad una griglia di criteri indicati nelle disposizioni attuative al paragrafo 11. L’istruttoria è di competenza della Struttura Servizi alla Imprese Agricole e Multifunzionalità, Direzione Generale Agricoltura, Sovranità Alimentare e Foreste. Informazioni e contatti Per informazioni e segnalazioni relative alle disposizioni attuative: Responsabile di Intervento: Lucia lucia_silvestri@regione.lombardia.it ; Referenti tecnici: Silvestri, Giovanna Nicastro, giovanna_nicastro@regione.lombardia.it , 02 67653262. Niccolò Luzzini, niccolo_luzzini@regione.lombardia.it, 02 67656020; Per informazioni e segnalazioni relative alla procedura informatica per la presentazione della domanda Numero Verde 800 131 151 sisco.supporto@regione.lombardia.it Allegati Decreto 15 settembre 2026 - n. 11986 - disposizioni attuative presentazione domande - bando 2026 - 18/09/2026",
       "tracking": {
-        "contentHash": "75d748795c4fd9a85611503d692bda55b42db9eb439b40cd1c0b193818deff19",
-        "version": 18,
-        "firstSeenAt": "2026-09-28T16:01:35+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "contentHash": "b9f77387bacb31c0c02c5de0d91264eca973f0b7cc338c36bc87146a5b0bd50f",
+        "version": 2,
+        "firstSeenAt": "2026-10-01T15:21:36+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2012,7 +2019,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2091,9 +2098,9 @@
       "discoveryText": "Stato: Attivo Scadenza 18/02/2027 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-        "version": 60,
+        "version": 62,
         "firstSeenAt": "2026-09-23T13:41:23+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2103,7 +2110,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2179,13 +2186,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
       "autoDiscovered": true,
-      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t",
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "5e51a04096e691dad462556bfc2757e4c67b8cd888d66d455883fc461c76c1af",
-        "version": 1,
+        "contentHash": "db6654b481c6d38b35c14de6f88090a6f9d9e6156a1d2969e71e386d0411cd9b",
+        "version": 2,
         "firstSeenAt": "2026-09-29T14:58:30+02:00",
-        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2194,7 +2201,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -2262,9 +2269,9 @@
       "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 300.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. L’iniziativa si inserisce inoltre nel quadro della collaborazione avviata tra Fondazione Cariplo e Regione Lombardia per il rafforzamento delle politiche di welfare penale e di giustizia di comunità nell’ambito degli indirizzi definiti dalla D.G.R. n. XII/6371 del 29 giugno 2026 in materia di “Rafforzamento del sistema regionale di welfare penale e sviluppo di azioni di giustizia di comunità e di coesione sociale Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi può ancora essere rafforzata, potenziando il coordinamento tra i diversi soggetti coinvolti e favorendo una maggiore integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con la collaborazione del Provveditorato Regionale dell’amministrazione penitenziaria della Lombardia e il supporto metodologico dell’Associazione Antigone.: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-        "version": 60,
+        "version": 62,
         "firstSeenAt": "2026-09-23T19:04:56+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2274,7 +2281,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2354,9 +2361,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2365,7 +2372,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2441,13 +2448,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
       "autoDiscovered": true,
-      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t",
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "b2ca3e27f8c274eeb2b9b4851eb7339549171444f06d59832983581914b84750",
-        "version": 1,
+        "contentHash": "4a5368df799acc843d4e1452e126817bdd593d304f7b819ad257736b27dcd458",
+        "version": 2,
         "firstSeenAt": "2026-09-29T14:58:30+02:00",
-        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2456,7 +2463,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -2532,13 +2539,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
       "autoDiscovered": true,
-      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 Avviso 25AI - Percorsi di formazione professionale in ambito socio sanitario Enti pubblici e privati Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a t",
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "008b9c8c9a6380edb4d756e8cc10e54932154bb6ea45392778b927dfbbcb3c4a",
-        "version": 1,
+        "contentHash": "cd7dd6eeef014968e9a88b0f5b107735f6194b3597f8b7ea40e5b49334278247",
+        "version": 2,
         "firstSeenAt": "2026-09-29T14:58:30+02:00",
-        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-01T15:21:36+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2547,7 +2554,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -2718,9 +2725,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-        "version": 10,
+        "version": 12,
         "firstSeenAt": "2026-09-30T00:20:08+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2729,7 +2736,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2889,9 +2896,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2900,7 +2907,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -2991,7 +2998,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -3076,7 +3083,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -3146,9 +3153,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3157,7 +3164,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3237,9 +3244,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "caa4c8647c550f540c472b58383b0ee9ab089cf4c94b42e73e78bdb3cc1ca456",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3248,95 +3255,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "RLZ12026056743",
-      "title": "Servizio istanze sismiche",
-      "source": "Regione Lombardia",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "servizio",
-        "istanze",
-        "sismiche",
-        "procedimenti",
-        "amministrativi",
-        "codice",
-        "quale",
-        "accedere",
-        "scrivanie",
-        "consultare",
-        "compilare",
-        "pratica",
-        "sismica",
-        "comunicazione",
-        "deposito",
-        "sismico",
-        "istanza",
-        "autorizzaz"
-      ],
-      "sectors": [
-        "servizio",
-        "istanze",
-        "sismiche",
-        "procedimenti",
-        "amministrativi",
-        "codice",
-        "quale",
-        "accedere"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/pianificazione-territoriale/servizio-istanze-sismiche-RLZ12026056743",
-      "autoDiscovered": true,
-      "discoveryText": "Procedimenti / Ambiente e Territorio / Pianificazione territoriale / Servizio istanze sismiche Aperto Servizio istanze sismiche Codice: RLZ12026056743 Pubblicato il: 30/09/2026 , ore 16:51 Domande dal: 30/09/2026 , ore 10:00 Servizio dal quale accedere alle scrivanie per consultare o compilare una pratica sismica (Comunicazione di Deposito sismico, Istanza di Autorizzazione sismica, Istanza di Certificazione alla Sopraelevazione, Variante sostanziale) e i Moduli 14 (Deposito della Relazione a struttura ultimata),15 (Comunicazione di Deposito del Certificato di Collaudo statico) e 16 (Comunicazione di Deposito della Dichiarazione di regolare esecuzione) Leggi di più Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLZ12026056743 Pubblicato il: 30/09/2026 , ore 16:51 Domande dal: 30/09/2026 , ore 10:00 Scheda informativa Chi può partecipare Cittadini o persone giuridiche Di cosa si tratta Il servizio rendere più semplice, accessibile e usabile la compilazione delle istanze sismiche per cittadini, professionisti ed Enti locali attraverso una procedura ottimizzata di consultazione e compilazione online. Il nuovo applicativo consente a cittadini, professionisti e imprese di presentare e consultare le proprie istanze sismiche, mentre ai comuni territorialmente competenti di ricevere, istruire e consultare le istanze a loro destinate. Il servizio garantisce la coerenza dei contenuti della modulistica sismica vigente, approvata con d.g.r. n. 5001/2016 e successivi aggiornamenti, e restano ferme le disposizioni della l.r. 12 ottobre 2015, n. 33 Come partecipare Accedere al servizio, previa registrazione e autenticazione, selezionando \" Fai domanda \" per presentare una nuova istanza, mentre per visualizzare istanze già presentate accedendo alla propria scrivania nella sezione \" La mia area \" Informazioni e contatti Per assistenza tecnica sull'utilizzo della piattaforma Bandi e Servizi : contattare il call center al numero verde 800 131 151 (interno 3 PROCEDIMENTI) scrivere all'indirizzo e-mail assistenza-sismica@ariaspa.it Per informazioni relative al procedimento : Direzione Generale Territorio e Sistemi Verdi Alessandro Ballini, tel. 02 6765 4328, e-mail alessandro_ballini@regione.lombardia.it scrivere all'indirizzo e-mail vigilanzasismica@regione.lombardia.it Servizi associati In apertura apre il 01-10-2026 Procedimenti Amministrativi Istanza sismica (L.R.33/2015) Codice: RLZ12026056083 Le amministrazioni comunali e Regione Lombardia recepiscono le istanze per le pratiche sismiche (D.P.R. 380/2001 e ss.mm.ii. e l.r. 33/2015) esclus... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Deposito della relazione a struttura ultimata (Modulo 14) Codice: RLZ12026056763 Il deposito della relazione a struttura ultimata (DRSU) è l'atto formale con cui il Direttore dei Lavori dichiara che le opere strutturali (in c.a.... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Comunicazione di deposito del certificato di collaudo statico (Modulo 15) Codice: RLZ12026056764 Tutte le costruzioni di cui all’art. 53, comma 1 del DPR 380/2001 la cui sicurezza possa comunque interessare la pubblica incolumità, devono essere... Scopri di più In apertura apre il 01-10-2026 Procedimenti Amministrativi Comunicazione di deposito della dichiarazione di regolare esecuzione (Mo... Codice: RLZ12026056803 La Comunicazione di deposito della dichiarazione di regolare esecuzione è l'adempimento tecnico-amministrativo con cui si attesta che le opere stru... Scopri di più Non hai trovato quello che cercavi? Vai alla sezione Aiuto",
-      "tracking": {
-        "contentHash": "8d2dc50af9f72935afbf4f46f94f8f400b66bb99398670468ffdbc2b32e7e829",
-        "version": 4,
-        "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3416,9 +3335,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "37e0ae14b848462ffafb6b83848660cedb362461d980fccee6709159ac0aa77f",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3427,7 +3346,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3507,9 +3426,9 @@
       "sourceStatus": "aperto",
       "tracking": {
         "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -3518,7 +3437,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3598,9 +3517,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3609,7 +3528,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3700,7 +3619,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": false
     },
     {
@@ -3780,9 +3699,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-        "version": 36,
+        "version": 38,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3791,7 +3710,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     },
     {
@@ -3871,9 +3790,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "b6c86fd528f5225c478576f43cc50a2a1bd45611aae1397157656f77fc7440f2",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-01T08:01:31+02:00",
+        "lastChangedAt": "2026-10-01T15:23:08+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3882,7 +3801,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-01T08:00:51+02:00",
+      "detailFetchedAt": "2026-10-01T15:21:36+02:00",
       "detailFetchOk": true
     }
   ],
@@ -3890,10 +3809,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-10-01T06:00:34"
+    "checkedAt": "2026-10-01T13:21:20"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-10-01T06:00:43",
+    "checkedAt": "2026-10-01T13:21:29",
     "checked": 5,
     "active": 2,
     "added": 0,
@@ -3931,7 +3850,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-10-01T06:00:45",
+    "checkedAt": "2026-10-01T13:21:31",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -3966,7 +3885,7 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-10-01T06:00:51",
+    "checkedAt": "2026-10-01T13:21:36",
     "checked": 5,
     "activeOrProgrammed": 2,
     "added": 2,
@@ -4001,24 +3920,24 @@
   "incremental": true,
   "trackingSummary": {
     "new": 0,
-    "modified": 19,
-    "unchanged": 22,
+    "modified": 17,
+    "unchanged": 23,
     "reappeared": 0,
     "missing": 0
   },
   "triage": {
     "enabled": true,
     "ruleVersion": 3,
-    "rulesResolved": 22,
+    "rulesResolved": 21,
     "rulesExcludedForEts": 0,
     "aiRequired": 19
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-10-01T08:00:51+02:00",
+    "updatedAt": "2026-10-01T15:21:36+02:00",
     "attempted": 25,
-    "enriched": 19,
+    "enriched": 17,
     "unchanged": 0,
-    "failed": 6
+    "failed": 8
   }
 }
