@@ -1,21 +1,28 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T15:21:36+02:00",
-  "attempted": 25,
-  "enriched": 17,
+  "generatedAt": "2026-10-02T00:44:59+02:00",
+  "attempted": 19,
+  "enriched": 19,
   "unchanged": 0,
-  "failed": 8,
+  "failed": 0,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=25)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=25)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344"
     },
     {
@@ -75,12 +82,6 @@
       "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     },
     {
-      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
-      "ok": false,
-      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
-      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651"
-    },
-    {
       "key": "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete",
       "ok": true,
       "changed": [
@@ -96,18 +97,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
-    },
-    {
-      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
-      "ok": false,
-      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
-      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079"
-    },
-    {
-      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
-      "ok": false,
-      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
-      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082"
     },
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
@@ -127,18 +116,6 @@
         "deadline"
       ],
       "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025"
-    },
-    {
-      "key": "url:https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
-      "ok": false,
-      "error": "testo pagina insufficiente",
-      "url": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi"
-    },
-    {
-      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
-      "ok": false,
-      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
-      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263"
     },
     {
       "key": "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
@@ -185,12 +162,6 @@
         "deadline"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content"
-    },
-    {
-      "key": "url:https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
-      "ok": false,
-      "error": "testo pagina insufficiente",
-      "url": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent"
     },
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
