@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:45:19+02:00",
+  "generatedAt": "2026-10-02T07:42:57+02:00",
   "ruleVersion": 3,
   "count": 19,
   "items": [
@@ -57,7 +57,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "id": "RLW12026056843",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
@@ -81,7 +81,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "id": "RLAV2026055344",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "title": "Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi",
@@ -105,7 +105,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "id": "RLW12025050865",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
@@ -129,7 +129,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "id": "RLD12026053903",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "title": "NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI",
@@ -153,7 +153,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/organizzazioni-comuni-mercato-ocm/psn-pac-2023-2027-formazione-imprenditori-agricoli-addetti-imprese-operanti-settori-agricoltura-zootecnia-industrie-alimentari-altri-soggetti-privati-pubblici-funzionali-sviluppo-aree-rurali-sviluppo-rurale-bando-2026-RLM12026056583",
       "id": "RLM12026056583",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/organizzazioni-comuni-mercato-ocm/psn-pac-2023-2027-formazione-imprenditori-agricoli-addetti-imprese-operanti-settori-agricoltura-zootecnia-industrie-alimentari-altri-soggetti-privati-pubblici-funzionali-sviluppo-aree-rurali-sviluppo-rurale-bando-2026-RLM12026056583",
       "title": "PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026",
@@ -177,7 +177,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 40,
+      "version": 42,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "title": "Bandi | Regione Siciliana",
@@ -203,7 +203,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "id": "REG-AUTO-29AC9639BA24",
-      "version": 40,
+      "version": 42,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "title": "Bandi | Regione Siciliana",
@@ -229,7 +229,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 40,
+      "version": 42,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -255,7 +255,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "id": "REG-AUTO-08D6D4AFECD7",
-      "version": 40,
+      "version": 42,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "title": "Progetto WELT \"WE in Lavoro Toscana\", selezione di enti del Terzo settore per la co-progettazione: al via le candidature",
@@ -283,7 +283,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 40,
+      "version": 42,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -307,7 +307,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 40,
+      "version": 42,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
@@ -331,7 +331,7 @@
     {
       "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
       "id": "REG-AUTO-7494A9B9CE0E",
-      "version": 2,
+      "version": 3,
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
       "title": "Avviso 23 AF - Formazione continua",
@@ -351,12 +351,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
     },
     {
       "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
       "id": "REG-AUTO-DF7D58841FE5",
-      "version": 2,
+      "version": 3,
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
       "title": "Enti pubblici e privati",
@@ -376,12 +376,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
     },
     {
       "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
       "id": "REG-AUTO-363CB25C2F0D",
-      "version": 2,
+      "version": 3,
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
       "title": "Formazione",
@@ -401,7 +401,7 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+      "text": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
     },
     {
       "key": "url:https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",

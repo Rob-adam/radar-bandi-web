@@ -1,5 +1,5 @@
 {
-  "updatedAt": "02/10/2026 00:45",
+  "updatedAt": "02/10/2026 07:42",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -155,8 +155,8 @@
     {
       "source": "Regione Liguria · Bandi",
       "region": "liguria",
-      "found": 2,
-      "ok": true
+      "found": 0,
+      "ok": false
     },
     {
       "source": "Regione Marche · Bandi",
@@ -209,8 +209,8 @@
     {
       "source": "Regione Valle d'Aosta · Bandi",
       "region": "valle-d-aosta",
-      "found": 0,
-      "ok": false
+      "found": 6,
+      "ok": true
     },
     {
       "source": "Regione Veneto · Bandi",
@@ -228,8 +228,8 @@
   "bandiByRegion": {
     "lombardia": 8,
     "friuli-venezia-giulia": 13,
+    "valle-d-aosta": 6,
     "toscana": 2,
-    "liguria": 2,
     "sicilia": 3,
     "puglia": 1,
     "trentino-alto-adige": 2,
@@ -237,7 +237,7 @@
   },
   "errors": [
     "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
-    "Regione Valle d'Aosta · Bandi: HTTPSConnectionPool(host='lavoro.regione.vda.it', port=443): Read timed out. (read timeout=30)"
+    "Regione Liguria · Bandi: HTTPSConnectionPool(host='www.regione.liguria.it', port=443): Max retries exceeded with url: /homepage-bandi-e-avvisi.html (Caused by NameResolutionError(\"HTTPSConnection(host='www.regione.liguria.it', port=443): Failed to resolve 'www.regione.liguria.it' ([Errno -3] Temporary failure in name resolution)\"))"
   ],
   "bandi": [
     {
@@ -313,9 +313,9 @@
       "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Aperto NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 07/10/2026 , ore 12:00 I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 7 ottobre 2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 07/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni sono stati individuati sulla base dei dati della precedente edizione 2025-2026 e secondo i seguenti criteri: - numero di domande presentate dalle famiglie uguale o superiore a cinque; - il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500. I Comuni che non hanno questi requisiti non potranno presentare domanda di anticipazione (il sistema informatico non consente l’accesso al servizio). La liquidazione dell’anticipo avverrà solo dopo l’ammissione del Comune alla Misura Nidi Gratis Plus 2026-2027, ovvero il Comune presente nell’Allegato B che desidera ricevere l’anticipo, dovrà comunque presentare domanda , ma fintanto che la domanda di adesione del Comune risulta ancora in istruttoria, l’importo dell’anticipazione finanziaria non potrà essere liquidato. Di cosa si tratta I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 7 ottobre 2026. Dotazione finanziaria 20.000.000,00 euro Caratteristiche dell'agevolazione Ai fini della quantificazione e dell’erogazione degli importi delle anticipazioni finanziarie, è stata effettuata una stima dell’importo massimo rendicontabile per ciascun Comune, basata sui dati della precedente annualità (2025-2026). A ciascun Comune è stato attribuito un importo pari al 30% dell’importo rendicontabile stimato sulla base della precedente edizione. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n. 39 del 24/09/2026 Azioni . Come partecipare Il Comune, una volta effettuato l’accesso, dovrà: fare clic sul pulsante “fai domanda”; prendere visione dei dati generali riportati; richiedere l’anticipo (cliccando sul pulsante “Richiedi anticipo”); visualizzare la schermata di richiesta dell’anticipo con indicato l’importo dell’anticipo assegnato e compilare con i dati richiesti (generali e bancari); cliccare sul pulsante “Avanti” per andare alla schermata successiva e scaricare il format precompilato di richiesta dell’anticipo, che, debitamente firmato digitalmente dal Legale Rappresentante, dovrà essere caricato sulla stessa pagina web cliccando sul tasto “Carica Richiesta Anticipo”; nel caso in cui il firmatario sia diverso dal rappresentante legale, sarà necessario effettuare l’upload a sistema della delega; Inviare a protocollo. Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi informazione o chiarimento in merito all'anticipo è possibile rivolgersi all’indirizzo di posta elettronica nidigratispluscomuni@regione.lombardia.it Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il call center di bandi on-line al numero verde 800.131.151, oppure inviare una e-mail a: bandi@regione.lombardia.it . Allegati D.d.u.o. n. 12262 del 21/09/2026 - Anticipo e finestre rendicontazione - 21/09/2026 Allegato A - Linee guida rendicontazione e anticipo - 21/09/2026 Allegato B - Elenco Comuni beneficiari dell'anticipo - 21/09/2026 Manuale richiesta anticipo - 25/09/2026 Mostra altri",
       "tracking": {
         "contentHash": "82efe019fce634439a6a772ce6a9f9c2632c7c78c9b75ad1c65c2364ec1c32b5",
-        "version": 2,
+        "version": 4,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -324,7 +324,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -492,9 +492,9 @@
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Impianti sportivi / Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi Aperto Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi Codice: RLAV2026055344 Pubblicato il: 17/09/2026 , ore 15:09 Domande dal: 01/10/2026 , ore 12:00 Scade il: 29/10/2026 , ore 12:00 L’iniziativa è finalizzata a sostenere la realizzazione, la rigenerazione e la riqualificazione di aree urbane e periurbane, fruibili in sicurezza come spazi aggregativi per i giovani e destinate allo sport all’aperto in autonomia. L'obiettivo, in particolare, è favorire la pratica sportiva in luoghi pubblici accessibili come, ad esempio parchi pubblici ed aree verdi, sicuri e facilmente fruibili dai giovani, attraverso l'installazione di attrezzature permanenti per lo svolgimento di attività motoria all’aperto, e la realizzazione di opere complementari che migliorino la qualità e la sicurezza di queste aree sportive. Gli interventi finanziati devono prevedere l’installazione di attrezzature sportive permanenti per attività outdoor, tra cui: • almeno 1 stazione di calisthenics; • almeno 3 attrezzature per il fitness all’aperto (installate permanentemente e liberamente accessibili). Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento ICSC PRSS XII Legislatura Codice: RLAV2026055344 Pubblicato il: 17/09/2026 , ore 15:09 Domande dal: 01/10/2026 , ore 12:00 Scade il: 29/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare i Comuni della Lombardia. Ciascun Comune può presentare una domanda riferita a un singolo intervento; i Comuni con popolazione superiore a 15.000 abitanti possono presentare fino a tre domande per altrettanti interventi. Di cosa si tratta L’iniziativa sostiene la realizzazione, rigenerazione e riqualificazione di aree pubbliche, urbane o periurbane, destinate allo sport all’aperto e all’aggregazione giovanile, mediante l’installazione di una stazione di calisthenics e di attrezzature per il fitness all’aperto, anche fruibili da persone con disabilità. Dotazione finanziaria 10.000.000,00 € Caratteristiche dell'agevolazione Sovvenzione a fondo perduto. L’agevolazione consiste nella concessione di un contributo regionale in conto capitale a fondo perduto, nella misura massima del 50% del costo lordo dell’investimento ammissibile e fino a un importo massimo di euro 30.000,00 per domanda. La quota parte del quadro economico progettuale non coperta dal contri-buto regionale deve essere assicurata dal Comune mediante risorse pro-prie o, ricorrendone le condizioni, mediante ulteriori forme di finanziamento o contributo, inclusi eventuali finanziamenti ICSC o altre forme di finan-ziamento pubblico compatibili. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL . Come partecipare La domanda di partecipazione deve essere presentata dal legale rappresentante o da soggetto munito di procura o delega, firmata elettronicamente e trasmessa esclusivamente tramite il portale “Bandi e Servizi” di Regione Lombardia. La domanda deve essere corredata dalla documentazione tecnica progettuale e dagli allegati obbligatori indicati al paragrafo C.1.b, da caricare elettronicamente sul sistema informativo. La documentazione comprovante i criteri premiali non deve essere allegata alla domanda. Il mancato caricamento degli allegati obbligatori costituisce causa di inammissibilità Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per richieste di assistenza alla compilazione on-line e quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di ARIA S.p.A. al numero verde 800.131.151. Informazioni relative al bando e agli adempimenti connessi possono essere richieste esclusivamente per iscritto all’indirizzo impianti_sportivi@regione.lombardia.it . Per informazioni relative ai finanziamenti ICSC è possibile rivolgersi a entiterritoriali@creditosportivo.it o al numero verde 800.298.278, attivo dal lunedì al venerdì dalle ore 09:00 alle ore 17:00. Allegati Decreto n. 11827 dell'11/09/2026 -Bando Area sportiva Giovani - 11/09/2026 DGR BANDO AREA SPORTIVA GIOVANI - CRITERI E MODALITÀ PER L’ ASSEGNAZIONE DI CONTRIBUTI PER LA RIQUALIFICAZIONE DI AREE ATTREZZATE PER LO SPORT ALL’ APERTO, NEI COMUNI LOMBARDI - 03/08/2026",
       "tracking": {
         "contentHash": "1815b57d850bb0c228c4a0e71f7ac755d28ea8823bd5d5dae9cb79c3621c3b8a",
-        "version": 2,
+        "version": 4,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -504,7 +504,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -583,9 +583,9 @@
       "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Aperto AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026 - 18-19 novembre 2026 - Milano presso Palazzo Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Scheda informativa Chi può partecipare Affidamento diretto CIG BD162A922A Base d'asta 2.200,00 Di cosa si tratta Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026. 18-19 novembre 2026 Milano presso Palazzo Lombardia Come partecipare Affidamento diretto Informazioni e contatti Brunella Reverberi U.O. POLITICHE EUROPEE PER IL CAPITALE UMANO, AUTORITÀ DI GESTIONE FSE E COORDINAMENTO MISURE PNRR DIREZIONE GENERALE ISTRUZIONE, FORMAZIONE, LAVORO brunella_reverberi@regione.lombardia.it Allegati Decreto n.12674 - Catering - 29 settembre 2026 - 30/09/2026",
       "tracking": {
         "contentHash": "4eda5601e54d5808e2a16f0cbc0532a19f5bc648fc8e536aae8ce8fde795a9c0",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -594,7 +594,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -672,9 +672,9 @@
       "discoveryText": "Bandi / Politiche Sociali / Terzo settore e volontariato / Leva civica lombarda senior Aperto Leva civica lombarda senior Codice: RLJ12026053845 Pubblicato il: 29/09/2026 , ore 10:43 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/11/2026 , ore 17:00 L'Avviso pubblico è finalizzato ad avviare progetti sperimentali funzionali alla promo-zione dell’invecchiamento attivo e alla prevenzione dei fenomeni di isolamento sociale, solitudine e decadimento psicofisico delle persone anziane, attraverso il loro coinvolgimento volontario in percorsi di cittadinanza attiva contenenti azioni di utilità sociale, educativa, culturale e ambientale a beneficio della comunità. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLJ12026053845 Pubblicato il: 29/09/2026 , ore 10:43 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/11/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Gli Enti promotori (pubblici e privati no profit) iscritti all’Albo degli Enti di Leva Civica Lombarda Volontaria di cui all’art. 6 della L.R. n. 16/2019. Di cosa si tratta Avviso per il finanziamento di progetti di cittadinanza attiva presentati dagli Enti (pubblici e privati no profit) iscritti all’Albo degli Enti di Leva Civica Lombarda Volontaria. È un’esperienza di cittadinanza attiva, compresa tra 8 e 12 mesi, rivolta a soggetti di età pari o superiore a 65 anni, finalizzata ad offrire esperienze nei settori indicati dall’art. 2 della L.R. n. 16/2019. Dotazione finanziaria Le risorse disponibili ammontano a 1.246.313,87 euro. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL L'Avviso è pubblicato sul BURL Serie Ordinaria n. 40 del 29 settembre 2026 Come partecipare La domanda di partecipazione al bando dovrà essere presentata, pena la non ammissibilità, dal soggetto richiedente obbligatoriamente in forma telematica, per mezzo del sistema Informativo Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it Ai fini della determinazione della data di presentazione della domanda verrà considerata esclusivamente la data e l’ora di avvenuta protocollazione elettronica tramite il sistema Bandi e Servizi come indicato nel Bando. Le domande di accesso al contributo sono trasmesse e protocollate elettronicamente solo a seguito del completamento delle fasi sopra riportate cliccando il pulsante “Invia al protocollo”. In mancanza di tale invio la domanda si considera non presentata. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per assistenza tecnica sull'utilizzo del servizio on line della piattaforma Bandi e Servizi - Sistema Agevolazioni scrivere a bandi@regione.lombardia.it o contattare il numero verde 800.131.151 attivo dal lunedì al sabato, escluso festivi, dalle ore 10:00 alle ore 20:00 . Per informazioni e segnalazioni relative al bando, rivolgersi al numero telefonico dedicato al Servizio Civile Universale: 02.6765.8850 oppure scrivere alla casella di posta elettronica dedicata: serviziocivile@regione.lombardia.it Allegati Decreto n. 12259 del 21.9.2026 - 28/09/2026 All_A Avviso Leva civica lombarda Senior - 28/09/2026 All_A1 Linee guida per la gestione e la rendicontazione - 28/09/2026 All_A2 Domanda accesso - 28/09/2026 All_A3 Scheda Progetto - 28/09/2026 All_A4 Piano dei Conti - 28/09/2026 All_A5 Incarico per la sottoscrizione digitale - 28/09/2026 All_A6 Informativa trattamento dati personali - 28/09/2026 All_A7 Accesso agli atti - 28/09/2026 DGR n. 5974 del 13.4.26 - 28/09/2026 Mostra altri",
       "tracking": {
         "contentHash": "d6c35088d92d25d9de664b6012fd74ba5b5df9f33d66f87c533a1155cd153bbc",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -684,7 +684,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -764,9 +764,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "d58e0ad5468ea1560c70e219e9b11b0fe0f5f249ac2a35e541d685c2c7881ba9",
-        "version": 8,
+        "version": 10,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -775,7 +775,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -1833,9 +1833,9 @@
       "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Aperto Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 In data 1 ottobre 2026 aprono i termini dell’Avviso di Finlombarda rivolto agli Enti accreditati destinatari del Budget Duale anno formativo 2026/2027, che intendono richiedere un contributo per l’abbattimento degli interessi sul finanziamento. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti Accreditati IeFP, destinatari del Budget Duale IeFP 2026/2027, assegnato da Regione Lombardia e in possesso dei requisiti previsti nell’Avviso “Finanziamento per il sistema di istruzione e formazione professionale” (paragrafo A.4 “Soggetti richiedenti”). Di cosa si tratta Iniziativa promossa da Finlombarda S.p.A. per supportare l’offerta formativa del sistema regionale di istruzione e formazione professionale (IeFP). Gli enti accreditati per i servizi di Istruzione e Formazione, beneficiari dei finanziamenti concessi da Finlombarda relativi all’Avviso “ Finanziamento per il sistema di Istruzione e formazione professionale ”, possono richiedere un contributo per l’abbattimento di interessi sul finanziamento. Possono aderire gli Enti che non abbiano già richiesto l’anticipazione tramite fidejussione, così come previsto dall’ Avviso IEFP ordinaria 2026/2027 per la realizzazione dell'offerta formativa dei percorsi del sistema regionale di Istruzione e Formazione Professionale, in attuazione della D.g.r. 6546 del 20/07/2026 , parzialmente finanziato a valere sul PR FSE+ 2021-2027 (Priorità 2 - ESO4.6 - Azione F.1), approvato con Decreto n. 10334/2026. Cosa serve Tutti i soggetti beneficiari che intendono erogare servizi nell’ambito del presente Avviso devono: • sottoscrivere digitalmente l’Atto di Adesione Unico di cui al Manuale di Gestione e inviarlo tramite il sistema informativo Bandi e Servizi (di seguito “BeS”), raggiungibile all’indirizzo www.bandi.regione.lombardia.it Dotazione finanziaria La dotazione finanziaria disponibile per la concessione dei Contributi Abbattimento Interessi è pari a euro 1.603.650,02 (unmilioneseicentotremilaseicentocinquanta/02) a valere sul Fondo Abbattimento Interessi costituito da Regione Lombardia e stanziati con la DGR Istitutiva n. 4616 del 23/06/2025. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 32 del 04/08/2026 Come partecipare La domanda di Contributo deve essere presentata, successivamente alla presentazione della domanda di Finanziamento, sulla presente piattaforma Bandi e Servizi ( www.bandi.servizirl.it ), a partire dalle ore 12:00 del giorno 1 ottobre 2026 alle ore 17:00 del 30 aprile 2027 e in ogni caso sino all’esaurimento della dotazione o alla chiusura dell’iniziativa da parte di Finlombarda. Procedura selezione La tipologia di procedura utilizzata è valutativa a sportello, secondo l’ordine cronologico di protocollazione elettronica da parte di Bandi e Servizi. Informazioni e contatti Contatti assistenza tecnica Per problemi tecnici sul sistema informativo occorre scrivere esclusivamente a: • bandi@regione.lombardia.it (Bandi e Servizi) Oppure contattare il numero verde 800.131.151 (Bandi e Servizi). Contatti assistenza amministrativa Qualsiasi informazione relativa ai contenuti dell’avviso e agli adempimenti connessi può essere richiesta a: • infobando.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle modalità di presentazione delle domande; • infopratica.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle domande ammesse o in lavorazione. Allegati DGR 6546 del 20-07-2026 - 20/07/2026 DGR 6546_26 Allegato A - Rinnovo iniziativa per 2026-2027 - 20/07/2026 DGR 6546_26 Allegato B - Aggiornamento Prospetto di raccordo - 20/07/2026 Decreto 8192 del 19/6/26 - Budget IeFP 2026-2027 - 19/06/2026 BURL n. 32 - 2026 - estratto Avviso Finanziamenti - 05/08/2026 Avviso Finanziamenti IEFP 26-27 - testo integrale - 05/08/2026 Avviso Contributo IEFP 26-27 - testo integrale - 05/08/2026 Mostra altri",
       "tracking": {
         "contentHash": "2e31cd0b079d33cec00e40a62b5c3f39fcd1c6170dcb12a1c39cd89476d87a0c",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1844,7 +1844,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -1920,9 +1920,9 @@
       "discoveryText": "Bandi / Agricoltura / Organizzazioni Comuni di Mercato (OCM) / PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026 Aperto PSN/PAC 2023-2027 “Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali\" - Sviluppo Rurale/bando 2026 Codice: RLM12026056583 Pubblicato il: 22/09/2026 , ore 10:39 Domande dal: 01/10/2026 , ore 10:00 Scade il: 20/05/2027 , ore 23:59 INTERVENTO SRH03. Dotazione finanziaria di € 350.000,00. Presentazione domande: 1° ottobre 2026 – 30 ottobre 2026 / 15 gennaio 2027– 15 febbraio 2027 / 20 aprile 2027–20 maggio 2027. Possono partecipare: Enti di formazione accreditati. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento OLD PSR FEASR Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLM12026056583 Pubblicato il: 22/09/2026 , ore 10:39 Domande dal: 01/10/2026 , ore 10:00 Scade il: 20/05/2027 , ore 23:59 Scheda informativa Chi può partecipare Enti di formazione accreditati. Di cosa si tratta Corsi di formazione collettivi per addetti al settore agricolo e nei territori rurali. Dotazione finanziaria La dotazione finanziaria dell’Intervento è pari € 350.000,00. Caratteristiche dell'agevolazione La percentuale di contribuzione è pari al 100% della spesa ammessa, al netto dell’IVA. L’ammontare massimo di spesa ammissibile è pari a € 26.125. Regime di Aiuto di Stato Regolamento (UE) 2023/2831 “de minimis” relativamente ai corsi di formazione che esulano dal settore agricolo. I corsi di formazione relativi al settore agricolo, ai sensi dell’art. 145 del Reg. (UE) 2115/2021, non sono soggetti alla normativa aiuti di Stato. BURL Serie Ordinaria n. 38 - Venerdì 18 settembre 2026. Azioni Formazione imprenditori agricoli, addetti imprese operanti settori agricoltura, zootecnia, industrie alimentari e altri soggetti privati e pubblici funzionali allo sviluppo delle aree rurali. Come partecipare I richiedenti possono presentare fino a sei domande per ciascun periodo di presentazione esclusivamente per via telematica tramite la compilazione della domanda informatizzata presente nel Sistema Informatico delle Conoscenze della Regione Lombardia (Sis.Co.), previa apertura e/o aggiornamento del fascicolo aziendale informatizzato. Alla domanda di aiuto deve essere allegata la documentazione prevista al paragrafo 13.4 delle presenti disposizioni attuative. Procedura selezione Procedura valutativa. Le domande sono valutate in base ad una griglia di criteri indicati nelle disposizioni attuative al paragrafo 11. L’istruttoria è di competenza della Struttura Servizi alla Imprese Agricole e Multifunzionalità, Direzione Generale Agricoltura, Sovranità Alimentare e Foreste. Informazioni e contatti Per informazioni e segnalazioni relative alle disposizioni attuative: Responsabile di Intervento: Lucia lucia_silvestri@regione.lombardia.it ; Referenti tecnici: Silvestri, Giovanna Nicastro, giovanna_nicastro@regione.lombardia.it , 02 67653262. Niccolò Luzzini, niccolo_luzzini@regione.lombardia.it, 02 67656020; Per informazioni e segnalazioni relative alla procedura informatica per la presentazione della domanda Numero Verde 800 131 151 sisco.supporto@regione.lombardia.it Allegati Decreto 15 settembre 2026 - n. 11986 - disposizioni attuative presentazione domande - bando 2026 - 18/09/2026",
       "tracking": {
         "contentHash": "b9f77387bacb31c0c02c5de0d91264eca973f0b7cc338c36bc87146a5b0bd50f",
-        "version": 4,
+        "version": 6,
         "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1931,7 +1931,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2010,9 +2010,9 @@
       "discoveryText": "Stato: Attivo Scadenza 18/02/2027 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-        "version": 64,
+        "version": 66,
         "firstSeenAt": "2026-09-23T13:41:23+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2022,8 +2022,99 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
+    },
+    {
+      "id": "REG-AUTO-7494A9B9CE0E",
+      "title": "Avviso 23 AF - Formazione continua",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "avviso",
+        "formazione",
+        "continua",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione",
+        "borsa",
+        "studio",
+        "attività",
+        "ricerca",
+        "offerte",
+        "lavoro",
+        "pubblico",
+        "voucher",
+        "formativi",
+        "favore",
+        "piccole",
+        "imprese"
+      ],
+      "sectors": [
+        "avviso",
+        "formazione",
+        "continua",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "autoDiscovered": true,
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "f95ab289ad1d457a02b21ccc1406e2653a36b4847497a64a1d41927e53c0c907",
+        "version": 3,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-02T07:42:31+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
     },
     {
       "id": "FC-AUTO-2374B2828A88",
@@ -2090,9 +2181,9 @@
       "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 300.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. L’iniziativa si inserisce inoltre nel quadro della collaborazione avviata tra Fondazione Cariplo e Regione Lombardia per il rafforzamento delle politiche di welfare penale e di giustizia di comunità nell’ambito degli indirizzi definiti dalla D.G.R. n. XII/6371 del 29 giugno 2026 in materia di “Rafforzamento del sistema regionale di welfare penale e sviluppo di azioni di giustizia di comunità e di coesione sociale Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi può ancora essere rafforzata, potenziando il coordinamento tra i diversi soggetti coinvolti e favorendo una maggiore integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con la collaborazione del Provveditorato Regionale dell’amministrazione penitenziaria della Lombardia e il supporto metodologico dell’Associazione Antigone.: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-        "version": 64,
+        "version": 66,
         "firstSeenAt": "2026-09-23T19:04:56+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2102,7 +2193,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2182,9 +2273,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2193,8 +2284,190 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
+    },
+    {
+      "id": "REG-AUTO-DF7D58841FE5",
+      "title": "Enti pubblici e privati",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "enti",
+        "pubblici",
+        "privati",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione",
+        "borsa",
+        "studio",
+        "attività",
+        "ricerca",
+        "offerte",
+        "lavoro",
+        "pubblico",
+        "voucher",
+        "formativi",
+        "favore",
+        "piccole",
+        "imprese"
+      ],
+      "sectors": [
+        "enti",
+        "pubblici",
+        "privati",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "autoDiscovered": true,
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "a6b0f0372fb7b45f0395845a3d37966043f9546af9dd9d0543620c5bdc43ef42",
+        "version": 3,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-02T07:42:31+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
+    },
+    {
+      "id": "REG-AUTO-363CB25C2F0D",
+      "title": "Formazione",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "formazione",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione",
+        "borsa",
+        "studio",
+        "attività",
+        "ricerca",
+        "offerte",
+        "lavoro",
+        "pubblico",
+        "voucher",
+        "formativi",
+        "favore",
+        "piccole",
+        "imprese",
+        "continua",
+        "avviso"
+      ],
+      "sectors": [
+        "formazione",
+        "scade",
+        "fondazione",
+        "oncologica",
+        "valdostana",
+        "selezione",
+        "borsa",
+        "studio"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "autoDiscovered": true,
+      "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "c38f3ec05d1c9b12f3721c51c97906da3a131ac27fc6161f79bd3d97990391e1",
+        "version": 3,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-10-02T07:42:31+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
     },
     {
       "id": "PIE-AUTO-E06D74EBFB0F",
@@ -2286,97 +2559,6 @@
         "etsRelevant": true,
         "excludedForEts": false
       }
-    },
-    {
-      "id": "REG-AUTO-A69700527BEA",
-      "title": "attività istituzionale",
-      "source": "Regione Liguria · Bandi",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Liguria · Bandi",
-        "liguria"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "iscriviti",
-        "newsletter",
-        "homepage",
-        "bandi",
-        "avvisi",
-        "concorsi",
-        "contributi",
-        "esiti",
-        "gare",
-        "suar",
-        "scegli",
-        "beneficiario",
-        "enti",
-        "imprese",
-        "privati",
-        "tutti",
-        "chiusi",
-        "attivi",
-        "oggi",
-        "ultima"
-      ],
-      "sectors": [
-        "iscriviti",
-        "newsletter",
-        "homepage",
-        "bandi",
-        "avvisi",
-        "concorsi",
-        "contributi",
-        "esiti"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "liguria"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: liguria",
-          "anyOf": [
-            "liguria"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
-      "autoDiscovered": true,
-      "discoveryText": "Homepage / iscriviti alla newsletter / Iscriviti alla newsletter Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile Iscriviti alla newsletter In questa pagina è riportata la Privacy Policy della newsletter di Regione Liguria, Newsliguria. Prima di iscriverti al servizio, leggi le condizioni vai alla form di iscrizione Privacy Policy LA PRIVACY POLICY DI QUESTO SITO (Sintesi) Titolare: Regione Liguria Finalità del trattamento: assolvere all’obbligo normativo in relazione all’amministrazione trasparente, garantire l’accesso ai servizi forniti da Regione Liguria Liceità: pubblico interesse e obbligo normativo Destinatari: responsabili e autorizzati Periodo di conservazione dei dati: i dati vengono conservati per la durata del servizio Esercizio dei suoi diritti: potrà esercitare i suoi diritti consultando la specifica sezione LA PRIVACY POLICY DI QUESTO SITO (Articolo 13 del Regolamento UE 679/2016) PERCHÉ QUESTO AVVISO In questa pagina si descrivono le modalità di gestione di Newsliguria, la newsletter di Regione Liguria in riferimento al trattamento dei dati personali degli utenti che richiedono di riceverla. Il conferimento dei dati (indirizzo email) è obbligatorio per l'iscrizione al servizio di newsletter. Si tratta di un’informativa che è resa ai sensi dell’art.13 del del Regolamento UE 679/2016 – Regolamento generale sulla Protezione dei Dati, che si applica dal 25 maggio 2018 a coloro che si iscrivono alla newsletter a partire dall’indirizzo: http://www.regione.liguria.it La presente Informativa sulla privacy è resa solo per la newsletter e per i siti di Regione Liguria ai quali rimanda, non anche per altri siti web eventualmente consultati dall’utente tramite link. Il Titolare non assume alcuna responsabilità in ordine al contenuto dei siti a cui è possibile accedere tramite i collegamenti posti all’interno del sito stesso, forniti come semplice servizio agli utenti. La loro presenza non implica né l’approvazione dei contenuti ivi presentati né alcuna forma di assicurazione circa la qualità dei servizi o dei prodotti ivi disponibili. TITOLARE DEL TRATTAMENTO Il Titolare del Trattamento dei dati è Regione Liguria, con sede in piazza De Ferrari 1 – 16121 Genova. A seguito della consultazione di questo sito possono essere trattati dati relativi a persone identificate o identificabili. Titolare del trattamento è il soggetto nei cui confronti l’interessato può esercitare i suoi diritti e cui sono imputabili le scelte di fondo sulle finalità e modalità del trattamento: Regione Liguria, piazza De Ferrari 1 – 16121 – Genova – Tel: 010 54851 RESPONSABILE DELLA PROTEZIONE DEI DATI Il Responsabile della Protezione dei dati (Rpd) è raggiungibile al seguente indirizzo: Regione Liguria - Responsabile della Protezione dei dati personali via Fieschi 15 - 16121 Genova email: Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo. e Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo. FINALITÀ DEL TRATTAMENTO DEI DATI I dati relativi a persone identificate o identificabili, a seguito della consultazione della newsletter, sono trattati con la finalità di ottemperare agli obblighi di trasparenza amministrativa, promuovere l’attività di Regione Liguria e informare i cittadini sui servizi offerti. LICEITÀ DEL TRATTAMENTO DEI DATI La liceità del trattamento è il pubblico interesse di Regione Liguria quale Ente pubblico a svolgere la sua attività istituzionali di Promuovere e facilitare l’accesso ai servizi. L’impatto per gli interessati che consultano la newsletter è modesto in quanto l’acquisizione temporanea dell’indirizzo IP consente l’identificazione dell’interessato solo unendolo ad altre informazioni, con una probabilità che per le persone fisiche è molto modesta. DESTINATARI I destinatari sono Liguria Digitale spa con sede nel Parco Scientifico e Tecnologico di Genova – Via Melen 77, 16152 Genova, i cui dati di contatto sono: Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo. e Questo indirizzo email è protetto dagli spambots. È necessario abilitare JavaScript per vederlo. quale Responsabile del Trattamento per la gestione e la manutenzione del sito altri responsabili quali soggetti eventualmente incaricati dal Titolare o sopracitato Responsabile per adempiere alla normativa vigente gli autorizzati dal Titolare e dal sopracitato Responsabile CANCELLAZIONE DAL SERVIZIO Gli utenti possono decidere di cancellare la propria iscrizione dal sito in ogni momento cliccando sul link di disiscrizione presente su ogni newsletter che ricevono ULTERIORI INFORMAZIONI FORNITE AGLI INTERESSATI Ulteriori informazioni fornite all’interessato (riferimento comma 2, articolo 13 del Regolamento 679/2016) sono: il periodo di conservazione dei dati è determinato dal tempo strettamente necessario a conseguire gli scopi per cui sono stati ottenuti e per poter individuare eventuali problemi di sicurezza del sito stesso. I dati di navigazione sui siti regionali provenienti dalla newsletter sono mantenuti a carattere statistico per il tempo necessario all’elaborazione delle statistiche l’interessato può esercitare il proprio diritto di richiedere al titolare del trattamento l’accesso ai dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che lo riguardano o di opporsi al loro trattamento, oltre al diritto alla portabilità dei dati, rivolgendosi al Titolare agli indirizzi sopra riportati l’interessato può proporre reclamo a un’autorità di controllo. Per l’Italia si può rivolgere al Garante per la protezione dei dati personali, che ha sede in Roma (Italia), Piazza di Monte Citorio n.121, 00186 l’interessato non è soggetto a un processo di decisione automatizzato o a logiche di profilazione i dati fonriti per l'iscrizione alla newsletter possono essere utilizzati anche per l’invio di comunicazioni istituzionali non strettamente connesse al servizio di newsletter ma compatibili con le finalità istituzionali i dati raccolti non sono oggetto di comunicazione a terzi, fatta salva la possibilità che i dati siano conoscibili da soggetti che intervengono nella procedura di gestione delle attività opportunamente individuati ed eventualmente designati come Responsabili del trattamento",
-      "sourceStatus": "da-verificare",
-      "tracking": {
-        "contentHash": "5ab295a50b39be3bed716372f03929853728278ee8a843e5f552f44ef11f6e1b",
-        "version": 14,
-        "firstSeenAt": "2026-09-30T00:20:08+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
-      "detailFetchOk": true
     },
     {
       "id": "PIE-AUTO-519355BE80BE",
@@ -2535,9 +2717,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2546,8 +2728,184 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
+    },
+    {
+      "id": "REG-AUTO-47D5D22FCDF6",
+      "title": "Non hai trovato quello che cerchi?",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "trovato",
+        "quello",
+        "cerchi",
+        "contenuto",
+        "principale",
+        "autonoma",
+        "valle",
+        "aosta",
+        "région",
+        "autonome",
+        "vallée",
+        "aoste",
+        "italiano",
+        "italia",
+        "français",
+        "france",
+        "cittadini",
+        "prime",
+        "informazioni",
+        "servizi"
+      ],
+      "sectors": [
+        "trovato",
+        "quello",
+        "cerchi",
+        "contenuto",
+        "principale",
+        "autonoma",
+        "valle",
+        "aosta"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
+      "autoDiscovered": true,
+      "discoveryText": "Vai al contenuto principale Regione Autonoma Valle d’Aosta - Région Autonome Vallée d’Aoste ITA italiano (Italia) français (France) Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione delle competenze Apprendistato Chiamate Pubbliche Progetti di Inclusione Attiva Voucher di conciliazione vita-lavoro Consigliera di parità Prime informazioni Il Ruolo della Consigliera Rapporto biennale imprese Contatta la Consigliera Valle d'Aosta Lavoro Progetto cofinanziato da: Unione Europea Repubblica Italiana Regione Autonoma Valle d'Aosta Fondo FSE Seguici su Facebook Instagram Linkedin Youtube Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione del",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "cbfbb9436c47eb6fc6c99afcaa082ed443d6948835a9fc64b9442de8f1796c78",
+        "version": 1,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
+    },
+    {
+      "id": "REG-AUTO-DBDF4835980E",
+      "title": "Offerte lavoro pubblico",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "offerte",
+        "lavoro",
+        "pubblico",
+        "scade",
+        "avviso",
+        "selezione",
+        "pubblica",
+        "titoli",
+        "esami",
+        "assunzione",
+        "responsabile",
+        "operativo",
+        "servizi",
+        "amministrativi"
+      ],
+      "sectors": [
+        "offerte",
+        "lavoro",
+        "pubblico",
+        "scade",
+        "avviso",
+        "selezione",
+        "pubblica",
+        "titoli"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "autoDiscovered": true,
+      "discoveryText": "SCADE IL 09/10/2026 APS S.p.a. - Avviso di selezione pubblica, per titoli ed esami, per l'assunzione di n.1 Responsabile Operativo Servizi Amministrativi Offerte lavoro pubblico",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "e27606dd13a382a613d136462cab9533ec1f20305b55cbb974960245f20da6b3",
+        "version": 1,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "ets-specific",
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
     },
     {
       "id": "REG-AUTO-08D6D4AFECD7",
@@ -2616,9 +2974,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2627,7 +2985,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2707,9 +3065,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "caa4c8647c550f540c472b58383b0ee9ab089cf4c94b42e73e78bdb3cc1ca456",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2718,7 +3076,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2798,9 +3156,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "37e0ae14b848462ffafb6b83848660cedb362461d980fccee6709159ac0aa77f",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2809,7 +3167,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2889,9 +3247,9 @@
       "sourceStatus": "aperto",
       "tracking": {
         "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -2900,7 +3258,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     },
     {
@@ -2980,9 +3338,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -2991,8 +3349,99 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
+    },
+    {
+      "id": "REG-AUTO-F8CE3895F2D6",
+      "title": "Vai al contenuto principale",
+      "source": "Regione Valle d'Aosta · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Valle d'Aosta · Bandi",
+        "valle-d-aosta"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "contenuto",
+        "principale",
+        "autonoma",
+        "valle",
+        "aosta",
+        "région",
+        "autonome",
+        "vallée",
+        "aoste",
+        "italiano",
+        "italia",
+        "français",
+        "france",
+        "cittadini",
+        "prime",
+        "informazioni",
+        "servizi",
+        "lavoro",
+        "formazione",
+        "giovani"
+      ],
+      "sectors": [
+        "contenuto",
+        "principale",
+        "autonoma",
+        "valle",
+        "aosta",
+        "région",
+        "autonome",
+        "vallée"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "valle-d-aosta"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Territorio: valle-d-aosta",
+          "anyOf": [
+            "valle-d-aosta"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
+      "autoDiscovered": true,
+      "discoveryText": "Vai al contenuto principale Regione Autonoma Valle d’Aosta - Région Autonome Vallée d’Aoste ITA italiano (Italia) français (France) Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione delle competenze Apprendistato Chiamate Pubbliche Progetti di Inclusione Attiva Voucher di conciliazione vita-lavoro Consigliera di parità Prime informazioni Il Ruolo della Consigliera Rapporto biennale imprese Contatta la Consigliera Valle d'Aosta Lavoro Progetto cofinanziato da: Unione Europea Repubblica Italiana Regione Autonoma Valle d'Aosta Fondo FSE Seguici su Facebook Instagram Linkedin Youtube Cittadini Prime informazioni Servizi Lavoro Formazione Giovani Enti pubblici e privati Prime informazioni Servizi al lavoro Formazione professionale Formazione IeFP Certificazione del",
+      "sourceStatus": "da-verificare",
+      "tracking": {
+        "contentHash": "f1ed679dd9bdd9a1a666ca9b095660c828a1fcb8c2dfdaf7dfd3c5020e2b70a1",
+        "version": 1,
+        "firstSeenAt": "2026-09-29T14:58:30+02:00",
+        "lastChangedAt": "2026-09-29T14:58:30+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
+      "detailFetchOk": false
     },
     {
       "id": "REG-AUTO-B502E34F2C01",
@@ -3071,9 +3520,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
+        "lastChangedAt": "2026-10-02T07:42:57+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -3082,98 +3531,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "REG-AUTO-6E3B78B0A572",
-      "title": "canale bandi e avvisi",
-      "source": "Regione Liguria · Bandi",
-      "deadline": null,
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Liguria · Bandi",
-        "liguria"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "contributi",
-        "favore",
-        "associazioni",
-        "rappresentanza",
-        "cooperative",
-        "modalità",
-        "criteri",
-        "presentazione",
-        "proposte",
-        "progettuali",
-        "nell",
-        "ambito",
-        "linee",
-        "intervento",
-        "articolo",
-        "comma",
-        "legge",
-        "dicembre",
-        "concessione",
-        "relativi"
-      ],
-      "sectors": [
-        "contributi",
-        "favore",
-        "associazioni",
-        "rappresentanza",
-        "cooperative",
-        "modalità",
-        "criteri",
-        "presentazione"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "liguria"
-      ],
-      "legalForms": [
-        "ets",
-        "odv",
-        "aps",
-        "associazione",
-        "fondazione",
-        "ente non profit"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Territorio: liguria",
-          "anyOf": [
-            "liguria"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
-      "autoDiscovered": true,
-      "discoveryText": "Homepage / homepage bandi e avvisi / contributi a favore delle associazioni di rappresentanza delle cooperative Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile contributi a favore delle associazioni di rappresentanza delle cooperative modalità e criteri per la presentazione delle proposte progettuali nell'ambito delle linee di intervento di cui all'articolo 3, comma 1 della legge regionale n.19 del 7 dicembre 2010 e per la concessione dei relativi contributi, annualità 2026 Data pubblicazione: 30 Settembre 2026 Data apertura: 01 Ottobre 2026 Data chiusura: 31 Ottobre 2026 Soggetto proponente: Regione Liguria Documenti avviso e allegati pdf (554.7 Kb) Iscriviti alla Newsletter Seguici sui social",
-      "sourceStatus": "da-verificare",
-      "tracking": {
-        "contentHash": "b6c86fd528f5225c478576f43cc50a2a1bd45611aae1397157656f77fc7440f2",
-        "version": 8,
-        "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-02T00:45:19+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-02T00:44:59+02:00",
+      "detailFetchedAt": "2026-10-02T07:42:31+02:00",
       "detailFetchOk": true
     }
   ],
@@ -3181,10 +3539,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-10-01T22:44:44"
+    "checkedAt": "2026-10-02T05:42:19"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-10-01T22:44:53",
+    "checkedAt": "2026-10-02T05:42:26",
     "checked": 5,
     "active": 2,
     "added": 0,
@@ -3222,7 +3580,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-10-01T22:44:55",
+    "checkedAt": "2026-10-02T05:42:28",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -3257,7 +3615,7 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-10-01T22:44:59",
+    "checkedAt": "2026-10-02T05:42:31",
     "checked": 5,
     "activeOrProgrammed": 2,
     "added": 2,
@@ -3292,8 +3650,8 @@
   "incremental": true,
   "trackingSummary": {
     "new": 0,
-    "modified": 19,
-    "unchanged": 14,
+    "modified": 17,
+    "unchanged": 20,
     "reappeared": 0,
     "missing": 0
   },
@@ -3306,10 +3664,10 @@
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-10-02T00:44:59+02:00",
-    "attempted": 19,
-    "enriched": 19,
+    "updatedAt": "2026-10-02T07:42:31+02:00",
+    "attempted": 23,
+    "enriched": 17,
     "unchanged": 0,
-    "failed": 0
+    "failed": 6
   }
 }

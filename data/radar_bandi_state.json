@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-02T00:45:19+02:00",
+  "catalogUpdatedAt": "2026-10-02T07:42:57+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -5449,9 +5449,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "4ae2a2aecca594bbf6877edac5e002697b579948d7f76caf9a4365f25a8b05f4",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5559,7 +5559,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -5568,9 +5568,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "b1b1e4da0c51af7bb006751887671803cd5714e6f6bbdee62d1c90757df0b267",
-      "version": 64,
+      "version": 66,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5666,7 +5666,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -5931,9 +5931,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "7f96f572fc3a74929a23976e1f62614fd8b0058cbe2f2359244b4657e0325e73",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6040,7 +6040,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6049,9 +6049,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "497700b439f5639c8e634a8b32e43f02071bfd9ef6a71a6d4ab7bb3ebe3442cc",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6151,7 +6151,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6160,9 +6160,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
       "contentHash": "4adca1b4423d9e61c565391483a893de4c3b3bec6f5ebcc2b04f956c38f5f49d",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6261,7 +6261,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6270,9 +6270,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "caa4c8647c550f540c472b58383b0ee9ab089cf4c94b42e73e78bdb3cc1ca456",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6380,7 +6380,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6389,9 +6389,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "37e0ae14b848462ffafb6b83848660cedb362461d980fccee6709159ac0aa77f",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6499,7 +6499,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6508,9 +6508,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "f04cc0b191ac7ed49e93b44fe08796141150e852a0cd5cf7fafb8915e04c73a1",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6618,7 +6618,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6627,9 +6627,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "3cdfd0e4280ffa0db842ad4d882fa6c1553db28196ba5ff968ffb150a9052891",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6736,7 +6736,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -6745,9 +6745,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "de806e7398da50e3a7a35518aed9d5827bf4f9281fef00c90f460669ea42e556",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6854,7 +6854,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7093,10 +7093,10 @@
       "id": "REG-AUTO-7494A9B9CE0E",
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
-      "contentHash": "db6654b481c6d38b35c14de6f88090a6f9d9e6156a1d2969e71e386d0411cd9b",
-      "version": 2,
+      "contentHash": "f95ab289ad1d457a02b21ccc1406e2653a36b4847497a64a1d41927e53c0c907",
+      "version": 3,
       "firstSeenAt": "2026-09-29T14:58:30+02:00",
-      "lastChangedAt": "2026-10-01T15:21:36+02:00",
+      "lastChangedAt": "2026-10-02T07:42:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7175,7 +7175,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
         "sourceStatus": "da-verificare",
-        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
       },
       "triage": {
         "status": "ai-required",
@@ -7201,7 +7201,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7209,10 +7209,10 @@
       "id": "REG-AUTO-DF7D58841FE5",
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
-      "contentHash": "4a5368df799acc843d4e1452e126817bdd593d304f7b819ad257736b27dcd458",
-      "version": 2,
+      "contentHash": "a6b0f0372fb7b45f0395845a3d37966043f9546af9dd9d0543620c5bdc43ef42",
+      "version": 3,
       "firstSeenAt": "2026-09-29T14:58:30+02:00",
-      "lastChangedAt": "2026-10-01T15:21:36+02:00",
+      "lastChangedAt": "2026-10-02T07:42:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7291,7 +7291,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
         "sourceStatus": "da-verificare",
-        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
       },
       "triage": {
         "status": "ai-required",
@@ -7317,7 +7317,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7325,10 +7325,10 @@
       "id": "REG-AUTO-363CB25C2F0D",
       "source": "Regione Valle d'Aosta · Bandi",
       "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
-      "contentHash": "cd7dd6eeef014968e9a88b0f5b107735f6194b3597f8b7ea40e5b49334278247",
-      "version": 2,
+      "contentHash": "c38f3ec05d1c9b12f3721c51c97906da3a131ac27fc6161f79bd3d97990391e1",
+      "version": 3,
       "firstSeenAt": "2026-09-29T14:58:30+02:00",
-      "lastChangedAt": "2026-10-01T15:21:36+02:00",
+      "lastChangedAt": "2026-10-02T07:42:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7407,7 +7407,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
         "sourceStatus": "da-verificare",
-        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 01/10/2026 CELVA - Procedura selettiva per l’assunzione a tempo determinato, a tempo pieno, di 24 assistenti amministrativi Offerte lavoro pubblico SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'Aosta - Concorso pubblico, per titoli ed esami, per l’assunzione, a tempo indeterminato, di n. 4 dirigenti medici Medicina d’emergenza - urgenza Offerte lavoro pubblico SCADE IL 01/10/2026 USL Valle d'"
+        "discoveryText": "SCADE IL 22/10/2026 Fondazione Oncologica Valdostana – Selezione di 1 borsa di studio per attività di ricerca Offerte lavoro pubblico SCADE IL 15/07/2029 Voucher formativi a favore delle piccole imprese - Formazione continua Imprese Formazione SCADE IL 31/12/2026 Avviso 23 AF - Formazione continua Enti pubblici e privati Imprese Formazione SCADE IL 05/10/2026 Centro servizi Courmayeur S.R.L. - Avviso pubblico di selezione per l’assunzione a tempo determinato di un operaio generico Offerte lavoro pubblico SCADE IL 29/06/2028 Avviso 26AC – Iniziative formative finalizzate all’occupabilità 2026–2028 Enti pubblici e privati Formazione SCADE IL 29/10/2027 Incentivi alle imprese per favorire l'assunzione di persone con disabilità 2026-2027 Imprese Incentivi Inclusione socio-lavorativa SCADE IL 09/10/2026 Società di Servizi Valle d'Aosta - Selezione per la creazione di una graduatoria utile all"
       },
       "triage": {
         "status": "ai-required",
@@ -7433,7 +7433,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7568,7 +7568,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7699,7 +7699,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7834,7 +7834,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -7951,7 +7951,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8317,7 +8317,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8326,9 +8326,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
       "contentHash": "d58e0ad5468ea1560c70e219e9b11b0fe0f5f249ac2a35e541d685c2c7881ba9",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8436,7 +8436,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8556,7 +8556,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8676,7 +8676,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8796,7 +8796,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -8916,7 +8916,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9036,7 +9036,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9156,7 +9156,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9276,7 +9276,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9396,7 +9396,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9516,7 +9516,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9636,7 +9636,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -9756,7 +9756,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10106,7 +10106,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10115,9 +10115,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "contentHash": "82efe019fce634439a6a772ce6a9f9c2632c7c78c9b75ad1c65c2364ec1c32b5",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10219,7 +10219,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10228,9 +10228,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "contentHash": "1815b57d850bb0c228c4a0e71f7ac755d28ea8823bd5d5dae9cb79c3621c3b8a",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10337,7 +10337,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10346,9 +10346,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "contentHash": "4eda5601e54d5808e2a16f0cbc0532a19f5bc648fc8e536aae8ce8fde795a9c0",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10453,7 +10453,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10462,9 +10462,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/leva-civica-lombarda-senior-RLJ12026053845",
       "contentHash": "d6c35088d92d25d9de664b6012fd74ba5b5df9f33d66f87c533a1155cd153bbc",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10571,7 +10571,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10580,9 +10580,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "contentHash": "2e31cd0b079d33cec00e40a62b5c3f39fcd1c6170dcb12a1c39cd89476d87a0c",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10687,7 +10687,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     },
@@ -10696,9 +10696,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/organizzazioni-comuni-mercato-ocm/psn-pac-2023-2027-formazione-imprenditori-agricoli-addetti-imprese-operanti-settori-agricoltura-zootecnia-industrie-alimentari-altri-soggetti-privati-pubblici-funzionali-sviluppo-aree-rurali-sviluppo-rurale-bando-2026-RLM12026056583",
       "contentHash": "b9f77387bacb31c0c02c5de0d91264eca973f0b7cc338c36bc87146a5b0bd50f",
-      "version": 4,
+      "version": 6,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-02T00:45:19+02:00",
+      "lastChangedAt": "2026-10-02T07:42:57+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10800,12 +10800,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-02T00:45:19+02:00"
+        "evaluatedAt": "2026-10-02T07:42:57+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-02T00:45:19+02:00",
+  "triageUpdatedAt": "2026-10-02T07:42:57+02:00",
   "triageSummary": {
     "rulesResolved": 20,
     "rulesExcludedForEts": 0,

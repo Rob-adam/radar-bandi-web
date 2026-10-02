@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T00:44:59+02:00",
-  "attempted": 19,
-  "enriched": 19,
+  "generatedAt": "2026-10-02T07:42:31+02:00",
+  "attempted": 23,
+  "enriched": 17,
   "unchanged": 0,
-  "failed": 0,
+  "failed": 6,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
@@ -82,6 +82,12 @@
       "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/"
     },
     {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=651"
+    },
+    {
       "key": "url:https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete",
       "ok": true,
       "changed": [
@@ -99,13 +105,16 @@
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
     },
     {
-      "key": "url:https://www.regione.liguria.it/newsletter.html",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.liguria.it/newsletter.html"
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3079"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=3082"
     },
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
@@ -116,6 +125,18 @@
         "deadline"
       ],
       "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi",
+      "ok": false,
+      "error": "testo pagina insufficiente",
+      "url": "https://lavoro.regione.vda.it/non-hai-trovato-quello-che-cerchi"
+    },
+    {
+      "key": "url:https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "ok": false,
+      "error": "404 Client Error: Not Found for url: https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263",
+      "url": "https://lavoro.regione.vda.it/europa/progetti/bandi-e-avvisi?termids=9263"
     },
     {
       "key": "url:https://www.regione.toscana.it/-/progetto-we-in-lavoro-toscana-selezione-di-enti-del-terzo-settore-per-la-co-progettazione-al-via-le-proposte-progettuali",
@@ -164,6 +185,12 @@
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content"
     },
     {
+      "key": "url:https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent",
+      "ok": false,
+      "error": "testo pagina insufficiente",
+      "url": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi#maincontent"
+    },
+    {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "ok": true,
       "changed": [
@@ -172,15 +199,6 @@
         "deadline"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
-    },
-    {
-      "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html"
     }
   ]
 }
