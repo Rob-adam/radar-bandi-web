@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T21:17:04+02:00",
+  "generatedAt": "2026-10-03T00:19:08+02:00",
   "ruleVersion": 3,
   "count": 29,
   "items": [
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "id": "REG-AUTO-E80D7CD16DA5",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "title": "bandi e avvisi",
@@ -31,14 +31,14 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "id": "REG-AUTO-C4D64EF9767F",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "title": "bandi e avvisi",
       "territories": [
         "friuli-venezia-giulia"
       ],
-      "deadline": "2026-10-22",
+      "deadline": "2026-10-06",
       "sourceStatus": "da-verificare",
       "reasons": [
         "destinatari_da_interpretare"
@@ -50,19 +50,19 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 23.09.2026 - scadenza 22.10.2026 Avviso pubblico per la presentazione di candidature inerenti la gestione delle attività di Istruzione e Formazione Professionale (IeFP). Programma 2027-2031. Direzione centrale lavoro, formazione, istruzione e famiglia 22.09.2026 - scadenza 06.10.2026 L. 68/99 - Collocamento Mirato di Udine - Convenzione ex-art.14: raccolta adesioni per l'individuazione di n. 10 Operatori agricoli - liv. A1 - Buttrio Collocamento mirato 22.09.2026 - scadenza 06.10.2026 L. 68/99 - Collocamento Mirato di Udine - Convenzione ex-art.14: raccolta adesioni per l'individuazione di n. 1 addetto/a servizio di supporto a legatoria, logistica e catering per eventi aziendali. - liv. A2 - Udine Collocamento mirato 22.09.2026 Avviamento a selezione presso Amministrazione pubblica (art. 16 L. 56/87) - Graduatoria ASP Casa degli operai vecchi ed inabili al lavoro M. Brunetti di Paluzza Centri per l'impiego 21.09.2026 - scadenza 05.10.2026 L. 68/99 - GO - Lavori di pubblica utilità - Comune di Gradisca d'Isonzo - Area manutenzione del verde destinato ai lavoratori con disabilità iscritti negli elenchi del Collocamento mirato di Gorizia Collocamento mirato 21.09.2026 - scadenza 05.10.2026 L. 68/99 - GO - Lavori di pubblica utilità - Comune di Gradisca d'Ison"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 22.09.2026 - scadenza 06.10.2026 L. 68/99 - Collocamento Mirato di Udine - Convenzione ex-art.14: raccolta adesioni per l'individuazione di n. 10 Operatori agricoli - liv. A1 - Buttrio Collocamento mirato 22.09.2026 - scadenza 06.10.2026 L. 68/99 - Collocamento Mirato di Udine - Convenzione ex-art.14: raccolta adesioni per l'individuazione di n. 1 addetto/a servizio di supporto a legatoria, logistica e catering per eventi aziendali. - liv. A2 - Udine Collocamento mirato 22.09.2026 Avviamento a selezione presso Amministrazione pubblica (art. 16 L. 56/87) - Graduatoria ASP Casa degli operai vecchi ed inabili al lavoro M. Brunetti di Paluzza Centri per l'impiego 21.09.2026 - scadenza 05.10.2026 L. 68/99 - GO - Lavori di pubblica utilità - Comune di Gradisca d'Isonzo - Area manutenzione del verde destinato ai lavoratori con disabilità iscritti negli elenchi del Collocamento mirato di Gorizia Collocamento mirato 21.09.2026 - scadenza 05.10.2026 L. 68/99 - GO - Lavori di pubblica utilità - Comune di Gradisca d'Isonzo - Area archivi tecnici destinato ai lavoratori con disabilità iscritti negli elenchi del Collocamento mirato di Gorizia Collocamento mirato 21.09.2026 - scadenza 20.10.2026 Avviso presentazione istanza di rinnovo di concessione per l'utilizzo a fini"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "id": "REG-AUTO-B6D3DFB99915",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "title": "bandi e avvisi",
       "territories": [
         "friuli-venezia-giulia"
       ],
-      "deadline": "2027-09-18",
+      "deadline": "2028-05-31",
       "sourceStatus": "da-verificare",
       "reasons": [
         "destinatari_da_interpretare"
@@ -74,12 +74,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 18.09.2026 - scadenza 18.09.2027 Lavori di Pubblica Utilità (LPU) 2026 – Comune di Monfalcone: 3 operatori ausiliari a tempo determinato - pubblicazione graduatoria Centri per l'impiego 18.09.2026 - scadenza 31.05.2028 FSE+ Programma Regionale Fondo sociale europeo Plus 2021/2027 - PS 11/26 - Avviso per la presentazione di candidature per la realizzazione di dottorati di ricerca innovativi con caratterizzazione industriale, incarichi di ricerca e incarichi post-doc - Sostegno all'alta formazione nelle tematiche STEP del sistema universitario regionale Direzione centrale lavoro, formazione, istruzione e famiglia 16.09.2026 - scadenza 30.11.2026 Bando di Concorso n. 1/2026 per l’assegnazione di alloggi di edilizia residenziale pubblica sovvenzionata, ai sensi del D.P.Reg. 0208/Pres. di data 26 ottobre 2016, nel Comune di Monfalcone ATER - Gorizia 15.09.2026 - scadenza 31.12.2026 Avviso pubblico per la selezione di un esperto per un incarico di collaborazione professionale con la qualifica di coordinatore in loco per le esigenze dell'Ufficio di gabinetto in qualità di capofila del progetto \"Kilifi Bluerise - Strengthening climate action through enhanced renewable energy and blue economy development in Kenya\" Ufficio di gabinetto 14.09.2026 - scadenza 13.10.20"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 18.09.2026 - scadenza 31.05.2028 FSE+ Programma Regionale Fondo sociale europeo Plus 2021/2027 - PS 11/26 - Avviso per la presentazione di candidature per la realizzazione di dottorati di ricerca innovativi con caratterizzazione industriale, incarichi di ricerca e incarichi post-doc - Sostegno all'alta formazione nelle tematiche STEP del sistema universitario regionale Direzione centrale lavoro, formazione, istruzione e famiglia 16.09.2026 - scadenza 30.11.2026 Bando di Concorso n. 1/2026 per l’assegnazione di alloggi di edilizia residenziale pubblica sovvenzionata, ai sensi del D.P.Reg. 0208/Pres. di data 26 ottobre 2016, nel Comune di Monfalcone ATER - Gorizia 15.09.2026 - scadenza 31.12.2026 Avviso pubblico per la selezione di un esperto per un incarico di collaborazione professionale con la qualifica di coordinatore in loco per le esigenze dell'Ufficio di gabinetto in qualità di capofila del progetto \"Kilifi Bluerise - Strengthening climate action through enhanced renewable energy and blue economy development in Kenya\" Ufficio di gabinetto 14.09.2026 - scadenza 13.10.2026 Avviso pubblicazione istanza di rinnovo di concessione per l'utilizzo a fini di seminativo di due aree golenali del torrente Torre, beni del demanio idrico regionale in comune di Povo"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "id": "REG-AUTO-49AF4A0A61E5",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "title": "bandi e avvisi",
@@ -98,12 +98,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 09.09.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando del Comune di Taipana Centri per l'impiego 03.09.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria AZIENDA SANITARIA FRIULI OCCIDENTALE Centri per l'impiego 02.09.2026 - scadenza 31.12.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Terzo di Aquileia Centri per l'impiego 01.09.2026 - scadenza 30.06.2028 FSE+ Programma Regionale Fondo sociale europeo Plus 2021/2027 - PS 15/24 - \"Avviso per la presentazione delle operazioni inerenti ai percorsi di formazione per l'acquisizione della qualifica di Operatore socio sanitario - OSS - e ai percorsi di competenze minime - Annualità 2026/2027 e 2027/2028 Direzione centrale lavoro, formazione, istruzione e famiglia 31.08.2026 - scadenza 09.10.2026 FSE+. Programma Regionale 2021-2027 - PS 11/24. Emanazione delle Direttive per la predisposizione e realizzazione dell'operazione relativa al trasporto allievi partecipanti ai percorsi IeFP iscritti presso un CFP - a.f. 2026/2027. Direzione centrale lavoro, formazione, istruzione e famiglia 31.08.2026 - scadenza 30.04.2027 FSE+. Programma Regionale 2021-2027. PS 10/24. Emanazione delle Direttive per la predisposi"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 03.09.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria AZIENDA SANITARIA FRIULI OCCIDENTALE Centri per l'impiego 02.09.2026 - scadenza 31.12.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di Terzo di Aquileia Centri per l'impiego 01.09.2026 - scadenza 30.06.2028 FSE+ Programma Regionale Fondo sociale europeo Plus 2021/2027 - PS 15/24 - \"Avviso per la presentazione delle operazioni inerenti ai percorsi di formazione per l'acquisizione della qualifica di Operatore socio sanitario - OSS - e ai percorsi di competenze minime - Annualità 2026/2027 e 2027/2028 Direzione centrale lavoro, formazione, istruzione e famiglia 31.08.2026 - scadenza 09.10.2026 FSE+. Programma Regionale 2021-2027 - PS 11/24. Emanazione delle Direttive per la predisposizione e realizzazione dell'operazione relativa al trasporto allievi partecipanti ai percorsi IeFP iscritti presso un CFP - a.f. 2026/2027. Direzione centrale lavoro, formazione, istruzione e famiglia 31.08.2026 - scadenza 30.04.2027 FSE+. Programma Regionale 2021-2027. PS 10/24. Emanazione delle Direttive per la predisposizione e realizzazione delle operazioni relative ai percorsi personalizzati nell'Istruzione e Formazione Profe"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "id": "REG-AUTO-3DE82F69AE45",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "title": "bandi e avvisi",
@@ -122,12 +122,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 10.08.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria Comune di San Vito al Tagliamento Centri per l'impiego 06.08.2026 Avviso pubblico per la sollecitazione di proposte ad iniziativa privata di partnership per la realizzazione di impianti da FER Direzione patrimonio, demanio, servizi generali e sistemi informativi 05.08.2026 CANTIERI DI LAVORO 2026 - pubblicazione graduatoria riapertura bando Comune di Mariano del Friuli Centri per l'impiego 04.08.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando del Comune di Socchieve Centri per l'impiego 03.08.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Comune di San Giorgio di Nogaro Centri per l'impiego 03.08.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Comune di Palazzolo dello Stella Centri per l'impiego 31.07.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando Comune di Claut Centri per l'impiego 31.07.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando Comune di Tramonti di Sopra Centri per l'impiego 31.07.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Centro per l'impiego di Tarcento Centri per l'impiego 28.07.2026 - scadenza 31.12.2028 Legge regionale 20 agosto 2007 n.22. articolo "
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 06.08.2026 Avviso pubblico per la sollecitazione di proposte ad iniziativa privata di partnership per la realizzazione di impianti da FER Direzione patrimonio, demanio, servizi generali e sistemi informativi 05.08.2026 CANTIERI DI LAVORO 2026 - pubblicazione graduatoria riapertura bando Comune di Mariano del Friuli Centri per l'impiego 04.08.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando del Comune di Socchieve Centri per l'impiego 03.08.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Comune di San Giorgio di Nogaro Centri per l'impiego 03.08.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Comune di Palazzolo dello Stella Centri per l'impiego 31.07.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando Comune di Claut Centri per l'impiego 31.07.2026 CANTIERI DI LAVORO 2026 – Graduatoria riapertura bando Comune di Tramonti di Sopra Centri per l'impiego 31.07.2026 Lavori di pubblica utilità (LPU) 2026 - Pubblicazione graduatoria - Centro per l'impiego di Tarcento Centri per l'impiego 28.07.2026 - scadenza 31.12.2028 Legge regionale 20 agosto 2007 n.22. articolo 6 - Attività formativa erogata a titolo gratuito a persone con disabilità. Approvazione avviso per la presentazione e l'attuazione d"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "id": "REG-AUTO-35FD65D0E429",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "title": "bandi e avvisi",
@@ -146,12 +146,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 20.07.2026 CANTIERI DI LAVORO 2026 – Graduatorie riapertura bandi Comuni di Ovaro e Sappada Centri per l'impiego 14.07.2026 Delibera di Giunta n. 1325 del 26/09/2025: approvazione dell’Avviso Pubblico rivolto ai Comuni e alle Aziende pubbliche di servizi alla persona, titolari di autorizzazione all'esercizio di servizi residenziali per anziani non autosufficienti, finalizzato a raccogliere manifestazioni di interesse per lo sviluppo delle forme di gestione integrata e mappatura delle risorse necessarie per gli interventi edilizi da attuare in partenariato pubblico privato. Decreto di presa d’atto delle manifestazioni di interesse Direzione centrale salute, politiche sociali e disabilità 08.07.2026 - scadenza 31.10.2026 Bando per la concessione di contributi alle Confcommercio locali e alle altre associazioni di categoria per l’impiego, d'intesa con le competenti autorità, anche presso le aree esterne ai locali, di addetti ai servizi di controllo Direzione centrale autonomie locali, funzione pubblica, sicurezza e politiche dell'immigrazione 08.07.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Comune di Monrupino - Občina Repentabor Centri per l'impiego 03.07.2026 - scadenza 15.10.2026 Concessione di contributi a "
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 14.07.2026 Delibera di Giunta n. 1325 del 26/09/2025: approvazione dell’Avviso Pubblico rivolto ai Comuni e alle Aziende pubbliche di servizi alla persona, titolari di autorizzazione all'esercizio di servizi residenziali per anziani non autosufficienti, finalizzato a raccogliere manifestazioni di interesse per lo sviluppo delle forme di gestione integrata e mappatura delle risorse necessarie per gli interventi edilizi da attuare in partenariato pubblico privato. Decreto di presa d’atto delle manifestazioni di interesse Direzione centrale salute, politiche sociali e disabilità 08.07.2026 - scadenza 31.10.2026 Bando per la concessione di contributi alle Confcommercio locali e alle altre associazioni di categoria per l’impiego, d'intesa con le competenti autorità, anche presso le aree esterne ai locali, di addetti ai servizi di controllo Direzione centrale autonomie locali, funzione pubblica, sicurezza e politiche dell'immigrazione 08.07.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Comune di Monrupino - Občina Repentabor Centri per l'impiego 03.07.2026 - scadenza 15.10.2026 Concessione di contributi a sostegno delle associazioni combattentistiche e d'arma, delle associazioni delle forze dell’ordine, nonché dell’A"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "id": "REG-AUTO-1449567C89D7",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "title": "bandi e avvisi",
@@ -170,12 +170,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 08.06.2026 Avviso esistenza di nuove misure regionali a sostegno della maternità Direzione centrale lavoro, formazione, istruzione e famiglia 05.06.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) - COMUNE DI GORIZIA - 1 operatore servizi ausiliari - pubblicazione graduatoria Centri per l'impiego 21.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Assistente tecnico per la Manutenzione Straordinaria Ponti e Viadotti Centri per l'impiego 20.05.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/87)- Graduatorie avviamento 12 operai edili - Regione Autonoma Friuli Venezia Giulia - Direzione centrale risorse agroalimentari, forestali e ittiche Centri per l'impiego 13.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Tecnico professionale Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatorie operai agrari e forestali - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatoria falegname e carpentiere - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 05.06.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) - COMUNE DI GORIZIA - 1 operatore servizi ausiliari - pubblicazione graduatoria Centri per l'impiego 21.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Assistente tecnico per la Manutenzione Straordinaria Ponti e Viadotti Centri per l'impiego 20.05.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/87)- Graduatorie avviamento 12 operai edili - Regione Autonoma Friuli Venezia Giulia - Direzione centrale risorse agroalimentari, forestali e ittiche Centri per l'impiego 13.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Tecnico professionale Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatorie operai agrari e forestali - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatoria falegname e carpentiere - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatoria conducente mezzi pesanti e speciali"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "id": "REG-AUTO-27DB3CB4DE1D",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "title": "bandi e avvisi",
@@ -194,19 +194,19 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 24.04.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Ministero dell’interno – Operatore Amministrativo – sede di Trieste. Centri per l'impiego 22.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Coordinatore amministrativo per il Controllo di gestione Centri per l'impiego 17.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Coordinatore amministrativo per la Presidenza Centri per l'impiego 17.04.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatorie Udine e Gorizia - Ministero dell’Interno Centri per l'impiego 10.04.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) pubblicazione graduatoria Comune di Gorizia - 1 collaboratore amministrativo cat. B a tempo determinato Centri per l'impiego 10.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Responsabile Manutenzione Centri per l'impiego 03.04.2026 - scadenza 31.12.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di FIUMICELLO VILLA VICENTINA Centri per l'impiego 25.03.2026 - scadenza 30.09.2028 Legge regionale 21 luglio 2017, n. 27. Avviso pe"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 22.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Coordinatore amministrativo per il Controllo di gestione Centri per l'impiego 17.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Coordinatore amministrativo per la Presidenza Centri per l'impiego 17.04.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatorie Udine e Gorizia - Ministero dell’Interno Centri per l'impiego 10.04.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) pubblicazione graduatoria Comune di Gorizia - 1 collaboratore amministrativo cat. B a tempo determinato Centri per l'impiego 10.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Responsabile Manutenzione Centri per l'impiego 03.04.2026 - scadenza 31.12.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di FIUMICELLO VILLA VICENTINA Centri per l'impiego 25.03.2026 - scadenza 30.09.2028 Legge regionale 21 luglio 2017, n. 27. Avviso per la presentazione di operazioni riguardanti attività formative previste da norme statali e regionali come obbligatorie per l'accesso a determinate attività professionali Direzione central"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "id": "REG-AUTO-A7A50C46E095",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "title": "bandi e avvisi",
       "territories": [
         "friuli-venezia-giulia"
       ],
-      "deadline": "2026-10-30",
+      "deadline": "2026-12-31",
       "sourceStatus": "da-verificare",
       "reasons": [
         "destinatari_da_interpretare"
@@ -218,12 +218,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 15.12.2025 - scadenza 30.10.2026 FSE+. Programma Regionale Fondo sociale europeo Plus 2021-2027 - PS 31/23 - Supporto alla genitorialità e sperimentazione dell'affido professionale in Friuli Venezia Giulia - II edizione Direzione centrale salute, politiche sociali e disabilita' 30.11.2025 Graduatoria regionale definitiva per i medici pediatri di libera scelta valevole per l’anno 2026 Direzione centrale salute, politiche sociali e disabilità 28.11.2025 - scadenza 31.12.2026 Avviso della possibilità di contributi per i titoli di viaggio del Trasporto Pubblico Locale Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Agevolazione regionale per abbonamenti al Trasporto Pubblico Locale per gli over 65 residenti Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso agevolazioni per l'abbonamento scolastico residenti nella Regione Autonoma Friuli Venezia Giulia Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso contributi a interventi per lo sviluppo del trasporto combinato delle merci Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso contributi per interventi per lo sviluppo del trasporto intermodale delle merci Direzione central"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 30.11.2025 Graduatoria regionale definitiva per i medici pediatri di libera scelta valevole per l’anno 2026 Direzione centrale salute, politiche sociali e disabilità 28.11.2025 - scadenza 31.12.2026 Avviso della possibilità di contributi per i titoli di viaggio del Trasporto Pubblico Locale Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Agevolazione regionale per abbonamenti al Trasporto Pubblico Locale per gli over 65 residenti Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso agevolazioni per l'abbonamento scolastico residenti nella Regione Autonoma Friuli Venezia Giulia Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso contributi a interventi per lo sviluppo del trasporto combinato delle merci Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso contributi per interventi per lo sviluppo del trasporto intermodale delle merci Direzione centrale infrastrutture e territorio 28.11.2025 - scadenza 31.12.2026 Avviso aiuti sul costo dei premi assicurativi a copertura delle perdite dovute a rischi agricoli e rischi di insolvenza Direzione centrale risorse agroalimentari, forestali e ittiche 28.11.2025 - scadenza 31.12.2026 "
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "id": "REG-AUTO-29DCCC24BD3D",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "title": "bandi e avvisi",
@@ -242,19 +242,19 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 28.11.2025 - scadenza 31.12.2026 Avviso contributi per parchi comunali e intercomunali Direzione centrale risorse agroalimentari, forestali e ittiche 28.11.2025 - scadenza 31.12.2026 Avviso per la concessione di contributi per la conservazione e valorizzazione di bressane e roccoli Direzione centrale risorse agroalimentari, forestali e ittiche 29.10.2025 D.G.R. 2370/2017. Selezione per il reclutamento di 1 (uno) dipendente con contratto di lavoro a tempo indeterminato e con inquadramento nell’AREA ASSISTENTI del CCNL del personale non dirigente del comparto Enti Pubblici non economici con profilo di Assistente Amministrativo presso il Collegio provinciale dei geometri e geometri laureati di Trieste – Esiti della selezionete Centri per l'impiego 09.10.2025 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Segreteria generale del Consiglio regionale – Trieste Centri per l'impiego 07.10.2025 - scadenza 07.11.2025 Avviso manifestazione di interesse rivolto ai Comuni e alle Aziende pubbliche di servizi alla persona autorizzati alla gestione dei servizi residenziali per anziani non autosufficienti Delibera GR FVG n. 1325 del 26 settembre 2025 Direzione centrale salute, politiche sociali e disabilità 09.09.2025 - scadenza 29.1"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 28.11.2025 - scadenza 31.12.2026 Avviso per la concessione di contributi per la conservazione e valorizzazione di bressane e roccoli Direzione centrale risorse agroalimentari, forestali e ittiche 29.10.2025 D.G.R. 2370/2017. Selezione per il reclutamento di 1 (uno) dipendente con contratto di lavoro a tempo indeterminato e con inquadramento nell’AREA ASSISTENTI del CCNL del personale non dirigente del comparto Enti Pubblici non economici con profilo di Assistente Amministrativo presso il Collegio provinciale dei geometri e geometri laureati di Trieste – Esiti della selezionete Centri per l'impiego 09.10.2025 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Segreteria generale del Consiglio regionale – Trieste Centri per l'impiego 07.10.2025 - scadenza 07.11.2025 Avviso manifestazione di interesse rivolto ai Comuni e alle Aziende pubbliche di servizi alla persona autorizzati alla gestione dei servizi residenziali per anziani non autosufficienti Delibera GR FVG n. 1325 del 26 settembre 2025 Direzione centrale salute, politiche sociali e disabilità 09.09.2025 - scadenza 29.10.2027 L.R. 13/2023 - art.7 - Avviso per l'assegnazione di contributi per la formazione in lingua italiana dei segni (LIS), assistente bagnanti, guard"
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "id": "REG-AUTO-403C35EC8C29",
-      "version": 6,
+      "version": 8,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "title": "bandi e avvisi",
       "territories": [
         "friuli-venezia-giulia"
       ],
-      "deadline": "2027-12-31",
+      "deadline": "2027-11-26",
       "sourceStatus": "da-verificare",
       "reasons": [
         "destinatari_da_interpretare"
@@ -266,12 +266,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 03.01.2025 - scadenza 31.12.2027 FSE+ Programma Regionale Fondo sociale europeo Plus 2021/2027 - PS 40/23 - Integrazione per lo svantaggio. Avviso pubblico per la selezione di candidature e direttive per la realizzazione degli interventi formativi previsti dal Programma Integra Direzione centrale lavoro, formazione, istruzione e famiglia 02.12.2024 - scadenza 26.11.2027 Avviso pubblico - Adesione da parte degli Istituti di credito alla Dote finanziaria per l’autonomia dei giovani Direzione centrale lavoro, formazione, istruzione e famiglia 26.06.2024 Istanza di rinnovo di concessione per l’utilizzo a utilizzo di un’area golenale del fiume Tagliamento a fini di campo di addestramento cani da difesa ed utilità personale e sociale, bene del demanio idrico regionale individuata in Comune di San Vito al Tagliamento Direzione patrimonio, demanio, servizi generali e sistemi informativi 09.02.2024 - scadenza 31.12.2027 Programma Regionale Fondo sociale europeo Plus 2021/2027. Pianificazione periodica delle operazioni 2023 - Programmi specifici 27/23 - Formazione permanente rivolta agli operatori del sistema integrato dei servizi sociali . - Decreto 4135/GRFVG del 05/02/2024 Direzione centrale lavoro, formazione, istruzione e famiglia 28.12.2023 - scadenza 31.12.20"
+      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 02.12.2024 - scadenza 26.11.2027 Avviso pubblico - Adesione da parte degli Istituti di credito alla Dote finanziaria per l’autonomia dei giovani Direzione centrale lavoro, formazione, istruzione e famiglia 26.06.2024 Istanza di rinnovo di concessione per l’utilizzo a utilizzo di un’area golenale del fiume Tagliamento a fini di campo di addestramento cani da difesa ed utilità personale e sociale, bene del demanio idrico regionale individuata in Comune di San Vito al Tagliamento Direzione patrimonio, demanio, servizi generali e sistemi informativi 09.02.2024 - scadenza 31.12.2027 Programma Regionale Fondo sociale europeo Plus 2021/2027. Pianificazione periodica delle operazioni 2023 - Programmi specifici 27/23 - Formazione permanente rivolta agli operatori del sistema integrato dei servizi sociali . - Decreto 4135/GRFVG del 05/02/2024 Direzione centrale lavoro, formazione, istruzione e famiglia 28.12.2023 - scadenza 31.12.2026 Programma Regionale Fondo sociale europeo Plus 2021/2027. Pianificazione periodica delle operazioni 2023 - Programma specifico 11/23 Avviso pubblico per la selezione del soggetto attuatore delle operazioni \"Formazione continua per le imprese - ConImpresa\". - Decreto 62823/GRFVG del 27/12/2023 Direzione centrale lavoro, formazione, istr"
     },
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 18,
+      "version": 20,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -296,7 +296,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 12,
+      "version": 14,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -321,7 +321,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "id": "RLW12026056843",
-      "version": 10,
+      "version": 12,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
@@ -345,7 +345,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "id": "RLAV2026055344",
-      "version": 8,
+      "version": 10,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "title": "Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi",
@@ -369,7 +369,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "id": "RLW12025050865",
-      "version": 10,
+      "version": 12,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
@@ -393,7 +393,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "id": "RLD12026053903",
-      "version": 8,
+      "version": 10,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "title": "NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI",
@@ -417,7 +417,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "id": "RLD12026054803",
-      "version": 4,
+      "version": 6,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "title": "Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali",
@@ -442,7 +442,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 46,
+      "version": 48,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "title": "Bandi | Regione Siciliana",
@@ -468,7 +468,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "id": "REG-AUTO-29AC9639BA24",
-      "version": 46,
+      "version": 48,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "title": "Bandi | Regione Siciliana",
@@ -494,7 +494,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 46,
+      "version": 48,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -520,7 +520,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 46,
+      "version": 48,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -544,7 +544,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 46,
+      "version": 48,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
