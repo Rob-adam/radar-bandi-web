@@ -412,7 +412,7 @@ def make_record(rec_id, title, source, url, text, territory):
         "activities": [],
         "purposes": [],
         "territories": [territory],
-        "legalForms": ["ets", "odv", "aps", "associazione", "fondazione", "ente non profit"],
+        "legalForms": [],  # Applicant types must be confirmed from the official requirements.
         "hardRequirements": [{"label": f"Territorio: {territory}", "anyOf": [territory]}],
         "hardKeyword": None,
         "sourceUrl": url,
