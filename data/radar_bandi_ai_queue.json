@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T18:26:37+02:00",
+  "generatedAt": "2026-10-03T23:21:17+02:00",
   "ruleVersion": 3,
   "count": 29,
   "items": [
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "id": "REG-AUTO-E80D7CD16DA5",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "title": "bandi e avvisi",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "id": "REG-AUTO-C4D64EF9767F",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "title": "bandi e avvisi",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "id": "REG-AUTO-B6D3DFB99915",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "title": "bandi e avvisi",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "id": "REG-AUTO-49AF4A0A61E5",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "title": "bandi e avvisi",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "id": "REG-AUTO-3DE82F69AE45",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "title": "bandi e avvisi",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "id": "REG-AUTO-35FD65D0E429",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "title": "bandi e avvisi",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "id": "REG-AUTO-1449567C89D7",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "title": "bandi e avvisi",
@@ -175,7 +175,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "id": "REG-AUTO-27DB3CB4DE1D",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "title": "bandi e avvisi",
@@ -199,7 +199,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "id": "REG-AUTO-A7A50C46E095",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "title": "bandi e avvisi",
@@ -223,7 +223,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "id": "REG-AUTO-29DCCC24BD3D",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "title": "bandi e avvisi",
@@ -247,7 +247,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "id": "REG-AUTO-403C35EC8C29",
-      "version": 14,
+      "version": 16,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "title": "bandi e avvisi",
@@ -271,7 +271,7 @@
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 26,
+      "version": 28,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -296,7 +296,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 20,
+      "version": 22,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -321,7 +321,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "id": "RLW12026056843",
-      "version": 18,
+      "version": 20,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
@@ -345,7 +345,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "id": "RLAV2026055344",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "title": "Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi",
@@ -369,7 +369,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "id": "RLW12025050865",
-      "version": 18,
+      "version": 20,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
@@ -393,7 +393,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "id": "RLD12026053903",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "title": "NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI",
@@ -417,7 +417,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "id": "RLD12026054803",
-      "version": 12,
+      "version": 14,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "title": "Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali",
@@ -442,7 +442,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 54,
+      "version": 56,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "title": "Bandi | Regione Siciliana",
@@ -468,7 +468,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "id": "REG-AUTO-29AC9639BA24",
-      "version": 54,
+      "version": 56,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "title": "Bandi | Regione Siciliana",
@@ -494,7 +494,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 54,
+      "version": 56,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -520,7 +520,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 54,
+      "version": 56,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -544,7 +544,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 54,
+      "version": 56,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",

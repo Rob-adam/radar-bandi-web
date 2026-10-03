@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-03T18:26:37+02:00",
+  "catalogUpdatedAt": "2026-10-03T23:21:17+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -5449,9 +5449,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 78,
+      "version": 80,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5552,7 +5552,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -5561,9 +5561,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "4b4158b07e6f31acbbb68aae3598fe5842dba1ee9d495ca7234773a879f21512",
-      "version": 78,
+      "version": 80,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5652,7 +5652,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -5917,9 +5917,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "e190b4fc948a23f2ef6ed3e8d9f6e42a8f3d94e006e87d60d5948ad065a3e646",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6019,7 +6019,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6027,10 +6027,10 @@
       "id": "REG-AUTO-2D064C887B2A",
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
-      "contentHash": "8d8f654b5584fd6194b8d19a3e345ce4cfd86dcb9cfedfe07fcea57a0102061b",
-      "version": 54,
+      "contentHash": "b9c4628c5d391bb43fbbfa5810d15bdee8122a8cb99ec2a65cc302ed7b84a69d",
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6040,7 +6040,7 @@
       ],
       "needsAnalysis": false,
       "snapshot": {
-        "title": "Non autorizzato",
+        "title": "Dipartimento della famiglia e delle politiche sociali",
         "source": "Regione Sicilia · Bandi",
         "deadline": "2026-10-30",
         "fund": 0,
@@ -6094,7 +6094,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi / AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Non autorizzato Indice Descrizione Tecnica Descrizione Bando Documenti Allegati Descrizione Tecnica Tipologia: Avvisi pubblici Struttura regionale: Dipartimento della famiglia e delle politiche sociali Oggetto: AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Data pubblicazione: 18/09/2026 Data scadenza: 30/10/2026 entro le 00:00 Descrizione bando D.D.G. n. 3176 del 17.09.2026 - Approvazione A vviso Pubblico per il finanziamento di iniziative e progetti di rilevanza regionale promossi da organizzazioni di volontariato, associazioni di promozione sociale e fondazioni del terzo settore per la realizzazione di attivita’ di interesse generale di cui all’art. 5 del codice del terzo settore – accordi di programma 2022-2024. annualità 2024 e accordo di programma 2025-2027 annualità 2025. Le istanze corredate della documentazione richiesta, devono pervenire esclusivamente mezzo PEC entro e non oltre il 30 Ottobre 2026. Ultimo aggiornamento 18/09/2026, 09:42 Condividi"
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi / AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Dipartimento della famiglia e delle politiche sociali Indice Descrizione Tecnica Descrizione Bando Documenti Allegati Descrizione Tecnica Tipologia: Avvisi pubblici Struttura regionale: Dipartimento della famiglia e delle politiche sociali Oggetto: AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Data pubblicazione: 18/09/2026 Data scadenza: 30/10/2026 entro le 00:00 Descrizione bando D.D.G. n. 3176 del 17.09.2026 - Approvazione A vviso Pubblico per il finanziamento di iniziative e progetti di rilevanza regionale promossi da organizzazioni di volontariato, associazioni di promozione sociale e fondazioni del terzo settore per la realizzazione di attivita’ di interesse generale di cui all’art. 5 del codice del terzo settore – accordi di programma 2022-2024. annualità 2024 e accordo di programma 2025-2027 annualità 2025. Le istanze corredate della documentazione richiesta, devono pervenire esclusivamente mezzo PEC entro e non oltre il 30 Ottobre 2026. Ultimo aggiornamento 18/09/2026, 09:42 Condividi"
       },
       "triage": {
         "status": "rules-resolved",
@@ -6123,7 +6123,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6242,9 +6242,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "contentHash": "509bdbbdf6b531657a1d2c5768b92998c914788fb6476c06aba2bc2fa0feb028",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6345,7 +6345,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6354,9 +6354,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "contentHash": "0d2c12d80852c5071b7c31dac4f1bff2e43e565693cd628bc1ac059a61b26c38",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6457,7 +6457,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6466,9 +6466,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6569,7 +6569,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6578,9 +6578,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6680,7 +6680,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -6689,9 +6689,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6791,7 +6791,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7131,7 +7131,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7240,7 +7240,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7349,7 +7349,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7458,7 +7458,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7563,7 +7563,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7672,7 +7672,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -7681,9 +7681,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "868ee46c3e12586a090ab3f30e2046faede5e2dea6b3f285e6ab1d2888e5e41f",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7782,7 +7782,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8122,7 +8122,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8131,9 +8131,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/#searchCollapse",
       "contentHash": "d660382550e6eb1a464a7ddbf140b55e6719a3e952ee560af92a96df7c30e6c2",
-      "version": 22,
+      "version": 24,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8234,7 +8234,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8243,9 +8243,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "contentHash": "12c05d6a2e414f0309429cbc1377264f5c09578362cf22c5e4b99fb10ad30915",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8345,7 +8345,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8354,9 +8354,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "contentHash": "42d91af065e5009cbf781dc69fb70ae5238949379ea5b6c3d6faac2b52c050a1",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8456,7 +8456,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8465,9 +8465,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "contentHash": "c10b7b65fad0cb15d3f58f8e1587175f154c967d2e24bd17909e1d6dbb830475",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8567,7 +8567,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8576,9 +8576,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "contentHash": "1db561339fd15b8d195bae5fe214a1c4a50e60c18c066a82a0290126b0c0ea23",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8678,7 +8678,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8687,9 +8687,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "contentHash": "3ed46fa367808b9d3e2b29081c359f2455dfa1c2dcac46f1755f9af6f4009da5",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8789,7 +8789,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8798,9 +8798,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "contentHash": "f80be13100d1ba04b97b63a652c6600f6feac842fbbea993eaf866bb600b752e",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -8900,7 +8900,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -8909,9 +8909,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "contentHash": "c9275429e089f3304c0a8dbd7a47fdd14b37edb76e04e2b6c16d6b55d7823455",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9011,7 +9011,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9020,9 +9020,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
       "contentHash": "f0c0d7b65dfabd65f809b314eb8d40483efbf61cc45b6b718c02f574bf90b625",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9122,7 +9122,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9131,9 +9131,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "contentHash": "75e4894e478b40aef52265a466d9b46ff376f80c78cbebae947b6e298f515e2b",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9233,7 +9233,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9242,9 +9242,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "contentHash": "5faa20d2608716909cd8ddee43d2a2598feda286a714530082d26c0d4f19aa16",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9344,7 +9344,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9353,9 +9353,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "contentHash": "1d5afb936f8c86321be6015dcfa77d1e91a390cd5aca95af9babce59f6a4c382",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9455,7 +9455,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9697,9 +9697,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "contentHash": "7fb71713f878090fabe684e74e181f663dff0f36fd04a7cbd606c97ddbe8c5e0",
-      "version": 20,
+      "version": 22,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9798,7 +9798,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9807,9 +9807,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "contentHash": "538414326c7611fb2fedbc144811e93f38620ce363721197b658523d85515906",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9904,7 +9904,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -9913,9 +9913,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "contentHash": "8951237be298254643429ac1b6b88a9971a6023bebd2829d9d3751065e8723fe",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10015,7 +10015,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -10024,9 +10024,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "contentHash": "c65d8b490b2f07f38804aba5da6b98538ffaf67d346bc4485522d95440538f90",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10124,7 +10124,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -10133,9 +10133,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/leva-civica-lombarda-senior-RLJ12026053845",
       "contentHash": "dbcd4c4d257fe8af0be6ac9da3b4939ef2915957179bfd675005a25be32b8dfd",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10235,7 +10235,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -10244,9 +10244,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "contentHash": "824a5bb191e619bc5668229ef16302b11c7cfa70909040d123c943b01772bb6d",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10344,7 +10344,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     },
@@ -10466,9 +10466,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "contentHash": "2a27d7ce165e258ef1273fa2a616709a69c76d97b3cff11a20f4409592e0bf29",
-      "version": 12,
+      "version": 14,
       "firstSeenAt": "2026-10-02T14:40:58+02:00",
-      "lastChangedAt": "2026-10-03T18:26:37+02:00",
+      "lastChangedAt": "2026-10-03T23:21:17+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10550,12 +10550,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-03T18:26:37+02:00"
+        "evaluatedAt": "2026-10-03T23:21:17+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-03T18:26:37+02:00",
+  "triageUpdatedAt": "2026-10-03T23:21:17+02:00",
   "triageSummary": {
     "rulesResolved": 9,
     "rulesExcludedForEts": 0,
