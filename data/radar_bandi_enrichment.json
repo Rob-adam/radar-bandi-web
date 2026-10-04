@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T23:20:17+02:00",
+  "generatedAt": "2026-10-04T07:58:47+02:00",
   "attempted": 35,
   "enriched": 29,
   "unchanged": 0,
@@ -69,8 +69,7 @@
       "ok": true,
       "changed": [
         "title",
-        "discoveryText",
-        "deadline"
+        "discoveryText"
       ],
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6"
     },
@@ -89,8 +88,7 @@
       "ok": true,
       "changed": [
         "title",
-        "discoveryText",
-        "deadline"
+        "discoveryText"
       ],
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8"
     },
