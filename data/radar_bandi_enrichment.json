@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T16:45:36+02:00",
-  "attempted": 35,
-  "enriched": 29,
+  "generatedAt": "2026-10-06T02:06:24+02:00",
+  "attempted": 36,
+  "enriched": 30,
   "unchanged": 0,
   "failed": 6,
   "items": [
@@ -183,6 +183,15 @@
         "sourceStatus"
       ],
       "url": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/"
+    },
+    {
+      "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html"
     },
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
