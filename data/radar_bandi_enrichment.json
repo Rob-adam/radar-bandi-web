@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T15:29:21+02:00",
+  "generatedAt": "2026-10-08T01:08:28+02:00",
   "attempted": 36,
-  "enriched": 29,
+  "enriched": 30,
   "unchanged": 0,
-  "failed": 7,
+  "failed": 6,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
@@ -96,8 +96,12 @@
     },
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
-      "ok": false,
-      "error": "502 Server Error: Proxy Error for url: https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "deadline"
+      ],
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9"
     },
     {
