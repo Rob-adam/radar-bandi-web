@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T08:05:00+02:00",
+  "generatedAt": "2026-10-07T15:31:07+02:00",
   "ruleVersion": 3,
   "count": 31,
   "items": [
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "id": "REG-AUTO-E80D7CD16DA5",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=2",
       "title": "bandi e avvisi",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "id": "REG-AUTO-C4D64EF9767F",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=3",
       "title": "bandi e avvisi",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "id": "REG-AUTO-B6D3DFB99915",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=4",
       "title": "bandi e avvisi",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "id": "REG-AUTO-49AF4A0A61E5",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=5",
       "title": "bandi e avvisi",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "id": "REG-AUTO-3DE82F69AE45",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=6",
       "title": "bandi e avvisi",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "id": "REG-AUTO-35FD65D0E429",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=7",
       "title": "bandi e avvisi",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "id": "REG-AUTO-1449567C89D7",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=8",
       "title": "bandi e avvisi",
@@ -173,33 +173,9 @@
       "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 21.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Assistente tecnico per la Manutenzione Straordinaria Ponti e Viadotti Centri per l'impiego 20.05.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/87)- Graduatorie avviamento 12 operai edili - Regione Autonoma Friuli Venezia Giulia - Direzione centrale risorse agroalimentari, forestali e ittiche Centri per l'impiego 13.05.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Tecnico professionale Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatorie operai agrari e forestali - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatoria falegname e carpentiere - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 11.05.2026 Avviamento a selezione presso Amministrazione pubblica (art.16 L.56/87)- Graduatoria conducente mezzi pesanti e speciali - Raggruppamento Carabinieri Biodiversità - Tarvisio Centri per l'impiego 04.05.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) pubblicazione graduatoria "
     },
     {
-      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
-      "id": "REG-AUTO-27DB3CB4DE1D",
-      "version": 34,
-      "source": "Regione Friuli-Venezia Giulia · Bandi",
-      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
-      "title": "bandi e avvisi",
-      "territories": [
-        "friuli-venezia-giulia"
-      ],
-      "deadline": "2026-12-31",
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "destinatari_da_interpretare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 17.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Coordinatore amministrativo per la Presidenza Centri per l'impiego 17.04.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatorie Udine e Gorizia - Ministero dell’Interno Centri per l'impiego 10.04.2026 Avviamento a selezione presso Pubblica Amministrazione (art. 16 L. 56/1987 - DPReg 226/2019) pubblicazione graduatoria Comune di Gorizia - 1 collaboratore amministrativo cat. B a tempo determinato Centri per l'impiego 10.04.2026 Società Friuli Venezia Giulia Strade S.p.A. – Approvazione graduatoria Responsabile Manutenzione Centri per l'impiego 03.04.2026 - scadenza 31.12.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L. 56/87) – Graduatoria Comune di FIUMICELLO VILLA VICENTINA Centri per l'impiego 25.03.2026 - scadenza 30.09.2028 Legge regionale 21 luglio 2017, n. 27. Avviso per la presentazione di operazioni riguardanti attività formative previste da norme statali e regionali come obbligatorie per l'accesso a determinate attività professionali Direzione centrale lavoro, formazione, istruzione e famiglia 01.01.2026 - scadenza 01.01.1970 ASSISTENZA FARMACEUTICA E DISPOSITIVI MEDICI Vigilanza sui dispositivi medici e dis"
-    },
-    {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "id": "REG-AUTO-A7A50C46E095",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=10",
       "title": "bandi e avvisi",
@@ -223,7 +199,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "id": "REG-AUTO-29DCCC24BD3D",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=11",
       "title": "bandi e avvisi",
@@ -247,7 +223,7 @@
     {
       "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "id": "REG-AUTO-403C35EC8C29",
-      "version": 34,
+      "version": 36,
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=12",
       "title": "bandi e avvisi",
@@ -269,9 +245,33 @@
       "text": "cerca testo da ricercare Toggle navigation testo da ricercare persone e uffici seguici su Toggle navigation la Regione aree tematiche informazioni dalla A alla Z persone e uffici facebook twitter instagram linkedIn whatsapp youtube bandi e avvisi gli avvisi e i bandi indetti dalla Regione home bandi e avvisi CERCA BANDI CERCA PER PAROLA CHIAVE Filtro: Bandi contenenti misure contributive cerca tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 26.06.2024 Istanza di rinnovo di concessione per l’utilizzo a utilizzo di un’area golenale del fiume Tagliamento a fini di campo di addestramento cani da difesa ed utilità personale e sociale, bene del demanio idrico regionale individuata in Comune di San Vito al Tagliamento Direzione patrimonio, demanio, servizi generali e sistemi informativi 09.02.2024 - scadenza 31.12.2027 Programma Regionale Fondo sociale europeo Plus 2021/2027. Pianificazione periodica delle operazioni 2023 - Programmi specifici 27/23 - Formazione permanente rivolta agli operatori del sistema integrato dei servizi sociali . - Decreto 4135/GRFVG del 05/02/2024 Direzione centrale lavoro, formazione, istruzione e famiglia 28.12.2023 - scadenza 31.12.2026 Programma Regionale Fondo sociale europeo Plus 2021/2027. Pianificazione periodica delle operazioni 2023 - Programma specifico 11/23 Avviso pubblico per la selezione del soggetto attuatore delle operazioni \"Formazione continua per le imprese - ConImpresa\". - Decreto 62823/GRFVG del 27/12/2023 Direzione centrale lavoro, formazione, istruzione e famiglia 27.12.2023 - scadenza 31.12.2026 Programma Regionale - Fondo europeo per lo sviluppo regionale - FESR 2021/2027. Competenze per la transizione indiustriale - Catalogo formativo S4 Direzion"
     },
     {
+      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
+      "id": "REG-AUTO-27DB3CB4DE1D",
+      "version": 35,
+      "source": "Regione Friuli-Venezia Giulia · Bandi",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/?pag=9",
+      "title": "tutti i bandi e gli avvisi in corso",
+      "territories": [
+        "friuli-venezia-giulia"
+      ],
+      "deadline": "2026-10-22",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "tutti i bandi e gli avvisi in corso Le informazioni e i documenti pubblicati sono a cura delle strutture regionali competenti. 07.10.2026 - scadenza 22.10.2026 Avviso presentazione istanza di concessione per derivare acqua mediante opere di presa da falda sotterranea in comune di Rivignano Teor (UD) da parte della ditta Bertoli Angelo (UD IPD 7055.1) Direzione centrale difesa dell'ambiente energia e sviluppo sostenibile 06.10.2026 - scadenza 05.11.2026 Bando per il finanziamento di progetti benessere rivolti alle persone ultrasessantacinquenni che risiedono nei Comuni del territorio montano della regione Direzione centrale salute, politiche sociali e disabilità 05.10.2026 Avviamento a selezione presso Amministrazione pubblica (Art. 16 L.56/87) – Graduatoria Istituto Rittmeyer - Trieste Centri per l'impiego 05.10.2026 - scadenza 31.12.2026 Concessione di contributi per la realizzazione di"
+    },
+    {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 46,
+      "version": 48,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -296,7 +296,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 40,
+      "version": 42,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -321,7 +321,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "id": "REG-AUTO-F203EFDB69DC",
-      "version": 8,
+      "version": 10,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "title": "canale bandi e avvisi",
@@ -346,7 +346,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "id": "RLW12026056843",
-      "version": 38,
+      "version": 40,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
       "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
@@ -370,7 +370,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "id": "RLAV2026055344",
-      "version": 36,
+      "version": 38,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/impianti-sportivi/bando-area-sportiva-giovani-riqualificazione-aree-aggregative-giovanili-attrezzate-sport-aperto-comuni-lombardi-RLAV2026055344",
       "title": "Bando area sportiva giovani -Riqualificazione di aree aggregative giovanili, attrezzate per lo sport all’aperto, nei comuni lombardi",
@@ -394,7 +394,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "id": "RLW12025050865",
-      "version": 38,
+      "version": 40,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
       "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
@@ -418,14 +418,14 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "id": "RLD12026053903",
-      "version": 36,
+      "version": 38,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
       "title": "NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI",
       "territories": [
         "lombardia"
       ],
-      "deadline": "2026-10-07",
+      "deadline": "2026-10-14",
       "sourceStatus": null,
       "reasons": [
         "destinatari_da_interpretare"
@@ -437,12 +437,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Aperto NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 07/10/2026 , ore 12:00 I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 7 ottobre 2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 07/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni sono stati individuati sulla base dei dati della precedente edizione 2025-2026 e secondo i seguenti criteri: - numero di domande presentate dalle famiglie uguale o superiore a cinque; - il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500. I Comuni che non hanno questi requisiti non potranno presentare domanda di anticipazione (il sistema informatico non consente l’accesso al servizio). La liquidazione dell’anticipo avverrà solo dopo l’ammissione del Comune alla Misura Nidi Gratis Plus 2026-2027, ovvero il Comune presente nell’Allegato B che desidera ricevere l’a"
+      "text": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Aperto NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 14/10/2026 , ore 12:00 I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 14 ottobre 2026 (termine prorogato). Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 14/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni sono stati individuati sulla base dei dati della precedente edizione 2025-2026 e secondo i seguenti criteri: - numero di domande presentate dalle famiglie uguale o superiore a cinque; - il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500. I Comuni che non hanno questi requisiti non potranno presentare domanda di anticipazione (il sistema informatico non consente l’accesso al servizio). La liquidazione dell’anticipo avverrà solo dopo l’ammissione del Comune alla Misura Nidi Gratis Plus 2026-2027, ovvero il Comune presente nell’Allegato B che "
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "id": "RLF12026056983",
-      "version": 10,
+      "version": 12,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "title": "Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia",
@@ -466,7 +466,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "id": "RLD12026054803",
-      "version": 32,
+      "version": 34,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "title": "Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali",
@@ -491,7 +491,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 74,
+      "version": 76,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "title": "Bandi | Regione Siciliana",
@@ -517,7 +517,7 @@
     {
       "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "id": "REG-AUTO-29AC9639BA24",
-      "version": 74,
+      "version": 76,
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "title": "Bandi | Regione Siciliana",
@@ -543,7 +543,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 74,
+      "version": 76,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -569,7 +569,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 74,
+      "version": 76,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -593,7 +593,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 74,
+      "version": 76,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
