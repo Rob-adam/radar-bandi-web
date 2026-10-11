@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T14:55:28+02:00",
-  "attempted": 17,
-  "enriched": 17,
+  "generatedAt": "2026-10-12T00:01:23+02:00",
+  "attempted": 18,
+  "enriched": 18,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -60,6 +60,14 @@
         "discoveryText"
       ],
       "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html"
+    },
+    {
+      "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
     },
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
