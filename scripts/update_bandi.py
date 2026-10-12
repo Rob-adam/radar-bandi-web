@@ -8,6 +8,7 @@ from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
+from enrich_bandi import parse_date
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -100,26 +101,6 @@ def clean(s):
 def slug_id(prefix, url, title):
     digest = hashlib.sha1((url + "|" + title).encode("utf-8")).hexdigest()[:12].upper()
     return f"{prefix}-{digest}"
-
-
-def parse_date(text):
-    if not text:
-        return None
-    patterns = [
-        r"(?:chiude il|scadenza(?:\s+il)?|entro il|fino al)\s*(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})",
-        r"(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})\s*(?:[-–]\s*)?(?:scadenza|chiusura)",
-        r"scadenza\s*(?:\w+,?\s*)?(\d{1,2})/(\d{1,2})/(\d{4})",
-    ]
-    for pattern in patterns:
-        m = re.search(pattern, text, re.I)
-        if not m:
-            continue
-        d, mo, y = map(int, m.groups())
-        try:
-            return datetime(y, mo, d).strftime("%Y-%m-%d")
-        except ValueError:
-            pass
-    return None
 
 
 def nearby_text(a):
@@ -439,7 +420,27 @@ def existing_urls_and_ids():
     return ids, urls
 
 
+def retain_failed_source_records(found, previous, source_stats, stamp):
+    """Retain only failed sources; a successful empty listing is not a failure."""
+    failed = {x["source"] for x in source_stats if x.get("ok") is False}
+    keys = {b.get("sourceUrl", "").rstrip("/") for b in found}
+    retained = []
+    for old in previous.get("bandi", []):
+        if old.get("source") not in failed or old.get("sourceUrl", "").rstrip("/") in keys:
+            continue
+        record = dict(old)
+        record["sourceFetchOk"] = False
+        record["sourceFetchAttemptedAt"] = stamp
+        record["sourceStale"] = True
+        # Keep checkedAt / sourceCheckedAt / detailFetchedAt unchanged.
+        retained.append(record)
+        keys.add(record.get("sourceUrl", "").rstrip("/"))
+    return found + retained
+
+
 def main():
+    previous = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    stamp = datetime.now(ITALY_TZ).isoformat(timespec="seconds")
     found = []
     errors = []
     source_stats = []
@@ -458,11 +459,14 @@ def main():
                 found.extend(generic_region_items(r.text, src["url"], src["name"], src["region"]))
             elif src["kind"] == "cariplo":
                 found.extend(cariplo_items(r.text, src["url"]))
+            for record in found[count_before:]:
+                record.update(sourceCheckedAt=stamp, sourceFetchAttemptedAt=stamp, sourceFetchOk=True, sourceStale=False)
             source_stats.append({"source": src["name"], "region": src["region"], "found": len(found) - count_before, "ok": True})
         except Exception as e:
             errors.append(f"{src['name']}: {e}")
             source_stats.append({"source": src["name"], "region": src["region"], "found": 0, "ok": False})
 
+    found = retain_failed_source_records(found, previous, source_stats, stamp)
     ids, urls = existing_urls_and_ids()
     dedup = {}
     for b in found:

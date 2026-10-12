@@ -178,7 +178,7 @@ const adminSync=`<script id="bandovera-admin-sync">
 })();
 <\/script>`;
 
-async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard'))text=text.replace('</body>',script+'</body>');const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');h.append('set-cookie','bandovera_region=; Path=/; SameSite=Lax; Max-Age=0');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
+async function serveHtmlWithInjection(request,env,script){const res=await env.ASSETS.fetch(request);if(!res.ok)return res;const ct=res.headers.get('content-type')||'';if(!ct.includes('text/html'))return res;let text=await res.text();if(!text.includes(script.includes('admin-sync')?'bandovera-admin-sync':'bandovera-license-guard')){const end=text.lastIndexOf('</body>');text=end<0?text+script:text.slice(0,end)+script+text.slice(end)};const h=new Headers(res.headers);h.delete('content-length');h.set('cache-control','no-store');h.append('set-cookie','bandovera_region=; Path=/; SameSite=Lax; Max-Age=0');return new Response(text,{status:res.status,statusText:res.statusText,headers:h});}
 
 async function filteredMainCatalog(request,env){
  const origin=new URL(request.url).origin;
@@ -214,7 +214,8 @@ async function mergedExtraCatalog(request,env){
   if(tr.needsAnalysis!==false||tr.excludedForEts===true||tr.specificLegalFormConfirmed!==true)return false;
   // This official notice explicitly restricts applicants to local public authorities.
   if(b?.id==="RLY12026055345"||/\bbando rivolto agli enti locali\b/.test(t))return false;
-  if(!b?.deadline||!/^\\d{4}-\\d{2}-\\d{2}$/.test(String(b.deadline)))return false;
+  if(tr.officialSourceVerified!==true||tr.deadlineVerified!==true||tr.eligibilityVerified!==true||!tr.verificationNote||!tr.verifiedAt)return false;
+  if(!b?.deadline||!/^\d{4}-\d{2}-\d{2}$/.test(String(b.deadline)))return false;
   if(/#/.test(url))return false;
   if(/^(bandi|elenco bandi|canale bandi|amministrazione trasparente|attivita istituzionale|dipartimento|homepage|newsletter)/.test(t))return false;
   return true;

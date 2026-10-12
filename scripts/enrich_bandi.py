@@ -78,24 +78,25 @@ def parse_date(text):
         "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
         "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
     }
-    patterns = [
-        r"(?:scadenza(?:\s+il)?|chiude(?:\s+il)?|entro(?:\s+il)?|fino(?:\s+al)?|termine(?:\s+il)?)\s*[:\-]?\s*(\d{1,2})[-/.](\d{1,2})[-/.](\d{4})",
-        r"(?:scadenza(?:\s+il)?|chiude(?:\s+il)?|entro(?:\s+il)?|fino(?:\s+al)?|termine(?:\s+il)?)\s*[:\-]?\s*(\d{1,2})\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)\s+(\d{4})",
-    ]
-    for i, pattern in enumerate(patterns):
-        m = re.search(pattern, text, re.I)
-        if not m:
-            continue
-        try:
-            if i == 0:
-                d, mo, y = map(int, m.groups())
-            else:
-                d = int(m.group(1))
-                mo = month_names[m.group(2).lower()]
-                y = int(m.group(3))
-            return datetime(y, mo, d).strftime("%Y-%m-%d")
-        except (ValueError, KeyError):
-            continue
+    date_token = r"(\d{1,2})(?:[-/.]|\s+)(\d{1,2}|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)(?:[-/.]|\s+)(\d{4})"
+    # A later phase is not a new applicant's deadline. Prefer phase 1 even
+    # when the page presents phase 2 first, and never fall back to phase 2.
+    phase_one = r"(?:fase\s*(?:1|I\b|uno|prima)|prima\s+fase)"
+    phase_any = r"(?:fase\s*(?:[12]|I{1,2}\b|uno|due|prima|seconda)|(?:prima|seconda)\s+fase)"
+    label = r"(?:scadenza(?:\s+il)?|chiude(?:\s+il)?|entro(?:\s+il)?|fino(?:\s+al)?|termine(?:\s+il)?)"
+    if re.search(phase_any, text, re.I):
+        patterns = [phase_one + r"\s*(?:[):–—-]\s*)?(?:" + label + r")?\s*[:–—-]?\s*" + date_token]
+    else:
+        patterns = [label + r"\s*[:–—-]?\s*" + date_token,
+                    date_token + r"\s*(?:[-–]\s*)?(?:scadenza|chiusura)"]
+    for pattern in patterns:
+        for m in re.finditer(pattern, text, re.I):
+            try:
+                day, month, year = m.groups()
+                month = int(month) if month.isdigit() else month_names[month.lower()]
+                return datetime(int(year), month, int(day)).strftime("%Y-%m-%d")
+            except (ValueError, KeyError):
+                continue
     return None
 
 
@@ -172,8 +173,11 @@ def main():
                 bando["sourceStatus"] = status
                 changed.append("sourceStatus")
 
+            bando["detailFetchAttemptedAt"] = stamp
             bando["detailFetchedAt"] = stamp
             bando["detailFetchOk"] = True
+            # A fetched page is evidence to review, not certified eligibility.
+            bando["detailVerified"] = False
             if changed:
                 enriched += 1
             else:
@@ -181,7 +185,7 @@ def main():
             report_items.append({"key": key, "ok": True, "changed": changed, "url": url})
         except Exception as e:
             failed += 1
-            bando["detailFetchedAt"] = stamp
+            bando["detailFetchAttemptedAt"] = stamp
             bando["detailFetchOk"] = False
             report_items.append({"key": key, "ok": False, "error": clean(e), "url": url})
 

@@ -143,6 +143,16 @@ function territorySafe(b,region){
   return territories.some(t=>t===r||t.includes(r)||r.includes(t));
 }
 
+const REVIEWED={
+ RLD12025048623:{deadlineAt:"2027-04-23T12:00:00+02:00",maxGrant:0,note:"Avviso DDS 4806/2026: sede legale/operativa lombarda richiesta, sezioni RUNTS ODV/APS/altri ETS e soggetti non profit specificati; piano d'innovazione. Termine 23/04/2027 ore12 salvo esaurimento; contributo massimo da verificare nell'allegato."},
+ RLJ12026054688:{deadlineAt:"2026-10-16T17:00:00+02:00",note:"Avviso ufficiale Terzo Settore26-28: sede lombarda stabile di tutti i partner beneficiari, minimo2 partner piccola scala/4 larga scala, contributo80%, termine16/10/2026 ore17."},
+ RLA12025050323:{deadlineAt:"2026-11-16T16:00:00+01:00",note:"Avviso manifestazioni: ammessi enti fuori Lombardia con evento di effettivo rilievo regionale; evento2026, domanda almeno60 giorni prima, termine16/11/2026 ore16."},
+ RLT12026053831:{deadlineAt:"2027-04-30T12:00:00+02:00",maxGrant:30000,note:"Proroga decreto12266/2026:30/04/2027 ore12. DGR6031/2026 fino30000 euro secondo categoria; ETS non commerciali RUNTS con sede lombarda, non iscritti RegistroImprese/REA. Rottamazione di norma richiesta; eccezioni e-cargo/L1e/L5e a importo ridotto. Leasing escluso."},
+ RLT12026052444:{deadlineAt:"2026-10-22T16:00:00+02:00",fund:150000,maxGrant:8000,note:"Fonte ufficiale: almeno una sede OPERATIVA lombarda obbligatoria, progetti ambientali/sostenibilità in Lombardia in partenariato; contributo fino8000 euro, fondo150000; termine22/10/2026 ore16."},
+ RLH12026055146:{deadlineAt:"2026-10-30T12:00:00+01:00",maxGrant:2000000,note:"Avviso Housing linea3: personalità giuridica, sede operativa lombarda, piena disponibilità immobile per almeno20anni; massimo2milioni; termine30/10/2026 ore12."},
+ 'MLPS-AVVISO-2-2026':{deadlineAt:"2026-10-22T12:00:00+02:00",note:"Avviso2/2026 MLPS: APS/ODV RUNTS; interventi effettivi in almeno10 regioni,12-18mesi; contributo250-500mila; cofinanziamento20% e limiti ricavi bilancio; termine22/10/2026 ore12."},
+ 'PIE-FCRC-ATTRAZIONE-PROGETTAZIONE-2026':{note:"Fonte CRC: sede legale O operativa in provincia Cuneo e ricadute nel Cuneese;31/12/2026 salvo esaurimento; massimo8000 capofila/4000 partner, fino80%. Piemonte generico non soddisfa requisito."}
+};
 function officialCorrections(b){
   if(!b||typeof b!=="object")return b;
   const out={...b,tracking:{...(b.tracking||{})}};
@@ -175,7 +185,32 @@ function officialCorrections(b){
     out.tracking.continuousDeadlineVerifiedAt="2026-10-12";
     out.tracking.continuousDeadlineSource=out.sourceUrl;
   }
+  const review=REVIEWED[out.id];
+  if(review){
+    for(const k of ['deadlineAt','fund','maxGrant'])if(review[k]!==undefined)out[k]=review[k];
+    out.tracking={...out.tracking,specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:'2026-10-12',verificationNote:review.note};
+    out.eligibility=[review.note,...(out.eligibility||[])];
+    // Rules of the call are verified; fulfilment by a particular client is not.
+    out.applicantChecks=[{label:review.note,status:'unknown'}];
+  }
+  if(out.id==='PIE-FCRC-ATTRAZIONE-PROGETTAZIONE-2026')out.hardRequirements=[{label:'Sede legale o operativa in provincia di Cuneo',anyOf:['cuneo']}];
+  if(out.id==='RLT12026052444')out.hardRequirements=[{label:'Sede operativa in Lombardia',anyOf:['lombardia']}];
+  if(out.id==='FCARIPARO-LUOGHI-NON-COMUNI-2026')out.deadlineAt='2026-11-30T13:00:00+01:00';
+  if(out.id==='UNIPOLIS-POP-2026')out.deadlineAt='2026-10-15T13:00:00+02:00';
+  if(out.id==='OXFAM-COPOWER-2026')out.deadlineAt='2026-11-23T15:00:00+01:00';
+  if(out.id==='CONIBAMBINI-NOTE-COMUNITA-2026')out.deadlineAt='2026-10-16T13:00:00+02:00';
+  if(['FCARIPARO-CER-2026','FCARIPARO-IMPRENDITORIA-SOCIALE-2026'].includes(out.id)){
+    // An absent closing date on a page is not proof of an unlimited window.
+    out.tracking.continuousDeadlineConfirmed=false;
+    out.eligibility=[...(out.eligibility||[]),'Data finale non indicata nella pagina: verificare il regolamento e la disponibilità delle risorse.'];
+  }
   return out;
+}
+function current(b){
+ if(['chiuso','scaduto','revocato','annullato','sospeso'].includes(norm(b?.sourceStatus)))return false;
+ if(b?.deadlineAt){const t=Date.parse(b.deadlineAt);return Number.isFinite(t)&&t>=Date.now();}
+ if(!b?.deadline)return true;
+ return /^\d{4}-\d{2}-\d{2}$/.test(b.deadline)&&b.deadline>=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Rome',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
 }
 
 function postProcessCatalog(data,request){
@@ -185,8 +220,8 @@ function postProcessCatalog(data,request){
   const items=url.pathname==="/radar_bandi_catalogo_extra.json"?[...base,...VERIFIED_ADDITIONS]:base;
   const map=new Map();
   for(const item of items){if(item?.id)map.set(item.id,item)}
-  const bandi=[...map.values()].map(officialCorrections).filter(b=>territorySafe(b,region));
-  return {...data,updatedAt:"12/10/2026",selectedRegion:region||data?.selectedRegion||null,bandi};
+  const bandi=[...map.values()].map(officialCorrections).filter(b=>territorySafe(b,region)&&current(b));
+  return {...data,updatedAt:data.updatedAt||"12/10/2026",selectedRegion:region||data?.selectedRegion||null,bandi};
 }
 
 export default {
@@ -201,6 +236,15 @@ export default {
     let data;
     try{data=await response.json()}catch{return response}
     const body=postProcessCatalog(data,request);
+    try{
+      const checksResponse=await env.ASSETS.fetch(new Request(url.origin+'/radar_bandi_source_checks.json'));
+      if(checksResponse.ok){
+        const checks=(await checksResponse.json()).checks||{};
+        const reviewIds=new Set(Object.values(checks).filter(c=>c.needsReview).map(c=>c.bandoId));
+        body.bandi=body.bandi.map(b=>reviewIds.has(b.id)?{...b,tracking:{...b.tracking,sourceMonitoringNeedsReview:true}}:b);
+      }
+    }catch{}
+
     const headers=new Headers(response.headers);
     headers.set("content-type","application/json; charset=utf-8");
     headers.set("cache-control","no-store");

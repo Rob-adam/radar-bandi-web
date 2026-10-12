@@ -61,12 +61,12 @@ function adaptForNationalOperations(b,homeRegion){
     const label=norm(r?.label||"");
     const isOperationalGeo=label.includes("sede legale o operativa")||label.includes("sede operativa")||label.includes("progetto")||label.includes("iniziativa")||label.includes("operativita");
     if(!isOperationalGeo)return r;
-    return {...r,anyOf:[...new Set([...(Array.isArray(r?.anyOf)?r.anyOf:[]),"italia","nazionale"])]};
+    return {...r,anyOf:Array.isArray(r?.anyOf)?r.anyOf:[]};
   }):[];
   return {
     ...b,
     tags:[...new Set([...(Array.isArray(b?.tags)?b.tags:[]),"Operatività territoriale"])],
-    territories:[...new Set([...(Array.isArray(b?.territories)?b.territories:[]),homeRegion].filter(Boolean))],
+    territories:Array.isArray(b?.territories)?b.territories:[],
     eligibility:[note,...(Array.isArray(b?.eligibility)?b.eligibility:[])],
     hardRequirements,
     tracking:{...(b?.tracking||{}),territoryAccessByDeclaredOperations:true,territoryAccessNote:note}
@@ -114,7 +114,8 @@ async function dashboardResponse(request,env,ctx){
   const type=response.headers.get("content-type")||"";
   if(!type.includes("text/html"))return response;
   let html=await response.text();
-  html=html.includes("</body>")?html.replace("</body>",DASHBOARD_TERRITORY_UI+"</body>"):html+DASHBOARD_TERRITORY_UI;
+  const end=html.lastIndexOf("</body>");
+  html=end<0?html+DASHBOARD_TERRITORY_UI:html.slice(0,end)+DASHBOARD_TERRITORY_UI+html.slice(end);
   const headers=new Headers(response.headers);
   headers.set("content-type","text/html; charset=utf-8");
   headers.set("cache-control","no-store");

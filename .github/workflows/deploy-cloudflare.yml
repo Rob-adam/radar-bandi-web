@@ -26,6 +26,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Collaudo dashboard e licenze
+        run: node --test tests/delivery.test.mjs
+
       - name: Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
