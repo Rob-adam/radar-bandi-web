@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T00:01:23+02:00",
-  "attempted": 18,
-  "enriched": 18,
+  "generatedAt": "2026-10-12T08:03:19+02:00",
+  "attempted": 17,
+  "enriched": 17,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -132,16 +132,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content"
-    },
-    {
-      "key": "url:https://www.regione.puglia.it/bandi-e-avvisi#content",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText",
-        "sourceStatus"
-      ],
-      "url": "https://www.regione.puglia.it/bandi-e-avvisi#content"
     },
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
