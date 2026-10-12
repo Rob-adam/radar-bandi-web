@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:20:52+02:00",
+  "generatedAt": "2026-10-12T17:32:02+02:00",
   "ruleVersion": 3,
-  "count": 13,
+  "count": 11,
   "items": [
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 78,
+      "version": 80,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -32,7 +32,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 72,
+      "version": 74,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -57,7 +57,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "id": "REG-AUTO-F203EFDB69DC",
-      "version": 40,
+      "version": 42,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "title": "canale bandi e avvisi",
@@ -82,7 +82,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "id": "RLW12025050885",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "title": "Apprendistato nelle scuole - A.F. 2026/2027",
@@ -106,7 +106,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "id": "RLF12026056983",
-      "version": 42,
+      "version": 44,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "title": "Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia",
@@ -130,7 +130,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "id": "RLD12026054803",
-      "version": 64,
+      "version": 66,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "title": "Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali",
@@ -155,7 +155,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "id": "RLA12026056683",
-      "version": 26,
+      "version": 28,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "title": "Presentazione e monitoraggio programmi di controllo 2027",
@@ -180,7 +180,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "id": "RLV12026057043",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
@@ -203,61 +203,9 @@
       "text": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486"
     },
     {
-      "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
-      "id": "REG-AUTO-3904FD5DE8C6",
-      "version": 106,
-      "source": "Regione Sicilia · Bandi",
-      "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
-      "title": "Bandi | Regione Siciliana",
-      "territories": [
-        "sicilia"
-      ],
-      "deadline": null,
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "stato_e_scadenza_da_verificare"
-      ],
-      "audience": {
-        "known": true,
-        "scope": "ets-specific",
-        "evidence": [
-          "terzo settore"
-        ],
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true
-      },
-      "text": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autos"
-    },
-    {
-      "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
-      "id": "REG-AUTO-29AC9639BA24",
-      "version": 106,
-      "source": "Regione Sicilia · Bandi",
-      "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
-      "title": "Bandi | Regione Siciliana",
-      "territories": [
-        "sicilia"
-      ],
-      "deadline": null,
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "stato_e_scadenza_da_verificare"
-      ],
-      "audience": {
-        "known": true,
-        "scope": "ets-specific",
-        "evidence": [
-          "terzo settore"
-        ],
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true
-      },
-      "text": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autos"
-    },
-    {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 86,
+      "version": 88,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -283,7 +231,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 106,
+      "version": 108,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -307,7 +255,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 106,
+      "version": 108,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",

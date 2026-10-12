@@ -1,11 +1,35 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T12:20:28+02:00",
+  "generatedAt": "2026-10-12T17:31:42+02:00",
   "attempted": 18,
   "enriched": 18,
   "unchanged": 0,
   "failed": 0,
   "items": [
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-hub-territoriali-lavori-pubblica-utilita-rivolti-persone-uscita-luoghi-detenzione",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-hub-territoriali-lavori-pubblica-utilita-rivolti-persone-uscita-luoghi-detenzione"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-misure-residenzialita-temporanea-accompagnamento-persone-uscita-esecuzione-penale",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-misure-residenzialita-temporanea-accompagnamento-persone-uscita-esecuzione-penale"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-sportelli-ascolto-favore-persone-uscita-dai-luoghi-detenzione-esecuzione-penale",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-sportelli-ascolto-favore-persone-uscita-dai-luoghi-detenzione-esecuzione-penale"
+    },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
       "ok": true,
@@ -70,16 +94,6 @@
       "url": "https://www.regione.liguria.it/newsletter.html"
     },
     {
-      "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText",
-        "deadline"
-      ],
-      "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025"
-    },
-    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "ok": true,
       "changed": [
@@ -113,24 +127,6 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043"
-    },
-    {
-      "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content"
-    },
-    {
-      "key": "url:https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content"
     },
     {
       "key": "url:https://www.regione.puglia.it/bandi-e-avvisi#content",
