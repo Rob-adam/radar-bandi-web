@@ -205,7 +205,18 @@ async function mergedExtraCatalog(request,env){
  const region=regionFromRequest(request);
  const nationalScope=new URL(request.url).searchParams.get("scope")==="national";
  const staticExtra=Array.isArray(d1.bandi)?d1.bandi:[];
- const automatic=Array.isArray(d2.bandi)?d2.bandi:[];
+ // Customer catalog: do not publish crawler navigation pages or untriaged leads.
+ // These remain in the raw discovery feed for later editorial verification.
+ const automatic=(Array.isArray(d2.bandi)?d2.bandi:[]).filter(b=>{
+  const t=normTerritory(b?.title||"");
+  const url=String(b?.sourceUrl||"");
+  const tr=b?.tracking||{};
+  if(tr.needsAnalysis!==false||tr.excludedForEts===true||tr.specificLegalFormConfirmed!==true)return false;
+  if(!b?.deadline||!/^\\d{4}-\\d{2}-\\d{2}$/.test(String(b.deadline)))return false;
+  if(/#/.test(url))return false;
+  if(/^(bandi|elenco bandi|canale bandi|amministrazione trasparente|attivita istituzionale|dipartimento|homepage|newsletter)/.test(t))return false;
+  return true;
+ });
  const sourceItems=[...staticExtra,...automatic];
  const map=new Map();
  for(const b of sourceItems){
