@@ -2,10 +2,12 @@ import app from "./index.js";
 
 const norm=v=>String(v||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
 const UNIVERSAL=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
+const CROSS_REGION_VERIFIED=new Set(["RLA12025050323"]);
 
 function territorySafe(b,region){
   const r=norm(region);
   if(!r)return true;
+  if(CROSS_REGION_VERIFIED.has(String(b?.id||"")))return true;
   const territories=Array.isArray(b?.territories)?b.territories.map(norm).filter(Boolean):[];
   if(!territories.length)return true;
   if(territories.some(t=>UNIVERSAL.some(u=>t===u||t.includes(u))))return true;
@@ -23,6 +25,16 @@ function officialCorrections(b){
     out.tracking.deadlineVerified=true;
     out.tracking.verifiedAt="2026-10-12";
     out.tracking.verificationNote="Scadenza differita alle ore 12:00 del 30/04/2027; beneficiari ETS non commerciali con sede legale o operativa in Lombardia.";
+  }
+
+  // Regione Lombardia L.R. 50/1986: ammette anche enti con sede fuori Lombardia se l'iniziativa valorizza l'identità regionale.
+  if(out.id==="RLA12025050323"){
+    out.tracking.officialSourceVerified=true;
+    out.tracking.deadlineVerified=true;
+    out.tracking.eligibilityVerified=true;
+    out.tracking.specificLegalFormConfirmed=true;
+    out.tracking.verifiedAt="2026-10-12";
+    out.tracking.verificationNote="APS/ODV e altri enti non profit ammessi; per enti fuori Lombardia serve un'iniziativa di effettivo rilievo regionale che valorizzi identità e immagine della Lombardia; scadenza 16/11/2026 ore 16:00.";
   }
 
   // Verifica completa dell'Avviso MLPS 2/2026 sul testo ufficiale del 10/09/2026.
