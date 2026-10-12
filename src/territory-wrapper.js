@@ -28,8 +28,6 @@ function operationalAccessAllowed(b){
   const t=textOf(b);
   if(!t)return false;
 
-  // Requisiti che impongono la sede legale (o sede legale E operativa) non
-  // possono essere soddisfatti dalla sola operativita nazionale dichiarata.
   const legalOnly=[
     "sede legale in",
     "sede legale nella",
@@ -40,8 +38,6 @@ function operationalAccessAllowed(b){
   const legalOrOperational=t.includes("sede legale o operativa")||t.includes("sede legale oppure operativa");
   if(!legalOrOperational&&legalOnly.some(x=>t.includes(x)))return false;
 
-  // Accesso possibile quando la fonte ammette operativita, progetto o iniziativa
-  // nel territorio, senza obbligare la sola sede legale nella regione.
   return legalOrOperational||[
     "sede operativa",
     "operanti nella",
@@ -69,6 +65,7 @@ function adaptForNationalOperations(b,homeRegion){
   }):[];
   return {
     ...b,
+    tags:[...new Set([...(Array.isArray(b?.tags)?b.tags:[]),"Operatività territoriale"])],
     territories:[...new Set([...(Array.isArray(b?.territories)?b.territories:[]),homeRegion].filter(Boolean))],
     eligibility:[note,...(Array.isArray(b?.eligibility)?b.eligibility:[])],
     hardRequirements,
@@ -81,9 +78,6 @@ async function catalogResponse(request,env,ctx){
   const region=String(url.searchParams.get("region")||"").trim();
   const national=url.searchParams.get("scope")==="national";
 
-  // Per profili con operativita nazionale chiediamo al motore interno il catalogo
-  // non prefiltrato per la sola regione di sede, poi applichiamo qui un filtro piu
-  // preciso basato sui requisiti territoriali dichiarati nelle schede.
   const innerUrl=new URL(url);
   if(national)innerUrl.searchParams.delete("region");
   const innerRequest=new Request(innerUrl.toString(),request);
@@ -112,11 +106,29 @@ async function catalogResponse(request,env,ctx){
   return new Response(JSON.stringify({...data,selectedRegion:region||data.selectedRegion||null,operatingScope:national?"national":data.operatingScope||null,bandi}),{status:response.status,headers});
 }
 
+const DASHBOARD_TERRITORY_UI=`<script id="bandovera-territory-ui">(()=>{try{const raw=new URLSearchParams(location.search).get('p');if(!raw)return;const c=raw.trim().replace(/\\s+/g,'');const b=(c+'='.repeat((4-c.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/');const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes))||{};const sub=document.getElementById('subtitle');if(sub){const type=p.type||'ETS';const region=p.region||'';const op=p.operatingTerritory||p.territoryScope||'';let text=type;if(region)text+=' · Sede: '+region;if(op)text+=' · Operatività: '+op;sub.textContent=text;}const obs=new MutationObserver(()=>{document.querySelectorAll('.tag').forEach(el=>{if((el.textContent||'').trim().toLowerCase()==='operatività territoriale'){el.style.border='1px solid rgba(103,185,255,.55)';el.style.color='#9ed8ff';el.title='Bando mostrato perché il profilo dichiara operatività nel territorio; verificare il requisito specifico prima della candidatura.';}})});obs.observe(document.body,{childList:true,subtree:true});setTimeout(()=>obs.disconnect(),15000);}catch(e){console.warn('Territory UI',e)}})();</script>`;
+
+async function dashboardResponse(request,env,ctx){
+  const response=await app.fetch(request,env,ctx);
+  if(!response.ok)return response;
+  const type=response.headers.get("content-type")||"";
+  if(!type.includes("text/html"))return response;
+  let html=await response.text();
+  html=html.includes("</body>")?html.replace("</body>",DASHBOARD_TERRITORY_UI+"</body>"):html+DASHBOARD_TERRITORY_UI;
+  const headers=new Headers(response.headers);
+  headers.set("content-type","text/html; charset=utf-8");
+  headers.set("cache-control","no-store");
+  headers.delete("content-length");
+  return new Response(html,{status:response.status,headers});
+}
+
 export default {
   async fetch(request,env,ctx){
     const url=new URL(request.url);
     const isCatalog=url.pathname==="/radar_bandi_catalogo.json"||url.pathname==="/radar_bandi_catalogo_extra.json";
     if(isCatalog&&!url.searchParams.has("raw"))return catalogResponse(request,env,ctx);
+    const accept=request.headers.get("accept")||"";
+    if(request.method==="GET"&&(url.pathname==="/"||accept.includes("text/html")))return dashboardResponse(request,env,ctx);
     return app.fetch(request,env,ctx);
   }
 };
