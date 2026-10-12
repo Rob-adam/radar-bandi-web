@@ -31,3 +31,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           command: deploy
+
+# Deployment trigger refreshed after Cloudflare token setup on 2026-10-12.
