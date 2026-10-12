@@ -18,7 +18,8 @@ function regionFromRequest(request){
  }catch{}
  return "";
 }
-function territoryAllowed(b,region){const r=normTerritory(region);if(!r)return true;const territories=Array.isArray(b?.territories)?b.territories.map(normTerritory).filter(Boolean):[];if(!territories.length)return true;const universal=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
+function territoryAllowed(b,region,nationalScope=false){
+ if(nationalScope)return true;const r=normTerritory(region);if(!r)return true;const territories=Array.isArray(b?.territories)?b.territories.map(normTerritory).filter(Boolean):[];if(!territories.length)return true;const universal=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
  if(territories.some(t=>universal.some(u=>t===u||t.includes(u))))return true;
  return territories.some(t=>t===r||t.includes(r)||r.includes(t));
 }
@@ -181,8 +182,9 @@ async function filteredMainCatalog(request,env){
  if(!r.ok)return r;
  let d;try{d=await r.json()}catch{return json({error:'Catalogo principale non valido'},500)}
  const region=regionFromRequest(request);
+ const nationalScope=new URL(request.url).searchParams.get("scope")==="national";
  const all=Array.isArray(d.bandi)?d.bandi:[];
- const bandi=all.filter(b=>territoryAllowed(b,region)&&opportunityCurrent(b));
+ const bandi=all.filter(b=>territoryAllowed(b,region,nationalScope)&&opportunityCurrent(b));
  return json({...d,selectedRegion:region||null,bandi});
 }
 
@@ -196,6 +198,7 @@ async function mergedExtraCatalog(request,env){
  try{d1=await r1.json()}catch{return json({error:'Catalogo extra non valido'},500)}
  if(r2.ok){try{d2=await r2.json()}catch{d2={bandi:[]}}}
  const region=regionFromRequest(request);
+ const nationalScope=new URL(request.url).searchParams.get("scope")==="national";
  const staticExtra=Array.isArray(d1.bandi)?d1.bandi:[];
  const automatic=Array.isArray(d2.bandi)?d2.bandi:[];
  const sourceItems=[...staticExtra,...automatic];
@@ -204,7 +207,7 @@ async function mergedExtraCatalog(request,env){
   const key=String(b?.sourceUrl||b?.id||'').replace(/\/$/,'');
   if(key)map.set(key,b);
  }
- const bandi=[...map.values()].filter(b=>territoryAllowed(b,region)&&opportunityCurrent(b));
+ const bandi=[...map.values()].filter(b=>territoryAllowed(b,region,nationalScope)&&opportunityCurrent(b));
  return json({...d1,updatedAt:d2.updatedAt||d1.updatedAt||null,automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],selectedRegion:region||null,bandi});
 }
 
