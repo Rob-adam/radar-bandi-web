@@ -121,8 +121,8 @@ function formalAudience(b){
  const municipalityOnly=b.id==="RLAV2026055344" &&
   /RLAV2026055344(?:[/?#]|$)/.test(String(b.sourceUrl||""));
  if(municipalityOnly)return {forms:["Comune"],verified:true,label:"Domanda riservata ai Comuni della Lombardia"};
- if(b.tracking?.excludedForEts===true)return {forms:[],verified:true,excluded:true,label:"Destinatari non ammessi per un ETS secondo la verifica del bando"};
- const verified=b.tracking?.specificLegalFormConfirmed===true;
+ if(b.tracking?.excludedForEts===true)return {forms:[],verified:true,excluded:true,label:"Destinatari non ammessi per un ETS secondo la classificazione disponibile: controllare la fonte ufficiale"};
+ const verified=b.tracking?.specificLegalFormConfirmed===true&&b.tracking?.officialSourceVerified===true&&b.tracking?.eligibilityVerified===true&&!!b.tracking?.verifiedAt;
  return {forms:verified?(b.legalForms||[]):[],verified,label:"Soggetti ammessi da verificare nella fonte ufficiale"};
 }
 function romeDateKey(date=new Date()){
