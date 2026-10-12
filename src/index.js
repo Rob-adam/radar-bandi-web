@@ -212,6 +212,8 @@ async function mergedExtraCatalog(request,env){
   const url=String(b?.sourceUrl||"");
   const tr=b?.tracking||{};
   if(tr.needsAnalysis!==false||tr.excludedForEts===true||tr.specificLegalFormConfirmed!==true)return false;
+  // This official notice explicitly restricts applicants to local public authorities.
+  if(b?.id==="RLY12026055345"||/\bbando rivolto agli enti locali\b/.test(t))return false;
   if(!b?.deadline||!/^\\d{4}-\\d{2}-\\d{2}$/.test(String(b.deadline)))return false;
   if(/#/.test(url))return false;
   if(/^(bandi|elenco bandi|canale bandi|amministrazione trasparente|attivita istituzionale|dipartimento|homepage|newsletter)/.test(t))return false;
