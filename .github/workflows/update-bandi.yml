@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/update_bandi.py'
+      - 'scripts/audit_coverage.py'
       - 'scripts/er_discovery.py'
       - 'scripts/er_watchlist.py'
       - 'scripts/validate_er_existing.py'
@@ -64,11 +65,14 @@ jobs:
       - name: Filtro finale prima dell AI
         run: python scripts/triage_bandi.py
 
+      - name: Diagnostica copertura nazionale
+        run: python scripts/audit_coverage.py
+
       - name: Pubblica catalogo memoria coda AI e report se cambiati
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_auto.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
+          git add public/radar_bandi_auto.json public/radar_bandi_coverage.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica significativa al catalogo automatico"
           else
