@@ -1,5 +1,5 @@
 {
-  "updatedAt": "12/10/2026 08:03",
+  "updatedAt": "12/10/2026 12:20",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -173,8 +173,8 @@
     {
       "source": "Regione Puglia · Bandi",
       "region": "puglia",
-      "found": 0,
-      "ok": false
+      "found": 1,
+      "ok": true
     },
     {
       "source": "Regione Sardegna · Bandi",
@@ -230,99 +230,19 @@
     "liguria": 3,
     "toscana": 1,
     "sicilia": 3,
+    "puglia": 1,
     "trentino-alto-adige": 2,
     "piemonte": 2
   },
   "errors": [
-    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
-    "Regione Puglia · Bandi: HTTPSConnectionPool(host='www.regione.puglia.it', port=443): Read timed out. (read timeout=30)"
+    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
   ],
   "bandi": [
     {
-      "id": "RLD12026053903",
-      "title": "NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI",
+      "id": "RLY12026055345",
+      "title": "Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile",
       "source": "Regione Lombardia",
-      "deadline": "2026-10-14",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "chiude",
-        "nidi",
-        "gratis",
-        "plus",
-        "anticipo",
-        "comuni",
-        "codice",
-        "hanno",
-        "partecipato",
-        "precedente",
-        "edizione",
-        "numero",
-        "domande",
-        "presentate",
-        "famiglie",
-        "uguale",
-        "superiore"
-      ],
-      "sectors": [
-        "chiude",
-        "nidi",
-        "gratis",
-        "plus",
-        "anticipo",
-        "comuni",
-        "codice",
-        "hanno"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-anticipo-comuni-RLD12026053903",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Politiche Sociali / Famiglia / NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Aperto NIDI GRATIS PLUS - 2026/27 - ANTICIPO AI COMUNI Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 14/10/2026 , ore 12:00 I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 14 ottobre 2026 (termine prorogato). Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12026053903 Pubblicato il: 22/09/2026 , ore 09:59 Domande dal: 01/10/2026 , ore 12:05 Scade il: 14/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni sono stati individuati sulla base dei dati della precedente edizione 2025-2026 e secondo i seguenti criteri: - numero di domande presentate dalle famiglie uguale o superiore a cinque; - il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500. I Comuni che non hanno questi requisiti non potranno presentare domanda di anticipazione (il sistema informatico non consente l’accesso al servizio). La liquidazione dell’anticipo avverrà solo dopo l’ammissione del Comune alla Misura Nidi Gratis Plus 2026-2027, ovvero il Comune presente nell’Allegato B che desidera ricevere l’anticipo, dovrà comunque presentare domanda , ma fintanto che la domanda di adesione del Comune risulta ancora in istruttoria, l’importo dell’anticipazione finanziaria non potrà essere liquidato. Di cosa si tratta I Comuni che hanno partecipato alla precedente edizione 2025-2026 e che hanno un numero di domande presentate dalle famiglie uguale o superiore a cinque e il valore totale dell’anticipazione richiedibile risulta superiore o uguale a € 1.500,00 possono presentare domanda dal 1 al 14 ottobre 2026 (termine prorogato). Dotazione finanziaria 20.000.000,00 euro Caratteristiche dell'agevolazione Ai fini della quantificazione e dell’erogazione degli importi delle anticipazioni finanziarie, è stata effettuata una stima dell’importo massimo rendicontabile per ciascun Comune, basata sui dati della precedente annualità (2025-2026). A ciascun Comune è stato attribuito un importo pari al 30% dell’importo rendicontabile stimato sulla base della precedente edizione. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n. 39 del 24/09/2026 Azioni . Come partecipare Il Comune, una volta effettuato l’accesso, dovrà: fare clic sul pulsante “fai domanda”; prendere visione dei dati generali riportati; richiedere l’anticipo (cliccando sul pulsante “Richiedi anticipo”); visualizzare la schermata di richiesta dell’anticipo con indicato l’importo dell’anticipo assegnato e compilare con i dati richiesti (generali e bancari); cliccare sul pulsante “Avanti” per andare alla schermata successiva e scaricare il format precompilato di richiesta dell’anticipo, che, debitamente firmato digitalmente dal Legale Rappresentante, dovrà essere caricato sulla stessa pagina web cliccando sul tasto “Carica Richiesta Anticipo”; nel caso in cui il firmatario sia diverso dal rappresentante legale, sarà necessario effettuare l’upload a sistema della delega; Inviare a protocollo. Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per qualsiasi informazione o chiarimento in merito all'anticipo è possibile rivolgersi all’indirizzo di posta elettronica nidigratispluscomuni@regione.lombardia.it Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il call center di bandi on-line al numero verde 800.131.151, oppure inviare una e-mail a: bandi@regione.lombardia.it . Allegati D.d.u.o. n. 13151 del 07/10/2026 - Proroga chiusura richiesta anticipo - 07/10/2026 D.d.u.o. n. 12262 del 21/09/2026 - Anticipo e finestre rendicontazione - 21/09/2026 Allegato A - Linee guida rendicontazione e anticipo - 21/09/2026 Allegato B - Elenco Comuni beneficiari dell'anticipo - 21/09/2026 Manuale richiesta anticipo - 25/09/2026 Mostra altri",
-      "tracking": {
-        "contentHash": "7361fcd918087eadad2d3343c62b640339d7e0b8f8bbcf80e3f5e3951ad4db47",
-        "version": 66,
-        "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "RLW12026056843",
-      "title": "AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE.",
-      "source": "Regione Lombardia",
-      "deadline": "2026-11-17",
+      "deadline": "2026-11-12",
       "fund": 0,
       "maxGrant": 0,
       "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -338,116 +258,33 @@
         "enti",
         "operatori",
         "chiude",
-        "affidamenti",
-        "diretti",
-        "beni",
-        "servizi",
-        "progetto",
-        "procedura",
-        "affidamento",
-        "serv",
-        "codice",
-        "servizio",
-        "welcome",
-        "coffee",
-        "corner",
-        "light",
-        "lunch",
-        "realizzazione",
-        "comitato"
-      ],
-      "sectors": [
-        "enti",
-        "operatori",
-        "chiude",
-        "affidamenti",
-        "diretti",
-        "beni",
-        "servizi",
-        "progetto"
-      ],
-      "beneficiaries": [],
-      "activities": [],
-      "purposes": [],
-      "territories": [
-        "lombardia"
-      ],
-      "legalForms": [],
-      "hardRequirements": [
-        {
-          "label": "Territorio: lombardia",
-          "anyOf": [
-            "lombardia"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/lavoro-occupazione/ad-111-2026-id-progetto-8057615-procedura-l-affidamento-servizio-welcome-coffee-coffee-corner-light-lunch-realizzazione-comitato-sorveglianza-pr-fse-2021-2027-anno-2026-che-si-terr-18-19-novembre-2026-milano-presso-palazzo-lombardia-cig-bd162a922a-cup-e41d26001120009-pr-fse-2021-2027-priorit-5-assistenza-tecnica-codice-179-informazione-comunicazione-RLW12026056843",
-      "autoDiscovered": true,
-      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Lavoro e occupazione / AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Aperto AD 111/2026 - ID PROGETTO 8057615 - PROCEDURA PER L’AFFIDAMENTO DEL SERVIZIO DI WELCOME COFFEE, COFFEE CORNER, LIGHT LUNCH PER LA REALIZZAZIONE DEL COMITATO DI SORVEGLIANZA PR FSE+ 2021-2027 – ANNO 2026 CHE SI TERRÀ IL 18 E 19 NOVEMBRE 2026 A MILANO PRESSO PALAZZO LOMBARDIA - CIG BD162A922A, CUP E41D26001120009. PR FSE+ 2021-2027, PRIORITÀ 5. ASSISTENZA TECNICA, CODICE 179. INFORMAZIONE E COMUNICAZIONE. Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026 - 18-19 novembre 2026 - Milano presso Palazzo Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLW12026056843 Pubblicato il: 30/09/2026 , ore 12:25 Domande dal: 01/10/2026 , ore 12:15 Scade il: 17/11/2026 , ore 09:45 Scheda informativa Chi può partecipare Affidamento diretto CIG BD162A922A Base d'asta 2.200,00 Di cosa si tratta Affidamento del servizio di welcome coffee, coffee corner, light lunch per la realizzazione del Comitato di Sorveglianza FSE+ 2021-2027 - Anno 2026. 18-19 novembre 2026 Milano presso Palazzo Lombardia Come partecipare Affidamento diretto Informazioni e contatti Brunella Reverberi U.O. POLITICHE EUROPEE PER IL CAPITALE UMANO, AUTORITÀ DI GESTIONE FSE E COORDINAMENTO MISURE PNRR DIREZIONE GENERALE ISTRUZIONE, FORMAZIONE, LAVORO brunella_reverberi@regione.lombardia.it Allegati Decreto n.12674 - Catering - 29 settembre 2026 - 30/09/2026",
-      "tracking": {
-        "contentHash": "c65d8b490b2f07f38804aba5da6b98538ffaf67d346bc4485522d95440538f90",
-        "version": 68,
-        "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
-        "needsAnalysis": true,
-        "triageStatus": "ai-required",
-        "triageRuleVersion": 3,
-        "audienceScope": "unknown",
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null,
-        "excludedForEts": false
-      },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
-      "detailFetchOk": true
-    },
-    {
-      "id": "RLW12025050865",
-      "title": "Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A.",
-      "source": "Regione Lombardia",
-      "deadline": "2027-04-30",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Dettagli economici da verificare nella fonte ufficiale",
-      "tags": [
-        "Automatico",
-        "Regione Lombardia",
-        "lombardia"
-      ],
-      "eligibility": [
-        "Requisiti da verificare nella fonte ufficiale"
-      ],
-      "keywords": [
-        "enti",
-        "operatori",
-        "chiude",
-        "contributo",
-        "abbattimento",
-        "interessi",
-        "sull",
-        "iniziativa",
-        "finanziamento",
-        "codice",
-        "data",
-        "ottobre",
-        "aprono",
-        "termini",
-        "dell",
-        "avviso",
-        "finlombarda",
         "rivolto",
         "agli",
-        "accreditati"
+        "locali",
+        "contributo",
+        "finalizzato",
+        "acquisi",
+        "codice",
+        "erogazione",
+        "contributi",
+        "base",
+        "biennale",
+        "acquisizione",
+        "mezzi",
+        "attrezzature",
+        "esclusivo",
+        "protezione",
+        "civile"
       ],
       "sectors": [
         "enti",
         "operatori",
         "chiude",
+        "rivolto",
+        "agli",
+        "locali",
         "contributo",
-        "abbattimento",
-        "interessi",
-        "sull",
-        "iniziativa"
+        "finalizzato"
       ],
       "beneficiaries": [],
       "activities": [],
@@ -465,14 +302,93 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/contributo-abbattimento-interessi-iniziativa-finanziamento-sistema-istruzione-formazione-professionale-promossa-finlombarda-s-p-RLW12025050865",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
       "autoDiscovered": true,
-      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Aperto Contributo abbattimento interessi sull’iniziativa \"Finanziamento per il sistema di istruzione e formazione professionale\" promossa da Finlombarda S.p.A. Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 In data 1 ottobre 2026 aprono i termini dell’Avviso di Finlombarda rivolto agli Enti accreditati destinatari del Budget Duale anno formativo 2026/2027, che intendono richiedere un contributo per l’abbattimento degli interessi sul finanziamento. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050865 Pubblicato il: 30/09/2026 , ore 17:25 Domande dal: 01/10/2026 , ore 12:00 Scade il: 30/04/2027 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti Accreditati IeFP, destinatari del Budget Duale IeFP 2026/2027, assegnato da Regione Lombardia e in possesso dei requisiti previsti nell’Avviso “Finanziamento per il sistema di istruzione e formazione professionale” (paragrafo A.4 “Soggetti richiedenti”). Di cosa si tratta Iniziativa promossa da Finlombarda S.p.A. per supportare l’offerta formativa del sistema regionale di istruzione e formazione professionale (IeFP). Gli enti accreditati per i servizi di Istruzione e Formazione, beneficiari dei finanziamenti concessi da Finlombarda relativi all’Avviso “ Finanziamento per il sistema di Istruzione e formazione professionale ”, possono richiedere un contributo per l’abbattimento di interessi sul finanziamento. Possono aderire gli Enti che non abbiano già richiesto l’anticipazione tramite fidejussione, così come previsto dall’ Avviso IEFP ordinaria 2026/2027 per la realizzazione dell'offerta formativa dei percorsi del sistema regionale di Istruzione e Formazione Professionale, in attuazione della D.g.r. 6546 del 20/07/2026 , parzialmente finanziato a valere sul PR FSE+ 2021-2027 (Priorità 2 - ESO4.6 - Azione F.1), approvato con Decreto n. 10334/2026. Cosa serve Tutti i soggetti beneficiari che intendono erogare servizi nell’ambito del presente Avviso devono: • sottoscrivere digitalmente l’Atto di Adesione Unico di cui al Manuale di Gestione e inviarlo tramite il sistema informativo Bandi e Servizi (di seguito “BeS”), raggiungibile all’indirizzo www.bandi.regione.lombardia.it Dotazione finanziaria La dotazione finanziaria disponibile per la concessione dei Contributi Abbattimento Interessi è pari a euro 1.603.650,02 (unmilioneseicentotremilaseicentocinquanta/02) a valere sul Fondo Abbattimento Interessi costituito da Regione Lombardia e stanziati con la DGR Istitutiva n. 4616 del 23/06/2025. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie ordinaria n. 32 del 04/08/2026 Come partecipare La domanda di Contributo deve essere presentata, successivamente alla presentazione della domanda di Finanziamento, sulla presente piattaforma Bandi e Servizi ( www.bandi.servizirl.it ), a partire dalle ore 12:00 del giorno 1 ottobre 2026 alle ore 17:00 del 30 aprile 2027 e in ogni caso sino all’esaurimento della dotazione o alla chiusura dell’iniziativa da parte di Finlombarda. Procedura selezione La tipologia di procedura utilizzata è valutativa a sportello, secondo l’ordine cronologico di protocollazione elettronica da parte di Bandi e Servizi. Informazioni e contatti Contatti assistenza tecnica Per problemi tecnici sul sistema informativo occorre scrivere esclusivamente a: • bandi@regione.lombardia.it (Bandi e Servizi) Oppure contattare il numero verde 800.131.151 (Bandi e Servizi). Contatti assistenza amministrativa Qualsiasi informazione relativa ai contenuti dell’avviso e agli adempimenti connessi può essere richiesta a: • infobando.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle modalità di presentazione delle domande; • infopratica.finanziamenti.iefp@finlombarda.it per quesiti attinenti alle domande ammesse o in lavorazione. Allegati DGR 6546 del 20-07-2026 - 20/07/2026 DGR 6546_26 Allegato A - Rinnovo iniziativa per 2026-2027 - 20/07/2026 DGR 6546_26 Allegato B - Aggiornamento Prospetto di raccordo - 20/07/2026 Decreto 8192 del 19/6/26 - Budget IeFP 2026-2027 - 19/06/2026 BURL n. 32 - 2026 - estratto Avviso Finanziamenti - 05/08/2026 Avviso Finanziamenti IEFP 26-27 - testo integrale - 05/08/2026 Avviso Contributo IEFP 26-27 - testo integrale - 05/08/2026 Mostra altri",
+      "discoveryText": "Bandi / Sicurezza e Protezione Civile / Interventi urgenti e post emergenza / Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Aperto Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Erogazione di contributi su base biennale per l'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile da parte di Comuni, singoli o associati, Unioni di Comuni, Comunità Montane e d Enti Parco (L.R. 27/2021 - ART. 22, C. 7) Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare A) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane, dotati di Gruppo comunale/intercomunale o appartenenti, come capofila, a un Gruppo intercomunale di Protezione Civile, iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026; B) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane , anche dotati di Gruppo comunale/intercomunale di Protezione Civile, che abbiano una convenzione vigente alla data di apertura del bando, con un soggetto del volontariato organizzato di protezione civile (VOPC) iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026. Di cosa si tratta Regione Lombardia, ai sensi della l.r. n. 27 del 29 dicembre 2021, contribuisce all’implementazione dell’efficienza e dell’efficacia dell’operatività del sistema di Protezione Civile di Regione Lombardia che si sviluppa territorialmente anche attraverso la partecipazione delle Organizzazioni di Volontariato organizzato operanti direttamente o in convenzione con gli enti territoriali facenti parte del Sistema di Protezione Civile, così come previsto dal D.Lgs. 1/2018 “Codice della Protezione Civile”. Tali enti operano a livello territoriale in fase preventiva ed emergenziale, con la partecipazione delle Organizzazioni di volontariato organizzato con volontari e dotazioni riferite a differenti specializzazioni. Obiettivo principale è di incrementare e rinnovare le dotazioni di automezzi e mezzi d’opera del Sistema di Protezione Civile per la gestione delle fasi di prevenzione e di emergenza territoriali, anche rafforzando a livello provinciale la capacità di risposta all’emergenza. I beneficiari diretti sono gli enti locali che devono poi, nelle forme opportune, mettere a disposizione queste dotazioni ad uso esclusivo di Protezione Civile alle Organizzazioni di Volontariato operanti sul territorio. Dotazione finanziaria I fondi a disposizione ammontano a euro 4.000.000,00 su base biennale. Caratteristiche dell'agevolazione Il contributo erogato è per tutte le tipologie, della spesa indicata nel preventivo nella quota del 90% rispetto alla tipologia di bene acquistato, della spesa indicata nel preventivo allegato in sede di presentazione della domanda di adesione, fino alla concorrenza dei massimali di seguito definiti. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. L’ultima domanda in graduatoria potrà essere finanziata anche per una quota di finanziamento inferiore alla percentuale prevista per la tipologia di bene, in funzione delle risorse disponibili, previa specifica accettazione da parte dei beneficiari stessi. Per tutte le tipologie il contributo massimo è pari al 90% della spesa preventivata. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. Il contributo minimo erogabile è pari ad euro 10.000,00 IVA inclusa. Il contributo massimo erogabile, per tutte le categorie tranne la categoria b), è pari ad euro 100.000,00 IVA inclusa; per la categoria b) il contributo massimo erogabile è pari a 150.000,00 euro. Potranno anche essere finanziati interventi di importo preventivato superiore all’importo massimo del contributo previsto; in tal caso la differenza tra il contributo massimo erogato e la spesa complessiva sarà a carico del beneficiario. Es. spesa preventivata 200.000,00 euro – contributo erogato 150.000,00 euro. Le domande relative alle tipologie di beni di cui alle categorie a), b), c) potranno prevedere l’acquisto di un solo bene, appartenente ad una delle tre categorie. Le domande riferite alle tipologie di beni di cui alle categorie d), e), f), g), h), i) potranno prevedere l’acquisto di più beni, anche appartenenti alle diverse categorie interessate Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n.41 del 5 ottobre 2026 Come partecipare La domanda di partecipazione deve essere presentata esclusivamente attraverso il sistema informativo “Bandi e Servizi” all’indirizzo www.bandi.regione.lombardia.it , accessibile tramite SPiD, CNS/CRS o CIE. Le domande presentate con modalità differenti dalla piattaforma Bandi e Servizi non saranno considerate ammissibili. Le domande dovranno essere sottoscritte con firma elettronica dal legale rappresentante del soggetto richiedente, o da suo delegato Procedura selezione La tipologia di procedura utilizzata per l’assegnazione del contributo regionale è valutativa a graduatoria, definita in base al punteggio totale conseguito, sulla base dei seguenti criteri: Numero dei volontari operativi iscritti al Gruppo e/o alla ODV convenzionata, alla data del 30 settembre 2026 (con punteggio per classi di numero volontari). Il dato è rilevato automaticamente dal sistema DBVOL; Domanda presentata da soggetti aggregati (unioni di comuni, associazioni, cm, parchi); Rischio-idrogeologico: rapporto tra aree a rischio di ciascun comune/area urbanizzata; Popolazione residente nel Comune; in caso di domanda presentata da enti a cui sono riferiti più Comuni, sarà calcolata la media aritmetica (punteggio per classi di popolazione); Soggetti beneficiari di contributo nei precedenti bandi 2021 (DGR XI/4840/2021 e DGR XI/5911/2022), 2022 (DGR XI/6510/2022) e 2023 (DGR XII/694/2023): il punteggio verrà ridotto in proporzione. Informazioni e contatti Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile scrivere all’indirizzo bandi@regione.lombardia.it o contattare il Call Center al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica. Per informazioni e segnalazioni relative al bando: • Michele Guarnieri – 02.6765.0501 michele_guarnieri@regione.lombardia.it • Giovanni Caldiroli – 02.6765.2993 giovanni_caldiroli@regione.lombardia.it Allegati DDS_13300 - 08/10/2026 Allegato A - 08/10/2026 Incarico per la sottoscrizione digitale - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026 ALLEGATO 1 DDS 13300 - 08/10/2026 DDS_12642 - 28/09/2026 Mostra altri",
       "tracking": {
-        "contentHash": "824a5bb191e619bc5668229ef16302b11c7cfa70909040d123c943b01772bb6d",
-        "version": 68,
-        "firstSeenAt": "2026-10-01T15:21:36+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "contentHash": "76a998c7394e3f3630e87889201ecd86edf624077ab3e2009eccb0c1ddbb9c70",
+        "version": 2,
+        "firstSeenAt": "2026-10-12T12:20:28+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
+        "needsAnalysis": false,
+        "triageStatus": "rules-resolved",
+        "triageRuleVersion": 3,
+        "audienceScope": "ets-specific",
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "RLW12025050885",
+      "title": "Apprendistato nelle scuole - A.F. 2026/2027",
+      "source": "Regione Lombardia",
+      "deadline": "2028-07-23",
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "chiude",
+        "apprendistato",
+        "scuole",
+        "codice",
+        "avviso",
+        "pubblico",
+        "finanziamento",
+        "percorsi",
+        "formativi",
+        "finalizzati",
+        "acquisizione",
+        "diploma",
+        "istruzione",
+        "secondaria",
+        "superiore",
+        "nell"
+      ],
+      "sectors": [
+        "chiude",
+        "apprendistato",
+        "scuole",
+        "codice",
+        "avviso",
+        "pubblico",
+        "finanziamento",
+        "percorsi"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato nelle scuole - A.F. 2026/2027 Aperto Apprendistato nelle scuole - A.F. 2026/2027 Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Avviso pubblico per il finanziamento di percorsi formativi finalizzati all'acquisizione del diploma di istruzione secondaria superiore, anche nell'ambito della filiera formativa tecnologico-professionale (4+2), nonché dei titoli di qualifica e diploma professionale in sussidiarietà. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare La domanda di finanziamento può essere presentata da uno dei seguenti soggetti: Istituzioni scolastiche che, ai sensi dell’Accordo territoriale fra Regione Lombardia e Ufficio Scolastico Regionale, erogano percorsi di Istruzione e Formazione Professionale in sussidiarietà; Istituzioni scolastiche di istruzione secondaria (statali e paritarie) di II grado aventi sede nel territorio regionale. Istituzioni scolastiche di istruzione secondaria di II grado aventi sede nel territorio regionale e che hanno ottenuto l’autorizzazione del Ministero dell’Istruzione e del Merito e che sono inserite nell’elenco delle filiere approvate in Regione Lombardia. Di cosa si tratta L'Avviso è finalizzato a promuovere la realizzazione di percorsi formativi in apprendistato di primo livello (art. 43 del D.Lgs. 81/2015), rivolti agli studenti per il conseguimento dei seguenti titoli di studio: Qualifica professionale erogata da Istituzioni scolastiche in regime di sussidiarietà Diploma professionale erogato da Istituzioni scolastiche in regime di sussidiarietà Diploma di istruzione secondaria superiore Diploma di istruzione in filiera tecnologico-professionale (4+2) Dotazione finanziaria Le risorse pubbliche disponibili per il presente avviso ammontano a € 1.000.000,00. Queste risorse sono trasferimenti statali di natura vincolata da parte del Ministero del Lavoro e delle Politiche Sociali, ai sensi della Legge 144/1999, destinate al finanziamento del sistema duale ordinario. A questo proposito, si rammenta il principio del rispetto del vincolo di destinazione delle suddette risorse, che si traduce nell’obbligo da parte del soggetto beneficiario di utilizzo del contributo ricevuto per il finanziamento del sistema duale e, in particolare, per la realizzazione dei percorsi formativi in apprendistato e per la loro promozione. Regione Lombardia, sentito L’Ufficio Scolastico Regionale per la Lombardia, si riserva la facoltà di rimodulare l’ammontare delle risorse a fronte delle richieste effettive di finanziamento. Caratteristiche dell'agevolazione Il valore della dote per singolo apprendista e per ciascuna annualità formativa è pari a un massimo di € 3.000,00, così suddivisi: • € 1.500,00 relativi ai servizi di accompagnamento al lavoro (a copertura anche delle attività amministrative correlate all'erogazione dei servizi); • un contributo da rendicontare nel limite massimo di € 1.500,00 per il rimborso dei servizi di formazione esterna così costituito: Per le scuole paritarie, l'importo riconoscibile è determinato dalla differenza tra il costo complessivo sostenuto per il percorso formativo del singolo apprendista e l'eventuale retta di frequenza richiesta. Per le scuole statali, l'importo è calcolato sulla base dei costi di progettazione e docenza rivolti agli apprendisti, limitatamente alle ore extracurriculari, che devono essere erogate nell'ambito di un incarico ad hoc affidato dalla scuola al singolo docente per le ore non già coperte dal contratto di lavoro ordinario. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato. BURL - Azioni - Come partecipare La partecipazione all'avviso prevede il completamento degli adempimenti di seguito riportati. Profilazione nell’ambito del sistema informativo unitario operatori SIUO. Fintanto che non si sarà provveduto alla profilazione nell’ambito di SIUO non si potrà accedere a SIUF Trasmissione dell’atto di adesione unico sulla piattaforma “Bandi e Servizi” Acquisizione dal sistema informativo “Bandi e Servizi” del Piano di Intervento Personalizzato (PIP) e del modulo di domanda di partecipazione. Il perfezionamento della richiesta di dote e la conferma del PIP avviene mediante la trasmissione della Dichiarazione Riassuntiva Unica (DRU), firmata elettronicamente dal rappresentante legale del beneficiario o da altro soggetto con potere di firma, tramite il sistema informativo Bandi e Servizi. La richiesta di dote risulta composta da: Dichiarazione riassuntiva unica; Modello UNILAV di avvio del rapporto di lavoro e registrazione del codice identificativo della COB in Bandi e Servizi. Procedura selezione Valutativa a sportello. È prevista una procedura di assegnazione a sportello con selezione automatica, secondo l’ordine cronologico di presentazione online delle domande e fino ad esaurimento delle risorse disponibili sul presente Avviso nel periodo di riferimento. Informazioni e contatti Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a Bandi@regione.lombardia.it , indicando obbligatoriamente le seguenti informazioni: Codice ID bando di riferimento CF, nome e cognome destinatario ID domanda BES Indicazione dell’errore presente a sistema Breve descrizione dell’errore Oppure contattare il numero verde 800.131.151. Per quanto riguarda i problemi tecnico-informatici occorre attendere la risposta dei servizi di assistenza alle piattaforme SIUO, Bandi e Servizi e SIUF. Per tutte le casistiche sopra individuate non si deve scrivere alle caselle di posta elettronica dei funzionari regionali, dal momento che le risposte sono fornite tramite i canali sopra indicati. Tutte le informazioni, comunicazioni ed eventuali aggiornamenti rispetto al presente avviso sono puntualmente pubblicati su Competenze lavoro Lombardia e sulla pagina di Bandi e Servizi dedicata all’avviso nella sezione “Comunicazioni”. Si consiglia di consultare periodicamente e in maniera sistematica tali fonti. Allegati DDS 12978 del 2/10/26 Approvazione Avviso con Allegati - 02/10/2026",
+      "tracking": {
+        "contentHash": "c2e4110f0288b288bebaf076bb0c2c3298af4b76da97e7fd525b57a736244942",
+        "version": 2,
+        "firstSeenAt": "2026-10-12T12:20:28+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -481,7 +397,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -553,9 +469,9 @@
       "discoveryText": "Stato: Attivo Scadenza 18/02/2027 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-        "version": 128,
+        "version": 130,
         "firstSeenAt": "2026-09-23T13:41:23+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -565,7 +481,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -626,9 +542,9 @@
       "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 300.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. L’iniziativa si inserisce inoltre nel quadro della collaborazione avviata tra Fondazione Cariplo e Regione Lombardia per il rafforzamento delle politiche di welfare penale e di giustizia di comunità nell’ambito degli indirizzi definiti dalla D.G.R. n. XII/6371 del 29 giugno 2026 in materia di “Rafforzamento del sistema regionale di welfare penale e sviluppo di azioni di giustizia di comunità e di coesione sociale Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi può ancora essere rafforzata, potenziando il coordinamento tra i diversi soggetti coinvolti e favorendo una maggiore integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con la collaborazione del Provveditorato Regionale dell’amministrazione penitenziaria della Lombardia e il supporto metodologico dell’Associazione Antigone.: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file FAQ Carcere e comunità in rete Scarica il file Rivedi la presentazione del bando Visita il sito Presentazione Bando Limen Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
       "tracking": {
         "contentHash": "cd6432902407ac1642d0837d0f6391a75dd04d4c3c6a2913bfa850d197a688fc",
-        "version": 128,
+        "version": 130,
         "firstSeenAt": "2026-09-23T19:04:56+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -638,7 +554,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -707,9 +623,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "092e5bf009e2a379b793d2285dc8f0d582b549d40923ae8185a057b3a64d9810",
-        "version": 38,
+        "version": 40,
         "firstSeenAt": "2026-10-06T02:06:23+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -718,7 +634,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -791,9 +707,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "e190b4fc948a23f2ef6ed3e8d9f6e42a8f3d94e006e87d60d5948ad065a3e646",
-        "version": 84,
+        "version": 86,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -802,7 +718,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -966,9 +882,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "868ee46c3e12586a090ab3f30e2046faede5e2dea6b3f285e6ab1d2888e5e41f",
-        "version": 76,
+        "version": 78,
         "firstSeenAt": "2026-09-30T00:20:08+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -977,7 +893,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1130,9 +1046,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "b9c4628c5d391bb43fbbfa5810d15bdee8122a8cb99ec2a65cc302ed7b84a69d",
-        "version": 104,
+        "version": 106,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1141,7 +1057,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1208,9 +1124,9 @@
       "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia Aperto Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia Codice: RLF12026056983 Pubblicato il: 05/10/2026 , ore 10:47 Domande dal: 05/10/2026 , ore 12:00 Riqualificazione residenze universitarie Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLF12026056983 Pubblicato il: 05/10/2026 , ore 10:47 Domande dal: 05/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare - Politecnico di Milano – sedi regionali - Istituto Universitario di Studi Superiori (IUSS) Di cosa si tratta - Riqualificazione delle residenze universitarie di proprietà regionale gestite da università statali ai sensi della l.r. 33/2004 e progetti di legacy \"giochi olimpici e paralimpici 2026\" in accordo con le università statali” interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) (DGR n.6415 del 06.07.2026). - Ampliamento dell’attività di ricerca dell’Istituto Universitario di Studi Superiori (IUSS) mediante la realizzazione di un nuovo hub di innovazione e trasferimento tecnologico nell’edificio denominato ‘Basilica Piccola’ a Pavia (DGR n.6253 del 08.06.2026). Dotazione finanziaria €16.250.000,00 Caratteristiche dell'agevolazione interventi finanziati da legge regionale n.9 del 4 maggio 2020 \"Piano Lombardia\", https://www.regione.lombardia.it/wps/portal/istituzionale/HP/istituzione/il-piano-lombardia Regime di Aiuto di Stato Interventi che non costituiscono Aiuto di Stato Come partecipare Richiesta dell’Università Procedura selezione Valutazione della proposta progettuale Informazioni e contatti Per assistenza tecnica sull'utilizzo del servizio on line della piattaforma Bandi e Servizi scrivere a bandi@regione.lombardia.it o contattare il numero verde 800.131.151 attivo dal lunedì al sabato escluso festivi dalle ore 10:00 alle ore 20:00",
       "tracking": {
         "contentHash": "fb9e63c7d02aef0f17f1fc282ff7ac9bcdf3c80700d96b2653b4653d742301fb",
-        "version": 40,
+        "version": 42,
         "firstSeenAt": "2026-10-05T16:45:36+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1220,7 +1136,7 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1276,9 +1192,9 @@
       "discoveryText": "Bandi / Politiche Sociali / Disabilità / Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali Aperto Preparazione civile - Rafforzamento delle competenze specialistiche dei tecnici responsabili negli enti locali Codice: RLD12026054803 Pubblicato il: 02/10/2026 , ore 12:59 Preparazione Civile. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PR Lombardia FSE+ 2021-2027 Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLD12026054803 Pubblicato il: 02/10/2026 , ore 12:59 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare La misura prevede la presentazione e l’attuazione di un progetto di formazione specialistica da parte di ANCI Lombardia a seguito della sottoscrizione di uno specifico accordo di collaborazione nell’ambito della Priorità 7 “Preparazione civile” del programma regionale FSE+ 2021-2027, con l’obiettivo di: - sostenere il rafforzamento delle competenze specialistiche dei tecnici e degli operatori degli enti locali coinvolti nei processi di programmazione, pianificazione e gestione della Protezione Civile Inclusiva, con particolare riferimento alla capacità di leggere i rischi del territorio, individuare le vulnerabilità della popolazione fragile, predisporre strumenti di pianificazione inclusiva e garantire risposte tempestive ed efficaci nelle situazioni di emergenza; - potenziare le condizioni di contesto per testare e favorire il recepimento dei Piani di intervento inclusivi, sia nella fase di preparazione che in quella di gestione delle diverse fasi dell’emergenza, promuovendo azioni formative e informative mirate nei confronti di amministratori e cittadinanza. Di cosa si tratta La crescente complessità delle emergenze e delle crisi richiede un sistema di preparazione civile capace di rispondere in modo efficace, inclusivo e accessibile ai bisogni specifici delle persone con disabilità e delle altre persone con specifiche necessità di supporto di tipo assistenziale, sanitario, tecnologico, al fine di accrescere la capacità di anticipare e gestire le minacce e i pericoli. La misura intende sviluppare e rafforzare le competenze specialistiche - in coerenza con la disciplina di settore nazionale, internazionale e comunitaria necessarie a rafforzare la capacità dei tecnici degli enti pubblici che sono parte della “pianificazione inclusiva” e che possono offrire un contributo al miglioramento del coordinamento e dell’attuazione di interventi di protezione civile a sostegno delle persone con specifiche necessità di assistenza. Dotazione finanziaria 7.500.000,00 di euro Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Pubblicato sul BURL Serie Ordinaria n. 38 del 18/09/2026 Azioni Progetto di sviluppo della Protezione Civile Inclusiva tramite formazione, strumenti operativi, esercitazioni e diffusione delle buone pratiche. Come partecipare Presentazione di un progetto operativo attraverso la piattaforma Bandi e Servizi Procedura selezione Procedura valutativa a sportello Informazioni e contatti Roberto Daffonchio – Responsabile Priorità 7 “Preparazione Civile” indirizzo mail: roberto_daffonchio@regione.lombardia.it Allegati DGR n. 6735 del 14.9.2026 - 02/10/2026",
       "tracking": {
         "contentHash": "806bf1c32e76d93a6fd0137ff950e5a14fa22ceaaaa096a422e798075279585e",
-        "version": 62,
+        "version": 64,
         "firstSeenAt": "2026-10-02T14:40:58+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1287,7 +1203,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1348,9 +1264,9 @@
       "discoveryText": "Bandi / Ambiente e Territorio / Autonomie locali / Presentazione e monitoraggio programmi di controllo 2027 Aperto Presentazione e monitoraggio programmi di controllo 2027 Codice: RLA12026056683 Pubblicato il: 06/10/2026 , ore 17:38 Domande dal: 08/10/2026 , ore 10:00 Monitoraggio 2027 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLA12026056683 Pubblicato il: 06/10/2026 , ore 17:38 Domande dal: 08/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Direzioni centrali e generali Regione Lombardia Di cosa si tratta I Programmi di Controllo rappresentano il principale impianto utilizzato dalle Direzioni Generali e Centrali per eseguire le proprie attivitàdi controllo, nonchè il contesto giuridico per il conferimento della specifica indennità a funzionari specializzati nell'attività ispettiva. Come partecipare Inserimento proposte Procedura selezione Valutazione della proposta, priorità direzionali Informazioni e contatti programmidicontrollo@regione.lombardia.it ¿",
       "tracking": {
         "contentHash": "107330e7c3dd97cd8e6560f4aea22dedb8aab39f99722de0fe8e0576e99ae4bb",
-        "version": 24,
+        "version": 26,
         "firstSeenAt": "2026-10-08T15:35:09+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1359,7 +1275,83 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "RLV12026057043",
+      "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
+      "source": "Regione Lombardia",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Lombardia",
+        "lombardia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "progetto",
+        "infrastrutturazione",
+        "turistica",
+        "borgo",
+        "ospitale",
+        "enti",
+        "operatori",
+        "strumento",
+        "supporto",
+        "codice",
+        "modulo",
+        "rendicontazione",
+        "interventi"
+      ],
+      "sectors": [
+        "progetto",
+        "infrastrutturazione",
+        "turistica",
+        "borgo",
+        "ospitale",
+        "enti",
+        "operatori",
+        "strumento"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "lombardia"
+      ],
+      "legalForms": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: lombardia",
+          "anyOf": [
+            "lombardia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
+      "autoDiscovered": true,
+      "discoveryText": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486",
+      "tracking": {
+        "contentHash": "a8ada34c94087add971531446e15f16b91c81ce65bf440673d5338360c49fc49",
+        "version": 2,
+        "firstSeenAt": "2026-10-12T12:20:28+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
+        "needsAnalysis": true,
+        "triageStatus": "ai-required",
+        "triageRuleVersion": 3,
+        "audienceScope": "unknown",
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1428,13 +1420,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
       "autoDiscovered": true,
-      "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva",
+      "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 981 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara BANDO - Ob. 2.2 az. 5 \"Sostegno alle imprese nei settori della commercializzazione e trasformazione dei prodotti della pesca e acquacoltura - indennizzi conflitto bellico in MEDIO ORIENTE\" - PN FEAMPA 2021-2027 Scade il: 15/10/2026 - 23:59 Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "cb267db3cab9ecdf7cbb45307adf12e51e5e21bc7229b78f62acebcf969d702d",
-        "version": 104,
+        "contentHash": "33c8641cfb6110fb3ae69a725571d663eead8719b9c488fe1758ced49f4e65dc",
+        "version": 106,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1443,7 +1435,7 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1512,13 +1504,13 @@
       "hardKeyword": null,
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
       "autoDiscovered": true,
-      "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva",
+      "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 981 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara BANDO - Ob. 2.2 az. 5 \"Sostegno alle imprese nei settori della commercializzazione e trasformazione dei prodotti della pesca e acquacoltura - indennizzi conflitto bellico in MEDIO ORIENTE\" - PN FEAMPA 2021-2027 Scade il: 15/10/2026 - 23:59 Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva",
       "sourceStatus": "da-verificare",
       "tracking": {
-        "contentHash": "2e4e14af3e4b1c377f2d2ffde888cbe84becc6205b8a89837dcd0bcdc79093d8",
-        "version": 104,
+        "contentHash": "212bf2fb75b99016fb0b6fd735a682748f8d73bbda9136b51167fc625b8b71e3",
+        "version": 106,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1527,7 +1519,91 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
+      "detailFetchOk": true
+    },
+    {
+      "id": "REG-AUTO-323C49FE70D2",
+      "title": "Elenco bandi e avvisi",
+      "source": "Regione Puglia · Bandi",
+      "deadline": null,
+      "fund": 0,
+      "maxGrant": 0,
+      "aid": "Dettagli economici da verificare nella fonte ufficiale",
+      "tags": [
+        "Automatico",
+        "Regione Puglia · Bandi",
+        "puglia"
+      ],
+      "eligibility": [
+        "Requisiti da verificare nella fonte ufficiale"
+      ],
+      "keywords": [
+        "contenuto",
+        "menu",
+        "organi",
+        "istituzione",
+        "presidente",
+        "giunta",
+        "consiglio",
+        "organizzazione",
+        "organigramma",
+        "persone",
+        "contatti",
+        "agenzie",
+        "regionali",
+        "strategiche",
+        "enti",
+        "fondazioni",
+        "società",
+        "partecipate",
+        "trasparenza",
+        "amministrazione"
+      ],
+      "sectors": [
+        "contenuto",
+        "menu",
+        "organi",
+        "istituzione",
+        "presidente",
+        "giunta",
+        "consiglio",
+        "organizzazione"
+      ],
+      "beneficiaries": [],
+      "activities": [],
+      "purposes": [],
+      "territories": [
+        "puglia"
+      ],
+      "legalForms": [],
+      "hardRequirements": [
+        {
+          "label": "Territorio: puglia",
+          "anyOf": [
+            "puglia"
+          ]
+        }
+      ],
+      "hardKeyword": null,
+      "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
+      "autoDiscovered": true,
+      "discoveryText": "Top Vai al contenuto A A Menu La Regione ORGANI Istituzione Presidente Giunta Consiglio regionale ORGANIZZAZIONE Organigramma Persone e contatti Agenzie Regionali Strategiche Enti, fondazioni e società partecipate TRASPARENZA Amministrazione trasparente Elenco curricula Prevenzione della corruzione Portali tematici Agricoltura Ambiente Competitività e innovazione Istituzione e partecipazione Lavoro e formazione Pari opportunità Politiche europee e cooperazione internazionale Politiche giovanili Salute, Sport e buona vita Territorio, mobilità e infrastrutture Turismo e cultura Welfare, diritti e cittadinanza Come fare per Vivi la Puglia Fiera del Levante 2026 - Tutta la Puglia Muoversi in Puglia Bandiera Blu Programma culturale Fiere ed eventi Agenda istituzionale La Puglia per le famiglie Parchi e aree naturali Puglia sportiva Protezione Civile Puglia Press Regione URP Rubrica × About Services Clients Contact Bandi e avvisi Homepage Bandi e avvisi Elenco bandi e avvisi Cerca tra i bandi Ricerca testuale Ricerca estesa al contenuto Data pubblicazione Aree Tematiche Seleziona Agricoltura Ambiente Competitività, ricerca e Innovazione Istituzione e partecipazione Lavoro, Istruzione e Formazione Parità di genere Politiche Europee e Cooperazione Internazionale Politiche giovanili Salute, sport e buona vita Territorio, mobilità e infrastrutture Turismo e Cultura Welfare, Diritti e Cittadinanza Argomenti Seleziona Agenda di genere Aiuti Covid Albo cooperative sociali Ambiente Antimafia sociale Comunicazione Istituzionale Concorsi Consigliera di parità Conti Pubblici Territoriali Coronavirus CSR 2023-2027 CUG Delegazione romana Demanio Armentizio Demanio e Patrimonio Immobiliare Demanio marittimo Difesa del suolo Disabilità e non autosufficienza Elezioni regionali 2020 Emergenza Ucraina Eni Cbc Med Europuglia Expo 2020 Feamp FEAMPA 21-27 Fesr Fiera del levante 2019 Fiera del Levante 2020 Fiera del Levante 2022 Fiera del Levante 2023 Fiera del Levante 2024 Fiera del Levante 2025 Fiera del Levante 2026 Filiere agroalimentari Fondo di Rotazione Food4Health Foreste caccia pesca e biodiversità FSC 21-27 Galattica Health Marketplace Horizon ILVA Inno Innovazione in agricoltura Internazionalizzazione Interreg Invecchiamento attivo JTF Taranto Legalità e Antimafia sociale Lotta alla violenza di genere Minori Next MED 21-27 Nidi Nvvip Open data ORCA Puglia Osservatorio Agricoltura Biologica Osservatorio regionale contratti pubblici Osservatorio Regionale dello Spettacolo Pac Pagamenti elettronici Pari opportunità per tutti e lotta alle discriminazioni Pianificazione sociale Piano strategico 20-30 Piil Pin Politiche di Genere Politiche energetiche Politiche migratorie Politiche per le famiglie Por Povertà e inclusione PR 2021-2027 Produzioni di qualità Programmazione FESR FSE 2021-2027 Protezione Civile PSR 2014-2022 Puglia digitale Puglia Partecipa Puglia Sportiva Rigenerazione olivicola Servizio civile Servizio civile regionale Servizi sanitari digitali Sezione Statistica Spazi di prossimità Strategia regionale di sviluppo sostenibile Strategia regionale sostenibilità Tecnonidi Terzo settore Transizione digitale Trasformazione digitale Tributi Turismo Usi civici Vaccino Anti-Covid Welfare e territorio Xylella Cancella filtri Cerca Nascosta Footer Ascolta Valuta questo sito Area riservata Contatti e indirizzi Lungomare N. Sauro, 33 - 70121 Bari Via G. Gentile, 52 - 70126 Bari Elenco PEC e Rubrica Eventi e Stampa Ufficio stampa della Giunta Press Regione Logo e identità regionale Accessibilità Dichiarazione di accessibilità Obiettivi di accessibilità URP Telefono: 800 713939 Scrivici: email Redazione Responsabili di pubblicazione Protezione civile Vai al sito di Protezione Civile Puglia Iniziativa finanziata con risorse del POR Puglia 2014/2020 - Asse XI Note legali Cookie e privacy Atti di notifica Feed RSS Servizi Intranet © Regione Puglia Per offrire informazioni e servizi nel miglior modo possibile, questo sito utilizza cookie tecnici e cookie di terze parti. Per maggiori informazioni sui cookie utilizzati e su come eventualmente disabilitarli leggi la nostra privacy policy Accetta vedi Privacy Policy",
+      "sourceStatus": "aperto",
+      "tracking": {
+        "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
+        "version": 104,
+        "firstSeenAt": "2026-09-26T13:36:28+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
+        "needsAnalysis": false,
+        "triageStatus": "rules-resolved",
+        "triageRuleVersion": 3,
+        "audienceScope": "ets-specific",
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true,
+        "excludedForEts": false
+      },
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1600,9 +1676,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-        "version": 104,
+        "version": 106,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1611,7 +1687,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1684,9 +1760,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-        "version": 104,
+        "version": 106,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1695,7 +1771,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     },
     {
@@ -1768,9 +1844,9 @@
       "sourceStatus": "da-verificare",
       "tracking": {
         "contentHash": "7fb71713f878090fabe684e74e181f663dff0f36fd04a7cbd606c97ddbe8c5e0",
-        "version": 70,
+        "version": 72,
         "firstSeenAt": "2026-10-01T00:20:05+02:00",
-        "lastChangedAt": "2026-10-12T08:03:40+02:00",
+        "lastChangedAt": "2026-10-12T12:20:52+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1779,7 +1855,7 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchedAt": "2026-10-12T08:03:19+02:00",
+      "detailFetchedAt": "2026-10-12T12:20:28+02:00",
       "detailFetchOk": true
     }
   ],
@@ -1787,10 +1863,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-10-12T06:03:05"
+    "checkedAt": "2026-10-12T10:20:13"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-10-12T06:03:12",
+    "checkedAt": "2026-10-12T10:20:20",
     "checked": 5,
     "active": 1,
     "added": 0,
@@ -1828,7 +1904,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-10-12T06:03:14",
+    "checkedAt": "2026-10-12T10:20:22",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -1863,7 +1939,7 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-10-12T06:03:18",
+    "checkedAt": "2026-10-12T10:20:28",
     "checked": 5,
     "activeOrProgrammed": 2,
     "added": 2,
@@ -1898,7 +1974,7 @@
   "incremental": true,
   "trackingSummary": {
     "new": 0,
-    "modified": 17,
+    "modified": 18,
     "unchanged": 2,
     "reappeared": 0,
     "missing": 0
@@ -1906,15 +1982,15 @@
   "triage": {
     "enabled": true,
     "ruleVersion": 3,
-    "rulesResolved": 6,
+    "rulesResolved": 7,
     "rulesExcludedForEts": 0,
-    "aiRequired": 14
+    "aiRequired": 13
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-10-12T08:03:19+02:00",
-    "attempted": 17,
-    "enriched": 17,
+    "updatedAt": "2026-10-12T12:20:28+02:00",
+    "attempted": 18,
+    "enriched": 18,
     "unchanged": 0,
     "failed": 0
   }

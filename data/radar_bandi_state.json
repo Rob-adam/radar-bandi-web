@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-12T08:03:40+02:00",
+  "catalogUpdatedAt": "2026-10-12T12:20:52+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -5441,9 +5441,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 128,
+      "version": 130,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5544,7 +5544,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -5553,9 +5553,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "cd6432902407ac1642d0837d0f6391a75dd04d4c3c6a2913bfa850d197a688fc",
-      "version": 128,
+      "version": 130,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5644,7 +5644,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -5909,9 +5909,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "e190b4fc948a23f2ef6ed3e8d9f6e42a8f3d94e006e87d60d5948ad065a3e646",
-      "version": 84,
+      "version": 86,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6011,7 +6011,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6020,9 +6020,9 @@
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi/avviso-pubblico-codice-terzo-settore-annualita-20242025",
       "contentHash": "b9c4628c5d391bb43fbbfa5810d15bdee8122a8cb99ec2a65cc302ed7b84a69d",
-      "version": 104,
+      "version": 106,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6115,7 +6115,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6233,10 +6233,10 @@
       "id": "REG-AUTO-3904FD5DE8C6",
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
-      "contentHash": "cb267db3cab9ecdf7cbb45307adf12e51e5e21bc7229b78f62acebcf969d702d",
-      "version": 104,
+      "contentHash": "33c8641cfb6110fb3ae69a725571d663eead8719b9c488fe1758ced49f4e65dc",
+      "version": 106,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6309,7 +6309,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-main-content",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 981 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara BANDO - Ob. 2.2 az. 5 \"Sostegno alle imprese nei settori della commercializzazione e trasformazione dei prodotti della pesca e acquacoltura - indennizzi conflitto bellico in MEDIO ORIENTE\" - PN FEAMPA 2021-2027 Scade il: 15/10/2026 - 23:59 Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
       },
       "triage": {
         "status": "ai-required",
@@ -6337,7 +6337,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6345,10 +6345,10 @@
       "id": "REG-AUTO-29AC9639BA24",
       "source": "Regione Sicilia · Bandi",
       "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
-      "contentHash": "2e4e14af3e4b1c377f2d2ffde888cbe84becc6205b8a89837dcd0bcdc79093d8",
-      "version": 104,
+      "contentHash": "212bf2fb75b99016fb0b6fd735a682748f8d73bbda9136b51167fc625b8b71e3",
+      "version": 106,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6421,7 +6421,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://www.regione.sicilia.it/istituzioni/servizi-informativi/bandi#it-skip-to-footer-content",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 980 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Avvisi pubblici RIAPERTURA TERMINI - AVVISO DDG n. 1922 DEL 01.06.2026, R.D.L. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
+        "discoveryText": "Home / Istituzioni / Servizi Informativi / Bandi Bandi Filtri Pulisci filtri Oggetto Data di inizio Data di scadenza Tipologia Avvisi pubblici Bandi di concorso Bandi di gara Manifestazioni di interesse Ufficio Presidenza della Regione Ufficio legislativo e legale Dipartimento della programmazione Dipartimento della protezione civile Ufficio speciale per la progettazione Assessorato delle attività produttive Dipartimento delle attività produttive Assessorato dei beni culturali e dell'identità siciliana Dipartimento dei beni culturali e dell'identità siciliana Assessorato dell'economia Dipartimento delle finanze e del credito Ufficio Speciale per la gestione e liquidazione delle società a partecipazione pubblica regionale Assessorato dell'energia e dei servizi di pubblica utilità Dipartimento dell'acqua e dei rifiuti Assessorato della famiglia, delle politiche sociali e del lavoro Dipartimento della famiglia e delle politiche sociali Assessorato delle autonomie locali e della funzione pubblica Dipartimento delle autonomie locali Assessorato delle infrastrutture e della mobilità Dipartimento delle infrastrutture, della mobilità e dei trasporti Dipartimento regionale tecnico Assessorato dell'agricoltura, dello sviluppo rurale e della pesca mediterranea Dipartimento della pesca mediterranea Dipartimento dello sviluppo rurale e territoriale Dipartimento dell'agricoltura Assessorato della salute Dipartimento per la pianificazione strategica Ufficio speciale comunicazione per la salute Assessorato del territorio e dell'ambiente Dipartimento dell'ambiente Assessorato del turismo dello sport e dello spettacolo Dipartimento del turismo, dello sport e dello spettacolo Genio Civile - Catania Genio Civile - Messina Genio Civile - Trapani Commissario straordinario realizzazione autostrada RG-CT Includi bandi scaduti Bandi di concorso Gazzetta ufficiale Archivio avvisi e comunicazioni 981 risultati trovati (max 10000) Avvisi pubblici DDG 1112 del 02.04.2026 - Aggiornamento Avviso pubblico n. 4/2024 per l’attuazione del PAR GOL Sicilia da finanziare nell’ambito del Piano Nazionale di Ripresa e Resilienza (PNRR) Scaduto Leggi di più Bandi di gara BANDO - Ob. 2.2 az. 5 \"Sostegno alle imprese nei settori della commercializzazione e trasformazione dei prodotti della pesca e acquacoltura - indennizzi conflitto bellico in MEDIO ORIENTE\" - PN FEAMPA 2021-2027 Scade il: 15/10/2026 - 23:59 Leggi di più Bandi di gara ST CATANIA - “Interventi di manutenzione straordinaria su pista forestale, in conglomerato bituminoso, ricadente all’interno del demanio forestale regionale “Alto Simeto” – Distretto forestale 1 – Comune di Bronte (CT) – CUP G91G26000120002 Scaduto Leggi di più Avvisi pubblici ST AGRIGENTO - Avviso di asta pubblica per la vendita di equidi e caprini -Centro di allevamento Pizzo dell'Apa - 18 novembre 2026. Scade il: 17/11/2026 - 13:30 Leggi di più Avvisi pubblici Avviso per la valorizzazione delle eccellenze del territorio siciliano in occasione del MILLENIUM 2027 - Anno europeo dei Normanni Scade il: 10/11/2026 - 23:59 Leggi di più Manifestazioni di interesse Manifestazione di interesse per l'acquisto di carrube provenienti da raccolta in economia diretta da alberi sparsi presenti nei Demani forestali gestiti dal Servizio 15 – Servizio per il Territorio di Ragusa Scaduto Leggi di più Avvisi pubblici ST MESSINA - AVVISO Avvio indagine di mercato/manifestazione di interesse per “Interventi di manutenzione straordinaria della pista forestale “Salice-Castelluccio” del Distretto 1 – Comune di Messina Scaduto Leggi di più Bandi di gara 18 settembre 2026 - ST CATANIA - Determina n. 208 del 17/09/2026 - Aggiudicazione definitiva concessione temporanea area demaniale Lago Gurrida in agro di Bronte, con relativo verbale di gara Scade il: 18/11/2026 - 23:59 Leggi di più Avvisi pubblici AVVISO PUBBLICO CODICE DEL TERZO SETTORE - Annualità 2024/2025. Scade il: 30/10/2026 - 00:00 Leggi di più Pagina attuale Page 1 Page 2 Page 3 Page 4 Page 5 Page 6 Page 7 Page 8 Page 9 ... 109 Pagina successiva"
       },
       "triage": {
         "status": "ai-required",
@@ -6449,7 +6449,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6458,9 +6458,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 102,
+      "version": 104,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T00:01:38+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6561,7 +6561,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6570,9 +6570,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 104,
+      "version": 106,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6672,7 +6672,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -6681,9 +6681,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 104,
+      "version": 106,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6783,7 +6783,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -7673,9 +7673,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "868ee46c3e12586a090ab3f30e2046faede5e2dea6b3f285e6ab1d2888e5e41f",
-      "version": 76,
+      "version": 78,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7774,7 +7774,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -9689,9 +9689,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "contentHash": "7fb71713f878090fabe684e74e181f663dff0f36fd04a7cbd606c97ddbe8c5e0",
-      "version": 70,
+      "version": 72,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9790,7 +9790,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -9802,8 +9802,8 @@
       "version": 66,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
       "lastChangedAt": "2026-10-12T08:03:40+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-12T12:20:28+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -10019,8 +10019,8 @@
       "version": 68,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
       "lastChangedAt": "2026-10-12T08:03:40+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-12T12:20:28+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -10239,8 +10239,8 @@
       "version": 68,
       "firstSeenAt": "2026-10-01T15:21:36+02:00",
       "lastChangedAt": "2026-10-12T08:03:40+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-12T12:20:28+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -10458,9 +10458,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/preparazione-civile-rafforzamento-competenze-specialistiche-tecnici-responsabili-enti-locali-RLD12026054803",
       "contentHash": "806bf1c32e76d93a6fd0137ff950e5a14fa22ceaaaa096a422e798075279585e",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-10-02T14:40:58+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10542,7 +10542,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -10551,9 +10551,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "contentHash": "fb9e63c7d02aef0f17f1fc282ff7ac9bcdf3c80700d96b2653b4653d742301fb",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-10-05T16:45:36+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10648,7 +10648,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -10657,9 +10657,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "contentHash": "092e5bf009e2a379b793d2285dc8f0d582b549d40923ae8185a057b3a64d9810",
-      "version": 38,
+      "version": 40,
       "firstSeenAt": "2026-10-06T02:06:23+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10754,7 +10754,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     },
@@ -10873,9 +10873,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "contentHash": "107330e7c3dd97cd8e6560f4aea22dedb8aab39f99722de0fe8e0576e99ae4bb",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-10-08T15:35:09+02:00",
-      "lastChangedAt": "2026-10-12T08:03:40+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10961,17 +10961,334 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-12T08:03:40+02:00"
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345": {
+      "id": "RLY12026055345",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
+      "contentHash": "76a998c7394e3f3630e87889201ecd86edf624077ab3e2009eccb0c1ddbb9c70",
+      "version": 2,
+      "firstSeenAt": "2026-10-12T12:20:28+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile",
+        "source": "Regione Lombardia",
+        "deadline": "2026-11-12",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "rivolto",
+          "agli",
+          "locali",
+          "contributo",
+          "finalizzato",
+          "acquisi",
+          "codice",
+          "erogazione",
+          "contributi",
+          "base",
+          "biennale",
+          "acquisizione",
+          "mezzi",
+          "attrezzature",
+          "esclusivo",
+          "protezione",
+          "civile"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "rivolto",
+          "agli",
+          "locali",
+          "contributo",
+          "finalizzato"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
+        "discoveryText": "Bandi / Sicurezza e Protezione Civile / Interventi urgenti e post emergenza / Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Aperto Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Erogazione di contributi su base biennale per l'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile da parte di Comuni, singoli o associati, Unioni di Comuni, Comunità Montane e d Enti Parco (L.R. 27/2021 - ART. 22, C. 7) Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare A) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane, dotati di Gruppo comunale/intercomunale o appartenenti, come capofila, a un Gruppo intercomunale di Protezione Civile, iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026; B) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane , anche dotati di Gruppo comunale/intercomunale di Protezione Civile, che abbiano una convenzione vigente alla data di apertura del bando, con un soggetto del volontariato organizzato di protezione civile (VOPC) iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026. Di cosa si tratta Regione Lombardia, ai sensi della l.r. n. 27 del 29 dicembre 2021, contribuisce all’implementazione dell’efficienza e dell’efficacia dell’operatività del sistema di Protezione Civile di Regione Lombardia che si sviluppa territorialmente anche attraverso la partecipazione delle Organizzazioni di Volontariato organizzato operanti direttamente o in convenzione con gli enti territoriali facenti parte del Sistema di Protezione Civile, così come previsto dal D.Lgs. 1/2018 “Codice della Protezione Civile”. Tali enti operano a livello territoriale in fase preventiva ed emergenziale, con la partecipazione delle Organizzazioni di volontariato organizzato con volontari e dotazioni riferite a differenti specializzazioni. Obiettivo principale è di incrementare e rinnovare le dotazioni di automezzi e mezzi d’opera del Sistema di Protezione Civile per la gestione delle fasi di prevenzione e di emergenza territoriali, anche rafforzando a livello provinciale la capacità di risposta all’emergenza. I beneficiari diretti sono gli enti locali che devono poi, nelle forme opportune, mettere a disposizione queste dotazioni ad uso esclusivo di Protezione Civile alle Organizzazioni di Volontariato operanti sul territorio. Dotazione finanziaria I fondi a disposizione ammontano a euro 4.000.000,00 su base biennale. Caratteristiche dell'agevolazione Il contributo erogato è per tutte le tipologie, della spesa indicata nel preventivo nella quota del 90% rispetto alla tipologia di bene acquistato, della spesa indicata nel preventivo allegato in sede di presentazione della domanda di adesione, fino alla concorrenza dei massimali di seguito definiti. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. L’ultima domanda in graduatoria potrà essere finanziata anche per una quota di finanziamento inferiore alla percentuale prevista per la tipologia di bene, in funzione delle risorse disponibili, previa specifica accettazione da parte dei beneficiari stessi. Per tutte le tipologie il contributo massimo è pari al 90% della spesa preventivata. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. Il contributo minimo erogabile è pari ad euro 10.000,00 IVA inclusa. Il contributo massimo erogabile, per tutte le categorie tranne la categoria b), è pari ad euro 100.000,00 IVA inclusa; per la categoria b) il contributo massimo erogabile è pari a 150.000,00 euro. Potranno anche essere finanziati interventi di importo preventivato superiore all’importo massimo del contributo previsto; in tal caso la differenza tra il contributo massimo erogato e la spesa complessiva sarà a carico del beneficiario. Es. spesa preventivata 200.000,00 euro – contributo erogato 150.000,00 euro. Le domande relative alle tipologie di beni di cui alle categorie a), b), c) potranno prevedere l’acquisto di un solo bene, appartenente ad una delle tre categorie. Le domande riferite alle tipologie di beni di cui alle categorie d), e), f), g), h), i) potranno prevedere l’acquisto di più beni, anche appartenenti alle diverse categorie interessate Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n.41 del 5 ottobre 2026 Come partecipare La domanda di partecipazione deve essere presentata esclusivamente attraverso il sistema informativo “Bandi e Servizi” all’indirizzo www.bandi.regione.lombardia.it , accessibile tramite SPiD, CNS/CRS o CIE. Le domande presentate con modalità differenti dalla piattaforma Bandi e Servizi non saranno considerate ammissibili. Le domande dovranno essere sottoscritte con firma elettronica dal legale rappresentante del soggetto richiedente, o da suo delegato Procedura selezione La tipologia di procedura utilizzata per l’assegnazione del contributo regionale è valutativa a graduatoria, definita in base al punteggio totale conseguito, sulla base dei seguenti criteri: Numero dei volontari operativi iscritti al Gruppo e/o alla ODV convenzionata, alla data del 30 settembre 2026 (con punteggio per classi di numero volontari). Il dato è rilevato automaticamente dal sistema DBVOL; Domanda presentata da soggetti aggregati (unioni di comuni, associazioni, cm, parchi); Rischio-idrogeologico: rapporto tra aree a rischio di ciascun comune/area urbanizzata; Popolazione residente nel Comune; in caso di domanda presentata da enti a cui sono riferiti più Comuni, sarà calcolata la media aritmetica (punteggio per classi di popolazione); Soggetti beneficiari di contributo nei precedenti bandi 2021 (DGR XI/4840/2021 e DGR XI/5911/2022), 2022 (DGR XI/6510/2022) e 2023 (DGR XII/694/2023): il punteggio verrà ridotto in proporzione. Informazioni e contatti Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile scrivere all’indirizzo bandi@regione.lombardia.it o contattare il Call Center al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica. Per informazioni e segnalazioni relative al bando: • Michele Guarnieri – 02.6765.0501 michele_guarnieri@regione.lombardia.it • Giovanni Caldiroli – 02.6765.2993 giovanni_caldiroli@regione.lombardia.it Allegati DDS_13300 - 08/10/2026 Allegato A - 08/10/2026 Incarico per la sottoscrizione digitale - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026 ALLEGATO 1 DDS 13300 - 08/10/2026 DDS_12642 - 28/09/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "organizzazioni di volontariato",
+            "odv"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885": {
+      "id": "RLW12025050885",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
+      "contentHash": "c2e4110f0288b288bebaf076bb0c2c3298af4b76da97e7fd525b57a736244942",
+      "version": 2,
+      "firstSeenAt": "2026-10-12T12:20:28+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Apprendistato nelle scuole - A.F. 2026/2027",
+        "source": "Regione Lombardia",
+        "deadline": "2028-07-23",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "apprendistato",
+          "scuole",
+          "codice",
+          "avviso",
+          "pubblico",
+          "finanziamento",
+          "percorsi",
+          "formativi",
+          "finalizzati",
+          "acquisizione",
+          "diploma",
+          "istruzione",
+          "secondaria",
+          "superiore",
+          "nell"
+        ],
+        "sectors": [
+          "chiude",
+          "apprendistato",
+          "scuole",
+          "codice",
+          "avviso",
+          "pubblico",
+          "finanziamento",
+          "percorsi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato nelle scuole - A.F. 2026/2027 Aperto Apprendistato nelle scuole - A.F. 2026/2027 Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Avviso pubblico per il finanziamento di percorsi formativi finalizzati all'acquisizione del diploma di istruzione secondaria superiore, anche nell'ambito della filiera formativa tecnologico-professionale (4+2), nonché dei titoli di qualifica e diploma professionale in sussidiarietà. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare La domanda di finanziamento può essere presentata da uno dei seguenti soggetti: Istituzioni scolastiche che, ai sensi dell’Accordo territoriale fra Regione Lombardia e Ufficio Scolastico Regionale, erogano percorsi di Istruzione e Formazione Professionale in sussidiarietà; Istituzioni scolastiche di istruzione secondaria (statali e paritarie) di II grado aventi sede nel territorio regionale. Istituzioni scolastiche di istruzione secondaria di II grado aventi sede nel territorio regionale e che hanno ottenuto l’autorizzazione del Ministero dell’Istruzione e del Merito e che sono inserite nell’elenco delle filiere approvate in Regione Lombardia. Di cosa si tratta L'Avviso è finalizzato a promuovere la realizzazione di percorsi formativi in apprendistato di primo livello (art. 43 del D.Lgs. 81/2015), rivolti agli studenti per il conseguimento dei seguenti titoli di studio: Qualifica professionale erogata da Istituzioni scolastiche in regime di sussidiarietà Diploma professionale erogato da Istituzioni scolastiche in regime di sussidiarietà Diploma di istruzione secondaria superiore Diploma di istruzione in filiera tecnologico-professionale (4+2) Dotazione finanziaria Le risorse pubbliche disponibili per il presente avviso ammontano a € 1.000.000,00. Queste risorse sono trasferimenti statali di natura vincolata da parte del Ministero del Lavoro e delle Politiche Sociali, ai sensi della Legge 144/1999, destinate al finanziamento del sistema duale ordinario. A questo proposito, si rammenta il principio del rispetto del vincolo di destinazione delle suddette risorse, che si traduce nell’obbligo da parte del soggetto beneficiario di utilizzo del contributo ricevuto per il finanziamento del sistema duale e, in particolare, per la realizzazione dei percorsi formativi in apprendistato e per la loro promozione. Regione Lombardia, sentito L’Ufficio Scolastico Regionale per la Lombardia, si riserva la facoltà di rimodulare l’ammontare delle risorse a fronte delle richieste effettive di finanziamento. Caratteristiche dell'agevolazione Il valore della dote per singolo apprendista e per ciascuna annualità formativa è pari a un massimo di € 3.000,00, così suddivisi: • € 1.500,00 relativi ai servizi di accompagnamento al lavoro (a copertura anche delle attività amministrative correlate all'erogazione dei servizi); • un contributo da rendicontare nel limite massimo di € 1.500,00 per il rimborso dei servizi di formazione esterna così costituito: Per le scuole paritarie, l'importo riconoscibile è determinato dalla differenza tra il costo complessivo sostenuto per il percorso formativo del singolo apprendista e l'eventuale retta di frequenza richiesta. Per le scuole statali, l'importo è calcolato sulla base dei costi di progettazione e docenza rivolti agli apprendisti, limitatamente alle ore extracurriculari, che devono essere erogate nell'ambito di un incarico ad hoc affidato dalla scuola al singolo docente per le ore non già coperte dal contratto di lavoro ordinario. Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato. BURL - Azioni - Come partecipare La partecipazione all'avviso prevede il completamento degli adempimenti di seguito riportati. Profilazione nell’ambito del sistema informativo unitario operatori SIUO. Fintanto che non si sarà provveduto alla profilazione nell’ambito di SIUO non si potrà accedere a SIUF Trasmissione dell’atto di adesione unico sulla piattaforma “Bandi e Servizi” Acquisizione dal sistema informativo “Bandi e Servizi” del Piano di Intervento Personalizzato (PIP) e del modulo di domanda di partecipazione. Il perfezionamento della richiesta di dote e la conferma del PIP avviene mediante la trasmissione della Dichiarazione Riassuntiva Unica (DRU), firmata elettronicamente dal rappresentante legale del beneficiario o da altro soggetto con potere di firma, tramite il sistema informativo Bandi e Servizi. La richiesta di dote risulta composta da: Dichiarazione riassuntiva unica; Modello UNILAV di avvio del rapporto di lavoro e registrazione del codice identificativo della COB in Bandi e Servizi. Procedura selezione Valutativa a sportello. È prevista una procedura di assegnazione a sportello con selezione automatica, secondo l’ordine cronologico di presentazione online delle domande e fino ad esaurimento delle risorse disponibili sul presente Avviso nel periodo di riferimento. Informazioni e contatti Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e Servizi occorre scrivere esclusivamente a Bandi@regione.lombardia.it , indicando obbligatoriamente le seguenti informazioni: Codice ID bando di riferimento CF, nome e cognome destinatario ID domanda BES Indicazione dell’errore presente a sistema Breve descrizione dell’errore Oppure contattare il numero verde 800.131.151. Per quanto riguarda i problemi tecnico-informatici occorre attendere la risposta dei servizi di assistenza alle piattaforme SIUO, Bandi e Servizi e SIUF. Per tutte le casistiche sopra individuate non si deve scrivere alle caselle di posta elettronica dei funzionari regionali, dal momento che le risposte sono fornite tramite i canali sopra indicati. Tutte le informazioni, comunicazioni ed eventuali aggiornamenti rispetto al presente avviso sono puntualmente pubblicati su Competenze lavoro Lombardia e sulla pagina di Bandi e Servizi dedicata all’avviso nella sezione “Comunicazioni”. Si consiglia di consultare periodicamente e in maniera sistematica tali fonti. Allegati DDS 12978 del 2/10/26 Approvazione Avviso con Allegati - 02/10/2026"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043": {
+      "id": "RLV12026057043",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
+      "contentHash": "a8ada34c94087add971531446e15f16b91c81ce65bf440673d5338360c49fc49",
+      "version": 2,
+      "firstSeenAt": "2026-10-12T12:20:28+02:00",
+      "lastChangedAt": "2026-10-12T12:20:52+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
+        "source": "Regione Lombardia",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "progetto",
+          "infrastrutturazione",
+          "turistica",
+          "borgo",
+          "ospitale",
+          "enti",
+          "operatori",
+          "strumento",
+          "supporto",
+          "codice",
+          "modulo",
+          "rendicontazione",
+          "interventi"
+        ],
+        "sectors": [
+          "progetto",
+          "infrastrutturazione",
+          "turistica",
+          "borgo",
+          "ospitale",
+          "enti",
+          "operatori",
+          "strumento"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare",
+          "stato_e_scadenza_da_verificare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-12T12:20:52+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-12T08:03:40+02:00",
+  "triageUpdatedAt": "2026-10-12T12:20:52+02:00",
   "triageSummary": {
-    "rulesResolved": 6,
+    "rulesResolved": 7,
     "rulesExcludedForEts": 0,
-    "aiRequired": 14,
-    "notPresent": 76,
+    "aiRequired": 13,
+    "notPresent": 79,
     "ruleVersion": 3
   }
 }
