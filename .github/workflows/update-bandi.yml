@@ -13,6 +13,7 @@ on:
       - 'scripts/piemonte_watchlist.py'
       - 'scripts/reconcile_bandi.py'
       - 'scripts/triage_bandi.py'
+      - 'scripts/publication_gate.py'
       - 'scripts/enrich_bandi.py'
       - '.github/workflows/update-bandi.yml'
 
@@ -64,11 +65,14 @@ jobs:
       - name: Filtro finale prima dell AI
         run: python scripts/triage_bandi.py
 
+      - name: Filtra pubblicazione ETS non verificati
+        run: python scripts/publication_gate.py
+
       - name: Pubblica catalogo memoria coda AI e report se cambiati
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_auto.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
+          git add public/radar_bandi_auto.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json data/radar_bandi_publication_gate.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica significativa al catalogo automatico"
           else
