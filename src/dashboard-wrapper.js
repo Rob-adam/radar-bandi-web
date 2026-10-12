@@ -33,7 +33,7 @@ async function dashboard(request,env,ctx){
 
   let html=await response.text();
   const marker='<div class="small" id="subtitle"></div>';
-  const block=`<div class="small" id="subtitle"></div><div id="territorySummary" style="margin-top:4px;font-size:12px;color:#9ed8ff;font-weight:700">${esc(summary)}</div>`;
+  const block=`<div class="small" id="subtitle">${esc(summary)}</div>`;
   if(html.includes(marker))html=html.replace(marker,block);
   else html=html.replace('</h1>',`</h1><div id="territorySummary" style="margin-top:6px;font-size:12px;color:#9ed8ff;font-weight:700">${esc(summary)}</div>`);
 

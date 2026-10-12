@@ -25,6 +25,7 @@ function matchesRegion(b,region){
 }
 
 function operationalAccessAllowed(b){
+  if(b?.id==="RLA12025050323")return true; // Officially admits applicants outside Lombardia.
   const t=textOf(b);
   if(!t)return false;
 
