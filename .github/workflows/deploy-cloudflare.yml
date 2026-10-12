@@ -30,6 +30,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          command: deploy
-
-# Deployment trigger refreshed after Cloudflare token setup on 2026-10-12.
+          wranglerVersion: '4.149.0'
+          command: deploy --config wrangler.jsonc
