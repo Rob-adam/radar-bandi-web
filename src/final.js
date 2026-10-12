@@ -4,6 +4,43 @@ const norm=v=>String(v||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u03
 const UNIVERSAL=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
 const CROSS_REGION_VERIFIED=new Set(["RLA12025050323"]);
 
+const VERIFIED_ADDITIONS=[{
+  id:"FCARIPARO-LUOGHI-NON-COMUNI-2026",
+  title:"Luoghi (non) comuni: voci che contano",
+  source:"Fondazione Cariparo",
+  deadline:"2026-11-30",
+  fund:4000000,
+  maxGrant:200000,
+  aid:"Contributo fino a 200.000 euro; cofinanziamento minimo 20%.",
+  tags:["Veneto","Padova","Rovigo","ETS","Giovani","Rigenerazione","Qualità di vita"],
+  eligibility:[
+    "Enti Pubblici o Enti del Terzo Settore in partnership tra loro",
+    "Sede legale o operativa nelle province di Padova o Rovigo",
+    "Spazi o beni pubblici e coinvolgimento attivo di giovani tra 15 e 29 anni",
+    "Domanda prima fase entro il 30 novembre 2026 alle ore 13:00"
+  ],
+  keywords:["terzo settore","ets","giovani","comunità","inclusione","qualità di vita","rigenerazione","spazi pubblici","padova","rovigo"],
+  sectors:["qualità di vita","sociale","cultura","comunità","inclusione"],
+  beneficiaries:["giovani","comunità locali","cittadini"],
+  activities:["co-progettazione","rigenerazione spazi","partecipazione giovanile","attività di comunità"],
+  purposes:["partecipazione","benessere della comunità","rigenerazione","inclusione sociale"],
+  territories:["veneto","padova","rovigo"],
+  legalForms:["ets","aps","odv","ente pubblico"],
+  hardRequirements:[
+    {label:"Sede legale o operativa nelle province di Padova o Rovigo",anyOf:["padova","rovigo"]},
+    {label:"Partnership tra Ente Pubblico ed Ente del Terzo Settore",anyOf:["partnership","ente pubblico","ets"]}
+  ],
+  sourceUrl:"https://fondazionecariparo.it/iniziative/bando-luoghi-non-comuni-voci-che-contano/",
+  tracking:{
+    specificLegalFormConfirmed:true,
+    officialSourceVerified:true,
+    deadlineVerified:true,
+    eligibilityVerified:true,
+    verifiedAt:"2026-10-12",
+    verificationNote:"Fonte ufficiale Fondazione Cariparo: bando in corso, ETS ammessi in partnership con enti pubblici, sede legale o operativa Padova/Rovigo, scadenza prima fase 30/11/2026 ore 13:00."
+  }
+}];
+
 function territorySafe(b,region){
   const r=norm(region);
   if(!r)return true;
@@ -60,8 +97,11 @@ function officialCorrections(b){
 function postProcessCatalog(data,request){
   const url=new URL(request.url);
   const region=String(url.searchParams.get("region")||"").trim();
-  const items=Array.isArray(data?.bandi)?data.bandi:[];
-  const bandi=items.map(officialCorrections).filter(b=>territorySafe(b,region));
+  const base=Array.isArray(data?.bandi)?data.bandi:[];
+  const items=url.pathname==="/radar_bandi_catalogo_extra.json"?[...base,...VERIFIED_ADDITIONS]:base;
+  const map=new Map();
+  for(const item of items){if(item?.id)map.set(item.id,item)}
+  const bandi=[...map.values()].map(officialCorrections).filter(b=>territorySafe(b,region));
   return {...data,updatedAt:"12/10/2026",selectedRegion:region||data?.selectedRegion||null,bandi};
 }
 
