@@ -25,11 +25,16 @@ function territoryAllowed(b,region,nationalScope=false){
 }
 function opportunityCurrent(b){
  const status=normTerritory(b?.sourceStatus||"");
- if(["chiuso","scaduto","closed","expired"].includes(status))return false;
+ if(["chiuso","scaduto","closed","expired","revocato","annullato","sospeso"].includes(status))return false;
+ // Reject malformed or non-HTTP source links; do not display unverifiable entries.
+ let source;try{source=new URL(String(b?.sourceUrl||""))}catch{return false}
+ if(!["https:","http:"].includes(source.protocol))return false;
  const raw=String(b?.deadline||"").trim();
+ // An unknown deadline remains visible for manual review, never as a confirmed open call.
  if(!raw)return true;
+ if(!/^\\d{4}-\\d{2}-\\d{2}$/.test(raw))return false;
  const t=Date.parse(raw+"T23:59:59");
- return !Number.isFinite(t)||t>=Date.now();
+ return Number.isFinite(t)&&new Date(t).toISOString().slice(0,10)===raw&&t>=Date.now();
 }
 function cleanProfile(input,code,rec){
  if(!input||typeof input!=="object")return null;
