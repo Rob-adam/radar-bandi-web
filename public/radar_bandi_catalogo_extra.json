@@ -10,16 +10,88 @@
       "fund": 300000,
       "maxGrant": 100000,
       "aid": "Contributo tra €50.000 e €100.000, fino al 50% del costo complessivo del progetto; raccolta donazioni almeno pari al 10% del contributo stanziato",
-      "tags": ["ETS","Monza e Brianza","Comunità","Welfare","Cultura","Ambiente","Giovani"],
-      "eligibility": ["Enti e organizzazioni senza scopo di lucro operanti nella provincia di Monza e Brianza","Progetto localizzato nella provincia di Monza e Brianza","Costo complessivo tra €100.000 e €200.000","Richiesta di contributo tra €50.000 e €100.000 e non superiore al 50% del costo","Raccolta di donazioni almeno pari al 10% del contributo stanziato"],
-      "keywords": ["comunità","solidarietà","welfare","servizi alla persona","cultura","ambiente","giovani","inclusione","benessere","monza brianza"],
-      "sectors": ["welfare","sociale","cultura","ambiente","giovani","comunità"],
-      "beneficiaries": ["cittadini","comunità locali","giovani","persone fragili","territorio di Monza e Brianza"],
-      "activities": ["servizi alla persona","progetti di comunità","iniziative culturali","iniziative ambientali","inclusione","reti territoriali"],
-      "purposes": ["coesione sociale","benessere della comunità","sviluppo sostenibile","inclusione attiva dei giovani","qualità ambientale"],
-      "territories": ["monza e brianza","lombardia"],
-      "legalForms": ["ets","odv","aps","associazione","fondazione","ente non profit","parrocchia","ente religioso"],
-      "hardRequirements": [{"label":"Operatività e progetto nella provincia di Monza e Brianza","anyOf":["monza","brianza","monza e brianza"]}],
+      "tags": [
+        "ETS",
+        "Monza e Brianza",
+        "Comunità",
+        "Welfare",
+        "Cultura",
+        "Ambiente",
+        "Giovani"
+      ],
+      "eligibility": [
+        "Enti e organizzazioni senza scopo di lucro operanti nella provincia di Monza e Brianza",
+        "Progetto localizzato nella provincia di Monza e Brianza",
+        "Costo complessivo tra €100.000 e €200.000",
+        "Richiesta di contributo tra €50.000 e €100.000 e non superiore al 50% del costo",
+        "Raccolta di donazioni almeno pari al 10% del contributo stanziato"
+      ],
+      "keywords": [
+        "comunità",
+        "solidarietà",
+        "welfare",
+        "servizi alla persona",
+        "cultura",
+        "ambiente",
+        "giovani",
+        "inclusione",
+        "benessere",
+        "monza brianza"
+      ],
+      "sectors": [
+        "welfare",
+        "sociale",
+        "cultura",
+        "ambiente",
+        "giovani",
+        "comunità"
+      ],
+      "beneficiaries": [
+        "cittadini",
+        "comunità locali",
+        "giovani",
+        "persone fragili",
+        "territorio di Monza e Brianza"
+      ],
+      "activities": [
+        "servizi alla persona",
+        "progetti di comunità",
+        "iniziative culturali",
+        "iniziative ambientali",
+        "inclusione",
+        "reti territoriali"
+      ],
+      "purposes": [
+        "coesione sociale",
+        "benessere della comunità",
+        "sviluppo sostenibile",
+        "inclusione attiva dei giovani",
+        "qualità ambientale"
+      ],
+      "territories": [
+        "monza e brianza",
+        "lombardia"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit",
+        "parrocchia",
+        "ente religioso"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Operatività e progetto nella provincia di Monza e Brianza",
+          "anyOf": [
+            "monza",
+            "brianza",
+            "monza e brianza"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionemonzabrianza.org/portfolio-posts/bando-progetti-della-comunita-mb-2026/"
     },
@@ -31,16 +103,80 @@
       "fund": 3000000,
       "maxGrant": 200000,
       "aid": "Contributo da €50.000 a €200.000; cofinanziamento minimo 20% del costo totale",
-      "tags": ["Musei","Accessibilità","Disabilità","Infanzia","Cultura","Fondazione Cariplo"],
-      "eligibility": ["Progetto riferito a un museo o istituzione museale ammessa dal bando","Partecipazione al percorso formativo previsto per la Fase 1","Cofinanziamento minimo del 20%"],
-      "keywords": ["museo","accessibilità universale","disabilità","bambini","infanzia","cultura","partecipazione","inclusione"],
-      "sectors": ["cultura","musei","accessibilità","disabilità","infanzia","inclusione"],
-      "beneficiaries": ["persone con disabilità","bambini 0-6 anni","famiglie","visitatori","comunità"],
-      "activities": ["accessibilità museale","adeguamento servizi","formazione","progettazione inclusiva","partecipazione culturale"],
-      "purposes": ["diritto alla cultura","accessibilità universale","inclusione","benessere","partecipazione"],
-      "territories": ["lombardia","piemonte","novara","verbania"],
-      "legalForms": ["ente non profit","fondazione","associazione","ente pubblico","museo"],
-      "hardRequirements": [{"label":"Candidatura riferita a un museo/istituzione museale ammissibile","anyOf":["museo","museale"]}],
+      "tags": [
+        "Musei",
+        "Accessibilità",
+        "Disabilità",
+        "Infanzia",
+        "Cultura",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Progetto riferito a un museo o istituzione museale ammessa dal bando",
+        "Partecipazione al percorso formativo previsto per la Fase 1",
+        "Cofinanziamento minimo del 20%"
+      ],
+      "keywords": [
+        "museo",
+        "accessibilità universale",
+        "disabilità",
+        "bambini",
+        "infanzia",
+        "cultura",
+        "partecipazione",
+        "inclusione"
+      ],
+      "sectors": [
+        "cultura",
+        "musei",
+        "accessibilità",
+        "disabilità",
+        "infanzia",
+        "inclusione"
+      ],
+      "beneficiaries": [
+        "persone con disabilità",
+        "bambini 0-6 anni",
+        "famiglie",
+        "visitatori",
+        "comunità"
+      ],
+      "activities": [
+        "accessibilità museale",
+        "adeguamento servizi",
+        "formazione",
+        "progettazione inclusiva",
+        "partecipazione culturale"
+      ],
+      "purposes": [
+        "diritto alla cultura",
+        "accessibilità universale",
+        "inclusione",
+        "benessere",
+        "partecipazione"
+      ],
+      "territories": [
+        "lombardia",
+        "piemonte",
+        "novara",
+        "verbania"
+      ],
+      "legalForms": [
+        "ente non profit",
+        "fondazione",
+        "associazione",
+        "ente pubblico",
+        "museo"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Candidatura riferita a un museo/istituzione museale ammissibile",
+          "anyOf": [
+            "museo",
+            "museale"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/musei-e-accessibilita-universale/"
     },
@@ -52,18 +188,84 @@
       "fund": 0,
       "maxGrant": 0,
       "aid": "Sostegno alla progettazione e al cofinanziamento di proposte su programmi europei; importi secondo linee guida dello strumento",
-      "tags": ["Europa","Progetti europei","Non profit","Innovazione","Welfare","Ambiente","Cultura","Ricerca"],
-      "eligibility": ["Enti privati senza scopo di lucro ed enti pubblici","Proposta collegata a un programma/bando europeo coerente con le strategie della Fondazione","Ricadute sui territori di riferimento di Fondazione Cariplo"],
-      "keywords": ["europa","europeo","europei","europrogettazione","cofinanziamento","welfare","inclusione","ambiente","cultura","ricerca","innovazione"],
-      "sectors": ["welfare","sociale","ambiente","cultura","ricerca","innovazione","cooperazione europea"],
-      "beneficiaries": ["enti non profit","comunità","cittadini","territori"],
-      "activities": ["progettazione europea","partenariati internazionali","innovazione","reti","cofinanziamento"],
-      "purposes": ["internazionalizzazione","accesso ai fondi europei","rafforzamento organizzativo","innovazione sociale"],
-      "territories": ["lombardia","novara","verbania"],
-      "legalForms": ["ente non profit","ets","odv","aps","associazione","fondazione","ente pubblico"],
+      "tags": [
+        "Europa",
+        "Progetti europei",
+        "Non profit",
+        "Innovazione",
+        "Welfare",
+        "Ambiente",
+        "Cultura",
+        "Ricerca"
+      ],
+      "eligibility": [
+        "Enti privati senza scopo di lucro ed enti pubblici",
+        "Proposta collegata a un programma/bando europeo coerente con le strategie della Fondazione",
+        "Ricadute sui territori di riferimento di Fondazione Cariplo"
+      ],
+      "keywords": [
+        "europa",
+        "europeo",
+        "europei",
+        "europrogettazione",
+        "cofinanziamento",
+        "welfare",
+        "inclusione",
+        "ambiente",
+        "cultura",
+        "ricerca",
+        "innovazione"
+      ],
+      "sectors": [
+        "welfare",
+        "sociale",
+        "ambiente",
+        "cultura",
+        "ricerca",
+        "innovazione",
+        "cooperazione europea"
+      ],
+      "beneficiaries": [
+        "enti non profit",
+        "comunità",
+        "cittadini",
+        "territori"
+      ],
+      "activities": [
+        "progettazione europea",
+        "partenariati internazionali",
+        "innovazione",
+        "reti",
+        "cofinanziamento"
+      ],
+      "purposes": [
+        "internazionalizzazione",
+        "accesso ai fondi europei",
+        "rafforzamento organizzativo",
+        "innovazione sociale"
+      ],
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbania"
+      ],
+      "legalForms": [
+        "ente non profit",
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente pubblico"
+      ],
       "hardRequirements": [],
       "hardKeyword": null,
-      "sourceUrl": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/"
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/",
+      "tracking": {
+        "continuousDeadlineConfirmed": true,
+        "continuousDeadlineVerifiedAt": "2026-10-12",
+        "continuousDeadlineSource": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/"
+      }
     },
     {
       "id": "FC-HOUSING-FRAGILI-2026",
@@ -73,15 +275,74 @@
       "fund": 5000000,
       "maxGrant": 0,
       "aid": "Contributo per avvio di nuovi interventi di abitare sociale; importo definito in fase di valutazione del progetto",
-      "tags": ["Housing sociale","Fragilità","Disabilità","Anziani","Welfare","Fondazione Cariplo"],
-      "eligibility": ["Soggetti pubblici o privati non profit","Intervento di abitare sociale rivolto a categorie fragili","Presentazione iniziale di un pre-progetto tramite Area Riservata"],
-      "keywords": ["housing sociale","abitare","fragilità","disabilità","anziani","autonomia","alloggi","migrazione sanitaria","familiari degenti"],
-      "sectors": ["housing sociale","welfare","disabilità","invecchiamento","inclusione","servizi sociali"],
-      "beneficiaries": ["persone fragili","persone con disabilità","anziani","familiari di degenti","persone senza dimora","nuclei vulnerabili"],
-      "activities": ["gestione alloggi","accompagnamento all'autonomia","ricettività temporanea","servizi abitativi","riqualificazione"],
-      "purposes": ["autonomia abitativa","inclusione sociale","accessibilità economica dell'abitare","supporto alle fragilità"],
-      "territories": ["lombardia","novara","verbania"],
-      "legalForms": ["ente non profit","ets","odv","aps","associazione","fondazione","ente pubblico","cooperativa sociale"],
+      "tags": [
+        "Housing sociale",
+        "Fragilità",
+        "Disabilità",
+        "Anziani",
+        "Welfare",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Soggetti pubblici o privati non profit",
+        "Intervento di abitare sociale rivolto a categorie fragili",
+        "Presentazione iniziale di un pre-progetto tramite Area Riservata"
+      ],
+      "keywords": [
+        "housing sociale",
+        "abitare",
+        "fragilità",
+        "disabilità",
+        "anziani",
+        "autonomia",
+        "alloggi",
+        "migrazione sanitaria",
+        "familiari degenti"
+      ],
+      "sectors": [
+        "housing sociale",
+        "welfare",
+        "disabilità",
+        "invecchiamento",
+        "inclusione",
+        "servizi sociali"
+      ],
+      "beneficiaries": [
+        "persone fragili",
+        "persone con disabilità",
+        "anziani",
+        "familiari di degenti",
+        "persone senza dimora",
+        "nuclei vulnerabili"
+      ],
+      "activities": [
+        "gestione alloggi",
+        "accompagnamento all'autonomia",
+        "ricettività temporanea",
+        "servizi abitativi",
+        "riqualificazione"
+      ],
+      "purposes": [
+        "autonomia abitativa",
+        "inclusione sociale",
+        "accessibilità economica dell'abitare",
+        "supporto alle fragilità"
+      ],
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbania"
+      ],
+      "legalForms": [
+        "ente non profit",
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente pubblico",
+        "cooperativa sociale"
+      ],
       "hardRequirements": [],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/housing-sociale-per-persone-fragili/"
@@ -94,16 +355,75 @@
       "fund": 4500000,
       "maxGrant": 150000,
       "aid": "Contributo tra €30.000 e €150.000, fino al 70% del costo totale",
-      "tags": ["Cultura","Partecipazione","Inclusione","Nuovi pubblici","Non profit","Fondazione Cariplo"],
-      "eligibility": ["Enti culturali privati non profit","Progetti orientati a nuovi pubblici oppure pluralismo culturale","Cofinanziamento almeno pari al 30% del costo totale"],
-      "keywords": ["cultura","arte","partecipazione culturale","nuovi pubblici","pluralismo","inclusione","produzioni culturali"],
-      "sectors": ["cultura","arte","inclusione","partecipazione","welfare culturale"],
-      "beneficiaries": ["cittadini","pubblici culturali","comunità","gruppi sottorappresentati"],
-      "activities": ["attività culturali","produzioni artistiche","eventi culturali","coinvolgimento pubblico","accessibilità culturale"],
-      "purposes": ["partecipazione culturale","pluralismo","riduzione disuguaglianze","benessere comunitario"],
-      "territories": ["lombardia","novara","verbania"],
-      "legalForms": ["ente culturale non profit","associazione culturale","fondazione","ente non profit"],
-      "hardRequirements": [{"label":"Ente culturale privato non profit","anyOf":["cultura","culturale","arte"]}],
+      "tags": [
+        "Cultura",
+        "Partecipazione",
+        "Inclusione",
+        "Nuovi pubblici",
+        "Non profit",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Enti culturali privati non profit",
+        "Progetti orientati a nuovi pubblici oppure pluralismo culturale",
+        "Cofinanziamento almeno pari al 30% del costo totale"
+      ],
+      "keywords": [
+        "cultura",
+        "arte",
+        "partecipazione culturale",
+        "nuovi pubblici",
+        "pluralismo",
+        "inclusione",
+        "produzioni culturali"
+      ],
+      "sectors": [
+        "cultura",
+        "arte",
+        "inclusione",
+        "partecipazione",
+        "welfare culturale"
+      ],
+      "beneficiaries": [
+        "cittadini",
+        "pubblici culturali",
+        "comunità",
+        "gruppi sottorappresentati"
+      ],
+      "activities": [
+        "attività culturali",
+        "produzioni artistiche",
+        "eventi culturali",
+        "coinvolgimento pubblico",
+        "accessibilità culturale"
+      ],
+      "purposes": [
+        "partecipazione culturale",
+        "pluralismo",
+        "riduzione disuguaglianze",
+        "benessere comunitario"
+      ],
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbania"
+      ],
+      "legalForms": [
+        "ente culturale non profit",
+        "associazione culturale",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Ente culturale privato non profit",
+          "anyOf": [
+            "cultura",
+            "culturale",
+            "arte"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/nuovi-ponti-culturali/"
     },
@@ -115,16 +435,69 @@
       "fund": 0,
       "maxGrant": 250000,
       "aid": "Pilot fino a €50.000; Full Application fino a €250.000",
-      "tags": ["Ricerca","Malattie rare","Salute","Telethon","Fondazione Cariplo"],
-      "eligibility": ["Enti di ricerca italiani non profit, pubblici o privati","Progetti di ricerca di base su target Tdark e malattie rare","Requisiti scientifici specifici secondo formato Pilot o Full"],
-      "keywords": ["ricerca","malattie rare","genetica","tdark","scienze della vita","salute","biomedicina"],
-      "sectors": ["ricerca scientifica","salute","biomedicina","malattie rare","genetica"],
-      "beneficiaries": ["pazienti con malattie rare","ricercatori","comunità scientifica"],
-      "activities": ["ricerca scientifica","ricerca biomedica","sperimentazione","produzione dati"],
-      "purposes": ["ricerca sulle malattie rare","conoscenza scientifica","innovazione biomedica"],
-      "territories": ["italia"],
-      "legalForms": ["ente di ricerca","ente non profit","fondazione","università"],
-      "hardRequirements": [{"label":"Ente di ricerca italiano non profit/pubblico","anyOf":["ricerca","ricerca scientifica","ente di ricerca"]}],
+      "tags": [
+        "Ricerca",
+        "Malattie rare",
+        "Salute",
+        "Telethon",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Enti di ricerca italiani non profit, pubblici o privati",
+        "Progetti di ricerca di base su target Tdark e malattie rare",
+        "Requisiti scientifici specifici secondo formato Pilot o Full"
+      ],
+      "keywords": [
+        "ricerca",
+        "malattie rare",
+        "genetica",
+        "tdark",
+        "scienze della vita",
+        "salute",
+        "biomedicina"
+      ],
+      "sectors": [
+        "ricerca scientifica",
+        "salute",
+        "biomedicina",
+        "malattie rare",
+        "genetica"
+      ],
+      "beneficiaries": [
+        "pazienti con malattie rare",
+        "ricercatori",
+        "comunità scientifica"
+      ],
+      "activities": [
+        "ricerca scientifica",
+        "ricerca biomedica",
+        "sperimentazione",
+        "produzione dati"
+      ],
+      "purposes": [
+        "ricerca sulle malattie rare",
+        "conoscenza scientifica",
+        "innovazione biomedica"
+      ],
+      "territories": [
+        "italia"
+      ],
+      "legalForms": [
+        "ente di ricerca",
+        "ente non profit",
+        "fondazione",
+        "università"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Ente di ricerca italiano non profit/pubblico",
+          "anyOf": [
+            "ricerca",
+            "ricerca scientifica",
+            "ente di ricerca"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/fondazione-cariplo-fondazione-telethon-joint-call-for-applications-2026/"
     },
@@ -136,16 +509,68 @@
       "fund": 1500000,
       "maxGrant": 0,
       "aid": "Sostegno alla partecipazione italiana alle call EIC Pathfinder ed EIC Transition; importi secondo bando",
-      "tags": ["Ricerca","EIC","Europa","Innovazione","Fondazione Cariplo"],
-      "eligibility": ["Università o enti pubblici/privati non profit che svolgono attività di ricerca","Sede legale in Italia","Collegamento con call EIC Pathfinder o EIC Transition"],
-      "keywords": ["ricerca","eic","pathfinder","transition","europa","innovazione","trasferimento tecnologico"],
-      "sectors": ["ricerca scientifica","innovazione","trasferimento tecnologico","europa"],
-      "beneficiaries": ["enti di ricerca","ricercatori","sistema della ricerca"],
-      "activities": ["progettazione europea","ricerca","innovazione","valorizzazione ricerca"],
-      "purposes": ["accesso ai fondi europei","valorizzazione della ricerca","innovazione"],
-      "territories": ["italia"],
-      "legalForms": ["ente di ricerca","ente non profit","università","fondazione"],
-      "hardRequirements": [{"label":"Soggetto che svolge attività di ricerca","anyOf":["ricerca","ricerca scientifica","ente di ricerca"]}],
+      "tags": [
+        "Ricerca",
+        "EIC",
+        "Europa",
+        "Innovazione",
+        "Fondazione Cariplo"
+      ],
+      "eligibility": [
+        "Università o enti pubblici/privati non profit che svolgono attività di ricerca",
+        "Sede legale in Italia",
+        "Collegamento con call EIC Pathfinder o EIC Transition"
+      ],
+      "keywords": [
+        "ricerca",
+        "eic",
+        "pathfinder",
+        "transition",
+        "europa",
+        "innovazione",
+        "trasferimento tecnologico"
+      ],
+      "sectors": [
+        "ricerca scientifica",
+        "innovazione",
+        "trasferimento tecnologico",
+        "europa"
+      ],
+      "beneficiaries": [
+        "enti di ricerca",
+        "ricercatori",
+        "sistema della ricerca"
+      ],
+      "activities": [
+        "progettazione europea",
+        "ricerca",
+        "innovazione",
+        "valorizzazione ricerca"
+      ],
+      "purposes": [
+        "accesso ai fondi europei",
+        "valorizzazione della ricerca",
+        "innovazione"
+      ],
+      "territories": [
+        "italia"
+      ],
+      "legalForms": [
+        "ente di ricerca",
+        "ente non profit",
+        "università",
+        "fondazione"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Soggetto che svolge attività di ricerca",
+          "anyOf": [
+            "ricerca",
+            "ricerca scientifica",
+            "ente di ricerca"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionecariplo.it/bando/veicolo-2/"
     },
@@ -157,16 +582,80 @@
       "fund": 1000000,
       "maxGrant": 15000,
       "aid": "Contributo a fondo perduto fino a €15.000 per progetti di attività motoria e sportiva",
-      "tags": ["PROGRAMMATO","Sport","ETS","ODV","APS","Inclusione","Disabilità","Emilia-Romagna"],
-      "eligibility": ["Progetti realizzati in Emilia-Romagna","Attività organizzate tra 01/07/2026 e 30/06/2027","Avvio entro 30/11/2026 e conclusione entro 30/06/2027","Adesione alla Carta Etica dello Sport","Esclusi i soggetti che hanno già presentato domanda sui precedenti bandi sportivi regionali 2026"],
-      "keywords": ["sport","attività motoria","inclusione","disabilità","giovani","anziani","fragilità","volontariato"],
-      "sectors": ["sport","salute","inclusione","disabilità","giovani","anziani"],
-      "beneficiaries": ["giovani","anziani","persone con disabilità","persone fragili","cittadini"],
-      "activities": ["attività sportiva","attività motoria","inclusione attraverso lo sport","promozione del benessere"],
-      "purposes": ["inclusione","benessere","partecipazione","accessibilità allo sport"],
-      "territories": ["emilia-romagna"],
-      "legalForms": ["ets","odv","aps","associazione","ente pubblico","scuola","ente sportivo"],
-      "hardRequirements": [{"label":"Progetto realizzato in Emilia-Romagna","anyOf":["emilia-romagna"]}],
+      "tags": [
+        "PROGRAMMATO",
+        "Sport",
+        "ETS",
+        "ODV",
+        "APS",
+        "Inclusione",
+        "Disabilità",
+        "Emilia-Romagna"
+      ],
+      "eligibility": [
+        "Progetti realizzati in Emilia-Romagna",
+        "Attività organizzate tra 01/07/2026 e 30/06/2027",
+        "Avvio entro 30/11/2026 e conclusione entro 30/06/2027",
+        "Adesione alla Carta Etica dello Sport",
+        "Esclusi i soggetti che hanno già presentato domanda sui precedenti bandi sportivi regionali 2026"
+      ],
+      "keywords": [
+        "sport",
+        "attività motoria",
+        "inclusione",
+        "disabilità",
+        "giovani",
+        "anziani",
+        "fragilità",
+        "volontariato"
+      ],
+      "sectors": [
+        "sport",
+        "salute",
+        "inclusione",
+        "disabilità",
+        "giovani",
+        "anziani"
+      ],
+      "beneficiaries": [
+        "giovani",
+        "anziani",
+        "persone con disabilità",
+        "persone fragili",
+        "cittadini"
+      ],
+      "activities": [
+        "attività sportiva",
+        "attività motoria",
+        "inclusione attraverso lo sport",
+        "promozione del benessere"
+      ],
+      "purposes": [
+        "inclusione",
+        "benessere",
+        "partecipazione",
+        "accessibilità allo sport"
+      ],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "ente pubblico",
+        "scuola",
+        "ente sportivo"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Progetto realizzato in Emilia-Romagna",
+          "anyOf": [
+            "emilia-romagna"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "programmato",
       "sourceUrl": "https://www.regione.emilia-romagna.it/sport/bandi/2026/contributi-per-progetti-sportivi-biennali-2026-2027"
@@ -179,16 +668,78 @@
       "fund": 2700000,
       "maxGrant": 0,
       "aid": "Dotazione complessiva €2.700.000; importi e condizioni secondo bando regionale",
-      "tags": ["PROGRAMMATO","Pari opportunità","ODV","APS","ETS","Inclusione","Emilia-Romagna"],
-      "eligibility": ["Rivolto a Enti locali, APS, ODV e altri Enti del Terzo Settore","Domande dalle ore 10:00 dell'8 settembre 2026 alle ore 13:00 del 6 ottobre 2026","Un solo progetto per soggetto proponente","Progetti da avviare nel 2027 e concludere entro il 31/12/2028"],
-      "keywords": ["pari opportunità","discriminazioni","violenza di genere","inclusione","diritti","donne","odv","aps","ets"],
-      "sectors": ["sociale","pari opportunità","diritti","inclusione","contrasto discriminazioni"],
-      "beneficiaries": ["donne","persone vittime di discriminazione","comunità","cittadini"],
-      "activities": ["progetti sociali","prevenzione discriminazioni","contrasto violenza di genere","sensibilizzazione"],
-      "purposes": ["pari opportunità","contrasto discriminazioni","contrasto violenza di genere","inclusione sociale"],
-      "territories": ["emilia-romagna"],
-      "legalForms": ["ets","odv","aps","associazione","ente locale"],
-      "hardRequirements": [{"label":"Soggetto ammissibile: Ente locale, APS, ODV o altro ETS","anyOf":["ets","odv","aps","associazione"]}],
+      "tags": [
+        "PROGRAMMATO",
+        "Pari opportunità",
+        "ODV",
+        "APS",
+        "ETS",
+        "Inclusione",
+        "Emilia-Romagna"
+      ],
+      "eligibility": [
+        "Rivolto a Enti locali, APS, ODV e altri Enti del Terzo Settore",
+        "Domande dalle ore 10:00 dell'8 settembre 2026 alle ore 13:00 del 6 ottobre 2026",
+        "Un solo progetto per soggetto proponente",
+        "Progetti da avviare nel 2027 e concludere entro il 31/12/2028"
+      ],
+      "keywords": [
+        "pari opportunità",
+        "discriminazioni",
+        "violenza di genere",
+        "inclusione",
+        "diritti",
+        "donne",
+        "odv",
+        "aps",
+        "ets"
+      ],
+      "sectors": [
+        "sociale",
+        "pari opportunità",
+        "diritti",
+        "inclusione",
+        "contrasto discriminazioni"
+      ],
+      "beneficiaries": [
+        "donne",
+        "persone vittime di discriminazione",
+        "comunità",
+        "cittadini"
+      ],
+      "activities": [
+        "progetti sociali",
+        "prevenzione discriminazioni",
+        "contrasto violenza di genere",
+        "sensibilizzazione"
+      ],
+      "purposes": [
+        "pari opportunità",
+        "contrasto discriminazioni",
+        "contrasto violenza di genere",
+        "inclusione sociale"
+      ],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "ente locale"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Soggetto ammissibile: Ente locale, APS, ODV o altro ETS",
+          "anyOf": [
+            "ets",
+            "odv",
+            "aps",
+            "associazione"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "programmato",
       "sourceUrl": "https://parita.regione.emilia-romagna.it/leggi-atti-bandi/bandi-regionali-2026/bando-per-la-presentazione-di-progetti-rivolti-alla-promozione-ed-al-conseguimento-delle-pari-opportunita-ed-al-contrasto-delle-discriminazioni-e-della-violenza-di-genere-annualita-2027-2028"
@@ -201,16 +752,82 @@
       "fund": 0,
       "maxGrant": 0,
       "aid": "Premio e riconoscimenti regionali; verificare il regolamento ufficiale per natura e condizioni dei riconoscimenti",
-      "tags": ["PROGRAMMATO","Innovazione sociale","Economia sociale","Inclusione","Sostenibilità","Emilia-Romagna"],
-      "eligibility": ["Sede o unità locale in Emilia-Romagna","Ammessi imprese, cooperative sociali, professionisti e soggetti del sistema formazione/ricerca secondo regolamento","Associazioni e fondazioni ammesse se costituite dai soggetti del sistema formazione/ricerca indicati dal bando","Candidature dalle ore 10:00 del 31 agosto alle ore 17:00 del 30 settembre 2026"],
-      "keywords": ["innovazione sociale","economia sociale","inclusione lavorativa","sostenibilità","agenda 2030","formazione","ricerca","pari opportunità"],
-      "sectors": ["innovazione","economia sociale","formazione","ricerca","sostenibilità","inclusione"],
-      "beneficiaries": ["imprese","cooperative sociali","professionisti","sistema formazione","sistema ricerca"],
-      "activities": ["innovazione sociale","progetti sostenibili","inclusione lavorativa","formazione","ricerca"],
-      "purposes": ["responsabilità sociale","sviluppo sostenibile","innovazione","inclusione lavorativa"],
-      "territories": ["emilia-romagna"],
-      "legalForms": ["cooperativa sociale","impresa","ente di formazione","università","fondazione","associazione"],
-      "hardRequirements": [{"label":"Appartenenza a una delle categorie ammesse dal regolamento, con sede o unità locale in Emilia-Romagna","anyOf":["cooperativa sociale","ente di formazione","università","ricerca","fondazione","associazione"]}],
+      "tags": [
+        "PROGRAMMATO",
+        "Innovazione sociale",
+        "Economia sociale",
+        "Inclusione",
+        "Sostenibilità",
+        "Emilia-Romagna"
+      ],
+      "eligibility": [
+        "Sede o unità locale in Emilia-Romagna",
+        "Ammessi imprese, cooperative sociali, professionisti e soggetti del sistema formazione/ricerca secondo regolamento",
+        "Associazioni e fondazioni ammesse se costituite dai soggetti del sistema formazione/ricerca indicati dal bando",
+        "Candidature dalle ore 10:00 del 31 agosto alle ore 17:00 del 30 settembre 2026"
+      ],
+      "keywords": [
+        "innovazione sociale",
+        "economia sociale",
+        "inclusione lavorativa",
+        "sostenibilità",
+        "agenda 2030",
+        "formazione",
+        "ricerca",
+        "pari opportunità"
+      ],
+      "sectors": [
+        "innovazione",
+        "economia sociale",
+        "formazione",
+        "ricerca",
+        "sostenibilità",
+        "inclusione"
+      ],
+      "beneficiaries": [
+        "imprese",
+        "cooperative sociali",
+        "professionisti",
+        "sistema formazione",
+        "sistema ricerca"
+      ],
+      "activities": [
+        "innovazione sociale",
+        "progetti sostenibili",
+        "inclusione lavorativa",
+        "formazione",
+        "ricerca"
+      ],
+      "purposes": [
+        "responsabilità sociale",
+        "sviluppo sostenibile",
+        "innovazione",
+        "inclusione lavorativa"
+      ],
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "cooperativa sociale",
+        "impresa",
+        "ente di formazione",
+        "università",
+        "fondazione",
+        "associazione"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Appartenenza a una delle categorie ammesse dal regolamento, con sede o unità locale in Emilia-Romagna",
+          "anyOf": [
+            "cooperativa sociale",
+            "ente di formazione",
+            "università",
+            "ricerca",
+            "fondazione",
+            "associazione"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "aperto",
       "sourceUrl": "https://imprese.regione.emilia-romagna.it/leggi-atti-bandi/tutti-i-bandi/rsi/premio-innovatori-responsabili-2026"
@@ -223,16 +840,74 @@
       "fund": 0,
       "maxGrant": 8000,
       "aid": "Cofinanziamento dell'80% dei costi di progettazione: fino a €8.000 per il capofila/coordinatore e fino a €4.000 per il partner; 20% a carico dell'ente",
-      "tags": ["Piemonte","Cuneo","ETS","Non profit","Progettazione","Bandi nazionali","Bandi UE"],
-      "eligibility": ["Ente ammissibile a contributo della Fondazione CRC","Sede legale o operativa in provincia di Cuneo","Capofila/coordinatore o partner di una proposta su un bando regionale, nazionale o europeo aperto","Ricaduta del progetto sul territorio della provincia di Cuneo"],
-      "keywords": ["progettazione","europrogettazione","bandi","fondi europei","partenariato","cuneo","piemonte","non profit"],
-      "sectors": ["rafforzamento organizzativo","progettazione","cooperazione","sviluppo territoriale"],
-      "beneficiaries": ["enti non profit","comunità locali","territorio della provincia di Cuneo"],
-      "activities": ["redazione proposte progettuali","costruzione partenariati","traduzioni","trasferte di progettazione"],
-      "purposes": ["incrementare la capacità progettuale","attrarre risorse regionali nazionali ed europee","sviluppo economico e culturale del territorio"],
-      "territories": ["piemonte","cuneo"],
-      "legalForms": ["ets","odv","aps","associazione","fondazione","ente non profit"],
-      "hardRequirements": [{"label":"Sede legale o operativa in provincia di Cuneo","anyOf":["cuneo","piemonte"]}],
+      "tags": [
+        "Piemonte",
+        "Cuneo",
+        "ETS",
+        "Non profit",
+        "Progettazione",
+        "Bandi nazionali",
+        "Bandi UE"
+      ],
+      "eligibility": [
+        "Ente ammissibile a contributo della Fondazione CRC",
+        "Sede legale o operativa in provincia di Cuneo",
+        "Capofila/coordinatore o partner di una proposta su un bando regionale, nazionale o europeo aperto",
+        "Ricaduta del progetto sul territorio della provincia di Cuneo"
+      ],
+      "keywords": [
+        "progettazione",
+        "europrogettazione",
+        "bandi",
+        "fondi europei",
+        "partenariato",
+        "cuneo",
+        "piemonte",
+        "non profit"
+      ],
+      "sectors": [
+        "rafforzamento organizzativo",
+        "progettazione",
+        "cooperazione",
+        "sviluppo territoriale"
+      ],
+      "beneficiaries": [
+        "enti non profit",
+        "comunità locali",
+        "territorio della provincia di Cuneo"
+      ],
+      "activities": [
+        "redazione proposte progettuali",
+        "costruzione partenariati",
+        "traduzioni",
+        "trasferte di progettazione"
+      ],
+      "purposes": [
+        "incrementare la capacità progettuale",
+        "attrarre risorse regionali nazionali ed europee",
+        "sviluppo economico e culturale del territorio"
+      ],
+      "territories": [
+        "piemonte",
+        "cuneo"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Sede legale o operativa in provincia di Cuneo",
+          "anyOf": [
+            "cuneo",
+            "piemonte"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "aperto",
       "sourceUrl": "https://fondazionecrc.it/cosafacciamo/bando-attrazione-risorse-misura-progettazione/"
@@ -245,16 +920,79 @@
       "fund": 300000,
       "maxGrant": 0,
       "aid": "Contributi su quattro linee per attrezzature, eventi, inclusione sociale e automezzi; importi per singola linea secondo testo ufficiale del bando",
-      "tags": ["Emilia-Romagna","Modena","Sport","Inclusione","Disabilità","ASD","SSD","RUNTS"],
-      "eligibility": ["ASD iscritte al Registro Nazionale delle Attività Sportive Dilettantistiche oppure SSD con qualifica di impresa sociale iscritte al RUNTS","Operatività sportiva da almeno 24 mesi","Sede legale nel territorio di riferimento della Fondazione di Modena","Un solo progetto per richiedente"],
-      "keywords": ["sport","inclusione","disabilità","minori","fragilità","attrezzature","automezzi","eventi sportivi","modena"],
-      "sectors": ["sport","inclusione sociale","disabilità","giovani","benessere"],
-      "beneficiaries": ["minori","persone con disabilità","persone fragili","sportivi","comunità locali"],
-      "activities": ["acquisto attrezzature sportive","eventi sportivi","progetti di inclusione","acquisto automezzi"],
-      "purposes": ["accesso alla pratica sportiva","inclusione sociale","partecipazione","benessere della comunità"],
-      "territories": ["emilia-romagna","modena"],
-      "legalForms": ["asd","ssd","impresa sociale","runts","ente non profit"],
-      "hardRequirements": [{"label":"Sede legale nel territorio di riferimento della Fondazione di Modena","anyOf":["modena","emilia-romagna"]}],
+      "tags": [
+        "Emilia-Romagna",
+        "Modena",
+        "Sport",
+        "Inclusione",
+        "Disabilità",
+        "ASD",
+        "SSD",
+        "RUNTS"
+      ],
+      "eligibility": [
+        "ASD iscritte al Registro Nazionale delle Attività Sportive Dilettantistiche oppure SSD con qualifica di impresa sociale iscritte al RUNTS",
+        "Operatività sportiva da almeno 24 mesi",
+        "Sede legale nel territorio di riferimento della Fondazione di Modena",
+        "Un solo progetto per richiedente"
+      ],
+      "keywords": [
+        "sport",
+        "inclusione",
+        "disabilità",
+        "minori",
+        "fragilità",
+        "attrezzature",
+        "automezzi",
+        "eventi sportivi",
+        "modena"
+      ],
+      "sectors": [
+        "sport",
+        "inclusione sociale",
+        "disabilità",
+        "giovani",
+        "benessere"
+      ],
+      "beneficiaries": [
+        "minori",
+        "persone con disabilità",
+        "persone fragili",
+        "sportivi",
+        "comunità locali"
+      ],
+      "activities": [
+        "acquisto attrezzature sportive",
+        "eventi sportivi",
+        "progetti di inclusione",
+        "acquisto automezzi"
+      ],
+      "purposes": [
+        "accesso alla pratica sportiva",
+        "inclusione sociale",
+        "partecipazione",
+        "benessere della comunità"
+      ],
+      "territories": [
+        "emilia-romagna",
+        "modena"
+      ],
+      "legalForms": [
+        "asd",
+        "ssd",
+        "impresa sociale",
+        "runts",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Sede legale nel territorio di riferimento della Fondazione di Modena",
+          "anyOf": [
+            "modena",
+            "emilia-romagna"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "aperto",
       "sourceUrl": "https://www.fondazionedimodena.it/news/bando-sport-2026-300mila-euro-a-sostegno-della-pratica-sportiva/"
@@ -267,16 +1005,74 @@
       "fund": 150000,
       "maxGrant": 10000,
       "aid": "Contributo economico fino a €10.000, disponibile fino all'11 dicembre 2026 o a esaurimento del budget",
-      "tags": ["Emilia-Romagna","Bologna","ETS","Non profit","Emergenze","Fragilità","Welfare"],
-      "eligibility": ["Soggetti senza scopo di lucro in grado di perseguire efficacemente gli obiettivi dell'iniziativa","Intervento nel territorio della Città metropolitana di Bologna","Evento imprevisto o intervento urgente e non differibile coerente con il bando"],
-      "keywords": ["emergenza","urgenza","welfare","fragilità","categorie deboli","bologna","non profit","terzo settore"],
-      "sectors": ["welfare","sociale","volontariato","fragilità","assistenza"],
-      "beneficiaries": ["categorie sociali deboli","persone fragili","comunità locali"],
-      "activities": ["interventi urgenti","continuità dei servizi","risposta a eventi imprevisti","sostegno sociale"],
-      "purposes": ["garantire continuità alle attività e ai servizi","rispondere a emergenze non programmabili","sostenere categorie sociali deboli"],
-      "territories": ["emilia-romagna","bologna"],
-      "legalForms": ["ets","odv","aps","associazione","fondazione","ente non profit"],
-      "hardRequirements": [{"label":"Attività nel territorio della Città metropolitana di Bologna","anyOf":["bologna","emilia-romagna"]}],
+      "tags": [
+        "Emilia-Romagna",
+        "Bologna",
+        "ETS",
+        "Non profit",
+        "Emergenze",
+        "Fragilità",
+        "Welfare"
+      ],
+      "eligibility": [
+        "Soggetti senza scopo di lucro in grado di perseguire efficacemente gli obiettivi dell'iniziativa",
+        "Intervento nel territorio della Città metropolitana di Bologna",
+        "Evento imprevisto o intervento urgente e non differibile coerente con il bando"
+      ],
+      "keywords": [
+        "emergenza",
+        "urgenza",
+        "welfare",
+        "fragilità",
+        "categorie deboli",
+        "bologna",
+        "non profit",
+        "terzo settore"
+      ],
+      "sectors": [
+        "welfare",
+        "sociale",
+        "volontariato",
+        "fragilità",
+        "assistenza"
+      ],
+      "beneficiaries": [
+        "categorie sociali deboli",
+        "persone fragili",
+        "comunità locali"
+      ],
+      "activities": [
+        "interventi urgenti",
+        "continuità dei servizi",
+        "risposta a eventi imprevisti",
+        "sostegno sociale"
+      ],
+      "purposes": [
+        "garantire continuità alle attività e ai servizi",
+        "rispondere a emergenze non programmabili",
+        "sostenere categorie sociali deboli"
+      ],
+      "territories": [
+        "emilia-romagna",
+        "bologna"
+      ],
+      "legalForms": [
+        "ets",
+        "odv",
+        "aps",
+        "associazione",
+        "fondazione",
+        "ente non profit"
+      ],
+      "hardRequirements": [
+        {
+          "label": "Attività nel territorio della Città metropolitana di Bologna",
+          "anyOf": [
+            "bologna",
+            "emilia-romagna"
+          ]
+        }
+      ],
       "hardKeyword": null,
       "sourceStatus": "aperto",
       "sourceUrl": "https://fondazionecarisbo.it/bandi-e-iniziative/emergenze/"
