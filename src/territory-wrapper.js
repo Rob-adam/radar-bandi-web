@@ -24,54 +24,9 @@ function matchesRegion(b,region){
   return territories.some(t=>t===r||t.includes(r)||r.includes(t));
 }
 
-function operationalAccessAllowed(b){
-  if(b?.id==="RLA12025050323")return true; // Officially admits applicants outside Lombardia.
-  const t=textOf(b);
-  if(!t)return false;
-
-  const legalOnly=[
-    "sede legale in",
-    "sede legale nella",
-    "sede legale nel",
-    "sede legale e operativa",
-    "sede legale ed operativa"
-  ];
-  const legalOrOperational=t.includes("sede legale o operativa")||t.includes("sede legale oppure operativa");
-  if(!legalOrOperational&&legalOnly.some(x=>t.includes(x)))return false;
-
-  return legalOrOperational||[
-    "sede operativa",
-    "operanti nella",
-    "operanti nel",
-    "operativita nella",
-    "operativita nel",
-    "progetto localizzato",
-    "progetto realizzato",
-    "progetti da realizzare",
-    "progetto da realizzare",
-    "iniziativa di effettivo rilievo regionale",
-    "iniziativa in lombardia",
-    "attivita in lombardia",
-    "attivita sul territorio"
-  ].some(x=>t.includes(x));
-}
-
-function adaptForNationalOperations(b,homeRegion){
-  const note="Accesso territoriale preliminare: il profilo dichiara operativita nazionale. Il bando viene mostrato perche la fonte ammette operativita, progetto o iniziativa nel territorio anche senza coincidenza con la regione della sede principale. Prima della candidatura va documentata l'effettiva presenza/attivita richiesta nel territorio del bando.";
-  const hardRequirements=Array.isArray(b?.hardRequirements)?b.hardRequirements.map(r=>{
-    const label=norm(r?.label||"");
-    const isOperationalGeo=label.includes("sede legale o operativa")||label.includes("sede operativa")||label.includes("progetto")||label.includes("iniziativa")||label.includes("operativita");
-    if(!isOperationalGeo)return r;
-    return {...r,anyOf:Array.isArray(r?.anyOf)?r.anyOf:[]};
-  }):[];
-  return {
-    ...b,
-    tags:[...new Set([...(Array.isArray(b?.tags)?b.tags:[]),"Operatività territoriale"])],
-    territories:Array.isArray(b?.territories)?b.territories:[],
-    eligibility:[note,...(Array.isArray(b?.eligibility)?b.eligibility:[])],
-    hardRequirements,
-    tracking:{...(b?.tracking||{}),territoryAccessByDeclaredOperations:true,territoryAccessNote:note}
-  };
+function adaptForNationalOperations(b){
+  // National operations allow monitoring; they do not establish a local seat.
+  return {...b,tracking:{...b.tracking,territoryAccessByDeclaredOperations:false}};
 }
 
 async function catalogResponse(request,env,ctx){
@@ -95,7 +50,7 @@ async function catalogResponse(request,env,ctx){
   if(region){
     bandi=bandi.flatMap(b=>{
       if(isUniversal(b)||matchesRegion(b,region))return [b];
-      if(national&&operationalAccessAllowed(b))return [adaptForNationalOperations(b,region)];
+      if(national)return [adaptForNationalOperations(b,region)];
       return [];
     });
   }
@@ -107,7 +62,7 @@ async function catalogResponse(request,env,ctx){
   return new Response(JSON.stringify({...data,selectedRegion:region||data.selectedRegion||null,operatingScope:national?"national":data.operatingScope||null,bandi}),{status:response.status,headers});
 }
 
-const DASHBOARD_TERRITORY_UI=`<script id="bandovera-territory-ui">(()=>{try{const raw=new URLSearchParams(location.search).get('p');if(!raw)return;const c=raw.trim().replace(/\\s+/g,'');const b=(c+'='.repeat((4-c.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/');const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes))||{};const sub=document.getElementById('subtitle');if(sub){const type=p.type||'ETS';const region=p.region||'';const op=p.operatingTerritory||p.territoryScope||'';let text=type;if(region)text+=' · Sede: '+region;if(op)text+=' · Operatività: '+op;sub.textContent=text;}const obs=new MutationObserver(()=>{document.querySelectorAll('.tag').forEach(el=>{if((el.textContent||'').trim().toLowerCase()==='operatività territoriale'){el.style.border='1px solid rgba(103,185,255,.55)';el.style.color='#9ed8ff';el.title='Bando mostrato perché il profilo dichiara operatività nel territorio; verificare il requisito specifico prima della candidatura.';}})});obs.observe(document.body,{childList:true,subtree:true});setTimeout(()=>obs.disconnect(),15000);}catch(e){console.warn('Territory UI',e)}})();</script>`;
+const DASHBOARD_TERRITORY_UI=`<script id="bandovera-territory-ui">(()=>{try{const raw=new URLSearchParams(location.search).get('p');if(!raw)return;const c=raw.trim().replace(/\\s+/g,'');const b=(c+'='.repeat((4-c.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/');const bytes=Uint8Array.from(atob(b),x=>x.charCodeAt(0));const p=JSON.parse(new TextDecoder().decode(bytes))||{};const sub=document.getElementById('subtitle');if(sub){const type=p.type||'ETS';const region=p.region||'';const op=p.operatingTerritory||p.territoryScope||'';let text=type;if(region)text+=' · Sede: '+region;if(op)text+=' · Operatività: '+op;const current=window.BANDOVERA_PROFILE||p;const seatLabels=(current.seats||[]).filter(s=>s.type==='operational').map(s=>s.city+' ('+s.region+')');if(seatLabels.length)text+=' · Sedi operative: '+seatLabels.join(', ');sub.textContent=text;}const obs=new MutationObserver(()=>{document.querySelectorAll('.tag').forEach(el=>{if((el.textContent||'').trim().toLowerCase()==='operatività territoriale'){el.style.border='1px solid rgba(103,185,255,.55)';el.style.color='#9ed8ff';el.title='Il territorio del progetto e i requisiti delle sedi devono essere verificati separatamente.';}})});obs.observe(document.body,{childList:true,subtree:true});setTimeout(()=>obs.disconnect(),15000);}catch(e){console.warn('Territory UI',e)}})();</script>`;
 
 async function dashboardResponse(request,env,ctx){
   const response=await app.fetch(request,env,ctx);

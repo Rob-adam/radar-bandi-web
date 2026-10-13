@@ -1,4 +1,5 @@
 import app from "./index.js";
+import {reviewCall,REVIEWED_ADDITIONS} from "./review-rules.js";
 
 const norm=v=>String(v||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g," ").trim();
 const UNIVERSAL=["italia","nazionale","tutta italia","tutte le regioni","europa","unione europea","ue"];
@@ -217,10 +218,10 @@ function postProcessCatalog(data,request){
   const url=new URL(request.url);
   const region=String(url.searchParams.get("region")||"").trim();
   const base=Array.isArray(data?.bandi)?data.bandi:[];
-  const items=url.pathname==="/radar_bandi_catalogo_extra.json"?[...base,...VERIFIED_ADDITIONS]:base;
+  const items=url.pathname==="/radar_bandi_catalogo_extra.json"?[...base,...VERIFIED_ADDITIONS,...REVIEWED_ADDITIONS]:base;
   const map=new Map();
   for(const item of items){if(item?.id)map.set(item.id,item)}
-  const bandi=[...map.values()].map(officialCorrections).filter(b=>territorySafe(b,region)&&current(b));
+  const bandi=[...map.values()].map(officialCorrections).map(reviewCall).filter(b=>territorySafe(b,region)&&current(b));
   return {...data,updatedAt:data.updatedAt||"12/10/2026",selectedRegion:region||data?.selectedRegion||null,bandi};
 }
 
@@ -252,3 +253,4 @@ export default {
     return new Response(JSON.stringify(body),{status:response.status,headers});
   }
 };
+

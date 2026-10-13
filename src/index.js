@@ -1,3 +1,4 @@
+import {enrichProfile} from "./review-rules.js";
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}});
 
 function normalizeCode(v){return String(v||"").trim().toUpperCase().replace(/[^A-Z0-9-]/g,"");}
@@ -39,9 +40,10 @@ function opportunityCurrent(b){
 function cleanProfile(input,code,rec){
  if(!input||typeof input!=="object")return null;
  const s=v=>String(v??"").slice(0,4000);
- return {
+ return enrichProfile({
+  ...Object.fromEntries(["legalPersonality","projectTypes","excludedAreas","partnership","cofinancing","advanceFunds","profileNotes","foundationYear","annualRevenue","propertyAvailabilityYears","genderRightsExperienceYears","seats","seatsComplete"].filter(k=>input[k]!==undefined).map(k=>[k,input[k]])),
   name:s(input.name||rec?.name),type:s(input.type),region:s(input.region),province:s(input.province),territoryScope:s(input.territoryScope||input.scope),operatingTerritory:s(input.operatingTerritory),runts:s(input.runts),areas:s(input.areas),activities:s(input.activities),sector:s(input.sector),subSector:s(input.subSector),beneficiaries:s(input.beneficiaries),statutoryPurposes:s(input.statutoryPurposes),capabilities:s(input.capabilities),license:code,active:rec?.active!==false,createdAt:s(input.createdAt),expiresAt:s(rec?.expiresAt||input.expiresAt),price:Number(rec?.price??input.price)||0,durationMonths:Number(input.durationMonths)||0
- };
+ });
 }
 function shortLinkError(code,message,status=404){return new Response(`<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BANDOVERA · Link cliente</title><style>body{margin:0;background:#07111f;color:#edf5ff;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;display:grid;place-items:center;min-height:100vh;padding:24px}.box{max-width:620px;background:#0e1b2c;border:1px solid #243a55;border-radius:18px;padding:28px;text-align:center}.muted{color:#9fb2c8}.code{margin-top:16px;font-weight:800;color:#50d5ff}</style></head><body><div class="box"><h1>Link BANDOVERA non disponibile</h1><p class="muted">${message}</p><div class="code">${String(code||"").replace(/[&<>]/g,"")}</div></div></body></html>`,{status,headers:{"content-type":"text/html; charset=utf-8","cache-control":"no-store"}});}
 
@@ -329,6 +331,7 @@ if(raw){
    if(!env.LICENSES)return shortLinkError(code,'Archivio licenze non configurato.',503);
    const rec=await env.LICENSES.get('license:'+code,{type:'json'});
    if(!rec)return shortLinkError(code,'Licenza non registrata.');
+   if(rec.active===false||isExpired(rec.expiresAt))return shortLinkError(code,'Licenza non attiva.',403);
    if(!rec.profile)return shortLinkError(code,'Il profilo cliente deve essere sincronizzato dalla Dashboard Admin prima di usare il link corto.',409);
    const profile=cleanProfile(rec.profile,code,rec);
    const target=new URL('/',url.origin);target.searchParams.set('p',encodeProfile(profile));
@@ -337,7 +340,24 @@ if(raw){
   if(url.pathname==='/radar_bandi_catalogo.json'&&!url.searchParams.has('raw'))return filteredMainCatalog(request,env);
   if(url.pathname==='/radar_bandi_catalogo_extra.json'&&!url.searchParams.has('raw'))return mergedExtraCatalog(request,env);
   if(url.pathname.startsWith('/admin'))return serveHtmlWithInjection(request,env,adminSync);
-  if(url.pathname==='/'||url.pathname==='/index.html')return serveHtmlWithInjection(request,env,clientGuard+clientUiFix);
+  if(url.pathname==='/'||url.pathname==='/index.html'){
+   const raw=url.searchParams.get('p');
+   if(raw){
+    let input;try{const b64=(raw+'='.repeat((4-raw.length%4)%4)).replace(/-/g,'+').replace(/_/g,'/');input=JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(b64),c=>c.charCodeAt(0))))}catch{return shortLinkError('', 'Link cliente non valido.',400)}
+    if(input.license!=='RB-DEMO'){
+     if(!env.LICENSES)return shortLinkError('', 'Archivio licenze non disponibile.',503);
+     const rec=await env.LICENSES.get('license:'+normalizeCode(input.license),{type:'json'});
+     if(!rec?.profile||rec.active===false||isExpired(rec.expiresAt))return shortLinkError(input.license,'Licenza non attiva.',403);
+     const canonical=cleanProfile(rec.profile,normalizeCode(input.license),rec);
+     const response=await serveHtmlWithInjection(request,env,clientGuard+clientUiFix);
+     const html=(await response.text()).replace('<script>', '<script>window.BANDOVERA_PROFILE='+JSON.stringify(canonical).replace(/</g,'\\u003c')+';</script><script>');
+     const headers=new Headers(response.headers);headers.delete('content-length');
+     return new Response(html,{status:response.status,headers});
+    }
+   }
+   return serveHtmlWithInjection(request,env,clientGuard+clientUiFix);
+  }
   return env.ASSETS.fetch(request);
  }
 };
+

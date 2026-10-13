@@ -27,7 +27,7 @@ jobs:
           node-version: '22'
 
       - name: Collaudo dashboard e licenze
-        run: node --test tests/delivery.test.mjs
+        run: node --test tests/*.test.mjs
 
       - name: Deploy Worker
         uses: cloudflare/wrangler-action@v3
@@ -35,3 +35,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           wranglerVersion: '4.149.0'
           command: deploy --config wrangler.jsonc
+
