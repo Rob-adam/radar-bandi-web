@@ -1,3 +1,4 @@
+import {sendSupport} from "./support.js";
 import {hasAccess,accessToken,accessCookie,accessHash} from "./client-access.js";
 import {enrichProfile} from "./review-rules.js";
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}});
@@ -246,6 +247,8 @@ export default {
    const expired=isExpired(rec.expiresAt);
    return json({configured:true,registered:true,license:code,active:rec.active!==false&&!expired,expired,expiresAt:rec.expiresAt||null,versionTimestamp:vts});
   }
+  const supportMatch=url.pathname.match(/^\/api\/support\/(RB-\d{4,})$/i);
+  if(supportMatch)return sendSupport(request,env,normalizeCode(supportMatch[1]));
   const favoritesMatch=url.pathname.match(/^\/api\/favorites\/(RB-\d{4,})$/i);
   if(favoritesMatch&&(request.method==='GET'||request.method==='PUT')){
    const code=normalizeCode(favoritesMatch[1]);

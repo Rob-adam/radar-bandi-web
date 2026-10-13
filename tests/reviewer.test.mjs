@@ -60,12 +60,12 @@ test('support stays in the page, discloses destination and reports success only 
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
  assert.ok(!source.includes('mailto:'));assert.ok(source.includes('tramite FormSubmit'));assert.ok(source.includes('referente dell’assistenza BANDOVERA'));
  const a=source.indexOf('  async function sendFormSubmit('),z=source.indexOf('  /* ASSISTENZA DISSERVIZIO',a);
- const calls=[];let response={ok:true,json:async()=>({success:'true'})};
+ const calls=[];let response={ok:true,json:async()=>({success:true})};
  const form={querySelector:()=>({value:'test@example.org',setCustomValidity(){},checkValidity:()=>true}),reportValidity:()=>true};
- class FakeFormData{constructor(){this.fields=new Map()}set(k,v){this.fields.set(k,v)}}
- const context={FormData:FakeFormData,console:{error(){}},fetch:async(url,options)=>{calls.push({url,options});return response},EMAIL_DEST:'presidente@unrespirodisperanzalombardia.com'};
+ class FakeFormData{constructor(){this.fields=new Map()}set(k,v){this.fields.set(k,v)}get(k){return this.fields.get(k)}}
+ const context={profile:{license:'RB-0003'},location:{search:'?access='+TEST_TOKEN},URLSearchParams,FormData:FakeFormData,console:{error(){}},fetch:async(url,options)=>{calls.push({url,options});return response},EMAIL_DEST:'presidente@unrespirodisperanzalombardia.com'};
  vm.createContext(context);vm.runInContext(source.slice(a,z)+'globalThis.submit=sendFormSubmit;',context);
- let msg={innerHTML:''};assert.equal(await context.submit(form,msg),true);assert.equal(calls[0].url,'https://formsubmit.co/ajax/presidente@unrespirodisperanzalombardia.com');assert.equal(calls[0].options.body.fields.get('_replyto'),'test@example.org');assert.ok(msg.innerHTML.includes('Richiesta inviata.'));
+ let msg={innerHTML:''};assert.equal(await context.submit(form,msg),true);assert.equal(calls[0].url,'/api/support/RB-0003');assert.equal(JSON.parse(calls[0].options.body).email,'test@example.org');assert.ok(msg.innerHTML.includes('Richiesta inviata.'));
  for(const result of [{success:false},{success:'false'},{}]){response={ok:true,json:async()=>result};msg={innerHTML:''};assert.equal(await context.submit(form,msg),false);assert.ok(msg.innerHTML.includes('Invio non riuscito'));assert.ok(!msg.innerHTML.includes('Richiesta inviata.'));}
  response={ok:false,json:async()=>({success:true})};assert.equal(await context.submit(form,{innerHTML:''}),false);
  response={ok:true,json:async()=>{throw Error('Invalid JSON')}};assert.equal(await context.submit(form,{innerHTML:''}),false);
