@@ -41,3 +41,13 @@ Questa versione applica i rilievi verificabili del rapporto ricevuto e mantiene 
 - L'assistenza utilizza la casella esistente di Roberto, ora esplicitata, e una mail da inviare manualmente. Per invio integrato e casella dedicata serve una destinazione/servizio confermato.
 - Entrate, documenti e requisiti specifici non presenti sono mostrati come da verificare. Nessun bilancio o esperienza è stato inventato.
 - Questa versione deve essere verificata sul deployment effettivo prima di dichiarare conclusa la pubblicazione.
+
+## Esito della pubblicazione
+
+Deployment del commit d586cd46ed284d810cdba79de469e6742b515ecd: workflow 38356857883 concluso con successo.
+
+Controllo sul prodotto live: dashboard con link privato HTTP 200; preferiti con sessione autorizzata HTTP 200; preferiti senza chiave HTTP 403; link RB-0003 senza chiave HTTP 403. Nessun preferito cliente modificato durante il controllo online.
+
+Dal codice e catalogo effettivamente serviti: 23 opportunità; POP escluso dal filtro pertinenti e presente fra i non compatibili; voucher Volontariato 5.000 €, Note di comunità fino a 400.000 €; soglie 68/78/88 rimosse; anno 2014 e Casorezzo nel profilo canonico. Script live compilati e rendering dei filtri eseguito in ambiente DOM simulato. Nessun collaudo grafico in browser effettuato.
+
+Consegna del nuovo link completo al gestore; il token non viene riportato in questo documento pubblico. L'assistenza prepara una mail, che deve essere inviata dall'utente nel proprio programma email.
