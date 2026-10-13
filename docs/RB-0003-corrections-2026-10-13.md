@@ -32,12 +32,12 @@ Questa versione applica i rilievi verificabili del rapporto ricevuto e mantiene 
 
 ## Collaudo
 
-`node --test tests/*.test.mjs`: 15 test passati. Controllati anno POP ed estremi, soglia entrate inclusiva, requisiti ignoti/negativi, sedi e operatività, falsi match per sottostringhe, formula dell'affinità, ora di scadenza, preparazione mail, profilo manomesso, sospensione server, catena Worker, preferiti e origine della richiesta. Il workflow di pubblicazione esegue entrambe le suite.
+`node --test tests/*.test.mjs`: 16 test passati. Controllati anno POP ed estremi, soglia entrate inclusiva, requisiti ignoti/negativi, sedi e operatività, falsi match per sottostringhe, formula dell'affinità, ora di scadenza, preparazione mail, profilo manomesso, sospensione server, catena Worker, preferiti e origine della richiesta. Il workflow di pubblicazione esegue entrambe le suite.
 
 ## Limiti ancora aperti
 
 - Non è un collaudo di tutte le opportunità possibili in Italia né una certificazione di ammissibilità della cliente.
-- Il codice licenza continua a identificare il link di accesso e i preferiti. La correzione del profilo canonico non implementa autenticazione personale, link casuali o segregazione completa dei preferiti: questa parte del rilievo di sicurezza richiede un ulteriore intervento prima di dichiararla risolta.
+- RB-0003 richiede una chiave casuale di 256 bit nel link privato. Preferiti e pagina sono protetti nel Worker: conoscere il solo codice licenza non autorizza lettura o modifica. Il vecchio link senza chiave non consente il nuovo accesso. La consegna avviene cifrata con chiave pubblica; nessuna chiave di accesso è pubblicata nel repository o nei log. Non è un login personale: chi riceve il link completo può usarlo. Le licenze precedenti non migrate conservano il flusso esistente; le nuove licenze create dall’admin ottengono un link casuale.
 - L'assistenza utilizza la casella esistente di Roberto, ora esplicitata, e una mail da inviare manualmente. Per invio integrato e casella dedicata serve una destinazione/servizio confermato.
 - Entrate, documenti e requisiti specifici non presenti sono mostrati come da verificare. Nessun bilancio o esperienza è stato inventato.
 - Questa versione deve essere verificata sul deployment effettivo prima di dichiarare conclusa la pubblicazione.

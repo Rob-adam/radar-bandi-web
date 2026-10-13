@@ -1,3 +1,4 @@
+import {hasAccess,accessToken,accessCookie,accessHash} from "./client-access.js";
 import {enrichProfile} from "./review-rules.js";
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}});
 
@@ -251,6 +252,7 @@ export default {
    if(!env.LICENSES)return json({error:'Archivio preferiti non disponibile'},503);
    const license=await env.LICENSES.get('license:'+code,{type:'json'});
    if(!license||license.active===false||isExpired(license.expiresAt))return json({error:'Licenza non attiva'},403);
+   if(!await hasAccess(request,code,license))return json({error:'Accesso cliente non autorizzato'},403);
    const key='favorites:'+code;
    if(request.method==='GET'){
     const saved=await env.LICENSES.get(key,{type:'json'});
@@ -292,7 +294,8 @@ if(raw){
                name:rec.name||rec.profile?.name||'',
                active:rec.active!==false,
                expiresAt:rec.expiresAt||'',
-               price:Number(rec.price)||0
+               price:Number(rec.price)||0,
+               privateUrl:rec.accessToken?new URL('/'+(rec.license||key.name.replace('license:',''))+'?access='+encodeURIComponent(rec.accessToken),url.origin).toString():null
             });
          }
       }
@@ -318,9 +321,10 @@ if(raw){
    const base={license:code,name:String(body.name||previous?.name||''),active:body.active!==false,expiresAt:String(body.expiresAt||previous?.expiresAt||''),price:Number(body.price??previous?.price)||0,updatedAt:new Date().toISOString()};
    const suppliedProfile=body.profile&&typeof body.profile==='object'?body.profile:null;
    const profile=cleanProfile(suppliedProfile,code,base)||previous?.profile||null;
-   const rec={...base,profile};
+   const token=previous?.accessToken||crypto.randomUUID()+crypto.randomUUID();
+   const rec={...base,profile,accessToken:token,accessTokenHash:await accessHash(token)};
    await env.LICENSES.put('license:'+code,JSON.stringify(rec));
-   return json({ok:true,license:code,active:rec.active,expiresAt:rec.expiresAt,shortUrl:new URL('/'+code,url.origin).toString(),profileStored:!!profile});
+   return json({ok:true,license:code,active:rec.active,expiresAt:rec.expiresAt,shortUrl:new URL('/'+code+'?access='+encodeURIComponent(token),url.origin).toString(),profileStored:!!profile});
   }
   if(url.pathname==='/api/admin/sync-status'){
    return json({configured:!!env.LICENSES,adminSecret:!!env.ADMIN_API_KEY,versionTimestamp:versionTimestamp(env)});
@@ -332,10 +336,13 @@ if(raw){
    const rec=await env.LICENSES.get('license:'+code,{type:'json'});
    if(!rec)return shortLinkError(code,'Licenza non registrata.');
    if(rec.active===false||isExpired(rec.expiresAt))return shortLinkError(code,'Licenza non attiva.',403);
+   if(!await hasAccess(request,code,rec))return shortLinkError(code,'Utilizza il link privato completo ricevuto dal gestore BANDOVERA.',403);
    if(!rec.profile)return shortLinkError(code,'Il profilo cliente deve essere sincronizzato dalla Dashboard Admin prima di usare il link corto.',409);
    const profile=cleanProfile(rec.profile,code,rec);
    const target=new URL('/',url.origin);target.searchParams.set('p',encodeProfile(profile));
-   return Response.redirect(target.toString(),302);
+   const token=accessToken(request,code);if(token)target.searchParams.set('access',token);
+   const headers=new Headers({location:target.toString(),'cache-control':'no-store'});if(token)headers.append('set-cookie',accessCookie(code,token));
+   return new Response(null,{status:302,headers});
   }
   if(url.pathname==='/radar_bandi_catalogo.json'&&!url.searchParams.has('raw'))return filteredMainCatalog(request,env);
   if(url.pathname==='/radar_bandi_catalogo_extra.json'&&!url.searchParams.has('raw'))return mergedExtraCatalog(request,env);
@@ -348,10 +355,13 @@ if(raw){
      if(!env.LICENSES)return shortLinkError('', 'Archivio licenze non disponibile.',503);
      const rec=await env.LICENSES.get('license:'+normalizeCode(input.license),{type:'json'});
      if(!rec?.profile||rec.active===false||isExpired(rec.expiresAt))return shortLinkError(input.license,'Licenza non attiva.',403);
-     const canonical=cleanProfile(rec.profile,normalizeCode(input.license),rec);
+     const code=normalizeCode(input.license);
+     if(!await hasAccess(request,code,rec))return shortLinkError(code,'Utilizza il link privato completo ricevuto dal gestore BANDOVERA.',403);
+     const canonical=cleanProfile(rec.profile,code,rec);
      const response=await serveHtmlWithInjection(request,env,clientGuard+clientUiFix);
      const html=(await response.text()).replace('<script>', '<script>window.BANDOVERA_PROFILE='+JSON.stringify(canonical).replace(/</g,'\\u003c')+';</script><script>');
      const headers=new Headers(response.headers);headers.delete('content-length');
+     const token=accessToken(request,code);if(token)headers.append('set-cookie',accessCookie(code,token));headers.set('referrer-policy','no-referrer');
      return new Response(html,{status:response.status,headers});
     }
    }

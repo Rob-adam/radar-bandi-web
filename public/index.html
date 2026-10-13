@@ -202,7 +202,7 @@ function calc(b){
 const favoriteKey=b=>String(b?.sourceUrl||b?.id||"").replace(/\/+$/,'');
 async function saveFavorites(next){
  if(profile.license!=="RB-DEMO"){
-  const r=await fetch('/api/favorites/'+encodeURIComponent(profile.license),{method:'PUT',headers:{'content-type':'application/json'},body:JSON.stringify({favorites:next}),cache:'no-store'});
+  const r=await fetch('/api/favorites/'+encodeURIComponent(profile.license),{method:'PUT',headers:{'content-type':'application/json','x-bandovera-access':new URLSearchParams(location.search).get('access')||''},body:JSON.stringify({favorites:next}),cache:'no-store'});
   if(!r.ok)throw Error('Salvataggio dei preferiti non riuscito');
   const saved=await r.json();localStorage.setItem(P+"favsSavedAt",saved.updatedAt||new Date().toISOString());favoritesCloud=true;
  }
@@ -211,7 +211,7 @@ async function saveFavorites(next){
 async function loadFavorites(){
  if(profile.license==="RB-DEMO")return;
  try{
-  const r=await fetch('/api/favorites/'+encodeURIComponent(profile.license),{cache:'no-store'});
+  const r=await fetch('/api/favorites/'+encodeURIComponent(profile.license),{headers:{'x-bandovera-access':new URLSearchParams(location.search).get('access')||''},cache:'no-store'});
   if(!r.ok)throw Error('Preferiti non disponibili');
   const data=await r.json();
   const remote=Array.isArray(data.favorites)?data.favorites:[];

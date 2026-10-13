@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 import app from '../src/dashboard-wrapper.js';
+import {accessHash} from '../src/client-access.js';
+const TEST_TOKEN='test-client-token-0000000000000000000000000000';const TEST_HASH=await accessHash(TEST_TOKEN);const testCookie='bandovera_access_RB0003='+TEST_TOKEN;
 import {enrichProfile,reviewCall} from '../src/review-rules.js';
 const original=JSON.parse(fs.readFileSync(new URL('./rb0003-profile.json',import.meta.url),'utf8'));
 const base=enrichProfile(original);
@@ -58,10 +60,22 @@ test('support prepares an explicitly addressed draft and never uses FormSubmit',
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');assert.ok(!source.includes('formsubmit.co/'));assert.ok(source.includes('Richiesta preparata nel tuo programma email'));assert.ok(!source.includes('Richiesta inviata correttamente.'));
 });
 test('tampered profile is replaced with the stored profile; suspended licenses are blocked by Worker',async()=>{
- const records=new Map([['license:RB-0003',{active:true,profile:original}]]);
+ const records=new Map([['license:RB-0003',{active:true,profile:original,accessTokenHash:TEST_HASH}]]);
  const env={LICENSES:{get:async k=>records.get(k)||null},ASSETS:{fetch:async req=>new Response(fs.readFileSync(new URL('../public/index.html',import.meta.url)),{headers:{'content-type':'text/html'}})}};
  const p=Buffer.from(JSON.stringify({...original,name:'FORGED NAME',region:'Cuneo',foundationYear:2020})).toString('base64url');
- const html=await(await app.fetch(new Request('https://test.local/?p='+p),env)).text();
+ const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{cookie:testCookie}}),env)).text();
  const canonical=JSON.parse(html.match(/window.BANDOVERA_PROFILE=(.*?);<\/script>/)[1]);assert.equal(canonical.name,original.name);assert.equal(canonical.foundationYear,2014);assert.equal(canonical.region,'Veneto');
- records.set('license:RB-0003',{active:false,profile:original});assert.equal((await app.fetch(new Request('https://test.local/RB-0003'),env)).status,403);assert.equal((await app.fetch(new Request('https://test.local/?p='+p),env)).status,403);
+ records.set('license:RB-0003',{active:false,profile:original});assert.equal((await app.fetch(new Request('https://test.local/RB-0003'),env)).status,403);assert.equal((await app.fetch(new Request('https://test.local/?p='+p,{headers:{cookie:testCookie}}),env)).status,403);
+});
+test('knowing a license code cannot read or overwrite protected favorites',async()=>{
+ const data=new Map([['license:RB-0003',{active:true,profile:original,accessTokenHash:TEST_HASH}],['favorites:RB-0003',{favorites:['existing-favorite']}]]);
+ const env={LICENSES:{get:async k=>data.get(k),put:async(k,v)=>data.set(k,JSON.parse(v))}};
+ const url='https://test.local/api/favorites/RB-0003';
+ assert.equal((await app.fetch(new Request(url),env)).status,403);
+ assert.equal((await app.fetch(new Request(url,{headers:{'x-bandovera-access':'invalid-key'}}),env)).status,403);
+ assert.equal((await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://test.local','content-type':'application/json'},body:'{"favorites":[]}'}),env)).status,403);
+ assert.deepEqual(data.get('favorites:RB-0003').favorites,['existing-favorite']);
+ assert.equal((await app.fetch(new Request(url,{headers:{'x-bandovera-access':TEST_TOKEN}}),env)).status,200);
+ assert.equal((await app.fetch(new Request('https://test.local/RB-0003'),env)).status,403);
+ const redirect=await app.fetch(new Request('https://test.local/RB-0003?access='+TEST_TOKEN),env);assert.equal(redirect.status,302);assert.ok(redirect.headers.get('set-cookie').includes('HttpOnly'));
 });

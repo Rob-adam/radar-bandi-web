@@ -29,6 +29,12 @@ jobs:
       - name: Collaudo dashboard e licenze
         run: node --test tests/*.test.mjs
 
+      - name: Proteggi accesso privato RB-0003
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: node scripts/migrate-client-access.mjs
+
+
       - name: Deploy Worker
         uses: cloudflare/wrangler-action@v3
         with:
@@ -36,3 +42,10 @@ jobs:
           wranglerVersion: '4.149.0'
           command: deploy --config wrangler.jsonc
 
+
+      - name: Consegna link cifrato
+        uses: actions/upload-artifact@v4
+        with:
+          name: RB-0003-private-delivery
+          path: private-delivery/RB-0003-link.enc
+          retention-days: 1
