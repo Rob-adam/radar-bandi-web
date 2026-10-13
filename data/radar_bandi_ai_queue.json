@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T16:16:56+02:00",
+  "generatedAt": "2026-10-14T00:49:27+02:00",
   "ruleVersion": 3,
   "count": 11,
   "items": [
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 88,
+      "version": 90,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 82,
+      "version": 84,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -56,7 +56,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "id": "REG-AUTO-F203EFDB69DC",
-      "version": 50,
+      "version": 52,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "title": "canale bandi e avvisi",
@@ -81,7 +81,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "id": "RLW12025050885",
-      "version": 12,
+      "version": 14,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "title": "Apprendistato nelle scuole - A.F. 2026/2027",
@@ -105,7 +105,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "id": "RLD12026056783",
-      "version": 2,
+      "version": 4,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "title": "Elenco Centri Antiviolenza e Case Rifugio - Cancellazione",
@@ -130,7 +130,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "id": "RLF12026056983",
-      "version": 52,
+      "version": 54,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "title": "Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia",
@@ -154,7 +154,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "id": "RLA12026056683",
-      "version": 36,
+      "version": 38,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "title": "Presentazione e monitoraggio programmi di controllo 2027",
@@ -179,7 +179,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "id": "RLV12026057043",
-      "version": 12,
+      "version": 14,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
@@ -204,7 +204,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 96,
+      "version": 98,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -230,7 +230,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 116,
+      "version": 118,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -254,7 +254,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 116,
+      "version": 118,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
