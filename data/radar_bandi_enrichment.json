@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T14:05:58+02:00",
+  "generatedAt": "2026-10-14T19:14:41+02:00",
   "attempted": 15,
   "enriched": 15,
   "unchanged": 0,
@@ -81,6 +81,14 @@
       "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html"
     },
     {
+      "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "ok": true,
       "changed": [
@@ -131,15 +139,6 @@
         "sourceStatus"
       ],
       "url": "https://www.regione.puglia.it/bandi-e-avvisi#content"
-    },
-    {
-      "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html"
     }
   ]
 }
