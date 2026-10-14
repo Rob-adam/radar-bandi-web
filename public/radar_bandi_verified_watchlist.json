@@ -53,11 +53,13 @@
     {
       "id": "RLH12026055146",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
-          "note": "Avviso Housing linea3: personalità giuridica, sede operativa lombarda, piena disponibilità immobile per almeno20anni; massimo2milioni; termine30/10/2026 ore12.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
+            "checkedAt": "2026-10-14",
+            "note": "Riletta la pagina ufficiale il 14/10/2026 dopo la segnalazione di variazione: termine 30/10 ore 12, personalità giuridica, sede operativa lombarda e disponibilità immobile per almeno 20 anni confermati. L’aggiornamento della pagina non ha modificato questi dati."
+          }
+        ]
       }
     },
     {
@@ -153,11 +155,103 @@
     {
       "id": "CONIBAMBINI-NOTE-COMUNITA-2026",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
-          "note": "Fonte ufficiale conferma finalità e scadenza; requisiti completi della partnership restano da controllare nel bando prima di considerare l'ente ammissibile.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
+            "checkedAt": "2026-10-14",
+            "note": "Riletti pagina e bando ufficiali il 14/10/2026 dopo la segnalazione di variazione: termine 16/10 ore 13 e requisiti del responsabile e del partenariato confermati (sezioni 2.1–2.3). L’aggiornamento della pagina non prova una modifica dell’avviso."
+          },
+          {
+            "url": "https://www.conibambini.org/wp-content/uploads/2026/06/Bando-Note-di-comunita.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FC-NUOVI-PONTI-2026",
+      "tracking": {
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/nuovi-ponti-culturali/",
+            "checkedAt": "2026-10-14",
+            "note": "Pagina e bando ufficiali 2026, sezioni 4.1–4.2: canale senza scadenza, enti culturali privati non profit, requisiti statutari e attività professionale continuativa da documentare."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/03/Bando-Nuovi-ponti-culturali-2.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FC-MUSEI-ACCESS-2026",
+      "tracking": {
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/musei-e-accessibilita-universale/",
+            "checkedAt": "2026-10-14",
+            "note": "Pagina e testo ufficiali, sezioni 4.1–4.3: capofila proprietario o gestore di istituzione museale; partner e rete secondo bando; progetto in Lombardia, Novara o VCO; formazione obbligatoria."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/07/Testo-Bando-Musei-e-accessibilita.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FC-HOUSING-FRAGILI-2026",
+      "tracking": {
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/housing-sociale-per-persone-fragili/",
+            "checkedAt": "2026-10-14",
+            "note": "Pagina e bando Housing Sociale SAP 2026, sezioni 4.1–4.2: enti pubblici o privati non profit; nuovi servizi o potenziamento; canale senza scadenza; ricaduta in Lombardia, Novara o VCO."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/Bando-Housing-Sociale-SAP-2026.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "FC-COFIN-EU-2026",
+      "tracking": {
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/",
+            "checkedAt": "2026-10-14",
+            "note": "Pagina e Linee guida 2026, sezioni 4.2–4.5: enti pubblici o privati non profit con sede legale in Italia; ricadute concrete nel territorio Cariplo; programmi UE a cofinanziamento, escluso Horizon Europe; canale senza scadenza."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ER-CARISBO-EMERGENZE-2026",
+      "tracking": {
+        "verificationEvidence": [
+          {
+            "url": "https://fondazionecarisbo.it/bandi-e-iniziative/emergenze/",
+            "checkedAt": "2026-10-14",
+            "note": "Pagina e Bando Emergenze 2026: soggetti non profit ammissibili al Regolamento; progetto nella città metropolitana di Bologna, ammessa sede legale esterna; emergenza concreta da documentare."
+          },
+          {
+            "url": "https://fondazionecarisbo.it/wp-content/uploads/2026/01/Fondazione-Carisbo-Bando-Emergenze-2026.pdf",
+            "checkedAt": "2026-10-14",
+            "note": "Regolamento ufficiale verificato."
+          }
+        ]
       }
     }
   ]

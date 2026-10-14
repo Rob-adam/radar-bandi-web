@@ -13,7 +13,7 @@ function engine(p=base){
  const prefix=source.slice(0,source.indexOf('const favoriteKey='));
  const review=source.slice(source.indexOf('function sourceReview(b)'),source.indexOf('function status(r,b)'));
  const nodes=new Map();const context={window:{BANDOVERA_PROFILE:p},document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:''},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};
- vm.createContext(context);vm.runInContext(prefix+review+'globalThis.api={calc,conceptSet,fieldMatch,hardReqResult,callDays,isMarginal};})();',context);return context.api;
+ vm.createContext(context);vm.runInContext(prefix+review+'globalThis.api={calc,conceptSet,fieldMatch,hardReqResult,callDays,isMarginal,sourceReview,continuousDeadlineLabel};})();',context);return context.api;
 }
 function call(id){return reviewCall({id,title:id,sourceUrl:'https://official.example/call',territories:['italia'],legalForms:['aps'],tracking:{specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:'2026-10-13',verificationNote:'Test source'},sectors:['salute'],activities:['assistenza'],beneficiaries:['pazienti'],purposes:['salute']});}
 test('2014 excludes POP despite high thematic affinity; unknown foundation year remains unknown',()=>{
@@ -89,4 +89,19 @@ test('knowing a license code cannot read or overwrite protected favorites',async
  assert.equal((await app.fetch(new Request(url,{headers:{'x-bandovera-access':TEST_TOKEN}}),env)).status,200);
  assert.equal((await app.fetch(new Request('https://test.local/RB-0003'),env)).status,403);
  const redirect=await app.fetch(new Request('https://test.local/RB-0003?access='+TEST_TOKEN),env);assert.equal(redirect.status,302);assert.ok(redirect.headers.get('set-cookie').includes('HttpOnly'));
+});
+
+
+test('deadline wording never certifies a source whose verification is pending',()=>{
+ const e=engine();const good=call('FC-HOUSING-FRAGILI-2026');
+ assert.equal(e.continuousDeadlineLabel(good),'Senza scadenza (fonte verificata)');
+ const changed={...good,tracking:{...good.tracking,sourceMonitoringNeedsReview:true}};
+ assert.ok(e.sourceReview(changed));assert.equal(e.continuousDeadlineLabel(changed),'Scadenza da riconfermare');
+ assert.equal(e.continuousDeadlineLabel({...good,tracking:{continuousDeadlineConfirmed:true}}),'Scadenza da riconfermare');
+});
+test('reviewed sources do not certify applicant evidence and unresolved 2025 regulation is suspended',()=>{
+ const e=engine();for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
+  const b=call(id);assert.equal(e.sourceReview(b),'',id);assert.notEqual(e.calc(b).eligibilityState,'yes',id);
+ }
+ assert.equal(call('FCARIPARO-IMPRENDITORIA-SOCIALE-2026').sourceStatus,'sospeso');
 });

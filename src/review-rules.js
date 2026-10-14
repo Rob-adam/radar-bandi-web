@@ -1,3 +1,4 @@
+import {applySourceReview} from "./source-reviews.js";
 // Editorial corrections with explicit, three-state applicant requirements.
 export const REVIEWED_ADDITIONS=[
  {id:'TERZO-PILASTRO-SOLIDARIETA',title:'Sportello della solidarietà',source:'Fondazione Terzo Pilastro – Internazionale',sourceUrl:'https://www.fondazioneterzopilastrointernazionale.it/solidarieta/',deadline:null,deadlineType:'continuous',fund:null,maxGrant:100000,aid:'Richiesta da 50.000 a 100.000 €; una domanda all’anno, invio per raccomandata A/R con modulo e allegati completi.',territories:['italia'],legalForms:['non profit','ets','associazione'],sectors:['salute','sociale'],beneficiaries:['pazienti','famiglie'],activities:['assistenza sociosanitaria'],purposes:['assistenza ai malati e sostegno ai familiari'],tags:['Nazionale','Salute','Famiglie','Sportello'],eligibility:['Enti senza scopo di lucro, operanti nel territorio nazionale e nei Paesi del Mediterraneo.','Una domanda di contributo all’anno; compilare il modulo e tutti gli allegati richiesti.','Priorità all’assistenza sociosanitaria ai malati e al sostegno ai loro familiari.'],hardRequirements:[{type:'document',label:'Verificare modulo, allegati, budget e eventuali contributi già richiesti nell’anno'}],tracking:{specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,continuousDeadlineConfirmed:true,verifiedAt:'2026-10-13',verificationNote:'Pagina ufficiale: enti non profit, priorità sociosanitaria, sportello senza scadenza e importi confermati il 13/10/2026. Modulo completo da verificare per la candidatura.'}},
@@ -25,6 +26,8 @@ export function reviewCall(b){
   out.evidenceUrls=[...(out.evidenceUrls||[]),'https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf'];
   out.tracking.verificationNote='Allegato A DDS 4806/2026, A.3 e B.1: limite entrate 50.000 € e voucher fino a 5.000 € confermati il 13/10/2026.';
   out.tracking.verifiedAt='2026-10-13';
+  out.applicantChecks=(out.applicantChecks||[]).filter(c=>!String(c.label).includes('contributo massimo da verificare'));
+  out.eligibility=out.eligibility.filter(x=>!String(x).includes('contributo massimo da verificare'));
  }
  if(out.id==='UNIPOLIS-POP-2026'){out.grantLabel='Contributo fisso';out.aid='Contributo fisso di 50.000 € per un piano di rafforzamento dell’organizzazione; non finanzia singoli progetti.';out.tracking.verifiedAt='2026-10-13';}
  if(out.id==='RLJ12026054688')out.aid='Contributo fino all’80%: massimo 40.000 € per piccola scala e 100.000 € per larga scala. Verificare rete, durata e garanzie per l’anticipo.';
@@ -44,14 +47,14 @@ export function reviewCall(b){
   out.eligibility=['Partnership di almeno 3 soggetti: responsabile ETS, un altro ETS e soggetto pubblico o privato con finalità/esperienza musicale.','Capofila con sede legale nel comune capoluogo dell’intervento; esclusi capoluoghi di regione e aree indicate nel bando.','Intervento musicale inclusivo per minori 6–18 anni; verificare bilanci e documenti richiesti.'];
   out.tracking={...out.tracking,specificLegalFormConfirmed:true,eligibilityVerified:true,verifiedAt:'2026-10-13',verificationNote:'Bando ufficiale, sezioni 1.6 e 2: dotazione, importi, partenariato e requisiti letti il 13/10/2026.'};
  }
- if(out.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'){out.grantLabel='Tetto rimborso interessi';out.aid='Prestito fino a 500.000 €; rimborso interessi fino a 70.000 € ed eventuale premio secondo regolamento. La validità della finestra 2026 va confermata: il regolamento collegato riporta il 31/12/2025 salvo proroghe.';out.tracking.sourceMonitoringNeedsReview=true;}
+ if(out.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'){out.sourceStatus='sospeso';out.grantLabel='Tetto rimborso interessi';out.aid='Prestito fino a 500.000 €; rimborso interessi fino a 70.000 € ed eventuale premio secondo regolamento. La validità della finestra 2026 va confermata: il regolamento collegato riporta il 31/12/2025 salvo proroghe.';out.tracking.sourceMonitoringNeedsReview=true;}
  if(out.id==='OXFAM-COPOWER-2026'){out.eligibility=[...(out.eligibility||[]),'Seconda finestra: dal 1/12/2026 al 1/03/2027, ore 15. Requisiti differenti per capofila e partner.'];out.tracking.verifiedAt='2026-10-13';}
  out.applicantChecks=(out.applicantChecks||[]).filter(c=>!out.hardRequirements?.some(r=>r.label===c.label));
  const clean=s=>String(s).replace(/([A-Za-zÀ-ÿ])(\d)/g,'$1 $2').replace(/(\d)(anni|mesi|euro|milioni|mila)\b/g,'$1 $2');
  out.eligibility=[...new Set((out.eligibility||[]).map(clean))];
  out.applicantChecks=(out.applicantChecks||[]).map(c=>({...c,label:clean(c.label)}));
  if(out.tracking.verificationNote)out.tracking.verificationNote=clean(out.tracking.verificationNote);
- return out;
+ return applySourceReview(out);
 }
 
 export function enrichProfile(p){
@@ -72,3 +75,4 @@ export function enrichProfile(p){
   {type:'operational',region:'Trentino Alto Adige',province:'Bolzano',city:'Chiusa',country:'Italia',source}
  ],seatsComplete:p.seatsComplete===true};
 }
+

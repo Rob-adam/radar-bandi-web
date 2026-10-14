@@ -4,7 +4,7 @@
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
     "observed": 16,
-    "needsReview": 2,
+    "needsReview": 0,
     "failed": 0
   },
   "checks": {
@@ -70,15 +70,17 @@
     },
     "RLH12026055146|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
-      "evidenceCheckedAt": "2026-10-12",
+      "evidenceCheckedAt": "2026-10-14",
       "attemptedAt": "2026-10-14T13:58:14+02:00",
-      "baselineHash": "e1c5fad7eeeb53b2dad0a98be83b63a8cb7e9fc36235b980a858004bcd392897",
+      "baselineHash": "9cd610805218e9d22a5fc840ee725caf155d58b2be81906de971bcbea1bb57fa",
       "lastFetchSucceededAt": "2026-10-14T13:58:14+02:00",
       "ok": true,
-      "status": "changed",
+      "status": "reviewed",
       "observedHash": "9cd610805218e9d22a5fc840ee725caf155d58b2be81906de971bcbea1bb57fa",
-      "needsReview": true,
-      "bandoId": "RLH12026055146"
+      "needsReview": false,
+      "bandoId": "RLH12026055146",
+      "reviewedAt": "2026-10-14",
+      "reviewNote": "Pagina e documenti ufficiali riletti il 14/10/2026; contenuti essenziali confermati. Nuovo riferimento per le successive verifiche automatiche."
     },
     "MLPS-AVVISO-2-2026|https://lavoro.gov.it/temi-e-priorita/terzo-settore-e-responsabilita-sociale-delle-imprese/focus/riforma-terzo-settore/pagine/avviso-2-2026": {
       "url": "https://lavoro.gov.it/temi-e-priorita/terzo-settore-e-responsabilita-sociale-delle-imprese/focus/riforma-terzo-settore/pagine/avviso-2-2026",
@@ -190,15 +192,17 @@
     },
     "CONIBAMBINI-NOTE-COMUNITA-2026|https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/": {
       "url": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
-      "evidenceCheckedAt": "2026-10-12",
+      "evidenceCheckedAt": "2026-10-14",
       "attemptedAt": "2026-10-14T13:58:14+02:00",
-      "baselineHash": "8d85c07468f60a49eb4cb0d7fd331f7a18b4c588e43cfb565e3091c56fddef31",
+      "baselineHash": "ef876cd970260dfc4196c7626a9bea2286cf9c13959e4ddf7930935dd1c13606",
       "lastFetchSucceededAt": "2026-10-14T13:58:14+02:00",
       "ok": true,
-      "status": "changed",
+      "status": "reviewed",
       "observedHash": "ef876cd970260dfc4196c7626a9bea2286cf9c13959e4ddf7930935dd1c13606",
-      "needsReview": true,
-      "bandoId": "CONIBAMBINI-NOTE-COMUNITA-2026"
+      "needsReview": false,
+      "bandoId": "CONIBAMBINI-NOTE-COMUNITA-2026",
+      "reviewedAt": "2026-10-14",
+      "reviewNote": "Pagina e documenti ufficiali riletti il 14/10/2026; contenuti essenziali confermati. Nuovo riferimento per le successive verifiche automatiche."
     }
   }
 }

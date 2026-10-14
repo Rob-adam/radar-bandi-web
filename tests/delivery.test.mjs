@@ -16,3 +16,17 @@ test('thematic score cannot create applicant proof and marginal opportunities st
  const b={id:'verified',title:'Servizi per la salute',sourceUrl:'https://official.example/call',territories:['italia'],legalForms:['aps'],sectors:['salute'],eligibility:['APS'],tracking:{specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:'2026-10-12',verificationNote:'Official applicant rules checked'}};assert.equal(context.api.calc(b).eligibilityState,'verify');assert.equal(context.api.isMarginal({...b,sectors:['energia']},{score:10,thematicWarnings:[]}),true);
 });
 
+
+
+test('production catalogs apply documented reviews, preserve POP exclusion data and omit unconfirmed credit window',async()=>{
+ const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
+  const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);
+ }
+ assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
+ for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,'2026-10-14',id);assert.notEqual(b.tracking.sourceMonitoringNeedsReview,true,id);
+ }
+ assert.equal(all.find(b=>b.id==='FC-MUSEI-ACCESS-2026').maxGrant,200000);
+ assert.equal(all.find(b=>b.id==='FC-HOUSING-FRAGILI-2026').maxGrant,500000);
+ assert.ok(all.find(b=>b.id==='UNIPOLIS-POP-2026').hardRequirements.some(r=>r.type==='foundation_year'&&r.min===2016));
+});
