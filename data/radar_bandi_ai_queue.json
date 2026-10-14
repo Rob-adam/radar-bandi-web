@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T06:58:20+02:00",
+  "generatedAt": "2026-10-14T13:58:13+02:00",
   "ruleVersion": 3,
-  "count": 11,
+  "count": 10,
   "items": [
     {
       "key": "url:https://www.regione.liguria.it/newsletter.html",
       "id": "REG-AUTO-A69700527BEA",
-      "version": 92,
+      "version": 94,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "title": "attività istituzionale",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-6E3B78B0A572",
-      "version": 86,
+      "version": 88,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "canale bandi e avvisi",
@@ -56,7 +56,7 @@
     {
       "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "id": "REG-AUTO-F203EFDB69DC",
-      "version": 54,
+      "version": 56,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "title": "canale bandi e avvisi",
@@ -81,7 +81,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "id": "RLW12025050885",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "title": "Apprendistato nelle scuole - A.F. 2026/2027",
@@ -105,7 +105,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "id": "RLD12026056783",
-      "version": 6,
+      "version": 8,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "title": "Elenco Centri Antiviolenza e Case Rifugio - Cancellazione",
@@ -130,7 +130,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "id": "RLF12026056983",
-      "version": 56,
+      "version": 58,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "title": "Piano Lombardia – Interventi in favore del Politecnico di Milano (sede centrale e sede di Lecco) e dell’Istituto Universitario di Studi Superiori (IUSS), edificio denominato ‘Basilica Piccola’ a Pavia",
@@ -154,7 +154,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "id": "RLA12026056683",
-      "version": 40,
+      "version": 42,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "title": "Presentazione e monitoraggio programmi di controllo 2027",
@@ -179,7 +179,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "id": "RLV12026057043",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
@@ -202,35 +202,9 @@
       "text": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486"
     },
     {
-      "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
-      "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 100,
-      "source": "Regione Toscana · Bandi",
-      "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
-      "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
-      "territories": [
-        "toscana"
-      ],
-      "deadline": null,
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "stato_e_scadenza_da_verificare"
-      ],
-      "audience": {
-        "known": true,
-        "scope": "ets-specific",
-        "evidence": [
-          "ets"
-        ],
-        "specificLegalFormConfirmed": true,
-        "etsRelevant": true
-      },
-      "text": "Economia circolare: incentivi per il contrasto allo spreco alimentare Bando in: Ambiente | Rifiuti e bonifiche Economia circolare: incentivi per il contrasto allo spreco alimentare Progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali finanziati con 900 mila euro a favore delle Organizzazioni ETS Data di pubblicazione bando su Burt: 30.09.2026 Numero e parte del Burt: n. 39 Parte III Data di scadenza presentazione domande: 30.10.2026 14:00 Stato: Stato: Aperto Indice delle pagine Indice delle pagine Il Bando Allegati Link utili Con decreto dirigenziale 20605 del 17-09-2026 è stato approvato l’ avviso con il quale Regione Toscana mette a disposizione 900.000,00 euro (di cui 650.000 euro per spese di investimento e 250.000 euro per spese correnti) a favore delle organizzazioni ETS per finanziare progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali per la prevenzione dello spreco e delle eccedenze alimentari lungo tutta la filiera agroalimentare, distributiva e di consumo. Tanti sono gli interventi ammissibili, indicati nell’avviso a titolo esemplificativo: recupero delle eccedenze da mercati ortofrutticoli, grande distribuzione, mense scolastiche, aziendali, ospedaliere e settore alberghiero; allestimento e arredo di empori e mense solidali per la distribuzione gratuita di generi di prima necessità; creazione di HUB di quartiere , intesi come centri fisici di raccolta per le reti solidali locali; potenziamento della logistica , inclusi i sistemi di stoccaggio, trasporto e conservazione delle derrate, con l'obbligo di registrare i flussi in ingresso e in uscita. La domanda di finanziamento può essere presentata esclusivamente da un singolo ETS ma possono partecipare al progetto partner attivi sul territorio regio"
-    },
-    {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 120,
+      "version": 122,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -254,7 +228,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 120,
+      "version": 122,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",

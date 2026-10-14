@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-14T06:58:37+02:00",
+  "generatedAt": "2026-10-14T13:58:35+02:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
     "radar_bandi_catalogo_extra.json": 13,
-    "radar_bandi_auto.json": 18
+    "radar_bandi_auto.json": 17
   },
   "regions": {
     "abruzzo": {
@@ -69,7 +69,7 @@
     },
     "toscana": {
       "manual": 0,
-      "automatic": 1
+      "automatic": 0
     },
     "trentino-alto-adige": {
       "manual": 0,
@@ -107,6 +107,7 @@
     "molise",
     "sardegna",
     "sicilia",
+    "toscana",
     "umbria",
     "valle-d-aosta",
     "veneto"

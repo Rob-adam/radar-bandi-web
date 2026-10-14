@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-14T06:58:20+02:00",
+  "catalogUpdatedAt": "2026-10-14T13:58:13+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5441,9 +5441,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 144,
+      "version": 146,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5544,7 +5544,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5553,9 +5553,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-      "version": 144,
+      "version": 146,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5645,7 +5645,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5913,8 +5913,8 @@
       "version": 100,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
       "lastChangedAt": "2026-10-14T06:58:20+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-14T13:57:58+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -6459,9 +6459,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 118,
+      "version": 120,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6562,7 +6562,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6571,9 +6571,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 120,
+      "version": 122,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6672,7 +6672,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6681,9 +6681,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 120,
+      "version": 122,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6782,7 +6782,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -7672,9 +7672,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
       "contentHash": "25bf2f3212ef3defb2c137c856ffaaf0a814ff27000de1da24b4e56244409ed8",
-      "version": 92,
+      "version": 94,
       "firstSeenAt": "2026-09-30T00:20:08+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -7773,7 +7773,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -9688,9 +9688,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "contentHash": "7fb71713f878090fabe684e74e181f663dff0f36fd04a7cbd606c97ddbe8c5e0",
-      "version": 86,
+      "version": 88,
       "firstSeenAt": "2026-10-01T00:20:05+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -9789,7 +9789,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -10550,9 +10550,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/piano-lombardia-interventi-favore-politecnico-milano-sede-centrale-sede-lecco-istituto-universitario-studi-superiori-iuss-edificio-denominato-basilica-piccola-pavia-RLF12026056983",
       "contentHash": "fb9e63c7d02aef0f17f1fc282ff7ac9bcdf3c80700d96b2653b4653d742301fb",
-      "version": 56,
+      "version": 58,
       "firstSeenAt": "2026-10-05T16:45:36+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10647,7 +10647,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -10656,9 +10656,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
       "contentHash": "092e5bf009e2a379b793d2285dc8f0d582b549d40923ae8185a057b3a64d9810",
-      "version": 54,
+      "version": 56,
       "firstSeenAt": "2026-10-06T02:06:23+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10753,7 +10753,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -10872,9 +10872,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/presentazione-monitoraggio-programmi-controllo-2027-RLA12026056683",
       "contentHash": "107330e7c3dd97cd8e6560f4aea22dedb8aab39f99722de0fe8e0576e99ae4bb",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-10-08T15:35:09+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -10960,7 +10960,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -10968,10 +10968,10 @@
       "id": "RLY12026055345",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
-      "contentHash": "76a998c7394e3f3630e87889201ecd86edf624077ab3e2009eccb0c1ddbb9c70",
-      "version": 16,
+      "contentHash": "c0f9a6b2fb87f17602d43fd347607a52ec41ec892c4de460200c0150cce34b20",
+      "version": 18,
       "firstSeenAt": "2026-10-12T12:20:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11043,7 +11043,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
-        "discoveryText": "Bandi / Sicurezza e Protezione Civile / Interventi urgenti e post emergenza / Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Aperto Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Erogazione di contributi su base biennale per l'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile da parte di Comuni, singoli o associati, Unioni di Comuni, Comunità Montane e d Enti Parco (L.R. 27/2021 - ART. 22, C. 7) Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare A) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane, dotati di Gruppo comunale/intercomunale o appartenenti, come capofila, a un Gruppo intercomunale di Protezione Civile, iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026; B) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane , anche dotati di Gruppo comunale/intercomunale di Protezione Civile, che abbiano una convenzione vigente alla data di apertura del bando, con un soggetto del volontariato organizzato di protezione civile (VOPC) iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026. Di cosa si tratta Regione Lombardia, ai sensi della l.r. n. 27 del 29 dicembre 2021, contribuisce all’implementazione dell’efficienza e dell’efficacia dell’operatività del sistema di Protezione Civile di Regione Lombardia che si sviluppa territorialmente anche attraverso la partecipazione delle Organizzazioni di Volontariato organizzato operanti direttamente o in convenzione con gli enti territoriali facenti parte del Sistema di Protezione Civile, così come previsto dal D.Lgs. 1/2018 “Codice della Protezione Civile”. Tali enti operano a livello territoriale in fase preventiva ed emergenziale, con la partecipazione delle Organizzazioni di volontariato organizzato con volontari e dotazioni riferite a differenti specializzazioni. Obiettivo principale è di incrementare e rinnovare le dotazioni di automezzi e mezzi d’opera del Sistema di Protezione Civile per la gestione delle fasi di prevenzione e di emergenza territoriali, anche rafforzando a livello provinciale la capacità di risposta all’emergenza. I beneficiari diretti sono gli enti locali che devono poi, nelle forme opportune, mettere a disposizione queste dotazioni ad uso esclusivo di Protezione Civile alle Organizzazioni di Volontariato operanti sul territorio. Dotazione finanziaria I fondi a disposizione ammontano a euro 4.000.000,00 su base biennale. Caratteristiche dell'agevolazione Il contributo erogato è per tutte le tipologie, della spesa indicata nel preventivo nella quota del 90% rispetto alla tipologia di bene acquistato, della spesa indicata nel preventivo allegato in sede di presentazione della domanda di adesione, fino alla concorrenza dei massimali di seguito definiti. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. L’ultima domanda in graduatoria potrà essere finanziata anche per una quota di finanziamento inferiore alla percentuale prevista per la tipologia di bene, in funzione delle risorse disponibili, previa specifica accettazione da parte dei beneficiari stessi. Per tutte le tipologie il contributo massimo è pari al 90% della spesa preventivata. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. Il contributo minimo erogabile è pari ad euro 10.000,00 IVA inclusa. Il contributo massimo erogabile, per tutte le categorie tranne la categoria b), è pari ad euro 100.000,00 IVA inclusa; per la categoria b) il contributo massimo erogabile è pari a 150.000,00 euro. Potranno anche essere finanziati interventi di importo preventivato superiore all’importo massimo del contributo previsto; in tal caso la differenza tra il contributo massimo erogato e la spesa complessiva sarà a carico del beneficiario. Es. spesa preventivata 200.000,00 euro – contributo erogato 150.000,00 euro. Le domande relative alle tipologie di beni di cui alle categorie a), b), c) potranno prevedere l’acquisto di un solo bene, appartenente ad una delle tre categorie. Le domande riferite alle tipologie di beni di cui alle categorie d), e), f), g), h), i) potranno prevedere l’acquisto di più beni, anche appartenenti alle diverse categorie interessate Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n.41 del 5 ottobre 2026 Come partecipare La domanda di partecipazione deve essere presentata esclusivamente attraverso il sistema informativo “Bandi e Servizi” all’indirizzo www.bandi.regione.lombardia.it , accessibile tramite SPiD, CNS/CRS o CIE. Le domande presentate con modalità differenti dalla piattaforma Bandi e Servizi non saranno considerate ammissibili. Le domande dovranno essere sottoscritte con firma elettronica dal legale rappresentante del soggetto richiedente, o da suo delegato Procedura selezione La tipologia di procedura utilizzata per l’assegnazione del contributo regionale è valutativa a graduatoria, definita in base al punteggio totale conseguito, sulla base dei seguenti criteri: Numero dei volontari operativi iscritti al Gruppo e/o alla ODV convenzionata, alla data del 30 settembre 2026 (con punteggio per classi di numero volontari). Il dato è rilevato automaticamente dal sistema DBVOL; Domanda presentata da soggetti aggregati (unioni di comuni, associazioni, cm, parchi); Rischio-idrogeologico: rapporto tra aree a rischio di ciascun comune/area urbanizzata; Popolazione residente nel Comune; in caso di domanda presentata da enti a cui sono riferiti più Comuni, sarà calcolata la media aritmetica (punteggio per classi di popolazione); Soggetti beneficiari di contributo nei precedenti bandi 2021 (DGR XI/4840/2021 e DGR XI/5911/2022), 2022 (DGR XI/6510/2022) e 2023 (DGR XII/694/2023): il punteggio verrà ridotto in proporzione. Informazioni e contatti Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile scrivere all’indirizzo bandi@regione.lombardia.it o contattare il Call Center al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica. Per informazioni e segnalazioni relative al bando: • Michele Guarnieri – 02.6765.0501 michele_guarnieri@regione.lombardia.it • Giovanni Caldiroli – 02.6765.2993 giovanni_caldiroli@regione.lombardia.it Allegati DDS_13300 - 08/10/2026 Allegato A - 08/10/2026 Incarico per la sottoscrizione digitale - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026 ALLEGATO 1 DDS 13300 - 08/10/2026 DDS_12642 - 28/09/2026 Mostra altri"
+        "discoveryText": "Bandi / Sicurezza e Protezione Civile / Interventi urgenti e post emergenza / Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Aperto Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Erogazione di contributi su base biennale per l'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile da parte di Comuni, singoli o associati, Unioni di Comuni, Comunità Montane e d Enti Parco (L.R. 27/2021 - ART. 22, C. 7) Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare A) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane, dotati di Gruppo comunale/intercomunale o appartenenti, come capofila, a un Gruppo intercomunale di Protezione Civile, iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026; B) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane , anche dotati di Gruppo comunale/intercomunale di Protezione Civile, che abbiano una convenzione vigente alla data di apertura del bando, con un soggetto del volontariato organizzato di protezione civile (VOPC) iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026. Di cosa si tratta Regione Lombardia, ai sensi della l.r. n. 27 del 29 dicembre 2021, contribuisce all’implementazione dell’efficienza e dell’efficacia dell’operatività del sistema di Protezione Civile di Regione Lombardia che si sviluppa territorialmente anche attraverso la partecipazione delle Organizzazioni di Volontariato organizzato operanti direttamente o in convenzione con gli enti territoriali facenti parte del Sistema di Protezione Civile, così come previsto dal D.Lgs. 1/2018 “Codice della Protezione Civile”. Tali enti operano a livello territoriale in fase preventiva ed emergenziale, con la partecipazione delle Organizzazioni di volontariato organizzato con volontari e dotazioni riferite a differenti specializzazioni. Obiettivo principale è di incrementare e rinnovare le dotazioni di automezzi e mezzi d’opera del Sistema di Protezione Civile per la gestione delle fasi di prevenzione e di emergenza territoriali, anche rafforzando a livello provinciale la capacità di risposta all’emergenza. I beneficiari diretti sono gli enti locali che devono poi, nelle forme opportune, mettere a disposizione queste dotazioni ad uso esclusivo di Protezione Civile alle Organizzazioni di Volontariato operanti sul territorio. Dotazione finanziaria I fondi a disposizione ammontano a euro 4.000.000,00 su base biennale. Caratteristiche dell'agevolazione Il contributo erogato è per tutte le tipologie, della spesa indicata nel preventivo nella quota del 90% rispetto alla tipologia di bene acquistato, della spesa indicata nel preventivo allegato in sede di presentazione della domanda di adesione, fino alla concorrenza dei massimali di seguito definiti. Ciascun Ente potrà presentare una sola domanda. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. L’ultima domanda in graduatoria potrà essere finanziata anche per una quota di finanziamento inferiore alla percentuale prevista per la tipologia di bene, in funzione delle risorse disponibili, previa specifica accettazione da parte dei beneficiari stessi. Per tutte le tipologie il contributo massimo è pari al 90% della spesa preventivata. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. Il contributo minimo erogabile è pari ad euro 10.000,00 IVA inclusa. Il contributo massimo erogabile, per tutte le categorie tranne la categoria b), è pari ad euro 100.000,00 IVA inclusa; per la categoria b) il contributo massimo erogabile è pari a 150.000,00 euro. Potranno anche essere finanziati interventi di importo preventivato superiore all’importo massimo del contributo previsto; in tal caso la differenza tra il contributo massimo erogato e la spesa complessiva sarà a carico del beneficiario. Es. spesa preventivata 200.000,00 euro – contributo erogato 150.000,00 euro. Le domande relative alle tipologie di beni di cui alle categorie a), b), c) potranno prevedere l’acquisto di un solo bene, appartenente ad una delle tre categorie. Le domande riferite alle tipologie di beni di cui alle categorie d), e), f), g), h), i) potranno prevedere l’acquisto di più beni, anche appartenenti alle diverse categorie interessate Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n.41 del 5 ottobre 2026 Come partecipare La domanda di partecipazione deve essere presentata esclusivamente attraverso il sistema informativo “Bandi e Servizi” all’indirizzo www.bandi.regione.lombardia.it , accessibile tramite SPiD, CNS/CRS o CIE. Le domande presentate con modalità differenti dalla piattaforma Bandi e Servizi non saranno considerate ammissibili. Le domande dovranno essere sottoscritte con firma elettronica dal legale rappresentante del soggetto richiedente, o da suo delegato Procedura selezione La tipologia di procedura utilizzata per l’assegnazione del contributo regionale è valutativa a graduatoria, definita in base al punteggio totale conseguito, sulla base dei seguenti criteri: Numero dei volontari operativi iscritti al Gruppo e/o alla ODV convenzionata, alla data del 30 settembre 2026 (con punteggio per classi di numero volontari). Il dato è rilevato automaticamente dal sistema DBVOL; Domanda presentata da soggetti aggregati (unioni di comuni, associazioni, cm, parchi); Rischio-idrogeologico: rapporto tra aree a rischio di ciascun comune/area urbanizzata; Popolazione residente nel Comune; in caso di domanda presentata da enti a cui sono riferiti più Comuni, sarà calcolata la media aritmetica (punteggio per classi di popolazione); Soggetti beneficiari di contributo nei precedenti bandi 2021 (DGR XI/4840/2021 e DGR XI/5911/2022), 2022 (DGR XI/6510/2022) e 2023 (DGR XII/694/2023): il punteggio verrà ridotto in proporzione. Informazioni e contatti Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile scrivere all’indirizzo bandi@regione.lombardia.it o contattare il Call Center al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica. Per informazioni e segnalazioni relative al bando: • Michele Guarnieri – 02.6765.0501 michele_guarnieri@regione.lombardia.it • Giovanni Caldiroli – 02.6765.2993 giovanni_caldiroli@regione.lombardia.it Allegati DDS_13518 del 14-10-2026 - 14/10/2026 Allegato A rettificato - 14/10/2026 rettifica allegato 1 - 14/10/2026 DDS_13300 - 08/10/2026 Allegato A - 08/10/2026 Incarico per la sottoscrizione digitale - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026 ALLEGATO 1 DDS 13300 - 08/10/2026 DDS_12642 - 28/09/2026 Mostra altri"
       },
       "triage": {
         "status": "rules-resolved",
@@ -11071,7 +11071,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -11080,9 +11080,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
       "contentHash": "c2e4110f0288b288bebaf076bb0c2c3298af4b76da97e7fd525b57a736244942",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-10-12T12:20:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11176,7 +11176,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -11185,9 +11185,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "contentHash": "a8ada34c94087add971531446e15f16b91c81ce65bf440673d5338360c49fc49",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-10-12T12:20:28+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11277,7 +11277,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -11507,9 +11507,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/realizzazione-sportelli-ascolto-favore-persone-uscita-dai-luoghi-detenzione-esecuzione-penale",
       "contentHash": "186fc374632e66d508c67121d1f18df5a320ade98273880508fd531205223fa8",
-      "version": 14,
+      "version": 16,
       "firstSeenAt": "2026-10-12T17:31:42+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11608,7 +11608,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     },
@@ -11617,9 +11617,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "contentHash": "faa9075990f12ae7b8d6804cf85ac3a350b277f05c5e6dcfea8a66f333a5aed6",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-10-13T16:16:36+02:00",
-      "lastChangedAt": "2026-10-14T06:58:20+02:00",
+      "lastChangedAt": "2026-10-14T13:58:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11712,17 +11712,17 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-14T06:58:20+02:00"
+        "evaluatedAt": "2026-10-14T13:58:13+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-14T06:58:20+02:00",
+  "triageUpdatedAt": "2026-10-14T13:58:13+02:00",
   "triageSummary": {
     "rulesResolved": 7,
     "rulesExcludedForEts": 0,
-    "aiRequired": 11,
-    "notPresent": 85,
+    "aiRequired": 10,
+    "notPresent": 86,
     "ruleVersion": 3
   }
 }
