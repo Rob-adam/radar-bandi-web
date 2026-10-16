@@ -1,86 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T06:36:38+02:00",
+  "generatedAt": "2026-10-16T13:30:00+02:00",
   "ruleVersion": 3,
-  "count": 9,
+  "count": 7,
   "items": [
-    {
-      "key": "url:https://www.regione.liguria.it/newsletter.html",
-      "id": "REG-AUTO-A69700527BEA",
-      "version": 110,
-      "source": "Regione Liguria · Bandi",
-      "sourceUrl": "https://www.regione.liguria.it/newsletter.html",
-      "title": "attività istituzionale",
-      "territories": [
-        "liguria"
-      ],
-      "deadline": "2026-10-20",
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "destinatari_da_interpretare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "Homepage / iscriviti alla newsletter / Iscriviti alla newsletter Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile Iscriviti alla newsletter In questa pagina è riportata la Privacy Policy della newsletter di Regione Liguria, Newsliguria. Prima di iscriverti al servizio, leggi le condizioni vai alla form di iscrizione Privacy Policy LA PRIVACY POLICY DI QUESTO SITO (Sintesi) Titolare: Regione Liguria Finalità del trattamento: assolvere all’obbligo normativo in relazione all’amministrazione trasparente, garantire l’accesso ai servizi forniti da Regione Liguria Liceità: pubblico interesse e obbligo normativo Destinatari: responsabili e autorizzati Periodo di conservazione dei dati: i dati vengono conservati per la durata del servizio Esercizio dei suoi diritti: potrà esercitare i suoi diritti consultando la specifica sezione LA PRIVACY POLICY DI QUESTO SITO (Articolo 13 del Regolamento UE 679/2016) PERCHÉ QUESTO AVVISO In questa pagina si descrivono le modalità di gestione di Newsliguria, la newsletter di Regione Liguria in riferimento al trattamento dei dati personali degli utenti che richiedono di riceverla. Il conferimento dei dati (indirizzo email) è obbligatorio per l'iscrizione al servizio di newsletter. Si tratta di un’informativa che è resa ai sensi dell’art.13 del del Regolamento UE 679/2016 – Regolamento generale sulla Protezione dei Dati, che si applica dal 25 maggio 2018 a coloro che si iscrivono alla newsletter a partire dall’indirizzo: http://www.regione.liguria.it La presente Informativa sulla privacy è resa solo per la newsletter e per i siti di Regione Liguria ai quali rimanda, non anche per altri siti web eventualmente consultati dall’utente tramite link. Il Titolare non assume alcuna responsabilità in ordine al contenuto dei siti a cui è"
-    },
-    {
-      "key": "url:https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
-      "id": "REG-AUTO-F203EFDB69DC",
-      "version": 72,
-      "source": "Regione Liguria · Bandi",
-      "sourceUrl": "https://www.regione.liguria.it/homepage-bandi-e-avvisi/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
-      "title": "canale bandi e avvisi",
-      "territories": [
-        "liguria"
-      ],
-      "deadline": null,
-      "sourceStatus": "da-verificare",
-      "reasons": [
-        "destinatari_da_interpretare",
-        "stato_e_scadenza_da_verificare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "Homepage / homepage bandi e avvisi / Concessione di contributi a enti e associazioni per l'accoglienza di nuclei familiari in disagio socio-economico con bambini in cura presso gli ospedali pediatrici della Regione Liguria Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile Concessione di contributi a enti e associazioni per l'accoglienza di nuclei familiari in disagio socio-economico con bambini in cura presso gli ospedali pediatrici della Regione Liguria Data pubblicazione: 06 Ottobre 2026 Data apertura: 06 Ottobre 2026 Data chiusura: 26 Ottobre 2026 Beneficiari: enti e associazioni Soggetto proponente: Regione Liguria Le domande devono essere presentate, pena la non ammissione, dal 6 al 26 ottobre 2026 esclusivamente on-line attraverso le modalità Sportellonline Documenti deliberazione della Giunta regionale n.399 del 24 settembre 2026 pdf (550.12 Kb) Iscriviti alla Newsletter Seguici sui social"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
-      "id": "RLW12025050885",
-      "version": 32,
-      "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/apprendistato-scuole-f-2026-2027-RLW12025050885",
-      "title": "Apprendistato nelle scuole - A.F. 2026/2027",
-      "territories": [
-        "lombardia"
-      ],
-      "deadline": "2028-07-23",
-      "sourceStatus": null,
-      "reasons": [
-        "destinatari_da_interpretare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / Apprendistato nelle scuole - A.F. 2026/2027 Aperto Apprendistato nelle scuole - A.F. 2026/2027 Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Avviso pubblico per il finanziamento di percorsi formativi finalizzati all'acquisizione del diploma di istruzione secondaria superiore, anche nell'ambito della filiera formativa tecnologico-professionale (4+2), nonché dei titoli di qualifica e diploma professionale in sussidiarietà. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025050885 Pubblicato il: 08/10/2026 , ore 11:35 Domande dal: 12/10/2026 , ore 10:00 Scade il: 23/07/2028 , ore 14:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare La domanda di finanziamento può essere presentata da uno dei seguenti soggetti: Istituzioni scolastiche che, ai sensi dell’Accordo territoriale fra Regione Lombardia e Ufficio Scolastico Regionale, erogano percorsi di Istruzione e Formazione Professionale in sussidiarietà; Istituzioni scolastiche di istruzione secondaria (statali e paritarie) di II grado aventi sede nel territorio regionale. Istituzioni scolastiche di istruzione secondaria di II grado aventi sede nel territorio regionale e che hanno ottenuto l’autorizzazione del Ministero dell’Istruzione e del Merito e che sono inserite nell’elenco delle filiere approvate in Regione Lombardia. Di cosa si tratta L'Avviso è finali"
-    },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/cofinanziamento-interventi-sostegno-mercati-comuni-lombardi-RLO12026055188",
       "id": "RLO12026055188",
-      "version": 6,
+      "version": 8,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/cofinanziamento-interventi-sostegno-mercati-comuni-lombardi-RLO12026055188",
       "title": "COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI",
@@ -104,7 +31,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "id": "RLD12026056783",
-      "version": 22,
+      "version": 24,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "title": "Elenco Centri Antiviolenza e Case Rifugio - Cancellazione",
@@ -127,9 +54,33 @@
       "text": "Procedimenti / Politiche Sociali / Abitare in un alloggio pubblico / Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Aperto Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Albo regionale dei Centri Antiviolenza e delle Case rifugio: modalità per la cancellazione dall'Elenco da parte dei soggetti individuati dal decreto nr. 16745 del 27.10.2023. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti e operatori Di cosa si tratta Con DGR n. XII/1073 del 9 ottobre 2023 è stato istituito l'Albo regionale dei Centri Antiviolenza e delle Case Rifugio previsto all'art. 3 della l.r. 3 luglio 2012, n. 11. Possono iscriversi gli enti locali e i soggetti giuridici privati non profit previsti dalla legge regionale n. 11 del 3 luglio 2012 e dall’Intesa Stato-Regioni del 2022 così come specificati negli allegati A) e B) alla delibera richiamata I soggetti giuridici in possesso dei requisiti potranno presentare domanda di iscrizione in ogni momento dell'anno. La DGR è disponibile in allegato a questa pagina ed è pubblicata sul BURL SO n. 41 del 13 ottobre 2023. Come partecipare Le domande dovranno essere presentate esclusivamente tramite portale Bandi e Servizi cliccando su \"Fai do"
     },
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
+      "id": "RLAN2026056903",
+      "version": 2,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
+      "title": "PREMIO IDEALE SPORTIVO",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-03",
+      "sourceStatus": null,
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Cultura, Turismo e Sport / Fare sport / PREMIO IDEALE SPORTIVO Aperto PREMIO IDEALE SPORTIVO Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Presentazione candidature dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Le candidature possono essere presentate esclusivamente da: Federazioni Sportive Nazionali (FSN) Discipline Sportive Associate (DSA) Enti di Promozione Sportiva (EPS) riconosciuti dal CONI o dal CIP. Ciascun organismo sportivo può proporre: la candidatura di una ASD/SSD affiliata; la candidatura di un volontario segnalato dai propri comitati regionali/associazioni. Di cosa si tratta Il \" Premio Ideale sportivo ” è istituito dalla Giunta regionale della Lombardia ( DGR n. 6812 del 28/09/2026 ), in attuazione degli artt. 3 e 6 della l.r. n. 3 del 6 febbraio 2026 , per riconoscere pubblicamente l'impegno di Associazioni e Società sportive dilettantistiche e singoli cittadini nella promozione dell’ideale sportivo definito all’art.1 della legge regionale quale modo di intendere e praticare l'attività sportiva, basato sul rispetto della persona e delle regole, sulla correttezza, sulla tolleranza e sulla lealtà e promuove il volontariato in ambito sportivo. BURL DGR n. 6812 del 28/0"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "id": "RLV12026057043",
-      "version": 32,
+      "version": 34,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
@@ -154,7 +105,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 114,
+      "version": 116,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -180,7 +131,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 138,
+      "version": 140,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -204,7 +155,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 138,
+      "version": 140,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
