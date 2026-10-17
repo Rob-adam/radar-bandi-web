@@ -1,5 +1,5 @@
 {
-  "updatedAt": "17/10/2026 17:39",
+  "updatedAt": "17/10/2026 22:40",
   "schemaVersion": 7,
   "automatic": true,
   "regionsEnabled": [
@@ -191,8 +191,8 @@
     {
       "source": "Regione Toscana · Bandi",
       "region": "toscana",
-      "found": 1,
-      "ok": true
+      "found": 0,
+      "ok": false
     },
     {
       "source": "Regione Trentino-Alto Adige · Bandi",
@@ -233,7 +233,8 @@
     "puglia": 1
   },
   "errors": [
-    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))"
+    "Regione Abruzzo · Bandi: HTTPSConnectionPool(host='www.regione.abruzzo.it', port=443): Max retries exceeded with url: /contenuti/bandi (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))",
+    "Regione Toscana · Bandi: HTTPSConnectionPool(host='www.regione.toscana.it', port=443): Read timed out. (read timeout=30)"
   ],
   "bandi": [
     {
@@ -304,15 +305,15 @@
       "autoDiscovered": true,
       "discoveryText": "Regione autonoma Trentino-Alto Adige/Südtirol Amministrazione Trasparente Bandi di gara e contratti Amministrazione Trasparente La trasparenza è intesa come accessibilità totale delle informazioni concernenti l'organizzazione e l'attività delle pubbliche amministrazioni, allo scopo di favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche. Condividi Facebook Twitter Linkedin Whatsapp Vedi azioni Invia Amministrazione Trasparente Disposizioni generali Piano triennale per la prevenzione della corruzione e della trasparenza Atti generali Riferimenti normativi su organizzazione e attività Atti amministrativi generali Documenti di programmazione strategico-gestionale Statuti e leggi regionali Codice disciplinare, codice di condotta e codice di comportamento contro le molestie e gli atti lesivi della dignità personale sul luogo di lavoro Oneri informativi per cittadini e imprese Burocrazia zero Organizzazione Titolari di incarichi politici, di amministrazione, di direzione o di governo Titolari di incarichi politici di cui all'art.14, co.1, del d.lgs n. 33/2013 Titolari di incarichi di amministrazione, di direzione o di governo di cui all'art.14, co. 1-bis, del d.lgs n.33/2013 Cessati dall'incarico Sanzioni per mancata comunicazione dei dati Rendiconti gruppi consiliari regionali/provinciali Articolazione degli uffici Telefono e posta elettronica Consulenti e collaboratori Titolari di incarichi di collaborazione o consulenza Personale Titolari di incarichi dirigenziali amministrativi di vertice Titolari di incarichi dirigenziali (dirigenti non generali) Dirigenti cessati Sanzioni per mancata comunicazione dei dati Posizioni organizzative Dotazione organica Personale non a tempo indeterminato Costo del personale non a tempo indeterminato Personale non a tempo indeterminato Tassi di assenza Incarichi conferiti e autorizzati ai dipendenti (dirigenti e non dirigenti) Contrattazione collettiva Contrattazione integrativa OIV Dati di genere Bandi di concorso Performance Sistema di misurazione e valutazione della Performance Piano della performance Relazione sulla performance Ammontare complessivo dei premi Dati relativi ai premi Benessere organizzativo Enti controllati Enti pubblici vigilati Società partecipate Dati società partecipate Provvedimenti Enti di diritto privato controllati Rappresentazione grafica Attività e procedimenti Dati aggregati attività amministrativa Tipologie di procedimento Monitoraggio tempi procedimentali Dichiarazioni sostitutive e acquisizione d'ufficio dei dati Provvedimenti Provvedimenti organi indirizzo politico Decreti del Presidente e degli Assessori Deliberazioni della Giunta regionale Provvedimenti dirigenti Controlli sulle imprese Bandi di gara e contratti Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Atti relativi alla programmazione di lavori, opere, servizi e forniture Atti relativi alle procedure per l’affidamento di appalti pubblici di servizi, forniture, lavori e opere, di concorsi pubblici di progettazione, di concorsi di idee e di concessioni Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati Sovvenzioni, contributi, sussidi, vantaggi economici Criteri e modalità Atti di concessione Bilanci Bilancio preventivo e consuntivo Bilancio preventivo Bilancio consuntivo Piano degli indicatori e dei risultati attesi di bilancio Beni immobili e gestione patrimonio Patrimonio immobiliare Canoni di locazione o affitto Controlli e rilievi sull'amministrazione Organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe Attestazione dell'OIV o di altra struttura analoga nell'assolvimento degli obblighi di pubblicazione Organi di revisione amministrativa e contabile Corte dei conti Servizi erogati Carta dei servizi e standard di qualità Class action Costi contabilizzati Liste di attesa Servizi in rete Pagamenti dell'amministrazione Dati sui pagamenti Dati sui pagamenti del servizio sanitario nazionale Indicatore di tempestività dei pagamenti Indicatore di tempestività dei pagamenti Ammontare complessivo dei debiti IBAN e pagamenti informatici Opere pubbliche Nuclei di valutazione e verifica degli investimenti pubblici Atti di programmazione delle opere pubbliche Tempi costi e indicatori di realizzazione delle opere pubbliche Pianificazione e governo del territorio Informazioni ambientali Strutture sanitarie private accreditate Interventi straordinari e di emergenza Altri contenuti Prevenzione della Corruzione Piano triennale per la prevenzione della corruzione e per la trasparenza Responsabile della prevenzione della corruzione e della trasparenza Regolamenti per la prevenzione e la repressione della corruzione e dell'illegalità Relazione del responsabile della prevenzione della corruzione e della trasparenza Provvedimenti adottati dall'A.N.AC. ed atti di adeguamento a tali provvedimenti Atti di accertamento delle violazioni WHISTLEBLOWING - Segnalazione di presunti illeciti Accesso civico Accesso civico \"semplice\" concernente dati, documenti e informazioni soggetti a pubblicazione obbligatoria Accesso civico \"generalizzato\" concernente documenti ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria Registro degli accessi Gestore delle segnalazioni antiriciclaggio Accessibilità e Catalogo di dati, metadati e banche dati Catalogo dei dati, metadati e delle banche dati Regolamenti Obiettivi di accessibilità Dati ulteriori Protezione dei dati personali Spese di rappresentanza Censimento autovetture Bandi di gara e contratti Nota In questa sezione sono pubblicati i bandi di gara e le informazioni, nonché i dati relativi all'attività contrattuale dell'Amministrazione regionale. Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati",
       "sourceStatus": "da-verificare",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-        "version": 150,
+        "version": 152,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -321,8 +322,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -394,15 +395,15 @@
       "autoDiscovered": true,
       "discoveryText": "Regione autonoma Trentino-Alto Adige/Südtirol Amministrazione Trasparente Bandi di gara e contratti Amministrazione Trasparente La trasparenza è intesa come accessibilità totale delle informazioni concernenti l'organizzazione e l'attività delle pubbliche amministrazioni, allo scopo di favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche. Condividi Facebook Twitter Linkedin Whatsapp Vedi azioni Invia Amministrazione Trasparente Disposizioni generali Piano triennale per la prevenzione della corruzione e della trasparenza Atti generali Riferimenti normativi su organizzazione e attività Atti amministrativi generali Documenti di programmazione strategico-gestionale Statuti e leggi regionali Codice disciplinare, codice di condotta e codice di comportamento contro le molestie e gli atti lesivi della dignità personale sul luogo di lavoro Oneri informativi per cittadini e imprese Burocrazia zero Organizzazione Titolari di incarichi politici, di amministrazione, di direzione o di governo Titolari di incarichi politici di cui all'art.14, co.1, del d.lgs n. 33/2013 Titolari di incarichi di amministrazione, di direzione o di governo di cui all'art.14, co. 1-bis, del d.lgs n.33/2013 Cessati dall'incarico Sanzioni per mancata comunicazione dei dati Rendiconti gruppi consiliari regionali/provinciali Articolazione degli uffici Telefono e posta elettronica Consulenti e collaboratori Titolari di incarichi di collaborazione o consulenza Personale Titolari di incarichi dirigenziali amministrativi di vertice Titolari di incarichi dirigenziali (dirigenti non generali) Dirigenti cessati Sanzioni per mancata comunicazione dei dati Posizioni organizzative Dotazione organica Personale non a tempo indeterminato Costo del personale non a tempo indeterminato Personale non a tempo indeterminato Tassi di assenza Incarichi conferiti e autorizzati ai dipendenti (dirigenti e non dirigenti) Contrattazione collettiva Contrattazione integrativa OIV Dati di genere Bandi di concorso Performance Sistema di misurazione e valutazione della Performance Piano della performance Relazione sulla performance Ammontare complessivo dei premi Dati relativi ai premi Benessere organizzativo Enti controllati Enti pubblici vigilati Società partecipate Dati società partecipate Provvedimenti Enti di diritto privato controllati Rappresentazione grafica Attività e procedimenti Dati aggregati attività amministrativa Tipologie di procedimento Monitoraggio tempi procedimentali Dichiarazioni sostitutive e acquisizione d'ufficio dei dati Provvedimenti Provvedimenti organi indirizzo politico Decreti del Presidente e degli Assessori Deliberazioni della Giunta regionale Provvedimenti dirigenti Controlli sulle imprese Bandi di gara e contratti Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Atti relativi alla programmazione di lavori, opere, servizi e forniture Atti relativi alle procedure per l’affidamento di appalti pubblici di servizi, forniture, lavori e opere, di concorsi pubblici di progettazione, di concorsi di idee e di concessioni Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati Sovvenzioni, contributi, sussidi, vantaggi economici Criteri e modalità Atti di concessione Bilanci Bilancio preventivo e consuntivo Bilancio preventivo Bilancio consuntivo Piano degli indicatori e dei risultati attesi di bilancio Beni immobili e gestione patrimonio Patrimonio immobiliare Canoni di locazione o affitto Controlli e rilievi sull'amministrazione Organismi indipendenti di valutazione, nuclei di valutazione o altri organismi con funzioni analoghe Attestazione dell'OIV o di altra struttura analoga nell'assolvimento degli obblighi di pubblicazione Organi di revisione amministrativa e contabile Corte dei conti Servizi erogati Carta dei servizi e standard di qualità Class action Costi contabilizzati Liste di attesa Servizi in rete Pagamenti dell'amministrazione Dati sui pagamenti Dati sui pagamenti del servizio sanitario nazionale Indicatore di tempestività dei pagamenti Indicatore di tempestività dei pagamenti Ammontare complessivo dei debiti IBAN e pagamenti informatici Opere pubbliche Nuclei di valutazione e verifica degli investimenti pubblici Atti di programmazione delle opere pubbliche Tempi costi e indicatori di realizzazione delle opere pubbliche Pianificazione e governo del territorio Informazioni ambientali Strutture sanitarie private accreditate Interventi straordinari e di emergenza Altri contenuti Prevenzione della Corruzione Piano triennale per la prevenzione della corruzione e per la trasparenza Responsabile della prevenzione della corruzione e della trasparenza Regolamenti per la prevenzione e la repressione della corruzione e dell'illegalità Relazione del responsabile della prevenzione della corruzione e della trasparenza Provvedimenti adottati dall'A.N.AC. ed atti di adeguamento a tali provvedimenti Atti di accertamento delle violazioni WHISTLEBLOWING - Segnalazione di presunti illeciti Accesso civico Accesso civico \"semplice\" concernente dati, documenti e informazioni soggetti a pubblicazione obbligatoria Accesso civico \"generalizzato\" concernente documenti ulteriori rispetto a quelli oggetto di pubblicazione obbligatoria Registro degli accessi Gestore delle segnalazioni antiriciclaggio Accessibilità e Catalogo di dati, metadati e banche dati Catalogo dei dati, metadati e delle banche dati Regolamenti Obiettivi di accessibilità Dati ulteriori Protezione dei dati personali Spese di rappresentanza Censimento autovetture Bandi di gara e contratti Nota In questa sezione sono pubblicati i bandi di gara e le informazioni, nonché i dati relativi all'attività contrattuale dell'Amministrazione regionale. Bandi di gara e contratti fino al 31 dicembre 2023 Bandi di gara e contratti dal 1°gennaio 2024 Automatizzazione delle procedure Acquisizione interesse realizzazione opere incompiute Mancata redazione programmazione Documenti sul sistema di qualificazione Gravi illeciti professionali Progetti di investimento pubblico Costituzione di un elenco di avvocati",
       "sourceStatus": "da-verificare",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-        "version": 150,
+        "version": 152,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -411,8 +412,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -475,15 +476,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "autoDiscovered": true,
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Fare sport / PREMIO IDEALE SPORTIVO Aperto PREMIO IDEALE SPORTIVO Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Presentazione candidature dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Le candidature possono essere presentate esclusivamente da: Federazioni Sportive Nazionali (FSN) Discipline Sportive Associate (DSA) Enti di Promozione Sportiva (EPS) riconosciuti dal CONI o dal CIP. Ciascun organismo sportivo può proporre: la candidatura di una ASD/SSD affiliata; la candidatura di un volontario segnalato dai propri comitati regionali/associazioni. Di cosa si tratta Il \" Premio Ideale sportivo ” è istituito dalla Giunta regionale della Lombardia ( DGR n. 6812 del 28/09/2026 ), in attuazione degli artt. 3 e 6 della l.r. n. 3 del 6 febbraio 2026 , per riconoscere pubblicamente l'impegno di Associazioni e Società sportive dilettantistiche e singoli cittadini nella promozione dell’ideale sportivo definito all’art.1 della legge regionale quale modo di intendere e praticare l'attività sportiva, basato sul rispetto della persona e delle regole, sulla correttezza, sulla tolleranza e sulla lealtà e promuove il volontariato in ambito sportivo. BURL DGR n. 6812 del 28/09/2026 - BURL del 2 ottobre 2026. DDS n. 13416 del 12/09/2026- BURL del 14 ottobre 2026. Come partecipare Le candidature devono essere presentate esclusivamente attraverso la piattaforma Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it a partire dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Non sono ammesse altre modalità di presentazione. Procedura selezione Per la scelta delle candidature e modalità di selezione si rimanda ai criteri approvati dalla Giunta regionale e allegati all'avviso. Informazioni e contatti Informazioni relative all’avviso e agli adempimenti a esso connessi potranno essere richieste all’indirizzo di posta elettronica sistema_sportivo@regione.lombardia.it (rif. Premio ideale sportivo - anno 2026) oppure ai numeri telefonici 02/6765.3097 – 3346 dal lunedì al venerdì dalle ore 9.30 alle ore 12.30. Per le richieste di assistenza alla compilazione online e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di Aria S.p.A. al numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica; oppure inviando una mail all’indirizzo: bandi@regione.lombardia.it Allegati Estratto BURL - DDS n. 13416 del 12 ottobre 2026 - avviso presentazione candidature - 15/10/2026 DGR n. 6812 del 28 settembre 2026 - 08/10/2026 Informativa sul Trattamento dei Dati Personali - 12/10/2026",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "9b0affacfa6c7508f2ca434de8399efe0f7168e2b8a0280898202902869d03a5",
-        "version": 12,
+        "version": 14,
         "firstSeenAt": "2026-10-16T13:29:48+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -492,8 +493,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -561,15 +562,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/sostegno-manifestazioni-sportive-territorio-lombardo-periodo-1-luglio-2026-30-settembre-2027-RLAV2026052883",
       "autoDiscovered": true,
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Fare sport / Sostegno a manifestazioni sportive sul territorio lombardo periodo 1° luglio 2026 - 30 settembre 2027 Aperto Sostegno a manifestazioni sportive sul territorio lombardo periodo 1° luglio 2026 - 30 settembre 2027 Codice: RLAV2026052883 Pubblicato il: 31/03/2026 , ore 12:11 Domande dal: 15/10/2026 , ore 10:00 Scade il: 05/11/2026 , ore 12:00 APERTURA TERZA FINESTRA - Dalle ore 10:00 del 15 ottobre 2026 alle ore 12:00 del 5 novembre 2026 per le manifestazioni realizzate nel periodo 01.02.2027 - 31.05.2027. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLAV2026052883 Pubblicato il: 31/03/2026 , ore 12:11 Domande dal: 15/10/2026 , ore 10:00 Scade il: 05/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Potranno fare domanda e ricevere contributi per la realizzazione di manifestazioni sportive, esclusivamente i soggetti organizzatori aventi sede legale e/o operativa (anche temporanea) in Lombardia e rientranti in una delle seguenti tipologie: Federazioni Sportive Nazionali/Discipline Sportive Associate/Enti di Promozione Sportiva e loro comitati/delegazioni regionali e provinciali; Associazioni benemerite di cui alla lettera b) del comma 1, art. 2 del DLgs 36/2021; Associazioni e società sportive dilettantistiche, iscritte al Registro nazionale delle attività sportive dilettantistiche, affiliate a Federazioni Sportive Nazionali (FSN), Discipline Sportive Associate (DSA) o Enti di Promozione Sportiva (EPS) riconosciuti dal CONI e dal CIP; Enti iscritti al Registro unico nazionale del terzo settore e al Registro delle attività sportive dilettantistiche di cui all’art. 6 del D Lgs 36/2021; Comitati organizzatori regolarmente costituiti e senza scopo di lucro; Consorzi turistici/Proloco, senza scopo di lucro aventi finalità di organizzazione e gestione di manifestazioni sportive; Enti Locali anche in collaborazione con uno dei soggetti indicati ai precedenti punti. Di cosa si tratta La misura intende sostenere il mondo sportivo lombardo nella realizzazione di manifestazioni sportive, a carattere sia agonistico che amatoriale, quale strumento utile ad avvicinare i cittadini alla pratica sportiva e a valorizzare il territorio regionale anche in termini di prestigio, vocazione e specificità sportive. I contributi previsti sono volti a sostenere le manifestazioni sportive, senza scopo di lucro, realizzate in Lombardia dal 1° luglio 2026 al 30 settembre 2027, che si configurano come competizioni sportive (con premiazione/classifica), coinvolgono una pluralità di soggetti/realtà sportive, sono aperte al pubblico e di durata limitata e temporalmente definita. Sono previste due Linee di intervento a seconda della rilevanza e dimensione della manifestazione: Linea A : competizioni sportive nazionali e internazionali a carattere agonistico, aventi un costo complessivo superiore a euro 30.000,00 Linea B : competizioni sportive sia a carattere agonistico che dilettantistico/amatoriale, aventi un costo complessivo superiore a euro 7.000,00. Dotazione finanziaria La dotazione finanziaria destinata alla misura è pari a euro 3.000.000,00. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto a parziale rimborso delle spese sostenute. Regime di Aiuto di Stato Regime de minimis - Regolamento (UE) 2023/2831. BURL Il DDS n. 3900 del 26 marzo 2026 è pubblicato sul BURL S.O. n. 14 del 31 marzo 2026 Come partecipare La domanda di partecipazione può essere presentata esclusivamente attraverso la piattaforma Bandi e Servizi disponbile all'indirizzo: www.bandi.regione.lombardia.it con la tempostica di seguito indicata. Non sono ammesse altre modalità di presentazione. Periodo di riferimento (data della manifestazione) Presentazione domanda 01.07.2026 - 30.09.2026 dalle ore 10.00 del 16.04.2026 alle ore 12.00 del 07.05.2026 01.10.2026 – 31.01.2027 dalle ore 10.00 del 25.06.2026 alle ore 12.00 del 16.07.2026 01.02.2027 – 31.05.2027 dalle ore 10.00 del 15.10.2026 alle ore 12.00 del 05.11.2026 01.06.2027 – 30.09.2027 dalle ore 10.00 del 11.02.2027 alle ore 12.00 del 04.03.2027 Procedura selezione Procedura valutativa a graduatoria sulla base dei criteri/parametri per ciascuna Linea specificati al punto C.3.c del bando. Il contributo concedibile viene definito in coerenza con il piano economico finanziario della manifestazione e nel rispetto del contributo massimo assegnabile in relazione alle seguenti Linee e Fasce di appartenenza: Linea A Punteggio totalizzato Contributo massimo assegnabile da 30 a 38 euro 15.000,00 da 10 a 29 euro 9.000,00 Linea B Punteggio totalizzato Contributo massimo assegnabile da 30 a 38 euro 7.000,00 da 10 a 29 euro 4.000,00 Per entrambe le Linee il contributo minimo concedibile/erogabile è pari a euro 2.000,00. Informazioni e contatti Informazioni relative al bando e agli adempimenti ad esso connessi potranno essere richieste all’indirizzo di posta elettronica: LR26_2014@regione.lombardia.it (rif. Bando manifestazioni 2026-2027) oppure ai numeri telefonici 02/6765.4635-6246-2355-5273, dal lunedì al venerdì dalle ore 09:30 alle ore 12:30. Per le richieste di assistenza alla compilazione online e per i quesiti di ordine tecnico sulle procedure informatizzate, è possibile contattare il Call Center di Aria SpA al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8:00 alle ore 20:00 per i quesiti di ordine tecnico - dalle ore 8:30 alle ore 17:00 per richieste di assistenza tecnica oppure inviando una mail all’indirizzo: bandi@regione.lombardia.it Si consiglia di non attendere gli ultimi giorni per la presentazione della domanda in piattaforma e di attivare fin da subito eventuali richieste di assistenza. ATTENZIONE: Se le richieste di assistenza pervengono nel giorno di chiusura del bando o in quello antecedente, non è garantita risposta/risoluzione delle criticità entro la scadenza dei termini per la presentazione della domanda. Allegati DDS n. 3900 del 26 marzo 2026 - approvazione bando manifestazioni sportive 2026 - 2027 - 31/03/2026 DGR n. 5813 del 9 marzo 2026 - approvazione criteri manifestazioni sportive 2026 - 2027 - 31/03/2026 FAQ aggiornate al 6 luglio 2026 - 06/07/2026 Informativa sul Trattamento dei Dati Personali - 22/04/2026 Mostra altri Comunicazioni correlate Enti e operatori 22/09/2026 Bando Servizio: Sostegno a manifestazioni sportive sul territorio lombardo periodo 1° luglio 2026 - 30 settembre 2027 Bando a sostegno di manifestazioni sportive sul territorio lombardo periodo 1° luglio 2026 - 30 settembre 2027. Approvate le graduatorie secondo periodo (iniziative 01/10/2026 - 31/01/2027) Con Decreto n. 12293 del 22 settembre 2026 sono state approvate le graduatorie delle domande relative al secondo periodo del bando in oggetto (iniziative 01/10/2026 - 31/01/2027). Di seguito il Dec... Vedi dettaglio Enti e operatori 25/06/2026 Bando Servizio: Sostegno a manifestazioni sportive sul territorio lombardo periodo 1° luglio 2026 - 30 settembre 2027 Bando a sostegno di manifestazioni sportive sul territorio lombardo 1° luglio 2026 - 30 settembre 2027. Approvate le graduatorie primo periodo (iniziative 01/07/2026 - 30/09/2026) Con Decreto n. 8394 del 25 giugno 2026 sono state approvate le graduatorie delle domande relative al primo periodo del bando (iniziative 01/07/2026 - 30/09/2026). Di seguito il Decreto n. 8394/2026... Vedi dettaglio",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "572d9f15d145ef460aca26f20514b2dffd93fa906a263493ef7623df9c6ec96a",
-        "version": 18,
+        "version": 20,
         "firstSeenAt": "2026-10-15T19:04:42+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -578,8 +579,8 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -650,15 +651,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/interventi-urgenti-emergenza/bando-rivolto-enti-locali-contributo-finalizzato-acquisizione-mezzi-ed-attrezzature-ad-uso-esclusivo-protezione-civile-RLY12026055345",
       "autoDiscovered": true,
       "discoveryText": "Bandi / Sicurezza e Protezione Civile / Interventi urgenti e post emergenza / Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Aperto Bando rivolto agli enti locali per il contributo finalizzato all'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Erogazione di contributi su base biennale per l'acquisizione di mezzi ed attrezzature ad uso esclusivo di Protezione Civile da parte di Comuni, singoli o associati, Unioni di Comuni, Comunità Montane e d Enti Parco (L.R. 27/2021 - ART. 22, C. 7) Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026055345 Pubblicato il: 07/10/2026 , ore 15:25 Domande dal: 12/10/2026 , ore 12:00 Scade il: 12/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare A) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane, dotati di Gruppo comunale/intercomunale o appartenenti, come capofila, a un Gruppo intercomunale di Protezione Civile, iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026; B) Comuni singoli o associati, Unioni di Comuni, Enti Parco, Comunità Montane , anche dotati di Gruppo comunale/intercomunale di Protezione Civile, che abbiano una convenzione vigente alla data di apertura del bando, con un soggetto del volontariato organizzato di protezione civile (VOPC) iscritto all’Elenco Territoriale della Lombardia ed operativo alla data del 30 settembre 2026. Di cosa si tratta Regione Lombardia, ai sensi della l.r. n. 27 del 29 dicembre 2021, contribuisce all’implementazione dell’efficienza e dell’efficacia dell’operatività del sistema di Protezione Civile di Regione Lombardia che si sviluppa territorialmente anche attraverso la partecipazione delle Organizzazioni di Volontariato organizzato operanti direttamente o in convenzione con gli enti territoriali facenti parte del Sistema di Protezione Civile, così come previsto dal D.Lgs. 1/2018 “Codice della Protezione Civile”. Tali enti operano a livello territoriale in fase preventiva ed emergenziale, con la partecipazione delle Organizzazioni di volontariato organizzato con volontari e dotazioni riferite a differenti specializzazioni. Obiettivo principale è di incrementare e rinnovare le dotazioni di automezzi e mezzi d’opera del Sistema di Protezione Civile per la gestione delle fasi di prevenzione e di emergenza territoriali, anche rafforzando a livello provinciale la capacità di risposta all’emergenza. I beneficiari diretti sono gli enti locali che devono poi, nelle forme opportune, mettere a disposizione queste dotazioni ad uso esclusivo di Protezione Civile alle Organizzazioni di Volontariato operanti sul territorio. Dotazione finanziaria I fondi a disposizione ammontano a euro 4.000.000,00 su base biennale. Caratteristiche dell'agevolazione Il contributo erogato è per tutte le tipologie, della spesa indicata nel preventivo nella quota del 90% rispetto alla tipologia di bene acquistato, della spesa indicata nel preventivo allegato in sede di presentazione della domanda di adesione, fino alla concorrenza dei massimali di seguito definiti. Ciascun Ente potrà presentare una sola domanda. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. L’ultima domanda in graduatoria potrà essere finanziata anche per una quota di finanziamento inferiore alla percentuale prevista per la tipologia di bene, in funzione delle risorse disponibili, previa specifica accettazione da parte dei beneficiari stessi. Per tutte le tipologie il contributo massimo è pari al 90% della spesa preventivata. Il beneficiario dovrà cofinanziare una quota non inferiore al 10% dell’importo preventivato. Il contributo minimo erogabile è pari ad euro 10.000,00 IVA inclusa. Il contributo massimo erogabile, per tutte le categorie tranne la categoria b), è pari ad euro 100.000,00 IVA inclusa; per la categoria b) il contributo massimo erogabile è pari a 150.000,00 euro. Potranno anche essere finanziati interventi di importo preventivato superiore all’importo massimo del contributo previsto; in tal caso la differenza tra il contributo massimo erogato e la spesa complessiva sarà a carico del beneficiario. Es. spesa preventivata 200.000,00 euro – contributo erogato 150.000,00 euro. Le domande relative alle tipologie di beni di cui alle categorie a), b), c) potranno prevedere l’acquisto di un solo bene, appartenente ad una delle tre categorie. Le domande riferite alle tipologie di beni di cui alle categorie d), e), f), g), h), i) potranno prevedere l’acquisto di più beni, anche appartenenti alle diverse categorie interessate Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria n.41 del 5 ottobre 2026 Come partecipare Ciascun Ente potrà presentare una sola richiesta. La domanda di partecipazione deve essere presentata esclusivamente attraverso il sistema informativo “Bandi e Servizi” all’indirizzo www.bandi.regione.lombardia.it , accessibile tramite SPiD, CNS/CRS o CIE. Le domande presentate con modalità differenti dalla piattaforma Bandi e Servizi non saranno considerate ammissibili. Le domande dovranno essere sottoscritte con firma elettronica dal legale rappresentante del soggetto richiedente, o da suo delegato Procedura selezione La tipologia di procedura utilizzata per l’assegnazione del contributo regionale è valutativa a graduatoria, definita in base al punteggio totale conseguito, sulla base dei seguenti criteri: Numero dei volontari operativi iscritti al Gruppo e/o alla ODV convenzionata, alla data del 30 settembre 2026 (con punteggio per classi di numero volontari). Il dato è rilevato automaticamente dal sistema DBVOL; Domanda presentata da soggetti aggregati (unioni di comuni, associazioni, cm, parchi); Rischio-idrogeologico: rapporto tra aree a rischio di ciascun comune/area urbanizzata; Popolazione residente nel Comune; in caso di domanda presentata da enti a cui sono riferiti più Comuni, sarà calcolata la media aritmetica (punteggio per classi di popolazione); Soggetti beneficiari di contributo nei precedenti bandi 2021 (DGR XI/4840/2021 e DGR XI/5911/2022), 2022 (DGR XI/6510/2022) e 2023 (DGR XII/694/2023): il punteggio verrà ridotto in proporzione. Informazioni e contatti Per le richieste di assistenza alla compilazione on-line e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile scrivere all’indirizzo bandi@regione.lombardia.it o contattare il Call Center al numero verde 800.131.151 operativo da lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica. Per informazioni e segnalazioni relative al bando: • Michele Guarnieri – 02.6765.0501 michele_guarnieri@regione.lombardia.it • Giovanni Caldiroli – 02.6765.2993 giovanni_caldiroli@regione.lombardia.it Allegati DDS_13518 del 14-10-2026 - 14/10/2026 Allegato A rettificato - 14/10/2026 rettifica allegato 1 - 14/10/2026 DDS_13300 - 08/10/2026 Allegato A - 08/10/2026 Incarico per la sottoscrizione digitale - 28/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026 ALLEGATO 1 DDS 13300 - 08/10/2026 DDS_12642 - 28/09/2026 Mostra altri",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "e5060382275f29ae324602f4aa30535b60119bcd2f219034c17d9b468bc26b6c",
-        "version": 44,
+        "version": 46,
         "firstSeenAt": "2026-10-12T12:20:28+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -667,8 +668,8 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -739,15 +740,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/cofinanziamento-interventi-sostegno-mercati-comuni-lombardi-RLO12026055188",
       "autoDiscovered": true,
       "discoveryText": "Bandi / Attività Produttive/Imprese / Imprese commerciali / COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI Aperto COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI Codice: RLO12026055188 Pubblicato il: 07/10/2026 , ore 16:58 Domande dal: 15/10/2026 , ore 10:00 Scade il: 15/04/2027 , ore 16:00 Il bando, al fine di accrescere la qualità urbana e l’attrattività dei territori, è finalizzato a sostenere la realizzazione di interventi di riqualificazione, rigenerazione, costruzione, ampliamento, adeguamento delle strutture e delle aree mercatali, anche con finalità polifunzionali e in grado di integrare le funzioni commerciali tradizionali con servizi di interesse collettivo e di aggregazione. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLO12026055188 Pubblicato il: 07/10/2026 , ore 16:58 Domande dal: 15/10/2026 , ore 10:00 Scade il: 15/04/2027 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni, le Unioni di Comuni e le Comunità Montane della Lombardia, di seguito denominati Enti locali della Lombardia. Ciascun Ente locale può presentare una sola domanda riferita ad un solo mercato o area mercatale. Il soggetto richiedente deve disporre della piena proprietà, ovvero di un diritto reale idoneo ad assicurare l’imputazione patrimoniale dell’opera all’Ente. Di cosa si tratta Il bando intende: Sostenere e valorizzare il commercio su aree pubbliche e di prossimità. Promuovere la trasformazione dei mercati e delle aree mercatali in poli urbani polifunzionali, capaci di integrare funzioni commerciali, sociali, culturali e di servizio alla comunità, garantendone l’utilizzo durante l’intero arco della giornata e dell’anno. Rigenerare e valorizzare gli spazi urbani destinati ai mercati, rafforzandone il ruolo di infrastrutture di prossimità e di presidi di vitalità economica, sociale e territoriale. Migliorare l’accessibilità, la sicurezza, l’efficienza energetica e la sostenibilità ambientale dei mercati e delle aree mercatali. Dotazione finanziaria 8.000.000,00: •€1.848.900,00 a valere sul capitolo 14.02.203.017355 “Contributi statali per interventi d’investimento nei mercati rionali comunali lombardi – Amministrazioni locali” esercizio finanziario 2027; •€ 6.151.100,00 a valere sul capitolo 14.01.203.014677 “Contributi alle amministrazioni locali per l'attrattività e la competitività dei territori e delle imprese” a valere per € 3.951.100,00 sull’esercizio finanziario 2027 e per € 2.200.000,00 a valere sull’esercizio finanziario 2028 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL BURL Serie Ordinaria n.41 del 06/10/2026 https://www.consultazioniburl.servizirl.it/ricerca/bollettino Azioni . Come partecipare La domanda di partecipazione deve essere presentata esclusivamente tramite la piattaforma regionale “Bandi e Servizi”. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti DANIELA PIFFARETTI bandomercati@regione.lombardia.it 02 67653863 Allegati (DL) CRITERI PER IL COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI - 20/07/2026 Decreto Approvazione Bando - 24/09/2026 Informativa sul Trattamento dei Dati Personali - 07/10/2026",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "08892b20814a69a1154ffb118c9d9ba0d23e662c2ae55257f9d4e57f2f64db3d",
-        "version": 18,
+        "version": 20,
         "firstSeenAt": "2026-10-15T19:04:42+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -756,8 +757,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -828,15 +829,15 @@
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "autoDiscovered": true,
       "discoveryText": "Stato: Attivo Scadenza 18/02/2027 Destinatari: Enti non profit e in partenariato Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Giovani generazioni Contatti: Sfida Anita E-mail TIPO Bando con scadenza SOSTEGNO FORNITO 5.000.000 € OBIETTIVO Rafforzare la capacità dei territori di riconoscere, intercettare e accompagnare precocemente i bambini e le famiglie che vivono situazioni di vulnerabilità nei primi mille giorni di vita, fase riconosciuta come determinante per lo sviluppo individuale e per la prevenzione delle disuguaglianze nel medio e lungo periodo PRINCIPALI LIMITI DI FINANZIAMENTO I limiti delle risorse per territorio sono dettagliati alla voce Budget disponibile all’interno del testo del bando Premessa “ Anita Reti Mille ” è un bando con scadenza promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo nell’ambito della Sfida di Mandato Anita – L’infanzia prima . Il bando intende contribuire al benessere dell’infanzia, con particolare attenzione a neonati e bambini tra 0 e 3 anni e alle condizioni di vulnerabilità sociale ed economica che possono limitarne le opportunità di crescita e sviluppo. Contesto I primi anni di vita rappresentano una fase determinante per lo sviluppo delle bambine e dei bambini. Le esperienze vissute nei primi 1.000 giorni incidono sul benessere fisico, cognitivo, emotivo e relazionale lungo l’intero arco della vita. In questa fase, condizioni di vulnerabilità economica, sociale, abitativa, relazionale o culturale possono compromettere le opportunità di crescita dei bambini e il benessere delle loro famiglie, soprattutto se non riconosciute e affrontate tempestivamente. Nel territorio di riferimento di Fondazione Cariplo si stimano quasi 80.000 bambini tra 0 e 6 anni in condizione di vulnerabilità economica. L’intercettazione precoce di tali situazioni costituisce una priorità, ma anche una sfida complessa per i servizi territoriali. Nei territori sono presenti risorse diverse — servizi sociosanitari, sociali e educativi, misure di sostegno alle famiglie, iniziative del Terzo Settore e forme di prossimità comunitaria — che tuttavia risultano spesso frammentate, poco conosciute e non pienamente coordinate. Modalità di accesso disomogenee, linguaggi professionali differenti e limitate occasioni di lavoro congiunto ostacolano l’individuazione tempestiva delle situazioni di bisogno, l’orientamento delle famiglie verso le opportunità disponibili e la continuità degli interventi, in particolare a favore dei più fragili . Inoltre, la limitata copertura dei servizi educativi 0-3, cui accede solo una quota minoritaria di bambini e da cui restano più spesso esclusi i nuclei in maggiore fragilità, riduce le possibilità di individuare tempestivamente i bisogni. Ne consegue che molte situazioni di vulnerabilità emergono solo con l’ingresso nella scuola dell’infanzia , quando una fase cruciale per lo sviluppo e il benessere futuro dei bambini è già trascorsa. In questa prospettiva, il sostegno alla prima infanzia in condizione di vulnerabilità assume il carattere di una responsabilità condivisa della comunità territoriale, chiamata ad attivare professionalità specifiche, risorse di prossimità e forme più ampie di partecipazione a favore del benessere dei bambini. Attraverso il bando, Fondazione Cariplo intende quindi sostenere la costruzione e il consolidamento di reti di collaborazione in grado di integrare in modo strutturale le dimensioni sanitaria, sociale, educativa e comunitaria, promuovendo una lettura condivisa dei bisogni e una maggiore capacità di risposta alle situazioni di vulnerabilità che interessano i bambini nella fascia 0-3 anni e le loro famiglie. Documenti di approfondimento Bando Anita RetiMille Scarica il file 1. Format RetiMille Scarica il file 2. ReteMille_catalogo Scarica il file 3. Accordo ReteMille Scarica il file Analisi Rischio Povertà Infantile e Territori Prioritari Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-        "version": 174,
+        "version": 176,
         "firstSeenAt": "2026-09-23T13:41:23+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -846,8 +847,8 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -919,15 +920,15 @@
       "autoDiscovered": true,
       "discoveryText": "CSR 2023-2027. Formazione degli imprenditori agricoli e degli addetti alle imprese e microimprese operanti in zona rurale (SRH03/1/2026) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Piano Strategico della PAC (PSP) 2023-2027. Complemento Regionale per lo Sviluppo Rurale (CSR 2023-2027). Approvazione del Bando SRH03/2/2026 – Formazione degli imprenditori agricoli, degli addetti alle imprese operanti nei settori agricoltura, zootecnia e alle microimprese operanti nelle aree rurali, in applicazione alla D.G.R. n. 5-2649 del 9.6.2026. Domande dal Gio, 02/07/2026 - 08:00 Scadenza Gio, 29/10/2026 - 12:00 Temi Agricoltura Rivolto a Enti pubblici Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L’interv ento sostiene la formazione e l’aggiornamento professionale dei soggetti destinatari, anche in sinergia tra di loro, attraverso attività di gruppo e individuali quali corsi, visite aziendali, sessioni pratiche. L'intervento contribuisce a migliorare l’offerta informativa e formativa, promuovere l’utilizzo degli strumenti digitali, stimolare la partecipazione delle imprese alla messa a punto di innovazioni e costituisce parte integrante dell'AKIS. L’intervento è finalizzato alla crescita delle competenze e capacità professionali degli addetti operanti a vario titolo nel settore agricolo e nei territori rurali. Le attività suddette verteranno sulle tematiche connesse con gli obiettivi generali e specifici della PAC 2023-2027 avendo particolare attenzione ai più recenti risultati della ricerca e alle innovazioni. Rettifiche D.D. n. 978 del 14.10.2026 - Proroga presentazione domande Documento PDF - 99.43 KB Chi può partecipare Sono beneficiari del presente Intervento le seguenti categorie di prestatori di servizi di formazione: - enti formativi accreditati: prestatori di servizi di formazione che, al momento della presentazione della domanda di sostegno, sono accreditati per la formazione professionale ai sensi delle normative nazionali e delle disposizioni regionali vigenti, in materia di accreditamento delle sedi formative, a dimostrazione del possesso di struttura organizzativa, capacità e competenze adeguate al servizio richiesto. - Regione Piemonte, sue Agenzie, Enti strumentali e società in house. Dotazione finanziaria €2.250.000 Come presentare domanda Le domande di sostegno devono essere predisposte ed inviate esclusivamente in modalità telematica, attraverso il servizio “ Sviluppo Rurale 2023-2027 ” disponibile sul portale https://servizi.regione.piemonte.it . I documenti digitali così formati, trasmessi telematicamente, sono immediatamente ricevuti dall’ufficio competente, e determinano l’avvio del procedimento amministrativo. Non è pertanto necessario inviare copia cartacea della domanda. Struttura di riferimento Settore A1706B – Servizi di sviluppo e controlli in agricoltura Contatti Francesco Ambrogio 0114322131 francesco.ambrogio@regione.piemonte.it Allegato testo procedura D.D. n. 661 del 30/06/2026 Documento PDF - 752.7 KB Modello 1 Documento Word - 1.04 MB Modello 2 application/vnd.ms-excel - 45.5 KB Modello microimprese operanti in zona rurale Documento Word - 20 KB Modello Attestato Frequenza Documento Word - 122 KB Modello Attestato Frequenza con profitto Documento Word - 121.5 KB",
       "sourceStatus": "aperto",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "507a45a8e707e8c432b9ae9eeca89b84abe33ae646ca6ab3a60c8f3473c8248d",
-        "version": 12,
+        "version": 14,
         "firstSeenAt": "2026-10-16T13:29:48+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -936,8 +937,8 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -997,15 +998,15 @@
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "autoDiscovered": true,
       "discoveryText": "Stato: Attivo Scadenza Fase 1 29/10/2026 Scadenza Fase 2 08/04/2027 Destinatari: Enti pubblici o privati non profit Aree di intervento: Area Attività Trasversali e Sfide di Mandato Temi affrontati: Accesso alle risorse Benessere Co-progettazione Valorizzazione dei dati Contatti: Info Sfida Limen E-mail TIPO Bando a due fasi SOSTEGNO FORNITO 12.000.000 € OBIETTIVi Il bando mira a selezionare le reti territoriali da coinvolgere in un percorso di progettazione partecipata, attraverso il quale la Fondazione intende sostenere interventi per rispondere ai seguenti obiettivi generali: • incidere sul miglioramento delle condizioni di vita delle persone in esecuzione penale, riducendo le disuguaglianze d’accesso alle attività trattamentali e alla giustizia di comunità; • migliorare la capacità del sistema di costruire percorsi efficaci di reinserimento sociale, mettendo al centro il progetto di vita della persona in un’ottica multidimensionale e di prevenzione della recidiva; • superare la discontinuità progettuale in area penale, favorendo collaborazioni più efficaci tra terzo settore, enti pubblici, istituzioni e altri attori del territorio. PRINCIPALI LIMITI DI FINANZIAMENTO Contributo minimo: 300.000 € Contributo massimo: vedi FAQ Cofinanziamento minimo: 30% del costo totale Premessa Il bando Carcere e comunità in rete è promosso dall’Area Attività Filantropiche Trasversali e Sfide di Mandato di Fondazione Cariplo in collaborazione con Fondazione Peppino Vismara . Rientra tra le azioni promosse dalla Sfida di mandato Limen – Un futuro oltre la pena , che intende promuovere interventi per migliorare le condizioni di vita delle persone in esecuzione penale e rafforzare i percorsi di reinserimento sociale in uscita dal carcere. L’iniziativa si inserisce inoltre nel quadro della collaborazione avviata tra Fondazione Cariplo e Regione Lombardia per il rafforzamento delle politiche di welfare penale e di giustizia di comunità nell’ambito degli indirizzi definiti dalla D.G.R. n. XII/6371 del 29 giugno 2026 in materia di “Rafforzamento del sistema regionale di welfare penale e sviluppo di azioni di giustizia di comunità e di coesione sociale Contesto Il sistema dell’esecuzione penale è oggi chiamato a confrontarsi con trasformazioni profonde riguardanti i bisogni delle persone detenute e in esecuzione penale esterna. Negli ultimi anni sono emerse con crescente evidenza criticità legate alla presenza di condizioni di fragilità sociale, abitativa, sanitaria e relazionale che incidono sulla qualità della vita delle persone coinvolte e sulla possibilità di costruire percorsi efficaci di reinserimento sociale. A ciò si aggiungono persistenti disuguaglianze nell’accesso alle opportunità trattamentali, ai diritti fondamentali e alle misure alternative alla detenzione , che tendono a penalizzare in modo particolare le persone più vulnerabili. Tali fragilità si manifestano soprattutto nei momenti di transizione tra la detenzione e il ritorno alla comunità, quando la mancanza di riferimenti stabili e di adeguati sostegni può compromettere la continuità dei percorsi avviati. In questo quadro, il terzo settore, gli enti pubblici, l’amministrazione penitenziaria, i servizi territoriali e gli altri attori locali hanno sviluppato nel tempo numerose iniziative a sostegno delle persone in esecuzione penale . Tuttavia, l’efficacia di tali interventi può ancora essere rafforzata, potenziando il coordinamento tra i diversi soggetti coinvolti e favorendo una maggiore integrazione tra il sistema penitenziario e il territorio. L’analisi del contesto promossa da Fondazione Cariplo nella fase di pianificazione della Sfida [1] ha evidenziato la presenza di esperienze significative e diffuse, ma anche la necessità di rafforzare la capacità dei territori di operare attraverso reti più stabili, integrate e orientate a obiettivi comuni. In tale contesto, assume particolare rilievo la costruzione di sistemi territoriali capaci di garantire continuità tra gli interventi realizzati all’interno degli istituti penitenziari e le opportunità offerte dalle comunità locali, promuovendo una presa in carico multidimensionale della persona e valorizzando il contributo complementare dei diversi attori coinvolti. Il rafforzamento delle reti territoriali rappresenta pertanto una condizione essenziale per sviluppare percorsi di inclusione sociale più efficaci, ridurre le condizioni di marginalità e contribuire alla costruzione di comunità più coese e responsabili. [1] L’indagine è stata realizzata dall’Evaluation Lab di Fondazione Social Venture Giordano dell’Amore, con la collaborazione del Provveditorato Regionale dell’amministrazione penitenziaria della Lombardia e il supporto metodologico dell’Associazione Antigone.: Prima parte e Seconda parte . Documenti di approfondimento Bando Carcere e comunità in rete Scarica il file FAQ Carcere e comunità in rete Scarica il file Rivedi la presentazione del bando Visita il sito Presentazione Bando Limen Scarica il file Vuoi un supporto tecnico per presentare la tua richiesta di contributo? Accedi al servizio Help Desk Consulta la Guida alla presentazione dei progetti e i Criteri di ammissibilità Consulta la documentazione",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-        "version": 174,
+        "version": 176,
         "firstSeenAt": "2026-09-23T19:04:56+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1015,8 +1016,8 @@
         "excludedForEts": false
       },
       "sourceStatus": "aperto",
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -1089,9 +1090,9 @@
       "discoveryText": "Economia circolare: incentivi per il contrasto allo spreco alimentare Bando in: Ambiente | Rifiuti e bonifiche Economia circolare: incentivi per il contrasto allo spreco alimentare Progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali finanziati con 900 mila euro a favore delle Organizzazioni ETS Data di pubblicazione bando su Burt: 30.09.2026 Numero e parte del Burt: n. 39 Parte III Data di scadenza presentazione domande: 30.10.2026 14:00 Stato: Stato: Aperto Indice delle pagine Indice delle pagine Il Bando Allegati Link utili Con decreto dirigenziale 20605 del 17-09-2026 è stato approvato l’ avviso con il quale Regione Toscana mette a disposizione 900.000,00 euro (di cui 650.000 euro per spese di investimento e 250.000 euro per spese correnti) a favore delle organizzazioni ETS per finanziare progetti solidali legati al recupero e alla ridistribuzione del cibo a fini sociali per la prevenzione dello spreco e delle eccedenze alimentari lungo tutta la filiera agroalimentare, distributiva e di consumo. Tanti sono gli interventi ammissibili, indicati nell’avviso a titolo esemplificativo: recupero delle eccedenze da mercati ortofrutticoli, grande distribuzione, mense scolastiche, aziendali, ospedaliere e settore alberghiero; allestimento e arredo di empori e mense solidali per la distribuzione gratuita di generi di prima necessità; creazione di HUB di quartiere , intesi come centri fisici di raccolta per le reti solidali locali; potenziamento della logistica , inclusi i sistemi di stoccaggio, trasporto e conservazione delle derrate, con l'obbligo di registrare i flussi in ingresso e in uscita. La domanda di finanziamento può essere presentata esclusivamente da un singolo ETS ma possono partecipare al progetto partner attivi sul territorio regionale. La presentazione della domanda dovrà avvenire esclusivamente per via telematica, tramite PEC , all’indirizzo PEC della “Regione Toscana” ( regionetoscana@postacert.toscana.it ) entro la scadenza, pena l’esclusione, prevista alle ore 14 del giorno 30 ottobre 2026 . Nella Documentazione in fondo a questa pagina è disponibile l’apposito modulo - allegato A del presente avviso in formato editabile (raccomandato), aggiornato il 14-10-2026 con alcune note relative alla modalità di presentazione della domanda. In particolare, il modello editabile deve essere compilato, trasformato in un file PDF statico attraverso il comando di stampa, firmato (firma digitale o autografa) e trasmesso tramite PEC. Nel caso in cui il modulo non sia firmato digitalmente, occorre allegare anche la fotocopia del documento di identità del sottoscrittore in corso di validità. È ammessa una sola domanda di finanziamento per ciascun soggetto proponente. Per ogni informazione utile farà fede l’avviso. Per quesiti sui contenuti scrivere all'indirizzo e-mail: economia.circolare@regione.toscana.it Organismo emittente: Regione Toscana Allegati Allegato A domanda partecipazione spreco alimentare formato EDITABILE - aggiornato il 14-10-2026 - Apre una nuova tab del browser Torna alle voci di esplorazione del bando Link utili Decreto 20605 del 17-09-2026 Torna alle voci di esplorazione del bando Condividi Aggiornato al: 14.10.2026 Article ID: 247238151 Preferenze dei cookie Nascosta",
       "sourceStatus": "da-verificare",
       "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchOk": true,
-      "sourceStale": false,
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchOk": false,
+      "sourceStale": true,
       "tracking": {
         "contentHash": "255f53a941af93b32c4d4c34f9250ced1016c149d248e107720759075282d96f",
         "version": 126,
@@ -1105,9 +1106,9 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchOk": true,
+      "detailFetchOk": false,
       "detailVerified": false
     },
     {
@@ -1173,15 +1174,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
       "autoDiscovered": true,
       "discoveryText": "Procedimenti / Politiche Sociali / Abitare in un alloggio pubblico / Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Aperto Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Albo regionale dei Centri Antiviolenza e delle Case rifugio: modalità per la cancellazione dall'Elenco da parte dei soggetti individuati dal decreto nr. 16745 del 27.10.2023. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti e operatori Di cosa si tratta Con DGR n. XII/1073 del 9 ottobre 2023 è stato istituito l'Albo regionale dei Centri Antiviolenza e delle Case Rifugio previsto all'art. 3 della l.r. 3 luglio 2012, n. 11. Possono iscriversi gli enti locali e i soggetti giuridici privati non profit previsti dalla legge regionale n. 11 del 3 luglio 2012 e dall’Intesa Stato-Regioni del 2022 così come specificati negli allegati A) e B) alla delibera richiamata I soggetti giuridici in possesso dei requisiti potranno presentare domanda di iscrizione in ogni momento dell'anno. La DGR è disponibile in allegato a questa pagina ed è pubblicata sul BURL SO n. 41 del 13 ottobre 2023. Come partecipare Le domande dovranno essere presentate esclusivamente tramite portale Bandi e Servizi cliccando su \"Fai domanda\"; è necessario essere iscritti all'albo. Informazioni e contatti Per ulteriori informazioni, è possibile rivolgersi a: Alessia Belgiovine - tel. 02. 6765 2066 - alessia_belgiovine@regione.lombardia.it Lea Manolio - lea_manolio@regione.lombardia.it oppure scrivere alla seguente casella di posta elettronica: politicheantiviolenza@regione.lombardia.it",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "faa9075990f12ae7b8d6804cf85ac3a350b277f05c5e6dcfea8a66f333a5aed6",
-        "version": 34,
+        "version": 36,
         "firstSeenAt": "2026-10-13T16:16:36+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1190,8 +1191,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -1436,15 +1437,15 @@
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
       "autoDiscovered": true,
       "discoveryText": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "a8ada34c94087add971531446e15f16b91c81ce65bf440673d5338360c49fc49",
-        "version": 44,
+        "version": 46,
         "firstSeenAt": "2026-10-12T12:20:28+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": true,
         "triageStatus": "ai-required",
         "triageRuleVersion": 3,
@@ -1453,8 +1454,8 @@
         "etsRelevant": null,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     },
@@ -1526,15 +1527,15 @@
       "autoDiscovered": true,
       "discoveryText": "Top Vai al contenuto A A Menu La Regione ORGANI Istituzione Presidente Giunta Consiglio regionale ORGANIZZAZIONE Organigramma Persone e contatti Agenzie Regionali Strategiche Enti, fondazioni e società partecipate TRASPARENZA Amministrazione trasparente Elenco curricula Prevenzione della corruzione Portali tematici Agricoltura Ambiente Competitività e innovazione Istituzione e partecipazione Lavoro e formazione Pari opportunità Politiche europee e cooperazione internazionale Politiche giovanili Salute, Sport e buona vita Territorio, mobilità e infrastrutture Turismo e cultura Welfare, diritti e cittadinanza Come fare per Vivi la Puglia Fiera del Levante 2026 - Tutta la Puglia Muoversi in Puglia Bandiera Blu Programma culturale Fiere ed eventi Agenda istituzionale La Puglia per le famiglie Parchi e aree naturali Puglia sportiva Protezione Civile Puglia Press Regione URP Rubrica × About Services Clients Contact Bandi e avvisi Homepage Bandi e avvisi Elenco bandi e avvisi Cerca tra i bandi Ricerca testuale Ricerca estesa al contenuto Data pubblicazione Aree Tematiche Seleziona Agricoltura Ambiente Competitività, ricerca e Innovazione Istituzione e partecipazione Lavoro, Istruzione e Formazione Parità di genere Politiche Europee e Cooperazione Internazionale Politiche giovanili Salute, sport e buona vita Territorio, mobilità e infrastrutture Turismo e Cultura Welfare, Diritti e Cittadinanza Argomenti Seleziona Agenda di genere Aiuti Covid Albo cooperative sociali Ambiente Antimafia sociale Comunicazione Istituzionale Concorsi Consigliera di parità Conti Pubblici Territoriali Coronavirus CSR 2023-2027 CUG Delegazione romana Demanio Armentizio Demanio e Patrimonio Immobiliare Demanio marittimo Difesa del suolo Disabilità e non autosufficienza Elezioni regionali 2020 Emergenza Ucraina Eni Cbc Med Europuglia Expo 2020 Feamp FEAMPA 21-27 Fesr Fiera del levante 2019 Fiera del Levante 2020 Fiera del Levante 2022 Fiera del Levante 2023 Fiera del Levante 2024 Fiera del Levante 2025 Fiera del Levante 2026 Filiere agroalimentari Fondo di Rotazione Food4Health Foreste caccia pesca e biodiversità FSC 21-27 Galattica Health Marketplace Horizon ILVA Inno Innovazione in agricoltura Internazionalizzazione Interreg Invecchiamento attivo JTF Taranto Legalità e Antimafia sociale Lotta alla violenza di genere Minori Next MED 21-27 Nidi Nvvip Open data ORCA Puglia Osservatorio Agricoltura Biologica Osservatorio regionale contratti pubblici Osservatorio Regionale dello Spettacolo Pac Pagamenti elettronici Pari opportunità per tutti e lotta alle discriminazioni Pianificazione sociale Piano strategico 20-30 Piil Pin Politiche di Genere Politiche energetiche Politiche migratorie Politiche per le famiglie Por Povertà e inclusione PR 2021-2027 Produzioni di qualità Programmazione FESR FSE 2021-2027 Protezione Civile PSR 2014-2022 Puglia digitale Puglia Partecipa Puglia Sportiva Rigenerazione olivicola Servizio civile Servizio civile regionale Servizi sanitari digitali Sezione Statistica Spazi di prossimità Strategia regionale di sviluppo sostenibile Strategia regionale sostenibilità Tecnonidi Terzo settore Transizione digitale Trasformazione digitale Tributi Turismo Usi civici Vaccino Anti-Covid Welfare e territorio Xylella Cancella filtri Cerca Nascosta Footer Ascolta Valuta questo sito Area riservata Contatti e indirizzi Lungomare N. Sauro, 33 - 70121 Bari Via G. Gentile, 52 - 70126 Bari Elenco PEC e Rubrica Eventi e Stampa Ufficio stampa della Giunta Press Regione Logo e identità regionale Accessibilità Dichiarazione di accessibilità Obiettivi di accessibilità URP Telefono: 800 713939 Scrivici: email Redazione Responsabili di pubblicazione Protezione civile Vai al sito di Protezione Civile Puglia Iniziativa finanziata con risorse del POR Puglia 2014/2020 - Asse XI Note legali Cookie e privacy Atti di notifica Feed RSS Servizi Intranet © Regione Puglia Per offrire informazioni e servizi nel miglior modo possibile, questo sito utilizza cookie tecnici e cookie di terze parti. Per maggiori informazioni sui cookie utilizzati e su come eventualmente disabilitarli leggi la nostra privacy policy Accetta vedi Privacy Policy",
       "sourceStatus": "aperto",
-      "sourceCheckedAt": "2026-10-17T17:37:54+02:00",
-      "sourceFetchAttemptedAt": "2026-10-17T17:37:54+02:00",
+      "sourceCheckedAt": "2026-10-17T22:38:23+02:00",
+      "sourceFetchAttemptedAt": "2026-10-17T22:38:23+02:00",
       "sourceFetchOk": true,
       "sourceStale": false,
       "tracking": {
         "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-        "version": 148,
+        "version": 150,
         "firstSeenAt": "2026-09-26T13:36:28+02:00",
-        "lastChangedAt": "2026-10-17T17:39:23+02:00",
+        "lastChangedAt": "2026-10-17T22:40:38+02:00",
         "needsAnalysis": false,
         "triageStatus": "rules-resolved",
         "triageRuleVersion": 3,
@@ -1543,8 +1544,8 @@
         "etsRelevant": true,
         "excludedForEts": false
       },
-      "detailFetchAttemptedAt": "2026-10-17T17:39:11+02:00",
-      "detailFetchedAt": "2026-10-17T17:39:11+02:00",
+      "detailFetchAttemptedAt": "2026-10-17T22:40:03+02:00",
+      "detailFetchedAt": "2026-10-17T22:40:03+02:00",
       "detailFetchOk": true,
       "detailVerified": false
     }
@@ -1553,10 +1554,10 @@
     "enabled": true,
     "discovered": 0,
     "added": 0,
-    "checkedAt": "2026-10-17T15:38:55"
+    "checkedAt": "2026-10-17T20:39:49"
   },
   "erDirectWatch": {
-    "checkedAt": "2026-10-17T15:39:02",
+    "checkedAt": "2026-10-17T20:39:56",
     "checked": 5,
     "active": 1,
     "added": 0,
@@ -1594,7 +1595,7 @@
     ]
   },
   "erExistingValidation": {
-    "checkedAt": "2026-10-17T15:39:04",
+    "checkedAt": "2026-10-17T20:39:59",
     "sources": {
       "Regione Emilia-Romagna · Sport": {
         "checked": 1,
@@ -1629,7 +1630,7 @@
     ]
   },
   "piemonteDirectWatch": {
-    "checkedAt": "2026-10-17T15:39:10",
+    "checkedAt": "2026-10-17T20:40:03",
     "checked": 5,
     "activeOrProgrammed": 2,
     "added": 2,
@@ -1664,8 +1665,8 @@
   "incremental": true,
   "trackingSummary": {
     "new": 0,
-    "modified": 13,
-    "unchanged": 2,
+    "modified": 12,
+    "unchanged": 3,
     "reappeared": 0,
     "missing": 0
   },
@@ -1678,10 +1679,10 @@
   },
   "detailEnrichment": {
     "enabled": true,
-    "updatedAt": "2026-10-17T17:39:11+02:00",
+    "updatedAt": "2026-10-17T22:40:03+02:00",
     "attempted": 13,
-    "enriched": 13,
+    "enriched": 12,
     "unchanged": 0,
-    "failed": 0
+    "failed": 1
   }
 }
