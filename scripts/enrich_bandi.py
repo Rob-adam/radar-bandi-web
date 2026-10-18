@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from source_tls import source_tls_options
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -146,7 +147,7 @@ def main():
         attempted += 1
         changed = []
         try:
-            r = requests.get(url, headers=HEADERS, timeout=25)
+            r = requests.get(url, headers=HEADERS, timeout=25, **source_tls_options(url))
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
             text = page_text(soup)

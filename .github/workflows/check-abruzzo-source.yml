@@ -4,6 +4,8 @@ on:
   push:
     paths:
       - '.github/workflows/check-abruzzo-source.yml'
+      - 'scripts/source_tls.py'
+      - 'scripts/certificates/**'
 permissions:
   contents: read
 jobs:
@@ -11,51 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Install HTTP dependencies
-        run: pip install requests
-      - name: Diagnose verified connections and presented certificate chain
+        run: pip install requests beautifulsoup4
+      - name: Test TLS scope and issuer trust
+        run: python -m unittest discover -s tests -p test_pipeline.py
+      - name: Fetch and parse Abruzzo with verified HTTPS
         run: |
-          python - <<'PY'
-          import re, ssl, subprocess, requests
-          print("Default CA bundle:", requests.certs.where())
-          system_ca = ssl.get_default_verify_paths().cafile
-          print("System CA bundle:", system_ca)
-          for url in ["https://www.regione.abruzzo.it/contenuti/bandi", "https://www2.regione.abruzzo.it/content/bandi", "https://coesione.regione.abruzzo.it/bandi-avvisi"]:
-              for label, verify in [("default", True), ("system", system_ca)]:
-                  if not verify:
-                      continue
-                  try:
-                      r=requests.get(url, timeout=20, verify=verify)
-                      print(label, url, r.status_code, r.url, len(r.content))
-                  except requests.RequestException as exc:
-                      print(label, url, type(exc).__name__, str(exc))
-          # Inspect public certificate metadata only; no unverified HTTP request.
-          r=subprocess.run(["openssl","s_client","-connect","www.regione.abruzzo.it:443","-servername","www.regione.abruzzo.it","-showcerts"],input="",capture_output=True,text=True,timeout=25)
-          print("TLS verification:", "\n".join(line for line in (r.stdout+r.stderr).splitlines() if "verify" in line.lower() or "verification" in line.lower()))
-          for cert in re.findall(r"-----BEGIN CERTIFICATE-----.*?-----END CERTIFICATE-----", r.stdout, re.S):
-              info=subprocess.run(["openssl","x509","-noout","-subject","-issuer","-dates","-ext","authorityInfoAccess"],input=cert,capture_output=True,text=True,check=True)
-              print(info.stdout)
-          PY
-      - name: Validate official issuer certificate and recover verified HTTPS
-        run: |
-          python - <<'PY'
-          import pathlib, requests, subprocess, tempfile
-          with tempfile.TemporaryDirectory() as folder:
-              p=pathlib.Path(folder)
-              r=requests.get("http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt",timeout=25)
-              r.raise_for_status()
-              (p/"issuer.der").write_bytes(r.content)
-              subprocess.run(["openssl","x509","-inform","DER","-in",str(p/"issuer.der"),"-out",str(p/"issuer.pem")],check=True)
-              subprocess.run(["openssl","x509","-in",str(p/"issuer.pem"),"-noout","-subject","-issuer","-fingerprint","-sha256"],check=True)
-              subprocess.run(["openssl","verify","-CAfile",requests.certs.where(),str(p/"issuer.pem")],check=True)
-              print("VALIDATED_ISSUER_PEM_START")
-              print((p/"issuer.pem").read_text())
-              print("VALIDATED_ISSUER_PEM_END")
-              (p/"bundle.pem").write_bytes(pathlib.Path(requests.certs.where()).read_bytes()+b"\n"+(p/"issuer.pem").read_bytes())
-              r=requests.get("https://www.regione.abruzzo.it/contenuti/bandi",verify=str(p/"bundle.pem"),timeout=25)
-              r.raise_for_status()
-              print("RECOVERED_VERIFIED_SOURCE",r.status_code,r.url,len(r.content))
+          PYTHONPATH=scripts python - <<'PY'
+          import requests
+          from bs4 import BeautifulSoup
+          from source_tls import source_tls_options
+          from update_bandi import generic_region_items, HEADERS
+          url="https://www.regione.abruzzo.it/contenuti/bandi"
+          r=requests.get(url,headers=HEADERS,timeout=30,**source_tls_options(url))
+          r.raise_for_status()
+          title=BeautifulSoup(r.text,"html.parser").find("h1")
+          assert title and title.get_text(strip=True)=="Bandi", "Unexpected listing page"
+          records=generic_region_items(r.text,url,"Regione Abruzzo · Bandi","abruzzo")
+          print("Verified Abruzzo listing:",r.status_code,"bytes:",len(r.content),"discovered candidates:",len(records))
           PY

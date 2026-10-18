@@ -9,6 +9,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from enrich_bandi import parse_date
+from source_tls import source_tls_options
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -447,7 +448,7 @@ def main():
     for src in SOURCES:
         count_before = len(found)
         try:
-            r = requests.get(src["url"], headers=HEADERS, timeout=30)
+            r = requests.get(src["url"], headers=HEADERS, timeout=30, **source_tls_options(src["url"]))
             r.raise_for_status()
             if src["kind"] == "lombardia":
                 found.extend(lombardia_items(r.text, src["url"]))

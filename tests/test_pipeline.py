@@ -1,4 +1,5 @@
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -9,9 +10,24 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import enrich_bandi
 import update_bandi
 import check_verified_sources
+import source_tls
 
 
 class PipelineTests(unittest.TestCase):
+    def test_abruzzo_missing_intermediate_chains_to_existing_public_root(self):
+        subprocess.run(["openssl", "verify", "-CAfile", source_tls.requests.certs.where(), str(source_tls.ISSUER)], check=True, capture_output=True)
+        observed = subprocess.check_output(["openssl", "x509", "-in", str(source_tls.ISSUER), "-noout", "-fingerprint", "-sha256"], text=True)
+        self.assertIn("8C:54:C3:34:B6:6B:A4:E4:26:77:2A:F4:A3:F9:13:6C:19:A1:AE:C7:29:FD:B2:8C:53:5C:07:A5:A4:EF:22:E0", observed)
+
+    def test_abruzzo_bundle_is_scoped_and_preserves_public_roots(self):
+        for url in ["https://example.org/", "http://www.regione.abruzzo.it/", "https://www.regione.abruzzo.it.evil.example/", "https://coesione.regione.abruzzo.it/"]:
+            self.assertEqual(source_tls.source_tls_options(url), {})
+        for host in source_tls.ABRUZZO_HOSTS:
+            options = source_tls.source_tls_options("https://" + host + "/contenuti/bandi")
+            self.assertIsInstance(options["verify"], str)
+            bundle = Path(options["verify"]).read_bytes()
+            self.assertEqual(bundle, Path(source_tls.requests.certs.where()).read_bytes() + b"\n" + source_tls.ISSUER.read_bytes())
+
     def test_phase_one_is_entry_deadline_even_after_phase_two(self):
         text = "Scadenza fase 2: 08/04/2027. Scadenza fase 1: 29/10/2026"
         for parser in [enrich_bandi.parse_date, update_bandi.parse_date]:

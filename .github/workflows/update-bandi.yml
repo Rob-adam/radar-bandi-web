@@ -25,6 +25,8 @@ permissions:
 jobs:
   aggiorna-bandi:
     runs-on: ubuntu-latest
+    outputs:
+      catalog_commit: ${{ steps.publish.outputs.catalog_commit }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -77,6 +79,7 @@ jobs:
         run: python scripts/audit_coverage.py
 
       - name: Pubblica catalogo memoria coda AI e report se cambiati
+        id: publish
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
@@ -86,4 +89,15 @@ jobs:
           else
             git commit -m "Aggiornamento incrementale bandi"
             git push
+            echo "catalog_commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           fi
+
+  deploy-catalog:
+    needs: aggiorna-bandi
+    if: needs.aggiorna-bandi.outputs.catalog_commit != ''
+    permissions:
+      contents: read
+    uses: ./.github/workflows/deploy-cloudflare.yml
+    with:
+      source_ref: ${{ needs.aggiorna-bandi.outputs.catalog_commit }}
+    secrets: inherit
