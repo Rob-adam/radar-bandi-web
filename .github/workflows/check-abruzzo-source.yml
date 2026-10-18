@@ -39,3 +39,23 @@ jobs:
               info=subprocess.run(["openssl","x509","-noout","-subject","-issuer","-dates","-ext","authorityInfoAccess"],input=cert,capture_output=True,text=True,check=True)
               print(info.stdout)
           PY
+      - name: Validate official issuer certificate and recover verified HTTPS
+        run: |
+          python - <<'PY'
+          import pathlib, requests, subprocess, tempfile
+          with tempfile.TemporaryDirectory() as folder:
+              p=pathlib.Path(folder)
+              r=requests.get("https://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt",timeout=25)
+              r.raise_for_status()
+              (p/"issuer.der").write_bytes(r.content)
+              subprocess.run(["openssl","x509","-inform","DER","-in",str(p/"issuer.der"),"-out",str(p/"issuer.pem")],check=True)
+              subprocess.run(["openssl","x509","-in",str(p/"issuer.pem"),"-noout","-subject","-issuer","-fingerprint","-sha256"],check=True)
+              subprocess.run(["openssl","verify","-CAfile",requests.certs.where(),str(p/"issuer.pem")],check=True)
+              print("VALIDATED_ISSUER_PEM_START")
+              print((p/"issuer.pem").read_text())
+              print("VALIDATED_ISSUER_PEM_END")
+              (p/"bundle.pem").write_bytes(pathlib.Path(requests.certs.where()).read_bytes()+b"\n"+(p/"issuer.pem").read_bytes())
+              r=requests.get("https://www.regione.abruzzo.it/contenuti/bandi",verify=str(p/"bundle.pem"),timeout=25)
+              r.raise_for_status()
+              print("RECOVERED_VERIFIED_SOURCE",r.status_code,r.url,len(r.content))
+          PY
