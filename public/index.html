@@ -524,9 +524,8 @@ $('bvVideoForward').onclick=()=>moveVideo(video.currentTime+10);
 $('bvVideoStart').onclick=()=>moveVideo(0);
 $('bvVideoFullscreen').onclick=()=>{try{if(video.requestFullscreen){const p=video.requestFullscreen();if(p&&p.catch)p.catch(()=>{})}else if(video.webkitEnterFullscreen)video.webkitEnterFullscreen()}catch(e){}};
 ['loadedmetadata','durationchange','timeupdate','play','pause','ended','seeked'].forEach(event=>video.addEventListener(event,updateVideoControls));
-function leaveFullscreen(){if(!dialog.open||!dialog.classList.contains('bv-video-mode'))return;show(0,true)}
-video.addEventListener('webkitendfullscreen',leaveFullscreen);
-document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement)leaveFullscreen()});
+// Leaving native fullscreen preserves the expanded player and playback position.
+// Only closing the guide or returning to the written guide resets the video.
 video.addEventListener('error',()=>{setVideoMode(false);video.hidden=true;$('bvGuideNote').textContent='Il video non è disponibile al momento. Puoi seguire tutti i passaggi nella guida scritta.'});
 $('bvGuideWatch').onclick=()=>{
  if(dialog.classList.contains('bv-video-mode')){show(0,true);return}
