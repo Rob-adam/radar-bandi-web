@@ -45,7 +45,7 @@ jobs:
           import pathlib, requests, subprocess, tempfile
           with tempfile.TemporaryDirectory() as folder:
               p=pathlib.Path(folder)
-              r=requests.get("https://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt",timeout=25)
+              r=requests.get("http://crt.sectigo.com/SectigoPublicServerAuthenticationCADVR36.crt",timeout=25)
               r.raise_for_status()
               (p/"issuer.der").write_bytes(r.content)
               subprocess.run(["openssl","x509","-inform","DER","-in",str(p/"issuer.der"),"-out",str(p/"issuer.pem")],check=True)
