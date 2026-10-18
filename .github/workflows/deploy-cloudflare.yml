@@ -7,6 +7,7 @@ on:
     paths:
       - 'src/**'
       - 'public/**'
+      - 'tests/**'
       - 'wrangler.jsonc'
       - '.github/workflows/deploy-cloudflare.yml'
   workflow_dispatch:

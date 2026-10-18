@@ -7,7 +7,10 @@ let html;test('full production wrapper chain injects only valid scripts and pres
  html=await (await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();for(const m of html.matchAll(/<script\b[^>]*>([\s\S]*?)<\/script>/gi))new vm.Script(m[1]);assert.ok(html.includes('Operatività: ITALIA'));assert.ok(!html.includes('id="refreshBtn"'));
 });
 test('RB0003 short links and license remain active',async()=>{for(const path of ['/RB-0003','/r/RB-0003']){const r=await app.fetch(new Request('https://test.local'+path,{headers:{cookie:testCookie}}),env);assert.equal(r.status,302);assert.ok(r.headers.get('location').includes('?p='));}const d=await(await app.fetch(new Request('https://test.local/api/license/RB-0003'),env)).json();assert.equal(d.active,true);});
-test('reviewed deadline and grants survive production wrappers without forged Veneto qualification',async()=>{const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);}const vehicle=all.find(b=>b.id==='RLT12026053831');assert.equal(vehicle.deadline,'2027-04-30');assert.equal(vehicle.maxGrant,30000);assert.ok(!vehicle.territories.includes('Veneto'));assert.ok(!vehicle.hardRequirements.some(r=>(r.anyOf||[]).includes('italia')));assert.equal(all.find(b=>b.id==='UNIPOLIS-POP-2026').deadlineAt,'2026-10-15T13:00:00+02:00');assert.ok(!all.some(b=>b.deadline&&b.deadline<'2026-10-12'));});
+test('reviewed deadline and grants survive production wrappers without forged Veneto qualification',async(t)=>{
+ // Verify the reviewed snapshot while these calls were still open.
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-14T08:00:00+02:00')});
+const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);}const vehicle=all.find(b=>b.id==='RLT12026053831');assert.equal(vehicle.deadline,'2027-04-30');assert.equal(vehicle.maxGrant,30000);assert.ok(!vehicle.territories.includes('Veneto'));assert.ok(!vehicle.hardRequirements.some(r=>(r.anyOf||[]).includes('italia')));assert.equal(all.find(b=>b.id==='UNIPOLIS-POP-2026').deadlineAt,'2026-10-15T13:00:00+02:00');assert.ok(!all.some(b=>b.deadline&&b.deadline<'2026-10-12'));});
 test('favorites are saved and returned, and invalid origin is rejected',async()=>{const url='https://test.local/api/favorites/RB-0003';let r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://test.local','content-type':'application/json',cookie:testCookie},body:JSON.stringify({favorites:['https://example.org/call']})}),env);assert.equal(r.status,200);assert.deepEqual((await(await app.fetch(new Request(url,{headers:{cookie:testCookie}}),env)).json()).favorites,['https://example.org/call']);r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://other.local','content-type':'application/json',cookie:testCookie},body:'{"favorites":[]}'}),env);assert.equal(r.status,403);});
 test('official-source flags never by themselves prove this applicant eligible',()=>{const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');assert.ok(source.includes('if(applicantProved&&eligibilityState'));assert.ok(source.includes('Opportunità marginali'));assert.ok(source.includes('Scadenza non verificata'));});
 test('thematic score cannot create applicant proof and marginal opportunities stay available',()=>{
@@ -18,15 +21,42 @@ test('thematic score cannot create applicant proof and marginal opportunities st
 
 
 
-test('production catalogs apply documented reviews, preserve POP exclusion data and omit unconfirmed credit window',async()=>{
+test('production catalogs apply documented reviews and live monitoring, preserve POP exclusion data and omit unconfirmed credit window',async(t)=>{
+ // Verify the reviewed snapshot while these calls were still open.
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-14T08:00:00+02:00')});
+
  const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);
  }
+ const sourceChecks=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_source_checks.json',import.meta.url),'utf8')).checks||{};
+ const needsReview=new Set(Object.values(sourceChecks).filter(c=>c.needsReview).map(c=>c.bandoId));
  assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
  for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
-  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,'2026-10-14',id);assert.notEqual(b.tracking.sourceMonitoringNeedsReview,true,id);
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
  }
  assert.equal(all.find(b=>b.id==='FC-MUSEI-ACCESS-2026').maxGrant,200000);
  assert.equal(all.find(b=>b.id==='FC-HOUSING-FRAGILI-2026').maxGrant,500000);
  assert.ok(all.find(b=>b.id==='UNIPOLIS-POP-2026').hardRequirements.some(r=>r.type==='foundation_year'&&r.min===2016));
+});
+
+
+test('production catalogs remove POP and Note di comunità at their verified closing times',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-14T08:00:00+02:00')});
+ async function ids(){
+  const result=[];
+  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
+   const response=await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env);
+   assert.equal(response.status,200);
+   result.push(...(await response.json()).bandi.map(b=>b.id));
+  }
+  return result;
+ }
+ const pop='UNIPOLIS-POP-2026',note='CONIBAMBINI-NOTE-COMUNITA-2026';
+ let catalog=await ids();assert.ok(catalog.includes(pop));assert.ok(catalog.includes(note));
+ t.mock.timers.setTime(new Date('2026-10-15T13:00:01+02:00').getTime());
+ catalog=await ids();assert.ok(!catalog.includes(pop));assert.ok(catalog.includes(note));
+ t.mock.timers.setTime(new Date('2026-10-16T13:00:01+02:00').getTime());
+ catalog=await ids();assert.ok(!catalog.includes(pop));assert.ok(!catalog.includes(note));
+ // A currently open call survives the same production filtering.
+ assert.ok(catalog.includes('UBI-UMANITARIO-2026'));
 });
