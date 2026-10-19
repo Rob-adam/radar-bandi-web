@@ -1,13 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T06:45:31+02:00",
+  "generatedAt": "2026-10-19T15:23:09+02:00",
   "ruleVersion": 3,
   "count": 7,
   "items": [
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
+      "id": "RLL12026054686",
+      "version": 2,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
+      "title": "Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-04",
+      "sourceStatus": null,
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026 Aperto Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026 Codice: RLL12026054686 Pubblicato il: 13/10/2026 , ore 14:44 Domande dal: 19/10/2026 , ore 10:00 Scade il: 04/11/2026 , ore 16:00 Bando con il quale Regione Lombardia intende sostenere progetti relativi al patrimonio linguistico, in quanto significativa espressione del patrimonio culturale immateriale, componente essenziale dell’identità sociale e storica che si esprime nella grande varietà delle singole voci locali che sono, per la loro originalità e peculiarità, tratti distintivi delle comunità territoriali lombarde, favorendone, anche attraverso azioni sperimentali, la conoscenza, lo studio e la valorizzazione. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054686 Pubblicato il: 13/10/2026 , ore 14:44 Domande dal: 19/10/2026 , ore 10:00 Scade il: 04/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici e organismi di diritto pubblico, istituzioni private senza fine di lucro che operino in ambito culturale, istituzioni culturali, ecomusei riconosciuti, universit à , fondazioni, centri di ricerca. Di cosa si tratta Il bando si prefigge i seguenti obiettivi specifici: valorizzare attività di promozione e di ricerca"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/cofinanziamento-interventi-sostegno-mercati-comuni-lombardi-RLO12026055188",
       "id": "RLO12026055188",
-      "version": 32,
+      "version": 34,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/imprese-commerciali/cofinanziamento-interventi-sostegno-mercati-comuni-lombardi-RLO12026055188",
       "title": "COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI",
@@ -29,20 +53,19 @@
       "text": "Bandi / Attività Produttive/Imprese / Imprese commerciali / COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI Aperto COFINANZIAMENTO DI INTERVENTI A SOSTEGNO DEI MERCATI NEI COMUNI LOMBARDI Codice: RLO12026055188 Pubblicato il: 07/10/2026 , ore 16:58 Domande dal: 15/10/2026 , ore 10:00 Scade il: 15/04/2027 , ore 16:00 Il bando, al fine di accrescere la qualità urbana e l’attrattività dei territori, è finalizzato a sostenere la realizzazione di interventi di riqualificazione, rigenerazione, costruzione, ampliamento, adeguamento delle strutture e delle aree mercatali, anche con finalità polifunzionali e in grado di integrare le funzioni commerciali tradizionali con servizi di interesse collettivo e di aggregazione. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Vuoi approfondire la politica di coesione europea in Lombardia? Vai al portale Codice: RLO12026055188 Pubblicato il: 07/10/2026 , ore 16:58 Domande dal: 15/10/2026 , ore 10:00 Scade il: 15/04/2027 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare I Comuni, le Unioni di Comuni e le Comunità Montane della Lombardia, di seguito denominati Enti locali della Lombardia. Ciascun Ente locale può presentare una sola domanda riferita ad un solo mercato o area mercatale. Il soggetto richiedente deve disporre della piena proprietà, ovvero di un diritto reale idoneo ad assicurare l’imputazione patrimoniale dell’opera all’Ente. Di cosa si tratta Il bando intende: Sostenere e valorizzare il co"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
-      "id": "RLD12026056783",
-      "version": 48,
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
+      "id": "RLF12026057243",
+      "version": 2,
       "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/abitare-alloggio-pubblico/elenco-centri-antiviolenza-case-rifugio-cancellazione-RLD12026056783",
-      "title": "Elenco Centri Antiviolenza e Case Rifugio - Cancellazione",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
+      "title": "Monitoraggio Contributi di Gestione DSU -2025",
       "territories": [
         "lombardia"
       ],
-      "deadline": null,
-      "sourceStatus": null,
+      "deadline": "2026-11-03",
+      "sourceStatus": "aperto",
       "reasons": [
-        "destinatari_da_interpretare",
-        "stato_e_scadenza_da_verificare"
+        "destinatari_da_interpretare"
       ],
       "audience": {
         "known": false,
@@ -51,12 +74,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "Procedimenti / Politiche Sociali / Abitare in un alloggio pubblico / Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Aperto Elenco Centri Antiviolenza e Case Rifugio - Cancellazione Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Albo regionale dei Centri Antiviolenza e delle Case rifugio: modalità per la cancellazione dall'Elenco da parte dei soggetti individuati dal decreto nr. 16745 del 27.10.2023. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Codice: RLD12026056783 Pubblicato il: 12/10/2026 , ore 16:20 Domande dal: 13/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti e operatori Di cosa si tratta Con DGR n. XII/1073 del 9 ottobre 2023 è stato istituito l'Albo regionale dei Centri Antiviolenza e delle Case Rifugio previsto all'art. 3 della l.r. 3 luglio 2012, n. 11. Possono iscriversi gli enti locali e i soggetti giuridici privati non profit previsti dalla legge regionale n. 11 del 3 luglio 2012 e dall’Intesa Stato-Regioni del 2022 così come specificati negli allegati A) e B) alla delibera richiamata I soggetti giuridici in possesso dei requisiti potranno presentare domanda di iscrizione in ogni momento dell'anno. La DGR è disponibile in allegato a questa pagina ed è pubblicata sul BURL SO n. 41 del 13 ottobre 2023. Come partecipare Le domande dovranno essere presentate esclusivamente tramite portale Bandi e Servizi cliccando su \"Fai do"
+      "text": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Monitoraggio Contributi di Gestione DSU -2025 Aperto Monitoraggio Contributi di Gestione DSU -2025 Codice: RLF12026057243 Pubblicato il: 16/10/2026 , ore 10:25 Domande dal: 19/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 16:00 Comunicazione dati relativi alla gestione dei servizi per il diritto allo studio universitario destinato alla generalità degli studenti LR 33/2004 Annualità 2025 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLF12026057243 Pubblicato il: 16/10/2026 , ore 10:25 Domande dal: 19/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Università statali e non statali, Istituzioni dell'AFAM, pubbliche e private. Scuole superori per mediatori linguistici, pubbliche e private. Di cosa si tratta Comunicazione dati relativi alla gestione dei servizi per il diritto allo studio universitario destinato alla generalità degli studenti LR 33/2004 Annualità 2025 Dotazione finanziaria 21.324.730,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato Come partecipare Il Monitoraggio deve essere presentato esclusivamente online, attraverso il portale di Regione Lombardia dedicato ai bandi www.bandi.regione.lombardia.it , per accedere al quale occorre registrarsi e autenticarsi:con il PIN della tessera sanitaria CNS (in tal caso sarà necessario quindi"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "id": "RLAN2026056903",
-      "version": 26,
+      "version": 28,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "title": "PREMIO IDEALE SPORTIVO",
@@ -78,34 +101,9 @@
       "text": "Bandi / Cultura, Turismo e Sport / Fare sport / PREMIO IDEALE SPORTIVO Aperto PREMIO IDEALE SPORTIVO Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Presentazione candidature dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Le candidature possono essere presentate esclusivamente da: Federazioni Sportive Nazionali (FSN) Discipline Sportive Associate (DSA) Enti di Promozione Sportiva (EPS) riconosciuti dal CONI o dal CIP. Ciascun organismo sportivo può proporre: la candidatura di una ASD/SSD affiliata; la candidatura di un volontario segnalato dai propri comitati regionali/associazioni. Di cosa si tratta Il \" Premio Ideale sportivo ” è istituito dalla Giunta regionale della Lombardia ( DGR n. 6812 del 28/09/2026 ), in attuazione degli artt. 3 e 6 della l.r. n. 3 del 6 febbraio 2026 , per riconoscere pubblicamente l'impegno di Associazioni e Società sportive dilettantistiche e singoli cittadini nella promozione dell’ideale sportivo definito all’art.1 della legge regionale quale modo di intendere e praticare l'attività sportiva, basato sul rispetto della persona e delle regole, sulla correttezza, sulla tolleranza e sulla lealtà e promuove il volontariato in ambito sportivo. BURL DGR n. 6812 del 28/0"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
-      "id": "RLV12026057043",
-      "version": 58,
-      "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/promozione-turistica/progetto-infrastrutturazione-turistica-borgo-ospitale-RLV12026057043",
-      "title": "Progetto di infrastrutturazione turistica del \"Borgo ospitale\"",
-      "territories": [
-        "lombardia"
-      ],
-      "deadline": null,
-      "sourceStatus": null,
-      "reasons": [
-        "destinatari_da_interpretare",
-        "stato_e_scadenza_da_verificare"
-      ],
-      "audience": {
-        "known": false,
-        "scope": "unknown",
-        "evidence": [],
-        "specificLegalFormConfirmed": false,
-        "etsRelevant": null
-      },
-      "text": "Bandi / Cultura, Turismo e Sport / Promozione turistica / Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Aperto Progetto di infrastrutturazione turistica del \"Borgo ospitale\" Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Modulo per la rendicontazione degli interventi Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLV12026057043 Pubblicato il: 07/10/2026 , ore 12:47 Domande dal: 12/10/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comunità Montana Triangolo Lariano Di cosa si tratta A conclusione di tutti gli interventi Comunità Montana - tramite la piattaforma -deve inviare 1. Modulo richiesta saldo; 2. Tabella riassuntiva complessiva delle spese sostenute; 3. Relazione descrittiva unitaria e complessiva degli interventi realizzati; per ogni singolo intervento realizzato: 4. Certificato di collaudo ovvero di regolare esecuzione e relativi provvedimenti di approvazione; 5. Quadro economico finale con relativa determina di approvazione; 6. Documentazione fotografica della targa attestante il rispetto degli obblighi di pubblicità 7. Documentazione fotografica delle principali opere realizzate; 8. Attestazione delle spese sostenute; 9. Shape file dei tracciati interessati (eventuale, solo in caso di interventi su piste ciclabili). Come partecipare Trasmissione rendicontazione esclusivamente tramite Bandi e Servizi Informazioni e contatti Marco Molinari marco_molinari@regione.lombardia.it 02.67652486"
-    },
-    {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 138,
+      "version": 140,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -131,7 +129,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 164,
+      "version": 166,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -155,7 +153,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 164,
+      "version": 166,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
