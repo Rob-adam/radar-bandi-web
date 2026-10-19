@@ -9,7 +9,7 @@
       "deadline": "2027-04-23",
       "fund": 7000000,
       "maxGrant": 5000,
-      "aid": "Sovvenzione a fondo perduto tramite voucher per il Piano di innovazione",
+      "aid": "Voucher fino a 5.000 €, a copertura del 100% delle spese ammissibili del Piano di innovazione; erogazione a saldo.",
       "tags": [
         "Terzo settore",
         "Innovazione",
@@ -20,7 +20,8 @@
       "eligibility": [
         "ETS iscritti al RUNTS oppure fondazioni/associazioni private senza scopo di lucro ammesse dall'Avviso",
         "Sede legale e/o operativa in Lombardia",
-        "Presentazione di un Piano di innovazione conforme all'Avviso"
+        "Presentazione di un Piano di innovazione conforme all'Avviso",
+        "Entrate complessive non superiori a 50.000 € nell’ultimo bilancio; per ETS bilancio depositato secondo avviso e FAQ 19/10/2026."
       ],
       "keywords": [
         "terzo settore",
@@ -80,7 +81,8 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623"
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
+      "deadlineAt": "2027-04-23T12:00:00+02:00"
     },
     {
       "id": "RLJ12026054688",
@@ -175,7 +177,8 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688"
+      "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688",
+      "deadlineAt": "2026-10-16T17:00:00+02:00"
     },
     {
       "id": "RLA12025050323",
@@ -268,10 +271,10 @@
       "id": "RLT12026053831",
       "title": "Rinnova Veicoli - Terzo Settore 2026",
       "source": "Regione Lombardia",
-      "deadline": "2026-10-31",
+      "deadline": "2027-04-30",
       "fund": 500000,
-      "maxGrant": 8000,
-      "aid": "Sovvenzione a fondo perduto per sostituzione di veicoli inquinanti con mezzi a basso impatto emissivo",
+      "maxGrant": 30000,
+      "aid": "Contributo variabile per categoria del veicolo, fino a 30.000 €; sportello fino al 30 aprile 2027 ore 12, salvo esaurimento.",
       "tags": [
         "ETS",
         "RUNTS",
@@ -283,7 +286,8 @@
       "eligibility": [
         "ETS iscritti al RUNTS come ente non commerciale",
         "Sede legale o operativa in Lombardia",
-        "Sostituzione e demolizione di veicolo inquinante ammesso dal bando"
+        "Sostituzione e demolizione di veicolo inquinante ammesso dal bando",
+        "Non iscritti al Registro delle Imprese e al REA; eccezioni senza rottamazione solo secondo il bando."
       ],
       "keywords": [
         "veicoli",
@@ -348,16 +352,17 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831"
+      "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831",
+      "deadlineAt": "2027-04-30T12:00:00+02:00"
     },
     {
       "id": "RLT12026052444",
       "title": "Proposte di educazione ambientale e alla sostenibilità – 2026",
       "source": "Regione Lombardia",
       "deadline": "2026-10-22",
-      "fund": 0,
-      "maxGrant": 0,
-      "aid": "Contributo per progetti di educazione ambientale e sostenibilità",
+      "fund": 150000,
+      "maxGrant": 8000,
+      "aid": "Contributo fino a 8.000 €, fino al 100% delle spese ammissibili del progetto; dotazione 150.000 €.",
       "tags": [
         "Ambiente",
         "Educazione",
@@ -369,7 +374,8 @@
       "eligibility": [
         "ETS e altri soggetti non profit ammessi",
         "Progetti realizzati nel territorio lombardo",
-        "Attività di educazione ambientale e sostenibilità rivolte ai destinatari previsti"
+        "Attività di educazione ambientale e sostenibilità rivolte ai destinatari previsti",
+        "Almeno una sede operativa in Lombardia obbligatoria; proposta in partenariato."
       ],
       "keywords": [
         "educazione ambientale",
@@ -426,7 +432,8 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444"
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444",
+      "deadlineAt": "2026-10-22T16:00:00+02:00"
     },
     {
       "id": "RLH12026055146",

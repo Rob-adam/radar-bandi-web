@@ -1,4 +1,4 @@
-// Official pages and linked regulations re-read on 2026-10-14. Applicant evidence remains separate.
+// Official pages and regulations re-read on the date recorded for each call. Applicant evidence remains separate.
 const REVIEWS={
   "FC-NUOVI-PONTI-2026": {
     "sourceUrl": "https://www.fondazionecariplo.it/bando/nuovi-ponti-culturali/",
@@ -85,17 +85,95 @@ const REVIEWS={
   },
   "CONIBAMBINI-NOTE-COMUNITA-2026": {
     "sourceUrl": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
-    "note": "Riletti pagina e bando ufficiali il 14/10/2026 dopo la segnalazione di variazione: termine 16/10 ore 13 e requisiti del responsabile e del partenariato confermati (sezioni 2.1–2.3). L’aggiornamento della pagina non prova una modifica dell’avviso.",
+    "note": "Riletti pagina e bando ufficiali il 19/10/2026: termine 16/10/2026 ore 13 confermato, quindi non candidabile alla data del controllo. Nessuna riapertura rilevata. Requisiti del responsabile ETS, partenariato e interventi musicali per 6–18 anni confermati; il PDF regolamentare monitorato non risulta cambiato.",
     "documents": [
       "https://www.conibambini.org/wp-content/uploads/2026/06/Bando-Note-di-comunita.pdf"
+    ],
+    "requirements": [],
+    "reviewedAt": "2026-10-19",
+    "deadline": "2026-10-16",
+    "deadlineAt": "2026-10-16T13:00:00+02:00"
+  },
+  "RLD12025048623": {
+    "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
+    "reviewedAt": "2026-10-19",
+    "deadline": "2027-04-23",
+    "deadlineAt": "2027-04-23T12:00:00+02:00",
+    "fund": 7000000,
+    "maxGrant": 5000,
+    "aid": "Voucher fino a 5.000 €, a copertura del 100% delle spese ammissibili del Piano di innovazione; erogazione a saldo.",
+    "note": "Riletti avviso DDS 4806/2026 e FAQ aggiornate il 19/10/2026. Confermati entrate complessive fino a 50.000 €, sede lombarda alla pubblicazione, bilancio depositato per ETS, voucher massimo 5.000 € e termine 23/04/2027 ore 12 salvo esaurimento. Le nuove FAQ precisano documentazione, fornitori e spese; nessuna proroga rilevata.",
+    "documents": [
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf",
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/comunicazioni/download/8a5aa371a151650801a15400249c001b?fileName=FAQ_Avviso_Volontariato+e+Territorio.pdf"
+    ],
+    "requirements": [
+      "FAQ 19/10/2026: per gli ETS occorre almeno un bilancio depositato; la soglia di 50.000 € riguarda il totale proventi e ricavi o totale entrate della gestione, non un saldo netto.",
+      "Ricerca di mercato tra almeno tre fornitori, salvo comparazione documentata su piattaforma online; per formazione/consulenza verificare esperienza o accreditamento richiesti."
+    ]
+  },
+  "RLJ12026054688": {
+    "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688",
+    "reviewedAt": "2026-10-19",
+    "deadline": "2026-10-16",
+    "deadlineAt": "2026-10-16T17:00:00+02:00",
+    "fund": 8432666,
+    "maxGrant": 100000,
+    "note": "Riletti pagina e avviso ufficiale il 19/10/2026: termine 16/10/2026 ore 17 confermato, quindi non candidabile alla data del controllo. Nessuna proroga documentata nella fonte consultata. Confermati sedi lombarde stabili, partenariati di almeno 2 o 4 enti e contributo 80% secondo scala.",
+    "documents": [
+      "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf"
+    ],
+    "requirements": []
+  },
+  "RLT12026053831": {
+    "sourceUrl": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831",
+    "reviewedAt": "2026-10-19",
+    "deadline": "2027-04-30",
+    "deadlineAt": "2027-04-30T12:00:00+02:00",
+    "fund": 500000,
+    "maxGrant": 30000,
+    "aid": "Contributo variabile per categoria del veicolo, fino a 30.000 €; sportello fino al 30 aprile 2027 ore 12, salvo esaurimento.",
+    "note": "Riletti pagina, DGR 6031/2026 e decreto 12266 del 21/09/2026 il 19/10/2026. Confermata proroga al 30/04/2027 ore 12 salvo esaurimento, dotazione ETS 500.000 € e massimo 30.000 € secondo veicolo. Beneficiari ETS non commerciali RUNTS con sede legale o operativa lombarda, non iscritti Registro Imprese/REA.",
+    "documents": [
+      "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf",
+      "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929e04cb94019e06bdb494000d?fileName=dgr_6031+del+20+aprile+2026.pdf"
+    ],
+    "requirements": [
+      "Verificare assenza di iscrizione al Registro Imprese e al REA, requisiti del veicolo e della rottamazione; eccezioni senza radiazione a contributo ridotto secondo il bando."
+    ]
+  },
+  "RLT12026052444": {
+    "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444",
+    "reviewedAt": "2026-10-19",
+    "deadline": "2026-10-22",
+    "deadlineAt": "2026-10-22T16:00:00+02:00",
+    "fund": 150000,
+    "maxGrant": 8000,
+    "aid": "Contributo fino a 8.000 €, fino al 100% delle spese ammissibili del progetto; dotazione 150.000 €.",
+    "note": "Riletti pagina e bando ufficiale il 19/10/2026: termine 22/10/2026 ore 16, sede operativa lombarda obbligatoria, partenariato, progetti nel territorio regionale; dotazione 150.000 € e contributo fino a 8.000 € confermati. Nessuna modifica a questi requisiti rilevata.",
+    "documents": [
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929f252fc8019f28a0063c0045?fileName=Bando+Proposte+di+educazione+ambientale+e+alla+sostenibilita+2026.pdf"
+    ],
+    "requirements": []
+  },
+  "UNIPOLIS-POP-2026": {
+    "sourceUrl": "https://www.fondazioneunipolis.org/site/bando/bando-pop-2026/",
+    "reviewedAt": "2026-10-19",
+    "deadline": "2026-10-15",
+    "deadlineAt": "2026-10-15T13:00:00+02:00",
+    "fund": 300000,
+    "maxGrant": 50000,
+    "note": "Pagina ufficiale riletta il 19/10/2026: bando esplicitamente chiuso. Regolamento conferma termine 15/10/2026 ore 13, costituzione tra 01/01/2016 e 31/12/2024 e entrate fino a 500.000 €. Nessuna riapertura rilevata; resta escluso dal catalogo attivo e l’ente fondato nel 2014 resta non ammissibile.",
+    "documents": [
+      "https://www.fondazioneunipolis.org/site/wp-content/uploads/2026/09/Regolamento-Bando-POP-2026.pdf"
     ],
     "requirements": []
   }
 };
 export function applySourceReview(b){
  const r=REVIEWS[b.id];if(!r)return b;
- const {continuous,note,documents,requirements,...fields}=r;
- const tracking={...b.tracking,specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:'2026-10-14',verificationNote:note,verificationEvidence:[{url:r.sourceUrl,checkedAt:'2026-10-14',note},...documents.map(url=>({url,checkedAt:'2026-10-14',note:'Regolamento ufficiale letto insieme alla pagina del bando.'}))]};
+ const {continuous,note,documents,requirements,reviewedAt='2026-10-14',...fields}=r;
+ const tracking={...b.tracking,specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:reviewedAt,verificationNote:note,verificationEvidence:[{url:r.sourceUrl,checkedAt:reviewedAt,note},...documents.map(url=>({url,checkedAt:reviewedAt,note:'Regolamento ufficiale letto insieme alla pagina del bando.'}))]};
  if(continuous!==undefined)tracking.continuousDeadlineConfirmed=continuous;
  return {...b,...fields,tracking,evidenceUrls:[...new Set([...(b.evidenceUrls||[]),...documents])],hardRequirements:[...(b.hardRequirements||[]),...requirements.map(label=>({type:'document',label}))]};
 }

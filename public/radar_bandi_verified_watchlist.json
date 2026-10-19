@@ -3,21 +3,40 @@
     {
       "id": "RLD12025048623",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
-          "note": "Avviso DDS 4806/2026: sede legale/operativa lombarda richiesta, sezioni RUNTS ODV/APS/altri ETS e soggetti non profit specificati; piano d'innovazione. Termine 23/04/2027 ore12 salvo esaurimento; contributo massimo da verificare nell'allegato.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
+            "checkedAt": "2026-10-19",
+            "note": "Riletti avviso DDS 4806/2026 e FAQ aggiornate il 19/10/2026. Confermati entrate complessive fino a 50.000 €, sede lombarda alla pubblicazione, bilancio depositato per ETS, voucher massimo 5.000 € e termine 23/04/2027 ore 12 salvo esaurimento. Le nuove FAQ precisano documentazione, fornitori e spese; nessuna proroga rilevata."
+          },
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          },
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/comunicazioni/download/8a5aa371a151650801a15400249c001b?fileName=FAQ_Avviso_Volontariato+e+Territorio.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          }
+        ]
       }
     },
     {
       "id": "RLJ12026054688",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688",
-          "note": "Avviso ufficiale Terzo Settore26-28: sede lombarda stabile di tutti i partner beneficiari, minimo2 partner piccola scala/4 larga scala, contributo80%, termine16/10/2026 ore17.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688",
+            "checkedAt": "2026-10-19",
+            "note": "Riletti pagina e avviso ufficiale il 19/10/2026: termine 16/10/2026 ore 17 confermato, quindi non candidabile alla data del controllo. Nessuna proroga documentata nella fonte consultata. Confermati sedi lombarde stabili, partenariati di almeno 2 o 4 enti e contributo 80% secondo scala."
+          },
+          {
+            "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          }
+        ]
       }
     },
     {
@@ -33,21 +52,40 @@
     {
       "id": "RLT12026053831",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831",
-          "note": "Proroga decreto12266/2026:30/04/2027 ore12. DGR6031/2026 fino30000 euro secondo categoria; ETS non commerciali RUNTS con sede lombarda, non iscritti RegistroImprese/REA. Rottamazione di norma richiesta; eccezioni e-cargo/L1e/L5e a importo ridotto. Leasing escluso.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831",
+            "checkedAt": "2026-10-19",
+            "note": "Riletti pagina, DGR 6031/2026 e decreto 12266 del 21/09/2026 il 19/10/2026. Confermata proroga al 30/04/2027 ore 12 salvo esaurimento, dotazione ETS 500.000 € e massimo 30.000 € secondo veicolo. Beneficiari ETS non commerciali RUNTS con sede legale o operativa lombarda, non iscritti Registro Imprese/REA."
+          },
+          {
+            "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          },
+          {
+            "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929e04cb94019e06bdb494000d?fileName=dgr_6031+del+20+aprile+2026.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          }
+        ]
       }
     },
     {
       "id": "RLT12026052444",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444",
-          "note": "Fonte ufficiale: almeno una sede OPERATIVA lombarda obbligatoria, progetti ambientali/sostenibilità in Lombardia in partenariato; contributo fino8000 euro, fondo150000; termine22/10/2026 ore16.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444",
+            "checkedAt": "2026-10-19",
+            "note": "Riletti pagina e bando ufficiale il 19/10/2026: termine 22/10/2026 ore 16, sede operativa lombarda obbligatoria, partenariato, progetti nel territorio regionale; dotazione 150.000 € e contributo fino a 8.000 € confermati. Nessuna modifica a questi requisiti rilevata."
+          },
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929f252fc8019f28a0063c0045?fileName=Bando+Proposte+di+educazione+ambientale+e+alla+sostenibilita+2026.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          }
+        ]
       }
     },
     {
@@ -135,11 +173,18 @@
     {
       "id": "UNIPOLIS-POP-2026",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.fondazioneunipolis.org/site/bando/bando-pop-2026/",
-          "note": "Fonte ufficiale Unipolis: bando aperto 15/09-15/10/2026; non profit italiane, 2-10 anni, entrate 2025 <= 500.000 euro; area Welfare include benessere psico-fisico, servizi sociali/sanitari e prevenzione.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazioneunipolis.org/site/bando/bando-pop-2026/",
+            "checkedAt": "2026-10-19",
+            "note": "Pagina ufficiale riletta il 19/10/2026: bando esplicitamente chiuso. Regolamento conferma termine 15/10/2026 ore 13, costituzione tra 01/01/2016 e 31/12/2024 e entrate fino a 500.000 €. Nessuna riapertura rilevata; resta escluso dal catalogo attivo e l’ente fondato nel 2014 resta non ammissibile."
+          },
+          {
+            "url": "https://www.fondazioneunipolis.org/site/wp-content/uploads/2026/09/Regolamento-Bando-POP-2026.pdf",
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
+          }
+        ]
       }
     },
     {
@@ -158,13 +203,13 @@
         "verificationEvidence": [
           {
             "url": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
-            "checkedAt": "2026-10-14",
-            "note": "Riletti pagina e bando ufficiali il 14/10/2026 dopo la segnalazione di variazione: termine 16/10 ore 13 e requisiti del responsabile e del partenariato confermati (sezioni 2.1–2.3). L’aggiornamento della pagina non prova una modifica dell’avviso."
+            "checkedAt": "2026-10-19",
+            "note": "Riletti pagina e bando ufficiali il 19/10/2026: termine 16/10/2026 ore 13 confermato, quindi non candidabile alla data del controllo. Nessuna riapertura rilevata. Requisiti del responsabile ETS, partenariato e interventi musicali per 6–18 anni confermati; il PDF regolamentare monitorato non risulta cambiato."
           },
           {
             "url": "https://www.conibambini.org/wp-content/uploads/2026/06/Bando-Note-di-comunita.pdf",
-            "checkedAt": "2026-10-14",
-            "note": "Regolamento ufficiale verificato."
+            "checkedAt": "2026-10-19",
+            "note": "Documento ufficiale riletto insieme alla pagina del bando il 19/10/2026."
           }
         ]
       }

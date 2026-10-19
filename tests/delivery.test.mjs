@@ -32,7 +32,7 @@ test('production catalogs apply documented reviews and live monitoring, preserve
  const needsReview=new Set(Object.values(sourceChecks).filter(c=>c.needsReview).map(c=>c.bandoId));
  assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
  for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
-  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
  }
  assert.equal(all.find(b=>b.id==='FC-MUSEI-ACCESS-2026').maxGrant,200000);
  assert.equal(all.find(b=>b.id==='FC-HOUSING-FRAGILI-2026').maxGrant,500000);
@@ -59,4 +59,24 @@ test('production catalogs remove POP and Note di comunità at their verified clo
  catalog=await ids();assert.ok(!catalog.includes(pop));assert.ok(!catalog.includes(note));
  // A currently open call survives the same production filtering.
  assert.ok(catalog.includes('UBI-UMANITARIO-2026'));
+});
+
+
+test('19 October source reviews retain applicant checks and closed calls stay excluded',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-19T16:45:00+02:00')});
+ const all=[];
+ for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
+  const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);
+ }
+ for(const id of ['UNIPOLIS-POP-2026','CONIBAMBINI-NOTE-COMUNITA-2026','RLJ12026054688'])assert.ok(!all.some(b=>b.id===id),id+' closed');
+ for(const id of ['RLD12025048623','RLT12026053831','RLT12026052444']){
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,'2026-10-19');
+  assert.ok(b.hardRequirements.some(r=>r.type==='document'),id+' applicant documents retained');
+  assert.ok(b.tracking.verificationEvidence.length>=2,id+' official documents monitored');
+ }
+ const v=all.find(b=>b.id==='RLT12026053831');assert.equal(v.deadlineAt,'2027-04-30T12:00:00+02:00');assert.equal(v.maxGrant,30000);
+ const small=all.find(b=>b.id==='RLD12025048623');assert.ok(small.hardRequirements.some(r=>r.type==='revenue'&&r.max===50000));assert.ok(small.evidenceUrls.some(u=>u.includes('FAQ_Avviso')));
+ const base=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo.json',import.meta.url),'utf8')).bandi;
+ assert.equal(base.find(b=>b.id==='RLT12026053831').deadline,v.deadline);
+ assert.equal(base.find(b=>b.id==='RLT12026052444').fund,150000);
 });
