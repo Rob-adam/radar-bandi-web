@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-20T13:43:24+02:00",
+  "catalogUpdatedAt": "2026-10-20T19:12:31+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -2774,7 +2774,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-08T20:33:53+02:00"
@@ -5442,9 +5442,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 198,
+      "version": 200,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5545,7 +5545,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5554,9 +5554,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-      "version": 198,
+      "version": 200,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5646,7 +5646,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -5911,9 +5911,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "255f53a941af93b32c4d4c34f9250ced1016c149d248e107720759075282d96f",
-      "version": 146,
+      "version": 148,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6013,7 +6013,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6460,9 +6460,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 172,
+      "version": 174,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6563,7 +6563,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6572,9 +6572,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 174,
+      "version": 176,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6673,7 +6673,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -6682,9 +6682,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 174,
+      "version": 176,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6783,7 +6783,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -11722,9 +11722,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/sostegno-manifestazioni-sportive-territorio-lombardo-periodo-1-luglio-2026-30-settembre-2027-RLAV2026052883",
       "contentHash": "572d9f15d145ef460aca26f20514b2dffd93fa906a263493ef7623df9c6ec96a",
-      "version": 42,
+      "version": 44,
       "firstSeenAt": "2026-10-15T19:04:42+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11820,7 +11820,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -11937,10 +11937,10 @@
       "id": "RLAN2026056903",
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
-      "contentHash": "9b0affacfa6c7508f2ca434de8399efe0f7168e2b8a0280898202902869d03a5",
-      "version": 36,
+      "contentHash": "0c70ab2257bb158d24e3e160d9c33fad20de792f21c0c255c4ffce4f1472d2d5",
+      "version": 38,
       "firstSeenAt": "2026-10-16T13:29:48+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12004,7 +12004,7 @@
         ],
         "hardKeyword": null,
         "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
-        "discoveryText": "Bandi / Cultura, Turismo e Sport / Fare sport / PREMIO IDEALE SPORTIVO Aperto PREMIO IDEALE SPORTIVO Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Presentazione candidature dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Le candidature possono essere presentate esclusivamente da: Federazioni Sportive Nazionali (FSN) Discipline Sportive Associate (DSA) Enti di Promozione Sportiva (EPS) riconosciuti dal CONI o dal CIP. Ciascun organismo sportivo può proporre: la candidatura di una ASD/SSD affiliata; la candidatura di un volontario segnalato dai propri comitati regionali/associazioni. Di cosa si tratta Il \" Premio Ideale sportivo ” è istituito dalla Giunta regionale della Lombardia ( DGR n. 6812 del 28/09/2026 ), in attuazione degli artt. 3 e 6 della l.r. n. 3 del 6 febbraio 2026 , per riconoscere pubblicamente l'impegno di Associazioni e Società sportive dilettantistiche e singoli cittadini nella promozione dell’ideale sportivo definito all’art.1 della legge regionale quale modo di intendere e praticare l'attività sportiva, basato sul rispetto della persona e delle regole, sulla correttezza, sulla tolleranza e sulla lealtà e promuove il volontariato in ambito sportivo. BURL DGR n. 6812 del 28/09/2026 - BURL del 2 ottobre 2026. DDS n. 13416 del 12/09/2026- BURL del 14 ottobre 2026. Come partecipare Le candidature devono essere presentate esclusivamente attraverso la piattaforma Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it a partire dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Non sono ammesse altre modalità di presentazione. Procedura selezione Per la scelta delle candidature e modalità di selezione si rimanda ai criteri approvati dalla Giunta regionale e allegati all'avviso. Informazioni e contatti Informazioni relative all’avviso e agli adempimenti a esso connessi potranno essere richieste all’indirizzo di posta elettronica sistema_sportivo@regione.lombardia.it (rif. Premio ideale sportivo - anno 2026) oppure ai numeri telefonici 02/6765.3097 – 3346 dal lunedì al venerdì dalle ore 9.30 alle ore 12.30. Per le richieste di assistenza alla compilazione online e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di Aria S.p.A. al numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica; oppure inviando una mail all’indirizzo: bandi@regione.lombardia.it Allegati Estratto BURL - DDS n. 13416 del 12 ottobre 2026 - avviso presentazione candidature - 15/10/2026 DGR n. 6812 del 28 settembre 2026 - 08/10/2026 Informativa sul Trattamento dei Dati Personali - 12/10/2026"
+        "discoveryText": "Bandi / Cultura, Turismo e Sport / Fare sport / PREMIO IDEALE SPORTIVO Aperto PREMIO IDEALE SPORTIVO Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Presentazione candidature dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLAN2026056903 Pubblicato il: 12/10/2026 , ore 16:25 Domande dal: 16/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 12:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Le candidature possono essere presentate esclusivamente da: Federazioni Sportive Nazionali (FSN) Discipline Sportive Associate (DSA) Enti di Promozione Sportiva (EPS) riconosciuti dal CONI o dal CIP. Ciascun organismo sportivo può proporre: la candidatura di una ASD/SSD affiliata; la candidatura di un volontario segnalato dai propri comitati regionali/associazioni. Di cosa si tratta Il \" Premio Ideale sportivo ” è istituito dalla Giunta regionale della Lombardia ( DGR n. 6812 del 28/09/2026 ), in attuazione degli artt. 3 e 6 della l.r. n. 3 del 6 febbraio 2026 , per riconoscere pubblicamente l'impegno di Associazioni e Società sportive dilettantistiche e singoli cittadini nella promozione dell’ideale sportivo definito all’art.1 della legge regionale quale modo di intendere e praticare l'attività sportiva, basato sul rispetto della persona e delle regole, sulla correttezza, sulla tolleranza e sulla lealtà e promuove il volontariato in ambito sportivo. BURL DGR n. 6812 del 28/09/2026 - BURL del 2 ottobre 2026. DDS n. 13416 del 12/09/2026- BURL del 14 ottobre 2026. Come partecipare Le candidature devono essere presentate esclusivamente attraverso la piattaforma Bandi e Servizi disponibile all’indirizzo: www.bandi.regione.lombardia.it a partire dalle ore 10:00 del 16/10/2026 alle ore 12:00 del 03/11/2026. Non sono ammesse altre modalità di presentazione. Procedura selezione Per la scelta delle candidature e modalità di selezione si rimanda ai criteri approvati dalla Giunta regionale e allegati all'avviso. Informazioni e contatti Informazioni relative all’avviso e agli adempimenti a esso connessi potranno essere richieste all’indirizzo di posta elettronica sistema_sportivo@regione.lombardia.it (rif. Premio ideale sportivo - anno 2026) oppure ai numeri telefonici 02/6765.3097 – 3346 dal lunedì al venerdì dalle ore 9.30 alle ore 12.30. Per le richieste di assistenza alla compilazione online e per i quesiti di ordine tecnico sulle procedure informatizzate è possibile contattare il Call Center di Aria S.p.A. al numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi: - dalle ore 8.00 alle ore 20.00 per i quesiti di ordine tecnico; - dalle ore 8.30 alle ore 17.00 per richieste di assistenza tecnica; oppure inviando una mail all’indirizzo: bandi@regione.lombardia.it Allegati Estratto BURL - DDS n. 13416 del 12 ottobre 2026 - avviso presentazione candidature - 15/10/2026 DGR n. 6812 del 28 settembre 2026 - 08/10/2026 Informativa sul Trattamento dei Dati Personali - 20/10/2026"
       },
       "triage": {
         "status": "ai-required",
@@ -12030,7 +12030,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12149,9 +12149,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
       "contentHash": "a98658e549b8836d46692748412a8775b6b35d65189b4b703b3ffebc27369734",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12251,7 +12251,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12260,9 +12260,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "contentHash": "206b1ff57415ac1a341c62d1167793cae47f77e76a46f8e124f4bca315cec9e6",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12360,7 +12360,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12369,9 +12369,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
       "contentHash": "ed90cabdada732c96b3f393300e7ae5a7fa298a0de389e0a77ef3d0d5b673f0c",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12470,7 +12470,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12589,9 +12589,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "contentHash": "7ae3fa679d0e8dea92de2f52db846599741b502918b8e8746ea3e71e415672eb",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12686,7 +12686,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12695,9 +12695,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3",
       "contentHash": "f24fcec7d31745b24c66b4113bac722206c0171629615007fc0539aa62858729",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12801,7 +12801,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -12813,8 +12813,8 @@
       "version": 2,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
       "lastChangedAt": "2026-10-20T13:43:24+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-20T19:12:15+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -12921,9 +12921,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/percorsi-inserimentoreinserimento-lavorativo-donne-vittime-violenza-sole-figli-azione-1",
       "contentHash": "92d9ebe7285809021a69fa65e29f4babc8ab384e9966a814dd3fdd82517af3bd",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13023,7 +13023,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -13032,9 +13032,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/promozione-percorsi-sensibilizzazione-sul-tema-violenza-genere-soggetti-significativi-rete-azione-4",
       "contentHash": "ac1e263a5fbc156518e6836cdaa3d7b88c8bcc22409c6a2bc41f75946c092735",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13134,7 +13134,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     },
@@ -13143,9 +13143,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5",
       "contentHash": "120990176c72b3638839f88d96a6f872b7a414d1f95e3e38baa76047abfad078",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "lastChangedAt": "2026-10-20T19:12:31+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13245,17 +13245,17 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+        "evaluatedAt": "2026-10-20T19:12:31+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-20T13:43:24+02:00",
+  "triageUpdatedAt": "2026-10-20T19:12:31+02:00",
   "triageSummary": {
-    "rulesResolved": 13,
+    "rulesResolved": 12,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 97,
+    "notPresent": 98,
     "ruleVersion": 3
   }
 }

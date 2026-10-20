@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T13:43:04+02:00",
-  "attempted": 17,
-  "enriched": 17,
+  "generatedAt": "2026-10-20T19:12:16+02:00",
+  "attempted": 16,
+  "enriched": 16,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -114,14 +114,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/orientamento-formazione-al-lavoro-donne-vittime-violenza",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/orientamento-formazione-al-lavoro-donne-vittime-violenza"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/percorsi-inserimentoreinserimento-lavorativo-donne-vittime-violenza-sole-figli-azione-1",

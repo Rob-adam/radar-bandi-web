@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-20T13:44:11+02:00",
+  "generatedAt": "2026-10-20T19:13:04+02:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
     "radar_bandi_catalogo_extra.json": 13,
-    "radar_bandi_auto.json": 20
+    "radar_bandi_auto.json": 19
   },
   "regions": {
     "abruzzo": {
@@ -53,7 +53,7 @@
     },
     "piemonte": {
       "manual": 2,
-      "automatic": 8
+      "automatic": 7
     },
     "puglia": {
       "manual": 0,
