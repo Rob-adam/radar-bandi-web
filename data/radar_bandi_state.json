@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-20T06:55:56+02:00",
+  "catalogUpdatedAt": "2026-10-20T13:43:24+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -2671,20 +2671,21 @@
       "id": "PIE-AUTO-EBDB37A47A02",
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-investimenti-irrigui-srd02-azione-c-bando-2026",
-      "contentHash": "511e9cefe444baacf7ea52a5217aa1a33e4b7ee75a1657e7a9202aa6ab44b1cf",
-      "version": 3,
+      "contentHash": "7ae3318c8b7118b3b6a327a0de02766fc68f2dbccedf49e7d34642b060ca65ad",
+      "version": 4,
       "firstSeenAt": "2026-09-03T14:35:12+02:00",
-      "lastChangedAt": "2026-10-05T16:45:36+02:00",
-      "present": false,
-      "missingSince": "2026-10-07T15:29:21+02:00",
+      "lastChangedAt": "2026-10-20T13:43:04+02:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
-        "legalForms"
+        "deadline",
+        "discoveryText"
       ],
       "needsAnalysis": false,
       "snapshot": {
         "title": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026",
         "source": "Regione Piemonte · Bandi",
-        "deadline": "2026-10-30",
+        "deadline": null,
         "fund": 0,
         "maxGrant": 0,
         "aid": "Dettagli economici da verificare nella fonte ufficiale",
@@ -2746,7 +2747,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/csr-2023-2027-investimenti-irrigui-srd02-azione-c-bando-2026",
         "sourceStatus": "aperto",
-        "discoveryText": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Piano Strategico della PAC (PSP) 2023-2027. Complemento Regionale per lo Sviluppo Rurale (CSR 2023-2027). Bando SRD02C/3/2026. SRD02 - Azione C - Investimenti irrigui Domande dal Gio, 03/09/2026 - 00:00 Scadenza Ven, 30/10/2026 - 23:59 Temi Agricoltura Rivolto a Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L’azione C Investimenti irrigui prevede un sostegno per investim"
+        "discoveryText": "CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 | Bandi Regione Piemonte Salta al contenuto principale Istituzione di appartenenza Regione Piemonte Bandi Piemonte seguici su Twitter Facebook Youtube Linkedin Instagram Whatsapp Ricerca in Bandi Piemonte Start searching your site You are here Home Contributi e finanziamenti CSR 2023-2027. Investimenti irrigui (SRD02 Azione C) - Bando 2026 Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando Piano Strategico della PAC (PSP) 2023-2027. Complemento Regionale per lo Sviluppo Rurale (CSR 2023-2027). Bando SRD02C/3/2026. SRD02 - Azione C - Investimenti irrigui Domande dal Gio, 03/09/2026 - 00:00 Scadenza Lun, 30/11/2026 - 23:59 Temi Agricoltura Rivolto a Imprese e liberi professionisti Terzo settore Risorse FEASR/PSR/CSR Procedura Bando L’azione C Investimenti irrigui prevede un sostegno per investim"
       },
       "triage": {
         "status": "rules-resolved",
@@ -2773,7 +2774,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-07T08:05:00+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-08T20:33:53+02:00"
@@ -5441,9 +5442,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 196,
+      "version": 198,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5544,7 +5545,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5553,9 +5554,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-      "version": 196,
+      "version": 198,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5645,7 +5646,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -5910,9 +5911,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "255f53a941af93b32c4d4c34f9250ced1016c149d248e107720759075282d96f",
-      "version": 144,
+      "version": 146,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6012,7 +6013,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6459,9 +6460,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 170,
+      "version": 172,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6562,7 +6563,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6571,9 +6572,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 172,
+      "version": 174,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6672,7 +6673,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -6681,9 +6682,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 172,
+      "version": 174,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6782,7 +6783,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -11721,9 +11722,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/sostegno-manifestazioni-sportive-territorio-lombardo-periodo-1-luglio-2026-30-settembre-2027-RLAV2026052883",
       "contentHash": "572d9f15d145ef460aca26f20514b2dffd93fa906a263493ef7623df9c6ec96a",
-      "version": 40,
+      "version": 42,
       "firstSeenAt": "2026-10-15T19:04:42+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -11819,7 +11820,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -11831,8 +11832,8 @@
       "version": 40,
       "firstSeenAt": "2026-10-15T19:04:42+02:00",
       "lastChangedAt": "2026-10-20T06:55:56+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-20T13:43:04+02:00",
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -11937,9 +11938,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "contentHash": "9b0affacfa6c7508f2ca434de8399efe0f7168e2b8a0280898202902869d03a5",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-10-16T13:29:48+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12029,7 +12030,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -12148,9 +12149,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
       "contentHash": "a98658e549b8836d46692748412a8775b6b35d65189b4b703b3ffebc27369734",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12250,7 +12251,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -12259,9 +12260,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "contentHash": "206b1ff57415ac1a341c62d1167793cae47f77e76a46f8e124f4bca315cec9e6",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12359,7 +12360,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -12368,9 +12369,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
       "contentHash": "ed90cabdada732c96b3f393300e7ae5a7fa298a0de389e0a77ef3d0d5b673f0c",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-20T06:55:56+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12469,7 +12470,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-20T06:55:56+02:00"
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
       },
       "excludedForEts": false
     },
@@ -12481,8 +12482,8 @@
       "version": 8,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
       "lastChangedAt": "2026-10-20T06:55:56+02:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-10-20T13:43:04+02:00",
       "lastChangeFields": [
         "discoveryText"
       ],
@@ -12582,14 +12583,679 @@
         "evaluatedAt": "2026-10-20T06:55:56+02:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763": {
+      "id": "RLW12025048763",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
+      "contentHash": "7ae3fa679d0e8dea92de2f52db846599741b502918b8e8746ea3e71e415672eb",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": true,
+      "snapshot": {
+        "title": "FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025",
+        "source": "Regione Lombardia",
+        "deadline": "2026-10-29",
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "formazione",
+          "negli",
+          "ambiti",
+          "professionali",
+          "restauro",
+          "beni",
+          "culturali",
+          "codice",
+          "disponibile",
+          "presentazione",
+          "contributo",
+          "percorsi",
+          "avviati",
+          "concludono"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "formazione",
+          "negli",
+          "ambiti",
+          "professionali",
+          "restauro"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
+        "discoveryText": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025 Aperto FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025 Codice: RLW12025048763 Pubblicato il: 20/10/2026 , ore 10:34 Domande dal: 20/10/2026 , ore 10:00 Scade il: 29/10/2026 , ore 17:00 Disponibile la presentazione della domanda di contributo per percorsi avviati nel 2025 e che si concludono nel 2028. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025048763 Pubblicato il: 20/10/2026 , ore 10:34 Domande dal: 20/10/2026 , ore 10:00 Scade il: 29/10/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti iscritti nella sezione: Linea A - Tecnici del restauro di beni culturali: enti iscritti nelle sezioni A o B dell’Albo regionale dei soggetti accreditati e in possesso dei requisiti per le dotazioni dei laboratori di restauro e dei requisiti del corpo docente per le discipline tecniche del restauro, previsti dall’Accordo approvato il 25 luglio 2012 in Conferenza Stato-Regioni e in possesso di un’esperienza di almeno 10 anni nell’erogazione di percorsi formativi per “Tecnici del restauro” ai sensi del DM 86/2009, da verificare alla data di approvazione delle Linee guida da parte della DGR 1707/2023; Linea B - Figure specializzate nel campo dello spettacolo dal vivo: enti iscritti nelle sezioni A o B dell’Albo regionale dei soggetti accreditati operanti in ambito artistico e culturale e in possesso di un’esperienza almeno decennale nell’erogazione di percorsi di specializzazione dello spettacolo dal vivo, ai sensi degli standard di contenuto del QRSP, e almeno triennale per il singolo percorso, da verificare alla data di approvazione delle Linee guida da parte della DGR 1707/2023. Di cosa si tratta A partire dalle ore 10:00 del 20 ottobre 2026 fino alle ore 17:00 del 29 ottobre 2026 è possibile presentare le domande di contributo dei percorsi annuali, biennali o triennali già avviati nell’anno 2025/2026 e che si concluderanno, al più tardi, nel 2028. Ciò in attuazione della DGR n.5123 del 6/10/2025, che ha disposto il finanziamento dei percorsi avviati nel 2025, che non hanno trovato copertura nel bando approvato nel 2024 e che non troveranno finanziamento nel prossimo bando “misura rinnovata” ai sensi della DGR 6620 del 27/07/2026. Dotazione finanziaria 500000,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL - Come partecipare A partire dalle ore 10:00 del 21/10/2026 mediante il sistema informativo Bandi e Servizi (www.bandi.regione.lombardia.it) gli Operatori possono: • aderire all’Avviso attraverso la sottoscrizione dell’Atto di Adesione Unico (Allegato 1), firmato elettronicamente dal rappresentante legale dell’ente, o da altro soggetto con potere di firma; • presentare la domanda di contributo sempre tramite il sistema informativo Bandi e Servizi (www.bandi.regione.lombardia.it). La domanda di contributo si riferisce al format di cui all’Allegato 2 diversificato a seconda della Linea: Allegato 2A; Allegato 2B. In occasione dell’avvio del ciclo formativo il soggetto beneficiario dovrà compilare attraverso il sistema informativo Bandi e Servizi la comunicazione di avvio del ciclo per linea di attività (Allegato 3A, Allegato 3B). Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per quesiti sulle modalità di finanziamento e funzionamento dell’avviso occorre aprire un ticket su https://cll.regione.lombardia.it/ , previa registrazione. Per richieste di supporto e per segnalare problemi tecnici dell'applicazione SIUO si prega di contattare: il Numero verde 800.591.826 oppure scrivere all'indirizzo e-mail supporto-siuo@ariaspa.it Per problemi tecnici sul sistema informativo Bandi e servizi occorre scrivere esclusivamente a bandi@regione.lombardia.it (BES), indicando obbligatoriamente le seguenti informazioni: • Codice ID bando di riferimento Allegati DDS 13678 del 15/10/2026 Apertura avviso - 15/10/2026 ALLEGATO 1_Atto di adesione REV - 15/10/2026 ALLEGATO 2A_Domanda di contributo Linea A REV - 15/10/2026 ALLEGATO 2B_Domanda di contributo Linea B rev - 15/10/2026 ALLEGATO 4A_Comunicazione avvio ciclo_LINEA A REV - 15/10/2026 ALLEGATO 4B_Comunicazione avvio ciclo_LINEA B rev - 15/10/2026 Mostra altri"
+      },
+      "triage": {
+        "status": "ai-required",
+        "needsAnalysis": true,
+        "etsRelevant": null,
+        "excludedForEts": false,
+        "reasons": [
+          "destinatari_da_interpretare"
+        ],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": false,
+          "scope": "unknown",
+          "evidence": [],
+          "specificLegalFormConfirmed": false,
+          "etsRelevant": null
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3": {
+      "id": "PIE-AUTO-BE92A58E3118",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3",
+      "contentHash": "f24fcec7d31745b24c66b4113bac722206c0171629615007fc0539aa62858729",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Azioni di informazione, comunicazione e formazione nelle scuole sul tema della violenza di genere (azione 3)",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "azioni",
+          "informazione",
+          "comunicazione",
+          "formazione",
+          "scuole",
+          "tema",
+          "violenza",
+          "genere",
+          "azione",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube"
+        ],
+        "sectors": [
+          "azioni",
+          "informazione",
+          "comunicazione",
+          "formazione",
+          "scuole",
+          "tema",
+          "violenza",
+          "genere"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3",
+        "sourceStatus": "aperto",
+        "discoveryText": "Azioni di informazione, comunicazione e formazione nelle scuole sul tema della violenza di genere (azione 3) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando D.G.R. n. 27-3149 del 5.10.2026. Approvazione del bando per l’accesso ai finanziamenti destinati al sostegno di interventi regionali attuativi nell’ambito del Piano Operativo di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” - D.P.C.M. del 29.12.2025. Spesa di Euro 1.338.500,00 capitoli vari del bilancio regionale annualità 2026 e 2027. Domande dal Gio, 22/10/2026 - 09:00 Scadenza Mar, 17/11/2026 - 12:00 Temi Diritti Politiche sociali Rivolto a Enti pubblici Terzo settore Risorse Risorse statali Procedura Bando In applicazione degli indirizzi di cui alla normativa vigente, con particolare riferimento a quanto disposto dalla Presidenza del Consiglio dei Ministri – Dipartimento Pari Opportunità al DPCM del 29.12.2025, sono state assegnate alla Regione delle risorse economiche per la realizzazione di interventi finalizzati al contrasto della violenza sessuale e di genere, di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027”. Il bando è articolato in 4 azioni: l’azione 3 è destinata ad azioni di informazione, comunicazione e formazione nelle scuole sul tema della violenza di genere. Chi può partecipare Enti locali e organizzazioni titolari dei Centri Antiviolenza e Case rifugio , iscritti all’apposito albo regionale di cui alla DGR n. 8-4622 del 6/2/2017, anche in partnership tra loro, e in rete con gli enti e i soggetti impegnati nello specifico settore di intervento e con almeno un soggetto per ciascuna delle seguenti categorie: - Scuola primaria e/o secondaria di primo e/o di secondo grado, con il coinvolgimento di almeno 3 classi di studenti ciascuna. - Organizzazioni di volontariato, Associazioni di Promozione sociale e altri enti del terzo settore iscritti nel Registro Unico del Terzo Settore alla data di scadenza del presente bando, Associazioni operanti nell’ambito formativo/giovanile/scolastico/sportivo interessati al tema. Dotazione finanziaria € 34 0 .000,00 Come presentare domanda Le domande di contributo, compilate su modello di istanza di cui all’allegato n. 3 del bando approvato con D.D. n. 1636 del 1.10.2025 devono essere inoltrate tramite posta elettronica certificata, indicando nell’oggetto “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” – AZIONE 3”, redatte obbligatoriamente sulla apposita modulistica utilizzando esclusivamente i file pubblicati in questa pagina, nella sezione Allegato testo procedura. Le istanze dovranno essere inviate esclusivamente in formato .PDF e via PEC, da parte del soggetto richiedente, con oggetto riportante il numero dell’azione progettuale di riferimento, all'indirizzo: famigliaediritti@cert.regione.piemonte.it entro le ore 12.00 del 17.11.2026 nei limiti dei requisiti di ricevibilità dei messaggi indirizzati alle caselle di PEC delle Direzioni regionali consultabili al seguente indirizzo: https://www.regione.piemonte.it/web/pec-posta-elettronica-certificata Successivamente all’invio, nella stessa giornata dell’invio stesso, e comunque entro la scadenza sopraindicata, si richiede espressamente di inviare la ricevuta di avvenuta consegna generata dal sistema PEC, all’indirizzo di posta elettronica ordinaria della referente dell’azione: anna.ghioni@regione.piemonte.it Le domande di contributo dovranno essere corredate, a pena di inammissibilità, della seguente documentazione: - istanza di contributo, redatta unicamente sul modello di cui all’allegato 3, unitamente alla descrizione sintetica dell’intervento/progetto che si intende realizzare di cui alla Sezione 2 ed al quadro Economico di spesa di cui alla sezione 3 dell’allegato 3; - copia del documento di identità in corso di validità del legale rappresentante dell’ente/organizzazione richiedente; - copie degli atti di intesa, accordi di collaborazione, e/o lettere d’intenti e/o attestanti la manifestazione d’interesse a collaborare all’attuazione di specifiche azioni previste dal progetto, specificatamente prodotti con i vari soggetti (- almeno 1 scuola con il coinvolgimento di almeno 3 classi - almeno 1 Organizzazione di volontariato, Associazioni di Promozione sociale o altro ente del terzo settore iscritto nel Registro Unico del Terzo Settore alla data di scadenza del presente bando, Associazioni operanti nell’ambito formativo/giovanile/scolastico/sportivo interessati al tema) per la promozione e realizzazione del progetto presentato al finanziamento; questa documentazione andrà riunita in unico file formato pdf, non saranno accettati documenti inviati singolarmente; - informativa in materia di trattamento dei dati personali, di cui all’allegato 6) anch’essa compilata e firmata dal legale rappresentante del soggetto proponente; - dichiarazione sostitutiva ex D.P.R. 445/2000 -Tracciabilità flussi finanziari (art. 3 L.136/2010) di cui all’allegato 7) solo per gli enti del terzo settore - scheda di sintesi progetto ai fini della pubblicazione ai sensi del Dlgs . n. 33/2013 di cui all’allegato 8. Struttura di riferimento Direzione Welfare - Settore rapporti con il Terzo Settore, programmazione di interventi di supporto alle famiglie e alle situazioni di fragilità sociale Contatti Anna Ghioni tel. 01 432 2277 anna.ghioni@regione.piemonte.it Allegato testo procedura Approvazione criteri per assegnazione contributi - D.G.R. 5 ottobre 2026 n. 27-3149 Documento PDF - 274.46 KB Approvazione bando Piano strategico 2026 - D.D. 15 ottobre 2026 n. 1636 Documento PDF - 114.24 KB Allegato 1 - Testo completo del bando Documento PDF - 240.88 KB Allegato 3 - Istanza di contributo per realizzazione azione 3 Documento Word - 101.5 KB Allegato 6 - Scheda informativa trattamento dati personali Documento PDF - 78.26 KB Allegato 7 - Scheda per dichiarazione sostitutiva tracciabilità flussi finanziari Documento PDF - 113.09 KB Allegato 8 - Scheda di sintesi progetto per pubblicazione Documento Word - 64 KB"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore",
+            "ente del terzo settore",
+            "organizzazioni di volontariato",
+            "organizzazione di volontariato",
+            "associazioni di promozione sociale"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/orientamento-formazione-al-lavoro-donne-vittime-violenza": {
+      "id": "PIE-AUTO-ECDD14CCA1D2",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/orientamento-formazione-al-lavoro-donne-vittime-violenza",
+      "contentHash": "37930089e604707e2d7012b72cf25401be0b9b747de529a00c7924f22dd8b5ec",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Orientamento e formazione al lavoro delle donne vittime di violenza",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "orientamento",
+          "formazione",
+          "lavoro",
+          "donne",
+          "vittime",
+          "violenza",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube",
+          "linkedin",
+          "instagram",
+          "whatsapp"
+        ],
+        "sectors": [
+          "orientamento",
+          "formazione",
+          "lavoro",
+          "donne",
+          "vittime",
+          "violenza",
+          "bandi",
+          "piemonte"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/orientamento-formazione-al-lavoro-donne-vittime-violenza",
+        "sourceStatus": "aperto",
+        "discoveryText": "Orientamento e formazione al lavoro delle donne vittime di violenza Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando L.R. n. 4/2016 – D.G.R. n.28-3150 del 5.10.2026. Approvazione avviso per l'accesso ai finanziamenti di cui al DPCM 29.12.2025 per rafforzare l’orientamento e la formazione al lavoro delle donne vittime di violenza e di favorire l’effettiva indipendenza economica e l’emancipazione delle stesse. Domande dal Gio, 22/10/2026 - 09:00 Scadenza Lun, 23/11/2026 - 16:00 Temi Diritti Politiche sociali Rivolto a Enti pubblici Terzo settore Risorse Risorse statali Procedura Avviso In attuazione del DPCM 29 dicembre 2025 , sulla base delle specifiche esigenze di programmazione territoriale, condivise all’interno del tavolo di coordinamento regionale dei Centri antiviolenza, delle Case rifugio e del Centro Esperto Sanitario e degli indirizzi approvati dalla Giunta Regionale con D.G.R. n. 28-3150 del 5.10.2026, si intende finanziare un massimo di 5 reti territoriali aventi quali capofila i Centri Antiviolenza, e composte da soggetti qualificati (Centri Antiviolenza, Case Rifugio, Istituzioni, Fondazioni, Servizi per il lavoro, Agenzie formative, Servizi Socio-assistenziali e di welfare, enti del Terzo settore), al fine di promuovere, diffondere e rendere fruibili dalle donne vittime di violenza seguite dalla rete dei centri Antiviolenza e Case rifugio tutte le opportunità/i percorsi/le soluzioni individuabili e disponibili sul territorio, rispetto a: -misure di politica attiva del lavoro, ivi comprese attività di orientamento e formazione professionale; -misure di conciliazione. Chi può partecipare Soggetti proponenti: Enti locali e organizzazioni titolari dei Centri Antiviolenza, iscritti all’apposito albo regionale di cui alla DGR n. 8-4622 del 6/2/2017 Per la presentazione delle istanze di finanziamento, i soggetti sopraccitati devono essere titolari di Centri antiviolenza iscritti all’Albo regionale . Dotazione finanziaria € 219.000,00 Come presentare domanda Le domande di contributo dovranno essere corredate, a pena di inammissibilità, della seguente documentazione (disponibile in questa pagina, nella sezione Allegato testo procedura) Allegato 2 comprendente: A. Istanza di partecipazione alla procedura, firmata dal legale rappresentante del soggetto proponente, con dichiarazione sostitutiva ai sensi degli artt 46 e 47 del D.P.R. n.445/2000, attestante il possesso di tutti i requisiti di partecipazione all'Avviso. B. Proposta progettuale: relazione contenente gli elementi oggetto di valutazione, secondo i criteri individuati nella griglia di valutazione, coerentemente con quanto specificato nel presente Avviso. C. Piano dei costi: dovrà essere quantificata e indicata la percentuale di cofinanziamento proposto, che in ogni caso non potrà essere complessivamente inferiore al 20% del valore totale della proposta progettuale. - copia del documento di identità in corso di validità del legale rappresentante dell’organizzazione richiedente; - informativa in materia di privacy, di cui all’allegato 3), compilata e firmata dal legale rappresentante del soggetto proponente, - dichiarazione sostitutiva ex D.P.R. 445/2000 -Tracciabilità flussi finanziari (art. 3 L.136/2010) allegato 4) compilata e firmata dal legale rappresentante del soggetto proponente (per tutti i proponenti diversi dagli enti locali) Le domande di contributo devono essere inoltrate entro le ore 16.00 del giorno 23.11.2026, tramite posta elettronica certificata, corredate della documentazione sopra riportata, al seguente indirizzo di posta elettronica certificata: famigliaediritti@cert.regione.piemonte.it Struttura di riferimento Direzione Welfare - Rapporti con il Terzo Settore, programmazione di interventi di supporto alle famiglie e alle situazioni di fragilità sociale Contatti Antonella Caprioglio tel.011/4324886 antonella.caprioglio@regione.piemonte.it Allegato testo procedura Approvazione avviso - D.D. 15 ottobre 2026 n. 1628 Documento PDF - 103.32 KB Allegato 1 - Testo completo dell'avviso Documento PDF - 154.67 KB Allegato 2 - Modello di istanza Documento Word - 100.5 KB Allegato 3 - Modello di scheda informativa sul trattamento dei dati personali Documento Word - 9.65 KB Allegato 4 - Modello di scheda per dichiarazione sostitutiva tracciabilità flussi finanziari Documento PDF - 102.83 KB Altri link Pagina dedicata sul sito web di Regione Piemonte"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/percorsi-inserimentoreinserimento-lavorativo-donne-vittime-violenza-sole-figli-azione-1": {
+      "id": "PIE-AUTO-7C1A26F93ED1",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/percorsi-inserimentoreinserimento-lavorativo-donne-vittime-violenza-sole-figli-azione-1",
+      "contentHash": "92d9ebe7285809021a69fa65e29f4babc8ab384e9966a814dd3fdd82517af3bd",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Percorsi di inserimento/reinserimento lavorativo delle donne vittime di violenza, sole e con figli (azione 1)",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "percorsi",
+          "inserimento",
+          "reinserimento",
+          "lavorativo",
+          "donne",
+          "vittime",
+          "violenza",
+          "sole",
+          "figli",
+          "azione",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook"
+        ],
+        "sectors": [
+          "percorsi",
+          "inserimento",
+          "reinserimento",
+          "lavorativo",
+          "donne",
+          "vittime",
+          "violenza",
+          "sole"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/percorsi-inserimentoreinserimento-lavorativo-donne-vittime-violenza-sole-figli-azione-1",
+        "sourceStatus": "aperto",
+        "discoveryText": "Percorsi di inserimento/reinserimento lavorativo delle donne vittime di violenza, sole e con figli (azione 1) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando D.G.R. n.27-3149 del 5.10.2026. Approvazione del bando per l’accesso ai finanziamenti destinati al sostegno di interventi regionali attuativi nell’ambito del Piano Operativo di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” - D.P.C.M. del 29.12.2025. Spesa di Euro 1.338.500,00 capitoli vari del bilancio regionale annualità 2026 e 2027. Domande dal Gio, 22/10/2026 - 09:00 Scadenza Mar, 17/11/2026 - 12:00 Temi Diritti Politiche sociali Rivolto a Enti pubblici Terzo settore Risorse Risorse statali Procedura Bando In applicazione degli indirizzi di cui alla normativa vigente, con particolare riferimento a quanto disposto dalla Presidenza del Consiglio dei Ministri – Dipartimento Pari Opportunità al DPCM del 29.12.2025 , sono state assegnate alla Regione risorse economiche per la realizzazione di interventi finalizzati al contrasto della violenza sessuale e di genere, di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027”. Il bando è articolato in 4 azioni: l’azione 1) è destinata al sostegno di interventi per il reinserimento/inserimento lavorativo e più in generale per l’accompagnamento nei percorsi di fuoriuscita dalla violenza di genere. Chi può partecipare E nti locali e organizzazioni titolari dei Centri Antiviolenza, iscritti all’apposito albo regionale di cui alla DGR n. 8-4622 del 6/2/2017, anche in partnership tra loro e in rete con gli enti e i soggetti impegnati nello specifico settore di intervento e con almeno un soggetto per ciascuna delle seguenti categorie: 1. operatore accreditato all'orientamento e alla formazione professionale; 2. operatore accreditato al lavoro e/o centro per l'impiego territorialmente competente. Dotazione finanziaria € 450 .000,00 Come presentare domanda Le domande di contributo, compilate su modello di istanza (allegato n. 2) devono essere inoltrate tramite posta elettronica certificata, indicando nell’oggetto “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” – AZIONE 1” , redatte obbligatoriamente sulla apposita modulistica utilizzando esclusivamente i file pubblicati in questa pagina, nella sezione Allegato testo procedura. Le istanze dovranno essere inviate esclusivamente in formato .PDF e via PEC, da parte del soggetto richiedente, con oggetto riportante il numero dell’azione progettuale di riferimento, all'indirizzo: famigliaediritti@cert.regione.piemonte.it entro le ore 12.00 del 17.11.2026 nei limiti dei requisiti di ricevibilità dei messaggi indirizzati alle caselle di PEC delle Direzioni regionali consultabili al seguente indirizzo: \" https://www.regione.piemonte.it/web/pec-posta-elettronica-certificata . Successivamente all’invio, nella stessa giornata dell’invio stesso, e comunque entro la scadenza sopraindicata, si richiede espressamente di inviare la ricevuta di avvenuta consegna generata dal sistema PEC, all’ indirizzo di posta elettronica ordinaria della referente dell’azione adrianabarbara.bisset@regione.piemonte.it Le domande di contributo per l’azione 1) dovranno essere corredate, a pena di inammissibilità, della seguente documentazione: - istanza di contributo, redatta unicamente sul modello di cui all’allegato 2, unitamente alla descrizione sintetica dell’intervento/progetto che si intende realizzare di cui alla Sezione 2 ed al quadro Economico di spesa di cui alla sezione 3 dell’allegato 2; - copia del documento di identità in corso di validità del legale rappresentante dell’ente/organizzazione richiedente; - copie degli atti di intesa e/o accordi di collaborazione specificatamente promossi per l’attuazione del progetto, nonché i diversi atti predisposti dai Centri antiviolenza titolari dei progetti con i vari soggetti per la promozione e realizzazione del progetto presentato al finanziamento. Questa documentazione andrà riunita in unico file formato pdf, non saranno accettati documenti inviati singolarmente; - informativa in materia di trattamento dei dati personali, di cui all’allegato 6) anch’essa compilata e firmata dal legale rappresentante del soggetto proponente; - dichiarazione sostitutiva ex D.P.R. 445/2000 Tracciabilità flussi finanziari (art. 3 L.136/2010) di cui all’allegato 7) solo per gli enti del terzo settore; - scheda di sintesi progetto ai fini della pubblicazione ai sensi del Dlgs . n. 33/2013 di cui all’allegato 8. Struttura di riferimento Direzione Welfare - Settore rapporti con il Terzo Settore, programmazione di interventi di supporto alle famiglie e alle situazioni di fragilità sociale Contatti Dr.ssa A. Barbara Bisset tel. 011 432 3173 adrianabarbara.bisset@regione.piemonte.it Allegato testo procedura Approvazione criteri per assegnazione contributi - D.G.R. 5 ottobre 2026 n. 27-3149 Documento PDF - 274.46 KB Approvazione bando Piano strategico 2026 - D.D. 15 ottobre 2026 n. 1636 Documento PDF - 114.24 KB Allegato 1 - Testo completo del bando Documento PDF - 240.88 KB Allegato 2 - Istanza di contributo per realizzazione azione 1 Documento Word - 104.5 KB Allegato 6 - Scheda informativa trattamento dati personali Documento PDF - 78.26 KB Allegato 7 - Scheda per dichiarazione sostitutiva tracciabilità flussi finanziari Documento PDF - 113.09 KB Allegato 8 - Scheda di sintesi progetto per pubblicazione Documento Word - 64 KB"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/promozione-percorsi-sensibilizzazione-sul-tema-violenza-genere-soggetti-significativi-rete-azione-4": {
+      "id": "PIE-AUTO-A88456DFB9C0",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/promozione-percorsi-sensibilizzazione-sul-tema-violenza-genere-soggetti-significativi-rete-azione-4",
+      "contentHash": "ac1e263a5fbc156518e6836cdaa3d7b88c8bcc22409c6a2bc41f75946c092735",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Promozione di percorsi di sensibilizzazione sul tema della violenza di genere con soggetti significativi della rete (azione 4)",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "promozione",
+          "percorsi",
+          "sensibilizzazione",
+          "tema",
+          "violenza",
+          "genere",
+          "soggetti",
+          "significativi",
+          "rete",
+          "azione",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook"
+        ],
+        "sectors": [
+          "promozione",
+          "percorsi",
+          "sensibilizzazione",
+          "tema",
+          "violenza",
+          "genere",
+          "soggetti",
+          "significativi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/promozione-percorsi-sensibilizzazione-sul-tema-violenza-genere-soggetti-significativi-rete-azione-4",
+        "sourceStatus": "aperto",
+        "discoveryText": "Promozione di percorsi di sensibilizzazione sul tema della violenza di genere con soggetti significativi della rete (azione 4) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando D.G.R. n.27-3149 del 5.10.2026. Approvazione del bando per l’accesso ai finanziamenti destinati al sostegno di interventi regionali attuativi nell’ambito del Piano Operativo di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” - D.P.C.M. del 29.12.2025. Spesa di Euro 1.338.500,00 capitoli vari del bilancio regionale annualità 2026 e 2027. Domande dal Gio, 22/10/2026 - 09:00 Scadenza Mar, 17/11/2026 - 12:00 Temi Diritti Politiche sociali Rivolto a Enti pubblici Terzo settore Risorse Risorse statali Procedura Bando In applicazione degli indirizzi di cui alla normativa vigente, con particolare riferimento a quanto disposto dalla Presidenza del Consiglio dei Ministri – Dipartimento Pari Opportunità al DPCM del 29.12.2025, sono state assegnate alla Regione delle risorse economiche per la realizzazione di interventi finalizzati al contrasto della violenza sessuale e di genere, di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027”. Il bando è articolato in 4 azioni. L’azione 4 è destinata al la promozione di percorsi di sensibilizzazione sul tema della violenza di genere con soggetti significativi della rete (Centri famiglia, luoghi di lavoro, Università, ecc.) . Chi può partecipare Enti locali e organizzazioni titolari dei Centri Antiviolenza , iscritti all ’apposito albo regionale di cui alla DGR n. 8-4622 del 6/2/2017, anche in partnership tra loro, e in rete con gli enti e i soggetti della rete territoriale quali Centri famiglia, Università, enti e aziende, pubblici e privati, organizzazioni sindacali, enti e organizzazioni del terzo settore iscritti al RUNTS alla data di scadenza del presente bando, Centri per uomini autori di violenza iscritti al registro regionale alla data di scadenza del bando regionale. Dotazione finanziaria € 264.000,00 Come presentare domanda Le domande di contributo, compilate su modello di istanza di cui all’allegato n. 4 del bando, devono essere inoltrate tramite posta elettronica certificata, indicando nell’oggetto “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” – AZIONE 4”, redatte obbligatoriamente sulla apposita modulistica utilizzando esclusivamente i file pubblicati sul sito della Regione Piemonte. Le istanze dovranno essere inviate esclusivamente in formato .PDF e via PEC, da parte del soggetto richiedente, con oggetto riportante il numero dell’azione progettuale di riferimento, all'indirizzo: famigliaediritti@cert.regione.piemonte.it entro le ore 12.00 del 17.11.2026 nei limiti dei requisiti di ricevibilità dei messaggi indirizzati alle caselle di PEC delle Direzioni regionali consultabili al seguente indirizzo: https://www.regione.piemonte.it/web/pec-posta-elettronica-certificata Successivamente all’invio, nella stessa giornata dell’invio stesso, e comunque entro la scadenza sopraindicata, si richiede espressamente di inviare la ricevuta di avvenuta consegna generata dal sistema PEC, all’ indirizzo di posta elettronica ordinaria della referente dell’azione : elda.cappiello@regione.piemonte.it Le domande di contributo per l’azione 4) dovranno essere corredate, a pena di inammissibilità, della seguente documentazione, pubblicata in questa pagina nella sezione Allegato testo procedura: - istanza di contributo, redatta unicamente sul modello di cui all’allegato 4, unitamente alla descrizione sintetica del progetto che si intende realizzare di cui alla Sezione 2 ed al quadro Economico di spesa di cui alla sezione 3 dell’allegato 4; - copia del documento di identità in corso di validità del legale rappresentante dell’ente/organizzazione richiedente; - copie degli atti di intesa, accordi di collaborazione, e/o lettere d’intenti e/o attestanti la manifestazione d’interesse a collaborare all’attuazione di specifiche azioni previste dal progetto, - informativa in materia di trattamento dei dati personali, di cui all’allegato 6) anch’essa compilata e firmata dal legale rappresentante del soggetto proponente; - dichiarazione sostitutiva ex D.P.R. 445/2000 -Tracciabilità flussi finanziari (art. 3 L.136/2010) di cui all’allegato 7) solo per gli enti del terzo settore; - scheda di sintesi progetto ai fini della pubblicazione ai sensi del Dlgs . n. 33/2013 di cui all’allegato 8 Struttura di riferimento Direzione Welfare - Settore rapporti con il Terzo Settore, programmazione di interventi di supporto alle famiglie e alle situazioni di fragilità soc iale Contatti Elda Cappiello tel. 011 432 3326 elda.cappiello@regione.piemonte.it Allegato testo procedura Approvazione criteri per assegnazione contributi - D.G.R. 5 ottobre 2026 n. 27-3149 Documento PDF - 274.46 KB Approvazione bando Piano strategico 2026 - D.D. 15 ottobre 2026 n. 1636 Documento PDF - 114.24 KB Allegato 1 - Testo completo del bando Documento PDF - 240.88 KB Allegato 4 - Istanza contributo per realizzazione azione 4 Documento Word - 98.5 KB Allegato 6 - Scheda informativa trattamento dati personali Documento PDF - 78.26 KB Allegato 7 - Scheda per dichiarazione sostitutiva tracciabilità flussi finanziari Documento PDF - 113.09 KB Allegato 8 - Scheda di sintesi progetto per pubblicazione Documento Word - 64 KB"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5": {
+      "id": "PIE-AUTO-10E4F2AE6E92",
+      "source": "Regione Piemonte · Bandi",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5",
+      "contentHash": "120990176c72b3638839f88d96a6f872b7a414d1f95e3e38baa76047abfad078",
+      "version": 2,
+      "firstSeenAt": "2026-10-20T13:43:04+02:00",
+      "lastChangedAt": "2026-10-20T13:43:24+02:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "discoveryText"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Sostegno a progetti in favore dei minori vittime di violenza assistita (azione 5)",
+        "source": "Regione Piemonte · Bandi",
+        "deadline": null,
+        "fund": 0,
+        "maxGrant": 0,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Piemonte · Bandi",
+          "piemonte"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "sostegno",
+          "progetti",
+          "favore",
+          "minori",
+          "vittime",
+          "violenza",
+          "assistita",
+          "azione",
+          "bandi",
+          "piemonte",
+          "salta",
+          "contenuto",
+          "principale",
+          "istituzione",
+          "appartenenza",
+          "seguici",
+          "twitter",
+          "facebook",
+          "youtube",
+          "linkedin"
+        ],
+        "sectors": [
+          "sostegno",
+          "progetti",
+          "favore",
+          "minori",
+          "vittime",
+          "violenza",
+          "assistita",
+          "azione"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "piemonte"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: piemonte",
+            "anyOf": [
+              "piemonte"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5",
+        "sourceStatus": "aperto",
+        "discoveryText": "Sostegno a progetti in favore dei minori vittime di violenza assistita (azione 5) Tipologia di contenuto Contributi e finanziamenti Stato Aperto Oggetto del bando D.G.R. n.27-3149 del 5.10.2026. Approvazione del bando per l’accesso ai finanziamenti destinati al sostegno di interventi regionali attuativi nell’ambito del Piano Operativo di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027” - D.P.C.M. del 29.12.2025. Spesa di Euro 1.338.500,00 capitoli vari del bilancio regionale annualità 2026 e 2027. Domande dal Gio, 22/10/2026 - 09:00 Scadenza Mar, 17/11/2026 - 12:00 Temi Diritti Politiche sociali Rivolto a Enti pubblici Terzo settore Risorse Risorse statali Procedura Bando In applicazione degli indirizzi di cui alla normativa vigente, con particolare riferimento a quanto disposto dalla Presidenza del Consiglio dei Ministri – Dipartimento Pari Opportunità al DPCM del 29.12.2025, sono state assegnate alla Regione delle risorse economiche per la realizzazione di interventi finalizzati al contrasto della violenza sessuale e di genere, di cui al “Piano strategico nazionale sulla violenza maschile contro le donne 2025-2027”. Il bando è articolato in 4 azioni: l’azione 5 è destinata al sostegno a progetti in favore dei minori vittime di violenza assistita da realizzarsi attraverso l’attivazione a livello di quadrante di poli di accompagnamento a favore dei minori vittime di violenza assistita. Chi può partecipare Centri Antiviolenza, iscritti all’apposito albo regionale di cui alla DGR n. 8-4622 del 6/2/2017, in formale accordo di partenariato tra loro e con le Case Rifugio (con individuazione espressa del capofila e titolare del finanziamento) e con gli enti gestori delle funzioni socio-assistenziali, le ASL e i soggetti impegnati nello specifico settore di intervento, in particolare con le equipe multidisciplinari per la presa in carico dei casi di abuso e maltrattamento ai danni dei minori, di cui alla DGR n. 10-8475 del 1.3.2019, operanti presso le diverse Aziende Sanitarie Locali regionali e presso A.S.O. O.I.R.M. S.Anna. Si prevede la realizzazione di un partenariato per la creazione di ciascun polo afferente al rispettivo quadrante territoriale di riferimento (Alessandria/Asti; Cuneo; Biella/Novara/Vercelli/VCO; Torino Città Metropolitana; Torino Città). Dotazione finanziaria € 284.500,00 Come presentare domanda Le domande di contributo, compilate su modello di istanza di cui all’allegato n. 5 del bando approvato con D.D. n. 1636 del 15.10.2026 devono essere inoltrate tramite posta elettronica certificata, indicando nell’oggetto “Piano strategico nazionale sulla violenza maschile contro le donne 2025 - 2027” – AZIONE 5 ” , redatte obbligatoriamente sulla apposita modulistica utilizzando esclusivamente i file pubblicati in questa pagina nella sezione Allegato testo procedura. Le istanze dovranno essere inviate esclusivamente in formato .PDF e via PEC, da parte del soggetto richiedente, con oggetto riportante il numero dell’azione progettuale di riferimento, all'indirizzo: famigliaediritti@cert.regione.piemonte.it entro le ore 12.00 del 17.11.2026 nei limiti dei requisiti di ricevibilità dei messaggi indirizzati alle caselle di PEC delle Direzioni regionali consultabili al seguente indirizzo: https://www.regione.piemonte.it/web/pec-posta-elettronica-certificata Successivamente all’invio, nella stessa giornata dell’invio stesso, e comunque entro la scadenza sopraindicata, si richiede espressamente di inviare la ricevuta di avvenuta consegna generata dal sistema PEC, all’indirizzo di posta elettronica ordinaria delle referenti delle azioni: anna.ghioni@regione.piemonte.it adrianabarbara.bisset@regione.piemonte.it Le domande di contributo per l’azione 5 dovranno essere corredate, a pena di inammissibilità, della seguente documentazione: - istanza di contributo, redatta unicamente sul modello di cui all’allegato 5, unitamente alla descrizione sintetica dell’intervento/progetto che si intende realizzare di cui alla Sezione 2 ed al quadro Economico di spesa di cui alla sezione 3 dell’allegato 5; - copia del documento di identità in corso di validità del legale rappresentante dell’ente/organizzazione richiedente; - copie degli atti di intesa, accordi di collaborazione, e/o lettere d’intenti e/o attestanti la volontà a collaborare all’attivazione dei poli di accompagnamento di cui al progetto da parte delle Case Rifugio, degli Enti gestori delle funzioni socio-assistenziali, delle ASL e dei soggetti impegnati nello specifico settore di intervento, in particolare delle equipes multidisciplinari per la presa in carico dei casi di abuso e maltrattamento ai danni dei minori, di cui alla DGR n. 10-8475 del 1.3.2019, operanti presso le diverse Aziende Sanitarie Locali regionali e presso A.S.O. O.I.R.M. S.Anna; - informativa in materia di trattamento dei dati personali, di cui all’allegato 6) anch’essa compilata e firmata dal legale rappresentante del soggetto proponente; - dichiarazione sostitutiva ex D.P.R. 445/2000 -Tracciabilità flussi finanziari (art. 3 L.136/2010) di cui all’allegato 7) solo per gli enti del terzo settore; - scheda di sintesi progetto ai fini della pubblicazione ai sensi del Dlgs . n. 33/2013 di cui all’allegato 8). Struttura di riferimento Direzione Welfare - Rapporti con il Terzo Settore, programmazione di interventi di supporto alle famiglie e alle situazioni di fragilità socia l e Contatti Anna Ghioni tel. 01 432 2277 anna.ghioni@regione.piemonte.it Allegato testo procedura Approvazione criteri per assegnazione contributi - D.G.R. 5 ottobre 2026 n. 27-3149 Documento PDF - 274.46 KB Approvazione bando Piano strategico 2026 - D.D. 15 ottobre 2026 n. 1636 Documento PDF - 114.24 KB Allegato 1 - Testo completo del bando Documento PDF - 240.88 KB Allegato 5 - Istanza contributo per realizzazione azione 5 Documento Word - 100 KB Allegato 6 - Scheda informativa trattamento dati personali Documento PDF - 78.26 KB Allegato 7 - Scheda per dichiarazione sostitutiva tracciabilità flussi finanziari Documento PDF - 113.09 KB Allegato 8 - Scheda di sintesi progetto per pubblicazione Documento Word - 64 KB"
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 3,
+        "evaluatedAt": "2026-10-20T13:43:24+02:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-20T06:55:56+02:00",
+  "triageUpdatedAt": "2026-10-20T13:43:24+02:00",
   "triageSummary": {
-    "rulesResolved": 8,
+    "rulesResolved": 13,
     "rulesExcludedForEts": 0,
     "aiRequired": 7,
-    "notPresent": 96,
+    "notPresent": 97,
     "ruleVersion": 3
   }
 }
