@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-21T13:54:24+02:00",
+  "catalogUpdatedAt": "2026-10-21T19:16:13+02:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -2774,7 +2774,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-09-08T20:33:53+02:00"
@@ -5442,9 +5442,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 206,
+      "version": 208,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5545,7 +5545,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5554,9 +5554,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-      "version": 206,
+      "version": 208,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5646,7 +5646,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -5911,9 +5911,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "255f53a941af93b32c4d4c34f9250ced1016c149d248e107720759075282d96f",
-      "version": 154,
+      "version": 156,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6013,7 +6013,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6460,9 +6460,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 180,
+      "version": 182,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6563,7 +6563,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6572,9 +6572,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 182,
+      "version": 184,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6673,7 +6673,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -6682,9 +6682,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 182,
+      "version": 184,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6783,7 +6783,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -11938,9 +11938,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "contentHash": "0c70ab2257bb158d24e3e160d9c33fad20de792f21c0c255c4ffce4f1472d2d5",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-10-16T13:29:48+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12030,7 +12030,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -12149,9 +12149,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
       "contentHash": "a98658e549b8836d46692748412a8775b6b35d65189b4b703b3ffebc27369734",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12251,7 +12251,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -12260,9 +12260,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "contentHash": "206b1ff57415ac1a341c62d1167793cae47f77e76a46f8e124f4bca315cec9e6",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12360,7 +12360,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -12369,9 +12369,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
       "contentHash": "ed90cabdada732c96b3f393300e7ae5a7fa298a0de389e0a77ef3d0d5b673f0c",
-      "version": 18,
+      "version": 20,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12470,7 +12470,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -12589,9 +12589,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "contentHash": "7ae3fa679d0e8dea92de2f52db846599741b502918b8e8746ea3e71e415672eb",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12686,7 +12686,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -12695,9 +12695,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3",
       "contentHash": "f24fcec7d31745b24c66b4113bac722206c0171629615007fc0539aa62858729",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -12801,7 +12801,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -13143,9 +13143,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5",
       "contentHash": "120990176c72b3638839f88d96a6f872b7a414d1f95e3e38baa76047abfad078",
-      "version": 10,
+      "version": 12,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13245,7 +13245,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     },
@@ -13254,9 +13254,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
       "contentHash": "378b69104387c0eb0ee6439a9527d52511aaadc52f66ce28c77b9f755b80630c",
-      "version": 2,
+      "version": 4,
       "firstSeenAt": "2026-10-21T13:54:11+02:00",
-      "lastChangedAt": "2026-10-21T13:54:24+02:00",
+      "lastChangedAt": "2026-10-21T19:16:13+02:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13354,12 +13354,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-21T13:54:25+02:00"
+        "evaluatedAt": "2026-10-21T19:16:13+02:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-10-21T13:54:25+02:00",
+  "triageUpdatedAt": "2026-10-21T19:16:13+02:00",
   "triageSummary": {
     "rulesResolved": 9,
     "rulesExcludedForEts": 0,
