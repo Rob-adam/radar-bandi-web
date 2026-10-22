@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T19:16:00+02:00",
+  "generatedAt": "2026-10-22T23:41:24+02:00",
   "attempted": 140,
-  "enriched": 138,
+  "enriched": 140,
   "unchanged": 0,
-  "failed": 2,
+  "failed": 0,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -283,8 +283,11 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
-      "ok": false,
-      "error": "Response ended prematurely",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/"
     },
     {
@@ -866,8 +869,11 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti",
-      "ok": false,
-      "error": "Response ended prematurely",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/"
     },
     {
