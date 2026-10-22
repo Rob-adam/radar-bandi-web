@@ -1,7 +1,6 @@
 import json
 import re
 import hashlib
-import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -11,6 +10,7 @@ import requests
 from bs4 import BeautifulSoup
 from enrich_bandi import parse_date
 from source_tls import source_tls_options
+from source_fetch import fetch_source, public_listing_fallback
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -100,22 +100,6 @@ def clean(s):
     return re.sub(r"\s+", " ", (s or "")).strip()
 
 
-def fetch_source(url, method="GET", **kwargs):
-    """Retry transient transport/server failures, preserving TLS verification."""
-    for attempt in range(3):
-        try:
-            send = requests.post if method == "POST" else requests.get
-            response = send(url, headers=HEADERS, timeout=(10, 30),
-                                    **source_tls_options(url), **kwargs)
-            response.raise_for_status()
-            return response
-        except (requests.ConnectionError, requests.Timeout):
-            if attempt == 2:
-                raise
-        except requests.HTTPError as exc:
-            if exc.response is None or exc.response.status_code not in {500, 502, 503, 504} or attempt == 2:
-                raise
-        time.sleep(attempt + 1)
 
 
 def regional_card_items(html, base, source_name, territory):

@@ -21,6 +21,16 @@ test('Basilicata scroll uses only its fixed public read handler',async()=>{
  }});assert.equal(r.status,200);
  assert.equal((await officialListing(new Request('https://test.local/api/official-listing?source=basilicata',{method:'POST'}))).status,405);
 });
+test('grant detail recovery rejects arbitrary/private paths and reads only public grant pages',async()=>{
+ let calls=0;
+ const fetch=async(url)=>{calls++;assert.equal(url,'https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-sociale/');return new Response('<main>Official grant</main>')};
+ for(const detail of ['/wp-admin/','//evil.example/avvisi-e-bandi/a/','/avvisi-e-bandi/../private/']){
+  assert.equal((await officialListing(new Request('https://test.local/api/official-listing?source=basilicata&detail='+encodeURIComponent(detail)),{fetch})).status,400);
+ }
+ assert.equal(calls,0);
+ const r=await officialListing(new Request('https://test.local/api/official-listing?source=basilicata&detail=%2Favvisi-e-bandi%2Fprogetto-sociale%2F'),{fetch});
+ assert.equal(r.status,200);assert.equal(r.headers.get('X-Bandovera-Official-Source'),'https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-sociale/');
+});
 test('successful public listings are cached; source refusals remain refusals and are not cached',async()=>{
  let cached=null,writes=0;
  const cache={match:async()=>cached,put:async(k,r)=>{writes++;cached=r}};

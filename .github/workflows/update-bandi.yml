@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - 'scripts/update_bandi.py'
+      - 'scripts/source_fetch.py'
       - 'scripts/audit_coverage.py'
       - 'scripts/er_discovery.py'
       - 'scripts/er_watchlist.py'

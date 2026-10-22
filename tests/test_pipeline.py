@@ -11,13 +11,37 @@ import enrich_bandi
 import update_bandi
 import check_verified_sources
 import source_tls
+import source_fetch
 
 
 class PipelineTests(unittest.TestCase):
+    def test_actions_connect_timeout_recovers_only_fixed_public_listings(self):
+        url = 'https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html'
+        response = unittest.mock.Mock(headers={'X-Bandovera-Official-Source': url})
+        response.raise_for_status.return_value = None
+        with patch.object(source_fetch, 'RECOVERED_PUBLIC_SOURCES', set()), patch.object(update_bandi.requests, 'get', side_effect=[update_bandi.requests.ConnectTimeout()] * 3 + [response, response]) as fetch, patch.object(source_fetch.time, 'sleep'):
+            self.assertIs(update_bandi.fetch_source(url), response)
+            self.assertEqual(fetch.call_args.args[0], 'https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing')
+            self.assertEqual(fetch.call_args.kwargs['params'], {'source': 'liguria', 'page': 1})
+            self.assertIs(update_bandi.fetch_source(url), response)
+            self.assertEqual(fetch.call_count, 5)  # No further direct timeout once recovered.
+        self.assertIsNone(update_bandi.public_listing_fallback('https://example.org/private', 'GET', {}))
+        with self.assertRaises(ValueError):
+            update_bandi.public_listing_fallback('https://portalebandi.regione.basilicata.it/', 'POST', {'data': {'query[query_id]': 'other'}})
+
+    def test_detail_recovery_reaches_enrichment_without_accepting_arbitrary_paths(self):
+        url = 'https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-sociale/'
+        response = unittest.mock.Mock(headers={'X-Bandovera-Official-Source': url})
+        response.raise_for_status.return_value = None
+        with patch.object(source_fetch.requests, 'get', return_value=response) as fetch:
+            self.assertIs(source_fetch.public_listing_fallback(url, 'GET', {}), response)
+            self.assertEqual(fetch.call_args.kwargs['params']['detail'], '/avvisi-e-bandi/progetto-sociale/')
+        self.assertIsNone(source_fetch.public_listing_fallback('https://portalebandi.regione.basilicata.it/wp-admin/', 'GET', {}))
+
     def test_transient_fetch_is_retried_but_forbidden_is_not(self):
         response = unittest.mock.Mock()
         response.raise_for_status.return_value = None
-        with patch.object(update_bandi.requests, "get", side_effect=[update_bandi.requests.Timeout(), response]) as fetch, patch.object(update_bandi.time, "sleep"):
+        with patch.object(update_bandi.requests, "get", side_effect=[update_bandi.requests.Timeout(), response]) as fetch, patch.object(source_fetch.time, "sleep"):
             self.assertIs(update_bandi.fetch_source("https://example.org"), response)
             self.assertEqual(fetch.call_count, 2)
         response.status_code = 403

@@ -8,6 +8,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from source_fetch import fetch_source
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -45,7 +46,7 @@ def response_hash(response):
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def observe(url, checked_at, previous, stamp, fetch=requests.get):
+def observe(url, checked_at, previous, stamp, fetch=None):
     result = {"url": url, "evidenceCheckedAt": checked_at, "attemptedAt": stamp}
     baseline = previous.get("baselineHash")
     if previous.get("evidenceCheckedAt") != checked_at:
@@ -55,7 +56,7 @@ def observe(url, checked_at, previous, stamp, fetch=requests.get):
     if previous.get("lastFetchSucceededAt"):
         result["lastFetchSucceededAt"] = previous["lastFetchSucceededAt"]
     try:
-        response = fetch(url, headers=HEADERS, timeout=25)
+        response = fetch(url, headers=HEADERS, timeout=25) if fetch else fetch_source(url)
         response.raise_for_status()
         fingerprint = response_hash(response)
         changed = bool(baseline and fingerprint != baseline)
