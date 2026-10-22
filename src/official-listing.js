@@ -14,7 +14,7 @@ export async function officialListing(request,options={}){
  const cached=cache?await cache.match(key):null;
  if(cached)return cached;
  const headers={'User-Agent':'BANDOVERA/1.6 (monitoraggio fonti ufficiali pubbliche)'};
- let init={method:'GET',headers,redirect:'error',signal:AbortSignal.timeout(25000)};
+ let init={method:'GET',headers,redirect:'manual',signal:AbortSignal.timeout(25000)};
  if(page>1){
   // Public read-only scroll handler observed on the official Basilicata listing.
   const data=new URLSearchParams({action:'jet_engine_ajax',handler:'listing_load_more',
@@ -26,7 +26,7 @@ export async function officialListing(request,options={}){
  }
  try{
   const upstream=await(options.fetch||fetch)(SOURCES[source],init);
-  if(!upstream.ok)return new Response('Official source unavailable',{status:upstream.status,headers:{'Cache-Control':'no-store'}});
+  if(!upstream.ok)return new Response('Official source unavailable',{status:upstream.status>=300&&upstream.status<400?502:upstream.status,headers:{'Cache-Control':'no-store'}});
   const body=await upstream.arrayBuffer();
   if(body.byteLength>2000000)return new Response('Official listing too large',{status:502});
   const response=new Response(body,{headers:{'Content-Type':upstream.headers.get('Content-Type')||'text/html; charset=utf-8',

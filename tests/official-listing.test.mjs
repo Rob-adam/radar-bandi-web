@@ -4,7 +4,7 @@ import {officialListing} from '../src/official-listing.js';
 
 test('public source collector accepts only fixed sources and never forwards credentials',async()=>{
  let calls=0;
- const upstream=async(url,init)=>{calls++;assert.equal(url,'https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html');assert.equal(init.headers.Authorization,undefined);assert.equal(init.headers.Cookie,undefined);assert.equal(init.redirect,'error');return new Response('<main>Elenco pubblico</main>',{headers:{'Content-Type':'text/html'}})};
+ const upstream=async(url,init)=>{calls++;assert.equal(url,'https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html');assert.equal(init.headers.Authorization,undefined);assert.equal(init.headers.Cookie,undefined);assert.equal(init.redirect,'manual');return new Response('<main>Elenco pubblico</main>',{headers:{'Content-Type':'text/html'}})};
  for(const query of ['source=https://evil.example','source=liguria&page=2','source=basilicata&page=-1']){
   assert.equal((await officialListing(new Request('https://test.local/api/official-listing?'+query),{fetch:upstream})).status,400);
  }
