@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T11:55:49+02:00",
-  "attempted": 40,
-  "enriched": 40,
+  "generatedAt": "2026-10-22T12:16:05+02:00",
+  "attempted": 140,
+  "enriched": 140,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -52,6 +52,15 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "ok": true,
       "changed": [
@@ -61,6 +70,26 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763"
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "deadline"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche/"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -68,6 +97,14 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
@@ -105,6 +142,16 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025/"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
@@ -172,6 +219,15 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -217,6 +273,33 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -233,6 +316,186 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti/"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
@@ -280,6 +543,15 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -289,6 +561,24 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -296,6 +586,574 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
@@ -338,6 +1196,42 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/"
+    },
+    {
       "key": "url:https://www.fondazionecariplo.it/bando/anita-reti-mille",
       "ok": true,
       "changed": [
@@ -364,6 +1258,14 @@
         "discoveryText"
       ],
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
+    },
+    {
+      "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html"
     },
     {
       "key": "url:https://www.regione.puglia.it/bandi-e-avvisi#content",
