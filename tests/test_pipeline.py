@@ -14,6 +14,63 @@ import source_tls
 
 
 class PipelineTests(unittest.TestCase):
+    def test_transient_fetch_is_retried_but_forbidden_is_not(self):
+        response = unittest.mock.Mock()
+        response.raise_for_status.return_value = None
+        with patch.object(update_bandi.requests, "get", side_effect=[update_bandi.requests.Timeout(), response]) as fetch, patch.object(update_bandi.time, "sleep"):
+            self.assertIs(update_bandi.fetch_source("https://example.org"), response)
+            self.assertEqual(fetch.call_count, 2)
+        response.status_code = 403
+        response.raise_for_status.side_effect = update_bandi.requests.HTTPError(response=response)
+        with patch.object(update_bandi.requests, "get", return_value=response) as fetch:
+            with self.assertRaises(update_bandi.requests.HTTPError):
+                update_bandi.fetch_source("https://example.org")
+            self.assertEqual(fetch.call_count, 1)
+
+    def test_liguria_reads_beneficiaries_and_deadline_from_whole_own_card(self):
+        html = '''<div class="pc_latest_item"><h3><a class="bando_link" href="/publiccompetition/a">Case rifugio</a></h3>
+          <div>Avviso pubblico rivolto al terzo settore</div><div class="pc_latest_item_chiusura">26 Ottobre 2099</div></div>
+          <div class="pc_latest_item"><h3><a class="bando_link" href="/publiccompetition/b">Bando per privati</a></h3><div>solo privati</div></div>'''
+        records = update_bandi.regional_card_items(html, "https://www.regione.liguria.it/", "Liguria", "liguria")
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]["deadline"], "2099-10-26")
+        self.assertEqual(records[0]["legalForms"], [])
+
+    def test_basilicata_migrated_cards_and_structural_failure(self):
+        html = '''<div class="jet-listing-grid__item"><span class="elementor-heading-title">Contributi per servizi sociali</span>
+          <div>Data di scadenza: 27/10/2099 23:59</div><a href="/avvisi-e-bandi/sociali/">Maggiori dettagli</a></div>'''
+        record = update_bandi.regional_card_items(html, "https://portalebandi.regione.basilicata.it/", "Basilicata", "basilicata")[0]
+        self.assertEqual(record["title"], "Contributi per servizi sociali")
+        self.assertEqual(record["deadline"], "2099-10-27")
+        with self.assertRaises(ValueError):
+            update_bandi.regional_card_items('<meta http-equiv="refresh" content="0;URL=/index.jsp">', "https://example.org", "Basilicata", "basilicata")
+
+    def test_basilicata_follows_public_scroll_and_rejects_repeated_pages(self):
+        nav = json.dumps({"query": {"query_id": 26}, "widget_settings": {"_element_id": "in-scadenza", "lisitng_id": 71}})
+        card = lambda ident: f'<div class="jet-listing-grid__item"><span class="elementor-heading-title">Progetto {ident}</span>Data di scadenza: 31/12/2099<a href="/avvisi-e-bandi/{ident}/">Maggiori dettagli</a></div>'
+        html = f"<div data-nav='{nav}' data-pages='2' data-queried-id='77|WP_Post'>{card(1)}</div>"
+        response = unittest.mock.Mock(json=lambda: {"success": True, "data": {"html": card(2)}})
+        with patch.object(update_bandi, "fetch_source", return_value=response) as fetch:
+            records = update_bandi.basilicata_items(html, "https://portalebandi.regione.basilicata.it/", "Basilicata")
+        self.assertEqual(len(records), 2)
+        self.assertEqual(fetch.call_args.kwargs["data"]["handler"], "listing_load_more")
+        repeated = unittest.mock.Mock(json=lambda: {"success": True, "data": {"html": card(1)}})
+        with patch.object(update_bandi, "fetch_source", return_value=repeated):
+            with self.assertRaises(ValueError):
+                update_bandi.basilicata_items(html, "https://portalebandi.regione.basilicata.it/", "Basilicata")
+
+    def test_veneto_consumes_every_json_page_including_unlabelled_applicants(self):
+        def response(title, ident):
+            return unittest.mock.Mock(json=lambda: {"recordsFiltered": 2, "aaData": [[f'<div class="partialId"><a href="Dettaglio?idAtto={ident}">{title}</a></div><span class="DtScadenza">31/12/2099</span>']]})
+        with patch.object(update_bandi, "fetch_source", side_effect=[response("Progetti sanitari", 1), response("Sostegno alle associazioni", 2)]) as fetch:
+            records = update_bandi.veneto_items("https://bandi.regione.veneto.it/Public/Elenco?Tipo=1", "Veneto")
+        self.assertEqual(len(records), 2)
+        self.assertEqual(fetch.call_args_list[1].kwargs["params"]["iDisplayStart"], 1)
+        self.assertEqual(records[0]["deadline"], "2099-12-31")
+        with patch.object(update_bandi, "fetch_source", return_value=unittest.mock.Mock(json=lambda: {"recordsFiltered": 2, "aaData": []})):
+            with self.assertRaises(ValueError):
+                update_bandi.veneto_items("https://bandi.regione.veneto.it/Public/Elenco?Tipo=1", "Veneto")
+
     def test_abruzzo_missing_intermediate_chains_to_existing_public_root(self):
         subprocess.run(["openssl", "verify", "-CAfile", source_tls.requests.certs.where(), str(source_tls.ISSUER)], check=True, capture_output=True)
         observed = subprocess.check_output(["openssl", "x509", "-in", str(source_tls.ISSUER), "-noout", "-fingerprint", "-sha256"], text=True)

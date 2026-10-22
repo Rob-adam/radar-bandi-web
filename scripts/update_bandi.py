@@ -1,6 +1,7 @@
 import json
 import re
 import hashlib
+import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -32,12 +33,12 @@ SOURCES = [
     {"name": "Regione Piemonte · Bandi", "region": "piemonte", "url": "https://bandi.regione.piemonte.it/", "kind": "piemonte"},
 
     {"name": "Regione Abruzzo · Bandi", "region": "abruzzo", "url": "https://www.regione.abruzzo.it/contenuti/bandi", "kind": "generic-region"},
-    {"name": "Regione Basilicata · Bandi", "region": "basilicata", "url": "https://portalebandi.regione.basilicata.it/PortaleBandi/", "kind": "generic-region"},
+    {"name": "Regione Basilicata · Bandi", "region": "basilicata", "url": "https://portalebandi.regione.basilicata.it/", "kind": "basilicata"},
     {"name": "Regione Calabria · Bandi", "region": "calabria", "url": "https://calabriaeuropa.regione.calabria.it/bandi/", "kind": "generic-region"},
     {"name": "Regione Campania · Bandi", "region": "campania", "url": "https://www.regione.campania.it/servizi/bandi-gare", "kind": "generic-region"},
     {"name": "Regione Friuli-Venezia Giulia · Bandi", "region": "friuli-venezia-giulia", "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/", "kind": "generic-region"},
     {"name": "Regione Lazio · Bandi", "region": "lazio", "url": "https://www.regione.lazio.it/bandi-di-concorso-avvisi/ricerca", "kind": "generic-region"},
-    {"name": "Regione Liguria · Bandi", "region": "liguria", "url": "https://www.regione.liguria.it/homepage-bandi-e-avvisi.html", "kind": "generic-region"},
+    {"name": "Regione Liguria · Bandi", "region": "liguria", "url": "https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html", "kind": "liguria"},
     {"name": "Regione Marche · Bandi", "region": "marche", "url": "https://www.regione.marche.it/Entra-in-Regione/Bandi-e-Opportunita", "kind": "generic-region"},
     {"name": "Regione Molise · Bandi", "region": "molise", "url": "https://www.regione.molise.it/", "kind": "generic-region"},
     {"name": "Regione Puglia · Bandi", "region": "puglia", "url": "https://www.regione.puglia.it/bandi-e-avvisi", "kind": "generic-region"},
@@ -47,7 +48,7 @@ SOURCES = [
     {"name": "Regione Trentino-Alto Adige · Bandi", "region": "trentino-alto-adige", "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti", "kind": "generic-region"},
     {"name": "Regione Umbria · Bandi", "region": "umbria", "url": "https://www.regione.umbria.it/bandi-fse", "kind": "generic-region"},
     {"name": "Regione Valle d'Aosta · Bandi", "region": "valle-d-aosta", "url": "https://lavoro.regione.vda.it/bandi-e-avvisi/bandi-e-avvisi", "kind": "generic-region"},
-    {"name": "Regione Veneto · Bandi", "region": "veneto", "url": "https://bandi.regione.veneto.it/Public/Elenco", "kind": "generic-region"},
+    {"name": "Regione Veneto · Bandi", "region": "veneto", "url": "https://bandi.regione.veneto.it/Public/Elenco?Tipo=1", "kind": "veneto"},
 
     {"name": "Fondazione Cariplo", "region": "sovraregionale", "url": "https://www.fondazionecariplo.it/contributi/bandi/", "kind": "cariplo"},
 ]
@@ -97,6 +98,123 @@ GENERIC_BAD_PATH_PARTS = (
 
 def clean(s):
     return re.sub(r"\s+", " ", (s or "")).strip()
+
+
+def fetch_source(url, method="GET", **kwargs):
+    """Retry transient transport/server failures, preserving TLS verification."""
+    for attempt in range(3):
+        try:
+            send = requests.post if method == "POST" else requests.get
+            response = send(url, headers=HEADERS, timeout=(10, 30),
+                                    **source_tls_options(url), **kwargs)
+            response.raise_for_status()
+            return response
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt == 2:
+                raise
+        except requests.HTTPError as exc:
+            if exc.response is None or exc.response.status_code not in {500, 502, 503, 504} or attempt == 2:
+                raise
+        time.sleep(attempt + 1)
+
+
+def regional_card_items(html, base, source_name, territory):
+    """Read each grant's own card; never mix neighbouring beneficiaries/dates."""
+    soup = BeautifulSoup(html, "html.parser")
+    selector = ".pc_latest_item" if territory == "liguria" else ".jet-listing-grid__item"
+    cards = soup.select(selector)
+    if not cards:
+        raise ValueError(f"Struttura elenco {territory} non riconosciuta")
+    out = {}
+    today = datetime.now(ITALY_TZ).date().isoformat()
+    for card in cards:
+        anchor = card.select_one("a.bando_link" if territory == "liguria" else 'a[href*="/avvisi-e-bandi/"]')
+        if not anchor:
+            continue
+        heading = card.select_one(".elementor-heading-title") if territory == "basilicata" else card.find(["h1", "h2", "h3", "h4"])
+        title = clean((heading or anchor).get_text(" ", strip=True))
+        text = clean(card.get_text(" ", strip=True))
+        closing = card.select_one(".pc_latest_item_chiusura")
+        deadline = parse_date("Scadenza: " + closing.get_text(" ", strip=True)) if closing else parse_date(text.replace("Data di scadenza", "Scadenza"))
+        if deadline and deadline < today:
+            continue
+        # Basilicata cards omit applicant types: keep current grants for detail triage.
+        if territory == "liguria" and not any(s in text.lower() for s in GENERIC_ETS_SIGNALS):
+            continue
+        url = urljoin(base, anchor["href"])
+        if urlparse(url).hostname != urlparse(base).hostname:
+            continue
+        rec = make_record(slug_id("REG-AUTO", url, title), title, source_name, url, text, territory)
+        rec["deadline"] = deadline
+        rec["sourceStatus"] = "da-verificare"
+        out[url] = rec
+    return list(out.values())
+
+
+def basilicata_items(html, base, source_name):
+    """Follow all pages of the official 'in scadenza' public listing."""
+    soup = BeautifulSoup(html, "html.parser")
+    grids = soup.select('[data-nav][data-pages]')
+    grid = next((g for g in grids if json.loads(g["data-nav"]).get("widget_settings", {}).get("_element_id") == "in-scadenza"), None)
+    if grid is None:
+        raise ValueError("Elenco Basilicata in scadenza non riconosciuto")
+    nav = json.loads(grid["data-nav"])
+    records = regional_card_items(str(grid), base, source_name, "basilicata")
+    for page in range(2, int(grid["data-pages"]) + 1):
+        data = {"action": "jet_engine_ajax", "handler": "listing_load_more",
+                "query[query_id]": nav["query"]["query_id"],
+                "page_settings[post_id]": grid["data-queried-id"].split("|")[0],
+                "page_settings[queried_id]": grid["data-queried-id"],
+                "page_settings[page]": page, "isEditMode": "false"}
+        for key, value in nav["widget_settings"].items():
+            if isinstance(value, (str, int)):
+                data[f"widget_settings[{key}]"] = value
+        # This public POST only renders a listing, exactly as the site's scroll UI.
+        payload = fetch_source(base, method="POST", data=data).json()
+        if not payload.get("success") or not payload.get("data", {}).get("html"):
+            raise ValueError(f"Paginazione Basilicata interrotta a pagina {page}")
+        page_records = regional_card_items(payload["data"]["html"], base, source_name, "basilicata")
+        known = {r["sourceUrl"] for r in records}
+        if page_records and all(r["sourceUrl"] in known for r in page_records):
+            raise ValueError(f"Basilicata ripete una pagina già acquisita: {page}")
+        records.extend(page_records)
+    return list({r["sourceUrl"]: r for r in records}.values())
+
+
+def veneto_items(base, source_name):
+    """The official listing is populated by a public, paginated JSON endpoint."""
+    out = {}
+    start = 0
+    today = datetime.now(ITALY_TZ).date().isoformat()
+    while True:
+        params = dict(cig="", parolaChiave="", tipoAttoTmp="1", destinatariTmp="",
+                      struttureTmp="0", categorieTmp="0", statoTmp="0", materieTmp="",
+                      paginaIniziale="Elenco", iDisplayStart=start, iDisplayLength=100, sEcho=1)
+        payload = fetch_source(urljoin(base, "/Public/GetListaAttiJson"), params=params).json()
+        if "aaData" not in payload or "recordsFiltered" not in payload:
+            raise ValueError("Risposta elenco Veneto non riconosciuta")
+        rows = payload["aaData"]
+        if not rows and start < int(payload["recordsFiltered"]):
+            raise ValueError("Paginazione Veneto interrotta prima della fine")
+        for row in rows:
+            soup = BeautifulSoup(" ".join(row), "html.parser")
+            anchor = soup.select_one('.partialId a[href*="Dettaglio"]')
+            if not anchor:
+                raise ValueError("Scheda Veneto senza collegamento di dettaglio")
+            deadline_node = soup.select_one(".DtScadenza")
+            deadline = parse_date("Scadenza: " + deadline_node.get_text()) if deadline_node else None
+            if deadline and deadline < today:
+                continue
+            title = clean(anchor.get_text(" ", strip=True))
+            url = urljoin(base, anchor["href"])
+            rec = make_record(slug_id("REG-AUTO", url, title), title, source_name, url,
+                              clean(soup.get_text(" ", strip=True)), "veneto")
+            rec["deadline"] = deadline
+            rec["sourceStatus"] = "da-verificare"
+            out[url] = rec
+        start += len(rows)
+        if start >= int(payload["recordsFiltered"]):
+            return list(out.values())
 
 
 def slug_id(prefix, url, title):
@@ -448,8 +566,7 @@ def main():
     for src in SOURCES:
         count_before = len(found)
         try:
-            r = requests.get(src["url"], headers=HEADERS, timeout=30, **source_tls_options(src["url"]))
-            r.raise_for_status()
+            r = fetch_source(src["url"])
             if src["kind"] == "lombardia":
                 found.extend(lombardia_items(r.text, src["url"]))
             elif src["kind"] == "emilia-romagna":
@@ -458,6 +575,12 @@ def main():
                 found.extend(piemonte_items(r.text, src["url"], src["name"]))
             elif src["kind"] == "generic-region":
                 found.extend(generic_region_items(r.text, src["url"], src["name"], src["region"]))
+            elif src["kind"] == "basilicata":
+                found.extend(basilicata_items(r.text, src["url"], src["name"]))
+            elif src["kind"] == "liguria":
+                found.extend(regional_card_items(r.text, src["url"], src["name"], src["region"]))
+            elif src["kind"] == "veneto":
+                found.extend(veneto_items(src["url"], src["name"]))
             elif src["kind"] == "cariplo":
                 found.extend(cariplo_items(r.text, src["url"]))
             for record in found[count_before:]:
