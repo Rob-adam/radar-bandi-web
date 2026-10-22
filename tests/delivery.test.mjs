@@ -13,6 +13,17 @@ test('reviewed deadline and grants survive production wrappers without forged Ve
 const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);}const vehicle=all.find(b=>b.id==='RLT12026053831');assert.equal(vehicle.deadline,'2027-04-30');assert.equal(vehicle.maxGrant,30000);assert.ok(!vehicle.territories.includes('Veneto'));assert.ok(!vehicle.hardRequirements.some(r=>(r.anyOf||[]).includes('italia')));assert.equal(all.find(b=>b.id==='UNIPOLIS-POP-2026').deadlineAt,'2026-10-15T13:00:00+02:00');assert.ok(!all.some(b=>b.deadline&&b.deadline<'2026-10-12'));});
 test('favorites are saved and returned, and invalid origin is rejected',async()=>{const url='https://test.local/api/favorites/RB-0003';let r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://test.local','content-type':'application/json',cookie:testCookie},body:JSON.stringify({favorites:['https://example.org/call']})}),env);assert.equal(r.status,200);assert.deepEqual((await(await app.fetch(new Request(url,{headers:{cookie:testCookie}}),env)).json()).favorites,['https://example.org/call']);r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://other.local','content-type':'application/json',cookie:testCookie},body:'{"favorites":[]}'}),env);assert.equal(r.status,403);});
 test('official-source flags never by themselves prove this applicant eligible',()=>{const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');assert.ok(source.includes('if(applicantProved&&eligibilityState'));assert.ok(source.includes('Opportunità marginali'));assert.ok(source.includes('Scadenza non verificata'));});
+test('Gaslini reimbursement preserves past service period and accreditation without inventing a legal-seat restriction',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-22T08:00:00+02:00')});
+ const response=await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await response.json()).bandi.find(b=>b.id==='LIG-ACCOGLIENZA-GASLINI-2026');
+ assert.ok(b);assert.equal(b.deadline,'2026-10-26');assert.equal(b.maxGrant,null);
+ assert.ok(b.aid.includes('15/09/2025')&&b.aid.includes('15/09/2026'));
+ assert.ok(b.hardRequirements.some(r=>r.type==='document'&&r.label.includes('Accreditamento')));
+ assert.ok(!b.hardRequirements.some(r=>r.type==='seat'));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.equal(b.tracking.verificationEvidence.length,2);
+});
 test('thematic score cannot create applicant proof and marginal opportunities stay available',()=>{
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];const prefix=source.slice(0,source.indexOf('const favoriteKey='));const review=source.slice(source.indexOf('function sourceReview(b)'),source.indexOf('function status(r,b)'));
  const nodes=new Map();const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify({...profile,name:'APS RESPIRIAMO INSIEME'})).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};vm.createContext(context);vm.runInContext(prefix+review+'globalThis.api={calc,isMarginal};})();',context);

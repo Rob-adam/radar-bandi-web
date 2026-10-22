@@ -19,3 +19,23 @@ Superati 13 test Python, inclusi recupero dopo timeout, isolamento delle schede,
 ## Lavoro ancora necessario prima di dichiarare il risultato completo
 
 Applicare e verificare la pipeline in produzione; approfondire testo ufficiale e allegati dei candidati recuperati, includere solo opportunità reali aperte pertinenti al catalogo cliente e documentarne i requisiti. Il filtro di pubblicazione attuale richiede revisione documentata: una nuova acquisizione grezza non arriva automaticamente nella licenza. Verificare inoltre gli altri lettori regionali generici, le fonti tematiche Veneto, i bandi nazionali e UE e le opportunità a sportello che non compaiono nell'elenco Basilicata «in scadenza». Un HTTP 200 e zero record non provano l'assenza di bandi.
+
+## Revisione documentale successiva nella stessa giornata
+
+Letti integralmente via estrazione testuale i PDF ufficiali, scaricati con HTTPS e verifica TLS:
+
+- Liguria, DGR 399 del 24/09/2026, allegato sezioni 3–6: recuperato nel catalogo il rimborso dell'accoglienza residenziale protetta già erogata alle famiglie dei bambini Gaslini nel periodo 15/09/2025–15/09/2026. Plafond 160.000 €, quota massima 350 €/mese per nucleo, senza confonderla con un massimale per progetto. Servono accreditamento Gaslini vigente, esperienza almeno biennale, carta dei servizi, almeno uno degli ultimi due bilanci positivo, rendicontazione validata dal Gaslini. Apertura 6 ottobre e termine 26 ottobre 2026 dalla pagina ufficiale. Nessun requisito inventato di sede legale ligure. Il possesso dei requisiti da parte di RB-0003 resta sconosciuto e indicato nelle verifiche documentali obbligatorie.
+  - Pagina: https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html
+  - PDF: https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80856:dgr-399-2026.pdf
+- Liguria, Case rifugio, avviso allegato al DDG 6462/2026, sezione 7: RUNTS, finalità statutarie da almeno cinque anni, attività esclusiva/prevalente contro la violenza e comprovata esperienza quinquennale. Non inserito tra le opportunità pertinenti per un'associazione pazienti in assenza di evidenza di tali attività.
+  - PDF: https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80174:avviso-case-rifugio.pdf
+- Basilicata, patrocinio oneroso III quadrimestre 2026, disciplinare DGR 637/2023, articolo 4: sede legale e uffici strutturati in Basilicata. Non proposto a RB-0003, la cui sede legale è in Veneto. L'operatività nazionale non supera il vincolo.
+  - PDF: https://portalebandi.regione.basilicata.it/wp-content/uploads/2026/08/1786435200066_Disciplinare.pdf
+
+Il test aggiunto sulla catena di produzione verifica che il rimborso Gaslini conservi periodo retroattivo, accreditamento da documentare e assenza di un requisito artificiale di sede legale. Totale: 13 test Python e 29 Node superati.
+
+## Recupero dei timeout del runner
+
+L'esecuzione Actions 39758848935 ha confermato il recupero Veneto (28 candidati), ma ha ancora restituito timeout di connessione su Liguria e Basilicata, nonostante tre tentativi; i medesimi elenchi sono stati acquisiti direttamente durante il controllo. Il solo retry non risolve questa differenza di connettività.
+
+Il servizio ora offre un collettore limitato ai due elenchi ufficiali pubblici: sorgenti e handler di lettura sono fissi, nessun URL arbitrario, credenziale o cookie viene inoltrato. Sono ammessi soltanto GET esterni; le pagine successive Basilicata usano internamente il solo handler pubblico di scorrimento. Risposte riuscite in cache per 15 minuti; 403 e altri errori non sono convertiti in successi né memorizzati. HTML restituito con CSP sandbox, massimo 2 MB. Il crawler usa questo percorso soltanto dopo errori di connessione, non per aggirare divieti di accesso. Il test completo corrente comprende 14 test Python e 32 Node.

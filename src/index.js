@@ -1,5 +1,6 @@
 import {hasAccess,accessToken,accessCookie,accessHash} from "./client-access.js";
 import {enrichProfile} from "./review-rules.js";
+import {officialListing} from "./official-listing.js";
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}});
 
 function normalizeCode(v){return String(v||"").trim().toUpperCase().replace(/[^A-Z0-9-]/g,"");}
@@ -236,6 +237,7 @@ async function mergedExtraCatalog(request,env){
 export default {
  async fetch(request,env){
   const url=new URL(request.url);
+  if(url.pathname==='/api/official-listing')return officialListing(request);
   if(url.pathname.startsWith('/api/license/')){
    const code=normalizeCode(decodeURIComponent(url.pathname.slice('/api/license/'.length)));
    if(!code)return json({error:'Codice licenza mancante'},400);

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "28/08/2026 08:10",
+  "updatedAt": "22/10/2026",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -1076,6 +1076,137 @@
       "hardKeyword": null,
       "sourceStatus": "aperto",
       "sourceUrl": "https://fondazionecarisbo.it/bandi-e-iniziative/emergenze/"
+    },
+    {
+      "id": "LIG-ACCOGLIENZA-GASLINI-2026",
+      "title": "Accoglienza protetta famiglie Gaslini – rimborso ospitalità 2025/2026",
+      "source": "Regione Liguria",
+      "deadline": "2026-10-26",
+      "sourceStatus": "aperto",
+      "fund": 160000,
+      "maxGrant": null,
+      "aid": "Fino a 350 € mensili per nucleo ospitato dal 15/09/2025 al 15/09/2026, riproporzionati per periodi inferiori al mese e nei limiti delle spese scoperte. Non finanzia nuove attività future.",
+      "tags": [
+        "Liguria",
+        "Genova",
+        "Salute",
+        "Famiglie",
+        "Ospitalità già erogata",
+        "Gaslini"
+      ],
+      "eligibility": [
+        "Accreditamento vigente presso l’Istituto Gaslini e impegno al rinnovo.",
+        "Esperienza di almeno due anni nell’accoglienza residenziale protetta oggetto dell’avviso.",
+        "Carta dei servizi e almeno uno degli ultimi due bilanci approvato con risultato d’esercizio positivo.",
+        "Ospitalità già erogata dal 15/09/2025 al 15/09/2026; rendicontazione vidimata dal Gaslini.",
+        "Alloggio protetto con camera, bagno e cucina a uso esclusivo della famiglia; nuclei non abbienti provenienti da fuori provincia di Genova.",
+        "La sede legale veneta non è esclusa dal testo; operatività nazionale e sede a Genova non dimostrano accreditamento ed esperienza richiesti.",
+        "Domanda esclusivamente tramite Sportellonline dal 6 al 26 ottobre 2026; una domanda per ente."
+      ],
+      "keywords": [
+        "salute",
+        "pazienti",
+        "famiglie",
+        "assistenza",
+        "accoglienza",
+        "malattia",
+        "caregiver",
+        "genova",
+        "pediatria"
+      ],
+      "sectors": [
+        "salute",
+        "sociale"
+      ],
+      "beneficiaries": [
+        "famiglie non abbienti con bambini in cura al Gaslini"
+      ],
+      "activities": [
+        "accoglienza residenziale protetta",
+        "assistenza alle famiglie"
+      ],
+      "purposes": [
+        "sostegno ai pazienti e ai familiari"
+      ],
+      "territories": [
+        "liguria",
+        "genova"
+      ],
+      "legalForms": [
+        "associazione",
+        "aps",
+        "odv",
+        "ets"
+      ],
+      "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
+      "evidenceUrls": [
+        "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80856:dgr-399-2026.pdf"
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Accreditamento vigente presso l’Istituto Gaslini e impegno al rinnovo."
+        },
+        {
+          "type": "document",
+          "label": "Esperienza di almeno due anni nell’accoglienza residenziale protetta oggetto dell’avviso."
+        },
+        {
+          "type": "document",
+          "label": "Carta dei servizi e almeno uno degli ultimi due bilanci approvato con risultato d’esercizio positivo."
+        },
+        {
+          "type": "document",
+          "label": "Ospitalità già erogata dal 15/09/2025 al 15/09/2026; rendicontazione vidimata dal Gaslini."
+        },
+        {
+          "type": "document",
+          "label": "Alloggio protetto con camera, bagno e cucina a uso esclusivo della famiglia; nuclei non abbienti provenienti da fuori provincia di Genova."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Accreditamento vigente presso l’Istituto Gaslini e impegno al rinnovo.",
+          "status": "unknown"
+        },
+        {
+          "label": "Esperienza di almeno due anni nell’accoglienza residenziale protetta oggetto dell’avviso.",
+          "status": "unknown"
+        },
+        {
+          "label": "Carta dei servizi e almeno uno degli ultimi due bilanci approvato con risultato d’esercizio positivo.",
+          "status": "unknown"
+        },
+        {
+          "label": "Ospitalità già erogata dal 15/09/2025 al 15/09/2026; rendicontazione vidimata dal Gaslini.",
+          "status": "unknown"
+        },
+        {
+          "label": "Alloggio protetto con camera, bagno e cucina a uso esclusivo della famiglia; nuclei non abbienti provenienti da fuori provincia di Genova.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-22",
+        "verificationNote": "Pagina ufficiale e allegato DGR 399 del 24/09/2026 letti il 22/10/2026: sezioni 3–6, accreditamento Gaslini, esperienza almeno biennale, carta servizi, bilancio positivo, ospitalità già erogata 15/09/2025–15/09/2026; quota massima 350 €/mese per nucleo, plafond 160.000 €. Nessuna verifica del possesso dei requisiti da parte di RB-0003.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html",
+            "checkedAt": "2026-10-22",
+            "note": "Pagina ufficiale: apertura 06/10/2026, chiusura 26/10/2026, domanda Sportellonline."
+          },
+          {
+            "url": "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80856:dgr-399-2026.pdf",
+            "checkedAt": "2026-10-22",
+            "note": "PDF ufficiale DGR 399/2026, allegato, sezioni 3–6: destinatari, requisiti bloccanti, periodo retroattivo, dotazione e quota per famiglia."
+          }
+        ]
+      }
     }
   ]
 }
