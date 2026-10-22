@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T06:54:07+02:00",
-  "attempted": 13,
-  "enriched": 13,
+  "generatedAt": "2026-10-22T11:55:49+02:00",
+  "attempted": 40,
+  "enriched": 40,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -25,6 +25,33 @@
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
     },
     {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high="
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "ok": true,
       "changed": [
@@ -32,6 +59,24 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high="
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
@@ -62,6 +107,43 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686"
     },
     {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high="
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
       "ok": true,
       "changed": [
@@ -72,6 +154,42 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043"
     },
     {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high="
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
       "ok": true,
       "changed": [
@@ -79,6 +197,145 @@
         "discoveryText"
       ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high="
     },
     {
       "key": "url:https://www.fondazionecariplo.it/bando/anita-reti-mille",
@@ -107,14 +364,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/sostegno-progetti-favore-dei-minori-vittime-violenza-assistita-azione-5"
     },
     {
       "key": "url:https://www.regione.puglia.it/bandi-e-avvisi#content",

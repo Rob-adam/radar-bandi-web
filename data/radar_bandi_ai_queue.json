@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T06:54:22+02:00",
+  "generatedAt": "2026-10-22T11:56:48+02:00",
   "ruleVersion": 3,
-  "count": 8,
+  "count": 36,
   "items": [
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "id": "RLL12026054686",
-      "version": 24,
+      "version": 26,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "title": "Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
       "id": "RLY12026056043",
-      "version": 8,
+      "version": 10,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
       "title": "Contributo regionale per la redazione o revisione dei Piani comunali di Protezione Civile",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "id": "RLW12025048763",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
       "title": "FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
       "id": "RLF12026057243",
-      "version": 24,
+      "version": 26,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
       "title": "Monitoraggio Contributi di Gestione DSU -2025",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "id": "RLAN2026056903",
-      "version": 50,
+      "version": 52,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
       "title": "PREMIO IDEALE SPORTIVO",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 160,
+      "version": 162,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -153,7 +153,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 188,
+      "version": 190,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -177,7 +177,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 188,
+      "version": 190,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
@@ -197,6 +197,678 @@
         "etsRelevant": null
       },
       "text": "Regione autonoma Trentino-Alto Adige/Südtirol Amministrazione Trasparente Bandi di gara e contratti Amministrazione Trasparente La trasparenza è intesa come accessibilità totale delle informazioni concernenti l'organizzazione e l'attività delle pubbliche amministrazioni, allo scopo di favorire forme diffuse di controllo sul perseguimento delle funzioni istituzionali e sull'utilizzo delle risorse pubbliche. Condividi Facebook Twitter Linkedin Whatsapp Vedi azioni Invia Amministrazione Trasparente Disposizioni generali Piano triennale per la prevenzione della corruzione e della trasparenza Atti generali Riferimenti normativi su organizzazione e attività Atti amministrativi generali Documenti di programmazione strategico-gestionale Statuti e leggi regionali Codice disciplinare, codice di condotta e codice di comportamento contro le molestie e gli atti lesivi della dignità personale sul luogo di lavoro Oneri informativi per cittadini e imprese Burocrazia zero Organizzazione Titolari di incarichi politici, di amministrazione, di direzione o di governo Titolari di incarichi politici di cui all'art.14, co.1, del d.lgs n. 33/2013 Titolari di incarichi di amministrazione, di direzione o di governo di cui all'art.14, co. 1-bis, del d.lgs n.33/2013 Cessati dall'incarico Sanzioni per mancata comunicazione dei dati Rendiconti gruppi consiliari regionali/provinciali Articolazione degli uffici Telefono e posta elettronica Consulenti e collaboratori Titolari di incarichi di collaborazione o consulenza Personale Titolari di incarichi dirigenziali amministrativi di vertice Titolari di incarichi dirigenziali (dirigenti non generali) Dirigenti cessati Sanzioni per mancata comunicazione dei dati Posizioni organizzative Dotazione organica Personale non a tempo indeterminato Costo del persona"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high=",
+      "id": "REG-AUTO-7CEC30221CB7",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-10-22",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 24/07/2026 Scadenza: 22/10/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Indizione di procedura a evidenza pubblica per il conferimento di concessione mineraria di acqua termale n. 157 denominata \"CORTE DEI FRATI\" in Comune di Pastrengo (VR) rilasciata con DGR n. 2053 del 02/08/2005. Approvazione del disciplinare e differimento. Oggetto Con DDR 15988 del 21/07/2026 è stata indetta la procedura a evidenza pubblica per il conferimento della concessione mineraria di acqua termale n. 157 denominata \"CORTE DEI FRATI\", ricadente in Comune di Pastrengo (VR), al fine di valutare l'operatore economico a cui assegnare la con"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
+      "id": "REG-AUTO-33CA9E2F2A0C",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-10-25",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 25/09/2026 Scadenza: 25/10/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Progetti di cooperazione allo sviluppo sostenibile finalizzati alla costruzione e al ripristino di pozzi e di sistemi di attingimento dell'acqua - Anno 2026. Oggetto Approvazione del Bando e della modulistica per la presentazione delle richieste di contributo per i progetti di cooperazione allo sviluppo sostenibile finalizzati alla costruzione e al ripristino di pozzi e di sistemi di attingimento dell’acqua nel Continente africano per l’annualità 2026. DGR n. 1020 del 16 settembre 2026: “Piano di attuazione degli interventi di promozione dei d"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
+      "id": "REG-AUTO-D9A4C0117377",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-10-26",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 25/09/2026 Scadenza: 26/10/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando per l'anno 2026 a sostegno delle attività di promozione e valorizzazione dell'antifascismo, della resistenza e dei correlati eventi accaduti in Veneto dal 1943 al 1948. Oggetto Concessione di contributi per l’anno 2026 a sostegno di attività di promozione e valorizzazione del patrimonio storico e culturale dell’antifascismo, della resistenza e dei correlati eventi accaduti nel territorio del Veneto dal 1943 al 1948. L.R. 29/2010. Dati BUR Numero atto: 1052 Data atto: 23/09/2026 00:00:00 Vedi dettaglio dell'atto Procedimento L'atto non è "
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
+      "id": "REG-AUTO-E752D7B455C1",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-10-31",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 11/09/2026 Scadenza: 31/10/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Approvazione del Programma regionale di tutela delle denominazioni di origine e delle indicazioni geografiche protette dei vini e dei prodotti agroalimentari veneti, disciplinate dal Regolamento (UE) n. 2024/1143, nonché del bando per l'accesso ai contributi a sostegno delle attività di tutela, annualità 2026, realizzate dai Consorzi di tutela riconosciuti. Legge regionale 5 aprile 2013, n. 3, art. 28. Oggetto Approvazione del Programma regionale di tutela delle denominazioni di origine e delle indicazioni geografiche protette dei vini e dei p"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
+      "id": "REG-AUTO-976C512EF6B3",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-01",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 02/10/2026 Scadenza: 01/11/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Iniziativa fieristica finalizzata alla promozione e vendita dei prodotti del commercio equo e solidale - Anno 2026 Oggetto Approvazione del Bando e della modulistica per la presentazione delle richieste di contributo per la realizzazione, di un evento fieristico per la promozione del commercio equo e solidale prevista dall’art. 8 della L.R. 22 gennaio 2010, n. 6. DGR n. 1020 del 16 settembre 2026: “Piano di attuazione degli interventi di promozione dei diritti umani e della cooperazione allo sviluppo sostenibile per il triennio 2026-2028. Prog"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
+      "id": "REG-AUTO-1C97A4A863C8",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-05",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 06/10/2026 Scadenza: 05/11/2026 13:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Formazione per la decarbonizzazione. Trasformare la sostenibilità energetica in un vantaggio competitivo Oggetto Approvazione avviso pubblico “Formazione per la decarbonizzazione. Trasformare la sostenibilità energetica in un vantaggio competitivo” nell’ambito del PR Veneto FSE+ 2021-2027, Obiettivo “Investimenti per l'occupazione e la crescita” - Decisione di esecuzione della Commissione europea n. C(2022)5655 del 1.8.2022 - Priorità 6 \"Competitività per la decarbonizzazione\"- Obiettivo specifico d) ESO 4.4. “Promuovere l'adattamento dei lavo"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
+      "id": "REG-AUTO-5E8EB6C3611F",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-05",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 07/07/2026 Scadenza: 05/11/2026 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2121-2027 Interventi di recupero, promozione e valorizzazione delle aree interne attraverso interventi ad alto impatto culturale. Oggetto PR Veneto FESR 2021-2027, Priorità 5 Un'Europa più vicina ai cittadini attraverso la promozione dello sviluppo sostenibile e integrato di tutti i tipi di territorio e delle iniziative locali. Obiettivo Specifico 5.2 “Promuovere lo sviluppo sociale, economico e ambientale integrato e inclusivo a livello locale, la cultura, il patrimonio naturale, il turismo sostenibile e la sicurezza nelle aree"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
+      "id": "REG-AUTO-549346EFBAA7",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-05",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 06/10/2026 Scadenza: 05/11/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Progetti di diffusione del commercio equo e solidale - Anno 2026 Oggetto Approvazione del Bando e della modulistica per la presentazione delle richieste di contributo per i progetti di diffusione del commercio equo e solidale per l’anno 2026. DGR n. 1020 del 16 settembre 2026 “Piano di attuazione degli interventi di promozione dei diritti umani e della cooperazione allo sviluppo sostenibile per il triennio 2026-2028. Programmazione degli interventi per l'annualità 2026”. Azione 1) Interventi di sostegno del commercio equo e solidale. L.R. 22 g"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
+      "id": "REG-AUTO-E6AB8FC403C4",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-06",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 15/09/2026 Scadenza: 06/11/2026 14:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando per la presentazione di progetti in materia di storia e cultura del Veneto - ASF 2026/2027 Oggetto Sviluppo delle competenze in materia di storia e cultura del Veneto nelle Istituzioni scolastiche, statali e paritarie, del primo e del secondo ciclo di istruzione e nelle Scuole di Formazione Professionale del Veneto. Approvazione Avviso pubblico e Direttiva per la presentazione di progetti formativi da realizzare nell'anno scolastico-formativo 2026-2027. L.R. 31 marzo 2017, n. 8, art.2. Dati BUR Numero atto: 947 Data atto: 08/09/2026 00:0"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
+      "id": "REG-AUTO-FCD08A990326",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-23",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 14/08/2026 Scadenza: 23/11/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando Melken prevenzione delle predazioni da lupo in malga con recinzioni elettrificate: analisi delle modifiche del pascolamento, del pascolo e degli episodi di attacco (FSCRI_RM_1750 beneficiari privati) Oggetto Fondo Sviluppo e Coesione (FSC) 2021-2027. Accordo per la coesione tra il Governo e la Regione del Veneto - Area tematica 5 Ambiente e Risorse Naturali – Linea di intervento 05.05 Natura e Biodiversità. Bando “Melken prevenzione delle predazioni da lupo in malga con recinzioni elettrificate: analisi delle modifiche del pascolamento, "
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
+      "id": "REG-AUTO-F318DC0E8AD2",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-11-23",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 14/08/2026 Scadenza: 23/11/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga (ID FSCRI_RI_418 beneficiari pubblici) Oggetto Fondo Sviluppo e Coesione (FSC) 2021-2027. Accordo per la coesione tra il Governo e la Regione del Veneto - Area tematica 5 Ambiente e Risorse Naturali – Linea di intervento 05.05 Natura e Biodiversità. Bando \"Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga\" (ID FSCRI_RI_418 beneficiari pubblici) approvato con DGR n. 820 del 28/07/2026. Dati BUR Numero atto: 820 Data atto: 28/07/2026 00:00:00 Vedi det"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
+      "id": "REG-AUTO-817347F304D1",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-03",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 29/09/2026 Scadenza: 03/12/2026 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Azione 2.8.4 \"TPL-Sistemi di Trasporto Intelligenti: bigliettazione unica e infomobilità\". Approvazione del Bando per l'attuazione dell'Azione 2.8.4 \"TPL - Sistemi di Trasporto intelligenti: bigliettazione unica e infomobilità\", nell'ambito dello Sviluppo Urbano Sostenibile (SUS) rivolto alle Aziende titolari dei contratti di servizio per la gestione dei servizi minimi di TPL. Oggetto Programma Regionale Veneto FESR 2021-2027. Priorità 3 \"Un'Europa più connessa attraverso la mobilità urbana sostenibile\", OS 2.8 \"Promuovere la mobilità urbana m"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "id": "REG-AUTO-395AB58C2BE6",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-04",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 15/09/2026 Scadenza: 04/12/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Concorso - \"Uso consapevole della rete internet e dei social media - 2^a edizione\" A.S.F. 2026-2027 Oggetto Approvazione dell'Avviso pubblico e della Direttiva relativi al concorso di idee \"Uso consapevole della reteinternet e dei social media - 2a edizione\" rivolto a studenti e studentesse delle Scuole primarie e secondarie di primo e secondo grado, statali e paritarie, e delle Scuole di Formazione Professionale del Veneto - Anno scolastico e formativo 2026/2027. L.R. n. 24/2024. DGR n. 75 del 27 gennaio 2025. DGR n. 778 dell'8 luglio 2025. D"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
+      "id": "REG-AUTO-9D36A454F526",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-24",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 25/09/2026 Scadenza: 24/12/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Indizione della procedura a evidenza pubblica per il conferimento della concessione mineraria di acqua termale n. 158 denominata \"GOETHE\" in Comune di Pescantina (VR). Oggetto Con DDR 18479 del 15/09/2026 è stata indetta la procedura a evidenza pubblica per il conferimento della concessione di acqua termale denominata “GOETHE” in Comune di Pescantina (VR) al fine di individuare l’operatore economico a cui assegnare la concessione. Inoltre è stato approvato il disciplinare di gara contenente i criteri per il conferimento ed è stato differito il"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
+      "id": "REG-AUTO-5ED9D6FEF7FE",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-29",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 30/07/2026 Scadenza: 29/12/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Proroga al 29/12/2026 dei termini di presentazione delle domande di saldo e di conclusione dei progetti ed integrazione del Bando approvato con DGR n. 338 del 29/03/2023 Oggetto Proroga dei termini di presentazione delle domande di saldo e di conclusione dei progetti. Programma Regionale Veneto FESR 2021-2027. Priorità 2 “Un’Europa resiliente, più verde e a basse emissioni di carbonio ma in transizione verso un’energia pulita ed equa, di investimenti verdi e blu, dell’economia circolare, dell’adattamento ai cambiamenti climatici e della loro m"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
+      "id": "REG-AUTO-866D64FA7F3D",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-31",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 09/10/2026 Scadenza: 31/12/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando Gemellaggi degli Enti territoriali locali 2026 - Approvazione dei risultati d'istruttoria e della relativa graduatoria delle istanze presentate Oggetto Bando per la concessione di contributi a sostegno dei gemellaggi degli Enti territoriali locali del Veneto con omologhi esteri - Anno 2026. Legge regionale 12 marzo 2025, n. 3. D.G.R. n. 640 del 30 giugno 2026. Approvazione dei risultati d'istruttoria e della relativa graduatoria delle istanze presentate e assunzione dei relativi impegni di spesa. Dati BUR Numero atto: 22 Data atto: 01/10"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
+      "id": "REG-AUTO-365CE1EF1564",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-31",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 01/08/2025 Scadenza: 31/12/2026 13:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Programma Garanzia di Occupabilità dei Lavoratori GOL - Adeguamento e ulteriore finanziamento dell'Avviso pubblico n. 5 per la presentazione dei progetti finalizzati all'attuazione del Percorso 5 Ricollocazione collettiva Oggetto Con Deliberazione n. 882 del 29 luglio 2025 si stanziano le risorse delle annualità 2023-2024-2025 del Programma GOL (PNRR) per l'attuazione del Percorso 5 Ricollocazione collettiva. Inoltre tale provvedimento aggiorna l'Avviso pubblico n. 5 di cui alla DGR n. 601/2023 di attuazione del Percorso 5. Le principali innov"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
+      "id": "REG-AUTO-EEE38120D90C",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-01-12",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 19/06/2026 Scadenza: 12/01/2027 12:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR FESR 2021-2027 Azione 1.3.7 Sostegno alla competitività del sistema commerciale e valorizzazione dei distretti del commercio Oggetto Il Bando a supporto di progetti finalizzati alla rigenerazione urbana e alla ripresa economica nell'ambito dei distretti del commercio - Anno 2026 (DGR n. 484/2026) , dà attuazione al PR FESR 2021-2027 della Regione del Veneto , Obiettivo Specifico 1.3 “Rafforzare la crescita sostenibile e la competitività delle PMI e la creazione di posti di lavoro nelle PMI, anche grazie agli investimenti produttivi (FESR)”,"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
+      "id": "REG-AUTO-4D19CF6A3B12",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-01-19",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 22/09/2026 Scadenza: 19/01/2027 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027 Azione 1.3.11 sub A - Interventi a sostegno delle imprese culturali, creative e dell'audiovisivo - Sub A \"Consolidamento di imprese esistenti\" - II edizione Oggetto PR Veneto FESR 2021-2027, Priorità 1 “Un'Europa più competitiva e intelligente attraverso la promozione di una trasformazione economica innovativa e intelligente e della connettività regionale alle tecnologie dell'informazione e della comunicazione (TIC)”. Obiettivo Specifico 1.3 “Rafforzare la crescita sostenibile e la competitività delle PMI e la creazion"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
+      "id": "REG-AUTO-C98C29EDAA38",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-01-29",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 06/10/2026 Scadenza: 29/01/2027 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Concorso per studenti - Commemorazione del Giorno del Ricordo Oggetto Commemorazione del Giorno del Ricordo. Approvazione Avviso pubblico e Direttiva relativi al concorso per i migliori elaborati realizzati dagli studenti delle Scuole primarie e secondarie di primo e secondo grado, statali e paritarie, e delle Scuole di Formazione Professionale del Veneto, sul tema \"Gli italiani delle due sponde dell'Adriatico, a ottant'anni dal Trattato di Parigi, uniti sotto la comune bandiera europea, guardano insieme a un futuro di rinascita culturale e so"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
+      "id": "REG-AUTO-77C619EEDA39",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-02-02",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 30/04/2026 Scadenza: 02/02/2027 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027 Azione 1.3.11 Sub C - \"Interventi a favore della produzione cinematografica e audiovisiva\" Oggetto PR Veneto FESR 2021-2027. Priorità 1 OS 1.3 Azione 1.3.11 “Interventi a sostegno delle imprese culturali, creative e dell’audiovisivo - Sub C - Produzione audiovisiva\". Approvazione bando anno 2026 “Erogazione di contributi a favore della produzione cinematografica e audiovisiva”. La domanda va presentata esclusivamente per via telematica utilizzando il seguente link: https://www.regione.veneto.it/web/programmi-comunitari"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
+      "id": "REG-AUTO-55FDB62358D8",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-02-13",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 16/10/2026 Scadenza: 13/02/2027 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Indizione della procedura a evidenza pubblica per il conferimento della concessione mineraria di bentonite, caolino, terre refrattarie, terre da sbianca, argille per porcellana e terraglia forte n. 307 denominata \"COSTA BENEDETTA\" in Comune di Sarego (VI) e per il rilascio dell'autorizzazione a eseguire i lavori di coltivazione. Approvazione del disciplinare. Oggetto Con DDR 18867 del 23/09/2026 è stata indetta una procedura a evidenza pubblica per la selezione dell’operatore economico cui conferire la concessione mineraria di bentonite, caoli"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
+      "id": "REG-AUTO-A15AD7611A44",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-03-25",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 18/09/2026 Scadenza: 25/03/2027 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando per l'evoluzione delle destinazioni turistiche venete in Smart Tourism Destination - terza edizione. DGR 992 del 15 settembre 2026. Azione 1.2.4 terza edizione Oggetto Programma Regionale Veneto FESR 2021-2027. Priorità 1 “Un’Europa più competitiva e intelligente attraverso la promozione di una trasformazione economica innovativa e intelligente e della connettività regionale alle TIC” OS 1.2 “Permettere ai cittadini, alle imprese, alle organizzazioni di ricerca e alle autorità pubbliche di cogliere i vantaggi della digitalizzazione” Azio"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
+      "id": "REG-AUTO-5D9EB4C71740",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2027-09-30",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 01/09/2026 Scadenza: 30/09/2027 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Avvio di selezione \"a sportello\" di interventi urgenti di edilizia scolastica da sostenere finanziariamente con fondi regionali negli anni 2026-2027. Legge regionale n. 59/1999, art. 3-bis. Oggetto Il presente provvedimento avvia nell’anno in corso una procedura di selezione \"a sportello\" per interventi urgenti di edilizia scolastica di competenza dei Comuni o di Istituzioni scolastiche paritarie non commerciali riferiti agli anni 2026-2027, da sostenere finanziariamente con risorse del bilancio regionale 2027, fino ad esaurimento delle risors"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
+      "id": "REG-AUTO-8F97D7B298AC",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2029-12-31",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 03/12/2024 Scadenza: 31/12/2029 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027 - Fondo Veneto Energia - Sezione Efficientamento energetico delle imprese Oggetto Con DGR n. 1418 del 28 novembre 2024, sono state approvate le Disposizioni Operative per l’attuazione della “Sezione Efficientamento energetico delle imprese” del “Fondo Veneto Energia”, a sua volta incluso nel “Fondo di Partecipazione PR Veneto FESR 2021-2027” affidato alla gestione di Veneto Innovazione S.p.A. La Sezione, che si configura come strumento finanziario, è destinata a promuovere azioni mirate a migliorare l'efficienza energe"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
+      "id": "REG-AUTO-7ACD582ED719",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2029-12-31",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 17/12/2024 Scadenza: 31/12/2029 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Start up Oggetto Con DGR n. 1476 del 12 dicembre 2024, sono state approvate le Disposizioni operative per l'attuazione della \"Sezione Start up\" del \"Fondo Veneto Competitività\", a sua volta incluso nel “Fondo di Partecipazione PR Veneto FESR 2021-2027” affidato alla gestione di Veneto Innovazione S.p.A. La Sezione, che si configura come Strumento finanziario, sostiene gli investimenti a supporto dell’autoimprenditorialità e del consolidamento di nuove imprese, nei settori del manif"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
+      "id": "REG-AUTO-CCEC3CB25F4A",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2029-12-31",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 22/12/2023 Scadenza: 31/12/2029 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Transizione Oggetto Con DGR n. 1567 del 12 dicembre 2023, sono state approvate le Disposizioni operative per l'attuazione della \"Sezione Transizione\" del \"Fondo Veneto Competitività\", a sua volta incluso nel “Fondo di Partecipazione PR Veneto FESR 2021-2027” affidato alla gestione di Veneto Innovazione S.p.A., successivamente aggiornate con DGR n. 757 dell'8 luglio 2025 , Allegato B. La Sezione, che si configura come Strumento finanziario, persegue l’obiettivo di migliorare i livel"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
+      "id": "REG-AUTO-2DD9680DDFE9",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
+      "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2029-12-31",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto × Area Privata Nome utente Password Accedi Hai dimenticato la password? Il Call Center regionale è contattabile per qualsiasi problematica applicativa, incluso il ripristino della password in caso di dimenticanza, in uno dei seguenti modi: telefonando al numero verde 800.914.708 (esterni) oppure al numero 919.000 (interni) inviando un fax al numero verde 800.916.074 (esterni) oppure al numero fax 918.000 (interni). inviando un'e-mail all'indirizzo: call.center@regione.veneto.it Il meccanismo di ripristino della password si basa sull'invio di una e-mail all'indirizzo di posta che l'utente ha comunicato all'atto della registrazione. × LE MIE PREFERENZE Vuoi salvare le tue ricerche per recuperarle velocemente? Accedi tramite social Oppure accedi con l'account dedicato Email Password Accedi Non sei ancora registrato? REGISTRATI ORA AMMINISTRAZIONE Toggle navigation LA REGIONE PERCORSI SERVIZI BANDI - AVVISI - CONCORSI BOLLETTINO UFFICIALE NORMATIVA URP SERVIZI CITTADINO AMMINISTRAZIONE HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 20/12/2024 Scadenza: 31/12/2029 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027. Fondo Veneto Ricerca, Sviluppo e Innovazione - Sezione Innovazione nelle PMI. Oggetto Con DGR n. 1477 del 12 dicembre 2024 , sono state approvate le Disposizioni operative per l'attuazione della \"Sezione Innovazione nelle PMI\" del \"Fondo Veneto Ricerca, Sviluppo e Innovazione\", a sua volta incluso nel “Fondo di Partecipazione PR Veneto FESR 2021-2027” affidato alla gestione di Veneto Innovazione S.p.A. La “Sezione Innovazione nelle PMI” dà attuazione al PR Veneto FESR, Priorità 1, OS 1.1 - Azione 1.1.3. “Sostegno agli"
     }
   ]
 }

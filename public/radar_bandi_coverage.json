@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-22T06:55:06+02:00",
+  "generatedAt": "2026-10-22T11:57:23+02:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
     "radar_bandi_catalogo_extra.json": 13,
-    "radar_bandi_auto.json": 16
+    "radar_bandi_auto.json": 42
   },
   "regions": {
     "abruzzo": {
@@ -53,7 +53,7 @@
     },
     "piemonte": {
       "manual": 2,
-      "automatic": 4
+      "automatic": 2
     },
     "puglia": {
       "manual": 0,
@@ -85,7 +85,7 @@
     },
     "veneto": {
       "manual": 0,
-      "automatic": 0
+      "automatic": 28
     }
   },
   "national": {
@@ -109,8 +109,7 @@
     "sardegna",
     "sicilia",
     "umbria",
-    "valle-d-aosta",
-    "veneto"
+    "valle-d-aosta"
   ],
   "warning": "Una regione senza record non significa che non esistano bandi. Verificare acquisizione, fonti, filtri e requisiti."
 }
