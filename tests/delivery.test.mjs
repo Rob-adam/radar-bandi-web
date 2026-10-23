@@ -24,6 +24,19 @@ test('Gaslini reimbursement preserves past service period and accreditation with
  assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
  assert.equal(b.tracking.verificationEvidence.length,2);
 });
+test('Cattolica is delivered nationally with preliminary selection and closes at noon in Italian winter time',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-13T10:59:59Z')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='CATTOLICA-INTRAPRESA-SOCIALE-2026');
+ assert.ok(b,'national call must reach an organisation based in Veneto');
+ assert.equal(b.deadlineAt,'2026-11-13T12:00:00+01:00');
+ assert.equal(b.maxGrant,30000);assert.equal(b.eligibilityStatus,'da_verificare');
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('Colloquio telefonico')));
+ assert.ok(!b.hardRequirements.some(r=>r.type==='seat'||r.type==='foundationYear'||r.type==='revenue'));
+ t.mock.timers.setTime(new Date('2026-11-13T11:00:01Z').getTime());
+ assert.ok(!(await(await request()).json()).bandi.some(b=>b.id==='CATTOLICA-INTRAPRESA-SOCIALE-2026'));
+});
 test('thematic score cannot create applicant proof and marginal opportunities stay available',()=>{
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];const prefix=source.slice(0,source.indexOf('const favoriteKey='));const review=source.slice(source.indexOf('function sourceReview(b)'),source.indexOf('function status(r,b)'));
  const nodes=new Map();const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify({...profile,name:'APS RESPIRIAMO INSIEME'})).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};vm.createContext(context);vm.runInContext(prefix+review+'globalThis.api={calc,isMarginal};})();',context);
