@@ -1,5 +1,5 @@
 {
-  "updatedAt": "22/10/2026",
+  "updatedAt": "23/10/2026",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -1204,6 +1204,150 @@
             "url": "https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80856:dgr-399-2026.pdf",
             "checkedAt": "2026-10-22",
             "note": "PDF ufficiale DGR 399/2026, allegato, sezioni 3–6: destinatari, requisiti bloccanti, periodo retroattivo, dotazione e quota per famiglia."
+          }
+        ]
+      }
+    },
+    {
+      "id": "CATTOLICA-INTRAPRESA-SOCIALE-2026",
+      "title": "Intrapresa Sociale 2026 – nuove attività sostenibili per persone e famiglie fragili",
+      "source": "Fondazione Cattolica",
+      "deadline": "2026-11-13",
+      "deadlineAt": "2026-11-13T12:00:00+01:00",
+      "sourceStatus": "aperto",
+      "fund": null,
+      "maxGrant": 30000,
+      "aid": "Fino a 30.000 €, massimo 50% del costo complessivo e fino a esaurimento delle risorse. Colloquio telefonico e selezione preliminari obbligatori; termine a portale riservato ai soggetti ammessi alla seconda fase.",
+      "tags": [
+        "Nazionale",
+        "ETS",
+        "Sociale",
+        "Famiglie",
+        "Inclusione",
+        "Nuove attività",
+        "Colloquio obbligatorio"
+      ],
+      "eligibility": [
+        "ETS, comprese imprese sociali e reti associative, con le iscrizioni previste dal bando; enti privati senza scopo di lucro ed enti religiosi civilmente riconosciuti.",
+        "Esclusi enti mutualistici in forma di società, cooperativa o consorzio; formazioni e associazioni politiche, sindacati, associazioni professionali o di rappresentanza economica, associazioni di datori di lavoro, PA ed enti da essi controllati o diretti.",
+        "Progetti da realizzare in Italia: la sede a Padova e l’operatività nazionale sono compatibili con il territorio, ma non provano l’ammissibilità del progetto.",
+        "Colloquio telefonico preliminare obbligatorio e selezione: solo gli enti ammessi alla seconda fase possono presentare il progetto completo a portale.",
+        "Avvio in Italia di una nuova attività per persone, famiglie o comunità svantaggiate o a rischio di marginalità, sostenibile autonomamente dopo la fase iniziale.",
+        "Copertura documentata del costo totale: contributo massimo 30.000 €, non oltre il 50% dei costi, fino a esaurimento delle risorse.",
+        "Atto costitutivo, statuto e bilanci consuntivi approvati degli ultimi tre esercizi; piano finanziario, cronoprogramma e conto economico previsionale.",
+        "Interventi su immobili e attrezzature ammessi soltanto per importi limitati; una sola domanda per ente; avvio entro sei mesi dall’approvazione.",
+        "Colloquio: 045 8083211, dal lunedì al venerdì ore 10–13. Invio a portale entro il 13 novembre 2026 ore 12:00 solo dopo ammissione alla seconda fase; non attendere tale data per il primo contatto.",
+        "Il testo non stabilisce una soglia di entrate o un anno di costituzione; la richiesta degli ultimi tre bilanci va comunque verificata. Nessuna data esatta di apertura dichiarata.",
+        "Contributo a conclusione del progetto previa rendicontazione; possibile anticipo del 25% all’avvio e anticipi in itinere sino al 50% previa rendicontazione di metà dei costi."
+      ],
+      "keywords": [
+        "salute",
+        "pazienti",
+        "famiglie",
+        "assistenza",
+        "caregiver",
+        "inclusione",
+        "fragilità",
+        "sociale",
+        "sostenibilità"
+      ],
+      "sectors": [
+        "sociale",
+        "welfare",
+        "salute"
+      ],
+      "beneficiaries": [
+        "persone e famiglie svantaggiate",
+        "comunità a rischio di marginalità sociale"
+      ],
+      "activities": [
+        "avvio di nuove attività sociali sostenibili",
+        "sostegno alle persone e alle famiglie fragili"
+      ],
+      "purposes": [
+        "inclusione sociale",
+        "risposta innovativa ai bisogni sociali"
+      ],
+      "territories": [
+        "italia",
+        "nazionale"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "associazione",
+        "fondazione",
+        "ente non profit",
+        "impresa sociale",
+        "ente religioso"
+      ],
+      "sourceUrl": "https://www.fondazionecattolica.it/wp-content/uploads/2026/01/Bando-intrapresa-sociale-fondazione-cattolica-2026.pdf",
+      "evidenceUrls": [
+        "https://www.fondazionecattolica.it/wp-content/uploads/2026/01/Regolamento-Intrapresa-sociale-2026.pdf"
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Colloquio telefonico preliminare obbligatorio e selezione: solo gli enti ammessi alla seconda fase possono presentare il progetto completo a portale."
+        },
+        {
+          "type": "document",
+          "label": "Avvio in Italia di una nuova attività per persone, famiglie o comunità svantaggiate o a rischio di marginalità, sostenibile autonomamente dopo la fase iniziale."
+        },
+        {
+          "type": "document",
+          "label": "Copertura documentata del costo totale: contributo massimo 30.000 €, non oltre il 50% dei costi, fino a esaurimento delle risorse."
+        },
+        {
+          "type": "document",
+          "label": "Atto costitutivo, statuto e bilanci consuntivi approvati degli ultimi tre esercizi; piano finanziario, cronoprogramma e conto economico previsionale."
+        },
+        {
+          "type": "document",
+          "label": "Interventi su immobili e attrezzature ammessi soltanto per importi limitati; una sola domanda per ente; avvio entro sei mesi dall’approvazione."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Colloquio telefonico preliminare obbligatorio e selezione: solo gli enti ammessi alla seconda fase possono presentare il progetto completo a portale.",
+          "status": "unknown"
+        },
+        {
+          "label": "Avvio in Italia di una nuova attività per persone, famiglie o comunità svantaggiate o a rischio di marginalità, sostenibile autonomamente dopo la fase iniziale.",
+          "status": "unknown"
+        },
+        {
+          "label": "Copertura documentata del costo totale: contributo massimo 30.000 €, non oltre il 50% dei costi, fino a esaurimento delle risorse.",
+          "status": "unknown"
+        },
+        {
+          "label": "Atto costitutivo, statuto e bilanci consuntivi approvati degli ultimi tre esercizi; piano finanziario, cronoprogramma e conto economico previsionale.",
+          "status": "unknown"
+        },
+        {
+          "label": "Interventi su immobili e attrezzature ammessi soltanto per importi limitati; una sola domanda per ente; avvio entro sei mesi dall’approvazione.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-23",
+        "verificationNote": "Bando ufficiale 2026, pp. 1–3, e regolamento letti il 23/10/2026. Verificati destinatari, territorio italiano, selezione preliminare, termine della seconda fase e limiti economici. Il possesso dei requisiti da parte di RB-0003 non è verificato; nessuna data di apertura, soglia di entrate o anzianità minima inventata.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/01/Bando-intrapresa-sociale-fondazione-cattolica-2026.pdf",
+            "checkedAt": "2026-10-23",
+            "note": "Bando pp. 1–3: destinatari ed esclusioni, nuove attività in Italia, contributo, tre fasi, termine 13/11/2026 ore 12:00, documenti e rendicontazione."
+          },
+          {
+            "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/01/Regolamento-Intrapresa-sociale-2026.pdf",
+            "checkedAt": "2026-10-23",
+            "note": "Regolamento: impiego del contributo, rendicontazione, avvio entro sei mesi, controlli e revoca."
           }
         ]
       }
