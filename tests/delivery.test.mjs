@@ -11,6 +11,18 @@ test('reviewed deadline and grants survive production wrappers without forged Ve
  // Verify the reviewed snapshot while these calls were still open.
  t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-14T08:00:00+02:00')});
 const all=[];for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){const d=await(await app.fetch(new Request('https://test.local/'+name+'.json?region=Veneto&scope=national'),env)).json();all.push(...d.bandi);}const vehicle=all.find(b=>b.id==='RLT12026053831');assert.equal(vehicle.deadline,'2027-04-30');assert.equal(vehicle.maxGrant,30000);assert.ok(!vehicle.territories.includes('Veneto'));assert.ok(!vehicle.hardRequirements.some(r=>(r.anyOf||[]).includes('italia')));assert.equal(all.find(b=>b.id==='UNIPOLIS-POP-2026').deadlineAt,'2026-10-15T13:00:00+02:00');assert.ok(!all.some(b=>b.deadline&&b.deadline<'2026-10-12'));});
+test('October 23 reviews deliver event advance notice and housing statutory requirements',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-23T18:00:00+02:00')});
+ const body=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo.json?scope=national'),env)).json();
+ const event=body.bandi.find(b=>b.id==='RLA12025050323');
+ assert.ok(event.hardRequirements.some(r=>r.label.includes('60 giorni')));
+ assert.equal(event.deadlineAt,'2026-11-16T16:00:00+01:00');
+ const housing=body.bandi.find(b=>b.id==='RLH12026055146');
+ assert.ok(housing.hardRequirements.some(r=>r.label.includes('lettera q)')));
+ assert.ok(housing.hardRequirements.some(r=>r.label.includes('perfezionato')));
+ assert.equal(housing.deadlineAt,'2026-10-30T12:00:00+01:00');
+ assert.ok(housing.evidenceUrls.some(url=>url.includes('FAQ_Bando_Linea3_HS_23-10')));
+});
 test('favorites are saved and returned, and invalid origin is rejected',async()=>{const url='https://test.local/api/favorites/RB-0003';let r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://test.local','content-type':'application/json',cookie:testCookie},body:JSON.stringify({favorites:['https://example.org/call']})}),env);assert.equal(r.status,200);assert.deepEqual((await(await app.fetch(new Request(url,{headers:{cookie:testCookie}}),env)).json()).favorites,['https://example.org/call']);r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://other.local','content-type':'application/json',cookie:testCookie},body:'{"favorites":[]}'}),env);assert.equal(r.status,403);});
 test('official-source flags never by themselves prove this applicant eligible',()=>{const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');assert.ok(source.includes('if(applicantProved&&eligibilityState'));assert.ok(source.includes('Opportunità marginali'));assert.ok(source.includes('Scadenza non verificata'));});
 test('Gaslini reimbursement preserves past service period and accreditation without inventing a legal-seat restriction',async(t)=>{
@@ -56,7 +68,7 @@ test('production catalogs apply documented reviews and live monitoring, preserve
  const needsReview=new Set(Object.values(sourceChecks).filter(c=>c.needsReview).map(c=>c.bandoId));
  assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
  for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
-  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='RLH12026055146'?'2026-10-23':id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
  }
  assert.equal(all.find(b=>b.id==='FC-MUSEI-ACCESS-2026').maxGrant,200000);
  assert.equal(all.find(b=>b.id==='FC-HOUSING-FRAGILI-2026').maxGrant,500000);
@@ -104,3 +116,4 @@ test('19 October source reviews retain applicant checks and closed calls stay ex
  assert.equal(base.find(b=>b.id==='RLT12026053831').deadline,v.deadline);
  assert.equal(base.find(b=>b.id==='RLT12026052444').fund,150000);
 });
+

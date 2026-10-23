@@ -79,9 +79,16 @@ const REVIEWS={
     "deadline": "2026-10-30",
     "fund": 13000000,
     "maxGrant": 2000000,
-    "note": "Riletta la pagina ufficiale il 14/10/2026 dopo la segnalazione di variazione: termine 30/10 ore 12, personalità giuridica, sede operativa lombarda e disponibilità immobile per almeno 20 anni confermati. L’aggiornamento della pagina non ha modificato questi dati.",
-    "documents": [],
-    "requirements": []
+    "note": "Scheda ufficiale e FAQ del 23/10/2026, sezione A D3 bis–D5 quater, consultate il 23/10/2026. Confermati termine 30/10 ore 12 e massimo 2 milioni. Per ETS occorre esercitare servizi abitativi ex art. 5 comma 1 lettera q) CTS: generiche finalità sociali o attività diverse ex art. 6 non bastano. Titolo sull’immobile già efficace alla domanda e sufficiente per lavori e gestione, almeno 20 anni dal saldo; non bastano preliminari o proroghe future.",
+    "documents": [
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf"
+    ],
+    "requirements": [
+      "ETS: attività di servizi abitativi di interesse generale ex art. 5 comma 1 lettera q) CTS; per imprese sociali ed enti religiosi verificare le rispettive categorie ammesse nelle FAQ D3 bis–D3 quater.",
+      "Titolo giuridico sull’immobile già perfezionato ed efficace alla domanda, per lavori e intero periodo di gestione; vincolo almeno 20 anni dall’erogazione del saldo. Non bastano preliminari, lettere di impegno o proroghe future."
+    ],
+    "reviewedAt": "2026-10-23",
+    "deadlineAt": "2026-10-30T12:00:00+01:00"
   },
   "CONIBAMBINI-NOTE-COMUNITA-2026": {
     "sourceUrl": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",
@@ -168,6 +175,23 @@ const REVIEWS={
       "https://www.fondazioneunipolis.org/site/wp-content/uploads/2026/09/Regolamento-Bando-POP-2026.pdf"
     ],
     "requirements": []
+  },
+  "RLA12025050323": {
+    "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323",
+    "reviewedAt": "2026-10-23",
+    "deadline": "2026-11-16",
+    "deadlineAt": "2026-11-16T16:00:00+01:00",
+    "fund": 490000,
+    "maxGrant": 20000,
+    "aid": "Contributo da 2.500 a 20.000 € secondo punteggio. Domanda almeno 60 giorni prima dell’evento, comunque entro il 16 novembre 2026 ore 16:00.",
+    "note": "Scheda ufficiale e decreto 16240/2025 consultati il 23/10/2026: confermati destinatari anche con sede fuori Lombardia alle condizioni dell’avviso, dotazione e importi; domanda almeno 60 giorni prima dell’evento, iniziativa nel 2026 e un contributo per ente nell’anno. La successiva manutenzione del portale impedisce il controllo automatico continuo.",
+    "documents": [
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919a7fc6de019a817251c50003?fileName=dcr+16240+13+11+2025.pdf"
+    ],
+    "requirements": [
+      "Domanda almeno 60 giorni prima dell’inizio dell’evento; iniziativa realizzata nel 2026 e di effettivo rilievo regionale.",
+      "Un solo contributo per ente nell’anno; iniziativa senza altro contributo regionale e finalità statutarie coerenti."
+    ]
   }
 };
 export function applySourceReview(b){
@@ -177,3 +201,4 @@ export function applySourceReview(b){
  if(continuous!==undefined)tracking.continuousDeadlineConfirmed=continuous;
  return {...b,...fields,tracking,evidenceUrls:[...new Set([...(b.evidenceUrls||[]),...documents])],hardRequirements:[...(b.hardRequirements||[]),...requirements.map(label=>({type:'document',label}))]};
 }
+

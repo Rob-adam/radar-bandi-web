@@ -15,6 +15,27 @@ import source_fetch
 
 
 class PipelineTests(unittest.TestCase):
+    def test_maintenance_http_200_does_not_replace_source_fingerprint(self):
+        response = unittest.mock.Mock(headers={'Content-Type': 'text/html'},
+            content=b'<html>maintenance</html>', url='https://official.example/cortesia.html',
+            text='<title>Regione Lombardia :: Pagina di Cortesia</title><p>Il servizio risulta momentaneamente indisponibile per manutenzione programmata.</p>')
+        previous = {'baselineHash': 'real-source', 'evidenceCheckedAt': 'checked',
+                    'lastFetchSucceededAt': 'last-good'}
+        observed = check_verified_sources.observe('https://official.example/bando', 'checked', previous, 'now', lambda *a, **k: response)
+        self.assertEqual(observed['status'], 'unavailable')
+        self.assertFalse(observed['ok'])
+        self.assertTrue(observed['needsReview'])
+        self.assertEqual(observed['baselineHash'], 'real-source')
+        self.assertEqual(observed['lastFetchSucceededAt'], 'last-good')
+        self.assertNotIn('observedHash', observed)
+
+    def test_pdf_html_substitution_cannot_become_a_new_valid_baseline(self):
+        response = unittest.mock.Mock(headers={'Content-Type': 'text/html'}, content=b'<html>error</html>',
+            url='https://official.example/document.pdf', text='<main>' + 'Documento non disponibile. ' * 6 + '</main>')
+        observed = check_verified_sources.observe(response.url, 'checked', {}, 'now', lambda *a, **k: response)
+        self.assertEqual(observed['status'], 'unavailable')
+        self.assertNotIn('baselineHash', observed)
+
     def test_actions_connect_timeout_recovers_only_fixed_public_listings(self):
         url = 'https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html'
         response = unittest.mock.Mock(headers={'X-Bandovera-Official-Source': url})
@@ -182,3 +203,4 @@ class PipelineTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

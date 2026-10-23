@@ -35,6 +35,12 @@ def response_hash(response):
     if "application/pdf" in content_type or response.content.startswith(b"%PDF"):
         return hashlib.sha256(response.content).hexdigest()
     soup = BeautifulSoup(response.text, "html.parser")
+    page_text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).lower()
+    if ("pagina di cortesia" in page_text or
+            ("momentaneamente indisponibile" in page_text and "manutenzione" in page_text)):
+        raise ValueError("Fonte temporaneamente indisponibile: pagina di cortesia/manutenzione, non modifica del bando")
+    if re.search(r"\.pdf(?:[?#]|$)", str(getattr(response, "url", "")), re.I):
+        raise ValueError("Documento PDF atteso, ricevuta una pagina HTML")
     for node in soup(["script", "style", "noscript", "svg"]):
         node.decompose()
     main = soup.find("main") or soup.find("article") or soup.body or soup
@@ -88,3 +94,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

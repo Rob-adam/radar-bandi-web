@@ -42,11 +42,18 @@
     {
       "id": "RLA12025050323",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323",
-          "note": "Avviso manifestazioni: ammessi enti fuori Lombardia con evento di effettivo rilievo regionale; evento2026, domanda almeno60 giorni prima, termine16/11/2026 ore16.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323",
+            "checkedAt": "2026-10-23",
+            "note": "Scheda ufficiale e decreto 16240/2025 consultati il 23/10/2026: confermati destinatari anche con sede fuori Lombardia alle condizioni dell’avviso, dotazione e importi; domanda almeno 60 giorni prima dell’evento, iniziativa nel 2026 e un contributo per ente nell’anno. La successiva manutenzione del portale impedisce il controllo automatico continuo."
+          },
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919a7fc6de019a817251c50003?fileName=dcr+16240+13+11+2025.pdf",
+            "checkedAt": "2026-10-23",
+            "note": "Decreto 16240/2025 e scheda ufficiale: domanda almeno 60 giorni prima dell’evento e condizioni del contributo."
+          }
+        ]
       }
     },
     {
@@ -94,8 +101,13 @@
         "verificationEvidence": [
           {
             "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
-            "checkedAt": "2026-10-14",
-            "note": "Riletta la pagina ufficiale il 14/10/2026 dopo la segnalazione di variazione: termine 30/10 ore 12, personalità giuridica, sede operativa lombarda e disponibilità immobile per almeno 20 anni confermati. L’aggiornamento della pagina non ha modificato questi dati."
+            "checkedAt": "2026-10-23",
+            "note": "Scheda ufficiale e FAQ del 23/10/2026, sezione A D3 bis–D5 quater, consultate il 23/10/2026. Confermati termine 30/10 ore 12 e massimo 2 milioni. Per ETS occorre esercitare servizi abitativi ex art. 5 comma 1 lettera q) CTS: generiche finalità sociali o attività diverse ex art. 6 non bastano. Titolo sull’immobile già efficace alla domanda e sufficiente per lavori e gestione, almeno 20 anni dal saldo; non bastano preliminari o proroghe future."
+          },
+          {
+            "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf",
+            "checkedAt": "2026-10-23",
+            "note": "FAQ 23/10/2026, sezione A: D3 bis–D5 quater, requisiti beneficiari e disponibilità giuridica dell’immobile."
           }
         ]
       }
@@ -301,3 +313,4 @@
     }
   ]
 }
+

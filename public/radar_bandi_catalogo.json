@@ -187,7 +187,7 @@
       "deadline": "2026-11-16",
       "fund": 490000,
       "maxGrant": 20000,
-      "aid": "Contributo fino a €20.000 determinato dalla graduatoria di merito",
+      "aid": "Contributo da 2.500 a 20.000 € secondo punteggio. Domanda almeno 60 giorni prima dell’evento, comunque entro il 16 novembre 2026 ore 16:00.",
       "tags": [
         "Eventi",
         "ODV",
@@ -199,7 +199,9 @@
         "Soggetti pubblici o privati senza scopo di lucro",
         "Operatività prevalentemente in Lombardia oppure iniziativa capace di valorizzare l'identità regionale",
         "Finalità statutarie coerenti con l'evento presentato",
-        "Iniziativa con effettivo rilievo regionale"
+        "Iniziativa con effettivo rilievo regionale",
+        "Domanda almeno 60 giorni prima dell’inizio dell’evento; iniziativa realizzata nel 2026 e di effettivo rilievo regionale.",
+        "Un solo contributo per ente nell’anno; iniziativa senza altro contributo regionale e finalità statutarie coerenti."
       ],
       "keywords": [
         "evento",
@@ -265,7 +267,8 @@
       ],
       "hardRequirements": [],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323"
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323",
+      "deadlineAt": "2026-11-16T16:00:00+01:00"
     },
     {
       "id": "RLT12026053831",
@@ -441,7 +444,7 @@
       "source": "Regione Lombardia",
       "deadline": "2026-10-30",
       "fund": 13000000,
-      "maxGrant": 0,
+      "maxGrant": 2000000,
       "aid": "Contributo per riqualificazione di immobili destinati a servizi abitativi sociali",
       "tags": [
         "Housing sociale",
@@ -454,7 +457,9 @@
         "Ente privato operante nel sociale con personalità giuridica",
         "Sede operativa in Lombardia",
         "Proprietà o piena disponibilità dell'immobile per almeno 20 anni",
-        "Finalità coerenti con i servizi abitativi sociali"
+        "Finalità coerenti con i servizi abitativi sociali",
+        "ETS: attività di servizi abitativi di interesse generale ex art. 5 comma 1 lettera q) CTS; per imprese sociali ed enti religiosi verificare le rispettive categorie ammesse nelle FAQ D3 bis–D3 quater.",
+        "Titolo giuridico sull’immobile già perfezionato ed efficace alla domanda, per lavori e intero periodo di gestione; vincolo almeno 20 anni dall’erogazione del saldo. Non bastano preliminari, lettere di impegno o proroghe future."
       ],
       "keywords": [
         "housing sociale",
@@ -519,7 +524,8 @@
         }
       ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146"
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
+      "deadlineAt": "2026-10-30T12:00:00+01:00"
     },
     {
       "id": "RLY12026054349",
@@ -687,3 +693,4 @@
     }
   ]
 }
+
