@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T06:57:05+02:00",
-  "attempted": 139,
-  "enriched": 139,
+  "generatedAt": "2026-10-23T13:45:24+02:00",
+  "attempted": 140,
+  "enriched": 140,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -117,15 +117,6 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/fare-sport/premio-ideale-sportivo-RLAN2026056903"
-    },
-    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
       "ok": true,
       "changed": [
@@ -180,6 +171,15 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
@@ -1249,6 +1249,14 @@
         "discoveryText"
       ],
       "url": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
     },
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
