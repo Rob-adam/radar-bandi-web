@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T23:41:24+02:00",
-  "attempted": 140,
-  "enriched": 140,
+  "generatedAt": "2026-10-23T06:57:05+02:00",
+  "attempted": 139,
+  "enriched": 139,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -23,15 +23,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
-    },
-    {
-      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
