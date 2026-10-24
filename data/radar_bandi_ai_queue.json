@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T06:57:27+02:00",
+  "generatedAt": "2026-10-24T13:25:43+02:00",
   "ruleVersion": 3,
-  "count": 129,
+  "count": 134,
   "items": [
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata",
       "id": "REG-AUTO-2F3ABA8F561A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/",
       "title": "Portale Bandi",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani",
       "id": "REG-AUTO-D35CB2E65892",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani/",
       "title": "Portale Bandi",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche",
       "id": "REG-AUTO-EBD47825757E",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche/",
       "title": "Portale Bandi",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025",
       "id": "REG-AUTO-D0DEA01CAB74",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025/",
       "title": "Portale Bandi",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
       "id": "REG-AUTO-AA7CDBEA00E9",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "title": "Portale Bandi",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te",
       "id": "REG-AUTO-79F1B7FC4146",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te/",
       "title": "Portale Bandi",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti",
       "id": "REG-AUTO-0ED70F7D483F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "title": "Portale Bandi",
@@ -175,7 +175,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo",
       "id": "REG-AUTO-EFE04F32E96F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo/",
       "title": "Portale Bandi",
@@ -199,7 +199,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2",
       "id": "REG-AUTO-55F3BB7379C6",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2/",
       "title": "Portale Bandi",
@@ -223,7 +223,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera",
       "id": "REG-AUTO-C263FF80C21A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -247,7 +247,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter",
       "id": "REG-AUTO-43963A092E97",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter/",
       "title": "Portale Bandi",
@@ -271,7 +271,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera",
       "id": "REG-AUTO-003FB6CED6FE",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera/",
       "title": "Portale Bandi",
@@ -295,7 +295,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale",
       "id": "REG-AUTO-D0E76013B7DD",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -319,7 +319,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale",
       "id": "REG-AUTO-9291B7E7BAB7",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -343,7 +343,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera",
       "id": "REG-AUTO-B7A429FD604E",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -367,7 +367,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale",
       "id": "REG-AUTO-9DDD0D31B6E3",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -391,7 +391,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
       "id": "REG-AUTO-1F2761680555",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -415,7 +415,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi",
       "id": "REG-AUTO-440EE54B1DD1",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi/",
       "title": "Portale Bandi",
@@ -439,7 +439,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale",
       "id": "REG-AUTO-4DD18A56521F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -463,7 +463,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale",
       "id": "REG-AUTO-C2777BCE2D94",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -487,7 +487,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2",
       "id": "REG-AUTO-A41FA93A132B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2/",
       "title": "Portale Bandi",
@@ -511,7 +511,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo",
       "id": "REG-AUTO-2CB3076C8C5A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo/",
       "title": "Portale Bandi",
@@ -535,7 +535,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20",
       "id": "REG-AUTO-D292FEBBAE23",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20/",
       "title": "Portale Bandi",
@@ -559,7 +559,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto",
       "id": "REG-AUTO-551DF5C9D7F0",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto/",
       "title": "Portale Bandi",
@@ -583,7 +583,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera",
       "id": "REG-AUTO-35EFD5DB9D99",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera/",
       "title": "Portale Bandi",
@@ -607,7 +607,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera",
       "id": "REG-AUTO-87EC46A26993",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "title": "Portale Bandi",
@@ -631,7 +631,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti",
       "id": "REG-AUTO-E22005E8DE9F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti/",
       "title": "Portale Bandi",
@@ -655,7 +655,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica",
       "id": "REG-AUTO-1E815F55617B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "title": "Portale Bandi",
@@ -679,7 +679,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale",
       "id": "REG-AUTO-802DE2802F3C",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "title": "Portale Bandi",
@@ -703,7 +703,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali",
       "id": "REG-AUTO-C0E39D4A4358",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "title": "Portale Bandi",
@@ -727,7 +727,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro",
       "id": "REG-AUTO-5F4C03DFBDDD",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "title": "Portale Bandi",
@@ -751,7 +751,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane",
       "id": "REG-AUTO-D37749662A16",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
       "title": "Portale Bandi",
@@ -775,7 +775,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022",
       "id": "REG-AUTO-DD3AA18AD8A1",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022/",
       "title": "Portale Bandi",
@@ -799,7 +799,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2",
       "id": "REG-AUTO-664CE40E2173",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2/",
       "title": "Portale Bandi",
@@ -823,7 +823,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale",
       "id": "REG-AUTO-074ED888B68F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -847,7 +847,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale",
       "id": "REG-AUTO-15DC952541D2",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -871,7 +871,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online",
       "id": "REG-AUTO-3F73FF83695B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online/",
       "title": "Portale Bandi",
@@ -895,7 +895,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori",
       "id": "REG-AUTO-1DE4750F03E7",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori/",
       "title": "Portale Bandi",
@@ -919,7 +919,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024",
       "id": "REG-AUTO-2DB81C48140B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024/",
       "title": "Portale Bandi",
@@ -943,7 +943,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione",
       "id": "REG-AUTO-3736CD8ECA6E",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione/",
       "title": "Portale Bandi",
@@ -967,7 +967,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto",
       "id": "REG-AUTO-45306BA0F758",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto/",
       "title": "Portale Bandi",
@@ -991,7 +991,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera",
       "id": "REG-AUTO-23AD73A20B84",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera/",
       "title": "Portale Bandi",
@@ -1015,7 +1015,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
       "id": "REG-AUTO-E7895B6DD8C4",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -1039,7 +1039,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente",
       "id": "REG-AUTO-7BBA2B0BAD4F",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente/",
       "title": "Portale Bandi",
@@ -1063,7 +1063,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale",
       "id": "REG-AUTO-04B494E15996",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale/",
       "title": "Portale Bandi",
@@ -1087,7 +1087,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale",
       "id": "REG-AUTO-4F7CB9D27F03",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -1111,7 +1111,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f",
       "id": "REG-AUTO-4A0FBC6B80D4",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f/",
       "title": "Portale Bandi",
@@ -1135,7 +1135,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19",
       "id": "REG-AUTO-67FF131DFAE6",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19/",
       "title": "Portale Bandi",
@@ -1159,7 +1159,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss",
       "id": "REG-AUTO-910C9C856025",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss/",
       "title": "Portale Bandi",
@@ -1183,7 +1183,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto",
       "id": "REG-AUTO-1DB61594A8A5",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto/",
       "title": "Portale Bandi",
@@ -1207,7 +1207,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale",
       "id": "REG-AUTO-DA034849970D",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -1231,7 +1231,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione",
       "id": "REG-AUTO-E8893807DC39",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione/",
       "title": "Portale Bandi",
@@ -1255,7 +1255,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa",
       "id": "REG-AUTO-325B5E9ECC1C",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa/",
       "title": "Portale Bandi",
@@ -1279,7 +1279,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale",
       "id": "REG-AUTO-CCDD261014FE",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -1303,7 +1303,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale",
       "id": "REG-AUTO-A0C23C190B72",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale/",
       "title": "Portale Bandi",
@@ -1327,7 +1327,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2",
       "id": "REG-AUTO-98C3A27FDD14",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2/",
       "title": "Portale Bandi",
@@ -1351,7 +1351,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali",
       "id": "REG-AUTO-812AFFD77B13",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali/",
       "title": "Portale Bandi",
@@ -1375,7 +1375,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale",
       "id": "REG-AUTO-57152FABC870",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -1399,7 +1399,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa",
       "id": "REG-AUTO-53E29E817116",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa/",
       "title": "Portale Bandi",
@@ -1423,7 +1423,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera",
       "id": "REG-AUTO-47D26972F180",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera/",
       "title": "Portale Bandi",
@@ -1447,7 +1447,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto",
       "id": "REG-AUTO-7B744197F6B6",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto/",
       "title": "Portale Bandi",
@@ -1471,7 +1471,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti",
       "id": "REG-AUTO-24D0B8DBFFED",
-      "version": 18,
+      "version": 20,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/",
       "title": "Portale Bandi",
@@ -1495,7 +1495,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico",
       "id": "REG-AUTO-3030C8219BAE",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico/",
       "title": "Portale Bandi",
@@ -1519,7 +1519,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del",
       "id": "REG-AUTO-B8907C804CF0",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del/",
       "title": "Portale Bandi",
@@ -1543,7 +1543,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de",
       "id": "REG-AUTO-B65CDE12B00A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de/",
       "title": "Portale Bandi",
@@ -1567,7 +1567,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog",
       "id": "REG-AUTO-66A3072CBC16",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog/",
       "title": "Portale Bandi",
@@ -1591,7 +1591,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione",
       "id": "REG-AUTO-971BB722CDEE",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione/",
       "title": "Portale Bandi",
@@ -1615,7 +1615,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale",
       "id": "REG-AUTO-90F2DDF9AAA7",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -1639,7 +1639,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l",
       "id": "REG-AUTO-4CC9785B8CD8",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l/",
       "title": "Portale Bandi",
@@ -1663,7 +1663,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera",
       "id": "REG-AUTO-846570D0D874",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -1687,7 +1687,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale",
       "id": "REG-AUTO-DB9B3C3F2F7A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale/",
       "title": "Portale Bandi",
@@ -1711,7 +1711,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2",
       "id": "REG-AUTO-CB10DB6D39F2",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2/",
       "title": "Portale Bandi",
@@ -1735,7 +1735,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera",
       "id": "REG-AUTO-404F4A793F30",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -1759,7 +1759,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale",
       "id": "REG-AUTO-A289E7859EEA",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale/",
       "title": "Portale Bandi",
@@ -1783,7 +1783,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola",
       "id": "REG-AUTO-1D7BC9854EC4",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola/",
       "title": "Portale Bandi",
@@ -1807,7 +1807,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete",
       "id": "REG-AUTO-D1F1226B094A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete/",
       "title": "Portale Bandi",
@@ -1831,7 +1831,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale",
       "id": "REG-AUTO-DFE32FF9EE6B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale/",
       "title": "Portale Bandi",
@@ -1855,7 +1855,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria",
       "id": "REG-AUTO-1E2D36A1B7ED",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria/",
       "title": "Portale Bandi",
@@ -1879,7 +1879,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac",
       "id": "REG-AUTO-040BC85BA288",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac/",
       "title": "Portale Bandi",
@@ -1903,7 +1903,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale",
       "id": "REG-AUTO-5C06D008BBA8",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale/",
       "title": "Portale Bandi",
@@ -1927,7 +1927,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera",
       "id": "REG-AUTO-A5610E6BE619",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera/",
       "title": "Portale Bandi",
@@ -1951,7 +1951,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera",
       "id": "REG-AUTO-6C60FC3A8FB4",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera/",
       "title": "Portale Bandi",
@@ -1975,7 +1975,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale",
       "id": "REG-AUTO-2EAB3DB3471C",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -1999,7 +1999,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico",
       "id": "REG-AUTO-0DA3C9486A9A",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico/",
       "title": "Portale Bandi",
@@ -2023,7 +2023,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale",
       "id": "REG-AUTO-A250B0D0AA5B",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale/",
       "title": "Portale Bandi",
@@ -2047,7 +2047,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl",
       "id": "REG-AUTO-ACE51D6E36B9",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl/",
       "title": "Portale Bandi",
@@ -2071,7 +2071,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza",
       "id": "REG-AUTO-1A6A97A0D6B5",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza/",
       "title": "Portale Bandi",
@@ -2095,7 +2095,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto",
       "id": "REG-AUTO-5EDF66C6B34E",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto/",
       "title": "Portale Bandi",
@@ -2119,7 +2119,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria",
       "id": "REG-AUTO-CB8EB538F667",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria/",
       "title": "Portale Bandi",
@@ -2143,7 +2143,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale",
       "id": "REG-AUTO-969C73C47147",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale/",
       "title": "Portale Bandi",
@@ -2167,7 +2167,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali",
       "id": "REG-AUTO-4F401C7C0668",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali/",
       "title": "Portale Bandi",
@@ -2191,7 +2191,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco",
       "id": "REG-AUTO-C52206817FBE",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco/",
       "title": "Portale Bandi",
@@ -2215,7 +2215,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027",
       "id": "REG-AUTO-8060D47AFFFA",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "title": "Portale Bandi",
@@ -2239,7 +2239,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9",
       "id": "REG-AUTO-BC435CA980FD",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9/",
       "title": "Portale Bandi",
@@ -2263,7 +2263,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53",
       "id": "REG-AUTO-F3DE3DA1DB17",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53/",
       "title": "Portale Bandi",
@@ -2287,7 +2287,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole",
       "id": "REG-AUTO-470D75453743",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "title": "Portale Bandi",
@@ -2311,7 +2311,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta",
       "id": "REG-AUTO-5CB7CC82AFC2",
-      "version": 20,
+      "version": 22,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "title": "Portale Bandi",
@@ -2335,7 +2335,7 @@
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "id": "REG-AUTO-2DA7C42694E9",
-      "version": 20,
+      "version": 22,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "title": "Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000",
@@ -2360,7 +2360,7 @@
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "id": "REG-AUTO-C18A86969037",
-      "version": 20,
+      "version": 22,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "title": "contributi a favore delle associazioni di rappresentanza delle cooperative",
@@ -2382,9 +2382,129 @@
       "text": "Homepage / contributi a favore delle associazioni di rappresentanza delle cooperative Allerta Meteo Caricamento dati... Vai al sito di Protezione Civile contributi a favore delle associazioni di rappresentanza delle cooperative modalità e criteri per la presentazione delle proposte progettuali nell'ambito delle linee di intervento di cui all'articolo 3, comma 1 della legge regionale n.19 del 7 dicembre 2010 e per la concessione dei relativi contributi, annualità 2026 Data pubblicazione: 30 Settembre 2026 Data apertura: 01 Ottobre 2026 Data chiusura: 31 Ottobre 2026 Soggetto proponente: Regione Liguria Documenti avviso e allegati pdf (554.7 Kb) Iscriviti alla Newsletter Seguici sui social"
     },
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
+      "id": "RLL12026054686",
+      "version": 41,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
+      "title": "Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-04",
+      "sourceStatus": null,
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Cultura, Turismo e Sport / Patrimonio culturale / Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026 Aperto Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026 Codice: RLL12026054686 Pubblicato il: 13/10/2026 , ore 14:44 Domande dal: 19/10/2026 , ore 10:00 Scade il: 04/11/2026 , ore 16:00 Bando con il quale Regione Lombardia intende sostenere progetti relativi al patrimonio linguistico, in quanto significativa espressione del patrimonio culturale immateriale, componente essenziale dell’identità sociale e storica che si esprime nella grande varietà delle singole voci locali che sono, per la loro originalità e peculiarità, tratti distintivi delle comunità territoriali lombarde, favorendone, anche attraverso azioni sperimentali, la conoscenza, lo studio e la valorizzazione. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026054686 Pubblicato il: 13/10/2026 , ore 14:44 Domande dal: 19/10/2026 , ore 10:00 Scade il: 04/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono partecipare al Bando enti pubblici e organismi di diritto pubblico, istituzioni private senza fine di lucro che operino in ambito culturale, istituzioni culturali, ecomusei riconosciuti, universit à , fondazioni, centri di ricerca. Di cosa si tratta Il bando si prefigge i seguenti obiettivi specifici: valorizzare attività di promozione e di ricerca"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
+      "id": "RLO12026056363",
+      "version": 5,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
+      "title": "Bando di sostegno al sistema fieristico lombardo 2027",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-23",
+      "sourceStatus": null,
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Attività Produttive/Imprese / Fiere / Bando di sostegno al sistema fieristico lombardo 2027 Aperto Bando di sostegno al sistema fieristico lombardo 2027 Codice: RLO12026056363 Pubblicato il: 08/10/2026 , ore 10:08 Domande dal: 23/10/2026 , ore 10:00 Scade il: 23/11/2026 , ore 16:00 Con il presente bando, Regione Lombardia sostiene la competitività e la ripresa del sistema fieristico lombardo, supportando la promozione e l'animazione delle manifestazioni fieristiche, lo sviluppo dell'internazionalizzazione e della digitalizzazione dei servizi offerti. NOVITA' edizione 2027: applicazione Codice degli Incentivi (D.LGS. N.184 DEL 27/11/2025), tra cui la polizza danni catastrofali, obbligo integrazione CUP, controlli a campione autodichiarazioni, compilazione modulo assenza condanne penali; inoltre istruzioni più dettagliate per la fase di rendicontazione, premialità per rating di legalità ecc Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLO12026056363 Pubblicato il: 08/10/2026 , ore 10:08 Domande dal: 23/10/2026 , ore 10:00 Scade il: 23/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Organizzatori di manifestazioni fieristiche, secondo la definizione dell’art. 121 della l.r. 6/2010, che si svolgano in Lombardia nel 2027 e che, in alternativa: abbiano qualifica internazionale, nazionale o regionale e siano incluse nel calendario fieristico regionale lombardo del 2027, con qualifica già riconosciuta al 31/12/2026; siano alla prima edi"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
+      "id": "RLY12026056043",
+      "version": 25,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
+      "title": "Contributo regionale per la redazione o revisione dei Piani comunali di Protezione Civile",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-23",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Sicurezza e Protezione Civile / Pianificazione, allertamento e gestione emergenze / Contributo regionale per la redazione o revisione dei Piani comunali di Protezione Civile Aperto Contributo regionale per la redazione o revisione dei Piani comunali di Protezione Civile Codice: RLY12026056043 Pubblicato il: 15/10/2026 , ore 16:22 Domande dal: 21/10/2026 , ore 10:00 Scade il: 23/11/2026 , ore 16:00 Bando rivolto ai Comuni con popolazione fino a 20.000 abitanti - elevata a 25.000 in caso di Comuni montani - per la redazione e revisione dei Piani comunali di Protezione Civile. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLY12026056043 Pubblicato il: 15/10/2026 , ore 16:22 Domande dal: 21/10/2026 , ore 10:00 Scade il: 23/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Comuni con popolazione pari o inferiore a 20.000 abitanti ( 25.000 se trattasi di Comuni montani ), in forma singola o associata , anche temporanea. In caso di associazione, deve essere individuato un soggetto capofila, che può essere uno dei Comuni dell’associazione, una Comunità Montana o un Ente Parco. Di cosa si tratta Il bando ha l’obiettivo di incentivare i Comuni con i sopracitati requisiti di popolazione a redigere - laddove assente - o a revisionare - se datato o non adeguato a quanto prescrive la normativa di settore vigente - il proprio Piano comunale di Protezione Civile , attraverso il caricamento del medesimo piano nel sistema informativo regionale “PPC "
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
+      "id": "RLW12025048763",
+      "version": 33,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
+      "title": "FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-10-29",
+      "sourceStatus": null,
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Istruzione, Formazione e Lavoro / Formazione Professionale / FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025 Aperto FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025 Codice: RLW12025048763 Pubblicato il: 20/10/2026 , ore 10:34 Domande dal: 20/10/2026 , ore 10:00 Scade il: 29/10/2026 , ore 17:00 Disponibile la presentazione della domanda di contributo per percorsi avviati nel 2025 e che si concludono nel 2028. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLW12025048763 Pubblicato il: 20/10/2026 , ore 10:34 Domande dal: 20/10/2026 , ore 10:00 Scade il: 29/10/2026 , ore 17:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Enti iscritti nella sezione: Linea A - Tecnici del restauro di beni culturali: enti iscritti nelle sezioni A o B dell’Albo regionale dei soggetti accreditati e in possesso dei requisiti per le dotazioni dei laboratori di restauro e dei requisiti del corpo docente per le discipline tecniche del restauro, previsti dall’Accordo approvato il 25 luglio 2012 in Conferenza Stato-Regioni e in possesso di un’esperienza di almeno 10 anni nell’erogazione di percorsi formativi per “Tecnici del restauro” ai sensi del DM 86/2009, da verificare alla data di approvazione delle Linee guida da parte della DGR 1707/2023; Linea B - Figure specializzate nel campo dello spettacolo dal vivo: enti iscritti nelle sezioni A o B dell’Albo regionale "
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
+      "id": "RLF12026057243",
+      "version": 41,
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
+      "title": "Monitoraggio Contributi di Gestione DSU -2025",
+      "territories": [
+        "lombardia"
+      ],
+      "deadline": "2026-11-03",
+      "sourceStatus": "aperto",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Bandi / Istruzione, Formazione e Lavoro / Università e formazione accademica / Monitoraggio Contributi di Gestione DSU -2025 Aperto Monitoraggio Contributi di Gestione DSU -2025 Codice: RLF12026057243 Pubblicato il: 16/10/2026 , ore 10:25 Domande dal: 19/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 16:00 Comunicazione dati relativi alla gestione dei servizi per il diritto allo studio universitario destinato alla generalità degli studenti LR 33/2004 Annualità 2025 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLF12026057243 Pubblicato il: 16/10/2026 , ore 10:25 Domande dal: 19/10/2026 , ore 10:00 Scade il: 03/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Università statali e non statali, Istituzioni dell'AFAM, pubbliche e private. Scuole superori per mediatori linguistici, pubbliche e private. Di cosa si tratta Comunicazione dati relativi alla gestione dei servizi per il diritto allo studio universitario destinato alla generalità degli studenti LR 33/2004 Annualità 2025 Dotazione finanziaria 21.324.730,00 Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato Come partecipare Il Monitoraggio deve essere presentato esclusivamente online, attraverso il portale di Regione Lombardia dedicato ai bandi www.bandi.regione.lombardia.it , per accedere al quale occorre registrarsi e autenticarsi:con il PIN della tessera sanitaria CNS (in tal caso sarà necessario quindi"
+    },
+    {
       "key": "url:https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "id": "REG-AUTO-F9B793AFCAD3",
-      "version": 182,
+      "version": 184,
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
@@ -2410,7 +2530,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "id": "REG-AUTO-CBCCCA8ED639",
-      "version": 210,
+      "version": 212,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "title": "Amministrazione Trasparente",
@@ -2434,7 +2554,7 @@
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "id": "REG-AUTO-B502E34F2C01",
-      "version": 210,
+      "version": 212,
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "title": "Amministrazione Trasparente",
@@ -2458,7 +2578,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
       "id": "REG-AUTO-33CA9E2F2A0C",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2482,7 +2602,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
       "id": "REG-AUTO-D9A4C0117377",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2506,7 +2626,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
       "id": "REG-AUTO-E752D7B455C1",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2530,7 +2650,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
       "id": "REG-AUTO-976C512EF6B3",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2554,7 +2674,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
       "id": "REG-AUTO-1C97A4A863C8",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2578,7 +2698,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "id": "REG-AUTO-5E8EB6C3611F",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2602,7 +2722,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
       "id": "REG-AUTO-549346EFBAA7",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2626,7 +2746,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
       "id": "REG-AUTO-E6AB8FC403C4",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2650,7 +2770,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "id": "REG-AUTO-FCD08A990326",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2674,7 +2794,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "id": "REG-AUTO-F318DC0E8AD2",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2698,7 +2818,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "id": "REG-AUTO-817347F304D1",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2722,7 +2842,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "id": "REG-AUTO-395AB58C2BE6",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2746,7 +2866,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
       "id": "REG-AUTO-9D36A454F526",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2770,7 +2890,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
       "id": "REG-AUTO-5ED9D6FEF7FE",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2794,7 +2914,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
       "id": "REG-AUTO-866D64FA7F3D",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2818,7 +2938,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "id": "REG-AUTO-365CE1EF1564",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2842,7 +2962,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "id": "REG-AUTO-EEE38120D90C",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2866,7 +2986,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "id": "REG-AUTO-4D19CF6A3B12",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2890,7 +3010,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
       "id": "REG-AUTO-C98C29EDAA38",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2914,7 +3034,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "id": "REG-AUTO-77C619EEDA39",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2938,7 +3058,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
       "id": "REG-AUTO-55FDB62358D8",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2962,7 +3082,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "id": "REG-AUTO-A15AD7611A44",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -2986,7 +3106,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "id": "REG-AUTO-5D9EB4C71740",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -3010,7 +3130,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "id": "REG-AUTO-8F97D7B298AC",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -3034,7 +3154,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "id": "REG-AUTO-7ACD582ED719",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -3058,7 +3178,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "id": "REG-AUTO-CCEC3CB25F4A",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
@@ -3082,7 +3202,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "id": "REG-AUTO-2DD9680DDFE9",
-      "version": 22,
+      "version": 24,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "title": "Portale Bandi Avvisi Concorsi - Regione del Veneto",
