@@ -105,3 +105,12 @@ test('reviewed sources do not certify applicant evidence and unresolved 2025 reg
  }
  assert.equal(call('FCARIPARO-IMPRENDITORIA-SOCIALE-2026').sourceStatus,'sospeso');
 });
+
+test('Roncade requires local resident activities even with Veneto seat and national operations',()=>{
+ const catalog=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo_extra.json',import.meta.url),'utf8'));
+ const b=reviewCall(catalog.bandi.find(x=>x.id==='VEN-RONCADE-CONTRIBUTI-ORDINARI-2026'));
+ assert.equal(engine().calc(b).eligibilityState,'verify');
+ assert.equal(engine({...base,roncadeResidentActivities2026:false}).calc(b).eligibilityState,'no');
+ assert.equal(engine({...base,roncadeResidentActivities2026:true}).calc(b).eligibilityState,'verify');
+ assert.equal(b.deadlineAt,'2026-10-30T12:00:00+01:00');
+});

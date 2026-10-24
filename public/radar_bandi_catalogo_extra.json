@@ -1351,6 +1351,110 @@
           }
         ]
       }
+    },
+    {
+      "id": "VEN-RONCADE-CONTRIBUTI-ORDINARI-2026",
+      "title": "Roncade — contributi ordinari per attività associative 2026",
+      "source": "Comune di Roncade",
+      "sourceUrl": "https://www.comune.roncade.tv.it/it/news/bando-concessione-contributi-per-attivita-svolte-da-associazioni-organizzazioni-di-volontariato-enti-del-terzo-settore-e-altri-soggetti-privi-di-scopo-di-lucro-annualita-2026",
+      "evidenceUrls": [
+        "https://roncade-api.municipiumapp.it/s3/5925/allegati/prot_n_0020640_2026.pdf"
+      ],
+      "deadline": "2026-10-30",
+      "deadlineAt": "2026-10-30T12:00:00+01:00",
+      "opensAt": "2026-09-24T00:00:00+02:00",
+      "sourceStatus": "aperto",
+      "fund": null,
+      "maxGrant": null,
+      "aid": "Importo determinato dal Comune in base alle spese ammissibili, alla rilevanza sociale e alle disponibilità di bilancio; nessun massimale fisso indicato nel bando.",
+      "tags": [
+        "Veneto",
+        "ETS",
+        "Sociale",
+        "Salute",
+        "Disabilità"
+      ],
+      "territories": [
+        "veneto",
+        "roncade"
+      ],
+      "legalForms": [
+        "associazione",
+        "ets",
+        "aps",
+        "odv",
+        "non profit"
+      ],
+      "sectors": [
+        "salute",
+        "sociale",
+        "cultura",
+        "ambiente"
+      ],
+      "beneficiaries": [
+        "residenti nel Comune di Roncade",
+        "persone con disabilità",
+        "anziani",
+        "minori"
+      ],
+      "activities": [
+        "promozione della salute",
+        "assistenza",
+        "inclusione sociale",
+        "volontariato"
+      ],
+      "purposes": [
+        "benessere della comunità locale"
+      ],
+      "keywords": [
+        "salute",
+        "sociale",
+        "disabilità",
+        "roncade"
+      ],
+      "eligibility": [
+        "Associazioni, ODV, ETS e altri soggetti senza scopo di lucro; assenza di lucro risultante da statuto o atto costitutivo.",
+        "Sede a Roncade oppure attività nel territorio comunale; in ogni caso benefici effettivi per la comunità e i residenti di Roncade. La sola operatività nazionale non soddisfa il requisito.",
+        "Attività continuative svolte o da svolgere nel 2026. Domanda completa entro il 30 ottobre 2026 alle ore 12:00.",
+        "Allegare programma delle attività, bilancio preventivo corrente, rendiconto precedente, dichiarazione ritenuta e documento; statuto e atto costitutivo se non iscritti all’Albo comunale.",
+        "Nessuna soglia di entrate o anno minimo di costituzione esplicitamente indicati nel bando."
+      ],
+      "hardRequirements": [
+        {
+          "type": "boolean",
+          "field": "roncadeResidentActivities2026",
+          "label": "Attività associative continuative 2026 con benefici documentabili per la comunità e i residenti di Roncade; sede esterna ammessa, operatività nazionale insufficiente"
+        },
+        {
+          "type": "document",
+          "label": "Assenza di scopo di lucro statutaria e documentazione completa: programma attività, preventivo, rendiconto precedente, dichiarazione ritenuta, identità e statuto/atto se fuori Albo"
+        },
+        {
+          "type": "document",
+          "label": "Esclusi compensi e rimborsi per prestazioni personali dei soci; dichiarare altri contributi. Iniziative già finanziate una tantum o con contributi straordinari non incluse nel contributo annuale"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-24",
+        "verificationNote": "Scheda comunale e PDF ufficiale artt. 1–6 verificati il 24/10/2026. Fonte verificata, ammissibilità della singola associazione da documentare; nessuna presunzione per RB-0003.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.comune.roncade.tv.it/it/news/bando-concessione-contributi-per-attivita-svolte-da-associazioni-organizzazioni-di-volontariato-enti-del-terzo-settore-e-altri-soggetti-privi-di-scopo-di-lucro-annualita-2026",
+            "checkedAt": "2026-10-24",
+            "note": "Scheda ufficiale: pubblicazione e scadenza ore 12."
+          },
+          {
+            "url": "https://roncade-api.municipiumapp.it/s3/5925/allegati/prot_n_0020640_2026.pdf",
+            "checkedAt": "2026-10-24",
+            "note": "Avviso ufficiale artt. 1–6: destinatari, territorio, documenti, spese escluse e assegnazione senza massimale fisso."
+          }
+        ]
+      }
     }
   ]
 }
