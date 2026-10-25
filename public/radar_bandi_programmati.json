@@ -29,6 +29,40 @@
           }
         ]
       }
+    },
+    {
+      "id": "CATTOLICA-UNA-MANO-2026",
+      "title": "Una mano a chi sostiene 2026 — inclusione e solidarietà sociale",
+      "source": "Fondazione Cattolica",
+      "status": "programmato",
+      "publicationWindow": "Candidature dal 16/11/2026 al 16/02/2027",
+      "budget": 500000,
+      "budgetLabel": "500.000 € complessivi · massimo 20.000 € per progetto (80% dei costi)",
+      "opening": "2026-11-16",
+      "deadline": "2027-02-16",
+      "maxGrant": 20000,
+      "foundationYear": null,
+      "annualRevenue": null,
+      "eligibilityStatus": "non_verificata",
+      "summary": "ETS e altri enti non profit ammessi: progetti realizzati direttamente in Italia, anche di assistenza e solidarietà sociale. Un progetto per ente; investimenti entro il 20% del costo. Selezione delle 100 migliori idee, poi voto pubblico; contributo a conclusione, previa rendicontazione.",
+      "nextAction": "Preparare un progetto di inclusione e sostegno ai pazienti, documentare requisiti dell’ente e copertura della quota non finanziata. Verificare il form all’apertura. Nessun limite minimo di anzianità o soglia di entrate individuato nel bando letto; ammissibilità non attestata.",
+      "sourceUrl": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf",
+      "tracking": {
+        "verifiedAt": "2026-10-25",
+        "verificationScope": "Bando ufficiale e regolamento generale letti; date confermate dal bando, sportello non ancora aperto.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagine 1–3: destinatari, territorio italiano, 16/11/2026–16/02/2027, dotazione 500.000 €, massimo 20.000 € e 80%, investimenti massimo 20%, voto pubblico e rendicontazione finale. Nessun orario di scadenza indicato."
+          },
+          {
+            "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Regolamento-Fondazione_2026.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Regolamento generale: impiego vincolato al progetto, rendicontazione, comunicazione di avvio entro sei mesi, controlli ed eventuale revoca."
+          }
+        ]
+      }
     }
   ]
 }
