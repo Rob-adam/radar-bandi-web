@@ -3,10 +3,21 @@ import re
 import time
 from urllib.parse import urlparse
 import requests
+from bs4 import BeautifulSoup
 from source_tls import source_tls_options
 
 HEADERS = {"User-Agent": "BANDOVERA/1.6 (+monitoraggio fonti ufficiali pubbliche)"}
 RECOVERED_PUBLIC_SOURCES = set()
+
+def validate_source_html(html):
+    """An HTTP 200 error/maintenance screen is not an official source read."""
+    soup = BeautifulSoup(html, "html.parser")
+    text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).lower()
+    title = soup.title.get_text(" ", strip=True).lower() if soup.title else ""
+    if ("pagina di cortesia" in text or
+            ("momentaneamente indisponibile" in text and "manutenzione" in text) or
+            (title.startswith("errore") and "si è verificato un errore imprevisto" in text)):
+        raise ValueError("Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando")
 
 def fetch_source(url, method="GET", **kwargs):
     """Retry transient transport/server failures, preserving TLS verification."""
@@ -21,6 +32,9 @@ def fetch_source(url, method="GET", **kwargs):
             response = send(url, headers=HEADERS, timeout=(10, 30),
                                     **source_tls_options(url), **kwargs)
             response.raise_for_status()
+            content_type = response.headers.get("Content-Type", "")
+            if isinstance(content_type, str) and "html" in content_type.lower():
+                validate_source_html(response.text)
             return response
         except (requests.ConnectionError, requests.Timeout):
             if attempt == 2:

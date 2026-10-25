@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-10-25T06:00:53+01:00",
+  "schemaVersion": 1,
+  "catalogUpdatedAt": "2026-10-25T07:21:04+01:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -12152,8 +12152,8 @@
       "version": 41,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -12253,7 +12253,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686": {
       "id": "RLL12026054686",
@@ -12263,8 +12264,8 @@
       "version": 41,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -12362,7 +12363,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784": {
       "id": "RLD12025050784",
@@ -12372,8 +12374,8 @@
       "version": 40,
       "firstSeenAt": "2026-10-19T15:22:57+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -12472,7 +12474,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/presentazione-progetti-servizio-civile-regionale-volontario-quarta-edizione-annualita-2027": {
       "id": "PIE-AUTO-1EF03DB497FA",
@@ -12592,8 +12595,8 @@
       "version": 33,
       "firstSeenAt": "2026-10-20T13:43:04+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -12688,7 +12691,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/azioni-informazione-comunicazione-formazione-nelle-scuole-sul-tema-violenza-genere-azione-3": {
       "id": "PIE-AUTO-BE92A58E3118",
@@ -13257,8 +13261,8 @@
       "version": 25,
       "firstSeenAt": "2026-10-21T13:54:11+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "sourceStatus",
@@ -13356,7 +13360,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13206&fromPage=Elenco&high=": {
       "id": "REG-AUTO-7CEC30221CB7",
@@ -27315,8 +27320,8 @@
       "version": 5,
       "firstSeenAt": "2026-10-23T13:45:23+02:00",
       "lastChangedAt": "2026-10-24T13:25:43+02:00",
-      "present": false,
-      "missingSince": "2026-10-25T05:55:01+01:00",
+      "present": true,
+      "missingSince": null,
       "lastChangeFields": [
         "discoveryText",
         "title"
@@ -27408,7 +27413,8 @@
         "ruleVersion": 3,
         "evaluatedAt": "2026-10-24T23:17:46+02:00"
       },
-      "excludedForEts": false
+      "excludedForEts": false,
+      "reappearedAt": "2026-10-25T07:21:04+01:00"
     },
     "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027": {
       "id": "PIE-AUTO-656BBB7A0C32",
@@ -27520,13 +27526,5 @@
       },
       "excludedForEts": false
     }
-  },
-  "triageUpdatedAt": "2026-10-25T06:00:53+01:00",
-  "triageSummary": {
-    "rulesResolved": 8,
-    "rulesExcludedForEts": 0,
-    "aiRequired": 129,
-    "notPresent": 112,
-    "ruleVersion": 3
   }
 }

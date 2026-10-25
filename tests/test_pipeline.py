@@ -15,6 +15,44 @@ import source_fetch
 
 
 class PipelineTests(unittest.TestCase):
+    def test_http_200_error_is_unavailable_and_preserves_last_real_read(self):
+        html = '<title>Errore | Bandi e Servizi</title><main>Si è verificato un errore imprevisto, si prega di contattare l’assistenza.</main>'
+        response = unittest.mock.Mock(headers={'Content-Type': 'text/html'},
+            content=html.encode(), text=html, url='https://bandi.regione.lombardia.it/bando')
+        previous = {'baselineHash': 'real-source', 'evidenceCheckedAt': 'checked',
+                    'lastFetchSucceededAt': 'last-good'}
+        observed = check_verified_sources.observe(response.url, 'checked', previous, 'now', lambda *a, **k: response)
+        self.assertFalse(observed['ok'])
+        self.assertEqual(observed['status'], 'unavailable')
+        self.assertEqual(observed['baselineHash'], 'real-source')
+        self.assertEqual(observed['lastFetchSucceededAt'], 'last-good')
+        self.assertNotIn('observedHash', observed)
+        with patch.object(source_fetch.requests, 'get', return_value=response):
+            with self.assertRaises(ValueError):
+                source_fetch.fetch_source(response.url)
+
+    def test_legitimate_grant_about_errors_is_not_rejected(self):
+        source_fetch.validate_source_html('<title>Bando formazione</title><main>Prevenire un errore nelle domande di contributo.</main>')
+
+    def test_empty_lombardia_listing_retains_previous_records_as_stale(self):
+        old = {'id': 'RL-TEST', 'source': 'Regione Lombardia', 'title': 'Progetto sociale',
+               'sourceUrl': 'https://bandi.regione.lombardia.it/bando',
+               'sourceCheckedAt': 'last-good', 'deadline': '2099-12-10'}
+        with tempfile.TemporaryDirectory() as directory:
+            out = Path(directory) / 'catalog.json'
+            out.write_text(json.dumps({'bandi': [old]}))
+            response = unittest.mock.Mock(text='<title>Catalogo servizi</title><main>Caricamento catalogo</main>')
+            source = next(s for s in update_bandi.SOURCES if s['kind'] == 'lombardia')
+            with patch.object(update_bandi, 'OUT', out), patch.object(update_bandi, 'SOURCES', [source]), patch.object(update_bandi, 'fetch_source', return_value=response):
+                update_bandi.main()
+            result = json.loads(out.read_text())
+            self.assertFalse(result['sourceStats'][0]['ok'])
+            self.assertEqual(len(result['bandi']), 1)
+            self.assertTrue(result['bandi'][0]['sourceStale'])
+            self.assertFalse(result['bandi'][0]['sourceFetchOk'])
+            self.assertEqual(result['bandi'][0]['sourceCheckedAt'], 'last-good')
+            self.assertEqual(result['bandi'][0]['deadline'], old['deadline'])
+
     def test_maintenance_http_200_does_not_replace_source_fingerprint(self):
         response = unittest.mock.Mock(headers={'Content-Type': 'text/html'},
             content=b'<html>maintenance</html>', url='https://official.example/cortesia.html',

@@ -5,7 +5,7 @@
   "summary": {
     "observed": 42,
     "needsReview": 16,
-    "failed": 10
+    "failed": 16
   },
   "checks": {
     "LIG-ACCOGLIENZA-GASLINI-2026|https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html": {
@@ -83,13 +83,13 @@
     "RLD12025048623|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "d96dfc840fb8153f8c8cd8fa348c97a7f5704cfa8143b68dc85c1b6b33581ff2",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLD12025048623"
     },
     "RLD12025048623|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf": {
@@ -119,13 +119,13 @@
     "RLJ12026054688|https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688": {
       "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/terzo-settore-volontariato/terzo-settore-triennio-2026-2028-RLJ12026054688",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "fe00552dde201274d2ace3e0b2c621d0631a2ed0a352b64121d0b851a3d94e35",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLJ12026054688"
     },
     "RLJ12026054688|https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf": {
@@ -143,13 +143,13 @@
     "RLA12025050323|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323",
       "evidenceCheckedAt": "2026-10-23",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "410d0fb2a6ae111db6da150ffdd21deab6eda7ff241ed80d54ddd0bac468e056",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLA12025050323"
     },
     "RLA12025050323|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919a7fc6de019a817251c50003?fileName=dcr+16240+13+11+2025.pdf": {
@@ -167,13 +167,13 @@
     "RLT12026053831|https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831": {
       "url": "https://bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/qualita-aria/rinnova-autoveicoli-terzo-settore-2026-RLT12026053831",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "4572550194686d867ad84ca2f74b31e63a49dfe819d9fdaf1fa2c2b9f308d921",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLT12026053831"
     },
     "RLT12026053831|https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf": {
@@ -203,13 +203,13 @@
     "RLT12026052444|https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/clima/proposte-educazione-ambientale-sostenibilit-2026-RLT12026052444",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "23ec277a899bf14d06cce2ff2bb99fe0e8a689f065764a127b3442364c700714",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLT12026052444"
     },
     "RLT12026052444|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929f252fc8019f28a0063c0045?fileName=Bando+Proposte+di+educazione+ambientale+e+alla+sostenibilita+2026.pdf": {
@@ -227,13 +227,13 @@
     "RLH12026055146|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
       "evidenceCheckedAt": "2026-10-23",
-      "attemptedAt": "2026-10-25T06:00:54+01:00",
+      "attemptedAt": "2026-10-25T07:20:57+01:00",
       "baselineHash": "1ab74b9974a8f5bc1e2841e235243c5ff7d9ad53df0ebbe34bd42f89ebe80c22",
-      "lastFetchSucceededAt": "2026-10-25T06:00:54+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "9b2962b434c55b7a92a5313e58b1db0766b298f2cc1396032c921b41c4eec522",
+      "lastFetchSucceededAt": "2026-10-24T13:25:44+02:00",
+      "ok": false,
+      "status": "unavailable",
       "needsReview": true,
+      "error": "Fonte temporaneamente indisponibile: pagina di errore/manutenzione, non modifica del bando",
       "bandoId": "RLH12026055146"
     },
     "RLH12026055146|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf": {
@@ -512,5 +512,6 @@
       "needsReview": false,
       "bandoId": "ER-CARISBO-EMERGENZE-2026"
     }
-  }
+  },
+  "partialRecheckAt": "2026-10-25T07:20:57+01:00"
 }
