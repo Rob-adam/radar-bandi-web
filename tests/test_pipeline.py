@@ -12,9 +12,56 @@ import update_bandi
 import check_verified_sources
 import source_tls
 import source_fetch
+import publish_reviewed_bandi
 
 
 class PipelineTests(unittest.TestCase):
+    def test_documented_review_is_published_and_removed_from_pending_queue(self):
+        decisions = json.loads(publish_reviewed_bandi.REVIEWS.read_text())['reviews']
+        record = decisions[0]['record']
+        queue = {'items': [{'id': record['id'], 'sourceUrl': record['sourceUrl']}, {'id': 'unreviewed'}]}
+        catalog, pending, report = publish_reviewed_bandi.publish({'bandi': []}, decisions, queue, {'bandi': []})
+        self.assertEqual(len(catalog['bandi']), len(decisions))
+        self.assertEqual(pending['items'], [{'id': 'unreviewed'}])
+        self.assertEqual(report['reviewedPublished'], len(decisions))
+        self.assertTrue(all(b['eligibilityStatus'] == 'da_verificare' for b in catalog['bandi']))
+        again, _, _ = publish_reviewed_bandi.publish(catalog, decisions, pending, {})
+        self.assertEqual(again, catalog)
+        withdrawn = json.loads(json.dumps(decisions))
+        withdrawn[0]['decision'] = 'withdrawn'
+        removed, _, _ = publish_reviewed_bandi.publish(catalog, withdrawn, pending, {})
+        self.assertEqual(len(removed['bandi']), len(decisions) - 1)
+
+    def test_rule_resolved_ets_still_gets_detail_without_auto_certification(self):
+        with tempfile.TemporaryDirectory() as directory:
+            catalog = Path(directory) / 'catalog.json'
+            queue = Path(directory) / 'queue.json'
+            report = Path(directory) / 'report.json'
+            bando = {'id': 'known-ets', 'title': 'Contributi per assistenza',
+                     'sourceUrl': 'https://official.example/bando',
+                     'tracking': {'needsAnalysis': False, 'specificLegalFormConfirmed': True}}
+            catalog.write_text(json.dumps({'bandi': [bando]}))
+            queue.write_text(json.dumps({'items': []}))
+            response = unittest.mock.Mock(text='<title>Contributi per assistenza</title><main>' + 'Avviso contributi per enti del terzo settore. ' * 8 + '</main>')
+            with patch.object(enrich_bandi, 'CATALOG', catalog), patch.object(enrich_bandi, 'AI_QUEUE', queue), patch.object(enrich_bandi, 'REPORT', report), patch.object(enrich_bandi, 'fetch_source', return_value=response):
+                enrich_bandi.main()
+            enriched = json.loads(catalog.read_text())['bandi'][0]
+            self.assertTrue(enriched['detailFetchOk'])
+            self.assertFalse(enriched['detailVerified'])
+            self.assertNotIn('officialSourceVerified', enriched['tracking'])
+
+    def test_publication_rejects_unproved_flags_or_customer_eligibility(self):
+        original = json.loads(publish_reviewed_bandi.REVIEWS.read_text())['reviews'][0]
+        for change in ['evidence', 'reviewedFields', 'applicantChecks']:
+            with self.subTest(change=change):
+                decision = json.loads(json.dumps(original))
+                if change == 'applicantChecks':
+                    decision['record'][change][0]['status'] = 'confirmed'
+                else:
+                    decision[change] = []
+                with self.assertRaises(ValueError):
+                    publish_reviewed_bandi.approved_record(decision)
+
     def test_http_200_error_is_unavailable_and_preserves_last_real_read(self):
         html = '<title>Errore | Bandi e Servizi</title><main>Si è verificato un errore imprevisto, si prega di contattare l’assistenza.</main>'
         response = unittest.mock.Mock(headers={'Content-Type': 'text/html'},

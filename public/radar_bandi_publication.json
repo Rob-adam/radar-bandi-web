@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "reviewedPublished": 2,
+  "publishedIds": [
+    "CARIPT-BORSE-LAVORO-2026",
+    "VEN-SERVIZIO-CIVILE-REGIONALE-2026"
+  ],
+  "discovered": 143,
+  "pendingReview": 134,
+  "note": "La coda contiene anche segnalazioni da classificare, non solo bandi ammissibili. Nessuna AI è stata eseguita da questo passaggio."
+}

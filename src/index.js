@@ -197,6 +197,13 @@ async function filteredMainCatalog(request,env){
  return json({...d,selectedRegion:region||null,bandi});
 }
 
+function latestCatalogUpdate(...values){
+ const dated=values.filter(v=>typeof v==='string').map(value=>{
+  const m=value.match(/^(\d{2})\/(\d{2})\/(\d{4})(?: (\d{2}):(\d{2}))?$/);
+  return {value,key:m?m[3]+m[2]+m[1]+(m[4]||'00')+(m[5]||'00'):''};
+ }).filter(x=>x.key).sort((a,b)=>b.key.localeCompare(a.key));
+ return dated[0]?.value||values.find(Boolean)||null;
+}
 async function mergedExtraCatalog(request,env){
  const origin=new URL(request.url).origin;
  const extraReq=new Request(origin+'/radar_bandi_catalogo_extra.json?raw=1',{headers:{'accept':'application/json'}});
@@ -231,7 +238,7 @@ async function mergedExtraCatalog(request,env){
   if(key)map.set(key,b);
  }
  const bandi=[...map.values()].filter(b=>territoryAllowed(b,region,nationalScope)&&opportunityCurrent(b));
- return json({...d1,updatedAt:d2.updatedAt||d1.updatedAt||null,automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],selectedRegion:region||null,bandi});
+ return json({...d1,updatedAt:latestCatalogUpdate(d1.updatedAt,d2.updatedAt),automatic:true,automaticSources:d2.sourcesChecked||[],automaticErrors:d2.errors||[],selectedRegion:region||null,bandi});
 }
 
 export default {
