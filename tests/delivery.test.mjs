@@ -161,10 +161,31 @@ test('four newly documented calls reach a national APS without certifying its re
 
 test('licensed health dashboard shows planned EU funding separately from active catalogs',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
- assert.match(html,/Da sorvegliare · opportunità programmate/);
+ assert.match(html,/Prossime aperture e programmi annunciati/);
  assert.match(html,/PROGRAMMATO · apertura e scadenza non verificate/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
   assert.ok(!body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'));
  }
+});
+
+test('licensed summary includes future opportunities and their content timestamp separately from active counts',async()=>{
+ const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
+ const meta=JSON.parse(html.match(/const plannedInfo=(\{[^;]+\});/)[1]);
+ assert.equal(meta.count,2); assert.equal(meta.updatedAt,'25/10/2026 21:54');
+ assert.match(html,/id="plannedSummary"/);
+ assert.match(html,/Ultimo aggiornamento opportunità:/);
+ assert.match(html,/Prossime aperture e programmi annunciati/);
+ const noWatchEnv={...env,ASSETS:{fetch:async r=>new URL(r.url).pathname==='/radar_bandi_programmati.json'?new Response('Unavailable',{status:503}):env.ASSETS.fetch(r)}};
+ const fallback=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),noWatchEnv)).text();
+ assert.match(fallback,/const plannedInfo=\{count:0,updatedAt:null\}/);
+});
+test('update badge chooses latest content date across active and future catalogs, never the current page load',()=>{
+ const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
+ const fn=source.slice(source.indexOf('function latestOpportunityUpdate('),source.indexOf('async function refresh()'));
+ const context={};vm.createContext(context);vm.runInContext(fn,context);
+ assert.equal(context.latestOpportunityUpdate('25/10/2026 17:40','25/10/2026 21:54'),'25/10/2026 21:54');
+ assert.equal(context.latestOpportunityUpdate('26/10/2026 00:03','25/10/2026 21:54'),'26/10/2026 00:03');
+ assert.equal(context.latestOpportunityUpdate('01/11/2026 08:00','31/10/2026 23:00'),'01/11/2026 08:00');
+ assert.equal(context.latestOpportunityUpdate(null,'invalid'),null);
 });
