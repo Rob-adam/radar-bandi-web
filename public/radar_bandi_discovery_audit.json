@@ -1,0 +1,1445 @@
+{
+  "schemaVersion": 1,
+  "total": 143,
+  "counts": {
+    "not_a_call": 3,
+    "documentary_review": 39,
+    "not_a_grant": 83,
+    "source_unavailable": 9,
+    "not_a_new_grant": 7,
+    "published": 2
+  },
+  "note": "Esiti di raccolta e triage, distinti dalla verifica documentale e dalla ammissibilità del cliente. Una lettura fallita non aggiorna la data dell’ultima lettura riuscita.",
+  "items": [
+    {
+      "id": "REG-AUTO-CBCCCA8ED639",
+      "title": "Bandi di gara e contratti",
+      "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
+      "status": "not_a_call",
+      "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-B502E34F2C01",
+      "title": "Bandi di gara e contratti",
+      "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
+      "status": "not_a_call",
+      "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-33CA9E2F2A0C",
+      "title": "Progetti di cooperazione allo sviluppo sostenibile finalizzati alla costruzione e al ripristino di pozzi e di sistemi di attingimento dell'acqua - Anno 2026.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-D9A4C0117377",
+      "title": "Bando per l'anno 2026 a sostegno delle attività di promozione e valorizzazione dell'antifascismo, della resistenza e dei correlati eventi accaduti in Veneto dal 1943 al 1948.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-6C0CDC708287",
+      "title": "contributi per l'acquisto e la realizzazione di interventi di ristrutturazione di immobili da adibire a Case Rifugio",
+      "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4738:contributi-case-rifugio-2026.html",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-2F3ABA8F561A",
+      "title": "MANIFESTAZIONE DI INTERESSE PER L’AFFIDAMENTO DEL SERVIZIO DI VALUTAZIONE DELL’AFFIDABILITÀ FINANZIARIA (RATING) DELLA REGIONE BASILICATA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "RLW12025048763",
+      "title": "FORMAZIONE NEGLI AMBITI PROFESSIONALI DEL RESTAURO DEI BENI CULTURALI E DELLO SPETTACOLO DAL VIVO - 2025",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "REG-AUTO-D35CB2E65892",
+      "title": "MANIFESTAZIONE DI INTERESSE per la realizzazione di interventi rivolti alla valorizzazione ambientale e paesaggistica degli insediamenti urbani. ..",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-EBD47825757E",
+      "title": "AVVISO PUBBLICO PER LA FORMAZIONE DELLA PROPOSTA DI PIANO REGIONALE DI INTERVENTI ANTISISMICI SU STRUTTURE E INFRASTRUTTURE STRATEGICHE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-E752D7B455C1",
+      "title": "Approvazione del Programma regionale di tutela delle denominazioni di origine e delle indicazioni geografiche protette dei vini e dei prodotti agroalimentari veneti, disciplinate dal Regolamento (UE) n. 2024/1143, nonché del bando per l'accesso ai contributi a sostegno delle attività di tutela, annualità 2026, realizzate dai Consorzi di tutela riconosciuti. Legge regionale 5 aprile 2013, n. 3, art. 28.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-C18A86969037",
+      "title": "contributi a favore delle associazioni di rappresentanza delle cooperative",
+      "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-976C512EF6B3",
+      "title": "Iniziativa fieristica finalizzata alla promozione e vendita dei prodotti del commercio equo e solidale - Anno 2026",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "RLF12026057243",
+      "title": "Monitoraggio Contributi di Gestione DSU -2025",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "RLL12026054686",
+      "title": "Bando a sostegno di progetti di promozione della lingua lombarda attraverso le sue varietà locali – Anno 2026",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "REG-AUTO-D0DEA01CAB74",
+      "title": "AVVISO DI SELEZIONE RISERVATO AL PERSONALE DELLA REGIONE BASILICATA PER L’ATTRIBUZIONE DELLE PROGRESSIONI ECONOMICHE ALL’INTERNO DELLE AREE – 2025",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025/",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+    },
+    {
+      "id": "REG-AUTO-1C97A4A863C8",
+      "title": "Formazione per la decarbonizzazione. Trasformare la sostenibilità energetica in un vantaggio competitivo",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:13+01:00"
+    },
+    {
+      "id": "REG-AUTO-5E8EB6C3611F",
+      "title": "PR Veneto FESR 2121-2027 Interventi di recupero, promozione e valorizzazione delle aree interne attraverso interventi ad alto impatto culturale.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-549346EFBAA7",
+      "title": "Progetti di diffusione del commercio equo e solidale - Anno 2026",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-E6AB8FC403C4",
+      "title": "Bando per la presentazione di progetti in materia di storia e cultura del Veneto - ASF 2026/2027",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:27+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:27+01:00"
+    },
+    {
+      "id": "REG-AUTO-FCD08A990326",
+      "title": "Bando Melken prevenzione delle predazioni da lupo in malga con recinzioni elettrificate: analisi delle modifiche del pascolamento, del pascolo e degli episodi di attacco (FSCRI_RM_1750 beneficiari privati)",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-F318DC0E8AD2",
+      "title": "Bando Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga (ID FSCRI_RI_418 beneficiari pubblici)",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "RLO12026056363",
+      "title": "Bando di sostegno al sistema fieristico lombardo 2027",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "RLY12026056043",
+      "title": "Contributo regionale per la redazione o revisione dei Piani comunali di Protezione Civile",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "REG-AUTO-AA7CDBEA00E9",
+      "title": "DGR n. 637/2023 – Patrocinio oneroso per iniziative di interesse pubblico III quadrimestre 2026",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-817347F304D1",
+      "title": "Azione 2.8.4 \"TPL-Sistemi di Trasporto Intelligenti: bigliettazione unica e infomobilità\". Approvazione del Bando per l'attuazione dell'Azione 2.8.4 \"TPL - Sistemi di Trasporto intelligenti: bigliettazione unica e infomobilità\", nell'ambito dello Sviluppo Urbano Sostenibile (SUS) rivolto alle Aziende titolari dei contratti di servizio per la gestione dei servizi minimi di TPL.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-395AB58C2BE6",
+      "title": "Concorso - \"Uso consapevole della rete internet e dei social media - 2^a edizione\" A.S.F. 2026-2027",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:16+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:16+01:00"
+    },
+    {
+      "id": "RLD12025050784",
+      "title": "Fuoriclasse - Percorsi di contrasto alla povertà educativa di minori e giovani",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:16+01:00",
+      "detailFetchedAt": "2026-10-24T13:16:09+02:00"
+    },
+    {
+      "id": "REG-AUTO-9D36A454F526",
+      "title": "Indizione della procedura a evidenza pubblica per il conferimento della concessione mineraria di acqua termale n. 158 denominata \"GOETHE\" in Comune di Pescantina (VR).",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:20+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:20+01:00"
+    },
+    {
+      "id": "REG-AUTO-5ED9D6FEF7FE",
+      "title": "Proroga al 29/12/2026 dei termini di presentazione delle domande di saldo e di conclusione dei progetti ed integrazione del Bando approvato con DGR n. 338 del 29/03/2023",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:11+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:11+01:00"
+    },
+    {
+      "id": "REG-AUTO-79F1B7FC4146",
+      "title": "AVVISO PUBBLICO PER LA FORMAZIONE DI UN ELENCO, COMPOSTO DI DUE SEZIONI, DI OPERATORI ECONOMICI, DI CUI ALL’ALLEGATO II.1 DEL D.LGS. N. 36/2023, CUI AFFIDARE DIRETTAMENTE IL SERVIZIO DI ASSISTENZA TECNICA, ANIMAZIONE, SUPPORTO AL MONITORAGGIO E RENDICONTA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-ECED3B36F0A2",
+      "title": "Avviso Pubblico FC – Imprese",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-0ED70F7D483F",
+      "title": "Avviso Pubblico FC – Voucher Professionisti",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:20+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:20+01:00"
+    },
+    {
+      "id": "REG-AUTO-866D64FA7F3D",
+      "title": "Bando Gemellaggi degli Enti territoriali locali 2026 - Approvazione dei risultati d'istruttoria e della relativa graduatoria delle istanze presentate",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:20+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:20+01:00"
+    },
+    {
+      "id": "REG-AUTO-365CE1EF1564",
+      "title": "Programma Garanzia di Occupabilità dei Lavoratori GOL - Adeguamento e ulteriore finanziamento dell'Avviso pubblico n. 5 per la presentazione dei progetti finalizzati all'attuazione del Percorso 5 Ricollocazione collettiva",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:21+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:21+01:00"
+    },
+    {
+      "id": "REG-AUTO-EFE04F32E96F",
+      "title": "ACQUISTO DI UN ETILOMETRO SAFIR E RELATIVO MATERIALE DI CONSUMO",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+    },
+    {
+      "id": "REG-AUTO-55F3BB7379C6",
+      "title": "AFFIDAMENTO DIRETTO PER LA PARTECIPAZIONE AL CONVEGNO NAZIONALE DI RICCIONE ORGANIZZATO DA MAGGIOLI SPA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+    },
+    {
+      "id": "REG-AUTO-C263FF80C21A",
+      "title": "Acquisto di n. 3 radio portatili per la Protezione Civile del Comune di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+    },
+    {
+      "id": "REG-AUTO-43963A092E97",
+      "title": "Acquisto di prontuari e abbonamento alla banca dati Iter",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-003FB6CED6FE",
+      "title": "Acquisto di un applicativo per il controllo degli accessi e l’azionamento dei pilomat posti a delimitazione delle aree pedonali della Città di Matera.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-D0E76013B7DD",
+      "title": "Adesione al piano di formazione per agenti di Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-9291B7E7BAB7",
+      "title": "CORSO DI AUTODIFESA RIVOLTO AL PERSONALE DELLA POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:27+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:27+01:00"
+    },
+    {
+      "id": "REG-AUTO-B7A429FD604E",
+      "title": "CORSO DI FORMAZIONE SUI PRESIDI DIFENSIVI RIVOLTO AL PERSONALE DELLA POLIZIA LOCALE DEL COMUNE DI MATERA.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:29+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:29+01:00"
+    },
+    {
+      "id": "REG-AUTO-9DDD0D31B6E3",
+      "title": "ESERCITAZIONI DI TIRO PER L’ANNO 2021 PRESSO POLIGONO ABILITATO PER GLI APPARTENENTI AL CORPO DI POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:29+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:29+01:00"
+    },
+    {
+      "id": "REG-AUTO-1F2761680555",
+      "title": "Esercitazioni di tiro per l’anno 2021 presso poligono abilitato per gli appartenenti al Corpo di Polizia Locale del Comune di Matera.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-440EE54B1DD1",
+      "title": "FORNITURA DI CONTRASSEGNI INVALIDI E BLOCCHI VERBALI/PREAVVISI",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-4DD18A56521F",
+      "title": "FORNITURA DI PRONTUARI E CODICE DELLA STRADA PER IL PERSONALE DELLA POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-C2777BCE2D94",
+      "title": "FORNITURE DIVISE PER GLI APPARTENENTI AL CORPO DELLA POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-A41FA93A132B",
+      "title": "affidamento noleggio etilometro sostitutivo",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-2CB3076C8C5A",
+      "title": "affidamento noleggio etilometro sostitutivo",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-D292FEBBAE23",
+      "title": "affidamento servizio noleggio e installazione transenne antipanico e metalliche in occasione del G20.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+    },
+    {
+      "id": "REG-AUTO-551DF5C9D7F0",
+      "title": "corso di formazione in materia di autotrasporto",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+    },
+    {
+      "id": "REG-AUTO-35EFD5DB9D99",
+      "title": "fornitura di n. 2 switch e di n. 1 cavo ethernet per le esigenze del Comando di Polizia Locale di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+    },
+    {
+      "id": "REG-AUTO-87EC46A26993",
+      "title": "lavori di riparazione di dispositivi mobili in dotazione al Corpo della Polizia Locale di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-E22005E8DE9F",
+      "title": "sostituzione della serratura di un armadio blindato marca Conforti.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-EEE38120D90C",
+      "title": "PR FESR 2021-2027 Azione 1.3.7 Sostegno alla competitività del sistema commerciale e valorizzazione dei distretti del commercio",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-4D19CF6A3B12",
+      "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 sub A - Interventi a sostegno delle imprese culturali, creative e dell'audiovisivo - Sub A \"Consolidamento di imprese esistenti\" - II edizione",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:39+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:39+01:00"
+    },
+    {
+      "id": "REG-AUTO-C98C29EDAA38",
+      "title": "Concorso per studenti - Commemorazione del Giorno del Ricordo",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:42+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:42+01:00"
+    },
+    {
+      "id": "REG-AUTO-77C619EEDA39",
+      "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 Sub C - \"Interventi a favore della produzione cinematografica e audiovisiva\"",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:42+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:42+01:00"
+    },
+    {
+      "id": "REG-AUTO-55FDB62358D8",
+      "title": "Indizione della procedura a evidenza pubblica per il conferimento della concessione mineraria di bentonite, caolino, terre refrattarie, terre da sbianca, argille per porcellana e terraglia forte n. 307 denominata \"COSTA BENEDETTA\" in Comune di Sarego (VI) e per il rilascio dell'autorizzazione a eseguire i lavori di coltivazione. Approvazione del disciplinare.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
+      "status": "not_a_new_grant",
+      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:45+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:45+01:00"
+    },
+    {
+      "id": "REG-AUTO-1E815F55617B",
+      "title": "Avviso pubblico per il finanziamento di interventi di efficientamento energetico e miglioramento degli impianti di illuminazione pubblica",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:45+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:45+01:00"
+    },
+    {
+      "id": "REG-AUTO-A15AD7611A44",
+      "title": "Bando per l'evoluzione delle destinazioni turistiche venete in Smart Tourism Destination - terza edizione. DGR 992 del 15 settembre 2026. Azione 1.2.4 terza edizione",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:20+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:20+01:00"
+    },
+    {
+      "id": "REG-AUTO-802DE2802F3C",
+      "title": "AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:46+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:46+01:00"
+    },
+    {
+      "id": "REG-AUTO-C0E39D4A4358",
+      "title": "Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:47+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:47+01:00"
+    },
+    {
+      "id": "REG-AUTO-5D9EB4C71740",
+      "title": "Avvio di selezione \"a sportello\" di interventi urgenti di edilizia scolastica da sostenere finanziariamente con fondi regionali negli anni 2026-2027. Legge regionale n. 59/1999, art. 3-bis.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:48+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:48+01:00"
+    },
+    {
+      "id": "REG-AUTO-5F4C03DFBDDD",
+      "title": "Avviso Pubblico #BASILSTEP TIROCINI e LAVORO",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:48+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:48+01:00"
+    },
+    {
+      "id": "REG-AUTO-D37749662A16",
+      "title": "Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-DD3AA18AD8A1",
+      "title": "ABBONAMENTO CONSULTAZIONE BANCA DATI A.C.I./P.R.A. SERVIZIO EROGATO DA ANCI DIGITALE PER L’ANNO 2022",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-664CE40E2173",
+      "title": "ABBONAMENTO CONSULTAZIONE BANCA DATI A.C.I./P.R.A. SERVIZIO EROGATO DA ANCI DIGITALE PER L’ANNO 2022",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-074ED888B68F",
+      "title": "ACQUISTO DI PERSONAL COMPUTER E STAMPANTE PER IL CORPO DELLA POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:52+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:52+01:00"
+    },
+    {
+      "id": "REG-AUTO-15DC952541D2",
+      "title": "ACQUISTO KIT DI VIDEOSORVEGLIANZA MOBILE PER IL COMANDO DI POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+    },
+    {
+      "id": "REG-AUTO-3F73FF83695B",
+      "title": "ACQUISTO PRONTUARI DELLE VIOLAZIONI ALLA CIRCOLAZIONE STRADALE CON FORMULA ABBONAMENTO E SERVIZIO ABBONAMENTO ONLINE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+    },
+    {
+      "id": "REG-AUTO-1DE4750F03E7",
+      "title": "ACQUISTO TELELASER TRUCAMHD E RELATIVI ACCESSORI",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
+      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+    },
+    {
+      "id": "REG-AUTO-2DB81C48140B",
+      "title": "ADESIONE AL “SERVIZIO DI BASE – ANCI RISPONDE” E AL SERVIZIO ACI-PRA, PER IL BIENNIO 2023-2024",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+    },
+    {
+      "id": "REG-AUTO-3736CD8ECA6E",
+      "title": "Abbonamento ACI-PRA anno 2022 – integrazione servizio di consultazione",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+    },
+    {
+      "id": "REG-AUTO-45306BA0F758",
+      "title": "Acquisto di apparecchiature e dotazioni strumentali per le attività di controlli su strada nel settore dell’autotrasporto",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+    },
+    {
+      "id": "REG-AUTO-23AD73A20B84",
+      "title": "Affidamento servizio di formazione, aggiornamento e specializzazione professionale per il personale di Polizia Locale di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:11+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:11+01:00"
+    },
+    {
+      "id": "REG-AUTO-E7895B6DD8C4",
+      "title": "Esercitazioni di tiro per l’anno 2022 presso poligono abilitato per gli appartenenti al Corpo di Polizia Locale del Comune di Matera.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:14+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-7BBA2B0BAD4F",
+      "title": "FORNITURA DI SECCHI DI BITUME A FREDDO REATTIVO PER RISARCITURA BUCHE STRADALI URGENTI, AD OPERA DI PERSONALE A DISPOSIZIONE DI QUESTO ENTE.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-04B494E15996",
+      "title": "FORNITURA DI SMARTPHONE PER I SERVIZI DI POLIZIA STRADALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:20+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:20+01:00"
+    },
+    {
+      "id": "REG-AUTO-4F7CB9D27F03",
+      "title": "Fornitura serratura elettronica per la porta di ingresso del Comando di Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:21+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:21+01:00"
+    },
+    {
+      "id": "REG-AUTO-4A0FBC6B80D4",
+      "title": "Rinnovo novennale dell’accesso al servizio di informatica del Centro di Elaborazione Dati della ex Direzione Generale della Motorizzazione Civile. D.P.R. 28 settembre 1994, n. 634. – stipula polizza fideiussoria",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-67FF131DFAE6",
+      "title": "acquisto DPI utili per l’emergenza COVID 19.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-910C9C856025",
+      "title": "affidamento del servizio di supporto per la gestione del procedimento sanzionatorio relativo alle violazioni amministrative delle norme del C.d.S. e delle norme diverse dal C.d.S. nonché della riscossione coattiva dei crediti non riscossi",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-1DB61594A8A5",
+      "title": "corso di formazione e aggiornamento in materia di polizia stradale e autotrasporto",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-DA034849970D",
+      "title": "fornitura di bollettari per la contestazione di violazioni al C.d.S., contrassegni per il parcheggio dei disabili e permessi rosa per il Comando della Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-E8893807DC39",
+      "title": "fornitura di un sistema hardware e software per il controllo automatizzato dei dati tachigrafici, comprensiva di n. 3 giornate di formazione.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+    },
+    {
+      "id": "REG-AUTO-325B5E9ECC1C",
+      "title": "progetto per la prevenzione e il contrasto al consumo e spaccio di sostanze stupefacenti – stipula fideiussione assicurativa",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-CCDD261014FE",
+      "title": "servizio di assistenza e manutenzione triennale del software di gestione della segreteria telefonica in uso all’Ufficio ZTL della Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-A0C23C190B72",
+      "title": "servizio di manutenzione di veicoli elettrici in uso alla Polizia Locale.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+    },
+    {
+      "id": "REG-AUTO-98C3A27FDD14",
+      "title": "servizio di manutenzione di veicoli elettrici in uso alla Polizia Locale.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+    },
+    {
+      "id": "REG-AUTO-812AFFD77B13",
+      "title": "ACQUISIZIONE DEL SOFTWARE DI INTEGRAZIONE ALLA PIATTAFORMA NOTIFICHE DIGITALI – BANDO PNRR PA DIGITALE 2026 – AVVISO MISURA 1.4.5. PIATTAFORMA NOTIFICHE DIGITALI",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+    },
+    {
+      "id": "REG-AUTO-57152FABC870",
+      "title": "ACQUISTO DI UNA BACHECA ELETTRONICA PER LA CUSTODIA CHIAVI PER IL COMANDO DI POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+    },
+    {
+      "id": "REG-AUTO-53E29E817116",
+      "title": "AFFIDAMENTO DIRETTO PER LA PARTECIPAZIONE AL CONVEGNO NAZIONALE DI RICCIONE ORGANIZZATO DA MAGGIOLI SPA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-47D26972F180",
+      "title": "AFFIDAMENTO SERVIZIO DI REVISIONE/TARATURA PERIODICA STRUMENTO TELELASER TRUCAM IN DOTAZIONE AL COMANDO DI POLIZIA LOCALE DI MATERA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-7B744197F6B6",
+      "title": "ATTIVAZIONE SISTEMA INFORMATIVO SMART24 POLIZIA LOCALE E TOP24 DIRITTO",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+    },
+    {
+      "id": "REG-AUTO-24D0B8DBFFED",
+      "title": "Affidamento corso di formazione in tema di “Prevenzione, lotta al traffico e spaccio di sostanze stupefacenti”",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+    },
+    {
+      "id": "REG-AUTO-3030C8219BAE",
+      "title": "Affidamento del servizio Postel Video per campagna informativa e divulgativa diretta ad incrementare il numero di presentazione on line delle richieste di autorizzazione al transito in zone a traffico limitato (ZTL)",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+    },
+    {
+      "id": "REG-AUTO-B8907C804CF0",
+      "title": "Affidamento della fornitura di etilometro e precursori realizzato nell’ambito delle azioni previste dal progetto #escomanonbevo finanziato dal Dipartimento Politiche Antidroga DPA della Presidenza del Consiglio dei Ministri",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
+      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+    },
+    {
+      "id": "REG-AUTO-B65CDE12B00A",
+      "title": "Affidamento della fornitura di etilometro e precursori realizzato nell’ambito delle azioni previste dal progetto #escomanonbevo finanziato dal Dipartimento Politiche Antidroga DPA della Presidenza del Consiglio dei Ministri",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+    },
+    {
+      "id": "REG-AUTO-66A3072CBC16",
+      "title": "Affidamento della fornitura di strumentazione per il contrasto all’uso di sostanze stupefacenti realizzato nell’ambito delle azioni previste dal progetto finanziato dal Dipartimento Politiche Antidroga DPA della Presidenza del Consiglio dei Ministri",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:22+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:22+01:00"
+    },
+    {
+      "id": "REG-AUTO-971BB722CDEE",
+      "title": "Affidamento diretto del servizio di pernottamento e mezza pensione per n. 4 dipendenti presso Hotel Fantasy di Riccione",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T08:01:22+01:00",
+      "detailFetchedAt": "2026-10-25T08:01:22+01:00"
+    },
+    {
+      "id": "REG-AUTO-90F2DDF9AAA7",
+      "title": "Affidamento fornitura di n. 1 pc e accessori tablet per il Corpo della Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+    },
+    {
+      "id": "REG-AUTO-4CC9785B8CD8",
+      "title": "Affidamento fornitura di software gestionali, licenza firma grafometrica per Tablet Android e servizio di assistenza e manutenzione applicativi forniti da Verbatel s.r.l.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+    },
+    {
+      "id": "REG-AUTO-846570D0D874",
+      "title": "Affidamento servizio di riparazione del gruppo elettrogeno in dotazione all’Ufficio Traffico del Comune di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+    },
+    {
+      "id": "REG-AUTO-DB9B3C3F2F7A",
+      "title": "Affidamento servizio di trasporto, di posizionamento e rimozione transenne e segnaletica mobile di proprietà comunale.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+    },
+    {
+      "id": "REG-AUTO-CB10DB6D39F2",
+      "title": "Corso di formazione e aggiornamento in materia di autotrasporto.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+    },
+    {
+      "id": "REG-AUTO-404F4A793F30",
+      "title": "Esercitazioni di tiro per l’anno 2023 presso poligono abilitato per gli appartenenti al Corpo di Polizia Locale del Comune di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+    },
+    {
+      "id": "REG-AUTO-A289E7859EEA",
+      "title": "FORNITURA DI STAMPANTI PORTATILI COMPLETE DI CUSTODIA E ROTOLI DI CARTA TERMICA AD USO DELLA POLIZIA LOCALE",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-1D7BC9854EC4",
+      "title": "Fornitura di accessori per apparati radio Motorola",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-D1F1226B094A",
+      "title": "Fornitura di armi e munizioni per il potenziamento del Corpo di Polizia Locale e contestuale dismissione di armi e munizioni obsolete",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+    },
+    {
+      "id": "REG-AUTO-DFE32FF9EE6B",
+      "title": "Fornitura di portabiciclette da installare sul terrritorio comunale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-1E2D36A1B7ED",
+      "title": "Fornitura di sistema CABOLO I-Kit Cartabia per la video-registrazione e trascrizione automatica della documentazione degli atti di Polizia Giudiziaria",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-040BC85BA288",
+      "title": "Fornitura di un manufatto in ceramica decorata relativa l Patto di Amicizia tra i Comuni delle Città della Ceramica – Affidamento diretto ex art. 50, comma 1, lett. b), del D.Lgs. n. 36/2023 ditta Daciarte di Dacia Capriotti",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+    },
+    {
+      "id": "REG-AUTO-5C06D008BBA8",
+      "title": "Interventi di manutenzione di dispositivi informatici in uso alla Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+    },
+    {
+      "id": "REG-AUTO-A5610E6BE619",
+      "title": "Riparazione dell’autovettura SMART telaio n. W1A4530911Y249239 targata YA503AH in uso al Comando di Polizia Locale di Matera",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+    },
+    {
+      "id": "REG-AUTO-6C60FC3A8FB4",
+      "title": "SERVIZI DI AGGIORNAMENTO, MANUTENZIONE ED ASSISTENZA TECNICA PER IL SISTEMA RADIO DEL CORPO DI POLIZIA LOCALE DEL COMUNE DI MATERA",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+    },
+    {
+      "id": "REG-AUTO-2EAB3DB3471C",
+      "title": "SERVIZIO DI CONTROLLO E REVISIONE DI ETILOMETRI/PRECURSORI I IN DOTAZIONE AL CORPO DI POLIZIA LOCALE.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+    },
+    {
+      "id": "REG-AUTO-0DA3C9486A9A",
+      "title": "SERVIZIO DI RIPARAZIONE DEL VEICOLO FORD TARGATO GA616CN A SERVIZIO DELL’UFFICIO TRAFFICO",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+    },
+    {
+      "id": "REG-AUTO-A250B0D0AA5B",
+      "title": "acquisto di un booster per l’avviamento dei veicoli in dotazione del Corpo di Polizia Locale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+    },
+    {
+      "id": "REG-AUTO-ACE51D6E36B9",
+      "title": "acquisto materiale per il rilascio di permessi ZTL",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+    },
+    {
+      "id": "REG-AUTO-1A6A97A0D6B5",
+      "title": "affidamento diretto del servizio di pernottamento e pensione completa per n. 4 dipendenti presso Hotel Europa di Cosenza",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+    },
+    {
+      "id": "REG-AUTO-5EDF66C6B34E",
+      "title": "corso di formazione e aggiornamento in materia di autotrasporto",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+    },
+    {
+      "id": "REG-AUTO-CB8EB538F667",
+      "title": "fornitura di acqua in confezioni per il consumo da parte dei soccorritori impiegati nelle attività correlate al crollo di un immobile sito nella locale via Beccaria",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+    },
+    {
+      "id": "REG-AUTO-969C73C47147",
+      "title": "fornitura di scaffali per archivio ufficio verbali e segnaletica stradale",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+    },
+    {
+      "id": "REG-AUTO-4F401C7C0668",
+      "title": "fornitura di un sistema laser scanner 3d per il rilievo degli incidenti stradali",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+    },
+    {
+      "id": "REG-AUTO-C52206817FBE",
+      "title": "servizio di accesso alle banche dati Telemaco",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco/",
+      "status": "not_a_grant",
+      "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+    },
+    {
+      "id": "REG-AUTO-8060D47AFFFA",
+      "title": "Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+    },
+    {
+      "id": "REG-AUTO-8F97D7B298AC",
+      "title": "PR Veneto FESR 2021-2027 - Fondo Veneto Energia - Sezione Efficientamento energetico delle imprese",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+    },
+    {
+      "id": "REG-AUTO-7ACD582ED719",
+      "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Start up",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:55:58+01:00",
+      "detailFetchedAt": "2026-10-25T07:55:58+01:00"
+    },
+    {
+      "id": "REG-AUTO-CCEC3CB25F4A",
+      "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Transizione",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+    },
+    {
+      "id": "REG-AUTO-2DD9680DDFE9",
+      "title": "PR Veneto FESR 2021-2027. Fondo Veneto Ricerca, Sviluppo e Innovazione - Sezione Innovazione nelle PMI.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+    },
+    {
+      "id": "REG-AUTO-BC435CA980FD",
+      "title": "Affido di manutenzione",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+    },
+    {
+      "id": "REG-AUTO-F3DE3DA1DB17",
+      "title": "Affido manutenzione automezzi",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53/",
+      "status": "not_a_grant",
+      "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:02+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:02+01:00"
+    },
+    {
+      "id": "REG-AUTO-470D75453743",
+      "title": "Struttura residenziale per anziani nel Comune di Grottole.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:02+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:02+01:00"
+    },
+    {
+      "id": "REG-AUTO-5CB7CC82AFC2",
+      "title": "PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL’INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL’AREA PIP SITA IN LOC SETA.",
+      "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:03+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:03+01:00"
+    },
+    {
+      "id": "FC-AUTO-ED155B6967E0",
+      "title": "Anita Reti Mille",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
+      "status": "published",
+      "reason": "Revisione documentale pubblicata; requisiti del cliente ancora da verificare.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
+    },
+    {
+      "id": "FC-AUTO-2374B2828A88",
+      "title": "Carcere e comunità in rete",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
+      "status": "published",
+      "reason": "Revisione documentale pubblicata; requisiti del cliente ancora da verificare.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
+    },
+    {
+      "id": "REG-AUTO-F9B793AFCAD3",
+      "title": "Economia circolare: incentivi per il contrasto allo spreco alimentare",
+      "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
+    },
+    {
+      "id": "PIE-AUTO-656BBB7A0C32",
+      "title": "Individuazione e gestione dell’offerta formativa pubblica per l’Apprendistato Professionalizzante 2026-2027",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:11+01:00",
+      "detailFetchedAt": "2026-10-23T13:45:24+02:00"
+    },
+    {
+      "id": "PIE-AUTO-E06D74EBFB0F",
+      "title": "Interventi per la prevenzione della produzione dei rifiuti rivolta a soggetti del terzo settore non iscritti al REA (Repertorio Economico Amministrativo)",
+      "sourceUrl": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:12+01:00",
+      "detailFetchedAt": null
+    },
+    {
+      "id": "REG-AUTO-2DA7C42694E9",
+      "title": "Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000",
+      "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:13+01:00"
+    },
+    {
+      "id": "PIE-AUTO-519355BE80BE",
+      "title": "L.R. 23/2004 e s.m.i. Interventi per lo sviluppo e la promozione della cooperazione",
+      "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
+      "status": "source_unavailable",
+      "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
+      "detailFetchOk": false,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
+      "detailFetchedAt": null
+    },
+    {
+      "id": "REG-AUTO-323C49FE70D2",
+      "title": "Bandi e avvisi - Regione Puglia",
+      "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
+      "status": "not_a_call",
+      "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
+      "detailFetchedAt": "2026-10-25T07:56:13+01:00"
+    }
+  ]
+}

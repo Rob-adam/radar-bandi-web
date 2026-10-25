@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 import requests
 from bs4 import BeautifulSoup
 from source_tls import source_tls_options
-from source_fetch import fetch_source
+from source_fetch import fetch_source, fetch_many
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -23,6 +23,8 @@ HEADERS = {
 GENERIC_TITLES = {
     "bando", "bandi", "avviso", "avvisi", "dettaglio", "scopri di più",
     "scopri di piu", "approfondisci", "vai al bando", "home",
+    "portale bandi", "dettaglio bando", "amministrazione trasparente",
+    "portale bandi avvisi concorsi - regione del veneto", "elenco bandi e avvisi",
 }
 
 
@@ -53,8 +55,13 @@ def title_usable(value):
 
 
 def extract_title(soup):
+    for label in soup.select('.display-label'):
+        if clean(label.get_text()).lower().rstrip(':') == 'titolo':
+            value = label.find_next_sibling(class_='display-field')
+            if value and title_usable(value.get_text(' ', strip=True)):
+                return clean(value.get_text(' ', strip=True))
     candidates = []
-    for tag in soup.find_all("h1", limit=3):
+    for tag in soup.find_all("h1", limit=8):
         candidates.append(clean(tag.get_text(" ", strip=True)))
     og = soup.find("meta", attrs={"property": "og:title"})
     if og:
@@ -80,7 +87,7 @@ def parse_date(text):
         "maggio": 5, "giugno": 6, "luglio": 7, "agosto": 8,
         "settembre": 9, "ottobre": 10, "novembre": 11, "dicembre": 12,
     }
-    date_token = r"(\d{1,2})(?:[-/.]|\s+)(\d{1,2}|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)(?:[-/.]|\s+)(\d{4})"
+    date_token = r"(\d{1,2})(?:[-/.]|\s+)(\d{1,2}|gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre)(?:[-/.]|\s+)(\d{4})(?!\d)"
     # A later phase is not a new applicant's deadline. Prefer phase 1 even
     # when the page presents phase 2 first, and never fall back to phase 2.
     phase_one = r"(?:fase\s*(?:1|I\b|uno|prima)|prima\s+fase)"
@@ -93,6 +100,8 @@ def parse_date(text):
                     date_token + r"\s*(?:[-–]\s*)?(?:scadenza|chiusura)"]
     for pattern in patterns:
         for m in re.finditer(pattern, text, re.I):
+            if re.search(r'(?:precedente|vecchia|originaria)\s*$', text[max(0, m.start()-25):m.start()], re.I):
+                continue
             try:
                 day, month, year = m.groups()
                 month = int(month) if month.isdigit() else month_names[month.lower()]
@@ -114,10 +123,22 @@ def detect_status(text):
 
 
 def page_text(soup):
-    for node in soup(["script", "style", "noscript", "svg"]):
+    for node in soup.select('script, style, noscript, svg, nav, header, footer, .modal'):
         node.decompose()
     main = soup.find("main") or soup.find("article") or soup.body or soup
-    return clean(main.get_text(" ", strip=True))[:12000]
+    text = clean(main.get_text(" ", strip=True))
+    # Related cards are separate notices, not evidence about this applicant/call.
+    text = re.split(r'Avvisi e bandi correlati', text, maxsplit=1, flags=re.I)[0]
+    return text[:12000]
+
+
+def detail_deadline(soup, text):
+    for label in soup.select('.display-label'):
+        if clean(label.get_text()).lower().rstrip(':') == 'scadenza':
+            value = label.find_next_sibling(class_='display-field')
+            if value:
+                return parse_date('Scadenza: ' + value.get_text(' ', strip=True))
+    return parse_date(text)
 
 
 def record_key(bando):
@@ -137,6 +158,13 @@ def main():
     unchanged = 0
     report_items = []
 
+    def needs_detail(bando):
+        tracking = bando.get('tracking', {})
+        return record_key(bando) in queued or (
+            tracking.get('needsAnalysis') is False and tracking.get('excludedForEts') is not True and
+            tracking.get('specificLegalFormConfirmed') is True and tracking.get('officialSourceVerified') is not True)
+    responses = fetch_many([clean(b.get('sourceUrl')) for b in catalog.get('bandi', [])
+                            if needs_detail(b) and clean(b.get('sourceUrl')).startswith(('https://', 'http://'))], fetch=fetch_source)
     for bando in catalog.get("bandi", []):
         key = record_key(bando)
         # A rule-resolved lead still needs its official detail read before review.
@@ -155,7 +183,9 @@ def main():
         attempted += 1
         changed = []
         try:
-            r = fetch_source(url)
+            r = responses[url]
+            if isinstance(r, Exception):
+                raise r
             soup = BeautifulSoup(r.text, "html.parser")
             text = page_text(soup)
             if len(text) < 80:
@@ -167,11 +197,11 @@ def main():
                 changed.append("title")
 
             old_text = clean(bando.get("discoveryText"))
-            if len(text) > len(old_text) and text != old_text:
+            if text != old_text:
                 bando["discoveryText"] = text
                 changed.append("discoveryText")
 
-            deadline = parse_date(text)
+            deadline = detail_deadline(soup, text)
             if deadline and deadline != bando.get("deadline"):
                 bando["deadline"] = deadline
                 changed.append("deadline")

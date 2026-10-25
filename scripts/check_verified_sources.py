@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
-from source_fetch import fetch_source, validate_source_html
+from source_fetch import fetch_source, validate_source_html, fetch_many
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -75,12 +75,19 @@ def main():
     previous = load_json(REPORT, {}).get("checks", {})
     checks = {}
     stamp = datetime.now(ZoneInfo("Europe/Rome")).isoformat(timespec="seconds")
-    for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json"]:
-        for record, evidence in evidence_records(load_json(PUBLIC / filename, {})):
-            key = str(record.get("id", "")) + "|" + evidence["url"]
-            result = observe(evidence["url"], evidence.get("checkedAt"), previous.get(key, {}), stamp)
-            result["bandoId"] = record.get("id")
-            checks[key] = result
+    entries = [entry for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json"]
+               for entry in evidence_records(load_json(PUBLIC / filename, {}))]
+    responses = fetch_many([e['url'] for _, e in entries], fetch=fetch_source)
+    def fetched(url, **kwargs):
+        response = responses[url]
+        if isinstance(response, Exception):
+            raise response
+        return response
+    for record, evidence in entries:
+        key = str(record.get("id", "")) + "|" + evidence["url"]
+        result = observe(evidence["url"], evidence.get("checkedAt"), previous.get(key, {}), stamp, fetch=fetched)
+        result["bandoId"] = record.get("id")
+        checks[key] = result
     payload = {"schemaVersion": 1, "attemptedAt": stamp,
                "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
                "summary": {"observed": len(checks), "needsReview": sum(x["needsReview"] for x in checks.values()),

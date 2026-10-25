@@ -35,6 +35,8 @@ CONTENT_FIELDS = [
     "sourceUrl",
     "sourceStatus",
     "discoveryText",
+    "detailFetchOk",
+    "sourceStale",
 ]
 
 

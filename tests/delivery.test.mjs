@@ -143,3 +143,18 @@ test('newly reviewed calls disappear at their deadlines without a fixed client c
  const body=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?scope=national'),env)).json();
  assert.ok(!body.bandi.some(b=>['CARIPT-BORSE-LAVORO-2026','VEN-SERVIZIO-CIVILE-REGIONALE-2026'].includes(b.id)));
 });
+
+test('four newly documented calls reach a national APS without certifying its requirements',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-25T09:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const records=(await(await request()).json()).bandi;
+ const ids=['CARIPLO-ANITA-RETI-MILLE-2026','CARIPLO-CARCERE-COMUNITA-2026','ER-DISABILITA-UDITIVA-2027-2029','FVG-BENESSERE-OVER65-MONTAGNA-2026'];
+ for(const id of ids){const b=records.find(x=>x.id===id);assert.ok(b,id);assert.equal(b.eligibilityStatus,'da_verificare');assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));assert.ok(b.tracking.verificationEvidence.length>=2);}
+ const hearing=records.find(x=>x.id===ids[2]);
+ assert.equal(hearing.deadlineAt,'2026-12-11T12:00:00+01:00');
+ assert.equal(hearing.maxGrant,null,'annual ceiling must not become a total project ceiling');
+ assert.ok(hearing.hardRequirements.some(r=>r.type==='boolean'&&r.field==='hearingInclusionInStatute'));
+ const anita=records.find(x=>x.id===ids[0]);assert.equal(anita.maxGrant,null);assert.ok(anita.eligibility.some(x=>x.includes('città di Milano esclusa')));
+ t.mock.timers.setTime(new Date('2026-10-29T17:00:01+01:00').getTime());
+ assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===ids[1]),'phase 2 must not keep phase 1 open');
+});

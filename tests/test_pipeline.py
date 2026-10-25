@@ -13,9 +13,49 @@ import check_verified_sources
 import source_tls
 import source_fetch
 import publish_reviewed_bandi
+import discovery_review
+from bs4 import BeautifulSoup
 
 
 class PipelineTests(unittest.TestCase):
+    def test_veneto_detail_title_and_deadline_override_portal_heading(self):
+        soup = BeautifulSoup('''<h1>Portale Bandi Avvisi Concorsi - Regione del Veneto</h1>
+            <div><div class="display-label">Titolo</div><div class="display-field">Contributi per servizi sociali</div></div>
+            <div><div class="display-label">Scadenza:</div><div class="display-field">30/10/2026 14:00</div></div>''', 'html.parser')
+        self.assertEqual(enrich_bandi.extract_title(soup), 'Contributi per servizi sociali')
+        self.assertEqual(enrich_bandi.detail_deadline(soup, 'Precedente scadenza 16/10/2026'), '2026-10-30')
+
+    def test_related_calls_cannot_supply_the_audience_or_deadline(self):
+        soup = BeautifulSoup('''<h1>Portale Bandi</h1><h1>Avviso per servizi al Comune</h1>
+            <p>Note: precedente scadenza 16/10/2026. Scadenza: 31/10/2026.</p>
+            <h2>Avvisi e bandi correlati</h2><p>Enti del terzo settore Scadenza 12/12/2026</p>''', 'html.parser')
+        self.assertEqual(enrich_bandi.extract_title(soup), 'Avviso per servizi al Comune')
+        text = enrich_bandi.page_text(soup)
+        self.assertNotIn('Enti del terzo settore', text)
+        self.assertEqual(enrich_bandi.parse_date(text), '2026-10-31')
+
+    def test_procurement_is_closed_in_triage_without_excluding_a_real_grant(self):
+        procurement = {'title': 'Portale Bandi', 'sourceUrl': 'https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto/',
+                       'discoveryText': 'Profilo Committente Altri Enti ACQUISTO DI COMPUTER Tipo: Avviso pubblico Ente: Comune'}
+        self.assertEqual(discovery_review.disposition(procurement)[0], 'not_a_grant')
+        import triage_bandi
+        self.assertFalse(triage_bandi.triage(procurement)['needsAnalysis'])
+        self.assertEqual(discovery_review.disposition({'title': 'Contributi per acquisto di mezzi ETS'})[0], 'documentary_review')
+
+    def test_unavailable_ets_source_stays_unverified_and_fetch_batch_deduplicates(self):
+        import triage_bandi
+        result = triage_bandi.triage({'title': 'Avviso contributi per enti del terzo settore', 'detailFetchOk': False})
+        self.assertTrue(result['needsAnalysis'])
+        self.assertFalse(result['audience']['specificLegalFormConfirmed'])
+        def fetch(url):
+            if url.endswith('error'):
+                raise ValueError('unavailable')
+            return url
+        with patch.object(source_fetch, 'fetch_source', side_effect=fetch) as reader:
+            results = source_fetch.fetch_many(['https://official.example/ok', 'https://official.example/ok', 'https://official.example/error'])
+        self.assertEqual(reader.call_count, 2)
+        self.assertIsInstance(results['https://official.example/error'], ValueError)
+
     def test_documented_review_is_published_and_removed_from_pending_queue(self):
         decisions = json.loads(publish_reviewed_bandi.REVIEWS.read_text())['reviews']
         record = decisions[0]['record']
@@ -39,6 +79,7 @@ class PipelineTests(unittest.TestCase):
             report = Path(directory) / 'report.json'
             bando = {'id': 'known-ets', 'title': 'Contributi per assistenza',
                      'sourceUrl': 'https://official.example/bando',
+                     'discoveryText': 'Old related notice unrelated data ' * 100,
                      'tracking': {'needsAnalysis': False, 'specificLegalFormConfirmed': True}}
             catalog.write_text(json.dumps({'bandi': [bando]}))
             queue.write_text(json.dumps({'items': []}))
@@ -46,6 +87,7 @@ class PipelineTests(unittest.TestCase):
             with patch.object(enrich_bandi, 'CATALOG', catalog), patch.object(enrich_bandi, 'AI_QUEUE', queue), patch.object(enrich_bandi, 'REPORT', report), patch.object(enrich_bandi, 'fetch_source', return_value=response):
                 enrich_bandi.main()
             enriched = json.loads(catalog.read_text())['bandi'][0]
+            self.assertNotIn('Old related notice', enriched['discoveryText'])
             self.assertTrue(enriched['detailFetchOk'])
             self.assertFalse(enriched['detailVerified'])
             self.assertNotIn('officialSourceVerified', enriched['tracking'])

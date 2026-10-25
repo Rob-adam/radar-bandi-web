@@ -82,3 +82,19 @@ def public_listing_fallback(url, method, kwargs):
         raise ValueError("Fonte ufficiale del recupero non confermata")
     return response
 
+
+
+def fetch_many(urls, fetch=None):
+    """Read each URL once, at most 8 in flight and 3 per official host."""
+    from concurrent.futures import ThreadPoolExecutor
+    from threading import BoundedSemaphore
+    urls = list(dict.fromkeys(urls))
+    gates = {urlparse(url).hostname: BoundedSemaphore(3) for url in urls}
+    def read(url):
+        with gates[urlparse(url).hostname]:
+            try:
+                return url, (fetch or fetch_source)(url)
+            except Exception as exc:
+                return url, exc
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        return dict(executor.map(read, urls))
