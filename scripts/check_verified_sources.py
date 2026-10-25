@@ -75,7 +75,7 @@ def main():
     previous = load_json(REPORT, {}).get("checks", {})
     checks = {}
     stamp = datetime.now(ZoneInfo("Europe/Rome")).isoformat(timespec="seconds")
-    entries = [entry for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json"]
+    entries = [entry for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json", "radar_bandi_programmati.json"]
                for entry in evidence_records(load_json(PUBLIC / filename, {}))]
     responses = fetch_many([e['url'] for _, e in entries], fetch=fetch_source)
     def fetched(url, **kwargs):
