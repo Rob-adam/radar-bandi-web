@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T17:36:59+01:00",
+  "generatedAt": "2026-10-25T23:04:03+01:00",
   "attempted": 52,
-  "enriched": 43,
+  "enriched": 49,
   "unchanged": 0,
-  "failed": 9,
+  "failed": 3,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -50,8 +50,11 @@
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763"
     },
     {
@@ -97,14 +100,21 @@
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686"
     },
     {
@@ -142,14 +152,21 @@
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043"
     },
     {
@@ -194,8 +211,11 @@
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784"
     },
     {
@@ -381,13 +401,13 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x746f0042b2c0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e7b343ec710>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x746f0042a7b0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e7b343eff20>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
     },
     {
@@ -401,7 +421,7 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x746f004280e0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e7b343ef7a0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
     },
     {
