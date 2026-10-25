@@ -1,13 +1,12 @@
 {
   "schemaVersion": 1,
-  "total": 143,
+  "total": 141,
   "counts": {
     "not_a_call": 3,
-    "documentary_review": 39,
+    "documentary_review": 40,
     "not_a_grant": 83,
     "source_unavailable": 9,
-    "not_a_new_grant": 7,
-    "published": 2
+    "not_a_new_grant": 6
   },
   "note": "Esiti di raccolta e triage, distinti dalla verifica documentale e dalla ammissibilità del cliente. Una lettura fallita non aggiorna la data dell’ultima lettura riuscita.",
   "items": [
@@ -18,8 +17,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-B502E34F2C01",
@@ -28,8 +27,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-33CA9E2F2A0C",
@@ -38,8 +37,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-D9A4C0117377",
@@ -48,8 +47,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-6C0CDC708287",
@@ -58,8 +57,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-2F3ABA8F561A",
@@ -67,9 +66,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "RLW12025048763",
@@ -78,7 +77,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -88,8 +87,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-EBD47825757E",
@@ -98,8 +97,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-E752D7B455C1",
@@ -108,8 +107,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-C18A86969037",
@@ -118,8 +117,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-976C512EF6B3",
@@ -128,8 +127,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "RLF12026057243",
@@ -138,7 +137,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -148,7 +147,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -157,9 +156,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025/",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:09+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:09+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1C97A4A863C8",
@@ -168,8 +167,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:13+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-5E8EB6C3611F",
@@ -178,8 +177,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-549346EFBAA7",
@@ -188,8 +187,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-E6AB8FC403C4",
@@ -198,8 +197,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:27+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:27+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-FCD08A990326",
@@ -208,8 +207,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-F318DC0E8AD2",
@@ -218,8 +217,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "RLO12026056363",
@@ -228,7 +227,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -238,7 +237,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -248,8 +247,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-817347F304D1",
@@ -258,18 +257,18 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:14+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-395AB58C2BE6",
       "title": "Concorso - \"Uso consapevole della rete internet e dei social media - 2^a edizione\" A.S.F. 2026-2027",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
-      "status": "not_a_new_grant",
-      "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:16+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:16+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "RLD12025050784",
@@ -278,7 +277,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:16+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-24T13:16:09+02:00"
     },
     {
@@ -287,9 +286,9 @@
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:20+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:20+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-5ED9D6FEF7FE",
@@ -297,9 +296,9 @@
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:11+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:11+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-79F1B7FC4146",
@@ -307,9 +306,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:19+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-ECED3B36F0A2",
@@ -318,8 +317,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:19+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-0ED70F7D483F",
@@ -328,8 +327,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:20+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:20+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-866D64FA7F3D",
@@ -337,9 +336,9 @@
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:20+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:20+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-365CE1EF1564",
@@ -348,8 +347,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:21+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:21+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-EFE04F32E96F",
@@ -357,9 +356,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-55F3BB7379C6",
@@ -367,9 +366,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-C263FF80C21A",
@@ -377,9 +376,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:22+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:22+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-43963A092E97",
@@ -387,9 +386,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-003FB6CED6FE",
@@ -397,9 +396,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-D0E76013B7DD",
@@ -407,9 +406,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-9291B7E7BAB7",
@@ -417,9 +416,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:27+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:27+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-B7A429FD604E",
@@ -427,9 +426,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:29+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:29+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-9DDD0D31B6E3",
@@ -437,9 +436,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:29+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:29+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1F2761680555",
@@ -447,9 +446,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-440EE54B1DD1",
@@ -457,9 +456,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-4DD18A56521F",
@@ -467,9 +466,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-C2777BCE2D94",
@@ -477,9 +476,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-A41FA93A132B",
@@ -487,9 +486,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-2CB3076C8C5A",
@@ -497,9 +496,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-D292FEBBAE23",
@@ -507,9 +506,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-551DF5C9D7F0",
@@ -517,9 +516,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-35EFD5DB9D99",
@@ -527,9 +526,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:37+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:37+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-87EC46A26993",
@@ -538,8 +537,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-E22005E8DE9F",
@@ -547,9 +546,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-EEE38120D90C",
@@ -558,8 +557,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:38+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-4D19CF6A3B12",
@@ -568,8 +567,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:39+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:39+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-C98C29EDAA38",
@@ -577,9 +576,9 @@
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:42+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:42+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-77C619EEDA39",
@@ -588,8 +587,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:42+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:42+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-55FDB62358D8",
@@ -597,9 +596,9 @@
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
       "status": "not_a_new_grant",
       "reason": "Concorso, concessione, graduatoria o saldo: non una nuova candidatura a contributo ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:45+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:45+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1E815F55617B",
@@ -608,8 +607,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:45+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:45+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-A15AD7611A44",
@@ -618,8 +617,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:20+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:20+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-802DE2802F3C",
@@ -628,8 +627,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:46+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:46+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-C0E39D4A4358",
@@ -638,8 +637,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:47+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:47+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-5D9EB4C71740",
@@ -648,8 +647,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:48+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:48+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-5F4C03DFBDDD",
@@ -658,8 +657,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:48+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:48+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-D37749662A16",
@@ -668,8 +667,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-DD3AA18AD8A1",
@@ -677,9 +676,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-664CE40E2173",
@@ -687,9 +686,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:51+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-074ED888B68F",
@@ -697,9 +696,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:52+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:52+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-15DC952541D2",
@@ -707,9 +706,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-3F73FF83695B",
@@ -717,9 +716,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1DE4750F03E7",
@@ -727,9 +726,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:53:58+01:00",
-      "detailFetchedAt": "2026-10-25T07:53:58+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-2DB81C48140B",
@@ -737,9 +736,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-3736CD8ECA6E",
@@ -747,9 +746,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-45306BA0F758",
@@ -757,9 +756,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:04+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:04+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-23AD73A20B84",
@@ -767,9 +766,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:11+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:11+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-E7895B6DD8C4",
@@ -777,9 +776,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:14+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:14+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-7BBA2B0BAD4F",
@@ -787,9 +786,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:19+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-04B494E15996",
@@ -797,9 +796,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:20+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:20+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-4F7CB9D27F03",
@@ -807,9 +806,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:21+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:21+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-4A0FBC6B80D4",
@@ -817,9 +816,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-67FF131DFAE6",
@@ -827,9 +826,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-910C9C856025",
@@ -837,9 +836,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1DB61594A8A5",
@@ -847,9 +846,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-DA034849970D",
@@ -857,9 +856,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-E8893807DC39",
@@ -867,9 +866,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:32+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:32+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-325B5E9ECC1C",
@@ -877,9 +876,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-CCDD261014FE",
@@ -887,9 +886,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-A0C23C190B72",
@@ -897,9 +896,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:38+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:38+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-98C3A27FDD14",
@@ -907,9 +906,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-812AFFD77B13",
@@ -917,9 +916,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-57152FABC870",
@@ -927,9 +926,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:45+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:45+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-53E29E817116",
@@ -937,9 +936,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-47D26972F180",
@@ -947,9 +946,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-7B744197F6B6",
@@ -957,9 +956,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:51+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:51+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-24D0B8DBFFED",
@@ -967,9 +966,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-3030C8219BAE",
@@ -977,9 +976,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-B8907C804CF0",
@@ -987,9 +986,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:54:56+01:00",
-      "detailFetchedAt": "2026-10-25T07:54:56+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-B65CDE12B00A",
@@ -997,9 +996,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:14+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:14+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-66A3072CBC16",
@@ -1007,9 +1006,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:22+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:22+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-971BB722CDEE",
@@ -1017,9 +1016,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T08:01:22+01:00",
-      "detailFetchedAt": "2026-10-25T08:01:22+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-90F2DDF9AAA7",
@@ -1027,9 +1026,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-4CC9785B8CD8",
@@ -1037,9 +1036,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-846570D0D874",
@@ -1047,9 +1046,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:06+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:06+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-DB9B3C3F2F7A",
@@ -1057,9 +1056,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-CB10DB6D39F2",
@@ -1067,9 +1066,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-404F4A793F30",
@@ -1077,9 +1076,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:13+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-A289E7859EEA",
@@ -1087,9 +1086,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1D7BC9854EC4",
@@ -1097,9 +1096,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-D1F1226B094A",
@@ -1107,9 +1106,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:19+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:19+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-DFE32FF9EE6B",
@@ -1117,9 +1116,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1E2D36A1B7ED",
@@ -1127,9 +1126,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-040BC85BA288",
@@ -1137,9 +1136,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:26+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:26+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-5C06D008BBA8",
@@ -1147,9 +1146,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-A5610E6BE619",
@@ -1157,9 +1156,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-6C60FC3A8FB4",
@@ -1167,9 +1166,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:31+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:31+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-2EAB3DB3471C",
@@ -1177,9 +1176,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Formazione o dotazione interna alla Polizia locale, non finanziamento di progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-0DA3C9486A9A",
@@ -1187,9 +1186,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-A250B0D0AA5B",
@@ -1197,9 +1196,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:34+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:34+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-ACE51D6E36B9",
@@ -1207,9 +1206,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-1A6A97A0D6B5",
@@ -1217,9 +1216,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-5EDF66C6B34E",
@@ -1227,9 +1226,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:41+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:41+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-CB8EB538F667",
@@ -1237,9 +1236,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-969C73C47147",
@@ -1247,9 +1246,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-4F401C7C0668",
@@ -1257,9 +1256,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:48+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:48+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-C52206817FBE",
@@ -1267,9 +1266,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco/",
       "status": "not_a_grant",
       "reason": "Servizio, gara, elenco di fornitori o acquisto interno; non un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-8060D47AFFFA",
@@ -1278,8 +1277,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-8F97D7B298AC",
@@ -1288,8 +1287,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:54+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:54+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-7ACD582ED719",
@@ -1298,8 +1297,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:55:58+01:00",
-      "detailFetchedAt": "2026-10-25T07:55:58+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-CCEC3CB25F4A",
@@ -1308,8 +1307,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-2DD9680DDFE9",
@@ -1318,8 +1317,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-BC435CA980FD",
@@ -1327,9 +1326,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:01+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:01+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-F3DE3DA1DB17",
@@ -1337,9 +1336,9 @@
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53/",
       "status": "not_a_grant",
       "reason": "Acquisto, fornitura o affidamento di servizio: non è un contributo per progetti ETS.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:02+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:02+01:00"
+      "detailFetchOk": null,
+      "detailFetchAttemptedAt": null,
+      "detailFetchedAt": null
     },
     {
       "id": "REG-AUTO-470D75453743",
@@ -1348,8 +1347,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:02+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:02+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-5CB7CC82AFC2",
@@ -1358,28 +1357,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:03+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:03+01:00"
-    },
-    {
-      "id": "FC-AUTO-ED155B6967E0",
-      "title": "Anita Reti Mille",
-      "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
-      "status": "published",
-      "reason": "Revisione documentale pubblicata; requisiti del cliente ancora da verificare.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
-    },
-    {
-      "id": "FC-AUTO-2374B2828A88",
-      "title": "Carcere e comunità in rete",
-      "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
-      "status": "published",
-      "reason": "Revisione documentale pubblicata; requisiti del cliente ancora da verificare.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "REG-AUTO-F9B793AFCAD3",
@@ -1388,8 +1367,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:07+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:07+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "PIE-AUTO-656BBB7A0C32",
@@ -1398,7 +1377,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:11+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": "2026-10-23T13:45:24+02:00"
     },
     {
@@ -1408,7 +1387,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:12+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": null
     },
     {
@@ -1418,8 +1397,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:13+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     },
     {
       "id": "PIE-AUTO-519355BE80BE",
@@ -1428,7 +1407,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
       "detailFetchedAt": null
     },
     {
@@ -1438,8 +1417,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-10-25T07:56:13+01:00",
-      "detailFetchedAt": "2026-10-25T07:56:13+01:00"
+      "detailFetchAttemptedAt": "2026-10-25T08:27:28+01:00",
+      "detailFetchedAt": "2026-10-25T08:27:28+01:00"
     }
   ]
 }
