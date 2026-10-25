@@ -13,3 +13,17 @@ test('planned EU health funding remains outside candidate calls and cannot imply
  assert.equal(renderPlannedOpportunities(records,{sector:'sport'}),'');
  assert.equal(renderPlannedOpportunities([{...b,status:'aperto'}],{areas:'salute'}),'');
 });
+
+test('Cattolica future opening displays confirmed dates without implying eligibility or an open counter',()=>{
+ const b=records.find(x=>x.id==='CATTOLICA-UNA-MANO-2026');
+ assert.equal(b.status,'programmato');
+ assert.equal(b.opening,'2026-11-16'); assert.equal(b.deadline,'2027-02-16');
+ assert.equal(b.maxGrant,20000); assert.equal(b.budget,500000);
+ assert.equal(b.eligibilityStatus,'non_verificata');
+ const html=renderPlannedOpportunities([b],{areas:'salute'});
+ assert.match(html,/PROSSIMA APERTURA · date da bando ufficiale/);
+ assert.doesNotMatch(html,/apertura e scadenza non verificate/);
+ assert.match(html,/non entrano nel conteggio/);
+ assert.match(html,/Ammissibilità dell’ente non verificata/);
+ assert.match(html,/Leggi il bando ufficiale/);
+});
