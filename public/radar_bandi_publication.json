@@ -1,11 +1,15 @@
 {
   "schemaVersion": 1,
-  "reviewedPublished": 2,
+  "reviewedPublished": 6,
   "publishedIds": [
     "CARIPT-BORSE-LAVORO-2026",
-    "VEN-SERVIZIO-CIVILE-REGIONALE-2026"
+    "VEN-SERVIZIO-CIVILE-REGIONALE-2026",
+    "CARIPLO-ANITA-RETI-MILLE-2026",
+    "CARIPLO-CARCERE-COMUNITA-2026",
+    "ER-DISABILITA-UDITIVA-2027-2029",
+    "FVG-BENESSERE-OVER65-MONTAGNA-2026"
   ],
   "discovered": 143,
-  "pendingReview": 134,
+  "pendingReview": 46,
   "note": "La coda contiene anche segnalazioni da classificare, non solo bandi ammissibili. Nessuna AI è stata eseguita da questo passaggio."
 }

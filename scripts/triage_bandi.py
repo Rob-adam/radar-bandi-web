@@ -1,5 +1,6 @@
 import json
 import re
+from discovery_review import disposition
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -11,7 +12,7 @@ CATALOG = PUBLIC / "radar_bandi_auto.json"
 STATE = DATA / "radar_bandi_state.json"
 AI_QUEUE = DATA / "radar_bandi_ai_queue.json"
 ITALY_TZ = ZoneInfo("Europe/Rome")
-RULE_VERSION = 3
+RULE_VERSION = 4
 
 ETS_SIGNALS = (
     "terzo settore", "enti del terzo settore", "ente del terzo settore",
@@ -133,6 +134,9 @@ def specialist_audience(text):
 
 
 def audience_classification(text):
+    specialist = specialist_audience(text)
+    if specialist:
+        return specialist
     ets_hits = phrase_hits(text, ETS_SIGNALS)
     nonprofit_hits = phrase_hits(text, NONPROFIT_SIGNALS)
 
@@ -167,6 +171,17 @@ def audience_classification(text):
 
 
 def triage(snapshot):
+    outcome, note = disposition(snapshot)
+    if outcome in {'not_a_call', 'not_a_grant', 'not_a_new_grant'}:
+        return {'status': 'rules-excluded-ets', 'needsAnalysis': False, 'etsRelevant': False,
+                'excludedForEts': True, 'reasons': [], 'evidence': [note],
+                'audience': {'scope': outcome, 'specificLegalFormConfirmed': False, 'known': True, 'etsRelevant': False},
+                'ruleVersion': RULE_VERSION}
+    if outcome == 'source_unavailable':
+        return {'status': 'source-unavailable', 'needsAnalysis': True, 'etsRelevant': None,
+                'excludedForEts': False, 'reasons': ['fonte_non_accessibile'], 'evidence': [note],
+                'audience': {'scope': 'unknown', 'specificLegalFormConfirmed': False, 'known': False, 'etsRelevant': None},
+                'ruleVersion': RULE_VERSION}
     text = normalized_text(snapshot)
     reasons = []
     evidence = []

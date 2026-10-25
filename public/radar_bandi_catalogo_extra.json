@@ -1,5 +1,5 @@
 {
-  "updatedAt": "25/10/2026 07:37",
+  "updatedAt": "25/10/2026 08:03",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -1660,7 +1660,440 @@
         ],
         "publicationReviewId": "review-20261025-VEN-SERVIZIO-CIVILE-REGIONALE-2026"
       }
+    },
+    {
+      "id": "CARIPLO-ANITA-RETI-MILLE-2026",
+      "title": "Anita Reti Mille — reti per bambini 0–3 anni e famiglie vulnerabili",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
+      "deadline": "2027-02-18",
+      "fund": 5000000,
+      "maxGrant": null,
+      "aid": "Cofinanziamento minimo 10%; massimali diversi per ASST, da 100.000 a 400.000 €. Ovest Milanese: 100.000 €. Non è un massimale unico disponibile in ogni territorio.",
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbano-cusio-ossola"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "non profit"
+      ],
+      "sectors": [
+        "sociale",
+        "salute"
+      ],
+      "beneficiaries": [
+        "bambini",
+        "famiglie vulnerabili"
+      ],
+      "activities": [
+        "orientamento",
+        "assistenza",
+        "prevenzione",
+        "sostegno alla genitorialità"
+      ],
+      "purposes": [
+        "inclusione sociale",
+        "benessere"
+      ],
+      "tags": [
+        "lombardia",
+        "novara",
+        "verbano-cusio-ossola",
+        "bambini",
+        "famiglie vulnerabili"
+      ],
+      "eligibility": [
+        "Capofila privato non profit ammissibile Cariplo, con esperienza in prima infanzia, sostegno familiare o vulnerabilità; partner pubblici/non profit ammissibili.",
+        "Progetto nel bacino di una o più ASST limitrofe della Lombardia oppure nelle province di Novara/VCO; città di Milano esclusa. L’operatività nazionale non prova un progetto locale.",
+        "Rete territoriale con ASST o altro ente qualificato del percorso nascita; strategia integrata per bambini 0–3 anni vulnerabili, non servizi isolati.",
+        "Durata 24 mesi, avvio dopo la domanda, termine entro 30/06/2029; cofinanziamento almeno 10%; accordi di rete/partenariato, format, budget e cronoprogramma.",
+        "Niente acquisto/ristrutturazione immobili; attrezzature e arredi entro il 10% dei costi. Presentazione entro le 17:00; fino alle 17:30 solo completamento di richieste già in caricamento.",
+        "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Capofila privato non profit ammissibile Cariplo, con esperienza in prima infanzia, sostegno familiare o vulnerabilità; partner pubblici/non profit ammissibili."
+        },
+        {
+          "type": "document",
+          "label": "Progetto nel bacino di una o più ASST limitrofe della Lombardia oppure nelle province di Novara/VCO; città di Milano esclusa. L’operatività nazionale non prova un progetto locale."
+        },
+        {
+          "type": "document",
+          "label": "Rete territoriale con ASST o altro ente qualificato del percorso nascita; strategia integrata per bambini 0–3 anni vulnerabili, non servizi isolati."
+        },
+        {
+          "type": "document",
+          "label": "Durata 24 mesi, avvio dopo la domanda, termine entro 30/06/2029; cofinanziamento almeno 10%; accordi di rete/partenariato, format, budget e cronoprogramma."
+        },
+        {
+          "type": "document",
+          "label": "Niente acquisto/ristrutturazione immobili; attrezzature e arredi entro il 10% dei costi. Presentazione entro le 17:00; fino alle 17:30 solo completamento di richieste già in caricamento."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Documentare i requisiti dell’ente, il ruolo nella rete, il progetto e la copertura economica. La pertinenza tematica non certifica l’ammissione.",
+          "status": "unknown"
+        }
+      ],
+      "deadlineAt": "2027-02-18T17:00:00+01:00",
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-25",
+        "verificationNote": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/09/Bando-Anita-RetiMille.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/2026-01-25-Criteri-generali_def.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          }
+        ],
+        "publicationReviewId": "review-20261025-CARIPLO-ANITA-RETI-MILLE-2026"
+      }
+    },
+    {
+      "id": "CARIPLO-CARCERE-COMUNITA-2026",
+      "title": "Carcere e comunità in rete — candidatura delle reti, fase 1",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
+      "deadline": "2026-10-29",
+      "fund": 12000000,
+      "maxGrant": null,
+      "aid": "Contributo minimo 300.000 €; cofinanziamento almeno 30%. Risorse ripartite per territorio: verificare il plafond provinciale. La prima fase seleziona reti, non assegna direttamente il finanziamento.",
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbano-cusio-ossola"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "non profit"
+      ],
+      "sectors": [
+        "sociale",
+        "salute"
+      ],
+      "beneficiaries": [
+        "persone in esecuzione penale",
+        "persone fragili"
+      ],
+      "activities": [
+        "supporto psicologico",
+        "reinserimento sociale",
+        "inclusione lavorativa"
+      ],
+      "purposes": [
+        "inclusione sociale",
+        "benessere"
+      ],
+      "tags": [
+        "lombardia",
+        "novara",
+        "verbano-cusio-ossola",
+        "persone in esecuzione penale",
+        "persone fragili"
+      ],
+      "eligibility": [
+        "Rete di almeno 3 enti ammissibili Cariplo, di cui almeno uno privato non profit; attività in Lombardia, Novara o VCO. Una sola candidatura da capofila.",
+        "Almeno un componente della rete con 3 anni di esperienza documentata in esecuzione penale; rapporti documentabili con carcere/UEPE, oppure manifestazione d’interesse se non formalizzati.",
+        "Destinatari in esecuzione penale; ex detenuti entro un anno dal fine pena. Esclusi servizi sanitari istituzionali ordinari, infrastrutture e interventi dentro istituti penali minorili.",
+        "Fase 1 entro 29/10/2026 ore 17:00; fino alle 17:30 solo completamenti già in compilazione. Fase 2, riservata alle reti selezionate dopo percorso obbligatorio, entro 08/04/2027 ore 17:00; progetto massimo 36 mesi.",
+        "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Rete di almeno 3 enti ammissibili Cariplo, di cui almeno uno privato non profit; attività in Lombardia, Novara o VCO. Una sola candidatura da capofila."
+        },
+        {
+          "type": "document",
+          "label": "Almeno un componente della rete con 3 anni di esperienza documentata in esecuzione penale; rapporti documentabili con carcere/UEPE, oppure manifestazione d’interesse se non formalizzati."
+        },
+        {
+          "type": "document",
+          "label": "Destinatari in esecuzione penale; ex detenuti entro un anno dal fine pena. Esclusi servizi sanitari istituzionali ordinari, infrastrutture e interventi dentro istituti penali minorili."
+        },
+        {
+          "type": "document",
+          "label": "Fase 1 entro 29/10/2026 ore 17:00; fino alle 17:30 solo completamenti già in compilazione. Fase 2, riservata alle reti selezionate dopo percorso obbligatorio, entro 08/04/2027 ore 17:00; progetto massimo 36 mesi."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Documentare i requisiti dell’ente, il ruolo nella rete, il progetto e la copertura economica. La pertinenza tematica non certifica l’ammissione.",
+          "status": "unknown"
+        }
+      ],
+      "deadlineAt": "2026-10-29T17:00:00+01:00",
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-25",
+        "verificationNote": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/09/260923-Bando-Carcere-e-comunita-in-rete.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/09/FAQ-Carcere-e-comunita-in-rete.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/2026-01-25-Criteri-generali_def.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          }
+        ],
+        "publicationReviewId": "review-20261025-CARIPLO-CARCERE-COMUNITA-2026"
+      }
+    },
+    {
+      "id": "ER-DISABILITA-UDITIVA-2027-2029",
+      "title": "Disabilità uditiva — inclusione delle persone sorde e sordocieche 2027–2029",
+      "source": "Regione Emilia-Romagna",
+      "sourceUrl": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029",
+      "deadline": "2026-12-11",
+      "fund": 1200000,
+      "maxGrant": null,
+      "aid": "Fino al 90% dei costi; massimo 400.000 € per ciascuna annualità, non un massimale unico triennale. Costo minimo 20.000 € per anno di attività.",
+      "territories": [
+        "emilia-romagna"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "non profit"
+      ],
+      "sectors": [
+        "sociale",
+        "salute"
+      ],
+      "beneficiaries": [
+        "persone con disabilità uditiva",
+        "persone sorde",
+        "persone sordocieche"
+      ],
+      "activities": [
+        "inclusione sociale",
+        "accessibilità",
+        "assistenza sociosanitaria"
+      ],
+      "purposes": [
+        "inclusione sociale",
+        "benessere"
+      ],
+      "tags": [
+        "emilia-romagna",
+        "persone con disabilità uditiva",
+        "persone sorde",
+        "persone sordocieche"
+      ],
+      "eligibility": [
+        "Sede legale o operativa in emilia-romagna",
+        "RUNTS sezioni A (ODV), B (APS) oppure G (altri ETS) già alla presentazione.",
+        "Lo statuto deve prevedere espressamente la promozione dell’inclusione delle persone sorde, sordocieche e con disabilità uditiva; la generica tutela della salute non basta.",
+        "Attività in almeno 3 province emiliano-romagnole; durata minima 12 mesi nel triennio 2027–2029; raccordo coi servizi territoriali e apporto prevalente di risorse proprie.",
+        "Un progetto da capofila e massimo uno da partner per ente; scheda regionale e piano economico obbligatori, PEC ricevuta entro 11/12/2026 ore 12:00; niente doppio finanziamento.",
+        "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando."
+      ],
+      "hardRequirements": [
+        {
+          "type": "seat",
+          "which": "legal_or_operational",
+          "places": [
+            "emilia-romagna"
+          ],
+          "label": "Sede legale o operativa in emilia-romagna"
+        },
+        {
+          "type": "document",
+          "label": "RUNTS sezioni A (ODV), B (APS) oppure G (altri ETS) già alla presentazione."
+        },
+        {
+          "type": "boolean",
+          "field": "hearingInclusionInStatute",
+          "label": "Lo statuto deve prevedere espressamente la promozione dell’inclusione delle persone sorde, sordocieche e con disabilità uditiva; la generica tutela della salute non basta."
+        },
+        {
+          "type": "document",
+          "label": "Attività in almeno 3 province emiliano-romagnole; durata minima 12 mesi nel triennio 2027–2029; raccordo coi servizi territoriali e apporto prevalente di risorse proprie."
+        },
+        {
+          "type": "document",
+          "label": "Un progetto da capofila e massimo uno da partner per ente; scheda regionale e piano economico obbligatori, PEC ricevuta entro 11/12/2026 ore 12:00; niente doppio finanziamento."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Documentare i requisiti dell’ente, il ruolo nella rete, il progetto e la copertura economica. La pertinenza tematica non certifica l’ammissione.",
+          "status": "unknown"
+        }
+      ],
+      "deadlineAt": "2026-12-11T12:00:00+01:00",
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-25",
+        "verificationNote": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+        "verificationEvidence": [
+          {
+            "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029/documenti/il-testo-del-bando.pdf/@@download/file",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          }
+        ],
+        "publicationReviewId": "review-20261025-ER-DISABILITA-UDITIVA-2027-2029"
+      }
+    },
+    {
+      "id": "FVG-BENESSERE-OVER65-MONTAGNA-2026",
+      "title": "Benessere over 65 — attività in acqua e trasporto nei Comuni montani",
+      "source": "Regione Friuli Venezia Giulia",
+      "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
+      "deadline": "2026-11-05",
+      "fund": 140000,
+      "maxGrant": 35000,
+      "aid": "80% della spesa, massimo 35.000 € per ente; anticipo 60%. Sportello in ordine cronologico fino a esaurimento risorse, entro 05/11/2026.",
+      "territories": [
+        "friuli-venezia-giulia"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "non profit"
+      ],
+      "sectors": [
+        "sociale",
+        "salute"
+      ],
+      "beneficiaries": [
+        "anziani",
+        "persone over 65"
+      ],
+      "activities": [
+        "attività motoria",
+        "trasporto sociale",
+        "socializzazione"
+      ],
+      "purposes": [
+        "inclusione sociale",
+        "benessere"
+      ],
+      "tags": [
+        "friuli-venezia-giulia",
+        "anziani",
+        "persone over 65"
+      ],
+      "eligibility": [
+        "Sede legale o operativa in friuli-venezia-giulia",
+        "ETS iscritto RUNTS alla domanda; una sola domanda per un unico progetto, invio PEC con modulo firmato.",
+        "Destinatari over 65 residenti nei Comuni montani del FVG. La sola sede di Muggia non dimostra questo requisito del progetto.",
+        "Obbligatori: attività motoria in acqua con personale qualificato, trasporto dedicato, socializzazione, coinvolgimento locale, monitoraggio e tariffe scontate documentate.",
+        "Durata massima 12 mesi; rispetto delle spese ammissibili, del divieto di cumulo e della quota propria; non finanziati acquisto di immobili o veicoli iscritti in pubblici registri.",
+        "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando."
+      ],
+      "hardRequirements": [
+        {
+          "type": "seat",
+          "which": "legal_or_operational",
+          "places": [
+            "friuli-venezia-giulia"
+          ],
+          "label": "Sede legale o operativa in friuli-venezia-giulia"
+        },
+        {
+          "type": "document",
+          "label": "ETS iscritto RUNTS alla domanda; una sola domanda per un unico progetto, invio PEC con modulo firmato."
+        },
+        {
+          "type": "document",
+          "label": "Destinatari over 65 residenti nei Comuni montani del FVG. La sola sede di Muggia non dimostra questo requisito del progetto."
+        },
+        {
+          "type": "document",
+          "label": "Obbligatori: attività motoria in acqua con personale qualificato, trasporto dedicato, socializzazione, coinvolgimento locale, monitoraggio e tariffe scontate documentate."
+        },
+        {
+          "type": "document",
+          "label": "Durata massima 12 mesi; rispetto delle spese ammissibili, del divieto di cumulo e della quota propria; non finanziati acquisto di immobili o veicoli iscritti in pubblici registri."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Documentare i requisiti dell’ente, il ruolo nella rete, il progetto e la copertura economica. La pertinenza tematica non certifica l’ammissione.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-10-25",
+        "verificationNote": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          },
+          {
+            "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261006_Bando_progetto_Benessere_persone_over_65.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          }
+        ],
+        "publicationReviewId": "review-20261025-FVG-BENESSERE-OVER65-MONTAGNA-2026"
+      }
     }
   ],
-  "publishedAt": "2026-10-25T07:37:14+01:00"
+  "publishedAt": "2026-10-25T08:03:27+01:00"
 }

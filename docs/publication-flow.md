@@ -36,3 +36,37 @@ promotore, distinta dalla cooperazione. Per il secondo la domanda è del
 lavoratore residente a Pistoia e l'ETS è partner datore di lavoro, con sede
 legale oppure operativa in provincia. Nessuna di queste verifiche prova i
 requisiti di RESPIRIAMO INSIEME.
+
+
+## Correzioni e verifica del 25 ottobre 2026
+
+- Il dettaglio Veneto viene letto dai campi Titolo e Scadenza, senza confondere
+  l’intestazione del portale con il titolo. In Basilicata si ignora il titolo
+  generico e si escludono dal testo gli avvisi correlati. Le date precedenti
+  esplicitamente indicate non sostituiscono la scadenza corrente.
+- Un testo corretto più corto sostituisce comunque il precedente: lunghezza
+  maggiore non equivale a qualità della prova.
+- Acquisti, servizi interni, gare, concorsi e collegamenti di navigazione
+  riconoscibili con regole strette non riempiono la coda delle revisioni ETS.
+  I contributi per acquisti di ETS restano candidati da verificare.
+- Una fonte indisponibile conserva l’ultima lettura riuscita e non può diventare
+  una verifica positiva dei destinatari. La disponibilità non certifica gli
+  allegati né l’ammissibilità del cliente.
+- Le letture hanno al massimo 8 richieste contemporanee e 3 per host, con URL
+  deduplicate e tentativi limitati. Un errore resta associato alla sua fonte.
+- Il report `public/radar_bandi_discovery_audit.json` dà un esito a ogni
+  segnalazione, distinguendo gli scarti, la revisione documentale ancora
+  necessaria e le fonti indisponibili. Questi esiti non sono nuovi bandi.
+- Aggiunte quattro revisioni documentate: Anita Reti Mille, Carcere e comunità
+  in rete (scadenza della fase 1), disabilità uditiva Emilia-Romagna 2027–2029
+  e benessere over 65 nei Comuni montani del FVG. I requisiti dell’ente e del
+  progetto rimangono espliciti e da documentare. Nessuna data di costituzione
+  o soglia di entrate è inventata; massimali territoriali e annuali non sono
+  trasformati in un massimo unico per tutti.
+
+Le sei nuove revisioni sono sottoposte anche al controllo periodico delle prove
+ufficiali. Le altre segnalazioni non vengono pubblicate automaticamente come
+bandi verificati: la raccolta automatica funziona, la revisione dei regolamenti
+richiede evidenze effettive. Non esiste in questa installazione un servizio AI
+configurato che possa dichiarare completata quella revisione al posto di un
+controllo documentale.

@@ -1,5 +1,7 @@
 """Publish documented editorial decisions; discovery alone never certifies a call."""
 import copy
+from collections import Counter
+from discovery_review import disposition, observed_title
 import json
 from datetime import date, datetime
 from pathlib import Path
@@ -86,6 +88,20 @@ def main():
     write(CATALOG, catalog)
     write(QUEUE, queue)
     write(REPORT, report)
+    published_urls = {b['sourceUrl'].rstrip('/') for b in catalog.get('bandi', []) if b.get('tracking', {}).get('publicationReviewId')}
+    items = []
+    for b in load(AUTO).get('bandi', []):
+        status, reason = disposition(b)
+        if b.get('sourceUrl', '').rstrip('/') in published_urls:
+            status, reason = 'published', 'Revisione documentale pubblicata; requisiti del cliente ancora da verificare.'
+        items.append({'id': b.get('id'), 'title': observed_title(b), 'sourceUrl': b.get('sourceUrl'),
+                      'status': status, 'reason': reason, 'detailFetchOk': b.get('detailFetchOk'),
+                      'detailFetchAttemptedAt': b.get('detailFetchAttemptedAt'),
+                      'detailFetchedAt': b.get('detailFetchedAt')})
+    write(ROOT / 'public/radar_bandi_discovery_audit.json', {
+        'schemaVersion': 1, 'total': len(items), 'counts': dict(Counter(x['status'] for x in items)),
+        'note': 'Esiti di raccolta e triage, distinti dalla verifica documentale e dalla ammissibilità del cliente. Una lettura fallita non aggiorna la data dell’ultima lettura riuscita.',
+        'items': items})
     print(json.dumps(report, ensure_ascii=False))
 
 

@@ -17,6 +17,7 @@ on:
       - 'scripts/piemonte_watchlist.py'
       - 'scripts/reconcile_bandi.py'
       - 'scripts/triage_bandi.py'
+      - 'scripts/discovery_review.py'
       - 'scripts/enrich_bandi.py'
       - 'scripts/check_verified_sources.py'
       - 'scripts/publish_reviewed_bandi.py'
@@ -95,7 +96,7 @@ jobs:
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_source_checks.json public/radar_bandi_auto.json public/radar_bandi_coverage.json public/radar_bandi_catalogo_extra.json public/radar_bandi_publication.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
+          git add public/radar_bandi_source_checks.json public/radar_bandi_auto.json public/radar_bandi_coverage.json public/radar_bandi_catalogo_extra.json public/radar_bandi_publication.json public/radar_bandi_discovery_audit.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica significativa al catalogo automatico"
           else
