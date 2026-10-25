@@ -134,9 +134,6 @@ def specialist_audience(text):
 
 
 def audience_classification(text):
-    specialist = specialist_audience(text)
-    if specialist:
-        return specialist
     ets_hits = phrase_hits(text, ETS_SIGNALS)
     nonprofit_hits = phrase_hits(text, NONPROFIT_SIGNALS)
 
