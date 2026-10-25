@@ -56,6 +56,18 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(reader.call_count, 2)
         self.assertIsInstance(results['https://official.example/error'], ValueError)
 
+    def test_funding_purchase_or_ets_competition_is_not_procurement(self):
+        for title in ['Acquisto di ambulanze — contributi per ETS', 'Concorso di idee per progetti del terzo settore']:
+            with self.subTest(title=title):
+                self.assertEqual(discovery_review.disposition({'title': title})[0], 'documentary_review')
+        self.assertEqual(discovery_review.disposition({'title': 'Concorso per studenti — Premio scolastico'})[0], 'not_a_new_grant')
+
+    def test_nonexclusive_audience_cannot_erase_explicit_ets(self):
+        import triage_bandi
+        result = triage_bandi.audience_classification('Contributi per enti del terzo settore e istituzioni universitarie statali, non statali e telematiche')
+        self.assertTrue(result['etsRelevant'])
+        self.assertEqual(result['scope'], 'ets-specific')
+
     def test_documented_review_is_published_and_removed_from_pending_queue(self):
         decisions = json.loads(publish_reviewed_bandi.REVIEWS.read_text())['reviews']
         record = decisions[0]['record']
