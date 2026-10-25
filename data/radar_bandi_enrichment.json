@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T23:03:54+02:00",
-  "attempted": 138,
+  "generatedAt": "2026-10-25T05:55:02+01:00",
+  "attempted": 133,
   "enriched": 133,
   "unchanged": 0,
-  "failed": 5,
+  "failed": 0,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -52,12 +52,6 @@
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763"
-    },
-    {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani",
       "ok": true,
       "changed": [
@@ -102,18 +96,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025",
@@ -179,18 +161,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
