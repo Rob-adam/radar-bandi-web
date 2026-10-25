@@ -15,6 +15,14 @@ function esc(v){
   return String(v||"").replace(/[&<>\"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]));
 }
 
+export function renderPlannedOpportunities(records,profile){
+  const mission=[profile?.areas,profile?.activities,profile?.sector,profile?.beneficiaries,profile?.statutoryPurposes].join(' ').toLowerCase();
+  if(!/salute|sanitari|pazient|health/.test(mission))return '';
+  const planned=records.filter(b=>b.status==='programmato');
+  if(!planned.length)return '';
+  return `<section aria-label="Opportunità programmate" style="margin-top:24px;padding:18px;border:1px solid #2a4a61;border-radius:14px;background:#0c1c2c"><h2 style="font-size:18px;margin:0 0 12px">Da sorvegliare · opportunità programmate</h2><p class="small">Le aperture e i requisiti devono ancora essere confermati. Queste segnalazioni non entrano nel conteggio dei bandi monitorati.</p>${planned.map(b=>`<article><h3 style="font-size:16px">${esc(b.title)}</h3><p><strong>PROGRAMMATO · apertura e scadenza non verificate</strong></p><p>${esc(b.publicationWindow)} · ${esc(b.budgetLabel)}</p><p>${esc(b.summary)}</p><p class="small">${esc(b.nextAction)}</p><a href="${esc(b.sourceUrl)}" target="_blank" rel="noopener noreferrer" style="color:#67b9ff">Leggi il programma ufficiale</a><p class="small">Programma controllato il ${esc(b.tracking?.verifiedAt)}. Ammissibilità dell’ente non verificata.</p></article>`).join('')}</section>`;
+}
+
 async function dashboard(request,env,ctx){
   const response=await app.fetch(request,env,ctx);
   if(!response.ok)return response;
@@ -36,6 +44,14 @@ async function dashboard(request,env,ctx){
   const block=`<div class="small" id="subtitle">${esc(summary)}</div>`;
   if(html.includes(marker))html=html.replace(marker,block);
   else html=html.replace('</h1>',`</h1><div id="territorySummary" style="margin-top:6px;font-size:12px;color:#9ed8ff;font-weight:700">${esc(summary)}</div>`);
+
+  try{
+    const plannedResponse=await env.ASSETS.fetch(new Request(new URL('/radar_bandi_programmati.json',request.url)));
+    if(plannedResponse.ok){
+      const planned=await plannedResponse.json();
+      html=html.replace('<div class="product-footer">',renderPlannedOpportunities(planned.bandi||[],p)+'<div class="product-footer">');
+    }
+  }catch{} // A watchlist failure must not interrupt the licensed catalog.
 
   const headers=new Headers(response.headers);
   headers.set("content-type","text/html; charset=utf-8");

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "bandi": [
+    {
+      "id": "EU4HEALTH-OA-g-26-91",
+      "title": "EU4Health — contributi al funzionamento delle ONG sanitarie nel 2027",
+      "source": "Commissione europea · HaDEA",
+      "status": "programmato",
+      "publicationWindow": "Quarto trimestre 2026 (indicativo)",
+      "budget": 1800000,
+      "budgetLabel": "1,8 milioni € complessivi indicativi",
+      "opening": null,
+      "deadline": null,
+      "maxGrant": null,
+      "foundationYear": null,
+      "annualRevenue": null,
+      "eligibilityStatus": "non_verificata",
+      "summary": "Programma per il funzionamento delle ONG sanitarie nel 2027. Sono richiesti valore aggiunto europeo e risultati misurabili. L’operatività nazionale, da sola, non dimostra l’ammissibilità.",
+      "nextAction": "Attendere e verificare l’avviso HaDEA: apertura, scadenza, destinatari, territorio, anzianità dell’ente e condizioni economiche.",
+      "sourceUrl": "https://health.ec.europa.eu/publications/2026-eu4health-work-programme_en",
+      "tracking": {
+        "verifiedAt": "2026-10-25",
+        "verificationScope": "Solo programma di lavoro; apertura e requisiti del futuro avviso non verificati.",
+        "verificationEvidence": [
+          {
+            "url": "https://health.ec.europa.eu/document/download/b719a2ab-481c-4904-805d-ce4457cf10dc_en?filename=funding_c2026_7403_annex_en.pdf",
+            "checkedAt": "2026-10-25",
+            "note": "C(2026) 7403 del 19/10/2026, OA-g-26-91, pagine stampate 98–100: ONG sanitarie, funzionamento 2027, Q4/2026, budget complessivo indicativo 1.800.000 €, valore aggiunto europeo e risultati misurabili. Il programma non prova apertura, scadenza o ammissibilità di RB-0003."
+          }
+        ]
+      }
+    }
+  ]
+}
