@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - 'scripts/update_bandi.py'
+      - 'scripts/push_catalog_update.sh'
       - 'scripts/source_fetch.py'
       - 'scripts/audit_coverage.py'
       - 'scripts/er_discovery.py'
@@ -101,8 +102,7 @@ jobs:
             echo "Nessuna modifica significativa al catalogo automatico"
           else
             git commit -m "Aggiornamento incrementale bandi"
-            git push
-            echo "catalog_commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            bash scripts/push_catalog_update.sh
           fi
 
   deploy-catalog:
