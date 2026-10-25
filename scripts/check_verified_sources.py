@@ -8,7 +8,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
-from source_fetch import fetch_source
+from source_fetch import fetch_source, validate_source_html
 
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
@@ -34,11 +34,8 @@ def response_hash(response):
     content_type = response.headers.get("Content-Type", "").lower()
     if "application/pdf" in content_type or response.content.startswith(b"%PDF"):
         return hashlib.sha256(response.content).hexdigest()
+    validate_source_html(response.text)
     soup = BeautifulSoup(response.text, "html.parser")
-    page_text = re.sub(r"\s+", " ", soup.get_text(" ", strip=True)).lower()
-    if ("pagina di cortesia" in page_text or
-            ("momentaneamente indisponibile" in page_text and "manutenzione" in page_text)):
-        raise ValueError("Fonte temporaneamente indisponibile: pagina di cortesia/manutenzione, non modifica del bando")
     if re.search(r"\.pdf(?:[?#]|$)", str(getattr(response, "url", "")), re.I):
         raise ValueError("Documento PDF atteso, ricevuta una pagina HTML")
     for node in soup(["script", "style", "noscript", "svg"]):

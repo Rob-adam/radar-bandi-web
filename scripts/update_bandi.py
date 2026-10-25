@@ -552,7 +552,10 @@ def main():
         try:
             r = fetch_source(src["url"])
             if src["kind"] == "lombardia":
-                found.extend(lombardia_items(r.text, src["url"]))
+                regional_records = lombardia_items(r.text, src["url"])
+                if not regional_records:
+                    raise ValueError("Elenco Lombardia privo di schede leggibili: conservati i bandi precedenti in attesa di verifica")
+                found.extend(regional_records)
             elif src["kind"] == "emilia-romagna":
                 found.extend(emilia_romagna_items(r.text, src["url"], src["name"]))
             elif src["kind"] == "piemonte":
