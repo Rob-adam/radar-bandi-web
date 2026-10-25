@@ -1,6 +1,6 @@
 {
-  "schemaVersion": 1,
-  "catalogUpdatedAt": "2026-10-25T07:21:04+01:00",
+  "schemaVersion": 3,
+  "catalogUpdatedAt": "2026-10-25T07:40:41+01:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1375,7 +1375,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -1511,7 +1511,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -5442,9 +5442,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/anita-reti-mille/",
       "contentHash": "7fb66c6093044c6734b9bc8da9e2bec8f62d0086045d83060ccef4e9a5fa334b",
-      "version": 242,
+      "version": 244,
       "firstSeenAt": "2026-09-23T13:41:23+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5545,7 +5545,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -5554,9 +5554,9 @@
       "source": "Fondazione Cariplo",
       "sourceUrl": "https://www.fondazionecariplo.it/bando/carcere-e-comunita-in-rete/",
       "contentHash": "1146a37293f5a241777452beac91029b7591687ba695e084c52dc23f4c93a7b0",
-      "version": 242,
+      "version": 244,
       "firstSeenAt": "2026-09-23T19:04:56+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -5646,7 +5646,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -5911,9 +5911,9 @@
       "source": "Regione Toscana · Bandi",
       "sourceUrl": "https://www.regione.toscana.it/-/economia-circolare-incentivi-per-il-contrasto-allo-spreco-alimentare",
       "contentHash": "255f53a941af93b32c4d4c34f9250ced1016c149d248e107720759075282d96f",
-      "version": 190,
+      "version": 192,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6013,7 +6013,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -6460,9 +6460,9 @@
       "source": "Regione Puglia · Bandi",
       "sourceUrl": "https://www.regione.puglia.it/bandi-e-avvisi#content",
       "contentHash": "386140b824000897334507134d2c7617ce51ea966e254aa39e6d69341d556eb7",
-      "version": 216,
+      "version": 218,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6563,7 +6563,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -6572,9 +6572,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "03286f600ebe76499807fdc3cc45b0cde2f773a79a4283cb9304c7f890e65de8",
-      "version": 218,
+      "version": 220,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6673,7 +6673,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -6682,9 +6682,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "88135d0520b0e9e5013da74cfb16e358b18273904ff14e955121618afc61a89d",
-      "version": 218,
+      "version": 220,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6783,7 +6783,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -12251,7 +12251,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -12361,7 +12361,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -12472,7 +12472,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -12689,7 +12689,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -13358,7 +13358,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -13478,9 +13478,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13340&fromPage=Elenco&high=",
       "contentHash": "83a481fc687b11efcb4e972f54dc92aab45432e6e0b50329f13057f321f3a4e8",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13579,7 +13579,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -13588,9 +13588,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
       "contentHash": "1d2f0c8c01da7c7f31510d96a0381bd346a774ee8a17161246dd8035cb62e404",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13688,7 +13688,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -13697,9 +13697,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13359&fromPage=Elenco&high=",
       "contentHash": "44d0270a349739196cddc33d7b2bf7b3011b028a6f3bc38218d6dedfd634b5ce",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13798,7 +13798,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -13807,9 +13807,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high=",
       "contentHash": "b703555c184a51fbfd5ba3d61a46529ce12f39b5312eeab94cfd87f59f9e80ad",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -13907,7 +13907,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -13916,9 +13916,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
       "contentHash": "895d867c5be1370e050a573ed4f84d708793d613723a345da9d11e9420000b86",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14012,7 +14012,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14021,9 +14021,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "contentHash": "d3b2e1cf402a102bc4af415fb73966e5d32590b13c6c35a869a5f26724a33ee9",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14121,7 +14121,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14130,9 +14130,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13357&fromPage=Elenco&high=",
       "contentHash": "cde6a7af031b34a4cb5cc62743b211f348d8658ec9cadf19916738e1ff28a9f1",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14226,7 +14226,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14235,9 +14235,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high=",
       "contentHash": "91fe0acb6e2ed5414991b38c6c9eea569d4fe09015f425c399e24ca6f8aaaf0c",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14330,7 +14330,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14339,9 +14339,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "contentHash": "f973c9b5feafbffe5a874879152bc57355f818731bdc72809f9932ed604147b4",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14440,7 +14440,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14449,9 +14449,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "contentHash": "e53437b5a75d00f0c27f31803dbe1e4d107759d5440422bce996c0ddfb7aa8ea",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14550,7 +14550,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14559,9 +14559,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "contentHash": "ded7c94034bded145f936af02565a370dcaf3c9555be65d31e2008130153ca6b",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14660,7 +14660,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14669,9 +14669,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "contentHash": "ba8dc01c7f4307970afd1aa15363ee5ee379456871f6cf50ebcfcdc9e5c3c84f",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14765,7 +14765,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14774,9 +14774,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13335&fromPage=Elenco&high=",
       "contentHash": "44f079e8fd3d2b5c99e43756947a82cc68a7de981d3425a64369885187eb6eb3",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14875,7 +14875,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14884,9 +14884,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13192&fromPage=Elenco&high=",
       "contentHash": "117b93e8bab7735410f1128779c42e9e5953927c74c13e681b8bc8e77fcf9e62",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14983,7 +14983,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -14992,9 +14992,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13363&fromPage=Elenco&high=",
       "contentHash": "0eb1c18654f57845cde0075fb63a0133471e882d551c7bc3184ff65739f196f8",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15092,7 +15092,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15101,9 +15101,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "contentHash": "70dce242626ebeb8b1e20f842721e0839a393c34e8e48ca4612faa83f3edf1a5",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15202,7 +15202,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15211,9 +15211,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "contentHash": "4d268f834dac2908af078ce518ad5efb7a2bd2e4eb82ee4da89931e4ee244364",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15312,7 +15312,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15321,9 +15321,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "contentHash": "862701e93b20652fcc95ed0e716177081155dc6a20d4c81cb65a8774bf577a53",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15422,7 +15422,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15431,9 +15431,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13377&fromPage=Elenco&high=",
       "contentHash": "749d19bde521402fc4ea4dffcb83d36e6a9e75815da1b1a24d2e65b6f181ca31",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15525,7 +15525,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15534,9 +15534,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "contentHash": "6a9bd2b63f4d80c59eaa61531ae8338e12ab98dad723b60788b4ecc7eb8ca788",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15633,7 +15633,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15642,9 +15642,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13376&fromPage=Elenco&high=",
       "contentHash": "3a77be31d2edcdf939f7da2e220155325c587feb128dcee9fc26eb9091e3457a",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15743,7 +15743,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15752,9 +15752,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "contentHash": "8cb0faaf423fb083e943077f89b26b846035c6efe4779e78789e8b8e2b9c248c",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15853,7 +15853,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15862,9 +15862,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "contentHash": "77fc566c2e20111830a30bba41ad96b8305222b3fe52ab16c35cd65f7043c7e8",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15963,7 +15963,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -15972,9 +15972,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "contentHash": "4334404859b9cc213caabdf12fbd277e87b918efe0559a04954b50184c486b12",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16072,7 +16072,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16081,9 +16081,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "contentHash": "9b2050d91c1c3e3340feaea8433388cdec5fc5b48907ebe9cfe9b34212f57adc",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16181,7 +16181,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16190,9 +16190,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "contentHash": "7469b3ec2f992c99e6db362b44cd086f4f1039c2af155cd4e0ed6171ba0645b5",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16290,7 +16290,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16299,9 +16299,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "contentHash": "b737f3992bc7b6832c33a6ac04133cb773ccbc9bc56702a4660e3765fd0b907d",
-      "version": 30,
+      "version": 32,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16396,7 +16396,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16522,7 +16522,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16531,9 +16531,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-laffidamento-del-servizio-di-valutazione-dellaffidabilita-finanziaria-rating-della-regione-basilicata/",
       "contentHash": "d45c33fe1d5d41da5803ffbb2c426a72b396d1365f253cf66da44924e105fd6e",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16631,7 +16631,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16640,9 +16640,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/manifestazione-di-interesse-per-la-realizzazione-di-interventi-rivolti-alla-valorizzazione-ambientale-e-paesaggistica-degli-insediamenti-urbani/",
       "contentHash": "04961ac819e3a5eb13a48e55ba228f568ffd3b93f76b9a0bf68109dc40bbfff6",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16742,7 +16742,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16751,9 +16751,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-della-proposta-di-piano-regionale-di-interventi-antisismici-su-strutture-e-infrastrutture-strategiche/",
       "contentHash": "3de68dd7aae40af0f828eae531596b96712e1b6dee08b40c7f3cc8272bab151b",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16852,7 +16852,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16861,9 +16861,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4752:contributi-associazioni-cooperative.html",
       "contentHash": "df12cbe5e3e25a12407d992f3d7b9509c70ac0c282c818fe3e4e9dc19e647019",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16961,7 +16961,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -16970,9 +16970,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-di-selezione-riservato-al-personale-della-regione-basilicata-per-lattribuzione-delle-progressioni-economiche-allinterno-delle-aree-2025/",
       "contentHash": "14c151c445c8b73f4bd6e68f850419eaff914c03e46f5db49a1843e96046c816",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17071,7 +17071,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17080,9 +17080,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "contentHash": "16ad39d6a7b26be15dc5215bce80c33ad4d3bf79c4f8f868f7cad56dfd9762ab",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17177,7 +17177,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17186,9 +17186,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-formazione-di-un-elenco-composto-di-due-sezioni-di-operatori-economici-di-cui-allallegato-ii-1-del-d-lgs-n-36-2023-cui-affidare-direttamente-il-servizio-di-assistenza-te/",
       "contentHash": "fdb8d4927a873bd21d93ddc381c1c16f14de28764c22de9ef91a1c9b274b654c",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17287,7 +17287,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17296,9 +17296,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/",
       "contentHash": "8fbe384da0eb018a9df2b869159b938a600021208b8c345c35449eee8d3aa0df",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17393,7 +17393,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17402,9 +17402,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "contentHash": "a0c416d67fd92bd0079810163b5d06e9f8e819eb34c64d1f7a5664860d0a757f",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17497,7 +17497,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17506,9 +17506,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-etilometro-safir-e-relativo-materiale-di-consumo/",
       "contentHash": "344651ced3ade5369772e9bfb643060a454f96d636fbdaf9aeaa9bb2b8216801",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17602,7 +17602,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17611,9 +17611,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa-2/",
       "contentHash": "22641f573f156155ed25f63fb8dece40910f921d19c29ff00b690e256fdd2774",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17710,7 +17710,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17719,9 +17719,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-n-3-radio-portatili-per-la-protezione-civile-del-comune-di-matera/",
       "contentHash": "45861db78c01327c0f08d69a2cb8aff2737a973554c8ac4ea11a0918ee759e52",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17815,7 +17815,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17824,9 +17824,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-prontuari-e-abbonamento-alla-banca-dati-iter/",
       "contentHash": "2713fd43b4b01579521e4277b42f8bc9f29c771862f5351408362dd4aa1ae9aa",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17921,7 +17921,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -17930,9 +17930,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-applicativo-per-il-controllo-degli-accessi-e-lazionamento-dei-pilomat-posti-a-delimitazione-delle-aree-pedonali-della-citta-di-matera/",
       "contentHash": "6d03ece0035dd2abaaf7e131436cd90ffa64ab5730054a9b72dbfcb30b2fe2bb",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18031,7 +18031,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18040,9 +18040,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-piano-di-formazione-per-agenti-di-polizia-locale/",
       "contentHash": "6309f7bd0317c4fd7eb48de4d1484de967b28899cbd068533e2582cc83ac618e",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18138,7 +18138,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18147,9 +18147,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-autodifesa-rivolto-al-personale-della-polizia-locale/",
       "contentHash": "215175210b6932dc997a3d8a36984003d7088d0dfce071293b92185f13e4c1a3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18245,7 +18245,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18254,9 +18254,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-sui-presidi-difensivi-rivolto-al-personale-della-polizia-locale-del-comune-di-matera/",
       "contentHash": "da2fbc300477d8341f022118adfc900cd191c68849c0c69c44d14c12ca0a45e7",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18353,7 +18353,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18362,9 +18362,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale/",
       "contentHash": "0b7fa0b9fe0702d9f899a0a78b88e7db8117197de92d834f3b116376dd650af3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18463,7 +18463,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18472,9 +18472,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2021-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "contentHash": "688629c00429bcd25b336b0aa2b44054b255348fc1ce415c3973b12d3eedab7a",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18573,7 +18573,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18582,9 +18582,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-contrassegni-invalidi-e-blocchi-verbali-preavvisi/",
       "contentHash": "04f6d75991747ba1eab27798a2a5378443298cb49080fb392e1874e24be99b74",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18680,7 +18680,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18689,9 +18689,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-prontuari-e-codice-della-strada-per-il-personale-della-polizia-locale/",
       "contentHash": "ba57ebe084383e6f43773e0e9af11a453623c1ce860b90fe97db88a7054cc928",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18788,7 +18788,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18797,9 +18797,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/forniture-divise-per-gli-appartenenti-al-corpo-della-polizia-locale/",
       "contentHash": "e4945afe678a749cc7221c44ae833c68543863dbda299dc896dddab82a0f2a9e",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18895,7 +18895,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -18904,9 +18904,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo-2/",
       "contentHash": "e694c0f05c672b99b6f83cbbf242e96f7d217531e6f4f16b9dfb52ee144a0bdf",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -18999,7 +18999,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19008,9 +19008,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-noleggio-etilometro-sostitutivo/",
       "contentHash": "1d1189362f990b07e301a7104661d203fd0c8c6a06d7def13b5ba80fec750af1",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19103,7 +19103,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19112,9 +19112,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-noleggio-e-installazione-transenne-antipanico-e-metalliche-in-occasione-del-g20/",
       "contentHash": "f69c836fc8ff63af55e8ab2d1419aea70ab257c1941eebc81713675402257788",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19211,7 +19211,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19220,9 +19220,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-in-materia-di-autotrasporto/",
       "contentHash": "5f41ebff78fffd0b6851c7480dd63c13e02a2a8c154ada541d6a6a6fb701df34",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19315,7 +19315,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19324,9 +19324,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-n-2-switch-e-di-n-1-cavo-ethernet-per-le-esigenze-del-comando-di-polizia-locale-di-matera/",
       "contentHash": "bc35c536a04b3e32c9e53619d5652248c3741677abcf47f111663c72a5951e76",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19423,7 +19423,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19432,9 +19432,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "contentHash": "4a6d829e0465afa226a7d63cd397ecdc6aa27e15a805a279100cf21ac2740383",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19531,7 +19531,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19540,9 +19540,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/sostituzione-della-serratura-di-un-armadio-blindato-marca-conforti/",
       "contentHash": "3b2436c8782e0c45058dfddc2e67e4a33d3381a8ab3899a9ea409f9014875fb5",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19637,7 +19637,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19646,9 +19646,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "contentHash": "b8c10d17c5dd873702acb97c084cc186bcaf533f8233db323cffa0a80e14d837",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19747,7 +19747,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19756,9 +19756,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "contentHash": "89a87c7d7a4f006f995643d514a1c2617fe9bd84761c546567d6537736e26b04",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19852,7 +19852,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19861,9 +19861,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "contentHash": "b497746bef41b3cffb2dcde4ed04fdd34188a10cca8e6e720ed8768ae8b65850",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19962,7 +19962,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -19971,9 +19971,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "contentHash": "9c3ddadff412d18774bd0d247e74cdee5c29cbd4f9d04fd34f537aed0431a5f7",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20067,7 +20067,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20076,9 +20076,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
       "contentHash": "1a71aee175cff9ec04b885dfeb876ac7322bee3c1227cab6d593c7b71c5f1f77",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20175,7 +20175,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20184,9 +20184,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022/",
       "contentHash": "009ce551875541251657ffb6e48b1a04a0e03d2823f3d0c0bd841e2eefad80b2",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20285,7 +20285,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20294,9 +20294,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-consultazione-banca-dati-a-c-i-p-r-a-servizio-erogato-da-anci-digitale-per-lanno-2022-2/",
       "contentHash": "d439987716aca47b358bd06303732b94736482a8edfee6b8b351ae2d835ade80",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20394,7 +20394,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20403,9 +20403,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-personal-computer-e-stampante-per-il-corpo-della-polizia-locale/",
       "contentHash": "11e429d8fe68ce419d1fffdbb19e9895ed0cc55497ef6ff05f1367d7c5b33cb3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20502,7 +20502,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20511,9 +20511,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-kit-di-videosorveglianza-mobile-per-il-comando-di-polizia-locale/",
       "contentHash": "6d5fb02bb9b4855c5f0aac9ff232a873db0fa387b69c5cbc2045bad72d12fcf6",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20608,7 +20608,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20617,9 +20617,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-prontuari-delle-violazioni-alla-circolazione-stradale-con-formula-abbonamento-e-servizio-abbonamento-online/",
       "contentHash": "fdfb7407bd577ec6731e9ed61902bd3b2af0ea9e48474d359ed3f6c6ede9d7d2",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20717,7 +20717,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20726,9 +20726,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-telelaser-trucamhd-e-relativi-accessori/",
       "contentHash": "ba23f14da574f0ca935ac35d1695fd5c4238ce198dd0e5c0abaf3cc28379bfe9",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20822,7 +20822,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20831,9 +20831,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/adesione-al-servizio-di-base-anci-risponde-e-al-servizio-aci-pra-per-il-biennio-2023-2024/",
       "contentHash": "dc18820524c44df8b011309e443dd000988d24618f6035fc1468bf9489af6d49",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20928,7 +20928,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -20937,9 +20937,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/abbonamento-aci-pra-anno-2022-integrazione-servizio-di-consultazione/",
       "contentHash": "46389e17d742939c3873df11fd715b0f6b27e782f03eed4666ffd6b1ce2d8a8e",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21033,7 +21033,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21042,9 +21042,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-apparecchiature-e-dotazioni-strumentali-per-le-attivita-di-controlli-su-strada-nel-settore-dellautotrasporto/",
       "contentHash": "62ac136739fce07791567cc2cad3af271f8b557e7546c0c4431b83cee86c286d",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21143,7 +21143,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21152,9 +21152,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-formazione-aggiornamento-e-specializzazione-professionale-per-ilpersonale-di-polizia-locale-di-matera/",
       "contentHash": "24db4669afb0c73820a0946608c7b18af5737feb37268e04e360f9166f171305",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21252,7 +21252,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21261,9 +21261,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2022-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "contentHash": "938eb8f7c1412ece975ae8803c17edcbc10b428f1e7c529aec9c19e8c6f911cd",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21362,7 +21362,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21371,9 +21371,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-secchi-di-bitume-a-freddo-reattivo-per-risarcitura-buche-stradali-urgenti-ad-opera-di-personale-a-disposizione-di-questo-ente/",
       "contentHash": "518a214ad550dcd282c5bfb2af5df974185f640de585297e7703b11aee5ad976",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21473,7 +21473,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21482,9 +21482,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-smartphone-per-i-servizi-di-polizia-stradale/",
       "contentHash": "3aa16f13f43a9fd1cbc8232afdb7720b0bc01735d6fde6c4451e5084afdfa144",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21578,7 +21578,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21587,9 +21587,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-serratura-elettronica-per-la-porta-di-ingresso-del-comando-di-polizia-locale/",
       "contentHash": "3b1b13ae18f576d09a094458db70a241fa713ff8cd1fc24a47423d429e83a302",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21686,7 +21686,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21695,9 +21695,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/rinnovo-novennale-dellaccesso-al-servizio-di-informatica-del-centro-di-elaborazione-dati-della-ex-direzione-generale-della-motorizzazione-civile-d-p-r-28-settembre-1994-n-634-stipula-polizza-f/",
       "contentHash": "a2e97a622a55bfc8513bcfa5ac0da94e7f86ad04a71f22e81e1c31d5d21b46fe",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21796,7 +21796,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21805,9 +21805,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-dpi-utili-per-lemergenza-covid-19/",
       "contentHash": "707e42d4ab6dabe02afed9a774e6b0dd1de2c55e9efdd9fd1365b159497caff3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -21900,7 +21900,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -21909,9 +21909,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-di-supporto-per-la-gestione-del-procedimento-sanzionatorio-relativo-alle-violazioni-amministrative-delle-norme-del-c-d-s-e-delle-norme-diverse-dal-c-d-s-nonche-della-riscoss/",
       "contentHash": "eda5701212237721a1c7390a415af476c1ab42f93538b4ab2022f4b65a2260ab",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22010,7 +22010,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22019,9 +22019,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-polizia-stradale-e-autotrasporto/",
       "contentHash": "9300f23377985683a7c9d420e9d588da1ebe2e76d50ade595d825037acb8d6a9",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22117,7 +22117,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22126,9 +22126,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-bollettari-per-la-contestazione-di-violazioni-al-c-d-s-contrassegni-per-il-parcheggio-dei-disabili-e-permessi-rosa-per-il-comando-della-polizia-locale/",
       "contentHash": "647351465aabc7a8f309fed04c497fe7d566752ca8188fe1f0353fd28fe12b8c",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22227,7 +22227,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22236,9 +22236,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-hardware-e-software-per-il-controllo-automatizzato-dei-dati-tachigrafici-comprensiva-di-n-3-giornate-di-formazione/",
       "contentHash": "599e6d0ecbf785d0e6f81c408f7b884a1eb350c0da6a5e9623cb9e91b2b9ad8f",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22337,7 +22337,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22346,9 +22346,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/progetto-per-la-prevenzione-e-il-contrasto-al-consumo-e-spaccio-di-sostanze-stupefacenti-stipula-fideiussione-assicurativa/",
       "contentHash": "f1e2f93d6219d123db7e991c38a1542313b5cc648e942652b17899df3f0e9670",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22447,7 +22447,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22456,9 +22456,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-assistenza-e-manutenzione-triennale-del-software-di-gestione-della-segreteriatelefonica-in-uso-allufficio-ztl-della-polizia-locale/",
       "contentHash": "2a14b7827cf84c56a6284b81ce7cb503e35ae66a07f82d70822aa17f1e7ad81a",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22557,7 +22557,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22566,9 +22566,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale/",
       "contentHash": "8a92251eb849b9c4f890ed31be69c81ab617da833be955aa00660f805a0e2cf8",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22663,7 +22663,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22672,9 +22672,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-manutenzione-di-veicoli-elettrici-in-uso-alla-polizia-locale-2/",
       "contentHash": "05d90aa3e585bde8e2fe3536e3d59ae692d0c5eb780420cde2945c098890321f",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22769,7 +22769,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22778,9 +22778,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisizione-del-software-di-integrazione-alla-piattaforma-notifiche-digitali-bando-pnrr-pa-digitale-2026-avviso-misura-1-4-5-piattaforma-notifiche-digitali/",
       "contentHash": "04263afcb86a6ad4878b031b2a24372162b84572e78bc8d5c190730824635a79",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22878,7 +22878,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22887,9 +22887,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-una-bacheca-elettronica-per-la-custodia-chiavi-per-il-comando-di-polizia-locale/",
       "contentHash": "b0c0f69a52be187593430ccd2e8dacd7367c883a7bbfbcc94922bc806c4d0f00",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -22986,7 +22986,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -22995,9 +22995,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-per-la-partecipazione-al-convegno-nazionale-di-riccione-organizzato-da-maggioli-spa/",
       "contentHash": "221ea3bce38a8afc17d16b8e2ed88d2a94369a7acede8a371e45ba617e2a43fb",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23094,7 +23094,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23103,9 +23103,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-revisione-taratura-periodica-strumento-telelaser-trucam-in-dotazione-al-comando-di-polizia-locale-di-matera/",
       "contentHash": "8753f26f6c4b5fbf893fc68390671fb39fe5d044034e1d985233230be5275bd4",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23204,7 +23204,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23213,9 +23213,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/attivazione-sistema-informativo-smart24-polizia-locale-e-top24-diritto/",
       "contentHash": "fe8ac1949a2bb095891d64939f83815757090dfd98483dd20be67fae47c54960",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23311,7 +23311,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23320,9 +23320,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-corso-di-formazione-in-tema-di-prevenzione-lotta-al-traffico-e-spaccio-di-sostanze-stupefacenti/",
       "contentHash": "70fbe3a7e5003fa0ab17f1aceeed725d0560dac27704a6af51d043dbbd1aab34",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23421,7 +23421,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23430,9 +23430,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-del-servizio-postel-video-per-campagna-informativa-e-divulgativa-diretta-ad-incrementare-il-numero-di-presentazione-on-line-delle-richieste-di-autorizzazione-al-transito-in-zone-a-traffico/",
       "contentHash": "690fa7c23db15980d1dd0c6985a6ea7a56944d71b7925c025b1506ce4bc892eb",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23531,7 +23531,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23540,9 +23540,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azioni-previste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-del/",
       "contentHash": "1277fee9e07021bb13e308e7765365c5fa520fc63959d03d12e03823a54748c9",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23641,7 +23641,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23650,9 +23650,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-etilometro-e-precursori-realizzato-nellambito-delle-azionipreviste-dal-progetto-escomanonbevo-finanziato-dal-dipartimento-politiche-antidroga-dpa-della-presidenza-de/",
       "contentHash": "bd4cd019d8763366ab56ee6dc2f59efad55dd14f9bab51e25d5cf198cd609e86",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23751,7 +23751,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23760,9 +23760,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-della-fornitura-di-strumentazione-per-il-contrasto-alluso-di-sostanze-stupefacenti-realizzato-nellambito-delle-azioni-previste-dal-progetto-finanziato-dal-dipartimento-politiche-antidrog/",
       "contentHash": "0838eb9bcdc94179b6db9ef16a0cbcad167ef4d8604ddca456515a6459e3b78c",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23861,7 +23861,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23870,9 +23870,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-mezza-pensione-per-n-4-dipendenti-presso-hotel-fantasy-di-riccione/",
       "contentHash": "99fd59de6f72008e211cb0b0813eeab1d1dd36c860d8e55c1c280b600c0417df",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -23971,7 +23971,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -23980,9 +23980,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-n-1-pc-e-accessori-tablet-per-il-corpo-della-polizia-locale/",
       "contentHash": "e4c7b959e74249d95615159d052485121b0baaa56eeb600f30865070b30f066f",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24078,7 +24078,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24087,9 +24087,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-fornitura-di-software-gestionali-licenza-firma-grafometrica-per-tablet-android-e-servizio-di-assistenza-e-manutenzione-applicativi-forniti-da-verbatel-s-r-l/",
       "contentHash": "c29484122fe868b2fa1087cb6f1c28088d8633445e41ce0b4e429ba6f746b2d1",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24188,7 +24188,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24197,9 +24197,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-riparazione-del-gruppo-elettrogeno-in-dotazione-allufficio-traffico-del-comune-di-matera/",
       "contentHash": "863aca606f9a73488c9c209b8c703d7cb20d8f430e1dfdb3c2025108f6897636",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24296,7 +24296,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24305,9 +24305,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-servizio-di-trasporto-di-posizionamento-e-rimozione-transenne-e-segnaletica-mobile-di-proprieta-comunale/",
       "contentHash": "1cc0d8b7dbc22465256780cbe47e59f5620112fd962a6cac5c060c7a0e7141ae",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24406,7 +24406,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24415,9 +24415,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto-2/",
       "contentHash": "233ea6dafd2a4157ee709ca65cc50160b21d946c81c5873673eb37f9f6ac9bd5",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24511,7 +24511,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24520,9 +24520,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/esercitazioni-di-tiro-per-lanno-2023-presso-poligono-abilitato-per-gli-appartenenti-al-corpo-di-polizia-locale-del-comune-di-matera/",
       "contentHash": "62a632779627f3c63da62c5691d8fc324c29b5beafc55d2d048a71098d2f6123",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24621,7 +24621,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24630,9 +24630,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-stampanti-portatili-complete-di-custodia-e-rotoli-di-carta-termica-ad-uso-della-polizia-locale/",
       "contentHash": "aa5bb71609a4f1aff6768e62e117e673b9bd771144ed63c48319fd0356867960",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24731,7 +24731,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24740,9 +24740,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-accessori-per-apparati-radio-motorola/",
       "contentHash": "b2973e1bcd60a4848ec197d787d0bc511daaa09b8fdc248f59d48ba5597b336e",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24836,7 +24836,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24845,9 +24845,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-armi-e-munizioni-per-il-potenziamento-del-corpo-di-polizia-locale-e-contestuale-dismissione-di-armi-e-munizioni-obsolete/",
       "contentHash": "e7381dc994d2f28cdd022b4c6e0405f33ee866fac5c8e55e5fb48d078737321d",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -24946,7 +24946,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -24955,9 +24955,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-portabiciclette-da-installare-sul-terrritorio-comunale/",
       "contentHash": "c66f9f2dcce652c040989302d34c62e4dd54c90612fd89c01e112d6f7ee53444",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25051,7 +25051,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25060,9 +25060,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-sistema-cabolo-i-kit-cartabia-per-la-video-registrazione-e-trascrizione-automatica-della-documentazione-degli-atti-di-polizia-giudiziaria/",
       "contentHash": "b5b99867e76a419a8b5245a09a84c2f9edf2aa5108ef0fb4a4d4e2520181d3a3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25161,7 +25161,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25170,9 +25170,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-manufatto-in-ceramica-decorata-relativa-l-patto-di-amicizia-tra-i-comuni-delle-citta-della-ceramica-affidamento-diretto-ex-art-50-comma-1-lett-b-del-d-lgs-n-36-2023-ditta-dac/",
       "contentHash": "a63554c7ab28d22406a2fd708e927ad0df453caee14a79d74ad6ded93de11ea3",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25271,7 +25271,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25280,9 +25280,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/interventi-di-manutenzione-di-dispositivi-informatici-in-uso-alla-polizia-locale/",
       "contentHash": "a9a7337291d21a675a7b7061e70e6b6793cee71fc60ced36e6630651062095ac",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25377,7 +25377,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25386,9 +25386,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/riparazione-dellautovettura-smart-telaio-n-w1a4530911y249239-targata-ya503ah-in-uso-al-comando-di-polizia-locale-di-matera/",
       "contentHash": "13b35d78a1d9ab9a54ddb8098b0cf914ff10ab668e63da7997de9c3579fd3b8c",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25486,7 +25486,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25495,9 +25495,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizi-di-aggiornamento-manutenzione-ed-assistenza-tecnica-per-il-sistema-radio-del-corpo-di-polizia-locale-del-comune-di-matera/",
       "contentHash": "ff95a6148d5dac41679f79aa4f9fb319bfb7bd480afe781c13d687a710491f07",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25596,7 +25596,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25605,9 +25605,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-controllo-e-revisione-di-etilometri-precursori-i-in-dotazione-al-corpo-di-polizia-locale/",
       "contentHash": "d3e0d3850e659a9bb17d85e70ddd04633f49225a2b00908052902e2224243361",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25705,7 +25705,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25714,9 +25714,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-riparazione-del-veicolo-ford-targato-ga616cn-a-servizio-dellufficio-traffico/",
       "contentHash": "53823a6d121eef2542f689e7f8fab53fde1b436aa16ddb3d3a3ffe472cee8512",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25813,7 +25813,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25822,9 +25822,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-di-un-booster-per-lavviamento-dei-veicoli-in-dotazione-del-corpo-di-polizia-locale/",
       "contentHash": "8e9f95bea36edf1896472f8276812969b5c4987dd1582b6123ec31224f3f7604",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25921,7 +25921,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -25930,9 +25930,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/acquisto-materiale-per-il-rilascio-di-permessi-ztl/",
       "contentHash": "4bedbe2685acf6681826184ba4638a13d85b2a3ab9b1d475f223ba75ae9f3093",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26025,7 +26025,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26034,9 +26034,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affidamento-diretto-del-servizio-di-pernottamento-e-pensione-completa-per-n-4-dipendentipresso-hotel-europa-di-cosenza/",
       "contentHash": "228d7f81b1ba3606d2de7779a8d9ef9c7b34cf1a536ba35f760acc77c3ed9d3c",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26135,7 +26135,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26144,9 +26144,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/corso-di-formazione-e-aggiornamento-in-materia-di-autotrasporto/",
       "contentHash": "40292bf68e6366b9293a4b5498f88986a5358ada403d78d834461f20cd61966b",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26240,7 +26240,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26249,9 +26249,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-acqua-in-confezioni-per-il-consumo-da-parte-dei-soccorritori-impiegati-nelle-attivita-correlate-al-crollo-di-un-immobile-sito-nella-locale-via-beccaria/",
       "contentHash": "3ea412b37dc864a217af6972195bb962b66ae16150fdb84063657d3ddc8b63c2",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26350,7 +26350,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26359,9 +26359,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-scaffali-per-archivio-ufficio-verbali-e-segnaletica-stradale/",
       "contentHash": "2e1429d9533390537c64604a40964e0a192d4018be69bc41c1d599ef4b37d841",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26457,7 +26457,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26466,9 +26466,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/fornitura-di-un-sistema-laser-scanner-3d-per-il-rilievo-degli-incidenti-stradali/",
       "contentHash": "a45ad15f3f403bc78db3aba574c08489383fb181b2a3dee405378b82b2d5ebde",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26564,7 +26564,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26573,9 +26573,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/servizio-di-accesso-alle-banche-dati-telemaco/",
       "contentHash": "3cfe691476baf93bda628afd708acde0030327a2832fd0001bd6f8bacac5c6ba",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26669,7 +26669,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26678,9 +26678,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "contentHash": "17f56891aa2f2c0d7649d9c19b939e903ea04c281a4418e605ef4c686eecb960",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26776,7 +26776,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26785,9 +26785,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-di-manutenzione-9/",
       "contentHash": "b2b28508ef15b60b20b4b969e8f20716262eebb1db4c5bd03f07bb9aa9783b35",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26882,7 +26882,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26891,9 +26891,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/affido-manutenzione-automezzi-53/",
       "contentHash": "855df7e8496f3a09dd1273702c87a79c2c52446047fc6d371df9c22f447295eb",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26989,7 +26989,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -26998,9 +26998,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "contentHash": "08e17340c6ab2632f6c0665f7ba71522a1b2546e4e9d2bbe8400d551994f4678",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27092,7 +27092,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -27101,9 +27101,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "contentHash": "96605133e4248599705b0e264e09d7f26ab71a75c4c8bf29cd271d87f44202ab",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27202,7 +27202,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -27211,9 +27211,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "contentHash": "1e9832bddb6816f8c050adaa457d6bd09204fc541d6befda6ff26d2ea01bf255",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-10-25T06:00:53+01:00",
+      "lastChangedAt": "2026-10-25T07:40:41+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27308,7 +27308,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     },
@@ -27411,7 +27411,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-24T23:17:46+02:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false,
       "reappearedAt": "2026-10-25T07:21:04+01:00"
@@ -27522,9 +27522,17 @@
           "etsRelevant": true
         },
         "ruleVersion": 3,
-        "evaluatedAt": "2026-10-25T06:00:53+01:00"
+        "evaluatedAt": "2026-10-25T07:40:41+01:00"
       },
       "excludedForEts": false
     }
+  },
+  "triageUpdatedAt": "2026-10-25T07:40:41+01:00",
+  "triageSummary": {
+    "rulesResolved": 9,
+    "rulesExcludedForEts": 0,
+    "aiRequired": 134,
+    "notPresent": 106,
+    "ruleVersion": 3
   }
 }
