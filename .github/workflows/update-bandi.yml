@@ -19,11 +19,17 @@ on:
       - 'scripts/triage_bandi.py'
       - 'scripts/enrich_bandi.py'
       - 'scripts/check_verified_sources.py'
+      - 'scripts/publish_reviewed_bandi.py'
+      - 'data/radar_bandi_reviews.json'
       - 'public/radar_bandi_verified_watchlist.json'
       - '.github/workflows/update-bandi.yml'
 
 permissions:
   contents: write
+
+concurrency:
+  group: bandovera-catalog-update
+  cancel-in-progress: true
 
 jobs:
   aggiorna-bandi:
@@ -75,6 +81,9 @@ jobs:
       - name: Filtro finale prima dell AI
         run: python scripts/triage_bandi.py
 
+      - name: Pubblica le revisioni documentate e aggiorna la coda
+        run: python scripts/publish_reviewed_bandi.py
+
       - name: Controlla le fonti dei bandi verificati
         run: python scripts/check_verified_sources.py
 
@@ -86,7 +95,7 @@ jobs:
         run: |
           git config user.name "BANDOVERA Bot"
           git config user.email "actions@users.noreply.github.com"
-          git add public/radar_bandi_source_checks.json public/radar_bandi_auto.json public/radar_bandi_coverage.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
+          git add public/radar_bandi_source_checks.json public/radar_bandi_auto.json public/radar_bandi_coverage.json public/radar_bandi_catalogo_extra.json public/radar_bandi_publication.json data/radar_bandi_state.json data/radar_bandi_ai_queue.json data/radar_bandi_enrichment.json
           if git diff --cached --quiet; then
             echo "Nessuna modifica significativa al catalogo automatico"
           else

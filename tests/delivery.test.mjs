@@ -117,3 +117,29 @@ test('19 October source reviews retain applicant checks and closed calls stay ex
  assert.equal(base.find(b=>b.id==='RLT12026052444').fund,150000);
 });
 
+
+test('reviewed publications reach the national client with distinct partner and promoter roles',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-25T08:00:00+01:00')});
+ const request=scope=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto'+scope),env);
+ const body=await(await request('&scope=national')).json();
+ const caript=body.bandi.find(b=>b.id==='CARIPT-BORSE-LAVORO-2026');
+ const scu=body.bandi.find(b=>b.id==='VEN-SERVIZIO-CIVILE-REGIONALE-2026');
+ assert.ok(caript);assert.ok(scu);
+ assert.equal(caript.deadline,'2026-11-13');assert.equal(scu.deadline,'2026-11-09');
+ assert.ok(caript.eligibility.some(s=>s.includes('lavoratore')&&s.includes('partner')));
+ assert.ok(caript.hardRequirements.some(r=>r.type==='seat'&&r.places.includes('pistoia')));
+ assert.ok(scu.hardRequirements.some(r=>r.label.includes('Albo SCU')&&r.label.includes('cooperazione')));
+ for(const b of [caript,scu]){
+  assert.equal(b.eligibilityStatus,'da_verificare');
+  assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+  assert.equal(b.tracking.verificationEvidence.length,2);
+ }
+ const local=await(await request('')).json();
+ assert.ok(!local.bandi.some(b=>b.id===caript.id),'a Veneto seat alone must not erase Pistoia requirements');
+});
+
+test('newly reviewed calls disappear at their deadlines without a fixed client count',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-14T08:00:00+01:00')});
+ const body=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?scope=national'),env)).json();
+ assert.ok(!body.bandi.some(b=>['CARIPT-BORSE-LAVORO-2026','VEN-SERVIZIO-CIVILE-REGIONALE-2026'].includes(b.id)));
+});

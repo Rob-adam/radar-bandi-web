@@ -3,7 +3,7 @@
   "attemptedAt": "2026-10-25T07:40:42+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 42,
+    "observed": 46,
     "needsReview": 16,
     "failed": 16
   },
@@ -511,6 +511,55 @@
       "observedHash": "0c464745b44b4fd767ba9ebd2a2db4933af0a82ee4cab03b51b6a40a23cd2ff6",
       "needsReview": false,
       "bandoId": "ER-CARISBO-EMERGENZE-2026"
+    },
+    "CARIPT-BORSE-LAVORO-2026|https://www.fondazionecaript.it/bando/borse-lavoro/": {
+      "url": "https://www.fondazionecaript.it/bando/borse-lavoro/",
+      "evidenceCheckedAt": "2026-10-25",
+      "attemptedAt": "2026-10-25T07:39:32+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "b169ab9b610f276bbaf55add87b0c99b740189bf8db5d5905016917bdbc913b9",
+      "baselineHash": "b169ab9b610f276bbaf55add87b0c99b740189bf8db5d5905016917bdbc913b9",
+      "lastFetchSucceededAt": "2026-10-25T07:39:32+01:00",
+      "needsReview": false,
+      "bandoId": "CARIPT-BORSE-LAVORO-2026"
+    },
+    "CARIPT-BORSE-LAVORO-2026|https://www.fondazionecaript.it/wp-content/uploads/2026/04/Borse-Lavoro-2026.pdf": {
+      "url": "https://www.fondazionecaript.it/wp-content/uploads/2026/04/Borse-Lavoro-2026.pdf",
+      "evidenceCheckedAt": "2026-10-25",
+      "attemptedAt": "2026-10-25T07:39:32+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "45472bbae205c0778da66825ae732b6f0463eb9074c258475115646717eecf21",
+      "baselineHash": "45472bbae205c0778da66825ae732b6f0463eb9074c258475115646717eecf21",
+      "lastFetchSucceededAt": "2026-10-25T07:39:32+01:00",
+      "needsReview": false,
+      "bandoId": "CARIPT-BORSE-LAVORO-2026"
+    },
+    "VEN-SERVIZIO-CIVILE-REGIONALE-2026|https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=594009": {
+      "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=594009",
+      "evidenceCheckedAt": "2026-10-25",
+      "attemptedAt": "2026-10-25T07:39:32+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "7dafb39311f699fa0b5dd0bfdbea37b2a47dc88fab51ee1cedfd4fe73febe67e",
+      "baselineHash": "7dafb39311f699fa0b5dd0bfdbea37b2a47dc88fab51ee1cedfd4fe73febe67e",
+      "lastFetchSucceededAt": "2026-10-25T07:39:32+01:00",
+      "needsReview": false,
+      "bandoId": "VEN-SERVIZIO-CIVILE-REGIONALE-2026"
+    },
+    "VEN-SERVIZIO-CIVILE-REGIONALE-2026|https://burv-be.regione.veneto.it/api/PublicAtti/594009/DownloadAttachmentAtto/Dgr_1147_26_AllegatoA.pdf": {
+      "url": "https://burv-be.regione.veneto.it/api/PublicAtti/594009/DownloadAttachmentAtto/Dgr_1147_26_AllegatoA.pdf",
+      "evidenceCheckedAt": "2026-10-25",
+      "attemptedAt": "2026-10-25T07:39:32+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "67ec005344bf6111e8b0cb981b85ceb6e71c1a5de27312caba9f712c36689e1a",
+      "baselineHash": "67ec005344bf6111e8b0cb981b85ceb6e71c1a5de27312caba9f712c36689e1a",
+      "lastFetchSucceededAt": "2026-10-25T07:39:32+01:00",
+      "needsReview": false,
+      "bandoId": "VEN-SERVIZIO-CIVILE-REGIONALE-2026"
     }
-  }
+  },
+  "partialRecheckAt": "2026-10-25T07:39:32+01:00"
 }

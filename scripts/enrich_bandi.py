@@ -139,7 +139,14 @@ def main():
 
     for bando in catalog.get("bandi", []):
         key = record_key(bando)
-        if key not in queued:
+        # A rule-resolved lead still needs its official detail read before review.
+        # Otherwise the records with the clearest audience would never be enriched.
+        tracking = bando.get('tracking', {})
+        pending_review = (tracking.get('needsAnalysis') is False and
+                          tracking.get('excludedForEts') is not True and
+                          tracking.get('specificLegalFormConfirmed') is True and
+                          tracking.get('officialSourceVerified') is not True)
+        if key not in queued and not pending_review:
             continue
         url = clean(bando.get("sourceUrl"))
         if not url.startswith(("http://", "https://")):

@@ -34,6 +34,9 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Valida e pubblica le revisioni documentate
+        run: python3 scripts/publish_reviewed_bandi.py
+
       - name: Collaudo dashboard e licenze
         run: node --test tests/*.test.mjs
 
