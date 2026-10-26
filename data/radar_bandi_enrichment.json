@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T14:18:12+01:00",
+  "generatedAt": "2026-10-26T15:10:51+01:00",
   "attempted": 53,
   "enriched": 50,
   "unchanged": 0,
@@ -409,13 +409,13 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7bb208685a30>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x70cc7ce42990>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7bb208685070>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x70cc7cfd2270>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
     },
     {
@@ -429,7 +429,7 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7bb208686c90>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x70cc84400680>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
     },
     {
