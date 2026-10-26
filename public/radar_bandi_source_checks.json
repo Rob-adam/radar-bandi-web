@@ -3,8 +3,8 @@
   "attemptedAt": "2026-10-26T23:54:30+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 60,
-    "needsReview": 5,
+    "observed": 61,
+    "needsReview": 3,
     "failed": 2
   },
   "checks": {
@@ -82,25 +82,25 @@
     },
     "CARIPT-BORSE-LAVORO-2026|https://www.fondazionecaript.it/bando/borse-lavoro/": {
       "url": "https://www.fondazionecaript.it/bando/borse-lavoro/",
-      "evidenceCheckedAt": "2026-10-25",
-      "attemptedAt": "2026-10-26T23:54:30+01:00",
-      "baselineHash": "b169ab9b610f276bbaf55add87b0c99b740189bf8db5d5905016917bdbc913b9",
-      "lastFetchSucceededAt": "2026-10-26T23:54:30+01:00",
+      "evidenceCheckedAt": "2026-10-27",
+      "attemptedAt": "2026-10-27T00:47:18+01:00",
+      "lastFetchSucceededAt": "2026-10-27T00:47:18+01:00",
       "ok": true,
-      "status": "changed",
+      "status": "baseline",
       "observedHash": "92de3c9bfa6746b6e793597681b5e7004cafeae3f26450288879ce415e0f5e8e",
-      "needsReview": true,
+      "baselineHash": "92de3c9bfa6746b6e793597681b5e7004cafeae3f26450288879ce415e0f5e8e",
+      "needsReview": false,
       "bandoId": "CARIPT-BORSE-LAVORO-2026"
     },
     "CARIPT-BORSE-LAVORO-2026|https://www.fondazionecaript.it/wp-content/uploads/2026/04/Borse-Lavoro-2026.pdf": {
       "url": "https://www.fondazionecaript.it/wp-content/uploads/2026/04/Borse-Lavoro-2026.pdf",
-      "evidenceCheckedAt": "2026-10-25",
-      "attemptedAt": "2026-10-26T23:54:30+01:00",
-      "baselineHash": "45472bbae205c0778da66825ae732b6f0463eb9074c258475115646717eecf21",
-      "lastFetchSucceededAt": "2026-10-26T23:54:30+01:00",
+      "evidenceCheckedAt": "2026-10-27",
+      "attemptedAt": "2026-10-27T00:47:18+01:00",
+      "lastFetchSucceededAt": "2026-10-27T00:47:18+01:00",
       "ok": true,
-      "status": "unchanged",
+      "status": "baseline",
       "observedHash": "45472bbae205c0778da66825ae732b6f0463eb9074c258475115646717eecf21",
+      "baselineHash": "45472bbae205c0778da66825ae732b6f0463eb9074c258475115646717eecf21",
       "needsReview": false,
       "bandoId": "CARIPT-BORSE-LAVORO-2026"
     },
@@ -646,25 +646,25 @@
     },
     "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/": {
       "url": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/",
-      "evidenceCheckedAt": "2026-10-26",
-      "attemptedAt": "2026-10-26T23:54:30+01:00",
-      "baselineHash": "a430ee0523504db9c3e6552c8787437ca1aae02b99a820106c55dc1b948be5ac",
-      "lastFetchSucceededAt": "2026-10-26T23:54:30+01:00",
+      "evidenceCheckedAt": "2026-10-27",
+      "attemptedAt": "2026-10-27T00:47:18+01:00",
+      "lastFetchSucceededAt": "2026-10-27T00:47:18+01:00",
       "ok": true,
-      "status": "changed",
+      "status": "baseline",
       "observedHash": "f8c7f9b2de5991797ccbc5a713fd653ec6d081ec0705c7afad8f816dbd71a547",
-      "needsReview": true,
+      "baselineHash": "f8c7f9b2de5991797ccbc5a713fd653ec6d081ec0705c7afad8f816dbd71a547",
+      "needsReview": false,
       "bandoId": "FC-COFIN-EU-2026"
     },
     "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf": {
       "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf",
-      "evidenceCheckedAt": "2026-10-26",
-      "attemptedAt": "2026-10-26T23:54:30+01:00",
-      "baselineHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
-      "lastFetchSucceededAt": "2026-10-26T23:54:30+01:00",
+      "evidenceCheckedAt": "2026-10-27",
+      "attemptedAt": "2026-10-27T00:47:18+01:00",
+      "lastFetchSucceededAt": "2026-10-27T00:47:18+01:00",
       "ok": true,
-      "status": "unchanged",
+      "status": "baseline",
       "observedHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
+      "baselineHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
       "needsReview": false,
       "bandoId": "FC-COFIN-EU-2026"
     },
@@ -727,6 +727,18 @@
       "observedHash": "fcf72c90f6982913b70433254e22d34b1deb2eb5bacec59f2dbb9c08e60ad0b8",
       "needsReview": false,
       "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/wp-content/uploads/2026/05/FAQ_Strumento-Cofinanziamento-Progetti-Europei_aggiornamento.pdf": {
+      "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/FAQ_Strumento-Cofinanziamento-Progetti-Europei_aggiornamento.pdf",
+      "evidenceCheckedAt": "2026-10-27",
+      "attemptedAt": "2026-10-27T00:47:18+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "8d193ff4901f1be837e464e4d78fb7fc3ef9ac3f47232ee935752b5ff666bb2c",
+      "baselineHash": "8d193ff4901f1be837e464e4d78fb7fc3ef9ac3f47232ee935752b5ff666bb2c",
+      "lastFetchSucceededAt": "2026-10-27T00:47:18+01:00",
+      "needsReview": false,
+      "bandoId": "FC-COFIN-EU-2026"
     }
   }
 }

@@ -47,16 +47,23 @@ const REVIEWS={
   },
   "FC-COFIN-EU-2026": {
     "sourceUrl": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/",
+    "reviewedAt": "2026-10-27",
+    "fund": 3100000,
     "maxGrant": null,
     "aid": "Sostegno subordinato all’assegnazione del finanziamento europeo. Importo da definire secondo linee guida; nessun massimale generale confermato.",
     "continuous": true,
-    "note": "Pagina e Linee guida 2026, sezioni 4.2–4.5: enti pubblici o privati non profit con sede legale in Italia; ricadute concrete nel territorio Cariplo; programmi UE a cofinanziamento, escluso Horizon Europe; canale senza scadenza.",
+    "note": "Pagina e Linee guida 2026, sezioni 4.2–4.5: enti pubblici o privati non profit con sede legale in Italia; ricadute concrete nel territorio Cariplo; programmi UE a cofinanziamento, escluso Horizon Europe; canale senza scadenza fino a esaurimento fondi. FAQ aggiornate al 19/10/2026 rilette il 27/10: patrimonio netto, candidature precedenti e ruolo di beneficiario UE diretto da documentare.",
     "documents": [
-      "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf"
+      "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf",
+      "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/FAQ_Strumento-Cofinanziamento-Progetti-Europei_aggiornamento.pdf"
     ],
     "requirements": [
       "Programma UE a cofinanziamento e ricaduta effettiva nel territorio Cariplo; Horizon Europe escluso",
-      "Ruolo di capofila o referente dell’azione, budget e scheda semplificata conformi alle linee guida"
+      "Ruolo di capofila o referente dell’azione, budget e scheda semplificata conformi alle linee guida",
+      "Patrimonio netto positivo nell’ultimo consuntivo approvato; se negativo, strategie di ricapitalizzazione già avviate e formalizzate dall’organo di amministrazione (FAQ 5)",
+      "Nessuna nuova candidatura come capofila o partner finché l’iter della precedente richiesta, inclusa la valutazione europea, non sia concluso (FAQ 4)",
+      "Beneficiario diretto del finanziamento europeo e firmatario del grant agreement; partner soltanto associato o affiliato escluso (FAQ 7)",
+      "Accompagnamento preliminare obbligatorio; richiesta almeno 30 giorni prima della scadenza UE e prima dell’approvazione europea. Erasmus+ senza cofinanziamento: solo eventuale accompagnamento eccezionale valutato dagli uffici (FAQ 10–17)"
     ]
   },
   "ER-CARISBO-EMERGENZE-2026": {
