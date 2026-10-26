@@ -4,7 +4,7 @@
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
     "observed": 60,
-    "needsReview": 4,
+    "needsReview": 3,
     "failed": 2
   },
   "checks": {
@@ -646,25 +646,25 @@
     },
     "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/": {
       "url": "https://www.fondazionecariplo.it/bando/cofinanziamento-progetti-europei/",
-      "evidenceCheckedAt": "2026-10-14",
-      "attemptedAt": "2026-10-26T14:20:40+01:00",
-      "baselineHash": "e0301b74ded74e06095b14b2b3ee0e2399f8378b65d627fad81fb30c41480637",
-      "lastFetchSucceededAt": "2026-10-26T14:20:40+01:00",
+      "evidenceCheckedAt": "2026-10-26",
+      "attemptedAt": "2026-10-26T14:57:38+01:00",
+      "lastFetchSucceededAt": "2026-10-26T14:57:38+01:00",
       "ok": true,
-      "status": "changed",
+      "status": "baseline",
       "observedHash": "a430ee0523504db9c3e6552c8787437ca1aae02b99a820106c55dc1b948be5ac",
-      "needsReview": true,
+      "baselineHash": "a430ee0523504db9c3e6552c8787437ca1aae02b99a820106c55dc1b948be5ac",
+      "needsReview": false,
       "bandoId": "FC-COFIN-EU-2026"
     },
     "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf": {
       "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/LineeGuida_Cofinanziamento-progetti-europei.pdf",
-      "evidenceCheckedAt": "2026-10-14",
-      "attemptedAt": "2026-10-26T14:20:40+01:00",
-      "baselineHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
-      "lastFetchSucceededAt": "2026-10-26T14:20:40+01:00",
+      "evidenceCheckedAt": "2026-10-26",
+      "attemptedAt": "2026-10-26T14:57:38+01:00",
+      "lastFetchSucceededAt": "2026-10-26T14:57:38+01:00",
       "ok": true,
-      "status": "unchanged",
+      "status": "baseline",
       "observedHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
+      "baselineHash": "b80d235a2ace6591ce0328024f9860b3d26ab4e60bd3e978064fa415c5fbee3e",
       "needsReview": false,
       "bandoId": "FC-COFIN-EU-2026"
     },
