@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T13:28:51+01:00",
+  "generatedAt": "2026-10-27T23:27:12+01:00",
   "attempted": 50,
-  "enriched": 41,
+  "enriched": 47,
   "unchanged": 0,
-  "failed": 9,
+  "failed": 3,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -26,8 +26,11 @@
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763"
     },
     {
@@ -80,18 +83,6 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13352&fromPage=Elenco&high="
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/universita-formazione-accademica/monitoraggio-contributi-gestione-dsu-2025-RLF12026057243"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-promozione-lingua-lombarda-attraverso-sue-variet-locali-anno-2026-RLL12026054686"
-    },
-    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13356&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -125,6 +116,53 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13324&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/coprogettazione-piano-formativo-territoriale-RLD12026057544",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/coprogettazione-piano-formativo-territoriale-RLD12026057544"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/comunicare-senza-barriere-2026-2028-RLD12026057543",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/comunicare-senza-barriere-2026-2028-RLD12026057543"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-adesione-famiglie-RLD12026053903",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-adesione-famiglie-RLD12026053903"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText",
+        "sourceStatus"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -139,18 +177,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/attivita-produttive-imprese/fiere/bando-sostegno-sistema-fieristico-lombardo-2027-RLO12026056363"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/sicurezza-protezione-civile/pianificazione-allertamento-gestione-emergenze/contributo-regionale-redazione-revisione-piani-comunali-protezione-civile-RLY12026056043"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
@@ -175,12 +201,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='www.bandi.regione.lombardia.it', port=443): Read timed out. (read timeout=30)",
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/giovani/fuori-classe-povert-educativa-RLD12025050784"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
@@ -373,13 +393,13 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b6d40999c10>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b32588d3f20>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b6d409991f0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b32588d0830>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
     },
     {
@@ -393,7 +413,7 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b6d40998920>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7b3258bc41a0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
     }
   ]
