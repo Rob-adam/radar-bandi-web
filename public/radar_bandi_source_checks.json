@@ -4,8 +4,8 @@
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
     "observed": 61,
-    "needsReview": 4,
-    "failed": 3
+    "needsReview": 3,
+    "failed": 2
   },
   "checks": {
     "LIG-ACCOGLIENZA-GASLINI-2026|https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html": {
@@ -671,13 +671,13 @@
     "FC-COFIN-EU-2026|https://www.fondazionecariplo.it/wp-content/uploads/2026/05/FAQ_Strumento-Cofinanziamento-Progetti-Europei_aggiornamento.pdf": {
       "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/05/FAQ_Strumento-Cofinanziamento-Progetti-Europei_aggiornamento.pdf",
       "evidenceCheckedAt": "2026-10-27",
-      "attemptedAt": "2026-10-27T01:22:23+01:00",
+      "attemptedAt": "2026-10-27T02:27:57+01:00",
       "baselineHash": "8d193ff4901f1be837e464e4d78fb7fc3ef9ac3f47232ee935752b5ff666bb2c",
-      "lastFetchSucceededAt": "2026-10-27T01:01:48+01:00",
-      "ok": false,
-      "status": "unavailable",
-      "needsReview": true,
-      "error": "(\"Connection broken: BrokenPipeError(32, 'Broken pipe')\", BrokenPipeError(32, 'Broken pipe'))",
+      "lastFetchSucceededAt": "2026-10-27T02:27:57+01:00",
+      "ok": true,
+      "status": "unchanged",
+      "observedHash": "8d193ff4901f1be837e464e4d78fb7fc3ef9ac3f47232ee935752b5ff666bb2c",
+      "needsReview": false,
       "bandoId": "FC-COFIN-EU-2026"
     },
     "ER-CARISBO-EMERGENZE-2026|https://fondazionecarisbo.it/bandi-e-iniziative/emergenze/": {
