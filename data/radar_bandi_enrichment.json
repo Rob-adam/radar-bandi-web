@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T23:52:00+01:00",
-  "attempted": 53,
-  "enriched": 50,
+  "generatedAt": "2026-10-27T00:59:19+01:00",
+  "attempted": 51,
+  "enriched": 44,
   "unchanged": 0,
-  "failed": 3,
+  "failed": 7,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -23,22 +23,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
-    },
-    {
-      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13339&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4738:contributi-case-rifugio-2026.html",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4738:contributi-case-rifugio-2026.html"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/formazione-ambiti-professionali-restauro-beni-culturali-spettacolo-vivo-2025-RLW12025048763",
@@ -348,38 +332,26 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "sourceStatus"
-      ],
+      "ok": false,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "sourceStatus"
-      ],
+      "ok": false,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "sourceStatus"
-      ],
+      "ok": false,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "sourceStatus"
-      ],
+      "ok": false,
+      "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high="
     },
     {
@@ -409,13 +381,13 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7027680edc70>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7d5c5c72a840>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7027684620c0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7d5c5c60c440>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
     },
     {
@@ -429,7 +401,7 @@
     {
       "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7027684bd490>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7d5c5c60d3d0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
     },
     {
