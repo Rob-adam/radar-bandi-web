@@ -1,3 +1,5 @@
+import {routeOnboarding} from "./onboarding.js";
+export {OnboardingRegistry} from "./onboarding.js";
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){
@@ -92,6 +94,15 @@ export async function serveGuideVideo(request,env){
 export default {
   async fetch(request,env,ctx){
     const url=new URL(request.url);
+    const onboarding=await routeOnboarding(request,env);
+    if(onboarding)return onboarding;
+    if(request.method==='GET'&&url.pathname.startsWith('/admin')&&env.ONBOARDING_ENABLED==='true'&&env.ONBOARDING){
+      const response=await app.fetch(request,env,ctx);
+      if(!response.ok||!response.headers.get('content-type')?.includes('text/html'))return response;
+      const html=(await response.text()).replace('<head>','<head><script>window.BANDOVERA_ONBOARDING=true;</script>').replace('</body>','<script src="/admin/requests.js" defer></script></body>');
+      const headers=new Headers(response.headers);headers.delete('content-length');headers.set('referrer-policy','no-referrer');headers.set('cache-control','no-store');
+      return new Response(html,{status:response.status,headers});
+    }
     if((request.method==='GET'||request.method==='HEAD')&&url.pathname==='/media/bandovera-guida-sara-v6.mp4')return serveGuideVideo(request,env);
     const accept=request.headers.get("accept")||"";
     if(request.method==="GET"&&(url.pathname==="/"||accept.includes("text/html")))return dashboard(request,env,ctx);

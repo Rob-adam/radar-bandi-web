@@ -39,7 +39,7 @@ function opportunityCurrent(b){
  const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Europe/Rome",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
  return raw>=today;
 }
-function cleanProfile(input,code,rec){
+export function cleanProfile(input,code,rec){
  if(!input||typeof input!=="object")return null;
  const s=v=>String(v??"").slice(0,4000);
  return enrichProfile({
@@ -55,6 +55,7 @@ const clientUiFix=`<script id="bandovera-ui-fix">(()=>{const bandiBadge=document
 
 const adminSync=`<script id="bandovera-admin-sync">
 (()=>{
+ if(window.BANDOVERA_ONBOARDING)return;
  const KEY='radar_bandi_admin_clients_v1';
  const SK='bandovera_admin_api_key';
  const LOADED='bandovera_cloud_clients_loaded_v1';
