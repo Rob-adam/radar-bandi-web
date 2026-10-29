@@ -1,5 +1,5 @@
 {
-  "updatedAt": "21/08/2026 11:28",
+  "updatedAt": "29/10/2026 07:42",
   "schemaVersion": 3,
   "bandi": [
     {
@@ -442,7 +442,7 @@
       "id": "RLH12026055146",
       "title": "Linea 3 – Housing Sociale",
       "source": "Regione Lombardia",
-      "deadline": "2026-10-30",
+      "deadline": "2026-11-20",
       "fund": 13000000,
       "maxGrant": 2000000,
       "aid": "Contributo per riqualificazione di immobili destinati a servizi abitativi sociali",
@@ -525,7 +525,7 @@
       ],
       "hardKeyword": null,
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
-      "deadlineAt": "2026-10-30T12:00:00+01:00"
+      "deadlineAt": "2026-11-20T12:00:00+01:00"
     },
     {
       "id": "RLY12026054349",
@@ -693,4 +693,3 @@
     }
   ]
 }
-

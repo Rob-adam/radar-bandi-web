@@ -83,19 +83,20 @@ const REVIEWS={
   },
   "RLH12026055146": {
     "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/housing-sociale/bando-sostegno-progetti-housing-sociale-promossi-enti-privato-sociale-incentivare-l-autonomia-abitativa-favorire-servizi-abitativi-sociali-linea-3-housing-sociale-d-g-r-25-maggio-2026-n-xii-6209-s-m-RLH12026055146",
-    "deadline": "2026-10-30",
+    "deadline": "2026-11-20",
     "fund": 13000000,
     "maxGrant": 2000000,
-    "note": "Scheda ufficiale e FAQ del 23/10/2026, sezione A D3 bis–D5 quater, consultate il 23/10/2026. Confermati termine 30/10 ore 12 e massimo 2 milioni. Per ETS occorre esercitare servizi abitativi ex art. 5 comma 1 lettera q) CTS: generiche finalità sociali o attività diverse ex art. 6 non bastano. Titolo sull’immobile già efficace alla domanda e sufficiente per lavori e gestione, almeno 20 anni dal saldo; non bastano preliminari o proroghe future.",
+    "note": "Scheda ufficiale e FAQ del 23/10/2026, sezione A D3 bis–D5 quater, rilette il 29/10/2026. Decreto 14403 del 28/10/2026, dispositivo punti 1–3, e pagina ufficiale riletti il 29/10: termine prorogato al 20/11/2026 ore 12, senza modificare le altre disposizioni; massimo 2 milioni confermato. Per ETS occorre esercitare servizi abitativi ex art. 5 comma 1 lettera q) CTS: generiche finalità sociali o attività diverse ex art. 6 non bastano. Titolo sull’immobile già efficace alla domanda e sufficiente per lavori e gestione, almeno 20 anni dal saldo; non bastano preliminari o proroghe future.",
     "documents": [
-      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf"
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf",
+      "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a17ff53601a1830642cd010e?fileName=dduo+14403+Proroga+termini+Linea+3+28_10_26.pdf"
     ],
     "requirements": [
       "ETS: attività di servizi abitativi di interesse generale ex art. 5 comma 1 lettera q) CTS; per imprese sociali ed enti religiosi verificare le rispettive categorie ammesse nelle FAQ D3 bis–D3 quater.",
       "Titolo giuridico sull’immobile già perfezionato ed efficace alla domanda, per lavori e intero periodo di gestione; vincolo almeno 20 anni dall’erogazione del saldo. Non bastano preliminari, lettere di impegno o proroghe future."
     ],
-    "reviewedAt": "2026-10-23",
-    "deadlineAt": "2026-10-30T12:00:00+01:00"
+    "reviewedAt": "2026-10-29",
+    "deadlineAt": "2026-11-20T12:00:00+01:00"
   },
   "CONIBAMBINI-NOTE-COMUNITA-2026": {
     "sourceUrl": "https://www.conibambini.org/bandi-e-iniziative/bando-note-di-comunita-esperienze-musicali-di-quartiere/",

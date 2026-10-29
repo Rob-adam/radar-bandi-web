@@ -20,7 +20,7 @@ test('October 23 reviews deliver event advance notice and housing statutory requ
  const housing=body.bandi.find(b=>b.id==='RLH12026055146');
  assert.ok(housing.hardRequirements.some(r=>r.label.includes('lettera q)')));
  assert.ok(housing.hardRequirements.some(r=>r.label.includes('perfezionato')));
- assert.equal(housing.deadlineAt,'2026-10-30T12:00:00+01:00');
+ assert.equal(housing.deadlineAt,'2026-11-20T12:00:00+01:00');
  assert.ok(housing.evidenceUrls.some(url=>url.includes('FAQ_Bando_Linea3_HS_23-10')));
 });
 test('favorites are saved and returned, and invalid origin is rejected',async()=>{const url='https://test.local/api/favorites/RB-0003';let r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://test.local','content-type':'application/json',cookie:testCookie},body:JSON.stringify({favorites:['https://example.org/call']})}),env);assert.equal(r.status,200);assert.deepEqual((await(await app.fetch(new Request(url,{headers:{cookie:testCookie}}),env)).json()).favorites,['https://example.org/call']);r=await app.fetch(new Request(url,{method:'PUT',headers:{origin:'https://other.local','content-type':'application/json',cookie:testCookie},body:'{"favorites":[]}'}),env);assert.equal(r.status,403);});
@@ -68,7 +68,7 @@ test('production catalogs apply documented reviews and live monitoring, preserve
  const needsReview=new Set(Object.values(sourceChecks).filter(c=>c.needsReview).map(c=>c.bandoId));
  assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
  for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
-  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='FC-COFIN-EU-2026'?'2026-10-27':id==='RLH12026055146'?'2026-10-23':id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='FC-COFIN-EU-2026'?'2026-10-27':id==='RLH12026055146'?'2026-10-29':id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
  }
  const eu=all.find(b=>b.id==='FC-COFIN-EU-2026');
  assert.equal(eu.fund,3100000);
@@ -191,4 +191,14 @@ test('update badge chooses latest content date across active and future catalogs
  assert.equal(context.latestOpportunityUpdate('26/10/2026 00:03','25/10/2026 21:54'),'26/10/2026 00:03');
  assert.equal(context.latestOpportunityUpdate('01/11/2026 08:00','31/10/2026 23:00'),'01/11/2026 08:00');
  assert.equal(context.latestOpportunityUpdate(null,'invalid'),null);
+});
+
+
+test('Housing proroga stays available after the old deadline and closes at the new exact time',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-10-31T08:00:00+01:00')});
+ const call=async()=>{const r=await app.fetch(new Request('https://test.local/radar_bandi_catalogo.json?scope=national'),env);return (await r.json()).bandi.find(b=>b.id==='RLH12026055146')};
+ const b=await call();assert.ok(b);assert.equal(b.deadlineAt,'2026-11-20T12:00:00+01:00');
+ assert.ok(b.evidenceUrls.some(u=>u.includes('14403')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('lettera q)')));
+ t.mock.timers.setTime(new Date('2026-11-20T12:00:01+01:00').getTime());assert.equal(await call(),undefined);
 });
