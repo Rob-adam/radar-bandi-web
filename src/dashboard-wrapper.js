@@ -2,6 +2,7 @@ import {routeContact} from './contact-mailer.js';
 import {createStripeCheckout} from './stripe-checkout-test.js';
 import {stripeWebhookStaging} from './stripe-webhook-staging.js';
 export {ContactDispatcher} from './contact-mailer.js';
+export {StripeOrderLedger} from './stripe-order-ledger.js';
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){
