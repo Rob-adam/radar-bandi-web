@@ -18,5 +18,10 @@
   },
   "placement": {
     "region": "aws:eu-south-1"
+  },
+  "triggers": {
+    "crons": [
+      "0 */6 * * *"
+    ]
   }
 }
