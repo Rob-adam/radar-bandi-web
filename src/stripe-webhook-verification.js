@@ -77,6 +77,8 @@ export function classifyPaidCheckout(event, {expectedAmount = 1990, expectedCurr
   if (session.amount_total !== expectedAmount || String(session.currency).toLowerCase() !== expectedCurrency) {
     return {action: "reject", reason: "importo_valuta"};
   }
+  if (typeof session.id !== 'string' || !session.id.startsWith('cs_test_')) return {action:'reject',reason:'sessione_non_valida'};
+  if (session.client_reference_id && session.metadata?.request_id && session.client_reference_id !== session.metadata.request_id) return {action:'reject',reason:'richieste_divergenti'};
   const requestId = session.client_reference_id || session.metadata?.request_id;
   if (!/^[a-zA-Z0-9_-]{8,100}$/.test(String(requestId || ""))) {
     return {action: "reject", reason: "richiesta_assente"};
