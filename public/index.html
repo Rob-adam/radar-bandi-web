@@ -423,41 +423,8 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
     const contacts=document.createElement("div");contacts.id="licenseContacts";
     contacts.setAttribute("role","group");contacts.setAttribute("aria-label","Contatti BANDOVERA");
     licenseBox.insertAdjacentElement("afterend",contacts);
-    function contactButton(id,label){
-      const button=document.createElement("button");button.type="button";button.id=id;
-      button.className="btn ghost";button.textContent=label;
-      button.style.cssText="width:100%;margin-top:10px";contacts.appendChild(button);return button;
-    }
     const assistButton=document.getElementById("assistDisservizio");
     if(assistButton)contacts.appendChild(assistButton);
-    const infoButton=contactButton("generalInfo","Informazioni generali");
-    const modal=document.createElement("div");modal.id="generalInfoModal";modal.className="modal-wrap hidden";
-    modal.innerHTML=`<div class="card modal"><h2 style="margin-top:0">Informazioni generali</h2>
-      <div class="small">Per informazioni su BANDOVERA e sulla tua licenza: info@bandovera.it. Il modulo invia tramite Cloudflare e Register.it; dettagli in Privacy. Per una candidatura usa Supporto; per problemi tecnici usa Assistenza.</div>
-      <form id="generalInfoForm" class="form" style="margin-top:14px">
-        <input type="hidden" name="_subject" value="BANDOVERA — informazioni generali">
-        <input name="Nome referente" required placeholder="Nome referente *">
-        <input name="Email" type="email" required placeholder="Email *">
-        <input name="Telefono" placeholder="Telefono">
-        <textarea name="Messaggio" required rows="4" placeholder="Come possiamo aiutarti? *"></textarea>
-        <div id="generalInfoMsg" role="status" aria-live="polite"></div>
-        <div style="display:flex;gap:8px;margin-top:2px">
-          <button class="btn primary" type="submit">Invia richiesta</button>
-          <button class="btn ghost" type="button" id="generalInfoClose">Annulla</button>
-        </div>
-      </form></div>`;
-    document.body.appendChild(modal);
-    const form=modal.querySelector("#generalInfoForm"),message=modal.querySelector("#generalInfoMsg");
-    infoButton.onclick=()=>modal.classList.remove("hidden");
-    modal.querySelector("#generalInfoClose").onclick=()=>closeModal(modal);
-    modal.onclick=e=>{if(e.target===modal)closeModal(modal)};
-    form.addEventListener("submit",async e=>{
-      e.preventDefault();const submit=form.querySelector('button[type="submit"]');
-      if(submit.disabled)return;submit.disabled=true;
-      try{if(await sendContact(form,message,INFO_EMAIL)){
-        setTimeout(()=>{form.reset();closeModal(modal);message.textContent="";},15000);
-      }}finally{submit.disabled=false;}
-    });
   }
 
   /* SUPPORTO CANDIDATURA: mantiene il pulsante esistente ma invia senza aprire pagine esterne */
