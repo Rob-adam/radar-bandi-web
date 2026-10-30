@@ -352,7 +352,7 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
       return true;
     }catch(err){
       console.error("BANDOVERA assistenza",err);
-      msg.innerHTML='<div class="msg err"><b>Invio non riuscito.</b> Riprova tra poco.</div>';
+      msg.innerHTML='<div class="msg err"><b>Invio non riuscito.</b> Il servizio non ha confermato la richiesta. Scrivi direttamente a '+destination+' oppure riprova più tardi.</div>';
       return false;
     }
   }
@@ -426,12 +426,6 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
       button.className="btn ghost";button.textContent=label;
       button.style.cssText="width:100%;margin-top:10px";contacts.appendChild(button);return button;
     }
-    const supportButton=contactButton("supportCandidatura","Supporto alla candidatura");
-    supportButton.onclick=()=>{
-      document.getElementById("contactBando").textContent="Richiesta generale di supporto alla candidatura";
-      document.getElementById("contactMsg").textContent="";
-      document.getElementById("contact").classList.remove("hidden");
-    };
     const assistButton=document.getElementById("assistDisservizio");
     if(assistButton)contacts.appendChild(assistButton);
     const infoButton=contactButton("generalInfo","Informazioni generali");
