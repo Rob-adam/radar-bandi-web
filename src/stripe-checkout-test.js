@@ -15,10 +15,10 @@ export async function createStripeCheckout(request,env){
  if(request.headers.get("origin")!==url.origin||!String(request.headers.get("content-type")||"").toLowerCase().startsWith("application/json"))return reply({error:"Richiesta non consentita"},403);
  let body;try{if(Number(request.headers.get("content-length"))>8192)return reply({error:"Richiesta troppo grande"},413);body=await request.json()}catch{return reply({error:"Dati non validi"},400)}
  const organization=safe(body?.organization,180),contactName=safe(body?.contactName,120),email=safe(body?.email,254),region=safe(body?.region,90),entityType=body?.entityType;
- if(!organization||!contactName||!email||!region||!["ODV","APS","Altro ETS"].includes(entityType)||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return reply({error:"Compila tutti i campi richiesti"},400);
+ if(!organization||!contactName||!email||!region||!["ODV","APS","Altro ETS"].includes(entityType)||body?.privacyConsent!=="yes"||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return reply({error:"Compila tutti i campi richiesti"},400);
  // L'accettazione dell'informativa va tracciata lato server nel flusso definitivo.
  const id=crypto.randomUUID().replace(/-/g,"");
- const record={id,organization,contactName,email,region,entityType,status:"pending_payment",createdAt:new Date().toISOString(),mode:"test"};
+ const record={id,organization,contactName,email,region,entityType,privacyConsent:true,status:"pending_payment",createdAt:new Date().toISOString(),mode:"test"};
  await env.ORDER_STORE.put("order:"+id,JSON.stringify(record),{expirationTtl:60*60*24*30});
  const form=new URLSearchParams({
   mode:"payment",
