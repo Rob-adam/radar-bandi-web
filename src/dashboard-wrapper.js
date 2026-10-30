@@ -1,3 +1,5 @@
+import {routeContact} from './contact-mailer.js';
+export {ContactDispatcher} from './contact-mailer.js';
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){
@@ -92,6 +94,8 @@ export async function serveGuideVideo(request,env){
 export default {
   async fetch(request,env,ctx){
     const url=new URL(request.url);
+    const contact=await routeContact(request,env);
+    if(contact)return contact;
     if((request.method==='GET'||request.method==='HEAD')&&url.pathname==='/media/bandovera-guida-sara-v6.mp4')return serveGuideVideo(request,env);
     const accept=request.headers.get("accept")||"";
     if(request.method==="GET"&&(url.pathname==="/"||accept.includes("text/html")))return dashboard(request,env,ctx);
