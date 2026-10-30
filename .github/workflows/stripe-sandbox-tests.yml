@@ -4,6 +4,7 @@ on:
     paths:
       - 'src/stripe-*.js'
       - 'tests/stripe-*.test.mjs'
+      - 'integration/site/stripe-checkout-existing-sheet-test.js'
       - '.github/workflows/stripe-sandbox-tests.yml'
   workflow_dispatch:
 jobs:
