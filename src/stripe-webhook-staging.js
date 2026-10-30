@@ -8,6 +8,7 @@ const json=(payload,status=200)=>new Response(JSON.stringify(payload),{status,he
  * Configure a dedicated TEST Stripe endpoint and secret before enabling.
  */
 export async function stripeWebhookStaging(request,env){
+ if(env.BANDOVERA_FULFILLMENT_TEST_READY!=="true")return json({error:"Attivazione licenze non ancora collaudata"},503);
  if(request.method!=="POST")return json({error:"Metodo non consentito"},405);
  if(env.BANDOVERA_CHECKOUT_TEST_ENABLED!=="true"||!env.STRIPE_TEST_WEBHOOK_SECRET||!env.ORDER_STORE||!env.STRIPE_ORDERS)return json({error:"Webhook test non configurato"},503);
  let raw;
