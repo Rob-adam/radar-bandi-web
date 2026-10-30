@@ -18,5 +18,34 @@
   },
   "placement": {
     "region": "aws:eu-south-1"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "ONBOARDING",
+        "class_name": "OnboardingRegistry"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "onboarding-v1",
+      "new_sqlite_classes": [
+        "OnboardingRegistry"
+      ]
+    }
+  ],
+  "vars": {
+    "ONBOARDING_ENABLED": "false",
+    "SMTP_HOST": "authsmtp.securemail.pro",
+    "SMTP_PORT": "465",
+    "SMTP_FROM": "info@bandovera.it",
+    "SMTP_VERIFIED": "false",
+    "BONIFICO_VERIFIED": "false"
+  },
+  "triggers": {
+    "crons": [
+      "0 */6 * * *"
+    ]
   }
 }
