@@ -41,7 +41,7 @@
     }
   ],
   "vars": {
-    "CONTACTS_ENABLED": "false",
+    "CONTACTS_ENABLED": "true",
     "SMTP_VERIFIED": "true",
     "SMTP_HOST": "authsmtp.securemail.pro",
     "SMTP_PORT": "465",
