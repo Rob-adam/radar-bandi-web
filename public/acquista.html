@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Richiedi Bandovera · Licenza 12 mesi</title>
+<style>
+:root{color-scheme:dark;font-family:Calibri,Arial,sans-serif}*{box-sizing:border-box}body{margin:0;background:#071321;color:#f2f8fc;padding:28px 14px}.panel{max-width:620px;margin:30px auto;padding:28px;border:1px solid #2a4a61;border-radius:18px;background:#0c1c2c}h1{margin:0 0 10px}p{line-height:1.5;color:#c8d8e5}label{display:block;margin:14px 0 5px;font-weight:bold}input,select{width:100%;padding:12px;border:1px solid #4c6b82;border-radius:8px;background:#10283c;color:white;font:inherit}button{padding:14px 18px;border:0;border-radius:9px;background:#35d1c5;color:#06131f;font:inherit;font-weight:700;width:100%;margin-top:20px;cursor:pointer}button:disabled{opacity:.5;cursor:wait}.notice{margin-top:15px;padding:12px;border:1px solid #47627a;border-radius:8px;color:#c8d8e5}.small{font-size:13px}.check{display:flex;gap:10px;align-items:flex-start;margin-top:20px}.check input{width:auto;margin-top:4px}.check label{margin:0;font-weight:normal}.price{font-size:28px;color:#35d1c5;font-weight:800}
+</style></head><body>
+<main class="panel">
+<h1>Richiedi BANDOVERA</h1>
+<p>Licenza nominativa per un'associazione o un ente del Terzo settore.</p>
+<div class="price">19,90 € / 12 mesi</div><p class="small">Pagamento unico, senza rinnovo automatico. La licenza viene attivata dopo la conferma del pagamento.</p>
+<form id="order">
+<label for="org">Denominazione dell'ente *</label><input id="org" name="organization" maxlength="180" autocomplete="organization" required>
+<label for="type">Tipologia ente *</label><select id="type" name="entityType" required><option value="">Seleziona</option><option>ODV</option><option>APS</option><option>Altro ETS</option></select>
+<label for="name">Nome e cognome del referente *</label><input id="name" name="contactName" maxlength="120" autocomplete="name" required>
+<label for="email">Email del referente *</label><input id="email" name="email" type="email" maxlength="254" autocomplete="email" required>
+<label for="region">Regione sede legale *</label><input id="region" name="region" maxlength="90" required>
+<div class="check"><input type="checkbox" id="privacy" name="privacyConsent" value="yes" required><label for="privacy">Confermo di aver letto l'informativa privacy e autorizzo il trattamento dei dati necessari alla richiesta di licenza. *</label></div>
+<button type="submit" id="pay">Paga ora · 19,90 €</button>
+<div class="notice small" id="status" role="status" aria-live="polite">Verrai indirizzato alla pagina di pagamento sicura di Stripe. Questa pagina è ancora in fase di collaudo e non è disponibile sul sito pubblico.</div>
+</form>
+</main>
+<script>
+const form=document.getElementById('order'),status=document.getElementById('status'),pay=document.getElementById('pay');
+form.addEventListener('submit',async e=>{
+ e.preventDefault();
+ if(!form.reportValidity())return;
+ pay.disabled=true;status.textContent='Preparazione del pagamento...';
+ try{
+  const values=Object.fromEntries(new FormData(form).entries());
+  // Il server dovrà generare un ordine e la sessione Checkout con importo fisso.
+  const response=await fetch('/api/checkout/create',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(values)});
+  const result=await response.json();
+  if(!response.ok||!result.checkoutUrl||!/^https:\/\/checkout\.stripe\.com\//.test(result.checkoutUrl))throw Error(result.error||'Pagamento non disponibile');
+  window.location.assign(result.checkoutUrl);
+ }catch(err){status.textContent='Pagamento non ancora disponibile: '+(err.message||'riprova più tardi');pay.disabled=false;}
+});
+</script></body></html>

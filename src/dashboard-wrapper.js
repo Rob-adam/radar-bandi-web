@@ -1,5 +1,8 @@
 import {routeContact} from './contact-mailer.js';
+import {createStripeCheckout} from './stripe-checkout-test.js';
+import {stripeWebhookStaging} from './stripe-webhook-staging.js';
 export {ContactDispatcher} from './contact-mailer.js';
+export {StripeOrderLedger} from './stripe-order-ledger.js';
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){
@@ -94,6 +97,11 @@ export async function serveGuideVideo(request,env){
 export default {
   async fetch(request,env,ctx){
     const url=new URL(request.url);
+    if(url.pathname==='/api/stripe/webhook')return stripeWebhookStaging(request,env);
+    if(url.pathname==='/api/checkout/create'){
+      if(env.BANDOVERA_CHECKOUT_TEST_ENABLED!=='true')return new Response(JSON.stringify({error:'Pagamento di prova non attivo'}),{status:503,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store'}});
+      return createStripeCheckout(request,env);
+    }
     const contact=await routeContact(request,env);
     if(contact)return contact;
     if((request.method==='GET'||request.method==='HEAD')&&url.pathname==='/media/bandovera-guida-sara-v6.mp4')return serveGuideVideo(request,env);
