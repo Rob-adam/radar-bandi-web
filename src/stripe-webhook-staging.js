@@ -9,7 +9,7 @@ const json=(payload,status=200)=>new Response(JSON.stringify(payload),{status,he
  */
 export async function stripeWebhookStaging(request,env){
  if(request.method!=="POST")return json({error:"Metodo non consentito"},405);
- if(env.BANDOVERA_CHECKOUT_TEST_ENABLED!=="true"||!env.STRIPE_TEST_WEBHOOK_SECRET||!env.ORDER_STORE)return json({error:"Webhook test non configurato"},503);
+ if(env.BANDOVERA_CHECKOUT_TEST_ENABLED!=="true"||!env.STRIPE_TEST_WEBHOOK_SECRET||!env.ORDER_STORE||!env.STRIPE_ORDERS)return json({error:"Webhook test non configurato"},503);
  let raw;
  try { raw=await request.text(); if(raw.length>256000)return json({error:"Payload troppo grande"},413) }
  catch {return json({error:"Payload non leggibile"},400)}
@@ -21,7 +21,13 @@ export async function stripeWebhookStaging(request,env){
  if(classification.action==="reject")return json({error:classification.reason},400);
  const record=await env.ORDER_STORE.get("order:"+classification.requestId,{type:"json"});
  if(!record||record.mode!=="test"||record.stripeSessionId!==classification.sessionId)return json({error:"Ordine non corrispondente"},409);
- // Never acknowledge paid events without the order processor being ready.
- // In this staging phase they are deliberately retried by Stripe.
- return json({error:"Attivazione automatica non ancora configurata: riprovare"},503);
+ // Persist before acknowledgement; an eventual fulfilment worker must issue the licence.
+ try {
+   const stub=env.STRIPE_ORDERS.get(env.STRIPE_ORDERS.idFromName(classification.requestId));
+   const saved=await stub.fetch("https://stripe-ledger.internal/paid",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({orderId:classification.requestId,sessionId:classification.sessionId,eventId:classification.eventId,amount:classification.amount,currency:classification.currency})});
+   const result=await saved.json();
+   if(!saved.ok)return json({error:"Ordine non registrato",code:result.status||result.error||"error"},503);
+   return json({received:true,orderStatus:result.status,licenseActivated:false});
+ } catch {return json({error:"Registro ordini temporaneamente non disponibile"},503)}
+
 }
