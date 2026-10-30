@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bandovera-stripe-test",
+  "main": "./src/stripe-test-worker.js",
+  "compatibility_date": "2026-08-21",
+  "workers_dev": true,
+  "assets": {"directory": "./public", "binding": "ASSETS", "run_worker_first": true},
+  "kv_namespaces": [
+    {"binding": "LICENSES", "id": "e16f2bc4c0664357aafadb07c5594e9b"},
+    {"binding": "ORDER_STORE", "id": "cdc6ef0dcd3940e99ce214a739a4948f"}
+  ],
+  "durable_objects": {"bindings": [
+    {"name": "TEST_FULFILLMENT", "class_name": "StripeTestFulfillment"},
+    {"name": "CONTACTS", "class_name": "ContactDispatcher"},
+    {"name": "STRIPE_ORDERS", "class_name": "StripeOrderLedger"}
+  ]},
+  "migrations": [
+    {"tag":"stripe-test-v1", "new_sqlite_classes":["StripeTestFulfillment","ContactDispatcher","StripeOrderLedger"]}
+  ],
+  "vars": {
+    "BANDOVERA_ENV": "stripe-test",
+    "TEST_LICENSES_ID": "e16f2bc4c0664357aafadb07c5594e9b",
+    "TEST_ORDERS_ID": "cdc6ef0dcd3940e99ce214a739a4948f",
+    "TEST_ORIGIN": "https://bandovera-stripe-test.presidente-56d.workers.dev",
+    "TEST_CHECKOUT_ENABLED": "false",
+    "BANDOVERA_CHECKOUT_TEST_ENABLED": "false",
+    "BANDOVERA_FULFILLMENT_TEST_READY": "false",
+    "CONTACTS_ENABLED": "false",
+    "SMTP_VERIFIED": "false"
+  }
+}
