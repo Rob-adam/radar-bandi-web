@@ -23,5 +23,28 @@
     "crons": [
       "0 */6 * * *"
     ]
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CONTACTS",
+        "class_name": "ContactDispatcher"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "contacts-v1",
+      "new_sqlite_classes": [
+        "ContactDispatcher"
+      ]
+    }
+  ],
+  "vars": {
+    "CONTACTS_ENABLED": "false",
+    "SMTP_VERIFIED": "true",
+    "SMTP_HOST": "authsmtp.securemail.pro",
+    "SMTP_PORT": "465",
+    "SMTP_FROM": "info@bandovera.it"
   }
 }
