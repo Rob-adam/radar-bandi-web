@@ -11,7 +11,8 @@
   const cfg=window.BANDOVERA_STRIPE_TEST;
   if(!cfg||cfg.enabled!==true||location.origin!==cfg.origin)return;
   const form=document.querySelector('form#scheda');
-  if(!form||form.querySelector('[data-bv-stripe-test]'))return;
+  const summary=document.getElementById('riepilogo');
+  if(!form||!summary||document.querySelector('[data-bv-stripe-test]'))return;
   const button=document.createElement('button');
   button.type='button';
   button.dataset.bvStripeTest='true';
@@ -20,17 +21,26 @@
   status.setAttribute('role','status');
   status.setAttribute('aria-live','polite');
   status.textContent='Pagamento esclusivamente di prova, senza addebito reale.';
-  button.insertAdjacentElement ? form.append(button,status) : form.appendChild(button);
+  const box=document.createElement('section');
+  box.setAttribute('aria-label','Pagamento Stripe di prova');
+  box.append(button,status);
+  summary.append(box);
   // Multiple attempts reuse the same id for the same page session.
   const id=Array.from(crypto.getRandomValues(new Uint8Array(16)),b=>b.toString(16).padStart(2,'0')).join('');
   button.addEventListener('click',async()=>{
     if(!form.reportValidity())return;
     const sheet=Object.create(null);
-    for(const [name,value] of new FormData(form).entries()){
-      if(!/^[a-z][a-z0-9_]{0,63}$/.test(name))continue;
-      if(typeof value!=='string')continue;
-      // The original form field names and selections remain unchanged.
-      sheet[name]=sheet[name] ? sheet[name]+'; '+value : value;
+    // Match the commercial onboarding add-on: only successful form controls.
+    // Repeated values are not combined into fabricated single-choice values.
+    new FormData(form).forEach((value,name)=>{
+      if(!/^[a-z][a-z0-9_]{0,63}$/.test(name)||typeof value!=='string')return;
+      if(Object.hasOwn(sheet,name))return;
+      sheet[name]=value.trim();
+    });
+    const required=['nome_associazione','cf','tipo_ente','runts','regione','settore_principale','finalita_statutarie','capacita_progetti','referente','email_referente','ack_completezza','luogo_data','compilatore','privacy'];
+    if(required.some(name=>!sheet[name])||sheet.privacy!=='Sì'||sheet.ack_completezza!=='Sì'){
+      status.textContent='Completa la scheda e conferma privacy e completezza prima di procedere.';
+      return;
     }
     button.disabled=true;
     status.textContent='Preparazione del pagamento di prova...';
