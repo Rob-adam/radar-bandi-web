@@ -3,8 +3,8 @@ const json=(payload,status=200)=>new Response(JSON.stringify(payload),{status,he
 
 /**
  * Verified events staging only. NO LICENSES writes and NO automatic activation.
- * The webhook returns 503 for paid sessions until a durable transactional order
- * processor is installed: Stripe will retry instead of silently losing the event.
+ * The webhook returns 503 for paid sessions until licensing and delivery are
+ * implemented: Stripe will retry rather than silently treating them as fulfilled.
  * Configure a dedicated TEST Stripe endpoint and secret before enabling.
  */
 export async function stripeWebhookStaging(request,env){
@@ -27,7 +27,7 @@ export async function stripeWebhookStaging(request,env){
    const saved=await stub.fetch("https://stripe-ledger.internal/paid",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({orderId:classification.requestId,sessionId:classification.sessionId,eventId:classification.eventId,amount:classification.amount,currency:classification.currency})});
    const result=await saved.json();
    if(!saved.ok)return json({error:"Ordine non registrato",code:result.status||result.error||"error"},503);
-   return json({received:true,orderStatus:result.status,licenseActivated:false});
+   return json({error:"Pagamento registrato, attivazione licenza da completare",orderStatus:result.status,licenseActivated:false},503);
  } catch {return json({error:"Registro ordini temporaneamente non disponibile"},503)}
 
 }
