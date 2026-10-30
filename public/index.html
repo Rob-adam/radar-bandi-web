@@ -327,6 +327,22 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
     modal.classList.add("hidden");
   }
 
+  function returnToDashboard(modal,message){
+    let receipt=document.getElementById("contactReceipt");
+    if(!receipt){
+      receipt=document.createElement("div");receipt.id="contactReceipt";
+      receipt.setAttribute("role","status");receipt.setAttribute("aria-live","polite");receipt.tabIndex=-1;
+      const anchor=document.getElementById("refreshMsg");
+      if(anchor)anchor.insertAdjacentElement("beforebegin",receipt);
+      else document.querySelector("main").prepend(receipt);
+    }
+    receipt.innerHTML=message.innerHTML;
+    closeModal(modal);
+    document.getElementById("detail")?.classList.remove("open");
+    message.innerHTML="";
+    receipt.focus({preventScroll:true});receipt.scrollIntoView({block:"center",behavior:"auto"});
+  }
+
   const contactAttempts=new Map();
   async function sendContact(form,msg,destination){
     const email=form.querySelector('input[type="email"]');
@@ -407,13 +423,10 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
       e.preventDefault();
       const ok=await sendContact(form,modal.querySelector("#assistDisservizioMsg"),ASSISTENZA_EMAIL);
       if(ok){
-        setTimeout(()=>{
-          form.reset();
-          form.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
-          form.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
-          closeModal(modal);
-          modal.querySelector("#assistDisservizioMsg").innerHTML="";
-        },15000);
+        form.reset();
+        form.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
+        form.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
+        returnToDashboard(modal,modal.querySelector("#assistDisservizioMsg"));
       }
     });
   }
@@ -472,14 +485,11 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
 
       const ok=await sendContact(temp,msg,SUPPORTO_EMAIL);
       if(ok){
-        setTimeout(()=>{
-          ["cName","cEmail","cPhone","cMessage"].forEach(id=>{
-            const el=document.getElementById(id);
-            if(el)el.value="";
-          });
-          closeModal(supportModal);
-          msg.innerHTML="";
-        },15000);
+        ["cName","cEmail","cPhone","cMessage"].forEach(id=>{
+          const el=document.getElementById(id);
+          if(el)el.value="";
+        });
+        returnToDashboard(supportModal,msg);
       }
     };
   }
