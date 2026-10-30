@@ -423,6 +423,7 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
       e.preventDefault();
       const ok=await sendContact(form,modal.querySelector("#assistDisservizioMsg"),ASSISTENZA_EMAIL);
       if(ok){
+        await new Promise(resolve=>setTimeout(resolve,3000));
         form.reset();
         form.querySelector('[name="Organizzazione"]').value=profile.name||document.getElementById("licenseName")?.textContent||"";
         form.querySelector('[name="Licenza"]').value=profile.license||document.getElementById("licenseCode")?.textContent||"";
@@ -485,6 +486,7 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
 
       const ok=await sendContact(temp,msg,SUPPORTO_EMAIL);
       if(ok){
+        await new Promise(resolve=>setTimeout(resolve,3000));
         ["cName","cEmail","cPhone","cMessage"].forEach(id=>{
           const el=document.getElementById(id);
           if(el)el.value="";
