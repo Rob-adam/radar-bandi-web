@@ -9,6 +9,7 @@ const reply=(data,status=200)=>new Response(JSON.stringify(data),{status,headers
 const safe=(v,max)=>typeof v==="string"&&v.trim().length>0&&v.trim().length<=max&&!/[\u0000-\u001f<>]/.test(v)?v.trim():null;
 
 export async function createStripeCheckout(request,env){
+ if(env.BANDOVERA_FULFILLMENT_TEST_READY!=="true")return reply({error:"Collaudo licenze non ancora completato"},503);
  if(request.method!=="POST")return reply({error:"Metodo non consentito"},405);
  if(!env.STRIPE_TEST_SECRET_KEY?.startsWith("sk_test_")||!env.STRIPE_TEST_PRICE_ID?.startsWith("price_")||!env.ORDER_STORE)return reply({error:"Pagamenti in fase di configurazione"},503);
  const url=new URL(request.url);
