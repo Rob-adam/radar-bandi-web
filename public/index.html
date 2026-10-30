@@ -328,19 +328,14 @@ async function refresh(){try{const ts=Date.now();const geoParams="&region="+enco
   }
 
   function returnToDashboard(modal,message){
-    let receipt=document.getElementById("contactReceipt");
-    if(!receipt){
-      receipt=document.createElement("div");receipt.id="contactReceipt";
-      receipt.setAttribute("role","status");receipt.setAttribute("aria-live","polite");receipt.tabIndex=-1;
-      const anchor=document.getElementById("refreshMsg");
-      if(anchor)anchor.insertAdjacentElement("beforebegin",receipt);
-      else document.querySelector("main").prepend(receipt);
-    }
-    receipt.innerHTML=message.innerHTML;
     closeModal(modal);
     document.getElementById("detail")?.classList.remove("open");
     message.innerHTML="";
-    receipt.focus({preventScroll:true});receipt.scrollIntoView({block:"center",behavior:"auto"});
+    const heading=document.querySelector("main h1");
+    if(heading){
+      heading.tabIndex=-1;heading.focus({preventScroll:true});
+      heading.scrollIntoView({block:"start",behavior:"auto"});
+    }
   }
 
   const contactAttempts=new Map();
