@@ -56,21 +56,21 @@ test('deadline hour closes the opportunity immediately in Europe/Rome',()=>{
  assert.equal(engine().callDays({deadline:'2026-10-15',deadlineAt:'2026-10-15T13:00:00+02:00'},new Date('2026-10-15T11:00:01Z')),-1);
  assert.equal(engine().callDays({deadline:'2026-10-15',deadlineAt:'2026-10-15T13:00:00+02:00'},new Date('2026-10-15T10:59:59Z')),0);
 });
-test('support stays in the page, discloses destination and reports success only on explicit acknowledgement',async()=>{
+test('contacts use same-origin licensed SMTP and report only explicit acceptance',async()=>{
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
- assert.ok(!source.includes('mailto:'));assert.ok(source.includes('tramite FormSubmit'));assert.ok(source.includes('referente dell’assistenza BANDOVERA'));
- const a=source.indexOf('  async function sendFormSubmit('),z=source.indexOf('  /* ASSISTENZA DISSERVIZIO',a);
- const calls=[];let response={ok:true,json:async()=>({success:true})};
+ assert.ok(!source.includes('mailto:'));assert.ok(source.includes('tramite Cloudflare e Register.it'));assert.ok(source.includes('referente dell’assistenza BANDOVERA'));
+ const a=source.indexOf('  const contactAttempts='),z=source.indexOf('  /* ASSISTENZA DISSERVIZIO',a);
+ const calls=[];let response={ok:true,json:async()=>({state:'accepted'})};
  const form={querySelector:()=>({value:'test@example.org',setCustomValidity(){},checkValidity:()=>true}),reportValidity:()=>true};
  class FakeFormData{constructor(){this.fields=new Map()}set(k,v){this.fields.set(k,v)}get(k){return this.fields.get(k)}}
- const context={profile:{license:'RB-0003'},location:{search:'?access='+TEST_TOKEN,origin:'https://site.example'},URLSearchParams,FormData:FakeFormData,console:{error(){}},fetch:async(url,options)=>{calls.push({url,options});return response}};
- vm.createContext(context);vm.runInContext(source.slice(a,z)+'globalThis.submit=sendFormSubmit;',context);
+ const context={profile:{license:'RB-0003'},location:{search:'?access='+TEST_TOKEN,origin:'https://site.example'},URLSearchParams,FormData:FakeFormData,crypto,AbortSignal,Map,SUPPORTO_EMAIL:'supporto@bandovera.it',ASSISTENZA_EMAIL:'assistenza@bandovera.it',INFO_EMAIL:'info@bandovera.it',console:{error(){}},fetch:async(url,options)=>{calls.push({url,options});return response}};
+ vm.createContext(context);vm.runInContext(source.slice(a,z)+'globalThis.submit=sendContact;',context);
  const assist='assistenza@bandovera.it',support='supporto@bandovera.it';
- assert.ok(source.includes('sendFormSubmit(form,modal.querySelector("#assistDisservizioMsg"),ASSISTENZA_EMAIL)'));assert.ok(source.includes('sendFormSubmit(temp,msg,SUPPORTO_EMAIL)'));
- let msg={innerHTML:''};assert.equal(await context.submit(form,msg,assist),true);assert.equal(calls[0].url,'https://formsubmit.co/ajax/'+assist);assert.equal(JSON.parse(calls[0].options.body).email,'test@example.org');assert.equal(calls[0].options.referrer,'https://site.example/');assert.equal(calls[0].options.referrerPolicy,'origin');assert.ok(!JSON.stringify(calls[0].options).includes(TEST_TOKEN));assert.ok(msg.innerHTML.includes('Richiesta inviata.'));
- msg={innerHTML:''};assert.equal(await context.submit(form,msg,support),true);assert.equal(calls[1].url,'https://formsubmit.co/ajax/'+support);assert.ok(msg.innerHTML.includes(support));
- for(const result of [{success:false},{success:'false'},{}]){response={ok:true,json:async()=>result};msg={innerHTML:''};assert.equal(await context.submit(form,msg,assist),false);assert.ok(msg.innerHTML.includes('Invio non riuscito'));assert.ok(!msg.innerHTML.includes('Richiesta inviata.'));}
- response={ok:false,json:async()=>({success:true})};assert.equal(await context.submit(form,{innerHTML:''},assist),false);
+ assert.ok(source.includes('sendContact(form,modal.querySelector("#assistDisservizioMsg"),ASSISTENZA_EMAIL)'));assert.ok(source.includes('sendContact(temp,msg,SUPPORTO_EMAIL)'));
+ let msg={innerHTML:''};assert.equal(await context.submit(form,msg,assist),true);assert.equal(calls[0].url,'/api/contact');assert.equal(JSON.parse(calls[0].options.body).email,'test@example.org');assert.equal(calls[0].options.referrer,undefined);assert.equal(calls[0].options.referrerPolicy,'no-referrer');assert.ok(!calls[0].options.body.includes(TEST_TOKEN));assert.ok(msg.innerHTML.includes('Richiesta inviata.'));
+ msg={innerHTML:''};assert.equal(await context.submit(form,msg,support),true);assert.equal(calls[1].url,'/api/contact');assert.ok(msg.innerHTML.includes(support));
+ for(const result of [{success:false},{success:'false'},{}]){response={ok:true,json:async()=>result};msg={innerHTML:''};assert.equal(await context.submit(form,msg,assist),false);assert.ok(msg.innerHTML.includes('Invio non confermato'));assert.ok(!msg.innerHTML.includes('Richiesta inviata.'));}
+ response={ok:false,json:async()=>({state:'accepted'})};assert.equal(await context.submit(form,{innerHTML:''},assist),false);
  response={ok:true,json:async()=>{throw Error('Invalid JSON')}};assert.equal(await context.submit(form,{innerHTML:''},assist),false);
 });
 test('tampered profile is replaced with the stored profile; suspended licenses are blocked by Worker',async()=>{
