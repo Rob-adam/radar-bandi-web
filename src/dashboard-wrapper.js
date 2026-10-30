@@ -1,5 +1,6 @@
 import {routeContact} from './contact-mailer.js';
 import {createStripeCheckout} from './stripe-checkout-test.js';
+import {stripeWebhookStaging} from './stripe-webhook-staging.js';
 export {ContactDispatcher} from './contact-mailer.js';
 import app from "./territory-wrapper.js";
 
@@ -95,6 +96,7 @@ export async function serveGuideVideo(request,env){
 export default {
   async fetch(request,env,ctx){
     const url=new URL(request.url);
+    if(url.pathname==='/api/stripe/webhook')return stripeWebhookStaging(request,env);
     if(url.pathname==='/api/checkout/create'){
       if(env.BANDOVERA_CHECKOUT_TEST_ENABLED!=='true')return new Response(JSON.stringify({error:'Pagamento di prova non attivo'}),{status:503,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store'}});
       return createStripeCheckout(request,env);
