@@ -331,7 +331,7 @@ if(raw){
    const suppliedProfile=body.profile&&typeof body.profile==='object'?body.profile:null;
    const profile=cleanProfile(suppliedProfile,code,base)||previous?.profile||null;
    const token=previous?.accessToken||crypto.randomUUID()+crypto.randomUUID();
-   const rec={...base,profile,accessToken:token,accessTokenHash:await accessHash(token)};
+  const rec={...(previous||{}),...base,profile,accessToken:token,accessTokenHash:await accessHash(token)};
    await env.LICENSES.put('license:'+code,JSON.stringify(rec));
    return json({ok:true,license:code,active:rec.active,expiresAt:rec.expiresAt,shortUrl:new URL('/'+code+'?access='+encodeURIComponent(token),url.origin).toString(),profileStored:!!profile});
   }
