@@ -4,6 +4,7 @@ import {isolated,json,boundedJSON} from './stripe-test-fulfillment.js';
 import {verifyStripeEvent,classifyPaidCheckout} from './stripe-webhook-verification.js';
 export {ContactDispatcher,StripeOrderLedger} from './dashboard-wrapper.js';
 export {StripeTestFulfillment} from './stripe-test-fulfillment.js';
+export {StripeLiveFulfillment} from './stripe-live-fulfillment.js';
 const admin=(req,env)=>!!env.ADMIN_API_KEY&&req.headers.get('authorization')==='Bearer '+env.ADMIN_API_KEY;
 const coordinator=env=>env.TEST_FULFILLMENT.get(env.TEST_FULFILLMENT.idFromName('isolated-test-registry-v1'));
 const forward=(env,path,body)=>coordinator(env).fetch('https://isolated.internal'+path,{method:body?'POST':'GET',headers:{'content-type':'application/json'},body:body?JSON.stringify(body):undefined});

@@ -3,6 +3,7 @@ import {createStripeCheckout} from './stripe-checkout-test.js';
 import {stripeWebhookStaging} from './stripe-webhook-staging.js';
 export {ContactDispatcher} from './contact-mailer.js';
 export {StripeOrderLedger} from './stripe-order-ledger.js';
+export {StripeLiveFulfillment} from './stripe-live-fulfillment.js';
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){

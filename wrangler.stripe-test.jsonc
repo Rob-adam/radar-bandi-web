@@ -1,4 +1,4 @@
-{
+﻿{
     "$schema":  "node_modules/wrangler/config-schema.json",
     "name":  "bandovera-stripe-test",
     "main":  "./src/stripe-test-worker.js",
@@ -29,22 +29,26 @@
                                                  "name":  "CONTACTS",
                                                  "class_name":  "ContactDispatcher"
                                              },
-                                             {
-                                                 "name":  "STRIPE_ORDERS",
-                                                 "class_name":  "StripeOrderLedger"
-                                             }
+                                            {
+  "name": "STRIPE_ORDERS",
+  "class_name": "StripeOrderLedger"
+},
+{
+  "name": "LIVE_FULFILLMENT",
+  "class_name": "StripeLiveFulfillment"
+}
                                          ]
                         },
-    "migrations":  [
-                       {
-                           "tag":  "stripe-test-v1",
-                           "new_sqlite_classes":  [
-                                                      "StripeTestFulfillment",
-                                                      "ContactDispatcher",
-                                                      "StripeOrderLedger"
-                                                  ]
-                       }
-                   ],
+    "migrations": [
+      {
+        "tag": "stripe-test-v1",
+        "new_sqlite_classes": ["StripeTestFulfillment", "ContactDispatcher", "StripeOrderLedger"]
+      },
+      {
+        "tag": "stripe-test-live-coordinator-v1",
+        "new_sqlite_classes": ["StripeLiveFulfillment"]
+      }
+    ],
     "vars":  {
                  "BANDOVERA_ENV":  "stripe-test",
                  "TEST_LICENSES_ID":  "e16f2bc4c0664357aafadb07c5594e9b",
