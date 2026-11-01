@@ -98,6 +98,66 @@ async reserveCodeInternal(orderId) {
   }
 
   /**
+   * Recupera direttamente da Stripe una sessione LIVE
+   * e verifica la corrispondenza con l'ordine registrato.
+   *
+   * Non crea licenze e non registra incassi.
+   */
+  async verifyLivePayment(order) {
+    if (
+      !order ||
+      order.mode !== 'live' ||
+      !validOrderId(order.id) ||
+      typeof order.sessionId !== 'string' ||
+      !/^cs_live_[a-zA-Z0-9_]+$/.test(order.sessionId)
+    ) {
+      throw new Error('Ordine LIVE non valido');
+    }
+
+    const secret = this.env.STRIPE_LIVE_SECRET_KEY;
+
+    if (
+      typeof secret !== 'string' ||
+      !secret.startsWith('sk_live_')
+    ) {
+      throw new Error('Credenziale Stripe LIVE non configurata');
+    }
+
+    const response = await fetch(
+      'https://api.stripe.com/v1/checkout/sessions/' +
+        encodeURIComponent(order.sessionId),
+      {
+        method: 'GET',
+        headers: {
+          authorization: 'Bearer ' + secret
+        }
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error('Verifica Stripe non disponibile');
+    }
+
+    const session = await response.json();
+
+    if (
+      session.id !== order.sessionId ||
+      session.livemode !== true ||
+      session.mode !== 'payment' ||
+      session.payment_status !== 'paid' ||
+      session.amount_total !== 1990 ||
+      session.currency !== 'eur' ||
+      session.client_reference_id !== order.id ||
+      session.metadata?.request_id !== order.id
+    ) {
+      throw new Error('Pagamento LIVE non verificato');
+    }
+
+    return session;
+  }
+
+
+  /**
    * Sicurezza iniziale:
    * nessun endpoint pubblico operativo.
    */
