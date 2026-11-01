@@ -12,7 +12,7 @@
  */
 
 import { expiryAfterMonths } from "./stripe-licence-preparation.js";
-
+import { validateSheet, mapSheet } from "./stripe-request-schema.js";
 export function buildLiveLicence({ order, session, code, now }) {
   if (!order || order.mode !== "live") {
     throw new Error("Ordine reale non valido");
@@ -47,10 +47,14 @@ export function buildLiveLicence({ order, session, code, now }) {
     throw new Error("Codice licenza non valido");
   }
 
-  const name = String(order.organization || "").trim();
+  const sheet = validateSheet(order.sheet);
+  const name = sheet.nome_associazione;
 
-  if (!name || !String(order.email || "").includes("@")) {
-    throw new Error("Dati cliente mancanti");
+  if (
+    order.organization !== name ||
+    order.email !== sheet.email_referente
+  ) {
+    throw new Error("Scheda e ordine non corrispondono");
   }
 
   const createdAt = new Date(now).toISOString();
@@ -65,10 +69,8 @@ export function buildLiveLicence({ order, session, code, now }) {
     updatedAt: createdAt,
     expiresAt,
 
-    profile: {
-      name,
-      type: order.entityType || "",
-      region: order.region || "",
+   profile: {
+      ...mapSheet(sheet),
       license: code,
       active: true,
       createdAt,

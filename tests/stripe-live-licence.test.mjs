@@ -3,14 +3,39 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { buildLiveLicence } from "../src/stripe-live-licence.js";
 
+
+const sheet = {
+  nome_associazione: "Associazione Test ODV",
+  cf: "12345678901",
+  tipo_ente: "ODV",
+  runts: "Si",
+  regione: "Lombardia",
+  provincia: "Monza e Brianza",
+  settore_principale: "Salute",
+  finalita_statutarie: "Tutela della salute",
+  capacita_progetti: "Organizzazione di iniziative",
+  referente: "Referente Test",
+  email_referente: "test@example.com",
+  ack_completezza: "Sì",
+  luogo_data: "Monza, 01/11/2026",
+  compilatore: "Referente Test",
+  privacy: "Sì",
+  area_salute: "Salute e prevenzione",
+  att_assistenza: "Assistenza ai pazienti",
+  ben_pazienti: "Pazienti",
+  progetti_interesse: "Progetti sanitari"
+};
+
 const order = {
   id: "ordine123",
   mode: "live",
-  organization: "Associazione Test ODV",
-  email: "test@example.com",
-  entityType: "ODV",
-  region: "Lombardia"
+  organization: sheet.nome_associazione,
+  email: sheet.email_referente,
+  entityType: sheet.tipo_ente,
+  region: sheet.regione,
+  sheet
 };
+
 
 const session = {
   id: "cs_live_esempio123",
@@ -104,4 +129,42 @@ test("non modifica i dati originali", () => {
 
   assert.deepEqual(order, originalOrder);
   assert.deepEqual(session, originalSession);
+});
+
+test("conserva la scheda completa dell'associazione", () => {
+  const licence = prepare();
+
+  // Dati principali
+  assert.equal(licence.profile.name, sheet.nome_associazione);
+  assert.equal(licence.profile.type, sheet.tipo_ente);
+  assert.equal(licence.profile.region, sheet.regione);
+  assert.equal(licence.profile.province, sheet.provincia);
+
+  // Informazioni utilizzate per la ricerca dei bandi
+  assert.equal(
+    licence.profile.sector,
+    sheet.settore_principale
+  );
+  assert.equal(
+    licence.profile.statutoryPurposes,
+    sheet.finalita_statutarie
+  );
+  assert.equal(
+    licence.profile.capabilities,
+    sheet.capacita_progetti
+  );
+  assert.ok(licence.profile.areas.includes(sheet.area_salute));
+  assert.ok(licence.profile.activities.includes(sheet.att_assistenza));
+  assert.ok(licence.profile.beneficiaries.includes(sheet.ben_pazienti));
+
+  // Conservazione della scheda originale
+  assert.deepEqual(
+  { ...licence.profile.sourceSheet },
+  { ...sheet, partita_iva: '' }
+);
+
+  // Durata e riferimenti al pagamento
+  assert.equal(licence.profile.durationMonths, 12);
+  assert.equal(licence.payment.amount, 1990);
+  assert.equal(licence.payment.currency, "eur");
 });
