@@ -1,0 +1,281 @@
+﻿<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Attiva Bandovera</title>
+<meta name="description" content="Compila la scheda del tuo ente e attiva Bandovera, il radar dei bandi: 19,90 € l'anno per tutta l'associazione.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0B1730">
+<link rel="icon" href="assets/img/logo-fb.jpg" type="image/jpeg">
+<link rel="preload" href="assets/font/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/font/plexmono-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v=20261029-coerenza1">
+<script src="config.js?v=20261029"></script>
+
+<style id="bandovera-pagamento-visibile-v1">
+.pagamento-box{padding:28px;border:1px solid #416584;border-radius:20px;background:#102438;color:#fff;margin:28px 0;max-width:100%}
+.pagamento-box .pagamento-etichetta{font-size:13px;letter-spacing:.1em;font-weight:800;color:#34d5ed;margin:0 0 12px}
+.pagamento-box h2{font-size:clamp(26px,5vw,38px);line-height:1.15;max-width:none;margin:0 0 18px}
+.pagamento-box p{font-size:18px;line-height:1.6;max-width:none}
+.pagamento-box ol{padding-left:24px;margin:20px 0;font-size:17px;line-height:1.65}
+.pagamento-box li+li{margin-top:14px}.pagamento-box li strong{color:#fff}
+.pagamento-box a{color:#65e5f7;overflow-wrap:anywhere}
+.pagamento-box .pagamento-azioni{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:24px}
+.pagamento-box a.btn{background:#34d5ed;color:#07111f;font-size:16px;padding:16px 20px;min-height:52px;line-height:1.35;text-decoration:none}
+.pagamento-box .pagamento-email{font-size:16px;font-weight:700;text-underline-offset:4px}
+.pagamento-box p.pagamento-nota{font-size:14px;color:#c5d7e8;margin-top:18px;line-height:1.6}
+@media(max-width:600px){.pagamento-box{padding:22px 18px}.pagamento-box a.btn{width:100%}.pagamento-box ol{font-size:16px}}
+</style>
+
+</head>
+<body class="modulo">
+
+<header class="top">
+  <a class="logo" href="index.html" aria-label="Bandovera, torna alla pagina principale"><img class="marchio-originale" src="assets/img/marchio-bandovera-originale.svg" alt="Bandovera — Il radar dei bandi per gli ETS" width="238" height="140"></a>
+  <a class="btn ghost" href="index.html">Indietro</a>
+</header>
+
+<main class="sec">
+  <div class="wrap">
+    <h1>Attiva il <span class="ciano">radar.</span></h1>
+   <p class="intro">
+  Bandovera individua i bandi più pertinenti alla tua organizzazione in base alle sue caratteristiche, al territorio e alle attività svolte.
+  Compila la scheda, controlla i dati e attiva la tua licenza annuale con un pagamento sicuro di <strong>19,90 &euro;</strong> tramite Stripe.
+  Dopo la conferma del pagamento riceverai automaticamente via email il codice della licenza e il collegamento privato per accedere alla piattaforma.
+  Nessun rinnovo automatico.
+</p>
+<aside class="pagamento-box" id="pagamento" aria-labelledby="titolo-pagamento">
+  <p class="pagamento-etichetta">LICENZA BANDOVERA</p>
+  <h2 id="titolo-pagamento">Come pagare e attivare la licenza</h2>
+  <p><strong>19,90 € per 12 mesi.</strong> Pagamento sicuro tramite Stripe, senza rinnovo automatico.</p>
+  <ol>
+  <li><strong>Compila la scheda.</strong> Inserisci i dati della tua organizzazione e controlla il riepilogo.</li>
+  <li><strong>Paga 19,90 &euro; tramite Stripe.</strong> Utilizza il pulsante verde per completare il pagamento sicuro.</li>
+  <li><strong>Ricevi la licenza.</strong> Dopo la conferma del pagamento, Bandovera attiva automaticamente la licenza per 12 mesi e invia via email il codice e il collegamento privato di accesso.</li>
+</ol>
+  <div class="pagamento-azioni">
+    <a class="btn" href="https://m.me/61595039832085" target="_blank" rel="noopener">Hai domande? Contattaci su Messenger</a>
+  </div>
+</aside>
+
+    <p class="aiuto">I campi con <b>*</b> sono obbligatori.</p>
+
+    <form id="scheda" novalidate>
+
+      <fieldset>
+        <legend>1 · L'ente</legend>
+        <p class="aiuto">Questi dati vanno nel profilo del tuo ente su Bandovera e, insieme alle sezioni dopo, servono a trovare i bandi giusti.</p>
+        <label class="campo" for="nome_associazione">Denominazione / Nome associazione *</label>
+        <input id="nome_associazione" name="nome_associazione" type="text" required autocomplete="organization" placeholder="Es. Associazione Esempio ODV">
+        <label class="campo" for="cf">Codice fiscale dell’ente *</label>
+        <input id="cf" name="cf" type="text" required minlength="11" maxlength="16" placeholder="Codice fiscale dell’ente" autocomplete="off">
+        <label class="campo" for="partita_iva">Partita IVA <span class="opz">(se presente)</span></label>
+        <input id="partita_iva" name="partita_iva" type="text" inputmode="numeric" maxlength="11" placeholder="11 cifre" autocomplete="off">
+        <label class="campo" for="tipo_ente">Tipo ente *</label>
+        <p class="aiuto">Scegli la voce corretta (es. ODV, APS, ETS, Fondazione…).</p>
+        <select id="tipo_ente" name="tipo_ente" required>
+          <option value="">Seleziona</option>
+          <option>ODV</option><option>APS</option><option>ETS</option><option>ONLUS</option><option>Fondazione</option><option>Associazione</option><option>Cooperativa sociale</option><option>Impresa sociale</option><option>Altro</option>
+        </select>
+        <label class="campo">Iscritto al RUNTS *</label>
+        <div class="scelte" id="runts">
+          <label><input type="radio" name="runts" value="Sì"><span>Sì</span></label>
+          <label><input type="radio" name="runts" value="No"><span>No</span></label>
+          <label><input type="radio" name="runts" value="Da verificare"><span>Da verificare</span></label>
+        </div>
+        <label class="campo" for="regione">Regione *</label>
+        <select id="regione" name="regione" required>
+          <option value="">Seleziona</option>
+          <option>Abruzzo</option><option>Basilicata</option><option>Calabria</option><option>Campania</option><option>Emilia-Romagna</option><option>Friuli-Venezia Giulia</option><option>Lazio</option><option>Liguria</option><option>Lombardia</option><option>Marche</option><option>Molise</option><option>Piemonte</option><option>Puglia</option><option>Sardegna</option><option>Sicilia</option><option>Toscana</option><option>Trentino-Alto Adige</option><option>Umbria</option><option>Valle d'Aosta</option><option>Veneto</option>
+        </select>
+        <label class="campo" for="provincia">Provincia <span class="opz">(facoltativo)</span></label>
+        <input id="provincia" name="provincia" type="text" autocomplete="address-level2" placeholder="Es. Monza e Brianza">
+        <label class="campo" for="territorio_operativo">Territorio operativo / Comuni / Province ulteriori <span class="opz">(facoltativo)</span></label>
+        <input id="territorio_operativo" name="territorio_operativo" type="text" placeholder="Es. Monza, Lecco, tutta la Lombardia">
+        <label class="campo" for="sito_web">Sito web dell'ente <span class="opz">(facoltativo)</span></label>
+        <input id="sito_web" name="sito_web" type="text" inputmode="url" autocomplete="url" placeholder="www.esempio.it">
+      </fieldset>
+
+      <fieldset>
+        <legend>2 · Settore principale</legend>
+        <p class="aiuto">Scegli la categoria che descrive meglio la missione prevalente.</p>
+        <label class="campo" for="settore_principale">Settore principale *</label>
+        <select id="settore_principale" name="settore_principale" required>
+          <option value="">Seleziona</option>
+          <option>Salute e sociale</option><option>Cultura</option><option>Sport</option><option>Ambiente</option><option>Giovani, scuola e formazione</option><option>Ricerca e innovazione</option><option>Pari opportunità e inclusione</option><option>Terzo settore</option><option>Multisettoriale</option>
+        </select>
+        <label class="campo" for="sottosettori">Sottosettori / specializzazioni <span class="opz">(facoltativo)</span></label>
+        <input id="sottosettori" name="sottosettori" type="text" placeholder="Es. malattie respiratorie, trasporto malati">
+      </fieldset>
+
+      <fieldset>
+        <legend>3 · Aree di attività</legend>
+        <p class="aiuto">Seleziona almeno un’area pertinente oppure descrivila in “Altre aree”. *</p>
+        <div class="scelte lista">
+          <label><input type="checkbox" name="area_salute" value="Salute / sanità / prevenzione / riabilitazione"><span>Salute / sanità / prevenzione / riabilitazione</span></label>
+          <label><input type="checkbox" name="area_disabilita" value="Disabilità / fragilità / autonomia / accessibilità"><span>Disabilità / fragilità / autonomia / accessibilità</span></label>
+          <label><input type="checkbox" name="area_welfare" value="Welfare / sociale / inclusione / contrasto povertà"><span>Welfare / sociale / inclusione / contrasto povertà</span></label>
+          <label><input type="checkbox" name="area_eventi" value="Eventi / sensibilizzazione / divulgazione"><span>Eventi / sensibilizzazione / divulgazione</span></label>
+          <label><input type="checkbox" name="area_formazione" value="Formazione / educazione / orientamento"><span>Formazione / educazione / orientamento</span></label>
+          <label><input type="checkbox" name="area_volontariato" value="Volontariato / cittadinanza attiva"><span>Volontariato / cittadinanza attiva</span></label>
+          <label><input type="checkbox" name="area_innovazione" value="Innovazione / digitale / tecnologia"><span>Innovazione / digitale / tecnologia</span></label>
+          <label><input type="checkbox" name="area_ambiente" value="Ambiente / sostenibilità / clima / energia"><span>Ambiente / sostenibilità / clima / energia</span></label>
+          <label><input type="checkbox" name="area_mobilita" value="Mobilità / trasporti / mezzi"><span>Mobilità / trasporti / mezzi</span></label>
+          <label><input type="checkbox" name="area_housing" value="Abitare / housing / alloggi"><span>Abitare / housing / alloggi</span></label>
+          <label><input type="checkbox" name="area_famiglia" value="Famiglie / genitori / caregiver"><span>Famiglie / genitori / caregiver</span></label>
+          <label><input type="checkbox" name="area_giovani" value="Giovani / minori / studenti"><span>Giovani / minori / studenti</span></label>
+          <label><input type="checkbox" name="area_anziani" value="Anziani / invecchiamento / non autosufficienza"><span>Anziani / invecchiamento / non autosufficienza</span></label>
+          <label><input type="checkbox" name="area_donne" value="Donne / pari opportunità / contrasto violenza"><span>Donne / pari opportunità / contrasto violenza</span></label>
+          <label><input type="checkbox" name="area_cultura" value="Cultura / arte / patrimonio / biblioteche"><span>Cultura / arte / patrimonio / biblioteche</span></label>
+          <label><input type="checkbox" name="area_sport" value="Sport / attività motoria / attività fisica"><span>Sport / attività motoria / attività fisica</span></label>
+          <label><input type="checkbox" name="area_ricerca" value="Ricerca / studi / sperimentazione"><span>Ricerca / studi / sperimentazione</span></label>
+          <label><input type="checkbox" name="area_vvf" value="Protezione civile / Vigili del Fuoco volontari"><span>Protezione civile / Vigili del Fuoco volontari</span></label>
+        </div>
+        <label class="campo" for="altre_aree">Altre aree / parole chiave rilevanti <span class="opz">(compila se non hai selezionato un’area)</span></label>
+        <input id="altre_aree" name="altre_aree" type="text">
+        <p class="aiuto"><b>Importante:</b> spuntare aree che non c'entrano con la missione dell'ente allarga troppo la ricerca e peggiora i risultati. Se un'area è marginale o occasionale, scrivila qui sopra invece di spuntarla.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend>4 · Attività svolte / progetti realizzabili</legend>
+        <p class="aiuto">Seleziona almeno un’attività oppure descrivi le attività principali. *</p>
+        <div class="scelte lista">
+          <label><input type="checkbox" name="att_supporto" value="Supporto / assistenza a utenti e famiglie"><span>Supporto / assistenza a utenti e famiglie</span></label>
+          <label><input type="checkbox" name="att_eventi" value="Eventi, incontri, convegni, campagne"><span>Eventi, incontri, convegni, campagne</span></label>
+          <label><input type="checkbox" name="att_formazione" value="Formazione, laboratori, educazione"><span>Formazione, laboratori, educazione</span></label>
+          <label><input type="checkbox" name="att_screening" value="Screening / prevenzione / attività sanitarie"><span>Screening / prevenzione / attività sanitarie</span></label>
+          <label><input type="checkbox" name="att_riabilitazione" value="Riabilitazione / benessere / attività motorie"><span>Riabilitazione / benessere / attività motorie</span></label>
+          <label><input type="checkbox" name="att_attrezzature" value="Acquisto attrezzature / beni / mezzi"><span>Acquisto attrezzature / beni / mezzi</span></label>
+          <label><input type="checkbox" name="att_ricerca" value="Ricerca / studi / sperimentazione"><span>Ricerca / studi / sperimentazione</span></label>
+          <label><input type="checkbox" name="att_digitale" value="Digitalizzazione / innovazione tecnologica"><span>Digitalizzazione / innovazione tecnologica</span></label>
+          <label><input type="checkbox" name="att_reti" value="Reti / partenariati / coprogettazione"><span>Reti / partenariati / coprogettazione</span></label>
+          <label><input type="checkbox" name="att_volontari" value="Attività e formazione volontari"><span>Attività e formazione volontari</span></label>
+          <label><input type="checkbox" name="att_comunicazione" value="Comunicazione / informazione / divulgazione"><span>Comunicazione / informazione / divulgazione</span></label>
+          <label><input type="checkbox" name="att_servizi" value="Servizi continuativi alla comunità"><span>Servizi continuativi alla comunità</span></label>
+        </div>
+        <label class="campo" for="attivita_principali">Descrizione sintetica delle attività principali <span class="opz">(compila se non hai selezionato un’attività)</span></label>
+        <textarea id="attivita_principali" name="attivita_principali"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>5 · Beneficiari principali</legend>
+        <p class="aiuto">Seleziona almeno una categoria di beneficiari oppure descrivila in “Altri beneficiari”. *</p>
+        <div class="scelte lista">
+          <label><input type="checkbox" name="ben_pazienti" value="Pazienti / persone con patologie"><span>Pazienti / persone con patologie</span></label>
+          <label><input type="checkbox" name="ben_caregiver" value="Caregiver / familiari"><span>Caregiver / familiari</span></label>
+          <label><input type="checkbox" name="ben_disabili" value="Persone con disabilità"><span>Persone con disabilità</span></label>
+          <label><input type="checkbox" name="ben_fragili" value="Persone fragili / vulnerabili"><span>Persone fragili / vulnerabili</span></label>
+          <label><input type="checkbox" name="ben_famiglie" value="Famiglie / genitori"><span>Famiglie / genitori</span></label>
+          <label><input type="checkbox" name="ben_giovani" value="Giovani / minori / studenti"><span>Giovani / minori / studenti</span></label>
+          <label><input type="checkbox" name="ben_anziani" value="Anziani / non autosufficienti"><span>Anziani / non autosufficienti</span></label>
+          <label><input type="checkbox" name="ben_donne" value="Donne / vittime di violenza"><span>Donne / vittime di violenza</span></label>
+          <label><input type="checkbox" name="ben_volontari" value="Volontari"><span>Volontari</span></label>
+          <label><input type="checkbox" name="ben_cittadini" value="Cittadinanza / comunità locale"><span>Cittadinanza / comunità locale</span></label>
+          <label><input type="checkbox" name="ben_ets" value="ETS / associazioni / reti"><span>ETS / associazioni / reti</span></label>
+          <label><input type="checkbox" name="ben_operatori" value="Operatori / professionisti / educatori"><span>Operatori / professionisti / educatori</span></label>
+        </div>
+        <label class="campo" for="altri_beneficiari">Altri beneficiari / caratteristiche specifiche <span class="opz">(compila se non hai selezionato una categoria)</span></label>
+        <input id="altri_beneficiari" name="altri_beneficiari" type="text">
+      </fieldset>
+
+      <fieldset>
+        <legend>6 · Finalità statutarie</legend>
+        <label class="campo" for="finalita_statutarie">Riporta le finalità rilevanti dello statuto *</label>
+        <textarea id="finalita_statutarie" name="finalita_statutarie" required></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>7 · Capacità / progetti realizzabili</legend>
+        <label class="campo" for="capacita_progetti">Cosa l’ente è davvero in grado di realizzare *</label>
+        <textarea id="capacita_progetti" name="capacita_progetti" required placeholder="Es. un pulmino per il trasporto dei malati, un doposcuola nel quartiere…"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>8 · Informazioni utili al matching</legend>
+        <p class="aiuto">Dettagli che aiutano a rifinire la ricerca.</p>
+        <label class="campo" for="parole_chiave">Parole chiave prioritarie <span class="opz">(facoltativo)</span></label>
+        <input id="parole_chiave" name="parole_chiave" type="text">
+        <label class="campo" for="progetti_interesse">Tipologie di opportunità / progetti di maggiore interesse <span class="opz">(facoltativo)</span></label>
+        <textarea id="progetti_interesse" name="progetti_interesse"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>9 · Referente e conferma</legend>
+        <p class="aiuto">Qui ti mandiamo la tua licenza e le indicazioni di accesso.</p>
+        <label class="campo" for="referente">Nome e cognome referente *</label>
+        <input id="referente" name="referente" type="text" required autocomplete="name" placeholder="Nome e cognome">
+        <label class="campo" for="email_referente">Email referente *</label>
+        <input id="email_referente" name="email_referente" type="email" required autocomplete="email" inputmode="email" placeholder="nome@esempio.it">
+        <label class="campo" for="telefono">Telefono <span class="opz">(facoltativo)</span></label>
+        <input id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="+39 …">
+        <p class="aiuto" style="margin-top:22px"><b>Completezza e correttezza delle informazioni.</b> Bandovera funziona bene solo se i dati dell'ente sono completi, corretti e aggiornati. Dati mancanti, generici, sbagliati o vecchi danno risultati meno pertinenti o fanno perdere bandi adatti. Bandovera è uno strumento di ricerca e orientamento: requisiti, ammissibilità, scadenze e condizioni vanno sempre verificati sui documenti ufficiali del singolo bando.</p>
+        <label class="consenso"><input type="checkbox" id="ack_completezza" name="ack_completezza" value="Sì"><span>Confermo di aver compilato il modulo in modo completo e veritiero. *</span></label>
+        <label class="campo" for="luogo_data">Luogo e data *</label>
+        <input id="luogo_data" name="luogo_data" type="text" required placeholder="Es. Monza, 29/10/2026">
+        <label class="campo" for="compilatore">Nome del referente / compilatore *</label>
+        <input id="compilatore" name="compilatore" type="text" required autocomplete="name" placeholder="Nome e cognome">
+        <label class="consenso"><input type="checkbox" id="privacy" name="privacy" value="Sì"><span>Ho letto l'<a href="privacy.html" target="_blank">informativa privacy</a>. *</span></label>
+      </fieldset>
+
+      <p class="errore" id="errore" role="alert"></p>
+      <button class="btn blocco" type="submit">Vai al riepilogo</button>
+    </form>
+
+    <section class="riepilogo" id="riepilogo" hidden aria-labelledby="h-riep">
+     <h2 id="h-riep" tabindex="-1">Controlla il <span class="ciano">riepilogo.</span></h2>
+      <p class="nota stato-scheda" role="status"><b>Controlla attentamente i dati della tua organizzazione.</b> Se sono corretti, procedi al pagamento sicuro tramite Stripe per attivare automaticamente la licenza annuale.</p>
+      <dl id="dati"></dl>
+      <div class="canali-invio" hidden>
+        <section aria-labelledby="invio-chat"><h3 id="invio-chat">Con Messenger</h3><p>1. Copia la scheda.<br>2. Apri Messenger, incollala nella chat Bandovera e premi Invia.</p><button class="btn ghost" type="button" id="copia">Copia la scheda</button><a class="btn" id="invia-messenger" href="https://m.me/61595039832085" target="_blank" rel="noopener">Apri Messenger</a></section>
+        <section aria-labelledby="invio-email"><h3 id="invio-email">Con email</h3><p>1. Scarica la scheda in formato testo.<br>2. Apri l’email, allega il file scaricato e invialo a <b>info@bandovera.it</b>.</p><button class="btn ghost" type="button" id="scarica-scheda">Scarica la scheda (.txt)</button><a class="btn" id="invia-email" href="mailto:info@bandovera.it">Apri l’email</a></section>
+      </div>
+      <h3 class="dopo-invio">Pagamento sicuro e attivazione automatica</h3>
+      <ol class="passi-attivazione">
+  <li>Controlla i dati della tua organizzazione nel riepilogo.</li>
+  <li>Effettua il pagamento sicuro di <strong>19,90 &euro;</strong> tramite Stripe, utilizzando il pulsante verde.</li>
+  <li>Dopo la conferma del pagamento ricevi automaticamente via email il codice della licenza e il collegamento privato per accedere a Bandovera.</li>
+</ol>
+      <p class="nota"><b>12 mesi di accesso, pagamento singolo.</b> Nessun rinnovo automatico e nessun addebito ricorrente. Per rinnovare serve un nuovo pagamento annuale; l'attivazione avviene automaticamente dopo la conferma del pagamento; la gestione e la disattivazione delle licenze sono riservate all'amministratore di Bandovera.</p>
+      <p class="nota">Il supporto alla preparazione delle candidature è un servizio separato, su richiesta.</p>
+      <p class="nota"><a href="#" id="modifica">Modifica la scheda</a></p>
+    </section>
+  </div>
+</main>
+
+<footer class="piede">
+  <div class="wrap">
+    <div class="piede-marca">
+      <a class="logo logo-footer" href="index.html" aria-label="Bandovera, pagina principale"><img class="marchio-originale" src="assets/img/marchio-bandovera-originale.svg" alt="Bandovera — Il radar dei bandi per gli ETS" width="238" height="140"></a>
+      <p class="claim">La tua missione.<br><b>Le giuste opportunità.</b></p>
+      <p>Il radar dei bandi per le associazioni e gli enti del Terzo Settore, in tutta Italia.</p>
+    </div>
+    <nav class="piede-col" aria-label="Servizio">
+      <h3>Il servizio</h3>
+      <a href="index.html#come">Come funziona</a>
+      <a href="index.html#h-prezzo">Licenza: <span class="num">19,90 €</span> / 12 mesi</a>
+      <a href="index.html#h-faq">Domande frequenti</a>
+      <a href="attiva.html">Attiva Bandovera</a>
+    </nav>
+    <nav class="piede-col" aria-label="Contatti">
+      <h3>Contatti</h3>
+      <a href="mailto:info@bandovera.it">info@bandovera.it</a>
+      <a href="https://m.me/61595039832085" rel="noopener">Scrivici su Messenger</a>
+      <a href="https://www.facebook.com/profile.php?id=61595039832085" rel="noopener">Pagina Facebook</a>
+    </nav>
+    <nav class="piede-col" aria-label="Informazioni legali">
+      <h3>Privacy</h3>
+      <a href="privacy.html">Informativa privacy</a>
+      <a href="privacy.html#cookie">Nessun cookie</a>
+      <p>I dati della scheda servono solo per il profilo del tuo ente e la fattura. Non li cediamo a nessuno.</p>
+    </nav>
+    <p class="piede-fondo">© 2026 bandovera.it · Tutti i diritti riservati</p>
+  </div>
+</footer>
+
+<script src="attiva-stripe-test.js"></script>
+<script>window.BANDOVERA_STRIPE_TEST={enabled:true,origin:"https://bandovera-stripe-test.presidente-56d.workers.dev"};</script><script src="stripe-checkout-test.js"></script>
+</body>
+</html>
+
+
