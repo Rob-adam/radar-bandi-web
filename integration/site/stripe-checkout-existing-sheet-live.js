@@ -36,9 +36,11 @@
     catch{reset('Per procedere al pagamento consenti la memoria del sito nel browser, poi riprova.');return;}
     if(!token){
       if(!window.turnstile){reset('Verifica di sicurezza in caricamento. Riprova tra un momento.');return;}
-      awaitingVerification=true;button.textContent='Verifica di sicurezza in corso…';
-      message.textContent='1 di 2 · Verifica di sicurezza in corso. Appena completata apriremo Stripe automaticamente: lì potrai inserire i dati della carta e confermare il pagamento.';
-      if(widget===undefined)widget=window.turnstile.render(captcha,{sitekey:cfg.sitekey,action:'bandovera_checkout',
+      awaitingVerification=true;button.textContent='Apertura del pagamento…';
+      message.textContent='Apertura del pagamento… Tra poco potrai inserire i dati della carta nella pagina sicura Stripe.';
+      if(widget===undefined)widget=window.turnstile.render(captcha,{sitekey:cfg.sitekey,action:'bandovera_checkout',appearance:'interaction-only',
+        'before-interactive-callback':()=>{if(awaitingVerification)message.textContent='Per proseguire, completa la verifica di sicurezza qui sotto. Poi apriremo Stripe automaticamente.';},
+        'after-interactive-callback':()=>{if(awaitingVerification)message.textContent='Apertura del pagamento…';},
         callback:value=>{
           if(!awaitingVerification)return;
           if(summary.hidden){reset('Hai riaperto la scheda. Controlla il riepilogo prima di proseguire.');return;}
@@ -51,7 +53,7 @@
       return;
     }
     button.textContent='Apertura Stripe…';
-    message.textContent='2 di 2 · Verifica completata. Apertura della pagina sicura Stripe per inserire la carta. Non è ancora stato effettuato alcun addebito.';
+    message.textContent='Apertura della pagina sicura Stripe per inserire la carta. Non è ancora stato effettuato alcun addebito.';
       const response=await fetch(endpoint,{method:'POST',credentials:'omit',headers:{'content-type':'application/json'},body:JSON.stringify({id,sheet,turnstileToken:token})});
       const result=await response.json();
       if(!response.ok)throw Error(result.error||'Pagamento non disponibile');
