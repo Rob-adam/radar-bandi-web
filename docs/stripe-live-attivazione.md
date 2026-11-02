@@ -1,5 +1,17 @@
 # Attivazione Stripe live — 2 novembre 2026
 
+## Seconda fase di rilascio autorizzata
+
+Il titolare ha chiesto di rendere operativo il flusso live. La prima fase è già stata pubblicata con PR #40; i due segreti Stripe live sono presenti come valori cifrati e la destinazione live separata è attiva con i due eventi Checkout previsti. La chiave pubblica Turnstile verificata è `0x4AAAAAAFry79rynlvqPiyD`, widget esistente autorizzato per `bandovera.it` (copre anche `www`). Nessun segreto è stato letto dall'agente.
+
+Questo ramo porta entrambi i flag live a `true`: **la sua fusione pubblica e abilita gli acquisti**. Prima di fonderlo, applicare e verificare l'aggiornamento incrementale di `bandovera.it`; non limitarsi a una modifica temporanea dei flag nel pannello, perché il successivo deploy li ripristinerebbe dai sorgenti.
+
+Il rilascio del sito è preparato sulla copia pubblica letta il 2 novembre, con confronto SHA-256 di ogni file prima della scrittura, backup sotto `/var/www/bandovera/.bandovera-backups/`, scritture atomiche per file e ripristino in caso di errore. Interessa solo `index.html`, `attiva.html`, `attiva.js`, `privacy.html` e il nuovo `stripe-checkout-live.js`. Il logo originale, il lettore Sara e gli script già pubblicati sono stati confrontati e conservati. Il PDF resta un'alternativa manuale: non avvia pagamenti né attiva da solo una licenza.
+
+Verifiche della seconda fase: 134 test Node riusciti (fornitori simulati); applicatore del sito verificato localmente per successo, conflitto con file aggiornati e ripristino dopo errore. La sessione dell'agente resta impossibilitata da Windows a usare la chiave SSH, anche dopo il permesso di lettura: il comando di pubblicazione del sito deve essere eseguito dal titolare nella sua PowerShell, senza trasferire la chiave. Il salvataggio della firma cifrata non prova da solo la corrispondenza della firma o la consegna degli eventi. Il collaudo reale del titolare da 19,90 euro e la verifica di singola licenza, dashboard ed email restano obbligatori.
+
+Le sezioni seguenti documentano la preparazione e il primo rilascio, quando i flag erano disabilitati.
+
 ## Stato verificato
 
 Il titolare conferma il collaudo completo precedente in ambiente test e 114 verifiche riuscite. Questo ramo parte dal lavoro locale aggiornato `693c46b`, integrato con main `4ed5619`, e conserva gli aggiornamenti pubblicati della dashboard e del catalogo. Il vecchio ramo remoto della PR #39 non conteneva tutti i commit locali successivi.
