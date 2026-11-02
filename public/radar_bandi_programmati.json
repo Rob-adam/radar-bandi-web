@@ -6,7 +6,7 @@
       "title": "EU4Health — contributi al funzionamento delle ONG sanitarie nel 2027",
       "source": "Commissione europea · HaDEA",
       "status": "programmato",
-      "publicationWindow": "Quarto trimestre 2026 (indicativo)",
+      "publicationWindow": "Calendario indicativo HaDEA: apertura prevista 04/11/2026 · chiusura prevista 19/01/2027",
       "budget": 1800000,
       "budgetLabel": "1,8 milioni € complessivi indicativi",
       "opening": null,
@@ -16,19 +16,27 @@
       "annualRevenue": null,
       "eligibilityStatus": "non_verificata",
       "summary": "Programma per il funzionamento delle ONG sanitarie nel 2027. Sono richiesti valore aggiunto europeo e risultati misurabili. L’operatività nazionale, da sola, non dimostra l’ammissibilità.",
-      "nextAction": "Attendere e verificare l’avviso HaDEA: apertura, scadenza, destinatari, territorio, anzianità dell’ente e condizioni economiche.",
-      "sourceUrl": "https://health.ec.europa.eu/publications/2026-eu4health-work-programme_en",
+      "nextAction": "Ricontrollare l’avviso HaDEA e il portale Funding & Tenders alla prevista apertura del 4 novembre. Le date del calendario sono indicative e possono cambiare. Verificare destinatari, territorio, anzianità, soglie economiche e requisiti bloccanti prima della candidatura.",
+      "sourceUrl": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
       "tracking": {
-        "verifiedAt": "2026-10-25",
-        "verificationScope": "Solo programma di lavoro; apertura e requisiti del futuro avviso non verificati.",
+        "verifiedAt": "2026-11-02",
+        "verificationScope": "Calendario indicativo ufficiale HaDEA letto il 02/11/2026: 4 novembre 2026–19 gennaio 2027. Avviso candidabile e requisiti specifici non verificati.",
         "verificationEvidence": [
           {
             "url": "https://health.ec.europa.eu/document/download/b719a2ab-481c-4904-805d-ce4457cf10dc_en?filename=funding_c2026_7403_annex_en.pdf",
             "checkedAt": "2026-10-25",
             "note": "C(2026) 7403 del 19/10/2026, OA-g-26-91, pagine stampate 98–100: ONG sanitarie, funzionamento 2027, Q4/2026, budget complessivo indicativo 1.800.000 €, valore aggiunto europeo e risultati misurabili. Il programma non prova apertura, scadenza o ammissibilità di RB-0003."
+          },
+          {
+            "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
+            "checkedAt": "2026-11-02",
+            "note": "Riga OA-g-26-91 del calendario HaDEA 2026–2027: pubblicazione indicativa 4 novembre 2026, chiusura indicativa 19 gennaio 2027, budget complessivo 1.800.000 euro. Il calendario non prova sportello aperto o requisiti del cliente."
           }
         ]
-      }
+      },
+      "indicativeOpening": "2026-11-04",
+      "indicativeDeadline": "2027-01-19",
+      "dateEvidenceType": "tentative_calendar"
     },
     {
       "id": "CATTOLICA-UNA-MANO-2026",
@@ -65,5 +73,5 @@
       }
     }
   ],
-  "updatedAt": "25/10/2026 21:54"
+  "updatedAt": "02/11/2026 07:38"
 }

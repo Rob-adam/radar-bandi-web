@@ -165,7 +165,7 @@ test('four newly documented calls reach a national APS without certifying its re
 test('licensed health dashboard shows planned EU funding separately from active catalogs',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
  assert.match(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/PROGRAMMATO · apertura e scadenza non verificate/);
+ assert.match(html,/PROGRAMMATO · date indicative, candidatura non verificata/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
   assert.ok(!body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'));
@@ -175,7 +175,7 @@ test('licensed health dashboard shows planned EU funding separately from active 
 test('licensed summary includes future opportunities and their content timestamp separately from active counts',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
  const meta=JSON.parse(html.match(/const plannedInfo=(\{[^;]+\});/)[1]);
- assert.equal(meta.count,2); assert.equal(meta.updatedAt,'25/10/2026 21:54');
+ assert.equal(meta.count,2); assert.equal(meta.updatedAt,JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8')).updatedAt);
  assert.match(html,/id="plannedSummary"/);
  assert.match(html,/Ultimo aggiornamento opportunità:/);
  assert.match(html,/Prossime aperture e programmi annunciati/);
