@@ -8,7 +8,7 @@ test('planned EU health funding remains outside candidate calls and cannot imply
  assert.equal(b.status,'programmato');
  for(const key of ['opening','deadline','maxGrant','foundationYear','annualRevenue'])assert.equal(b[key],null,key);
  const html=renderPlannedOpportunities(records,{areas:'salute',beneficiaries:'pazienti'});
- assert.match(html,/apertura e scadenza non verificate/);assert.match(html,/non entrano nel conteggio/);
+ assert.match(html,/date indicative, candidatura non verificata/);assert.match(html,/non entrano nel conteggio/);
  assert.match(html,/1,8 milioni € complessivi/);assert.match(html,/Ammissibilità dell’ente non verificata/);
  assert.equal(renderPlannedOpportunities(records,{sector:'sport'}),'');
  assert.equal(renderPlannedOpportunities([{...b,status:'aperto'}],{areas:'salute'}),'');
@@ -26,4 +26,15 @@ test('Cattolica future opening displays confirmed dates without implying eligibi
  assert.match(html,/non entrano nel conteggio/);
  assert.match(html,/Ammissibilità dell’ente non verificata/);
  assert.match(html,/Leggi il bando ufficiale/);
+});
+
+
+test('tentative HaDEA dates never become verified opening or eligibility',()=>{
+ const b=records.find(x=>x.id==='EU4HEALTH-OA-g-26-91');
+ assert.equal(b.indicativeOpening,'2026-11-04');assert.equal(b.indicativeDeadline,'2027-01-19');
+ assert.equal(b.opening,null);assert.equal(b.deadline,null);assert.equal(b.status,'programmato');
+ const html=renderPlannedOpportunities([b],{areas:'salute'});
+ assert.match(html,/04\/11\/2026/);assert.match(html,/19\/01\/2027/);
+ assert.match(html,/Leggi il calendario ufficiale/);assert.doesNotMatch(html,/date da bando ufficiale/);
+ assert.match(html,/Ammissibilità dell’ente non verificata/);
 });
