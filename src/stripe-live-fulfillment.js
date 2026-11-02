@@ -10,6 +10,8 @@
  * Non espone ancora endpoint operativi.
  */
 
+import {STRIPE_LIVE_API_VERSION} from './stripe-live-api.js';
+
 const INITIAL_SEQUENCE = 9000000;
 
 function validOrderId(value) {
@@ -130,7 +132,8 @@ async reserveCodeInternal(orderId) {
         method: 'GET',
         signal: AbortSignal.timeout(15000),
         headers: {
-          authorization: 'Bearer ' + secret
+          authorization: 'Bearer ' + secret,
+          'Stripe-Version': STRIPE_LIVE_API_VERSION
         }
       }
     );

@@ -48,6 +48,8 @@ function setup(){
 test('ordine → pagamento verificato → licenza completa → due notifiche; nessuna modifica RB-0003',async()=>{
   const s=setup(),before=clone(s.licenses.get('license:RB-0003'));
   assert.equal((await s.checkout()).status,200);assert.equal(s.licenses.size,1);
+  const form=s.calls.find(c=>c.path==='checkout/sessions').form;
+  assert.match(form.get('integration_identifier'),/^bandovera_live_checkout_[a-z]{8}$/);
   const result=await (await s.paid()).json();assert.equal(result.status,'fulfilled');
   const rec=s.licenses.get('license:'+result.license);
   assert.equal(rec.profile.sourceSheet.cf,sheet.cf);assert.equal(rec.profile.durationMonths,12);

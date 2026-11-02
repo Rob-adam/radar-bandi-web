@@ -2,6 +2,7 @@ import {StripeLiveFulfillment} from './stripe-live-fulfillment.js';
 import {buildLiveOrder} from './stripe-live-order.js';
 import {buildLiveLicence} from './stripe-live-licence.js';
 import {accessHash} from './client-access.js';
+import {STRIPE_LIVE_API_VERSION,STRIPE_LIVE_INTEGRATION} from './stripe-live-api.js';
 
 export const LIVE_ORIGIN = 'https://radar-bandi-online.presidente-56d.workers.dev';
 export const liveJSON = (body, status=200) => Response.json(body, {status, headers:{'cache-control':'no-store','referrer-policy':'no-referrer'}});
@@ -51,7 +52,7 @@ export class StripeLiveCoordinator extends StripeLiveFulfillment {
   async stripe(path, form, id) {
     const response=await fetch('https://api.stripe.com/v1/'+path, {
       method:form?'POST':'GET', signal:AbortSignal.timeout(15000),
-      headers:{authorization:'Bearer '+this.env.STRIPE_LIVE_SECRET_KEY,
+      headers:{authorization:'Bearer '+this.env.STRIPE_LIVE_SECRET_KEY,'Stripe-Version':STRIPE_LIVE_API_VERSION,
         ...(form?{'content-type':'application/x-www-form-urlencoded','Idempotency-Key':'bandovera-live-'+id}:{})},
       body:form
     });
@@ -102,7 +103,7 @@ export class StripeLiveCoordinator extends StripeLiveFulfillment {
     if(price.id!==this.env.STRIPE_LIVE_PRICE_ID || price.livemode!==true || price.active!==true ||
       price.currency!=='eur' || price.unit_amount!==1990 || price.recurring) throw Error('Prezzo non valido');
     if(!order) {order={...candidate,digest}; await this.save(order);}
-    const form=new URLSearchParams({mode:'payment','line_items[0][price]':price.id,
+    const form=new URLSearchParams({mode:'payment',integration_identifier:STRIPE_LIVE_INTEGRATION,'line_items[0][price]':price.id,
       'line_items[0][quantity]':'1', client_reference_id:order.id,'metadata[request_id]':order.id,
       customer_email:order.email,success_url:LIVE_ORIGIN+'/acquisto-esito.html?status=success',
       cancel_url:'https://bandovera.it/attiva.html?pagamento=annullato'});
