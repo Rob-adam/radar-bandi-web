@@ -118,7 +118,7 @@ async reserveCodeInternal(orderId) {
 
     if (
       typeof secret !== 'string' ||
-      !secret.startsWith('sk_live_')
+      !/^[sr]k_live_/.test(secret)
     ) {
       throw new Error('Credenziale Stripe LIVE non configurata');
     }
@@ -128,6 +128,7 @@ async reserveCodeInternal(orderId) {
         encodeURIComponent(order.sessionId),
       {
         method: 'GET',
+        signal: AbortSignal.timeout(15000),
         headers: {
           authorization: 'Bearer ' + secret
         }

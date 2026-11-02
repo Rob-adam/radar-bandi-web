@@ -1,9 +1,11 @@
 import {routeContact} from './contact-mailer.js';
 import {createStripeCheckout} from './stripe-checkout-test.js';
 import {stripeWebhookStaging} from './stripe-webhook-staging.js';
+import {routeStripeLive} from './stripe-live-routes.js';
 export {ContactDispatcher} from './contact-mailer.js';
 export {StripeOrderLedger} from './stripe-order-ledger.js';
 export {StripeLiveFulfillment} from './stripe-live-fulfillment.js';
+export {StripeLiveCoordinator} from './stripe-live-coordinator.js';
 import app from "./territory-wrapper.js";
 
 function decodeProfile(request){
@@ -97,6 +99,8 @@ export async function serveGuideVideo(request,env){
 
 export default {
   async fetch(request,env,ctx){
+    const liveResponse=await routeStripeLive(request,env);
+    if(liveResponse)return liveResponse;
     const url=new URL(request.url);
     if(url.pathname==='/api/stripe/webhook')return stripeWebhookStaging(request,env);
     if(url.pathname==='/api/checkout/create'){

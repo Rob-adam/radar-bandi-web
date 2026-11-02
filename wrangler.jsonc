@@ -29,6 +29,10 @@
       {
         "name": "CONTACTS",
         "class_name": "ContactDispatcher"
+      },
+      {
+        "name": "LIVE_COORDINATOR",
+        "class_name": "StripeLiveCoordinator"
       }
     ]
   },
@@ -38,9 +42,18 @@
       "new_sqlite_classes": [
         "ContactDispatcher"
       ]
+    },
+    {
+      "tag": "stripe-live-v1",
+      "new_sqlite_classes": ["StripeLiveCoordinator"]
     }
   ],
   "vars": {
+    "BANDOVERA_ENV": "production",
+    "LIVE_FULFILLMENT_ENABLED": "false",
+    "LIVE_CHECKOUT_ENABLED": "false",
+    "LIVE_LICENSES_ID": "352020f5c8294218ac658bfb3e96161c",
+    "STRIPE_LIVE_PRICE_ID": "price_1UWHRjDY6SOGDjJ1Exlw0SHk",
     "CONTACTS_ENABLED": "true",
     "SMTP_VERIFIED": "true",
     "SMTP_HOST": "authsmtp.securemail.pro",
