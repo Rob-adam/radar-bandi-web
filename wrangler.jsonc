@@ -50,8 +50,8 @@
   ],
   "vars": {
     "BANDOVERA_ENV": "production",
-    "LIVE_FULFILLMENT_ENABLED": "false",
-    "LIVE_CHECKOUT_ENABLED": "false",
+    "LIVE_FULFILLMENT_ENABLED": "true",
+    "LIVE_CHECKOUT_ENABLED": "true",
     "LIVE_LICENSES_ID": "352020f5c8294218ac658bfb3e96161c",
     "STRIPE_LIVE_PRICE_ID": "price_1UWHRjDY6SOGDjJ1Exlw0SHk",
     "CONTACTS_ENABLED": "true",

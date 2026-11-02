@@ -6,7 +6,7 @@
   if(!form||!summary||document.querySelector('[data-bv-stripe-live]'))return;
   const endpoint='https://radar-bandi-online.presidente-56d.workers.dev/api/checkout/live/create';
   const section=document.createElement('section');section.dataset.bvStripeLive='true';
-  const button=document.createElement('button');button.type='button';button.textContent='Paga con Stripe · 19,90 €';
+  const button=document.createElement('button');button.type='button';button.className='btn';button.textContent='Paga con Stripe · 19,90 €';
   const message=document.createElement('p');message.setAttribute('role','status');
   message.textContent='Licenza per 12 mesi. Pagamento unico, senza rinnovo automatico. Dopo la conferma riceverai il tuo accesso via email.';
   const captcha=document.createElement('div');section.append(message,captcha,button);summary.append(section);
@@ -23,7 +23,8 @@
     const digest=Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');
     let saved;try{saved=JSON.parse(sessionStorage.getItem(storageKey));}catch{}
     const id=saved?.digest===digest&&/^[a-f0-9]{32}$/.test(saved.id)?saved.id:crypto.randomUUID().replace(/-/g,'');
-    sessionStorage.setItem(storageKey,JSON.stringify({digest,id}));
+    try{sessionStorage.setItem(storageKey,JSON.stringify({digest,id}));}
+    catch{message.textContent='Per procedere al pagamento consenti la memoria del sito nel browser, poi riprova.';return;}
     if(!token){
       if(!window.turnstile){message.textContent='Verifica di sicurezza in caricamento. Riprova tra un momento.';return;}
       if(widget===undefined)widget=window.turnstile.render(captcha,{sitekey:cfg.sitekey,action:'bandovera_checkout',
