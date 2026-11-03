@@ -79,6 +79,7 @@ export class StripeLiveCoordinator extends StripeLiveFulfillment {
     try {
       if(path==='/checkout') return await this.checkout(p);
       if(path==='/paid') return await this.paid(p);
+      if(path==='/draft-status') return await this.draftStatus(p);
       return liveJSON({error:'Non trovato'},404);
     } catch {
       return liveJSON({error:'Elaborazione temporaneamente non disponibile. Conserva il riferimento e riprova.'},503);
@@ -102,16 +103,24 @@ export class StripeLiveCoordinator extends StripeLiveFulfillment {
     const price=await this.stripe('prices/'+this.env.STRIPE_LIVE_PRICE_ID);
     if(price.id!==this.env.STRIPE_LIVE_PRICE_ID || price.livemode!==true || price.active!==true ||
       price.currency!=='eur' || price.unit_amount!==1990 || price.recurring) throw Error('Prezzo non valido');
-    if(!order) {order={...candidate,digest}; await this.save(order);}
+    if(!order) {order={...candidate,digest,returnOrigin:['https://bandovera.it','https://www.bandovera.it'].includes(p.origin)?p.origin:'https://bandovera.it'}; await this.save(order);}
     const form=new URLSearchParams({mode:'payment',integration_identifier:STRIPE_LIVE_INTEGRATION,'line_items[0][price]':price.id,
       'line_items[0][quantity]':'1', client_reference_id:order.id,'metadata[request_id]':order.id,
-      customer_email:order.email,success_url:LIVE_ORIGIN+'/acquisto-esito.html?status=success',
+      customer_email:order.email,success_url:LIVE_ORIGIN+'/acquisto-esito.html?status=success&site='+encodeURIComponent(order.returnOrigin||'https://bandovera.it'),
       cancel_url:'https://bandovera.it/attiva.html?pagamento=annullato'});
     const session=await this.stripe('checkout/sessions',form,order.id);
     if(session.livemode!==true || !/^cs_live_[a-zA-Z0-9_]+$/.test(session.id||'') ||
       typeof session.url!=='string' || new URL(session.url).origin!=='https://checkout.stripe.com') throw Error('Checkout non valido');
     order.sessionId=session.id; order.checkoutUrl=session.url; await this.save(order);
     return liveJSON({id:order.id,checkoutUrl:session.url});
+  }
+  async draftStatus(p) {
+    if(!validId(p?.id)||!/^[a-f0-9]{64}$/.test(p?.digest||''))return liveJSON({error:'Riferimento non valido'},400);
+    const order=await this.state.storage.get('order:'+p.id);
+    if(!order||order.digest!==p.digest)return liveJSON({error:'Riferimento non disponibile'},404);
+    // This record is written only after independently verifying the paid Stripe
+    // session. A return URL or a pending checkout is never proof of payment.
+    return liveJSON({paid:order.license?.payment?.mode==='live'&&order.license.payment.orderId===order.id});
   }
   async paid(p) {
     if(!validId(p?.orderId) || !/^cs_live_[a-zA-Z0-9_]+$/.test(p.sessionId||'')) return liveJSON({error:'Ordine non valido'},400);

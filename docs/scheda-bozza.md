@@ -1,0 +1,11 @@
+# Bozza della scheda
+
+La scheda attuale salva `bandovera.scheda2` in localStorage all'apertura del riepilogo. Il nuovo script aggiunge un comando separato «Svuota la scheda», con conferma, che rimuove soltanto questa bozza e il riferimento Checkout nella stessa scheda del browser. Il ricaricamento elimina anche il riepilogo e i callback precedenti. Non cancella memorie della dashboard, preferiti, password o impostazioni di compilazione automatica del browser.
+
+La pulizia automatica richiede il riferimento casuale dell'ordine conservato in sessionStorage e l'impronta della bozza normalizzata. La nuova rotta POST `/api/checkout/live/draft-status`, limitata ai due domini del sito, restituisce soltanto un booleano dopo lettura del coordinatore. `paid` è vero soltanto quando è già stata registrata una licenza con pagamento live verificato da Stripe. La lettura non crea licenze, non invia email e non richiama Stripe. URL di successo, annullamento e ordine pendente non costituiscono prova di pagamento.
+
+La pagina di esito Stripe torna al dominio originale della scheda, scegliendo soltanto tra bandovera.it e www.bandovera.it. La verifica legge il server; se offline o ancora in attesa, la bozza rimane. Una bozza nuova o modificata durante la verifica non viene eliminata. Il controllo si ripete brevemente al ritorno da Stripe e viene rieseguito quando il cliente torna sulla scheda.
+
+Il pacchetto del sito aggiunge esclusivamente `scheda-bozza.js` e il suo caricamento in `attiva.html`, partendo dai file pubblicati il 3 novembre, inclusi i testi dei pulsanti appena approvati. `attiva.js`, l'adattatore Stripe, campi del modulo, CSS, logo e video restano invariati. L'applicatore verifica gli hash iniziali, salva backup sotto `/var/www/bandovera/.bandovera-backups/bozza-*`, scrive i due file e ripristina in caso di errore. Se trova modifiche successive si ferma.
+
+La parte sito può essere pubblicata prima del Worker: una risposta non riuscita alla rotta conserva la bozza. La pulizia automatica e il ritorno dalla pagina di esito diventano disponibili dopo il rilascio del Worker. Verificare il deploy e gli hash del sito; collaudare poi il comportamento nel browser. I test automatici usano Stripe, SMTP e archivi simulati: non costituiscono un nuovo acquisto reale.

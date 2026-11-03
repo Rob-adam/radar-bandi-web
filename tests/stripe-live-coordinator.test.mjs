@@ -58,6 +58,34 @@ test('ordine → pagamento verificato → licenza completa → due notifiche; ne
   assert.match(s.messages[0].body,/\?access=/);assert.ok(!s.messages[1].body.includes(rec.accessToken));
   assert.deepEqual(s.licenses.get('license:RB-0003'),before);
 });
+test('stato bozza è in sola lettura, richiede riferimento e impronta corretti e conferma solo incassi verificati',async()=>{
+  const s=setup();await s.checkout();
+  const order=await s.storage.get('order:'+first),request={id:first,digest:order.digest};
+  const before=clone([...s.storage.data]),licenses=clone([...s.licenses]),calls=s.calls.length;
+  assert.deepEqual(await(await s.call('/draft-status',request)).json(),{paid:false});
+  assert.equal((await s.call('/draft-status',{...request,digest:'0'.repeat(64)})).status,404);
+  assert.equal((await s.call('/draft-status',{...request,id:second})).status,404);
+  assert.equal((await s.call('/draft-status',{id:first,digest:'wrong'})).status,400);
+  assert.deepEqual([...s.storage.data],before);assert.deepEqual([...s.licenses],licenses);assert.equal(s.messages.length,0);assert.equal(s.calls.length,calls);
+  await s.paid();const after=clone([...s.storage.data]),count=s.messages.length;
+  const result=await(await s.call('/draft-status',request)).json();assert.deepEqual(result,{paid:true});
+  assert.deepEqual([...s.storage.data],after);assert.equal(s.messages.length,count);
+  const url='https://worker.example/api/checkout/live/draft-status';
+  const make=origin=>new Request(url,{method:'POST',headers:{origin,'content-type':'application/json'},body:JSON.stringify(request)});
+  const response=await routeStripeLive(make('https://bandovera.it'),s.env);
+  assert.equal(response.headers.get('access-control-allow-origin'),'https://bandovera.it');assert.deepEqual(await response.json(),{paid:true});
+  assert.equal((await routeStripeLive(make('https://foreign.example'),s.env)).status,403);
+  s.env.LIVE_CHECKOUT_ENABLED='false';assert.equal((await routeStripeLive(make('https://bandovera.it'),s.env)).status,200);
+});
+test('ritorno dopo Stripe conserva il dominio della scheda, vieta domini estranei e non cambia nei retry',async()=>{
+ for(const origin of ['https://www.bandovera.it','https://bandovera.it','https://foreign.example']){
+  const s=setup();await s.call('/checkout',{id:first,sheet,origin});
+  const url=new URL(s.calls.find(c=>c.path==='checkout/sessions').form.get('success_url'));
+  assert.equal(url.searchParams.get('site'),origin==='https://foreign.example'?'https://bandovera.it':origin);
+  await s.call('/checkout',{id:first,sheet,origin:'https://bandovera.it'});
+  assert.equal(s.calls.filter(c=>c.path==='checkout/sessions').length,1);
+ }
+});
 test('checkout ripetuto e webhook simultanei non duplicano sessione, licenza o email',async()=>{
   const s=setup();await Promise.all([s.checkout(),s.checkout()]);
   assert.equal(s.calls.filter(c=>c.path==='checkout/sessions').length,1);
