@@ -72,7 +72,7 @@
 <script id="bandovera-admin-sync">
 (()=>{
 const KEY="radar_bandi_admin_clients_v1",SK="bandovera_admin_api_key";const $=id=>document.getElementById(id);let clients=JSON.parse(localStorage.getItem(KEY)||"[]");
-const origin=location.origin;let editingIndex=null;
+const origin=location.origin;let editingIndex=null;let serverNextCode=0;
 function apiKey(){let k=sessionStorage.getItem(SK)||"";if(!k){k=prompt("Chiave amministratore BANDOVERA per la gestione centralizzata delle licenze:")||"";if(k)sessionStorage.setItem(SK,k)}return k} 
   async function loadClientsFromCloud(){
  const key=apiKey();
@@ -98,6 +98,7 @@ function apiKey(){let k=sessionStorage.getItem(SK)||"";if(!k){k=prompt("Chiave a
   return;
  }
 
+ serverNextCode=Number(String(d.nextCode||"").match(/^RB-(\d+)$/)?.[1])||0;
  const remote=Array.isArray(d.clients)?d.clients:[];
 clients=remote;
 localStorage.setItem(KEY,JSON.stringify(clients));
@@ -105,7 +106,7 @@ localStorage.setItem(KEY,JSON.stringify(clients));
 async function syncLicense(c){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,name:c.name||'',active:c.active!==false,expiresAt:c.expiresAt||'',price:+c.price||0,profile:c})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
 async function syncExpiry(c,expiresAt){if(!c||!c.license)throw new Error("Licenza non valida");const key=apiKey();if(!key)throw new Error("Chiave amministratore non inserita");let r;try{r=await fetch('/api/admin/license',{method:'POST',headers:{'content-type':'application/json','authorization':'Bearer '+key},body:JSON.stringify({license:c.license,active:c.active!==false,expiresAt})})}catch(e){throw new Error("Impossibile contattare Cloudflare KV")};let d={};try{d=await r.json()}catch{}if(!r.ok){if(r.status===401)sessionStorage.removeItem(SK);throw new Error(d.error||"Sincronizzazione licenza non riuscita")};return d}
 async function checkCloud(){const el=$('cloudStatus');try{const r=await fetch('/api/admin/sync-status',{cache:'no-store'});const d=await r.json();if(d.configured&&d.adminSecret){el.textContent='Cloudflare KV · operativo';el.className='small cloud-ok'}else{el.textContent='Cloudflare KV · configurazione incompleta';el.className='small cloud-warn'}}catch(e){el.textContent='Cloudflare KV · verifica non disponibile';el.className='small cloud-warn'}}
-function nextCode(){let max=0;for(const c of clients){const m=String(c.license||"").match(/^RB-(\d+)$/);if(m)max=Math.max(max,+m[1])}return "RB-"+String(max+1).padStart(4,"0")}
+function nextCode(){let max=0;for(const c of clients){const m=String(c.license||"").match(/^RB-(\d+)$/);if(m)max=Math.max(max,+m[1])}return "RB-"+String(Math.max(max+1,serverNextCode)).padStart(4,"0")}
 function addMonths(date,months){const d=new Date(date);d.setMonth(d.getMonth()+months);return d.toISOString().slice(0,10)}
 function esc(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
 function save(){localStorage.setItem(KEY,JSON.stringify(clients));render()}
@@ -148,6 +149,6 @@ async function start(){
 }
 start();
 })();
-</script><script src="/admin/stripe-orders.js" defer></script></body></html>
+</script><script src="/admin/stripe-orders.js" defer></script><script src="/admin/license-archive.js" defer></script></body></html>
 
 
