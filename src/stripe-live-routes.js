@@ -23,7 +23,11 @@ async function webhook(request,env) {
   } catch {return liveJSON({error:'Payload non valido'},400);}
   let event;
   try {event=await verifyStripeEvent(raw,request.headers.get('stripe-signature'),env.STRIPE_LIVE_WEBHOOK_SECRET);}
-  catch {return liveJSON({error:'Firma non valida'},400);}
+  catch(error) {
+    const allowed=new Set(['webhook_body_invalid','webhook_secret_format','webhook_signature_header','webhook_signature_timestamp','webhook_signature_mismatch']);
+    const diagnostic=allowed.has(error?.code)?error.code:'webhook_verification_internal';
+    return liveJSON({error:'Firma non valida',diagnostic},400);
+  }
   const result=classifyLivePaidCheckout(event);
   if(['ignore','pending'].includes(result.action)) return liveJSON({received:true});
   if(result.action==='reject') return liveJSON({error:'Evento non valido'},400);
