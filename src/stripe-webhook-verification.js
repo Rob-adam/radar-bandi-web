@@ -6,6 +6,10 @@
  */
 const encoder = new TextEncoder();
 
+function verificationFailure(message, code) {
+  return Object.assign(new Error(message), {code});
+}
+
 function timingSafeEqual(a, b) {
   if (a.length !== b.length) return false;
   let difference = 0;
@@ -44,16 +48,22 @@ function parseSignature(header) {
  * @param {number} nowSeconds clock for tests, default current time
  */
 export async function verifyStripeEvent(rawBody, signatureHeader, webhookSecret, nowSeconds = Math.floor(Date.now() / 1000)) {
-  if (typeof rawBody !== "string" || !rawBody || typeof webhookSecret !== "string" || !webhookSecret.startsWith("whsec_")) {
-    throw new Error("Parametri webhook non validi");
+  if (typeof rawBody !== "string" || !rawBody) {
+    throw verificationFailure("Parametri webhook non validi", "webhook_body_invalid");
+  }
+  if (typeof webhookSecret !== "string" || !webhookSecret.startsWith("whsec_") || webhookSecret.trim() !== webhookSecret) {
+    throw verificationFailure("Parametri webhook non validi", "webhook_secret_format");
   }
   const {timestamp, signatures} = parseSignature(signatureHeader);
-  if (!Number.isSafeInteger(timestamp) || signatures.length === 0 || Math.abs(nowSeconds - timestamp) > 300) {
-    throw new Error("Firma Stripe mancante o scaduta");
+  if (!Number.isSafeInteger(timestamp) || signatures.length === 0) {
+    throw verificationFailure("Firma Stripe mancante o scaduta", "webhook_signature_header");
+  }
+  if (Math.abs(nowSeconds - timestamp) > 300) {
+    throw verificationFailure("Firma Stripe mancante o scaduta", "webhook_signature_timestamp");
   }
   const hmacKey = await crypto.subtle.importKey("raw", encoder.encode(webhookSecret), {name: "HMAC", hash: "SHA-256"}, false, ["sign"]);
   const mac = new Uint8Array(await crypto.subtle.sign("HMAC", hmacKey, encoder.encode(timestamp + "." + rawBody)));
-  if (!signatures.some(sig => timingSafeEqual(sig, mac))) throw new Error("Firma Stripe non valida");
+  if (!signatures.some(sig => timingSafeEqual(sig, mac))) throw verificationFailure("Firma Stripe non valida", "webhook_signature_mismatch");
   const event = JSON.parse(rawBody);
   if (!event || typeof event.id !== "string" || typeof event.type !== "string" || !event.data?.object) {
     throw new Error("Evento Stripe non valido");

@@ -22,6 +22,22 @@ test('firma autentica: evento accettato',async()=>{
  const body=JSON.stringify(event);
  assert.deepEqual(await verifyStripeEvent(body,await signed(body),secret,now),event);
 });
+test('diagnostica distingue configurazione, header, timestamp e firma senza esporre segreti',async()=>{
+ const body=JSON.stringify(event), header=await signed(body);
+ for(const [key,sig,time,code] of [
+  ['rk_live_not_a_webhook_secret',header,now,'webhook_secret_format'],
+  [secret+'\n',header,now,'webhook_secret_format'],
+  [secret,null,now,'webhook_signature_header'],
+  [secret,header,now+301,'webhook_signature_timestamp'],
+  ['whsec_different',header,now,'webhook_signature_mismatch']
+ ]) {
+  await assert.rejects(verifyStripeEvent(body,sig,key,time),err=>{
+   assert.equal(err.code,code);
+   assert.equal(err.message.includes(key),false);
+   return true;
+  });
+ }
+});
 test('corpo alterato: firma rifiutata',async()=>{
  const body=JSON.stringify(event);
  await assert.rejects(verifyStripeEvent(body+' ',await signed(body),secret,now),/Firma Stripe non valida/);
