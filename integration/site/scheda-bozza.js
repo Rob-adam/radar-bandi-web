@@ -4,9 +4,9 @@
   const form=document.getElementById('scheda');if(!form)return;
   const draftKey='bandovera.scheda2',checkoutKey='bandovera_checkout_live_v1',noticeKey='bandovera_draft_cleared';
   const message=document.createElement('p');message.className='nota';message.setAttribute('role','status');message.setAttribute('aria-live','polite');form.before(message);
-  const clear=document.createElement('button');clear.type='button';clear.className='btn';clear.textContent='Svuota la scheda';
-  clear.setAttribute('style','display:block;width:100%;max-width:360px;min-height:50px;margin:0 0 24px;padding:14px 20px;border:2px solid #34d5ed;border-radius:12px;background:#102438;color:#fff;font-size:17px;font-weight:800;line-height:1.35;cursor:pointer');
-  form.prepend(clear);
+  const clear=document.createElement('button');clear.type='button';clear.className='btn ghost';clear.textContent='Svuota la scheda';
+  clear.setAttribute('style','background:#34d5ed;color:#07111f;border-color:#34d5ed');
+  form.append(clear);
   let edited=false,checking=false;
   form.addEventListener('input',()=>{edited=true;});form.addEventListener('change',()=>{edited=true;});
   try{const notice=sessionStorage.getItem(noticeKey);if(notice){message.textContent=notice==='paid'?'Pagamento confermato: la scheda salvata in questo browser è stata cancellata. Conserva l’email con la tua licenza.':'La scheda salvata in questo browser è stata cancellata.';sessionStorage.removeItem(noticeKey);}}catch{}

@@ -4,7 +4,7 @@ async function setup({paid=false,ok=true,raw='{"cf":"12345678901","nome_associaz
  const local=new Map([['unrelated','keep'],['bandovera.scheda2',raw]]),session=new Map(ref?[['bandovera_checkout_live_v1',JSON.stringify({id:'a'.repeat(32),digest:'test'})]]:[]);
  const elements=[],events={},calls=[],formEvents={};let redirected,reset=false;
  const storage=m=>({getItem:k=>m.get(k)??null,removeItem:k=>{if(blocked)throw Error();m.delete(k);},setItem:(k,v)=>m.set(k,v)});
- const form={before:e=>elements.push(e),append:e=>elements.push(e),prepend:e=>elements.push(e),reset:()=>{reset=true;},addEventListener:(k,fn)=>formEvents[k]=fn};
+ const form={before:e=>elements.push(e),append:e=>elements.push(e),reset:()=>{reset=true;},addEventListener:(k,fn)=>formEvents[k]=fn};
  const context={window:{addEventListener:(k,fn)=>events[k]=fn},document:{getElementById:()=>form,createElement:()=>({setAttribute(){},addEventListener(k,fn){this[k]=fn;}})},
   location:{origin:'https://bandovera.it',search:'',replace:v=>{redirected=v;}},localStorage:storage(local),sessionStorage:storage(session),
   confirm:()=>confirmResult,crypto:webcrypto,TextEncoder,URLSearchParams,setTimeout:()=>{},
