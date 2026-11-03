@@ -668,6 +668,121 @@
           }
         ]
       }
+    },
+    {
+      "id": "review-20261103-SPORTESALUTE-LO-SPORT-E-VITA-2026-L1",
+      "decision": "approved",
+      "reviewedAt": "2026-11-03",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Pagina e avviso ufficiali letti il 03/11/2026, sezioni 1.3–1.9, 2.2–2.3, 3 e 4: apertura 28/10 ore 15, termine 28/11 ore 12; APS/ETS partner nella Linea 1 con capofila OO.SS. CONI, non candidabile autonomamente come APS. Linea 2 riservata alle categorie sanitarie/ricerca indicate dall’avviso. Nessuna soglia generale di costituzione o entrate indicata; ammissibilità del cliente e partenariato non documentati.",
+      "evidence": [
+        {
+          "url": "https://www.sportesalute.eu/lo-sport-e-vita",
+          "checkedAt": "2026-11-03",
+          "note": "Pagina e avviso ufficiali letti il 03/11/2026, sezioni 1.3–1.9, 2.2–2.3, 3 e 4: apertura 28/10 ore 15, termine 28/11 ore 12; APS/ETS partner nella Linea 1 con capofila OO.SS. CONI, non candidabile autonomamente come APS. Linea 2 riservata alle categorie sanitarie/ricerca indicate dall’avviso. Nessuna soglia generale di costituzione o entrate indicata; ammissibilità del cliente e partenariato non documentati."
+        },
+        {
+          "url": "https://www.sportesalute.eu/images/sport-e-vita/Avviso_Pubblico_Lo_Sport_e_vita.pdf",
+          "checkedAt": "2026-11-03",
+          "note": "Pagina e avviso ufficiali letti il 03/11/2026, sezioni 1.3–1.9, 2.2–2.3, 3 e 4: apertura 28/10 ore 15, termine 28/11 ore 12; APS/ETS partner nella Linea 1 con capofila OO.SS. CONI, non candidabile autonomamente come APS. Linea 2 riservata alle categorie sanitarie/ricerca indicate dall’avviso. Nessuna soglia generale di costituzione o entrate indicata; ammissibilità del cliente e partenariato non documentati."
+        }
+      ],
+      "record": {
+        "id": "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1",
+        "title": "Lo Sport è vita — Linea 1, APS/ETS solo come partner",
+        "source": "Sport e Salute S.p.A.",
+        "sourceUrl": "https://www.sportesalute.eu/lo-sport-e-vita",
+        "opening": "2026-10-28",
+        "openingAt": "2026-10-28T15:00:00+01:00",
+        "deadline": "2026-11-28",
+        "deadlineAt": "2026-11-28T12:00:00+01:00",
+        "fund": 1000000,
+        "maxGrant": 1000000,
+        "aid": "Linea 1: dotazione 1 milione €, contributo massimo 1 milione € per progetto, entro il costo complessivo. L’importo non è una quota garantita al partner ETS. Cofinanziamento facoltativo premiante (massimo punteggio al 20% del contributo richiesto). Anticipo 30%, quote intermedie 30% e 20%, saldo 20%, subordinati alle verifiche.",
+        "territories": [
+          "italia"
+        ],
+        "legalForms": [
+          "ets",
+          "aps",
+          "odv",
+          "non profit"
+        ],
+        "sectors": [
+          "salute",
+          "sociale",
+          "sport"
+        ],
+        "beneficiaries": [
+          "pazienti con patologie croniche",
+          "persone con disabilità",
+          "persone fragili",
+          "famiglie"
+        ],
+        "activities": [
+          "attività fisica adattata",
+          "prevenzione",
+          "riabilitazione",
+          "promozione della salute"
+        ],
+        "purposes": [
+          "tutela della salute",
+          "inclusione sociale"
+        ],
+        "tags": [
+          "Nazionale",
+          "Salute",
+          "Patologie croniche",
+          "APS partner",
+          "Capofila CONI"
+        ],
+        "eligibility": [
+          "Linea 1: l’APS/ETS può partecipare solo in raggruppamento con capofila Organismo Sportivo riconosciuto dal CONI; non può presentare autonomamente la domanda. Individuare il capofila e documentare ruolo e accordi del raggruppamento.",
+          "Attività coerenti con prevenzione, salute e benessere; obbligatoria almeno una tariffa agevolata per i beneficiari. Gratuità e cofinanziamento sono premianti, non requisiti minimi aggiuntivi.",
+          "Cronoprogramma dalla concessione al 30/06/2028; rendiconto finale entro 30/09/2028; utilizzo dei sistemi di monitoraggio e rendicontazione di Sport e Salute.",
+          "Contributo non superiore al costo del progetto; spese dirette documentate, costi indiretti al massimo 20% dei costi diretti; vietato finanziare due volte le stesse spese.",
+          "Domanda del capofila esclusivamente su Piattaforma Bandi tramite SPID/CIE del legale rappresentante entro il 28/11/2026 alle 12:00.",
+          "Nessuna soglia generale di anno di costituzione o entrate indicata nell’avviso letto. Il ruolo di partner, le attività e la capacità organizzativa restano da documentare. La sede in Veneto e l’operatività nazionale non sostituiscono questi requisiti.",
+          "La Linea 2 non è inclusa nella scheda per APS: riservata a università, enti di ricerca, fondazioni sanitarie/di ricerca e strutture sanitarie accreditate con comprovata esperienza."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "Linea 1: l’APS/ETS può partecipare solo in raggruppamento con capofila Organismo Sportivo riconosciuto dal CONI; non può presentare autonomamente la domanda. Individuare il capofila e documentare ruolo e accordi del raggruppamento."
+          },
+          {
+            "type": "document",
+            "label": "Attività coerenti con prevenzione, salute e benessere; obbligatoria almeno una tariffa agevolata per i beneficiari. Gratuità e cofinanziamento sono premianti, non requisiti minimi aggiuntivi."
+          },
+          {
+            "type": "document",
+            "label": "Cronoprogramma dalla concessione al 30/06/2028; rendiconto finale entro 30/09/2028; utilizzo dei sistemi di monitoraggio e rendicontazione di Sport e Salute."
+          },
+          {
+            "type": "document",
+            "label": "Contributo non superiore al costo del progetto; spese dirette documentate, costi indiretti al massimo 20% dei costi diretti; vietato finanziare due volte le stesse spese."
+          },
+          {
+            "type": "document",
+            "label": "Domanda del capofila esclusivamente su Piattaforma Bandi tramite SPID/CIE del legale rappresentante entro il 28/11/2026 alle 12:00."
+          }
+        ],
+        "applicantChecks": [
+          {
+            "label": "Individuare capofila OO.SS. riconosciuto CONI, confermare ruolo APS nel raggruppamento e documentare progetto, tariffe e budget. Nessuna prova di ammissibilità dell’associazione acquisita.",
+            "status": "unknown"
+          }
+        ],
+        "eligibilityStatus": "da_verificare"
+      }
     }
   ]
 }

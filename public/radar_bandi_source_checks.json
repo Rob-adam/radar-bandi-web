@@ -3,7 +3,7 @@
   "attemptedAt": "2026-11-03T02:12:49+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 64,
+    "observed": 66,
     "needsReview": 6,
     "failed": 2
   },
@@ -775,6 +775,30 @@
       "lastFetchSucceededAt": "2026-11-03T07:43:28+01:00",
       "needsReview": false,
       "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
+    },
+    "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1|https://www.sportesalute.eu/lo-sport-e-vita": {
+      "url": "https://www.sportesalute.eu/lo-sport-e-vita",
+      "evidenceCheckedAt": "2026-11-03",
+      "attemptedAt": "2026-11-03T07:46:41+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "098918890df420fb4b59dd55b7a448835d9e8bf87f15fc8f67ca0a8a6ae355f8",
+      "baselineHash": "098918890df420fb4b59dd55b7a448835d9e8bf87f15fc8f67ca0a8a6ae355f8",
+      "lastFetchSucceededAt": "2026-11-03T07:46:41+01:00",
+      "needsReview": false,
+      "bandoId": "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1"
+    },
+    "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1|https://www.sportesalute.eu/images/sport-e-vita/Avviso_Pubblico_Lo_Sport_e_vita.pdf": {
+      "url": "https://www.sportesalute.eu/images/sport-e-vita/Avviso_Pubblico_Lo_Sport_e_vita.pdf",
+      "evidenceCheckedAt": "2026-11-03",
+      "attemptedAt": "2026-11-03T07:46:41+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "5edf866b5c68e84b86e5556493ae710e90611a3fddcc70aa5c3d6de8f8da54bb",
+      "baselineHash": "5edf866b5c68e84b86e5556493ae710e90611a3fddcc70aa5c3d6de8f8da54bb",
+      "lastFetchSucceededAt": "2026-11-03T07:46:41+01:00",
+      "needsReview": false,
+      "bandoId": "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1"
     }
   }
 }

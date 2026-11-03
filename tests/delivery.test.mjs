@@ -219,3 +219,17 @@ test('FVG over65 revision survives publication and stays available after the old
  assert.equal(review.record.deadline,b.deadline,'updater publication must not restore the old date');
  assert.equal(review.reviewedAt,'2026-11-03');
 });
+
+test('Lo Sport è vita reaches a Veneto APS as partner, with no invented autonomous eligibility or mandatory cofunding',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-03T09:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='SPORTESALUTE-LO-SPORT-E-VITA-2026-L1');
+ assert.ok(b);assert.equal(b.deadlineAt,'2026-11-28T12:00:00+01:00');
+ assert.ok(b.title.includes('solo come partner'));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('non può presentare autonomamente')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('Gratuità e cofinanziamento sono premianti')));
+ assert.ok(!b.hardRequirements.some(r=>['seat','foundationYear','revenue'].includes(r.type)));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ t.mock.timers.setTime(new Date('2026-11-28T11:00:01Z').getTime());
+ assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===b.id));
+});
