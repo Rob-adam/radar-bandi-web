@@ -558,7 +558,7 @@
     {
       "id": "review-20261025-FVG-BENESSERE-OVER65-MONTAGNA-2026",
       "decision": "approved",
-      "reviewedAt": "2026-10-25",
+      "reviewedAt": "2026-11-03",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -568,17 +568,22 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+      "note": "Pagina, decreto 59632/GRFVG del 02/11/2026 e bando revisionato letti il 03/11/2026: termine prorogato al 12/11/2026; art. 7 comma 2 lettera b esteso a servizi e collaborazioni occasionali per le attività motorie. Confermati ETS iscritti RUNTS, sede legale o operativa FVG, destinatari nei Comuni montani e tutti gli elementi obbligatori del progetto. Nessuna soglia generale di anzianità o entrate indicata. La verifica dell’avviso non certifica i requisiti di Simona.",
       "evidence": [
         {
           "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
-          "checkedAt": "2026-10-25",
-          "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          "checkedAt": "2026-11-03",
+          "note": "Pagina, decreto 59632/GRFVG del 02/11/2026 e bando revisionato letti il 03/11/2026: termine prorogato al 12/11/2026; art. 7 comma 2 lettera b esteso a servizi e collaborazioni occasionali per le attività motorie. Confermati ETS iscritti RUNTS, sede legale o operativa FVG, destinatari nei Comuni montani e tutti gli elementi obbligatori del progetto. Nessuna soglia generale di anzianità o entrate indicata. La verifica dell’avviso non certifica i requisiti di Simona."
         },
         {
-          "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261006_Bando_progetto_Benessere_persone_over_65.pdf",
-          "checkedAt": "2026-10-25",
-          "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+          "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Decreto_59632_2026_approvazione_Bando_progetto_Benessere_persone_over_65_integrazione.pdf",
+          "checkedAt": "2026-11-03",
+          "note": "Pagina, decreto 59632/GRFVG del 02/11/2026 e bando revisionato letti il 03/11/2026: termine prorogato al 12/11/2026; art. 7 comma 2 lettera b esteso a servizi e collaborazioni occasionali per le attività motorie. Confermati ETS iscritti RUNTS, sede legale o operativa FVG, destinatari nei Comuni montani e tutti gli elementi obbligatori del progetto. Nessuna soglia generale di anzianità o entrate indicata. La verifica dell’avviso non certifica i requisiti di Simona."
+        },
+        {
+          "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Bando_progetto_Benessere_persone_over_65_rev.pdf",
+          "checkedAt": "2026-11-03",
+          "note": "Pagina, decreto 59632/GRFVG del 02/11/2026 e bando revisionato letti il 03/11/2026: termine prorogato al 12/11/2026; art. 7 comma 2 lettera b esteso a servizi e collaborazioni occasionali per le attività motorie. Confermati ETS iscritti RUNTS, sede legale o operativa FVG, destinatari nei Comuni montani e tutti gli elementi obbligatori del progetto. Nessuna soglia generale di anzianità o entrate indicata. La verifica dell’avviso non certifica i requisiti di Simona."
         }
       ],
       "record": {
@@ -586,10 +591,10 @@
         "title": "Benessere over 65 — attività in acqua e trasporto nei Comuni montani",
         "source": "Regione Friuli Venezia Giulia",
         "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
-        "deadline": "2026-11-05",
+        "deadline": "2026-11-12",
         "fund": 140000,
         "maxGrant": 35000,
-        "aid": "80% della spesa, massimo 35.000 € per ente; anticipo 60%. Sportello in ordine cronologico fino a esaurimento risorse, entro 05/11/2026.",
+        "aid": "80% della spesa, massimo 35.000 € per ente; anticipo 60%. Sportello in ordine cronologico fino a esaurimento risorse, entro 12/11/2026. Ammesse anche prestazioni di servizi e collaborazioni occasionali per le attività motorie (integrazione del 02/11/2026).",
         "territories": [
           "friuli-venezia-giulia"
         ],
@@ -627,7 +632,8 @@
           "Destinatari over 65 residenti nei Comuni montani del FVG. La sola sede di Muggia non dimostra questo requisito del progetto.",
           "Obbligatori: attività motoria in acqua con personale qualificato, trasporto dedicato, socializzazione, coinvolgimento locale, monitoraggio e tariffe scontate documentate.",
           "Durata massima 12 mesi; rispetto delle spese ammissibili, del divieto di cumulo e della quota propria; non finanziati acquisto di immobili o veicoli iscritti in pubblici registri.",
-          "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando."
+          "Nessun limite generale di anno di costituzione o di entrate indicato nell’avviso consultato; restano le condizioni documentali ed economiche del bando.",
+          "Bando revisionato, art. 7 comma 2 lettera b: ammesse prestazioni di servizi e collaborazioni occasionali per la realizzazione delle attività motorie; restano gli altri limiti alle spese e gli obblighi di rendicontazione."
         ],
         "hardRequirements": [
           {

@@ -3,9 +3,9 @@
   "attemptedAt": "2026-11-03T02:12:49+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 63,
-    "needsReview": 8,
-    "failed": 3
+    "observed": 64,
+    "needsReview": 6,
+    "failed": 2
   },
   "checks": {
     "LIG-ACCOGLIENZA-GASLINI-2026|https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html": {
@@ -235,30 +235,6 @@
       "observedHash": "7159115bd7690bd90a42c99ab8a35e4af64897c2e81f4529b3e6b799d34380e3",
       "needsReview": false,
       "bandoId": "ER-DISABILITA-UDITIVA-2027-2029"
-    },
-    "FVG-BENESSERE-OVER65-MONTAGNA-2026|https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html": {
-      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
-      "evidenceCheckedAt": "2026-10-25",
-      "attemptedAt": "2026-11-03T02:12:49+01:00",
-      "baselineHash": "611177fdfcab980b18e3b583412cb2b475c4de534987e482f6de4fcb0753f51f",
-      "lastFetchSucceededAt": "2026-11-03T02:12:49+01:00",
-      "ok": true,
-      "status": "changed",
-      "observedHash": "ae2187e302bad0aa4823764f0da3f23c838f4061f5663f7b65669c8888596bd7",
-      "needsReview": true,
-      "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
-    },
-    "FVG-BENESSERE-OVER65-MONTAGNA-2026|https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261006_Bando_progetto_Benessere_persone_over_65.pdf": {
-      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261006_Bando_progetto_Benessere_persone_over_65.pdf",
-      "evidenceCheckedAt": "2026-10-25",
-      "attemptedAt": "2026-11-03T02:12:49+01:00",
-      "baselineHash": "9a1baf53071ee0d3f230b594b15201668df7bd3499746d2013b41e890e8a9f3e",
-      "lastFetchSucceededAt": "2026-11-02T17:12:15+01:00",
-      "ok": false,
-      "status": "unavailable",
-      "needsReview": true,
-      "error": "404 Client Error: Not Found for url: https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261006_Bando_progetto_Benessere_persone_over_65.pdf",
-      "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
     },
     "RLD12025048623|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/politiche-sociali/terzo-settore-volontariato/avviso-pubblico-volontariato-territorio-sviluppo-trasformazione-l-empowerment-promozione-terzo-settore-lombardia-RLD12025048623",
@@ -763,6 +739,42 @@
       "observedHash": "fcf72c90f6982913b70433254e22d34b1deb2eb5bacec59f2dbb9c08e60ad0b8",
       "needsReview": false,
       "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "FVG-BENESSERE-OVER65-MONTAGNA-2026|https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html": {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9131.html",
+      "evidenceCheckedAt": "2026-11-03",
+      "attemptedAt": "2026-11-03T07:43:28+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "ae2187e302bad0aa4823764f0da3f23c838f4061f5663f7b65669c8888596bd7",
+      "baselineHash": "ae2187e302bad0aa4823764f0da3f23c838f4061f5663f7b65669c8888596bd7",
+      "lastFetchSucceededAt": "2026-11-03T07:43:28+01:00",
+      "needsReview": false,
+      "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
+    },
+    "FVG-BENESSERE-OVER65-MONTAGNA-2026|https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Decreto_59632_2026_approvazione_Bando_progetto_Benessere_persone_over_65_integrazione.pdf": {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Decreto_59632_2026_approvazione_Bando_progetto_Benessere_persone_over_65_integrazione.pdf",
+      "evidenceCheckedAt": "2026-11-03",
+      "attemptedAt": "2026-11-03T07:43:28+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "c4bdb8fbf6d7bbe750eebfc44bbe7eaa37c030935a6de9ab101676c76ef02649",
+      "baselineHash": "c4bdb8fbf6d7bbe750eebfc44bbe7eaa37c030935a6de9ab101676c76ef02649",
+      "lastFetchSucceededAt": "2026-11-03T07:43:28+01:00",
+      "needsReview": false,
+      "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
+    },
+    "FVG-BENESSERE-OVER65-MONTAGNA-2026|https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Bando_progetto_Benessere_persone_over_65_rev.pdf": {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/strutture/Direzione_centrale_Salute_Politiche_Sociali_e_disabilita/allegati/20261102_Bando_progetto_Benessere_persone_over_65_rev.pdf",
+      "evidenceCheckedAt": "2026-11-03",
+      "attemptedAt": "2026-11-03T07:43:28+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "c7df09d700a469b16bacb44693bf296aa4d23b0735dd882afe0e23b26757b3ce",
+      "baselineHash": "c7df09d700a469b16bacb44693bf296aa4d23b0735dd882afe0e23b26757b3ce",
+      "lastFetchSucceededAt": "2026-11-03T07:43:28+01:00",
+      "needsReview": false,
+      "bandoId": "FVG-BENESSERE-OVER65-MONTAGNA-2026"
     }
   }
 }

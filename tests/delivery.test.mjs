@@ -202,3 +202,20 @@ test('Housing proroga stays available after the old deadline and closes at the n
  assert.ok(b.hardRequirements.some(r=>r.label.includes('lettera q)')));
  t.mock.timers.setTime(new Date('2026-11-20T12:00:01+01:00').getTime());assert.equal(await call(),undefined);
 });
+
+test('FVG over65 revision survives publication and stays available after the old November 5 deadline',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-06T10:00:00+01:00')});
+ const result=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
+ const b=result.bandi.find(b=>b.id==='FVG-BENESSERE-OVER65-MONTAGNA-2026');
+ assert.ok(b,'extension must remain visible after the old deadline');
+ assert.equal(b.deadline,'2026-11-12');assert.equal(b.maxGrant,35000);
+ assert.ok(b.aid.includes('collaborazioni occasionali'));
+ assert.ok(b.hardRequirements.some(r=>r.type==='seat'&&r.which==='legal_or_operational'));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('Comuni montani')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.ok(!b.tracking.verificationEvidence.some(e=>e.url.includes('20261006_Bando')));
+ assert.ok(b.tracking.verificationEvidence.some(e=>e.url.includes('20261102_Bando')));
+ const review=JSON.parse(fs.readFileSync(new URL('../data/radar_bandi_reviews.json',import.meta.url),'utf8')).reviews.find(d=>d.record?.id===b.id);
+ assert.equal(review.record.deadline,b.deadline,'updater publication must not restore the old date');
+ assert.equal(review.reviewedAt,'2026-11-03');
+});
