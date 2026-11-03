@@ -37,7 +37,7 @@ async function webhook(request,env) {
 /** Public routing only: the coordinator's /paid and /list paths are never public. */
 export async function routeStripeLive(request,env) {
   const url=new URL(request.url),path=url.pathname;
-  if(!['/api/stripe/live/webhook','/api/checkout/live/create','/api/admin/stripe/orders'].includes(path))return null;
+  if(!['/api/stripe/live/webhook','/api/checkout/live/create','/api/checkout/live/draft-status','/api/admin/stripe/orders'].includes(path))return null;
   if(!liveReady(env)||!env.LIVE_COORDINATOR)return liveJSON({error:'Pagamenti non ancora disponibili'},503);
   try {
     if(path==='/api/stripe/live/webhook')return await webhook(request,env);
@@ -52,7 +52,12 @@ export async function routeStripeLive(request,env) {
     const cors={'access-control-allow-origin':origin,'vary':'Origin','access-control-allow-methods':'POST, OPTIONS','access-control-allow-headers':'Content-Type'};
     if(request.method==='OPTIONS')return new Response(null,{status:204,headers:cors});
     let response;
-    if(env.LIVE_CHECKOUT_ENABLED!=='true')response=liveJSON({error:'Acquisti non ancora disponibili'},503);
+    if(path==='/api/checkout/live/draft-status'){
+      if(request.method!=='POST')response=liveJSON({error:'Metodo non consentito'},405);
+      else if(!request.headers.get('content-type')?.startsWith('application/json'))response=liveJSON({error:'Formato non valido'},415);
+      else {let body;try{body=await readLiveJSON(request,1024);}catch{return liveJSON({error:'Dati non validi'},400);}response=await internal(env,'/draft-status',body);}
+    }
+    else if(env.LIVE_CHECKOUT_ENABLED!=='true')response=liveJSON({error:'Acquisti non ancora disponibili'},503);
     else if(request.method!=='POST')response=liveJSON({error:'Metodo non consentito'},405);
     else if(!request.headers.get('content-type')?.startsWith('application/json'))response=liveJSON({error:'Formato non valido'},415);
     else {
@@ -64,7 +69,7 @@ export async function routeStripeLive(request,env) {
           body:new URLSearchParams({secret:env.TURNSTILE_SECRET,response:body.turnstileToken})});
         const checked=await verification.json();
         if(!verification.ok||checked.success!==true||checked.hostname!==new URL(origin).hostname||checked.action!=='bandovera_checkout')response=liveJSON({error:'Verifica di sicurezza scaduta. Ripeti la verifica.'},400);
-        else response=await internal(env,'/checkout',{id:body.id,sheet:body.sheet});
+        else response=await internal(env,'/checkout',{id:body.id,sheet:body.sheet,origin});
       }
     }
     const headers=new Headers(response.headers);for(const [k,v]of Object.entries(cors))headers.set(k,v);
