@@ -1,6 +1,7 @@
 import {hasAccess,accessToken,accessCookie,accessHash} from "./client-access.js";
 import {enrichProfile} from "./review-rules.js";
 import {officialListing} from "./official-listing.js";
+import {routeLicenseArchive} from "./license-archive.js";
 const json=(data,status=200)=>new Response(JSON.stringify(data),{status,headers:{"content-type":"application/json; charset=utf-8","cache-control":"no-store"}});
 
 function normalizeCode(v){return String(v||"").trim().toUpperCase().replace(/[^A-Z0-9-]/g,"");}
@@ -243,6 +244,8 @@ async function mergedExtraCatalog(request,env){
 
 export default {
  async fetch(request,env){
+  const archiveResponse=await routeLicenseArchive(request,env,{authOk,json});
+  if(archiveResponse)return archiveResponse;
   const url=new URL(request.url);
   if(url.pathname==='/api/official-listing')return officialListing(request);
   if(url.pathname.startsWith('/api/license/')){
@@ -304,6 +307,7 @@ if(raw){
                active:rec.active!==false,
                expiresAt:rec.expiresAt||'',
                price:Number(rec.price)||0,
+               archivedAt:rec.archivedAt||null,
                privateUrl:rec.accessToken?new URL('/'+(rec.license||key.name.replace('license:',''))+'?access='+encodeURIComponent(rec.accessToken),url.origin).toString():null
             });
          }
@@ -319,7 +323,9 @@ if(raw){
       {numeric:true}
    )
 );
-   return json({ok:true,clients:records});
+   const highest=records.reduce((max,c)=>Math.max(max,Number(String(c.license).match(/^RB-(\d+)$/)?.[1])||0),0);
+   const archived=url.searchParams.get('archived')==='1';
+   return json({ok:true,clients:records.filter(c=>!!c.archivedAt===archived).map(c=>archived?{license:c.license,name:c.name,archivedAt:c.archivedAt}:c),nextCode:'RB-'+String(highest+1).padStart(4,'0')});
   }
   if(url.pathname==='/api/admin/license'&&request.method==='POST'){
    if(!env.LICENSES)return json({error:'Archivio KV LICENSES non configurato'},503);
@@ -327,6 +333,7 @@ if(raw){
    let body;try{body=await request.json()}catch{return json({error:'JSON non valido'},400)}
    const code=normalizeCode(body.license);if(!code)return json({error:'Codice licenza mancante'},400);
    const previous=await env.LICENSES.get('license:'+code,{type:'json'});
+   if(previous?.archivedAt)return json({error:'Licenza eliminata: usa Ripristina prima di modificarla.'},409);
    const base={license:code,name:String(body.name||previous?.name||''),active:body.active!==false,expiresAt:String(body.expiresAt||previous?.expiresAt||''),price:Number(body.price??previous?.price)||0,updatedAt:new Date().toISOString()};
    const suppliedProfile=body.profile&&typeof body.profile==='object'?body.profile:null;
    const profile=cleanProfile(suppliedProfile,code,base)||previous?.profile||null;
