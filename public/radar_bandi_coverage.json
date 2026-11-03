@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-03T08:03:10+01:00",
+  "generatedAt": "2026-11-03T15:33:30+01:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
     "radar_bandi_catalogo_extra.json": 23,
-    "radar_bandi_auto.json": 134
+    "radar_bandi_auto.json": 135
   },
   "regions": {
     "abruzzo": {
@@ -13,7 +13,7 @@
     },
     "basilicata": {
       "manual": 0,
-      "automatic": 96
+      "automatic": 97
     },
     "calabria": {
       "manual": 0,
