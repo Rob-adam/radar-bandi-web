@@ -3,9 +3,9 @@
   "attemptedAt": "2026-11-04T07:40:47+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 66,
-    "needsReview": 14,
-    "failed": 8
+    "observed": 68,
+    "needsReview": 15,
+    "failed": 9
   },
   "checks": {
     "LIG-ACCOGLIENZA-GASLINI-2026|https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html": {
@@ -311,7 +311,7 @@
     "RLD12025048623|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919d8e5691019d91b4c68c002f?fileName=DDS+4806_26+Allegato_A_AVVISO.pdf",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "33845336efcea5343e53a564eef887b62e7085a5103b323bdd20a10e9ed373e2",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
@@ -347,13 +347,13 @@
     "RLJ12026054688|https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf": {
       "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "4e063df97b8ace4c1803abf2884a90cfb4dfa3ee025372fa44e3c687242a2ed4",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
       "status": "unavailable",
       "needsReview": true,
-      "error": "502 Server Error: Bad Gateway for url: https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf",
+      "error": "503 Server Error: Service Unavailable for url: https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa3719fab1b93019faccd31b1000b?fileName=Avviso+Terzo+Settore+26-28.pdf",
       "bandoId": "RLJ12026054688"
     },
     "RLA12025050323|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/dettaglio/amministrazione-territorio/finanza-locale/anno-2026-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12025050323": {
@@ -371,7 +371,7 @@
     "RLA12025050323|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919a7fc6de019a817251c50003?fileName=dcr+16240+13+11+2025.pdf": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2919a7fc6de019a817251c50003?fileName=dcr+16240+13+11+2025.pdf",
       "evidenceCheckedAt": "2026-10-23",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "a22a33906c37337dcf97a7dab5eefe9c914d930ce914ff53024deab8b5031b02",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
@@ -395,19 +395,19 @@
     "RLT12026053831|https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf": {
       "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "3cd2371ceec3826a7d0c89740574159c03235c7db4d0429567520d8b008bfc16",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
       "status": "unavailable",
       "needsReview": true,
-      "error": "502 Server Error: Bad Gateway for url: https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf",
+      "error": "503 Server Error: Service Unavailable for url: https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a0c6595701a0c8748d700006?fileName=_RSI9217453992117770172.pdf",
       "bandoId": "RLT12026053831"
     },
     "RLT12026053831|https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929e04cb94019e06bdb494000d?fileName=dgr_6031+del+20+aprile+2026.pdf": {
       "url": "https://bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929e04cb94019e06bdb494000d?fileName=dgr_6031+del+20+aprile+2026.pdf",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "052536fc7a23c462e75694490e6cf98b21166f90f6a8f9aade74fe5d40b96362",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
@@ -431,7 +431,7 @@
     "RLT12026052444|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929f252fc8019f28a0063c0045?fileName=Bando+Proposte+di+educazione+ambientale+e+alla+sostenibilita+2026.pdf": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa2929f252fc8019f28a0063c0045?fileName=Bando+Proposte+di+educazione+ambientale+e+alla+sostenibilita+2026.pdf",
       "evidenceCheckedAt": "2026-10-19",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "481a2cd1e1a9d5c4f364b4cd75a3e7387063aadc4c22356fbe573c207a59693d",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
@@ -455,19 +455,19 @@
     "RLH12026055146|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf",
       "evidenceCheckedAt": "2026-10-29",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "c91ff745524439fd7670d8135a6bc7b62d69eb2ce16a37396b4de41ed5a1dc48",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
       "status": "unavailable",
       "needsReview": true,
-      "error": "502 Server Error: Bad Gateway for url: https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf",
+      "error": "503 Server Error: Service Unavailable for url: https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a165fe7b01a167fc3d680027?fileName=FAQ_Bando_Linea3_HS_23-10.pdf",
       "bandoId": "RLH12026055146"
     },
     "RLH12026055146|https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a17ff53601a1830642cd010e?fileName=dduo+14403+Proroga+termini+Linea+3+28_10_26.pdf": {
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/bandi/download/8a5aa371a17ff53601a1830642cd010e?fileName=dduo+14403+Proroga+termini+Linea+3+28_10_26.pdf",
       "evidenceCheckedAt": "2026-10-29",
-      "attemptedAt": "2026-11-04T07:40:47+01:00",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
       "baselineHash": "e5b3bec08a814b93c9292debaff859a28679ae556abbf4b4fe778868a1a49eb5",
       "lastFetchSucceededAt": "2026-11-03T15:33:09+01:00",
       "ok": false,
@@ -799,6 +799,28 @@
       "observedHash": "fcf72c90f6982913b70433254e22d34b1deb2eb5bacec59f2dbb9c08e60ad0b8",
       "needsReview": false,
       "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "EU4HEALTH-OA-g-26-91|https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf": {
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
+      "evidenceCheckedAt": "2026-11-04",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
+      "baselineHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
+      "lastFetchSucceededAt": "2026-11-04T08:12:54+01:00",
+      "needsReview": false,
+      "bandoId": "EU4HEALTH-OA-g-26-91"
+    },
+    "EU4HEALTH-OA-g-26-91|https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG": {
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
+      "evidenceCheckedAt": "2026-11-04",
+      "attemptedAt": "2026-11-04T08:12:54+01:00",
+      "ok": false,
+      "status": "unavailable",
+      "needsReview": true,
+      "error": "testo fonte insufficiente",
+      "bandoId": "EU4HEALTH-OA-g-26-91"
     }
   }
 }

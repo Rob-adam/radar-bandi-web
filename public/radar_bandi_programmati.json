@@ -6,21 +6,21 @@
       "title": "EU4Health — contributi al funzionamento delle ONG sanitarie nel 2027",
       "source": "Commissione europea · HaDEA",
       "status": "programmato",
-      "publicationWindow": "Calendario indicativo HaDEA: apertura prevista 04/11/2026 · chiusura prevista 19/01/2027",
+      "publicationWindow": "Avviso pubblicato: apertura prevista 04/11/2026 · scadenza 19/01/2027 ore 17:00 CET · portale ancora Forthcoming al controllo",
       "budget": 1800000,
-      "budgetLabel": "1,8 milioni € complessivi indicativi",
-      "opening": null,
-      "deadline": null,
+      "budgetLabel": "1,8 milioni € complessivi · copertura ordinaria 60%, fino all’80% per utilità eccezionale",
+      "opening": "2026-11-04",
+      "deadline": "2027-01-19",
       "maxGrant": null,
       "foundationYear": null,
       "annualRevenue": null,
       "eligibilityStatus": "non_verificata",
-      "summary": "Programma per il funzionamento delle ONG sanitarie nel 2027. Sono richiesti valore aggiunto europeo e risultati misurabili. L’operatività nazionale, da sola, non dimostra l’ammissibilità.",
-      "nextAction": "Ricontrollare l’avviso HaDEA e il portale Funding & Tenders alla prevista apertura del 4 novembre. Le date del calendario sono indicative e possono cambiare. Verificare destinatari, territorio, anzianità, soglie economiche e requisiti bloccanti prima della candidatura.",
-      "sourceUrl": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
+      "summary": "ONG sanitarie non profit, di norma con personalità giuridica e indipendenti. Occorre dimostrare attività a livello UE, tramite organizzazioni aderenti statutarie, in almeno metà degli Stati membri con copertura geografica equilibrata: la sola operatività nazionale non basta. È ammesso un unico richiedente, senza consorzio.",
+      "nextAction": "Il portale ufficiale indica ancora Forthcoming e non consente l’avvio della candidatura: attendere e verificare Open for Submission prima di promuovere la scheda. Documentare la rete europea, l’indipendenza giuridica e finanziaria e l’assenza di conflitti. Finanziamento di base da donatori privati: massimo 30%; oltre 30% e sotto 50% occorre provare che non influenzano decisioni e attività. Richiesti bilanci, relazioni di attività e verbali assembleari degli ultimi due anni. Nessuna soglia generale di entrate o anno minimo di costituzione individuata; i documenti biennali restano obbligatori. Per richieste fino a 60.000 € è normalmente esclusa la verifica di capacità finanziaria: non è una soglia di entrate o un contributo massimo. Requisiti di Simona non documentati. Gli enti privi di personalità giuridica possono partecipare eccezionalmente alle condizioni di rappresentanza e garanzia previste nella sezione 6: verificare il caso concreto.",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
       "tracking": {
-        "verifiedAt": "2026-11-02",
-        "verificationScope": "Calendario indicativo ufficiale HaDEA letto il 02/11/2026: 4 novembre 2026–19 gennaio 2027. Avviso candidabile e requisiti specifici non verificati.",
+        "verifiedAt": "2026-11-04",
+        "verificationScope": "Avviso ufficiale V1.0 del 04/11/2026 letto integralmente: sez. 4 date; sez. 5 allegati biennali; sez. 6 ONG private non profit, indipendenza e rete in almeno metà UE, singolo richiedente; sez. 7 capacità finanziaria; sez. 10 copertura60/80%. Portale osservato il 04/11 ancora Forthcoming: nessuna apertura effettiva attestata e nessun match introdotto.",
         "verificationEvidence": [
           {
             "url": "https://health.ec.europa.eu/document/download/b719a2ab-481c-4904-805d-ce4457cf10dc_en?filename=funding_c2026_7403_annex_en.pdf",
@@ -31,12 +31,24 @@
             "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
             "checkedAt": "2026-11-02",
             "note": "Riga OA-g-26-91 del calendario HaDEA 2026–2027: pubblicazione indicativa 4 novembre 2026, chiusura indicativa 19 gennaio 2027, budget complessivo 1.800.000 euro. Il calendario non prova sportello aperto o requisiti del cliente."
+          },
+          {
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
+            "checkedAt": "2026-11-04",
+            "note": "Avviso ufficiale V1.0 del 04/11/2026 letto integralmente: sez. 4 date; sez. 5 allegati biennali; sez. 6 ONG private non profit, indipendenza e rete in almeno metà UE, singolo richiedente; sez. 7 capacità finanziaria; sez. 10 copertura60/80%. Portale osservato il 04/11 ancora Forthcoming: nessuna apertura effettiva attestata e nessun match introdotto."
+          },
+          {
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
+            "checkedAt": "2026-11-04",
+            "note": "Portale reso nel browser: stato Forthcoming; Start submission informa che il sistema aprirà nella data prevista, nessuna candidatura avviabile. Termine19/01/2027 ore17 Bruxelles. Il solo HTML iniziale non prova lo stato."
           }
         ]
       },
       "indicativeOpening": "2026-11-04",
       "indicativeDeadline": "2027-01-19",
-      "dateEvidenceType": "tentative_calendar"
+      "dateEvidenceType": "official_call_document",
+      "deadlineAt": "2027-01-19T17:00:00+01:00",
+      "submissionStatus": "forthcoming"
     },
     {
       "id": "CATTOLICA-UNA-MANO-2026",
@@ -73,5 +85,5 @@
       }
     }
   ],
-  "updatedAt": "02/11/2026 07:38"
+  "updatedAt": "04/11/2026 08:12"
 }

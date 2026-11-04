@@ -165,7 +165,7 @@ test('four newly documented calls reach a national APS without certifying its re
 test('licensed health dashboard shows planned EU funding separately from active catalogs',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
  assert.match(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/PROGRAMMATO · date indicative, candidatura non verificata/);
+ assert.match(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
   assert.ok(!body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'));
