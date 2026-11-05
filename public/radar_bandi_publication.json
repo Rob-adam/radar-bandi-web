@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedPublished": 7,
+  "reviewedPublished": 8,
   "publishedIds": [
     "CARIPT-BORSE-LAVORO-2026",
     "VEN-SERVIZIO-CIVILE-REGIONALE-2026",
@@ -8,7 +8,8 @@
     "CARIPLO-CARCERE-COMUNITA-2026",
     "ER-DISABILITA-UDITIVA-2027-2029",
     "FVG-BENESSERE-OVER65-MONTAGNA-2026",
-    "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1"
+    "SPORTESALUTE-LO-SPORT-E-VITA-2026-L1",
+    "EU4HEALTH-OA-g-26-91"
   ],
   "discovered": 135,
   "pendingReview": 42,
