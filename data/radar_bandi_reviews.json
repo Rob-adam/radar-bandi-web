@@ -783,6 +783,127 @@
         ],
         "eligibilityStatus": "da_verificare"
       }
+    },
+    {
+      "id": "review-20261105-EU4HEALTH-OA-g-26-91",
+      "decision": "approved",
+      "reviewedAt": "2026-11-05",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Portale ufficiale letto nel browser il 05/11/2026: Open For Submission e aggiornamento del 04/11 «The submission session is now available». Avviso V1.0 04/11 scaricato nuovamente: SHA256 976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d, invariato rispetto alla lettura del 04/11. Sezioni 4–7 e 10: date, rete europea, indipendenza, documenti, capacità e copertura; requisiti del cliente non provati.",
+      "evidence": [
+        {
+          "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
+          "checkedAt": "2026-11-05",
+          "note": "Portale ufficiale letto nel browser il 05/11/2026: Open For Submission e aggiornamento del 04/11 «The submission session is now available». Avviso V1.0 04/11 scaricato nuovamente: SHA256 976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d, invariato rispetto alla lettura del 04/11. Sezioni 4–7 e 10: date, rete europea, indipendenza, documenti, capacità e copertura; requisiti del cliente non provati. Prova di apertura: https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG"
+        }
+      ],
+      "record": {
+        "id": "EU4HEALTH-OA-g-26-91",
+        "title": "EU4Health — contributi al funzionamento delle ONG sanitarie nel 2027",
+        "source": "Commissione europea · HaDEA",
+        "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
+        "applicationUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
+        "opening": "2026-11-04",
+        "deadline": "2027-01-19",
+        "deadlineAt": "2027-01-19T17:00:00+01:00",
+        "status": "aperto",
+        "submissionStatus": "open",
+        "openingVerifiedAt": "2026-11-05T07:37:45+01:00",
+        "openingEvidenceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
+        "newOpeningUntil": "2026-11-12T00:00:00+01:00",
+        "fund": 1800000,
+        "maxGrant": null,
+        "foundationYear": null,
+        "annualRevenue": null,
+        "aid": "Dotazione 1,8 milioni €; finanziamento ordinario 60%, fino all’80% per utilità eccezionale (almeno 30% del budget per attività in Stati con RNL pro capite sotto il 90% della media UE). Nessun massimale individuale generale individuato. Anticipo normalmente 50%, niente pagamenti intermedi, saldo a rendiconto.",
+        "territories": [
+          "unione europea",
+          "italia"
+        ],
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets",
+          "associazione",
+          "fondazione",
+          "non profit"
+        ],
+        "sectors": [
+          "salute",
+          "sociale"
+        ],
+        "beneficiaries": [
+          "pazienti",
+          "persone fragili",
+          "famiglie"
+        ],
+        "activities": [
+          "promozione della salute",
+          "informazione",
+          "formazione",
+          "reti europee"
+        ],
+        "purposes": [
+          "tutela della salute",
+          "rappresentanza dei pazienti"
+        ],
+        "tags": [
+          "UE",
+          "Salute",
+          "ONG",
+          "Rete in almeno metà UE",
+          "Requisiti da documentare"
+        ],
+        "eligibility": [
+          "ONG non profit attiva nella salute pubblica e negli obiettivi EU4Health, di norma con personalità giuridica; per enti privi, eccezione subordinata a rappresentanza e garanzie equivalenti (sez. 6).",
+          "Documentare attività a livello UE tramite organizzazioni aderenti statutarie in almeno metà degli Stati membri, con copertura geografica equilibrata. La sola operatività italiana non basta e il requisito di Simona non è documentato.",
+          "Indipendenza finanziaria: donatori privati non oltre il 30% del finanziamento di base; oltre il 30% e sotto il 50% occorre dimostrare assenza di influenza sulle decisioni e attività. Indipendenza giuridica e assenza di conflitti del consiglio da provare.",
+          "Obbligatori statuto, registro, elenco membri, dichiarazione conflitti, bilanci, relazioni di attività e verbali assembleari degli ultimi due anni, CV, progetti precedenti, autovalutazione efficacia UE e motivazione del sostegno.",
+          "Singolo richiedente; niente consorzio. EU Login e PIC, domanda elettronica con Parte B massimo 70 pagine e allegati richiesti; termine 19/01/2027 ore 17:00 CET.",
+          "Durata massimo 12 mesi entro l’esercizio finanziario; risorse e capacità operative adeguate, niente doppio finanziamento o sostegno finanziario a terzi, infrastrutture e acquisto terreni esclusi.",
+          "Nessuna soglia generale di entrate o anno minimo di costituzione individuata; i documenti degli ultimi due anni restano obbligatori. La verifica di capacità finanziaria normalmente non si applica a contributi richiesti non superiori a 60.000 €: non è una soglia di entrate o un massimale."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "ONG non profit attiva nella salute pubblica e negli obiettivi EU4Health, di norma con personalità giuridica; per enti privi, eccezione subordinata a rappresentanza e garanzie equivalenti (sez. 6)."
+          },
+          {
+            "type": "document",
+            "label": "Documentare attività a livello UE tramite organizzazioni aderenti statutarie in almeno metà degli Stati membri, con copertura geografica equilibrata. La sola operatività italiana non basta e il requisito di Simona non è documentato."
+          },
+          {
+            "type": "document",
+            "label": "Indipendenza finanziaria: donatori privati non oltre il 30% del finanziamento di base; oltre il 30% e sotto il 50% occorre dimostrare assenza di influenza sulle decisioni e attività. Indipendenza giuridica e assenza di conflitti del consiglio da provare."
+          },
+          {
+            "type": "document",
+            "label": "Obbligatori statuto, registro, elenco membri, dichiarazione conflitti, bilanci, relazioni di attività e verbali assembleari degli ultimi due anni, CV, progetti precedenti, autovalutazione efficacia UE e motivazione del sostegno."
+          },
+          {
+            "type": "document",
+            "label": "Singolo richiedente; niente consorzio. EU Login e PIC, domanda elettronica con Parte B massimo 70 pagine e allegati richiesti; termine 19/01/2027 ore 17:00 CET."
+          },
+          {
+            "type": "document",
+            "label": "Durata massimo 12 mesi entro l’esercizio finanziario; risorse e capacità operative adeguate, niente doppio finanziamento o sostegno finanziario a terzi, infrastrutture e acquisto terreni esclusi."
+          }
+        ],
+        "applicantChecks": [
+          {
+            "label": "La rete europea, l’indipendenza, la documentazione finanziaria e la capacità dell’associazione non sono provate dal profilo. Il match misura affinità, non ammissione.",
+            "status": "unknown"
+          }
+        ]
+      }
     }
   ]
 }

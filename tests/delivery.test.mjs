@@ -162,20 +162,21 @@ test('four newly documented calls reach a national APS without certifying its re
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===ids[1]),'phase 2 must not keep phase 1 open');
 });
 
-test('licensed health dashboard shows planned EU funding separately from active catalogs',async()=>{
+test('licensed health dashboard promotes verified open EU funding and retains Cattolica as future',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
  assert.match(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
+ assert.match(html,/Una mano a chi sostiene/);
+ assert.doesNotMatch(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
-  assert.ok(!body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'));
+  assert.equal(body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'),name==='radar_bandi_catalogo_extra');
  }
 });
 
 test('licensed summary includes future opportunities and their content timestamp separately from active counts',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
  const meta=JSON.parse(html.match(/const plannedInfo=(\{[^;]+\});/)[1]);
- assert.equal(meta.count,2); assert.equal(meta.updatedAt,JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8')).updatedAt);
+ assert.equal(meta.count,1); assert.equal(meta.updatedAt,JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8')).updatedAt);
  assert.match(html,/id="plannedSummary"/);
  assert.match(html,/Ultimo aggiornamento opportunità:/);
  assert.match(html,/Prossime aperture e programmi annunciati/);
@@ -232,4 +233,29 @@ test('Lo Sport è vita reaches a Veneto APS as partner, with no invented autonom
  assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
  t.mock.timers.setTime(new Date('2026-11-28T11:00:01Z').getTime());
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===b.id));
+});
+
+test('EU4Health open call keeps European network and independence unproved for the applicant',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-05T10:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='EU4HEALTH-OA-g-26-91');
+ assert.ok(b);assert.equal(b.status,'aperto');assert.equal(b.submissionStatus,'open');
+ assert.equal(b.deadlineAt,'2027-01-19T17:00:00+01:00');
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('metà degli Stati membri')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('sotto il 50%')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));assert.equal(b.eligibilityStatus,'da_verificare');
+ t.mock.timers.setTime(new Date('2027-01-19T16:00:01Z').getTime());
+ assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===b.id));
+});
+test('new opening badge expires automatically and requires documented open status',()=>{
+ const html=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
+ const helper=html.slice(html.indexOf('function newOpeningBadge('),html.indexOf('function status('));
+ const state={now:Date.parse('2026-11-05T10:00:00+01:00')};
+ const context={Date:{parse:Date.parse,now:()=>state.now}};vm.createContext(context);vm.runInContext(helper+';this.badge=newOpeningBadge;',context);
+ const b=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo_extra.json',import.meta.url),'utf8')).bandi.find(x=>x.id==='EU4HEALTH-OA-g-26-91');
+ assert.match(context.badge(b),/Nuova apertura/);
+ assert.equal(context.badge({...b,submissionStatus:'forthcoming'}),'');
+ assert.equal(context.badge({...b,tracking:{officialSourceVerified:false}}),'');
+ state.now=Date.parse(b.newOpeningUntil);assert.equal(context.badge(b),'');
+ state.now=Date.parse(b.openingVerifiedAt)-1;assert.equal(context.badge(b),'');
 });

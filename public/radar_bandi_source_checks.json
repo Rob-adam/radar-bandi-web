@@ -3,9 +3,9 @@
   "attemptedAt": "2026-11-04T21:05:08+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 68,
-    "needsReview": 16,
-    "failed": 9
+    "observed": 65,
+    "needsReview": 15,
+    "failed": 8
   },
   "checks": {
     "LIG-ACCOGLIENZA-GASLINI-2026|https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/4754:concessione-contributi-accoglienza-bambini-ospedali-2026.html": {
@@ -752,52 +752,6 @@
       "needsReview": false,
       "bandoId": "ER-CARISBO-EMERGENZE-2026"
     },
-    "EU4HEALTH-OA-g-26-91|https://health.ec.europa.eu/document/download/b719a2ab-481c-4904-805d-ce4457cf10dc_en?filename=funding_c2026_7403_annex_en.pdf": {
-      "url": "https://health.ec.europa.eu/document/download/b719a2ab-481c-4904-805d-ce4457cf10dc_en?filename=funding_c2026_7403_annex_en.pdf",
-      "evidenceCheckedAt": "2026-10-25",
-      "attemptedAt": "2026-11-04T21:05:08+01:00",
-      "baselineHash": "07a412d70fd20d785cd1b20f62a1d5aae4e122a7f777a158654ef3c97fb8cf1d",
-      "lastFetchSucceededAt": "2026-11-04T21:05:08+01:00",
-      "ok": true,
-      "status": "unchanged",
-      "observedHash": "07a412d70fd20d785cd1b20f62a1d5aae4e122a7f777a158654ef3c97fb8cf1d",
-      "needsReview": false,
-      "bandoId": "EU4HEALTH-OA-g-26-91"
-    },
-    "EU4HEALTH-OA-g-26-91|https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en": {
-      "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
-      "evidenceCheckedAt": "2026-11-02",
-      "attemptedAt": "2026-11-04T21:05:08+01:00",
-      "baselineHash": "47ff7d3f653e5f40589c859105399bc12fedb7040f6392ad148a264fed6666bf",
-      "lastFetchSucceededAt": "2026-11-04T21:05:08+01:00",
-      "ok": true,
-      "status": "unchanged",
-      "observedHash": "47ff7d3f653e5f40589c859105399bc12fedb7040f6392ad148a264fed6666bf",
-      "needsReview": false,
-      "bandoId": "EU4HEALTH-OA-g-26-91"
-    },
-    "EU4HEALTH-OA-g-26-91|https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf": {
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
-      "evidenceCheckedAt": "2026-11-04",
-      "attemptedAt": "2026-11-04T21:05:08+01:00",
-      "baselineHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
-      "lastFetchSucceededAt": "2026-11-04T21:05:08+01:00",
-      "ok": true,
-      "status": "unchanged",
-      "observedHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
-      "needsReview": false,
-      "bandoId": "EU4HEALTH-OA-g-26-91"
-    },
-    "EU4HEALTH-OA-g-26-91|https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG": {
-      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/EU4H-2027-SANTE-OG",
-      "evidenceCheckedAt": "2026-11-04",
-      "attemptedAt": "2026-11-04T21:05:08+01:00",
-      "ok": false,
-      "status": "unavailable",
-      "needsReview": true,
-      "error": "testo fonte insufficiente",
-      "bandoId": "EU4HEALTH-OA-g-26-91"
-    },
     "CATTOLICA-UNA-MANO-2026|https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf": {
       "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf",
       "evidenceCheckedAt": "2026-10-25",
@@ -821,6 +775,18 @@
       "observedHash": "fcf72c90f6982913b70433254e22d34b1deb2eb5bacec59f2dbb9c08e60ad0b8",
       "needsReview": false,
       "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "EU4HEALTH-OA-g-26-91|https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf": {
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-og_en.pdf",
+      "evidenceCheckedAt": "2026-11-05",
+      "attemptedAt": "2026-11-05T07:37:45+01:00",
+      "baselineHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
+      "lastFetchSucceededAt": "2026-11-05T07:37:45+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
+      "needsReview": false,
+      "bandoId": "EU4HEALTH-OA-g-26-91"
     }
   }
 }
