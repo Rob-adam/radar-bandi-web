@@ -3,8 +3,8 @@
   "attemptedAt": "2026-11-04T21:05:08+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 65,
-    "needsReview": 15,
+    "observed": 66,
+    "needsReview": 14,
     "failed": 8
   },
   "checks": {
@@ -526,14 +526,14 @@
     },
     "FCARIPARO-LUOGHI-NON-COMUNI-2026|https://fondazionecariparo.it/iniziative/bando-luoghi-non-comuni-voci-che-contano/": {
       "url": "https://fondazionecariparo.it/iniziative/bando-luoghi-non-comuni-voci-che-contano/",
-      "evidenceCheckedAt": "2026-10-12",
-      "attemptedAt": "2026-11-04T21:05:08+01:00",
-      "baselineHash": "8101855159824f6de13f5da44b087689fafef91f8afdee1562b847a3017918ea",
-      "lastFetchSucceededAt": "2026-11-04T21:05:08+01:00",
+      "evidenceCheckedAt": "2026-11-05T07:46:57+01:00",
+      "attemptedAt": "2026-11-05T07:46:57+01:00",
+      "lastFetchSucceededAt": "2026-11-05T07:46:57+01:00",
       "ok": true,
-      "status": "changed",
+      "status": "baseline",
       "observedHash": "d37585304516b6d912657494cd1571192c4a90b47d6b480526399cd4061553a1",
-      "needsReview": true,
+      "baselineHash": "d37585304516b6d912657494cd1571192c4a90b47d6b480526399cd4061553a1",
+      "needsReview": false,
       "bandoId": "FCARIPARO-LUOGHI-NON-COMUNI-2026"
     },
     "FCARIPARO-IMPRENDITORIA-SOCIALE-2026|https://fondazionecariparo.it/iniziative/sostegno-imprenditoria-sociale-2026/": {
@@ -787,6 +787,18 @@
       "observedHash": "976a7a161ad765e8f52438367504d0f0ed5d7b664790559d0ab313c4f27b499d",
       "needsReview": false,
       "bandoId": "EU4HEALTH-OA-g-26-91"
+    },
+    "FCARIPARO-LUOGHI-NON-COMUNI-2026|https://fondazionecariparo.it/wp-content/uploads/2026/09/Luoghi-non-comuni-2026_Regolamento.pdf": {
+      "url": "https://fondazionecariparo.it/wp-content/uploads/2026/09/Luoghi-non-comuni-2026_Regolamento.pdf",
+      "evidenceCheckedAt": "2026-11-05T07:46:57+01:00",
+      "attemptedAt": "2026-11-05T07:46:57+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "32f19bf8adf67f4643751d4988e937749d037b4dfa1ceaba9e8f5ae21411e2b4",
+      "baselineHash": "32f19bf8adf67f4643751d4988e937749d037b4dfa1ceaba9e8f5ae21411e2b4",
+      "lastFetchSucceededAt": "2026-11-05T07:46:57+01:00",
+      "needsReview": false,
+      "bandoId": "FCARIPARO-LUOGHI-NON-COMUNI-2026"
     }
   }
 }

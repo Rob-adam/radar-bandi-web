@@ -160,11 +160,18 @@
     {
       "id": "FCARIPARO-LUOGHI-NON-COMUNI-2026",
       "tracking": {
-        "verificationEvidence": {
-          "url": "https://fondazionecariparo.it/iniziative/bando-luoghi-non-comuni-voci-che-contano/",
-          "note": "Fonte ufficiale Fondazione Cariparo: bando in corso, ETS ammessi in partnership con enti pubblici, sede legale o operativa Padova/Rovigo, scadenza prima fase 30/11/2026 ore 13:00.",
-          "checkedAt": "2026-10-12"
-        }
+        "verificationEvidence": [
+          {
+            "url": "https://fondazionecariparo.it/iniziative/bando-luoghi-non-comuni-voci-che-contano/",
+            "checkedAt": "2026-11-05T07:46:57+01:00",
+            "note": "Pagina e regolamento ufficiali riletti il 05/11/2026, artt. 1–7: partenariato pubblico/ETS, sede legale o stabile struttura operativa Padova/Rovigo, unico progetto per capofila o partner percettore, bene pubblico e documentazione giovanile. Confermati 4 milioni, massimo 200.000 €, cofinanziamento 20%, prima fase 30/11/2026 ore 13. Requisiti del cliente non documentati."
+          },
+          {
+            "url": "https://fondazionecariparo.it/wp-content/uploads/2026/09/Luoghi-non-comuni-2026_Regolamento.pdf",
+            "checkedAt": "2026-11-05T07:46:57+01:00",
+            "note": "Pagina e regolamento ufficiali riletti il 05/11/2026, artt. 1–7: partenariato pubblico/ETS, sede legale o stabile struttura operativa Padova/Rovigo, unico progetto per capofila o partner percettore, bene pubblico e documentazione giovanile. Confermati 4 milioni, massimo 200.000 €, cofinanziamento 20%, prima fase 30/11/2026 ore 13. Requisiti del cliente non documentati."
+          }
+        ]
       }
     },
     {

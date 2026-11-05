@@ -259,3 +259,16 @@ test('new opening badge expires automatically and requires documented open statu
  state.now=Date.parse(b.newOpeningUntil);assert.equal(context.badge(b),'');
  state.now=Date.parse(b.openingVerifiedAt)-1;assert.equal(context.badge(b),'');
 });
+test('Cariparo public partnership and single-project restriction remain documentary checks',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-05T09:00:00+01:00')});
+ const data=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
+ const b=data.bandi.find(b=>b.id==='FCARIPARO-LUOGHI-NON-COMUNI-2026');
+ assert.ok(b);assert.equal(b.deadlineAt,'2026-11-30T13:00:00+01:00');
+ assert.ok(b.hardRequirements.some(r=>r.type==='document'&&r.label.includes('Un solo progetto')&&r.label.includes('esclusione')));
+ assert.ok(b.hardRequirements.some(r=>r.type==='document'&&r.label.includes('Partnership obbligatoria')));
+ assert.ok(!b.hardRequirements.some(r=>(r.anyOf||[]).includes('ets')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('decennale')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('manifestazione di interesse')));
+ assert.ok(b.tracking.verificationEvidence.some(e=>e.url.endsWith('Luoghi-non-comuni-2026_Regolamento.pdf')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+});
