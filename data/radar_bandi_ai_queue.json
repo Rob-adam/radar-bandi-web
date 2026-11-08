@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T07:18:39+01:00",
+  "generatedAt": "2026-11-08T14:41:22+01:00",
   "ruleVersion": 4,
   "count": 40,
   "items": [
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027",
       "id": "REG-AUTO-BA504C6CA1EA",
-      "version": 24,
+      "version": 26,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/",
       "title": "AVVISO PUBBLICO CONCESSIONE CONTRIBUTI FORNITURA GRATUITA O SEMIGRATUITA DEI LIBRI DI TESTO ANNO SCOLASTICO 2026/2027",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale",
       "id": "REG-AUTO-802DE2802F3C",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "title": "AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro",
       "id": "REG-AUTO-5F4C03DFBDDD",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "title": "Avviso Pubblico #BASILSTEP TIROCINI e LAVORO",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti",
       "id": "REG-AUTO-0ED70F7D483F",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "title": "Avviso Pubblico FC – Voucher Professionisti",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane",
       "id": "REG-AUTO-D37749662A16",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
       "title": "Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali",
       "id": "REG-AUTO-C0E39D4A4358",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "title": "Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica",
       "id": "REG-AUTO-1E815F55617B",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "title": "Avviso pubblico per il finanziamento di interventi di efficientamento energetico e miglioramento degli impianti di illuminazione pubblica",
@@ -175,7 +175,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027",
       "id": "REG-AUTO-8060D47AFFFA",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "title": "Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027",
@@ -199,7 +199,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
       "id": "REG-AUTO-AA7CDBEA00E9",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "title": "DGR n. 637/2023 – Patrocinio oneroso per iniziative di interesse pubblico III quadrimestre 2026",
@@ -223,7 +223,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta",
       "id": "REG-AUTO-5CB7CC82AFC2",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "title": "PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL’INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL’AREA PIP SITA IN LOC SETA.",
@@ -247,7 +247,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole",
       "id": "REG-AUTO-470D75453743",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "title": "Struttura residenziale per anziani nel Comune di Grottole.",
@@ -271,7 +271,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie",
       "id": "REG-AUTO-07FE341ABA04",
-      "version": 30,
+      "version": 32,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/",
       "title": "concessione demaniale marittima nel Comune di Maratea, Località Porto per complessivi mq. 42,00 al fine di posizionare tavoli e sedie",
@@ -295,7 +295,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera",
       "id": "REG-AUTO-87EC46A26993",
-      "version": 123,
+      "version": 125,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "title": "lavori di riparazione di dispositivi mobili in dotazione al Corpo della Polizia Locale di Matera",
@@ -319,7 +319,7 @@
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "id": "REG-AUTO-2DA7C42694E9",
-      "version": 123,
+      "version": 125,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "title": "Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000",
@@ -344,7 +344,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/comunicazione-abbattimento-platani-infetti-RLM12026053837",
       "id": "RLM12026053837",
-      "version": 62,
+      "version": 64,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/comunicazione-abbattimento-platani-infetti-RLM12026053837",
       "title": "Comunicazione di abbattimento di platani infetti",
@@ -369,7 +369,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
       "id": "RLD12026056863",
-      "version": 54,
+      "version": 56,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
       "title": "Elenco unico degli enti erogatori qualificati allo svolgimento degli interventi di inclusione educativa e scolastica - Disabilità sensoriale",
@@ -397,7 +397,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263",
       "id": "RLM12026057263",
-      "version": 62,
+      "version": 64,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263",
       "title": "Interventi su platani",
@@ -422,7 +422,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-adesione-famiglie-RLD12026053903",
       "id": "RLD12026053903",
-      "version": 66,
+      "version": 68,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/famiglia/nidi-gratis-plus-2026-27-adesione-famiglie-RLD12026053903",
       "title": "NIDI GRATIS PLUS - 2026/27 - ADESIONE FAMIGLIE",
@@ -515,7 +515,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "id": "REG-AUTO-5D9EB4C71740",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "title": "Avvio di selezione \"a sportello\" di interventi urgenti di edilizia scolastica da sostenere finanziariamente con fondi regionali negli anni 2026-2027. Legge regionale n. 59/1999, art. 3-bis.",
@@ -539,7 +539,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "id": "REG-AUTO-817347F304D1",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "title": "Azione 2.8.4 \"TPL-Sistemi di Trasporto Intelligenti: bigliettazione unica e infomobilità\". Approvazione del Bando per l'attuazione dell'Azione 2.8.4 \"TPL - Sistemi di Trasporto intelligenti: bigliettazione unica e infomobilità\", nell'ambito dello Sviluppo Urbano Sostenibile (SUS) rivolto alle Aziende titolari dei contratti di servizio per la gestione dei servizi minimi di TPL.",
@@ -563,7 +563,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "id": "REG-AUTO-FCD08A990326",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "title": "Bando Melken prevenzione delle predazioni da lupo in malga con recinzioni elettrificate: analisi delle modifiche del pascolamento, del pascolo e degli episodi di attacco (FSCRI_RM_1750 beneficiari privati)",
@@ -587,7 +587,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "id": "REG-AUTO-F318DC0E8AD2",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "title": "Bando Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga (ID FSCRI_RI_418 beneficiari pubblici)",
@@ -611,7 +611,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "id": "REG-AUTO-A15AD7611A44",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "title": "Bando per l'evoluzione delle destinazioni turistiche venete in Smart Tourism Destination - terza edizione. DGR 992 del 15 settembre 2026. Azione 1.2.4 terza edizione",
@@ -635,7 +635,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
       "id": "REG-AUTO-9869BF427022",
-      "version": 30,
+      "version": 32,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
       "title": "Bando per la concessione di contributi ai titolari di licenza per attività di spettacolo viaggiante, iscritti all'Elenco regionale, per la realizzazione di attività innovative, di ricerca e sperimentazione delle nuove tecniche di intrattenimento.",
@@ -659,7 +659,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "id": "REG-AUTO-0B29A6670558",
-      "version": 80,
+      "version": 82,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "title": "Complemento regionale per lo sviluppo rurale 2023-2027 per il Veneto. Bando di apertura termini DGR n. 990/2026.",
@@ -683,7 +683,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "id": "REG-AUTO-395AB58C2BE6",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "title": "Concorso - \"Uso consapevole della rete internet e dei social media - 2^a edizione\" A.S.F. 2026-2027",
@@ -707,7 +707,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "id": "REG-AUTO-EEE38120D90C",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "title": "PR FESR 2021-2027 Azione 1.3.7 Sostegno alla competitività del sistema commerciale e valorizzazione dei distretti del commercio",
@@ -731,7 +731,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "id": "REG-AUTO-8F97D7B298AC",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 - Fondo Veneto Energia - Sezione Efficientamento energetico delle imprese",
@@ -755,7 +755,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "id": "REG-AUTO-77C619EEDA39",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 Sub C - \"Interventi a favore della produzione cinematografica e audiovisiva\"",
@@ -779,7 +779,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "id": "REG-AUTO-4D19CF6A3B12",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 sub A - Interventi a sostegno delle imprese culturali, creative e dell'audiovisivo - Sub A \"Consolidamento di imprese esistenti\" - II edizione",
@@ -803,7 +803,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "id": "REG-AUTO-E3AD91C8BE0B",
-      "version": 10,
+      "version": 12,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027, Priorità 9 \"Alloggi a prezzi accessibili\" Obiettivo Specifico 2.11 \"Promuovere l'accesso ad alloggi sostenibili e a prezzi accessibili (FESR)\", Azione 2.11.2: \"Interventi su alloggi e complessi immobiliari per progetti di Social Housing\", Sub Azione 1 \"Interventi su alloggi con attribuzione delle unità abitative per finalità sociali, ai sensi dell'art. 46 della Legge Regionale n. 39 del 03.11.2017\", Sub Azione 2 \"Interventi su alloggi non rientranti nell'ambito di applicazione della Legge Regionale n. 39 del 03.11.2017\". Bando per la selezione delle proposte da ammettere a finanziamento.",
@@ -827,7 +827,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "id": "REG-AUTO-9AC76430822E",
-      "version": 10,
+      "version": 12,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027, Priorità 9 \"Alloggi a prezzi accessibili\" Obiettivo Specifico 2.11 \"Promuovere l'accesso ad alloggi sostenibili e a prezzi accessibili (FESR)\". Azione 2.11.1 \"Interventi su alloggi di Edilizia Residenziale Pubblica (ERP)\". Bando per la selezione delle proposte da ammettere a finanziamento",
@@ -851,7 +851,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "id": "REG-AUTO-7ACD582ED719",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Start up",
@@ -875,7 +875,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "id": "REG-AUTO-CCEC3CB25F4A",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Transizione",
@@ -899,7 +899,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "id": "REG-AUTO-2DD9680DDFE9",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Ricerca, Sviluppo e Innovazione - Sezione Innovazione nelle PMI.",
@@ -923,7 +923,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "id": "REG-AUTO-5E8EB6C3611F",
-      "version": 123,
+      "version": 125,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2121-2027 Interventi di recupero, promozione e valorizzazione delle aree interne attraverso interventi ad alto impatto culturale.",
@@ -947,7 +947,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "id": "REG-AUTO-365CE1EF1564",
-      "version": 125,
+      "version": 127,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "title": "Programma Garanzia di Occupabilità dei Lavoratori GOL - Adeguamento e ulteriore finanziamento dell'Avviso pubblico n. 5 per la presentazione dei progetti finalizzati all'attuazione del Percorso 5 Ricollocazione collettiva",
