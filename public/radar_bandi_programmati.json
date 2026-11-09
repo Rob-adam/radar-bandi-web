@@ -15,17 +15,17 @@
       "foundationYear": null,
       "annualRevenue": null,
       "eligibilityStatus": "non_verificata",
-      "summary": "ETS e altri enti non profit ammessi: progetti realizzati direttamente in Italia, anche di assistenza e solidarietà sociale. Un progetto per ente; investimenti entro il 20% del costo. Selezione delle 100 migliori idee, poi voto pubblico; contributo a conclusione, previa rendicontazione.",
+      "summary": "ETS iscritti al RUNTS secondo la propria forma, enti ecclesiastici e altri enti privati non profit ammessi dal regolamento. Un progetto per ente, da realizzare direttamente in Italia. Investimenti in strutture e attrezzature entro il 20% del costo. Per i progetti finanziati, avvio entro 6 mesi e realizzazione entro 18 mesi dalla comunicazione di approvazione. Selezione delle 100 migliori idee, voto pubblico e liquidazione dopo rendicontazione.",
       "nextAction": "Preparare un progetto di inclusione e sostegno ai pazienti, documentare requisiti dell’ente e copertura della quota non finanziata. Verificare il form all’apertura. Nessun limite minimo di anzianità o soglia di entrate individuato nel bando letto; ammissibilità non attestata.",
       "sourceUrl": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf",
       "tracking": {
-        "verifiedAt": "2026-10-25",
-        "verificationScope": "Bando ufficiale e regolamento generale letti; date confermate dal bando, sportello non ancora aperto.",
+        "verifiedAt": "2026-11-09",
+        "verificationScope": "Bando ufficiale riletto il 09/11/2026; apertura prevista 16/11/2026. Nessuna candidatura aperta accertata prima della data indicata.",
         "verificationEvidence": [
           {
             "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026.pdf",
-            "checkedAt": "2026-10-25",
-            "note": "Pagine 1–3: destinatari, territorio italiano, 16/11/2026–16/02/2027, dotazione 500.000 €, massimo 20.000 € e 80%, investimenti massimo 20%, voto pubblico e rendicontazione finale. Nessun orario di scadenza indicato."
+            "checkedAt": "2026-11-09",
+            "note": "Bando ufficiale, pp. 1–3: requisiti, date, contributo massimo, limite sugli investimenti, selezione e rendicontazione; avvio entro 6 mesi e completamento entro 18 mesi per i progetti approvati. Nessun orario di chiusura indicato."
           },
           {
             "url": "https://www.fondazionecattolica.it/wp-content/uploads/2026/10/Regolamento-Fondazione_2026.pdf",
@@ -36,5 +36,5 @@
       }
     }
   ],
-  "updatedAt": "05/11/2026 07:37"
+  "updatedAt": "09/11/2026 07:58"
 }

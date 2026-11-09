@@ -904,6 +904,115 @@
           }
         ]
       }
+    },
+    {
+      "id": "review-20261109-FRD-COFINANZIAMENTO-2026",
+      "decision": "approved",
+      "reviewedAt": "2026-11-09",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Pagina del Fondo e regolamento, seconda edizione, §§1–6 riletti il 09/11/2026. Aperto il canale per le idee progettuali, non un bando competitivo con candidatura esecutiva immediata. Cofinanziamento esterno obbligatorio. Ammissibilità dell’ente non documentata.",
+      "evidence": [
+        {
+          "url": "https://www.fondorepubblicadigitale.it/iniziative-cofinanziamento/",
+          "checkedAt": "2026-11-09",
+          "note": "Pagina corrente: modello di primo contatto, termine 31/12/2026 salvo esaurimento, enti attuatori non profit e cofinanziatori privati."
+        },
+        {
+          "url": "https://www.fondorepubblicadigitale.it/wp-content/uploads/2026/03/Regolamento-iniziative-in-cofinanziamento_Seconda-edizione.pdf",
+          "checkedAt": "2026-11-09",
+          "note": "Regolamento §§1–6: importi, requisiti, durata, bilanci, selezione in due fasi e condizioni del cofinanziatore."
+        }
+      ],
+      "record": {
+        "id": "FRD-COFINANZIAMENTO-2026",
+        "title": "Fondo per la Repubblica Digitale — formazione e inclusione in cofinanziamento",
+        "source": "Fondo per la Repubblica Digitale – Impresa Sociale",
+        "sourceUrl": "https://www.fondorepubblicadigitale.it/iniziative-cofinanziamento/",
+        "deadline": "2026-12-31",
+        "status": "aperto",
+        "submissionStatus": "open",
+        "fund": 9480452,
+        "maxGrant": null,
+        "minGrant": 100000,
+        "foundationYear": null,
+        "annualRevenue": null,
+        "aid": "Contributo del Fondo da 100.000 €, fino al 50% del costo. Dotazione iniziale 9.480.452 €; esame in ordine di arrivo, fino al 31/12/2026 salvo esaurimento anticipato. Verificare disponibilità prima di impegnare risorse.",
+        "territories": [
+          "italia"
+        ],
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets",
+          "non profit",
+          "associazione",
+          "fondazione"
+        ],
+        "sectors": [
+          "sociale",
+          "formazione",
+          "inclusione digitale"
+        ],
+        "beneficiaries": [
+          "persone fragili",
+          "persone in condizioni di svantaggio"
+        ],
+        "activities": [
+          "formazione",
+          "competenze digitali",
+          "inclusione sociale"
+        ],
+        "purposes": [
+          "educazione e formazione",
+          "inclusione sociale"
+        ],
+        "tags": [
+          "Nazionale",
+          "Inclusione digitale",
+          "Cofinanziatore privato",
+          "Proposta preliminare"
+        ],
+        "eligibility": [
+          "Enti privati senza scopo di lucro come attuatori. Interventi anche locali in Italia, con formazione digitale sostanziale e finalità di inclusione.",
+          "Per un progetto rivolto a pazienti o caregiver occorre dimostrare un bisogno di competenze digitali e un percorso formativo coerente."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "Documentare almeno il 50% del costo da enti erogatori privati indipendenti: niente risorse interne degli attuatori, fondi pubblici o cofinanziatori nel partenariato."
+          },
+          {
+            "type": "document",
+            "label": "Soggetto responsabile privato non profit con sede legale in Italia, costituito da almeno due anni alla pubblicazione del regolamento; atto pubblico o scrittura privata autenticata o registrata, statuto e ultimi due bilanci approvati. Nessuna soglia generale di entrate nel regolamento."
+          },
+          {
+            "type": "document",
+            "label": "Progetto di 12–24 mesi, con beneficiari diretti individuati, formazione sulle competenze digitali e valutazione di impatto. Escluse attività ordinarie, mere riproposizioni e iniziative prevalentemente di studio o ricerca."
+          },
+          {
+            "type": "document",
+            "label": "Eventuale partenariato fino a sei soggetti con sede legale in Italia; partner for profit fino al 25% del budget, con apporto specialistico. Sindacati e associazioni di categoria non possono essere responsabili."
+          },
+          {
+            "type": "document",
+            "label": "Primo contatto con il modello ufficiale; idea con prova del cofinanziamento, poi progetto esecutivo tramite Re@dy entro 30 giorni dall’ammissione."
+          }
+        ],
+        "applicantChecks": [
+          {
+            "label": "Non documentati: cofinanziatore, statuto, ultimi due bilanci e progetto formativo dell’ente.",
+            "status": "unknown"
+          }
+        ]
+      }
     }
   ]
 }
