@@ -9,6 +9,7 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 from enrich_bandi import parse_date
+from discovery_review import is_fvg_listing_link
 from source_tls import source_tls_options
 from source_fetch import fetch_source, public_listing_fallback
 
@@ -354,7 +355,7 @@ def generic_region_items(html, base, source_name, territory):
             continue
 
         path = p.path.lower()
-        if url.rstrip("/") == base.rstrip("/"):
+        if url.rstrip("/") == base.rstrip("/") or is_fvg_listing_link(url):
             continue
         if any(part in path for part in GENERIC_BAD_PATH_PARTS):
             continue

@@ -3,6 +3,12 @@ import re
 from urllib.parse import urlparse
 
 
+def is_fvg_listing_link(url):
+    parsed = urlparse(url)
+    return (parsed.hostname in {'www.regione.fvg.it', 'regione.fvg.it'}
+            and parsed.path.rstrip('/').lower() == '/rafvg/cms/rafvg/moduli/bandi_avvisi')
+
+
 def observed_title(record):
     title = str(record.get('title') or '').strip()
     text = str(record.get('discoveryText') or '')
@@ -24,7 +30,7 @@ def disposition(record):
     title = observed_title(record)
     t = title.lower()
     url = urlparse(record.get('sourceUrl') or '')
-    if url.fragment and t in {'amministrazione trasparente', 'elenco bandi e avvisi', 'bandi di gara e contratti', 'bandi e avvisi - regione puglia'}:
+    if is_fvg_listing_link(record.get('sourceUrl') or '') or url.fragment and t in {'amministrazione trasparente', 'elenco bandi e avvisi', 'bandi di gara e contratti', 'bandi e avvisi - regione puglia'}:
         return 'not_a_call', 'Collegamento di navigazione della pagina, non un avviso autonomo.'
     grant_title = bool(re.search(r'contribut|finanziament|sovvenzion|incentiv|rimborso|ristoro', t))
     if not grant_title and re.match(r'^(acquisto\b|acquisizione del software|affidamento\b|affido\b|fornitur[ae]\b|abbonamento\b|riparazione\b|sostituzione della serratura)', t):

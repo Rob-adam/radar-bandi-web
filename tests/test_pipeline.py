@@ -18,6 +18,19 @@ from bs4 import BeautifulSoup
 
 
 class PipelineTests(unittest.TestCase):
+    def test_fvg_listing_navigation_does_not_hide_real_call(self):
+        base = 'https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/'
+        html = '<div>Contributi per enti del terzo settore e associazioni ' + (
+            '<a href="#searchCollapse">Bandi e avvisi</a>'
+            '<a href="?pag=2">Bandi e avvisi</a>'
+            '<a href="BANDI/9169.html">Contributi per associazioni ETS</a></div>'
+        )
+        items = update_bandi.generic_region_items(html, base, 'Regione FVG', 'friuli-venezia-giulia')
+        self.assertEqual([item['sourceUrl'] for item in items], [base + 'BANDI/9169.html'])
+        for suffix in ('#searchCollapse', '?pag=2'):
+            self.assertEqual(discovery_review.disposition({'sourceUrl': base + suffix})[0], 'not_a_call')
+        self.assertEqual(discovery_review.disposition(items[0])[0], 'documentary_review')
+
     def test_veneto_detail_title_and_deadline_override_portal_heading(self):
         soup = BeautifulSoup('''<h1>Portale Bandi Avvisi Concorsi - Regione del Veneto</h1>
             <div><div class="display-label">Titolo</div><div class="display-field">Contributi per servizi sociali</div></div>
