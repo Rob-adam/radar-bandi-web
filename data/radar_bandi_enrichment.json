@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T07:38:00+01:00",
-  "attempted": 46,
-  "enriched": 43,
+  "generatedAt": "2026-11-11T20:40:57+01:00",
+  "attempted": 49,
+  "enriched": 49,
   "unchanged": 0,
-  "failed": 3,
+  "failed": 0,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -42,6 +42,15 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9171.html",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9171.html"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "ok": true,
       "changed": [
@@ -73,6 +82,14 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie",
@@ -121,6 +138,14 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
@@ -346,15 +371,11 @@
       "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423"
     },
     {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027 (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e3da0747290>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/individuazione-gestione-dellofferta-formativa-pubblica-lapprendistato-professionalizzante-2026-2027"
-    },
-    {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e3da0747bc0>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
     },
     {
@@ -374,10 +395,22 @@
       "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html"
     },
     {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.piemonte.it', port=443): Max retries exceeded with url: /contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.piemonte.it', port=443) at 0x7e3da071bc80>, 'Connection to bandi.regione.piemonte.it timed out. (connect timeout=10)'))",
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione"
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-smi-interventi-sviluppo-promozione-cooperazione",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-smi-interventi-sviluppo-promozione-cooperazione"
+    },
+    {
+      "key": "url:https://www.fondazionecariplo.it/bando/transizione-in-comune",
+      "ok": true,
+      "changed": [
+        "discoveryText",
+        "deadline",
+        "sourceStatus"
+      ],
+      "url": "https://www.fondazionecariplo.it/bando/transizione-in-comune/"
     }
   ]
 }
