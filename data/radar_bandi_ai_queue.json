@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T08:43:54+01:00",
+  "generatedAt": "2026-11-12T21:01:00+01:00",
   "ruleVersion": 4,
-  "count": 37,
+  "count": 39,
   "items": [
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027",
       "id": "REG-AUTO-BA504C6CA1EA",
-      "version": 48,
+      "version": 50,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/",
       "title": "AVVISO PUBBLICO CONCESSIONE CONTRIBUTI FORNITURA GRATUITA O SEMIGRATUITA DEI LIBRI DI TESTO ANNO SCOLASTICO 2026/2027",
@@ -31,7 +31,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale",
       "id": "REG-AUTO-802DE2802F3C",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "title": "AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE",
@@ -55,7 +55,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro",
       "id": "REG-AUTO-5F4C03DFBDDD",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "title": "Avviso Pubblico #BASILSTEP TIROCINI e LAVORO",
@@ -79,7 +79,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti",
       "id": "REG-AUTO-0ED70F7D483F",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "title": "Avviso Pubblico FC – Voucher Professionisti",
@@ -103,7 +103,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane",
       "id": "REG-AUTO-D37749662A16",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
       "title": "Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane",
@@ -127,7 +127,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali",
       "id": "REG-AUTO-C0E39D4A4358",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "title": "Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali",
@@ -151,7 +151,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica",
       "id": "REG-AUTO-1E815F55617B",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "title": "Avviso pubblico per il finanziamento di interventi di efficientamento energetico e miglioramento degli impianti di illuminazione pubblica",
@@ -175,7 +175,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027",
       "id": "REG-AUTO-8060D47AFFFA",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "title": "Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027",
@@ -199,7 +199,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
       "id": "REG-AUTO-AA7CDBEA00E9",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "title": "DGR n. 637/2023 – Patrocinio oneroso per iniziative di interesse pubblico III quadrimestre 2026",
@@ -223,7 +223,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta",
       "id": "REG-AUTO-5CB7CC82AFC2",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "title": "PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL’INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL’AREA PIP SITA IN LOC SETA.",
@@ -247,7 +247,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole",
       "id": "REG-AUTO-470D75453743",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "title": "Struttura residenziale per anziani nel Comune di Grottole.",
@@ -271,7 +271,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie",
       "id": "REG-AUTO-07FE341ABA04",
-      "version": 54,
+      "version": 56,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/",
       "title": "concessione demaniale marittima nel Comune di Maratea, Località Porto per complessivi mq. 42,00 al fine di posizionare tavoli e sedie",
@@ -295,7 +295,7 @@
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera",
       "id": "REG-AUTO-87EC46A26993",
-      "version": 147,
+      "version": 149,
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "title": "lavori di riparazione di dispositivi mobili in dotazione al Corpo della Polizia Locale di Matera",
@@ -319,7 +319,7 @@
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "id": "REG-AUTO-2DA7C42694E9",
-      "version": 147,
+      "version": 149,
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "title": "Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000",
@@ -342,20 +342,19 @@
       "text": "Homepage / Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000 Istruzione tecnica superiore: Piano territoriale 2019-2021 - programmazione e prenotazione risorse per gli anni 2020-2021 a valere sull'Asse 3 \"Istruzione e Formazione\" del P.O. FSE 2014-2020 - Euro 4.000.000 Data pubblicazione: 14 Maggio 2020 Data apertura: 14 Maggio 2020 Beneficiari: fondazioni Its Soggetto proponente: Regione Liguria Documenti delibera della Giunta regionale n.392 dell'8 maggio 2020 pdf (323.38 Kb) Iscriviti alla Newsletter Seguici sui social"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/comunicazione-abbattimento-platani-infetti-RLM12026053837",
-      "id": "RLM12026053837",
-      "version": 86,
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
+      "id": "RLL12026057303",
+      "version": 2,
       "source": "Regione Lombardia",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/aree-protette/comunicazione-abbattimento-platani-infetti-RLM12026053837",
-      "title": "Comunicazione di abbattimento di platani infetti",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
+      "title": "Bando a sostegno di iniziative di promozione educativa culturale realizzate da soggetti riconosciuti di rilevanza regionale per il periodo 2025-2028 - Contributi anno 2027",
       "territories": [
         "lombardia"
       ],
-      "deadline": null,
+      "deadline": "2026-11-30",
       "sourceStatus": null,
       "reasons": [
-        "destinatari_da_interpretare",
-        "stato_e_scadenza_da_verificare"
+        "destinatari_da_interpretare"
       ],
       "audience": {
         "known": false,
@@ -364,12 +363,12 @@
         "specificLegalFormConfirmed": false,
         "etsRelevant": null
       },
-      "text": "Aperto Comunicazione di abbattimento di platani infetti Codice: RLM12026053837 Pubblicato il: 27/10/2026 , ore 16:17 Domande dal: 28/10/2026 , ore 10:00 Riviste le misure fitosanitarie relative al Piano d’azione per il controllo del cancro colorato del platanocausato dal fungo Ceratocystis platani in Lombardia. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLM12026053837 Pubblicato il: 27/10/2026 , ore 16:17 Domande dal: 28/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare L’attuazione degli interventi previsti richiede il coinvolgimento di vari soggetti pubblici e privati, quali: amministrazioni comunali e provinciali, ordini regionali e provinciali dei Dottori agronomi e Dottori forestali, Organizzazioni Professionali e Organizzazioni di Produttori operanti in ambito agricolo (OO.PP.) Di cosa si tratta Tutte le operazioni di abbattimento prescritte sono effettuate a cura e a spese dei proprietari o dei conduttori a qualunque titolo dei terreni in cui si trovano le piante, ai sensi dell’art. 32, comma 3, del decreto legislativo 2 febbraio 2021, n. 19. Le operazioni di abbattimento delle piante infette dovranno essere effettuate in assenza di pioggia e vento nei seguenti periodi: • 1° luglio-31 agosto; • 1° dicembre-15 marzo. Deroghe al periodo indicato per l’effettuazione degli abbattimenti potranno essere rilasciate dal SFR a fronte di richiesta per comprovata necessità e urgenza derivante da una situazione di pericolo per uomini, animali o cose. BURL Serie Ordinaria n. 44 - Merco"
+      "text": "Aperto Bando a sostegno di iniziative di promozione educativa culturale realizzate da soggetti riconosciuti di rilevanza regionale per il periodo 2025-2028 - Contributi anno 2027 Codice: RLL12026057303 Pubblicato il: 11/11/2026 , ore 17:07 Domande dal: 12/11/2026 , ore 10:00 Scade il: 30/11/2026 , ore 16:00 Per il 2027, Regione Lombardia ha stanziato 300mila euro per il sostegno di iniziative di promozione educativa culturale realizzate da soggetti riconosciuti di rilevanza regionale, individuati con decreto n. 14913 del 4 novembre 2026 Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026057303 Pubblicato il: 11/11/2026 , ore 17:07 Domande dal: 12/11/2026 , ore 10:00 Scade il: 30/11/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Potranno presentare domanda di contributo i soggetti in possesso del riconoscimento di rilevanza regionale nel settore della promozione educativa culturale per il periodo 2025-28 in coerenza con l'art.7 l.r. 25/2016. Di cosa si tratta Sono finanziabili i progetti di promozione educativa culturale, che hanno consentito ai potenziali beneficiari di ottenere il riconoscimento di rilevanza regionale. Tali progetti devono essere realizzati sul territorio regionale ed essere contraddistinti dalla continuità pluriennale nella formula dell’offerta culturale, pur nella differenziazione annuale dei temi proposti, nonché per l’elevato livello qualitativo. In particolare, si supporteranno le seguenti tipologie progettuali: F"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
       "id": "RLD12026056863",
-      "version": 78,
+      "version": 80,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
       "title": "Elenco unico degli enti erogatori qualificati allo svolgimento degli interventi di inclusione educativa e scolastica - Disabilità sensoriale",
@@ -397,7 +396,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423",
       "id": "RLT12026056423",
-      "version": 16,
+      "version": 18,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423",
       "title": "ISTANTEC 2.0 ITCS - Comunicazione preventiva di corsi di aggiornamento da parte degli enti erogatori",
@@ -422,7 +421,7 @@
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263",
       "id": "RLM12026057263",
-      "version": 86,
+      "version": 88,
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263",
       "title": "Interventi su platani",
@@ -445,9 +444,38 @@
       "text": "Aperto Interventi su platani Codice: RLM12026057263 Pubblicato il: 27/10/2026 , ore 16:13 Domande dal: 28/10/2026 , ore 10:00 Piano d’azione per il controllo del cancro colorato del platano causato dal fungo Ceratocystis platani in Lombardia Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Codice: RLM12026057263 Pubblicato il: 27/10/2026 , ore 16:13 Domande dal: 28/10/2026 , ore 10:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare L’attuazione degli interventi previsti richiede il coinvolgimento di vari soggetti pubblici e privati, quali: amministrazioni comunali e provinciali, ordini regionali e provinciali dei Dottori agronomi e Dottori forestali, Organizzazioni Professionali e Organizzazioni di Produttori operanti in ambito agricolo (OO.PP.) Di cosa si tratta La malattia nota come “cancro colorato del platano” è causata dal fungo ascomicete Ceratocystis platani (J.M. Walter) Engelbr. & T.C. Harr. che ha come ospiti unicamente piante appartenenti al genere Platanus. Il fungo può diffondersi da una pianta infetta a una sana penetrando, mediante le spore, all’interno dei tessuti vegetali attraverso ferite (tagli di potatura, lesioni accidentali, ecc.) o con il micelio tramite anastomosi radicale (fusione di radici di alberi contigui). Una volta penetrato, il patogeno colonizza e necrotizza rapidamente i tessuti legnosi, provocando fessurazioni longitudinali sulla corteccia e una tipica colorazione marrone scuro del legno sottostante (a \"macchie di leopardo\"). Il sintomo esterno più evidente è il disseccamento "
     },
     {
+      "key": "url:https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
+      "id": "REG-AUTO-8351C5E0B31E",
+      "version": 2,
+      "source": "Regione Toscana · Bandi",
+      "sourceUrl": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
+      "title": "Rete dei Punti Digitale Facile: contributi per consolidamento e ampliamento delle attività",
+      "territories": [
+        "toscana"
+      ],
+      "deadline": null,
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "stato_e_scadenza_da_verificare"
+      ],
+      "audience": {
+        "known": true,
+        "scope": "ets-specific",
+        "evidence": [
+          "terzo settore",
+          "enti del terzo settore",
+          "ente del terzo settore",
+          "ets"
+        ],
+        "specificLegalFormConfirmed": true,
+        "etsRelevant": true
+      },
+      "text": "Rete dei Punti Digitale Facile: contributi per consolidamento e ampliamento delle attività Bando Toscana diffusa Rete dei Punti Digitale Facile: contributi per consolidamento e ampliamento delle attività Pr Fse+ 2021-2027, priorità 3 \"Inclusione sociale\" Bando rivolto agli Enti locali e agli Enti del terzo settore iscritti al Runts. Tra i criteri per il punteggio previsti cinque punti alle domande per un Punto Digitale Facile attivato o da attivare in un Comune classificato come area interna intermedia, periferica, ultra periferica. Domande online entro le ore 12 del 26 novembre 2026 Data di pubblicazione bando su Burt: 11.11.2026 Numero e parte del Burt: 45, parte III Data di scadenza presentazione domande: 26.11.2026 12:00 Stato: Stato: Aperto La Regione Toscana con decreto dirigenziale 24316 del 30 ottobre 2026 ​​​​​​ ha approvato l' avviso pubblico per il consolidamento e ampliamento delle attività dei Punti Digitale Facile (PDF), successivamente modificato con decreto 24443 del 6 novembre 2026 (pubblicato sul Burt 45 del 11 novembre 2026 parte III ) al fine di selezionare Enti Locali ed Enti del Terzo settore iscritti al Registro unico nazionale Terzo settore (Runts) beneficiari del sostegno finanziario erogabile, senza automatismi di continuità rispetto ai precedenti finanziamenti con risorse del Piano nazionale per ripresa e resilienza (Pnrr). La continuità operativa dei Punti Digitale Facile già attivi costituisce elemento di premialità nella valutazione delle domande, in quanto fattore oggettivo di efficacia, efficienza e tempestività nell’aiuto ai cittadini, nonché di valorizzazione dell’esperienza maturata nella gestione delle attività di facilitazione digitale di base e delle relazioni di fiducia consolidate con la comunità locale. Il bando intende inoltre t"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "id": "REG-AUTO-5D9EB4C71740",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "title": "Avvio di selezione \"a sportello\" di interventi urgenti di edilizia scolastica da sostenere finanziariamente con fondi regionali negli anni 2026-2027. Legge regionale n. 59/1999, art. 3-bis.",
@@ -471,7 +499,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "id": "REG-AUTO-817347F304D1",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "title": "Azione 2.8.4 \"TPL-Sistemi di Trasporto Intelligenti: bigliettazione unica e infomobilità\". Approvazione del Bando per l'attuazione dell'Azione 2.8.4 \"TPL - Sistemi di Trasporto intelligenti: bigliettazione unica e infomobilità\", nell'ambito dello Sviluppo Urbano Sostenibile (SUS) rivolto alle Aziende titolari dei contratti di servizio per la gestione dei servizi minimi di TPL.",
@@ -495,7 +523,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "id": "REG-AUTO-FCD08A990326",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "title": "Bando Melken prevenzione delle predazioni da lupo in malga con recinzioni elettrificate: analisi delle modifiche del pascolamento, del pascolo e degli episodi di attacco (FSCRI_RM_1750 beneficiari privati)",
@@ -519,7 +547,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "id": "REG-AUTO-F318DC0E8AD2",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "title": "Bando Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga (ID FSCRI_RI_418 beneficiari pubblici)",
@@ -541,9 +569,33 @@
       "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 14/08/2026 Scadenza: 23/11/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga (ID FSCRI_RI_418 beneficiari pubblici) Oggetto Fondo Sviluppo e Coesione (FSC) 2021-2027. Accordo per la coesione tra il Governo e la Regione del Veneto - Area tematica 5 Ambiente e Risorse Naturali – Linea di intervento 05.05 Natura e Biodiversità. Bando \"Melken. Nuovi metodi di prevenzione delle predazioni da lupo in malga\" (ID FSCRI_RI_418 beneficiari pubblici) approvato con DGR n. 820 del 28/07/2026. Dati BUR Numero atto: 820 Data atto: 28/07/2026 00:00:00 Vedi dettaglio dell'atto Procedimento L'atto non è associato a nessun procedimento. Categoria Finanziamento Importo 400000,00 Struttura Direzione Foreste, Programmazione e Gestione Faunistico-Venatoria TEL 0437 946456 - 041 2795421 FAX MAIL @ caccia@regione.veneto.it PEC @ direzione.foreste@pec.regione.veneto.it Destinatari Ente Materie Agricoltura e foreste Acquisti Verdi - Politiche Sostenibili L'atto non appartiene alla categoria \"Acquisti Verdi\" L'atto non appartiene alla categoria \"Politiche Sostenibili\" NOTE: CIG CUP ATTI COLLEGATI Non ci sono atti collegati ALLEGATI DGR n. 820 del 28/07/2026 [file .pdf - 190 KB] 17/08/2026 11:36:19 Numero allegato: 37616 Nome allegato: DGR n. 820 del 28/07/2026 [file .pdf - 190 KB] Ultima modifica: 17/08/2026 11:36:19 DGR n. 820 del 28/07/2026 Allegato A [file .pdf - 643 KB] 17/08/2026 11:36:19 Numero allegato: 37617 Nome allegato: DGR n. 820 del 28/07/2026 Allegato A [file .pdf - 643 KB] Ultima modifica: 17/08/2026 11:36:19 DDR n 16901 del 06/08/202"
     },
     {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13440&fromPage=Elenco&high=",
+      "id": "REG-AUTO-B9E7848A17AA",
+      "version": 2,
+      "source": "Regione Veneto · Bandi",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13440&fromPage=Elenco&high=",
+      "title": "Bando di finanziamento per il sostegno a progetti di coabitazione intergenerazionale e di accompagnamento all'abitare nelle città del Veneto sedi di corsi universitari.",
+      "territories": [
+        "veneto"
+      ],
+      "deadline": "2026-12-11",
+      "sourceStatus": "da-verificare",
+      "reasons": [
+        "destinatari_da_interpretare"
+      ],
+      "audience": {
+        "known": false,
+        "scope": "unknown",
+        "evidence": [],
+        "specificLegalFormConfirmed": false,
+        "etsRelevant": null
+      },
+      "text": "Portale Bandi Avvisi Concorsi - Regione del Veneto HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 11/11/2026 Scadenza: 11/12/2026 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Bando di finanziamento per il sostegno a progetti di coabitazione intergenerazionale e di accompagnamento all'abitare nelle città del Veneto sedi di corsi universitari. Oggetto Con DGR n. 1323 del 10 novembre 2026 è stato approvato il bando di finanziamento per il sostegno a progetti di coabitazione intergenerazionale e di accompagnamento all'abitare nelle città del Veneto sedi di corsi universitari. Il bando si inserisce nel percorso definito dalla Legge regionale n. 3/2026 e intende sostenere la coabitazione intergenerazionale per far fronte agli alti costi e alla scarsa disponibilità di alloggi per studenti fuori sede nelle città del Veneto sedi di corsi universitari, nonché l’accompagnamento all’abitare per forme innovative di coabitazione in genere. Gli obiettivi del bando sono: Rispondere almeno in modo parziale, ma significativo e socialmente simbolico, all’emergenza abitativa, offrendo agli studenti universitari fuori sede una soluzione abitativa a canone di locazione calmierato e alle persone anziane un supporto economico e sociale nel proprio ambiente domestico; Promuovere lo scambio intergenerazionale creando opportunità di incontro e dialogo tra generazioni diverse, favorendo la costruzione di relazioni significative; Sperimentare un modello di welfare comunitario e generativo valorizzando le risorse del territorio e promuovendo forme di solidarietà intergenerazionale; Migliorare la qualità della vita offrendo agli anziani la possibilità di arricchire la propria quotidianità attraverso la presenza di giovani,"
+    },
+    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "id": "REG-AUTO-A15AD7611A44",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "title": "Bando per l'evoluzione delle destinazioni turistiche venete in Smart Tourism Destination - terza edizione. DGR 992 del 15 settembre 2026. Azione 1.2.4 terza edizione",
@@ -567,7 +619,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
       "id": "REG-AUTO-9869BF427022",
-      "version": 54,
+      "version": 56,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
       "title": "Bando per la concessione di contributi ai titolari di licenza per attività di spettacolo viaggiante, iscritti all'Elenco regionale, per la realizzazione di attività innovative, di ricerca e sperimentazione delle nuove tecniche di intrattenimento.",
@@ -591,7 +643,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "id": "REG-AUTO-0B29A6670558",
-      "version": 104,
+      "version": 106,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "title": "Complemento regionale per lo sviluppo rurale 2023-2027 per il Veneto. Bando di apertura termini DGR n. 990/2026.",
@@ -615,7 +667,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "id": "REG-AUTO-395AB58C2BE6",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "title": "Concorso - \"Uso consapevole della rete internet e dei social media - 2^a edizione\" A.S.F. 2026-2027",
@@ -639,7 +691,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "id": "REG-AUTO-EEE38120D90C",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "title": "PR FESR 2021-2027 Azione 1.3.7 Sostegno alla competitività del sistema commerciale e valorizzazione dei distretti del commercio",
@@ -663,7 +715,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "id": "REG-AUTO-8F97D7B298AC",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 - Fondo Veneto Energia - Sezione Efficientamento energetico delle imprese",
@@ -687,7 +739,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "id": "REG-AUTO-77C619EEDA39",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 Sub C - \"Interventi a favore della produzione cinematografica e audiovisiva\"",
@@ -711,7 +763,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "id": "REG-AUTO-4D19CF6A3B12",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027 Azione 1.3.11 sub A - Interventi a sostegno delle imprese culturali, creative e dell'audiovisivo - Sub A \"Consolidamento di imprese esistenti\" - II edizione",
@@ -735,7 +787,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "id": "REG-AUTO-E3AD91C8BE0B",
-      "version": 34,
+      "version": 36,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027, Priorità 9 \"Alloggi a prezzi accessibili\" Obiettivo Specifico 2.11 \"Promuovere l'accesso ad alloggi sostenibili e a prezzi accessibili (FESR)\", Azione 2.11.2: \"Interventi su alloggi e complessi immobiliari per progetti di Social Housing\", Sub Azione 1 \"Interventi su alloggi con attribuzione delle unità abitative per finalità sociali, ai sensi dell'art. 46 della Legge Regionale n. 39 del 03.11.2017\", Sub Azione 2 \"Interventi su alloggi non rientranti nell'ambito di applicazione della Legge Regionale n. 39 del 03.11.2017\". Bando per la selezione delle proposte da ammettere a finanziamento.",
@@ -759,7 +811,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "id": "REG-AUTO-9AC76430822E",
-      "version": 34,
+      "version": 36,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027, Priorità 9 \"Alloggi a prezzi accessibili\" Obiettivo Specifico 2.11 \"Promuovere l'accesso ad alloggi sostenibili e a prezzi accessibili (FESR)\". Azione 2.11.1 \"Interventi su alloggi di Edilizia Residenziale Pubblica (ERP)\". Bando per la selezione delle proposte da ammettere a finanziamento",
@@ -783,7 +835,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "id": "REG-AUTO-7ACD582ED719",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Start up",
@@ -807,7 +859,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "id": "REG-AUTO-CCEC3CB25F4A",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Competitività - Sezione Transizione",
@@ -831,7 +883,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "id": "REG-AUTO-2DD9680DDFE9",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2021-2027. Fondo Veneto Ricerca, Sviluppo e Innovazione - Sezione Innovazione nelle PMI.",
@@ -855,7 +907,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "id": "REG-AUTO-5E8EB6C3611F",
-      "version": 147,
+      "version": 149,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "title": "PR Veneto FESR 2121-2027 Interventi di recupero, promozione e valorizzazione delle aree interne attraverso interventi ad alto impatto culturale.",
@@ -879,7 +931,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "id": "REG-AUTO-365CE1EF1564",
-      "version": 149,
+      "version": 151,
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "title": "Programma Garanzia di Occupabilità dei Lavoratori GOL - Adeguamento e ulteriore finanziamento dell'Avviso pubblico n. 5 per la presentazione dei progetti finalizzati all'attuazione del Percorso 5 Ricollocazione collettiva",
