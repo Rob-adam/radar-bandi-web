@@ -1,5 +1,5 @@
 {
-  "updatedAt": "09/11/2026 07:58",
+  "updatedAt": "12/11/2026 08:38",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -2431,7 +2431,128 @@
         ],
         "publicationReviewId": "review-20261109-FRD-COFINANZIAMENTO-2026"
       }
+    },
+    {
+      "id": "CARIPLO-TRANSIZIONE-COMUNE-2026",
+      "title": "Transizione in Comune — non profit come partner di un capoluogo (escluso Milano)",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/transizione-in-comune/",
+      "deadline": "2027-03-16",
+      "deadlineAt": "2027-03-16T17:00:00+01:00",
+      "status": "aperto",
+      "submissionStatus": "open",
+      "fund": 5000000,
+      "maxGrant": 2000000,
+      "foundationYear": null,
+      "annualRevenue": null,
+      "aid": "Fase 1: servizio di assistenza tecnica, non erogazione di 2 milioni. Solo per le proposte selezionate, Fase 2 con richiesta entro il 01/10/2027: contributo massimo 2.000.000 € e fino al 60% dei costi. Dotazione 5.000.000 €; copertura residua pubblica e/o privata da documentare.",
+      "territories": [
+        "lombardia",
+        "novara",
+        "verbano-cusio-ossola"
+      ],
+      "legalForms": [
+        "aps",
+        "odv",
+        "ets",
+        "associazione",
+        "fondazione",
+        "non profit"
+      ],
+      "sectors": [
+        "sociale",
+        "salute",
+        "ambiente"
+      ],
+      "beneficiaries": [
+        "persone in condizioni di vulnerabilità socio-climatica",
+        "persone fragili",
+        "famiglie"
+      ],
+      "activities": [
+        "prevenzione sanitaria",
+        "sensibilizzazione",
+        "inclusione sociale",
+        "reti territoriali"
+      ],
+      "purposes": [
+        "salute",
+        "contrasto alle disuguaglianze",
+        "transizione equa"
+      ],
+      "tags": [
+        "Partenariato obbligatorio",
+        "Comune capofila",
+        "Fase 1",
+        "Vulnerabilità socio-climatica"
+      ],
+      "eligibility": [
+        "Le APS e gli altri enti privati non profit possono partecipare come partner; il capofila deve essere un Comune capoluogo della Lombardia o delle province di Novara e VCO, escluso il Comune di Milano.",
+        "Il progetto deve riguardare il capoluogo ammesso: la sede legale a Padova e l’operatività nazionale non provano la partecipazione a un progetto territoriale. Non è indicato un obbligo generale di sede legale del partner nel capoluogo.",
+        "Possibile affinità con attività sociali e di prevenzione sanitaria per persone vulnerabili agli impatti climatici; occorrono un progetto coerente e un ruolo effettivo. Il match non certifica ammissibilità."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Capofila esclusivamente Comune capoluogo ammesso, escluso Milano; almeno tre soggetti: Comune, un non profit ambientale e un non profit sociale. Coinvolgimento obbligatorio degli Assessorati ambiente e sociale. L’APS non può candidarsi da sola o come capofila."
+        },
+        {
+          "type": "document",
+          "label": "Intervento nel capoluogo ammesso della Lombardia, di Novara o del VCO; documentare territorio, rete e competenze sociali del partner. L’operatività nazionale non equivale al requisito territoriale del progetto."
+        },
+        {
+          "type": "document",
+          "label": "Manifestazione di interesse Fase 1 entro il 16/03/2027 ore 17: contesto e mappatura, visione condivisa, obiettivi, enti e procedure di individuazione, risorse e piani comunali, piano economico preliminare, lettere di adesione e accompagnatoria sui format ufficiali."
+        },
+        {
+          "type": "document",
+          "label": "Per il partner: atto e statuto registrati, natura non lucrativa e, per ETS, iscrizione RUNTS; ultimi due consuntivi approvati e preventivo corrente secondo Guida. Se costituito da meno di due anni, dichiarazione sostitutiva per il bilancio non disponibile. Nessun anno minimo di costituzione né soglia generale di entrate indicati nei documenti letti."
+        },
+        {
+          "type": "document",
+          "label": "Solo dopo selezione e assistenza tecnica: domanda Fase 2 entro il 01/10/2027, accordo di partenariato formalizzato, copertura di almeno il 40%, azioni fino a 24 mesi con avvio dalla scadenza Fase 2 e approvazione del Piano di transizione equa entro sei mesi dall’avvio."
+        }
+      ],
+      "applicantChecks": [
+        {
+          "label": "Da documentare per l’associazione: Comune capofila e partner ambientale, ruolo sociale, intervento nel capoluogo ammesso, statuto/RUNTS, bilanci, disponibilità delle risorse e accordi. Nessun requisito del cliente è certificato dalla lettura del bando.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-11-12",
+        "verificationNote": "Pagina attiva, bando §§4.1–4.2, Criteri generali e Guida 2026 riletti il 12/11/2026. Aperta la Fase 1 per manifestazioni di interesse; non è ancora la richiesta di contributo della Fase 2. Per APS soltanto possibile ruolo di partner sociale, da documentare. Non sono indicati un anno minimo di costituzione né una soglia generale di entrate. Nessuna certificazione dei requisiti della cliente.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/transizione-in-comune/",
+            "checkedAt": "2026-11-12",
+            "note": "Stato Attivo, destinatari, scadenze delle due fasi, assistenza tecnica e limiti del contributo."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/11/Bando-Transizione-in-Comune.pdf",
+            "checkedAt": "2026-11-12",
+            "note": "Testo ufficiale di 8 pagine: capofila Comune capoluogo, esclusione Milano, almeno due partner non profit ambientale e sociale, dossier Fase 1, formalizzazione in Fase 2, durata e copertura."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/2026-01-25-Criteri-generali_def.pdf",
+            "checkedAt": "2026-11-12",
+            "note": "Criteri generali 2026: ETS RUNTS e non profit, atto registrato, statuto, bilanci, esclusioni e limitazioni. Nessun minimo generale di anzianità né soglia di entrate."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/01/Guida-alla-presentazione-23gen2026.pdf",
+            "checkedAt": "2026-11-12",
+            "note": "Guida 23/01/2026 §§3–7: termine ore 17, territorio del progetto distinto dalla sede, documenti di capofila e partner, bilanci e dichiarazione sostitutiva per enti recenti, accordo di partenariato."
+          }
+        ],
+        "publicationReviewId": "review-20261112-CARIPLO-TRANSIZIONE-COMUNE-2026"
+      }
     }
   ],
-  "publishedAt": "2026-11-09T07:58:57+01:00"
+  "publishedAt": "2026-11-12T08:38:10+01:00"
 }
