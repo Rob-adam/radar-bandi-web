@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T08:17:51+01:00",
-  "attempted": 49,
-  "enriched": 49,
+  "generatedAt": "2026-11-12T08:42:48+01:00",
+  "attempted": 48,
+  "enriched": 48,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -401,16 +401,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-smi-interventi-sviluppo-promozione-cooperazione"
-    },
-    {
-      "key": "url:https://www.fondazionecariplo.it/bando/transizione-in-comune",
-      "ok": true,
-      "changed": [
-        "discoveryText",
-        "deadline",
-        "sourceStatus"
-      ],
-      "url": "https://www.fondazionecariplo.it/bando/transizione-in-comune/"
     }
   ]
 }
