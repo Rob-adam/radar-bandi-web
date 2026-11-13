@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T20:59:54+01:00",
-  "attempted": 48,
-  "enriched": 48,
+  "generatedAt": "2026-11-13T07:52:09+01:00",
+  "attempted": 46,
+  "enriched": 46,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -131,14 +131,6 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/"
-    },
-    {
-      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13440&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13440&fromPage=Elenco&high="
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
@@ -394,14 +386,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html"
-    },
-    {
-      "key": "url:https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026"
     }
   ]
 }
