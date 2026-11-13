@@ -89,10 +89,11 @@ def main():
     write(QUEUE, queue)
     write(REPORT, report)
     published_urls = {b['sourceUrl'].rstrip('/') for b in catalog.get('bandi', []) if b.get('tracking', {}).get('publicationReviewId')}
+    published_ids = {b['id'] for b in catalog.get('bandi', []) if b.get('tracking', {}).get('publicationReviewId')}
     items = []
     for b in load(AUTO).get('bandi', []):
         status, reason = disposition(b)
-        if b.get('sourceUrl', '').rstrip('/') in published_urls:
+        if b.get('id') in published_ids or b.get('sourceUrl', '').rstrip('/') in published_urls:
             status, reason = 'published', 'Revisione documentale pubblicata; requisiti del cliente ancora da verificare.'
         items.append({'id': b.get('id'), 'title': observed_title(b), 'sourceUrl': b.get('sourceUrl'),
                       'status': status, 'reason': reason, 'detailFetchOk': b.get('detailFetchOk'),

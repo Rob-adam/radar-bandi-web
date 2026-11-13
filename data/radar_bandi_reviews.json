@@ -1017,7 +1017,7 @@
     {
       "id": "review-20261112-CARIPLO-TRANSIZIONE-COMUNE-2026",
       "decision": "approved",
-      "reviewedAt": "2026-11-12",
+      "reviewedAt": "2026-11-13",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -1027,27 +1027,27 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Pagina attiva, bando §§4.1–4.2, Criteri generali e Guida 2026 riletti il 12/11/2026. Aperta la Fase 1 per manifestazioni di interesse; non è ancora la richiesta di contributo della Fase 2. Per APS soltanto possibile ruolo di partner sociale, da documentare. Non sono indicati un anno minimo di costituzione né una soglia generale di entrate. Nessuna certificazione dei requisiti della cliente.",
+      "note": "Pagina, bando, criteri e Guida corrente del 5 ottobre 2026 riletti il 13/11/2026. Sostituita la guida di gennaio ora non disponibile. Per enti recenti allegare il bilancio eventualmente già approvato; il preventivo corrente e la dichiarazione sostitutiva non sono più prescritti dalla tabella della Guida. Restano documenti specifici del bando, scadenza 16/03/2027 ore 17 e requisito Comune capofila. Nessuna certificazione del cliente.",
       "evidence": [
         {
           "url": "https://www.fondazionecariplo.it/bando/transizione-in-comune/",
-          "checkedAt": "2026-11-12",
+          "checkedAt": "2026-11-13",
           "note": "Stato Attivo, destinatari, scadenze delle due fasi, assistenza tecnica e limiti del contributo."
         },
         {
           "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/11/Bando-Transizione-in-Comune.pdf",
-          "checkedAt": "2026-11-12",
+          "checkedAt": "2026-11-13",
           "note": "Testo ufficiale di 8 pagine: capofila Comune capoluogo, esclusione Milano, almeno due partner non profit ambientale e sociale, dossier Fase 1, formalizzazione in Fase 2, durata e copertura."
         },
         {
           "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/2026-01-25-Criteri-generali_def.pdf",
-          "checkedAt": "2026-11-12",
+          "checkedAt": "2026-11-13",
           "note": "Criteri generali 2026: ETS RUNTS e non profit, atto registrato, statuto, bilanci, esclusioni e limitazioni. Nessun minimo generale di anzianità né soglia di entrate."
         },
         {
-          "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/01/Guida-alla-presentazione-23gen2026.pdf",
-          "checkedAt": "2026-11-12",
-          "note": "Guida 23/01/2026 §§3–7: termine ore 17, territorio del progetto distinto dalla sede, documenti di capofila e partner, bilanci e dichiarazione sostitutiva per enti recenti, accordo di partenariato."
+          "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/01/Guida-alla-presentazione-5ott26.pdf",
+          "checkedAt": "2026-11-13",
+          "note": "Guida aggiornata al 5 ottobre 2026, scaricata dal collegamento corrente della pagina Ammissibilità: §§3–7, scadenza ore 17, territorio, tabella documenti, regole enti recenti e partenariato."
         }
       ],
       "record": {
@@ -1124,7 +1124,7 @@
           },
           {
             "type": "document",
-            "label": "Per il partner: atto e statuto registrati, natura non lucrativa e, per ETS, iscrizione RUNTS; ultimi due consuntivi approvati e preventivo corrente secondo Guida. Se costituito da meno di due anni, dichiarazione sostitutiva per il bilancio non disponibile. Nessun anno minimo di costituzione né soglia generale di entrate indicati nei documenti letti."
+            "label": "Per il partner: atto e statuto registrati, natura non lucrativa e, per ETS, iscrizione RUNTS; bilanci consuntivi approvati degli ultimi due esercizi secondo Guida 05/10/2026. Per enti di recente costituzione senza entrambi i bilanci, allegare quello eventualmente già approvato. Nessun preventivo corrente o dichiarazione sostitutiva prescritti dalla tabella aggiornata, fatti salvi i documenti specifici del bando. Nessun anno minimo di costituzione né soglia generale di entrate individuati."
           },
           {
             "type": "document",
@@ -1134,6 +1134,229 @@
         "applicantChecks": [
           {
             "label": "Da documentare per l’associazione: Comune capofila e partner ambientale, ruolo sociale, intervento nel capoluogo ammesso, statuto/RUNTS, bilanci, disponibilità delle risorse e accordi. Nessun requisito del cliente è certificato dalla lettura del bando.",
+            "status": "unknown"
+          }
+        ],
+        "grantLabel": "Contributo massimo Fase 2"
+      }
+    },
+    {
+      "id": "review-20261113-REG-AUTO-B9E7848A17AA",
+      "decision": "approved",
+      "reviewedAt": "2026-11-13",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Bando e pagina corrente letti il 13/11/2026. Possibile ruolo di partner di rete per ETS; non finanziamento autonomo APS. Requisiti dell’ente e progetto non documentati. Nessun minimo generale di anno di costituzione o ricavi nel testo letto.",
+      "evidence": [
+        {
+          "url": "https://spazio-operatori.regione.veneto.it/it/w/bandi-servizi-sociali/2026/coabitazione_intergenerazionale",
+          "checkedAt": "2026-11-13",
+          "note": "Pagina istituzionale corrente: scadenza espressa, ruoli, destinatari, importi e cofinanziamento."
+        },
+        {
+          "url": "https://spazio-operatori.regione.veneto.it/documents/365607/29904655/B_bando%2Bco-housing.pdf/47a9c1fc-5af8-6cab-2864-c2e2f6322c56?t=1793622137237&version=1.0",
+          "checkedAt": "2026-11-13",
+          "note": "Bando 17 pagine, artt. 3–9: capofila pubblico, partner di rete, requisiti, importi, esclusioni e conclusione."
+        },
+        {
+          "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=596272",
+          "checkedAt": "2026-11-13",
+          "note": "DGR 1323 del 10/11/2026, BUR 157 del 11/11/2026: approvazione e termini."
+        }
+      ],
+      "record": {
+        "id": "REG-AUTO-B9E7848A17AA",
+        "title": "Coabitazione intergenerazionale in Veneto — ETS solo come partner di rete",
+        "source": "Regione del Veneto",
+        "sourceUrl": "https://spazio-operatori.regione.veneto.it/it/w/bandi-servizi-sociali/2026/coabitazione_intergenerazionale",
+        "deadline": "2026-12-11",
+        "deadlineAt": "2026-12-11T23:59:00+01:00",
+        "fund": 300000,
+        "maxGrant": 100000,
+        "grantLabel": "Massimo al progetto del capofila",
+        "aid": "Contributo al progetto del capofila pubblico fino al 90% dei costi. Con bacino fino a 10.000 studenti fuori sede: 15.000–60.000 €; oltre 10.000: 50.000–100.000 €. Quota finanziaria propria minima 10%, non valorizzazione del volontariato. L’importo massimo non è un contributo autonomo alla APS partner.",
+        "territories": [
+          "veneto"
+        ],
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets",
+          "non profit",
+          "associazione",
+          "fondazione"
+        ],
+        "sectors": [
+          "sociale",
+          "invecchiamento attivo",
+          "abitare"
+        ],
+        "beneficiaries": [
+          "anziani autosufficienti over 65",
+          "studenti universitari fuori sede 18–35 anni"
+        ],
+        "activities": [
+          "accompagnamento sociale",
+          "sportello",
+          "mediazione",
+          "coabitazione"
+        ],
+        "purposes": [
+          "inclusione sociale",
+          "contrasto alla solitudine",
+          "solidarietà intergenerazionale"
+        ],
+        "tags": [
+          "Veneto",
+          "Comune capofila",
+          "ETS partner di rete",
+          "Coabitazione"
+        ],
+        "eligibility": [
+          "APS/ETS possono essere partner di rete, non proponenti né capofila. Capofila pubblico con sede legale in Veneto e sede universitaria: Comune, Unione, Comunità montana o ATS ammesso.",
+          "La sede a Padova consente di valutare una rete locale ma non prova accordi o attività di coabitazione. Il progetto riguarda anziani autosufficienti e studenti: non sostituisce assistenza sanitaria o residenzialità per non autosufficienti."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "Capofila pubblico ammesso con sede legale veneta e sede universitaria; rete con almeno altri due soggetti. Partner di rete ETS RUNTS o altro non profit ammesso; l’APS non può candidarsi da sola. Il territorio è definito dal proponente e dai partner comunali, non dalla sola operatività nazionale."
+          },
+          {
+            "type": "document",
+            "label": "Destinatari: studenti universitari fuori sede 18–35 anni e persone di almeno 65 anni, proprietarie e residenti nell’immobile di coabitazione nel territorio del progetto, con buon grado di autosufficienza e autonomia."
+          },
+          {
+            "type": "document",
+            "label": "Domanda PEC del capofila entro 11/12/2026 ore 23:59, con oggetto tassativo e firme richieste; domanda, schede partner, piano economico, accordo e dichiarazione L.R. 16/2018 per privati. Esclusioni art. 94 D.Lgs. 36/2023, regolarità e assicurazioni da documentare."
+          },
+          {
+            "type": "document",
+            "label": "Cofinanziamento finanziario almeno 10%: il volontariato valorizzato non copre tale quota. Dimostrare numero studenti a.a. 2026–2027, spese ammissibili e assenza doppio finanziamento pubblico; conclusione entro 30/09/2028 salvo proroga ammessa. Nessuna soglia generale di entrate o anzianità minima degli ETS individuata."
+          }
+        ],
+        "status": "aperto",
+        "submissionStatus": "open",
+        "foundationYear": null,
+        "annualRevenue": null,
+        "applicantChecks": [
+          {
+            "label": "Da documentare per l’associazione: requisiti soggettivi, ruolo, sede di attività del progetto, personale, accordi e copertura delle spese. La lettura delle fonti non certifica i requisiti del cliente.",
+            "status": "unknown"
+          }
+        ]
+      }
+    },
+    {
+      "id": "review-20261113-REG-AUTO-8351C5E0B31E",
+      "decision": "approved",
+      "reviewedAt": "2026-11-13",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Pagina e allegato A corretto letti il 13/11/2026. Bando aperto dal 12/11; servizio territoriale toscano. ETS possibili beneficiari con endorsement e capacità operativa; il profilo non documenta tali requisiti. Nessun minimo generale di anzianità o entrate individuato.",
+      "evidence": [
+        {
+          "url": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
+          "checkedAt": "2026-11-13",
+          "note": "Pagina corrente: BURT 11/11, apertura 12/11, scadenza 26/11 ore 12, ETS RUNTS, endorsement e accesso FSE."
+        },
+        {
+          "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5537736&nomeFile=Decreto+n.24443+del+06-11-2026-+Allegato+A+",
+          "checkedAt": "2026-11-13",
+          "note": "Avviso corretto con DD 24443 del 06/11/2026, 21 pagine, artt. 3–10: requisiti, 18.000 €/Punto, forfait 20%, durata, personale, orari, documenti e modalità."
+        }
+      ],
+      "record": {
+        "id": "REG-AUTO-8351C5E0B31E",
+        "title": "Punti Digitale Facile in Toscana — ETS RUNTS e servizi ai cittadini",
+        "source": "Regione Toscana · PR FSE+ 2021–2027",
+        "sourceUrl": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
+        "deadline": "2026-11-26",
+        "deadlineAt": "2026-11-26T12:00:00+01:00",
+        "openingDate": "2026-11-12",
+        "openingVerifiedAt": "2026-11-13T00:00:00+01:00",
+        "newOpeningUntil": "2026-11-20T00:00:00+01:00",
+        "fund": 1242000,
+        "maxGrant": 18000,
+        "grantLabel": "Massimo per Punto / 12 mesi",
+        "aid": "Massimo 18.000 € per ciascun Punto Digitale Facile per 12 mesi: personale effettivamente sostenuto e documentato più quota forfettaria del 20% dei costi diretti del personale. Risorse 1.242.000 €, di cui 414.000 € per 23 Punti ETS e 828.000 € per 46 Punti di enti locali; una domanda per Punto, graduatorie distinte.",
+        "territories": [
+          "toscana"
+        ],
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets"
+        ],
+        "sectors": [
+          "sociale",
+          "formazione",
+          "inclusione digitale"
+        ],
+        "beneficiaries": [
+          "cittadini",
+          "anziani",
+          "persone fragili"
+        ],
+        "activities": [
+          "facilitazione digitale",
+          "formazione",
+          "accesso ai servizi pubblici digitali"
+        ],
+        "purposes": [
+          "inclusione sociale",
+          "competenze digitali",
+          "accesso ai servizi"
+        ],
+        "tags": [
+          "Toscana",
+          "RUNTS",
+          "Endorsement locale",
+          "Punto Digitale Facile"
+        ],
+        "eligibility": [
+          "ETS RUNTS singoli o in partenariato; nel partenariato misto con enti locali, capofila obbligatoriamente un ente locale. Se ETS singolo o partenariato fra soli ETS, lettera di endorsement di un ente locale del territorio del Punto.",
+          "Il servizio deve essere erogato in Toscana; la sede legale a Padova e l’operatività nazionale non provano locali, personale o sostegno del Comune. La sede operativa dichiarata a Pistoia è un elemento da documentare, non un requisito certificato.",
+          "Attività di facilitazione digitale per cittadini, anche uso del Fascicolo sanitario elettronico: possibile affinità con supporto a pazienti e persone fragili, da tradurre in un servizio conforme all’avviso."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "ETS iscritto RUNTS; endorsement di un ente locale del territorio per ETS singolo o rete di soli ETS. In rete mista il capofila è un ente locale. Accordi o dichiarazioni di intenti e affidabilità giuridico-economico-finanziaria da documentare."
+          },
+          {
+            "type": "document",
+            "label": "Punto in Toscana con personale qualificato, orientatore assegnato almeno 10 ore/settimana, apertura almeno 10 ore su almeno due giorni settimanali; volontari solo in affiancamento al personale. Servizio almeno 12 mesi, avvio entro 15 giorni dalla convenzione; accessibilità, formazione e monitoraggio secondo Carta dei servizi e art. 9."
+          },
+          {
+            "type": "document",
+            "label": "Domanda per ogni Punto dal 12/11 al 26/11/2026 ore 12 tramite FSE online e identità digitale, con firma digitale/qualificata. Nuovi accessi FSE da richiedere almeno dieci giorni lavorativi prima: oltre tale termine l’abilitazione entro scadenza non è garantita."
+          },
+          {
+            "type": "document",
+            "label": "Contributo massimo 18.000 € per Punto, personale documentato più forfait 20%; selezione in graduatoria e premialità per continuità e territori, senza rinnovo automatico del precedente PNRR. Nessun anno minimo di costituzione o soglia generale di entrate individuati nell’avviso letto."
+          }
+        ],
+        "status": "aperto",
+        "submissionStatus": "open",
+        "foundationYear": null,
+        "annualRevenue": null,
+        "applicantChecks": [
+          {
+            "label": "Da documentare per l’associazione: requisiti soggettivi, ruolo, sede di attività del progetto, personale, accordi e copertura delle spese. La lettura delle fonti non certifica i requisiti del cliente.",
             "status": "unknown"
           }
         ]
