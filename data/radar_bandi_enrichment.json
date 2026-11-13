@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T07:52:09+01:00",
-  "attempted": 46,
-  "enriched": 46,
+  "generatedAt": "2026-11-13T20:47:29+01:00",
+  "attempted": 47,
+  "enriched": 47,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -344,6 +344,14 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-finanziamento-alle-associazioni-turistiche-pro-loco-piemonte-anno-2026",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-finanziamento-alle-associazioni-turistiche-pro-loco-piemonte-anno-2026"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
