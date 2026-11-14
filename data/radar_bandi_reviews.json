@@ -1256,7 +1256,7 @@
     {
       "id": "review-20261113-REG-AUTO-8351C5E0B31E",
       "decision": "approved",
-      "reviewedAt": "2026-11-13",
+      "reviewedAt": "2026-11-14",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -1266,17 +1266,17 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Pagina e allegato A corretto letti il 13/11/2026. Bando aperto dal 12/11; servizio territoriale toscano. ETS possibili beneficiari con endorsement e capacità operativa; il profilo non documenta tali requisiti. Nessun minimo generale di anzianità o entrate individuato.",
+      "note": "Pagina ufficiale ampliata il 13/11 e avviso corretto ricontrollati il 14/11/2026: PDF invariato (impronta confermata), scadenza 26/11 ore 12, 18.000 €/Punto per 12 mesi, forfait 20%, RUNTS, endorsement e capacità operativa invariati. La pagina aggiunge esplicazioni e file editabili; nessuna nuova ammissibilità del cliente attestata. Nessun minimo generale di anzianità o entrate individuato.",
       "evidence": [
         {
           "url": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
-          "checkedAt": "2026-11-13",
-          "note": "Pagina corrente: BURT 11/11, apertura 12/11, scadenza 26/11 ore 12, ETS RUNTS, endorsement e accesso FSE."
+          "checkedAt": "2026-11-14",
+          "note": "Riletta la pagina corrente aggiornata al 13/11: contenuti ampliati e collegamenti ai file editabili. Confermati BURT 11/11, apertura 12/11, scadenza 26/11 ore 12, ETS RUNTS, endorsement, 18.000 €/Punto, 20% e rischio accessi FSE tardivi. Nessuna proroga."
         },
         {
           "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5537736&nomeFile=Decreto+n.24443+del+06-11-2026-+Allegato+A+",
-          "checkedAt": "2026-11-13",
-          "note": "Avviso corretto con DD 24443 del 06/11/2026, 21 pagine, artt. 3–10: requisiti, 18.000 €/Punto, forfait 20%, durata, personale, orari, documenti e modalità."
+          "checkedAt": "2026-11-14",
+          "note": "PDF ufficiale nuovamente scaricato il 14/11 (21 pagine): SHA256 f1b5132c23a676381e684a138434370462a5686948cbb9885265f463cd5ac3f7 invariato rispetto alla precedente lettura. Confermati ruoli, personale, requisiti, importi e forfait."
         }
       ],
       "record": {

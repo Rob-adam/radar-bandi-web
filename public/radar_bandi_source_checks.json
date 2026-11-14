@@ -4,7 +4,7 @@
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
     "observed": 77,
-    "needsReview": 25,
+    "needsReview": 24,
     "failed": 12
   },
   "checks": {
@@ -418,25 +418,25 @@
     },
     "REG-AUTO-8351C5E0B31E|https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026": {
       "url": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
-      "evidenceCheckedAt": "2026-11-13",
-      "attemptedAt": "2026-11-14T07:32:05+01:00",
-      "baselineHash": "02081e00edd5a943b04b5d05c551e76e73af3f50db9302c1bcca1cc30c5b0d06",
-      "lastFetchSucceededAt": "2026-11-14T07:32:05+01:00",
+      "evidenceCheckedAt": "2026-11-14",
+      "attemptedAt": "2026-11-14T08:26:28+01:00",
+      "lastFetchSucceededAt": "2026-11-14T08:26:28+01:00",
       "ok": true,
-      "status": "changed",
+      "status": "baseline",
       "observedHash": "c3a8e68a8132e08eb57bc9be7814696d28dc33f20060f87d0ec85b7b0c660ee9",
-      "needsReview": true,
+      "baselineHash": "c3a8e68a8132e08eb57bc9be7814696d28dc33f20060f87d0ec85b7b0c660ee9",
+      "needsReview": false,
       "bandoId": "REG-AUTO-8351C5E0B31E"
     },
     "REG-AUTO-8351C5E0B31E|https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5537736&nomeFile=Decreto+n.24443+del+06-11-2026-+Allegato+A+": {
       "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5537736&nomeFile=Decreto+n.24443+del+06-11-2026-+Allegato+A+",
-      "evidenceCheckedAt": "2026-11-13",
-      "attemptedAt": "2026-11-14T07:32:05+01:00",
-      "baselineHash": "f1b5132c23a676381e684a138434370462a5686948cbb9885265f463cd5ac3f7",
-      "lastFetchSucceededAt": "2026-11-14T07:32:05+01:00",
+      "evidenceCheckedAt": "2026-11-14",
+      "attemptedAt": "2026-11-14T08:26:28+01:00",
+      "lastFetchSucceededAt": "2026-11-14T08:26:28+01:00",
       "ok": true,
-      "status": "unchanged",
+      "status": "baseline",
       "observedHash": "f1b5132c23a676381e684a138434370462a5686948cbb9885265f463cd5ac3f7",
+      "baselineHash": "f1b5132c23a676381e684a138434370462a5686948cbb9885265f463cd5ac3f7",
       "needsReview": false,
       "bandoId": "REG-AUTO-8351C5E0B31E"
     },
