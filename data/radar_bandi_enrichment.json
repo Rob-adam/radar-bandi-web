@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T08:55:41+01:00",
+  "generatedAt": "2026-11-16T23:10:16+01:00",
   "attempted": 46,
-  "enriched": 46,
+  "enriched": 36,
   "unchanged": 0,
-  "failed": 0,
+  "failed": 10,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -25,20 +25,9 @@
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/assegnazione-contributi-associazioni-che-forniscono-gratuitamente-non-vedenti-lombardi-cani-guida-appositamente-addestrati-anno-2026-RLD12026057063",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/assegnazione-contributi-associazioni-che-forniscono-gratuitamente-non-vedenti-lombardi-cani-guida-appositamente-addestrati-anno-2026-RLD12026057063"
-    },
-    {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13407&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high="
     },
     {
@@ -52,19 +41,24 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13280&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13281&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303",
       "ok": true,
       "changed": [
+        "title",
         "discoveryText"
       ],
-      "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
@@ -101,18 +95,23 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13364&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high="
     },
     {
-      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "ok": true,
       "changed": [
+        "title",
         "discoveryText"
       ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984"
+    },
+    {
+      "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13325&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high="
     },
     {
@@ -141,10 +140,8 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=12238&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high="
     },
     {
@@ -157,34 +154,26 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13135&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13403&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13338&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13430&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high="
     },
     {
@@ -345,13 +334,12 @@
       "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-finanziamento-alle-associazioni-turistiche-pro-loco-piemonte-anno-2026"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863",
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-creazione-anagrafica-RLT12026057203",
       "ok": true,
       "changed": [
-        "title",
         "discoveryText"
       ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/albo-disabilit-sensoriali-RLD12026056863"
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-creazione-anagrafica-RLT12026057203"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423",
@@ -369,14 +357,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti"
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/agricoltura-pesca/boschi-foreste/interventi-platani-RLM12026057263"
     },
     {
       "key": "url:https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
