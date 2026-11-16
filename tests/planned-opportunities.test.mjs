@@ -3,14 +3,20 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {renderPlannedOpportunities} from '../src/dashboard-wrapper.js';
 const records=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url))).bandi;
-test('Cattolica remains future and published EU4Health is absent from future counts',()=>{
- assert.equal(records.length,1);assert.ok(!records.some(b=>b.id==='EU4HEALTH-OA-g-26-91'));
- const b=records[0];assert.equal(b.id,'CATTOLICA-UNA-MANO-2026');assert.equal(b.status,'programmato');
+const future={id:'future-example',title:'Iniziativa futura',status:'programmato',opening:'2026-11-16',deadline:'2027-02-16',maxGrant:20000,tracking:{verifiedAt:'2026-11-09'}};
+test('verified Cattolica opening is published once and excluded from future counts',()=>{
+ const live=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo_extra.json',import.meta.url))).bandi.filter(b=>b.id==='CATTOLICA-UNA-MANO-2026');
+ assert.equal(live.length,1);assert.equal(live[0].submissionStatus,'open');
+ assert.ok(!records.some(b=>['EU4HEALTH-OA-g-26-91','CATTOLICA-UNA-MANO-2026'].includes(b.id)));
+ assert.equal(renderPlannedOpportunities(records,{areas:'salute'}),'');
+});
+test('a future notice stays separate until candidacy is verified',()=>{
+ const b=future;
  assert.equal(b.opening,'2026-11-16');assert.equal(b.deadline,'2027-02-16');assert.equal(b.maxGrant,20000);
- const html=renderPlannedOpportunities(records,{areas:'salute'});
+ const html=renderPlannedOpportunities([b],{areas:'salute'});
  assert.match(html,/PROSSIMA APERTURA · date da bando ufficiale/);assert.match(html,/non entrano nel conteggio/);
  assert.match(html,/Ammissibilità dell’ente non verificata/);
- assert.equal(renderPlannedOpportunities(records,{sector:'sport'}),'');
+ assert.equal(renderPlannedOpportunities([b],{sector:'sport'}),'');
  assert.equal(renderPlannedOpportunities([{...b,status:'aperto'}],{areas:'salute'}),'');
 });
 test('an indicative calendar still cannot imply an open call or verified dates',()=>{
@@ -20,7 +26,7 @@ test('an indicative calendar still cannot imply an open call or verified dates',
  assert.doesNotMatch(html,/date da bando ufficiale/);
 });
 test('an official notice with a forthcoming submission system remains distinct from an open call',()=>{
- const b={...records[0],submissionStatus:'forthcoming'};
+ const b={...future,submissionStatus:'forthcoming'};
  const html=renderPlannedOpportunities([b],{areas:'salute'});
  assert.match(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);assert.doesNotMatch(html,/Nuova apertura/);
 });

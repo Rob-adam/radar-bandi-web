@@ -1361,6 +1361,142 @@
           }
         ]
       }
+    },
+    {
+      "id": "review-20261116-CATTOLICA-UNA-MANO-2026",
+      "decision": "approved",
+      "reviewedAt": "2026-11-16",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "Il 16/11/2026 riletti bando e allegato 1 (11 pagine complessive), pagina di iscrizione e FAQ ufficiali. Modulo operativo osservato in browser al passo 1 di 8, campi vuoti e pulsante Prosegui; nessun dato inserito né candidatura inviata. Aperto fino al 16/02/2027, nessun orario finale individuato. Nuove iniziative in Italia, un progetto per ente, massimo 20.000 € e 80%, investimenti entro 20%, liquidazione finale. Allegato 1 esclude date di avvio anteriori a ottobre 2027. Nessun minimo generale di costituzione o soglia di entrate individuato. Requisiti della cliente non documentati. Regolamento generale collegato dal bando non scaricabile in questo controllo (403), non considerato nuovamente verificato.",
+      "evidence": [
+        {
+          "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/",
+          "checkedAt": "2026-11-16",
+          "note": "Pagina ufficiale iscrizione letta: otto passi, documentazione obbligatoria e collegamento al modulo operativo; nessuna candidatura trasmessa."
+        },
+        {
+          "url": "https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf",
+          "checkedAt": "2026-11-16",
+          "note": "PDF corrente scaricato HTTP 200 e letto: tre pagine di bando e otto dell’allegato 1. Importi, soggetti, territorio, termini, limiti sugli investimenti, avvio non prima di ottobre 2027, realizzazione, selezione e documenti."
+        },
+        {
+          "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/",
+          "checkedAt": "2026-11-16",
+          "note": "FAQ ufficiali lette: nuove iniziative, fasi di selezione e voto, avvio e termine, liquidazione a fine progetto."
+        },
+        {
+          "url": "https://www.unamanoachisostiene.it/candidatura-2026/",
+          "checkedAt": "2026-11-16",
+          "note": "Modulo ufficiale operativo osservato al passo 1 di 8 con campi obbligatori vuoti e pulsante Prosegui. Non compilato né inviato: verificata disponibilità iniziale, non la ricezione di una domanda."
+        }
+      ],
+      "record": {
+        "id": "CATTOLICA-UNA-MANO-2026",
+        "title": "Una mano a chi sostiene 2026 — inclusione e solidarietà sociale",
+        "source": "Fondazione Cattolica",
+        "sourceUrl": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/",
+        "evidenceUrls": [
+          "https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf",
+          "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/",
+          "https://www.unamanoachisostiene.it/candidatura-2026/"
+        ],
+        "deadline": "2027-02-16",
+        "openingDate": "2026-11-16",
+        "openingVerifiedAt": "2026-11-16T08:49:35+01:00",
+        "newOpeningUntil": "2026-11-23T00:00:00+01:00",
+        "fund": 500000,
+        "maxGrant": 20000,
+        "grantLabel": "Contributo massimo / progetto",
+        "aid": "Dotazione 500.000 €; contributo massimo 20.000 € per progetto e non oltre l’80% dei costi. Quota restante almeno 20% da coprire e liquidità per anticipare le spese: pagamento a conclusione, dopo rendicontazione dei costi e verifica di obiettivi e impatto sociale. Nessun anticipo attestato.",
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets",
+          "fondazione",
+          "impresa sociale",
+          "ente ecclesiastico",
+          "non profit"
+        ],
+        "territories": [
+          "italia"
+        ],
+        "sectors": [
+          "sociale",
+          "inclusione",
+          "formazione",
+          "cultura"
+        ],
+        "beneficiaries": [
+          "persone fragili",
+          "pazienti",
+          "caregiver",
+          "famiglie"
+        ],
+        "activities": [
+          "assistenza",
+          "supporto ai pazienti",
+          "inclusione sociale",
+          "formazione",
+          "volontariato"
+        ],
+        "purposes": [
+          "inclusione sociale",
+          "sostegno alle famiglie",
+          "qualità della vita"
+        ],
+        "tags": [
+          "Nazionale",
+          "ETS",
+          "Nuove iniziative",
+          "Inclusione",
+          "Voto pubblico"
+        ],
+        "eligibility": [
+          "ETS RUNTS secondo la propria forma, enti ecclesiastici civilmente riconosciuti e altri enti privati senza scopo di lucro ammessi dal bando. Esclusi enti mutualistici societari/cooperativi/consortili, soggetti politici, sindacali, professionali e di rappresentanza economica, associazioni datoriali, PA e soggetti da questi controllati o coordinati. Verificare la specifica forma dell’ente.",
+          "Progetto da realizzare direttamente in Italia: nessun vincolo di sede legale veneta o in un’altra regione individuato. La sede a Padova e l’operatività nazionale non documentano da sole progetto e requisiti.",
+          "Nuove iniziative di assistenza e solidarietà sociale, educazione/istruzione/formazione o cultura, con impatto misurabile. Il supporto ai pazienti può essere coerente se sviluppato come nuovo progetto di inclusione: non basta riproporre genericamente attività correnti."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "Un solo progetto per ente, realizzato direttamente in Italia e coerente con le aree del bando. FAQ: nuove iniziative progettuali. RUNTS/forma giuridica, rappresentanza e assenza delle esclusioni da documentare."
+          },
+          {
+            "type": "document",
+            "label": "Contributo fino a 20.000 € e all’80% dei costi; investimenti in immobili, impianti e attrezzature non oltre il 20% del costo totale. Dimostrare copertura della quota restante e capacità di anticipazione: erogazione a saldo dopo rendicontazione, obiettivi e impatto sociale."
+          },
+          {
+            "type": "document",
+            "label": "Esiti entro ottobre 2027; allegato 1: non ammesse date di avvio precedenti a ottobre 2027. Avvio entro 6 mesi e conclusione entro 18 mesi dalla comunicazione di approvazione. Non finanzia un bisogno di liquidità immediata nel 2026."
+          },
+          {
+            "type": "document",
+            "label": "Candidatura online dal 16/11/2026 al 16/02/2027; orario finale non indicato nei documenti letti. Preparare atto costitutivo, statuto vigente, ultimi tre consuntivi approvati (autodichiarazione della data di costituzione per enti neocostituiti), nomina e documento del legale rappresentante, elenco cariche sociali. Anno di costituzione richiesto dal modulo, senza minimo generale individuato; nessuna soglia generale di entrate individuata."
+          },
+          {
+            "type": "document",
+            "label": "Selezione delle 100 migliori idee, successiva documentazione di dettaglio e voto pubblico a giugno 2027; assegnazione ai più votati sino a esaurimento. Nuova istruttoria e sottoscrizione del Regolamento generale per gli enti vincitori. Regolamento collegato non nuovamente accessibile in questo controllo: acquisirlo e leggerlo prima dell’accettazione del contributo."
+          }
+        ],
+        "foundationYear": null,
+        "annualRevenue": null,
+        "status": "aperto",
+        "submissionStatus": "open",
+        "applicantChecks": [
+          {
+            "label": "Da documentare per l’associazione: forma/RUNTS e rappresentanza, documenti e consuntivi, nuova iniziativa in Italia con avvio compatibile dal 2027, budget e copertura/anticipazione, limiti sugli investimenti e impatto misurabile. La lettura delle fonti non certifica l’ammissibilità della cliente.",
+            "status": "unknown"
+          }
+        ]
+      }
     }
   ]
 }

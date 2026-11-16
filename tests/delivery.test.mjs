@@ -162,21 +162,24 @@ test('four newly documented calls reach a national APS without certifying its re
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===ids[1]),'phase 2 must not keep phase 1 open');
 });
 
-test('licensed health dashboard promotes verified open EU funding and retains Cattolica as future',async()=>{
+test('licensed health dashboard excludes promoted calls from future counts',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
- assert.match(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/Una mano a chi sostiene/);
+ assert.doesNotMatch(html,/Prossime aperture e programmi annunciati/);
+ assert.match(html,/const plannedInfo=\{"count":0,"updatedAt":null\}/);
  assert.doesNotMatch(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
   assert.equal(body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'),name==='radar_bandi_catalogo_extra');
+  assert.equal(body.bandi.some(b=>b.id==='CATTOLICA-UNA-MANO-2026'),name==='radar_bandi_catalogo_extra');
  }
 });
 
 test('licensed summary includes future opportunities and their content timestamp separately from active counts',async()=>{
- const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
+ const future={updatedAt:'16/11/2026 08:00',bandi:[{id:'future-example',title:'Future notice',status:'programmato',opening:'2026-12-01',deadline:'2027-01-01'}]};
+ const fixtureEnv={...env,ASSETS:{fetch:async r=>new URL(r.url).pathname==='/radar_bandi_programmati.json'?Response.json(future):env.ASSETS.fetch(r)}};
+ const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),fixtureEnv)).text();
  const meta=JSON.parse(html.match(/const plannedInfo=(\{[^;]+\});/)[1]);
- assert.equal(meta.count,1); assert.equal(meta.updatedAt,JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8')).updatedAt);
+ assert.equal(meta.count,1); assert.equal(meta.updatedAt,future.updatedAt);
  assert.match(html,/id="plannedSummary"/);
  assert.match(html,/Ultimo aggiornamento opportunità:/);
  assert.match(html,/Prossime aperture e programmi annunciati/);
@@ -258,6 +261,19 @@ test('new opening badge expires automatically and requires documented open statu
  assert.equal(context.badge({...b,tracking:{officialSourceVerified:false}}),'');
  state.now=Date.parse(b.newOpeningUntil);assert.equal(context.badge(b),'');
  state.now=Date.parse(b.openingVerifiedAt)-1;assert.equal(context.badge(b),'');
+});
+test('Cattolica promotion is delivered as open with a temporary badge and unproven applicant requirements',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-16T09:00:00+01:00')});
+ const data=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
+ const b=data.bandi.find(b=>b.id==='CATTOLICA-UNA-MANO-2026');
+ assert.ok(b);assert.equal(b.submissionStatus,'open');assert.equal(b.openingDate,'2026-11-16');
+ assert.equal(b.deadline,'2027-02-16');assert.equal(b.deadlineAt,undefined);assert.equal(b.maxGrant,20000);
+ assert.ok(Date.parse(b.newOpeningUntil)>Date.parse(b.openingVerifiedAt));
+ assert.equal(b.eligibilityStatus,'da_verificare');assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('ottobre 2027')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('tre consuntivi')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('non nuovamente accessibile')));
+ assert.deepEqual(b.territories,['italia']);assert.equal(b.foundationYear,null);assert.equal(b.annualRevenue,null);
 });
 test('Cariparo public partnership and single-project restriction remain documentary checks',async(t)=>{
  t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-05T09:00:00+01:00')});

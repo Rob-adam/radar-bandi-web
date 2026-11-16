@@ -3,7 +3,7 @@
   "attemptedAt": "2026-11-16T07:38:11+01:00",
   "note": "Controllo disponibilità e variazioni della fonte; non certifica requisiti o ammissibilità.",
   "summary": {
-    "observed": 77,
+    "observed": 81,
     "needsReview": 25,
     "failed": 12
   },
@@ -929,6 +929,54 @@
       "ok": true,
       "status": "unchanged",
       "observedHash": "fcf72c90f6982913b70433254e22d34b1deb2eb5bacec59f2dbb9c08e60ad0b8",
+      "needsReview": false,
+      "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "CATTOLICA-UNA-MANO-2026|https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/": {
+      "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/",
+      "evidenceCheckedAt": "2026-11-16",
+      "attemptedAt": "2026-11-16T08:50:27+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "0526619b2773ba9214bbfbb10be49e98da118254f52c1e5d2b6e6d1bfd7b8df7",
+      "baselineHash": "0526619b2773ba9214bbfbb10be49e98da118254f52c1e5d2b6e6d1bfd7b8df7",
+      "lastFetchSucceededAt": "2026-11-16T08:50:27+01:00",
+      "needsReview": false,
+      "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "CATTOLICA-UNA-MANO-2026|https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf": {
+      "url": "https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf",
+      "evidenceCheckedAt": "2026-11-16",
+      "attemptedAt": "2026-11-16T08:50:27+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "bedb9c11028919c7fef586b24c6d8ad23224d82b3a3fd0021d6a4bc262e78daf",
+      "baselineHash": "bedb9c11028919c7fef586b24c6d8ad23224d82b3a3fd0021d6a4bc262e78daf",
+      "lastFetchSucceededAt": "2026-11-16T08:50:27+01:00",
+      "needsReview": false,
+      "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "CATTOLICA-UNA-MANO-2026|https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/": {
+      "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/",
+      "evidenceCheckedAt": "2026-11-16",
+      "attemptedAt": "2026-11-16T08:50:27+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "3f098b1969aa64e36568e30abd4427845ccc2c3f6cd0332be72d8dd573ef2396",
+      "baselineHash": "3f098b1969aa64e36568e30abd4427845ccc2c3f6cd0332be72d8dd573ef2396",
+      "lastFetchSucceededAt": "2026-11-16T08:50:27+01:00",
+      "needsReview": false,
+      "bandoId": "CATTOLICA-UNA-MANO-2026"
+    },
+    "CATTOLICA-UNA-MANO-2026|https://www.unamanoachisostiene.it/candidatura-2026/": {
+      "url": "https://www.unamanoachisostiene.it/candidatura-2026/",
+      "evidenceCheckedAt": "2026-11-16",
+      "attemptedAt": "2026-11-16T08:50:27+01:00",
+      "ok": true,
+      "status": "baseline",
+      "observedHash": "35a7425637fb8e3b3c751483e4c0e96f77341f5bb403184468100a2fd75fa7c3",
+      "baselineHash": "35a7425637fb8e3b3c751483e4c0e96f77341f5bb403184468100a2fd75fa7c3",
+      "lastFetchSucceededAt": "2026-11-16T08:50:27+01:00",
       "needsReview": false,
       "bandoId": "CATTOLICA-UNA-MANO-2026"
     }
