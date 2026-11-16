@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T07:37:03+01:00",
-  "attempted": 47,
-  "enriched": 47,
+  "generatedAt": "2026-11-16T08:55:41+01:00",
+  "attempted": 46,
+  "enriched": 46,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -65,15 +65,6 @@
         "discoveryText"
       ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9169.html",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9169.html"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
