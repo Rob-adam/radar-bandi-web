@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-11-17T08:11:39+01:00",
+  "catalogUpdatedAt": "2026-11-17T08:17:21+01:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -29,9 +29,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
       "contentHash": "5a8d74aaefc91e6c86c008464976fd3e2237b60c85755108956bef26eab1cd7a",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -125,7 +125,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -1242,9 +1242,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "contentHash": "31cd6f496940d81bef204a1e0222928000e1f914af00d864de74dc2f58c6be28",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1354,7 +1354,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -1363,9 +1363,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "contentHash": "87ab2dfef03467b1ec38291de6d6a5220853453ec3959511403f0b138d320a87",
-      "version": 36,
+      "version": 38,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1473,7 +1473,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -6521,7 +6521,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -6530,9 +6530,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "10d44ab959135d14dc5218c6b63af6ca841d064248199d45ed790d56d4ba69d5",
-      "version": 365,
+      "version": 367,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6626,7 +6626,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -6635,9 +6635,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "6dd4c74fd88d19d9fb52db1a98052285acd511b8fc04ec12ad3abecef19513c2",
-      "version": 365,
+      "version": 367,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6731,7 +6731,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -14014,9 +14014,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "contentHash": "4afe6a71f2d63e5aefb4d5ef15559b3976e5edef1f2935384cffa806a4721c48",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14116,7 +14116,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -14338,9 +14338,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "contentHash": "3d16237d93e27aaa3fae510495ac30e8a640fd95ed307bc5d43aa7122fc22400",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14441,7 +14441,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -14450,9 +14450,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "contentHash": "f7abd2402749a3e73bda78da51c2c002a33739087856ad13c0301b67b30142d7",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14553,7 +14553,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -14562,9 +14562,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "contentHash": "fc113b36ccfc877b320ec9514ec06087baad34f27dd2cc2308b3d2bf9f830cad",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14665,7 +14665,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -14674,9 +14674,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "contentHash": "cae032384b5faa529e0298e14a8dc9a20c0e744615c225443250935d6a5da0a4",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -14772,7 +14772,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -14877,7 +14877,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -14980,7 +14980,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -15084,7 +15084,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -15093,9 +15093,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "contentHash": "effc8c63cfca3da8655af16614ee0c9374271e52efb6c749d4a58822a6c074c9",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15196,7 +15196,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15205,9 +15205,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "contentHash": "06eeccd5195a3f1fff594852a937b2c4786e84373518df9407e18157778183e4",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15308,7 +15308,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15317,9 +15317,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "contentHash": "04c1e3ed0c8504dcbc4cf77cc7fd580fe8a5a37f175e3434856740db2772bb41",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15420,7 +15420,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15518,7 +15518,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -15527,9 +15527,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
       "contentHash": "f11876169f3483ca5ef80e78e663b177c67aa77dbec05f1f2407a2e374300c20",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15628,7 +15628,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15733,7 +15733,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -15742,9 +15742,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "contentHash": "8a3fe869c9d20e10c0975c3edf3c3139c21ffd279ae97112e0135fb0a4798648",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15845,7 +15845,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15854,9 +15854,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
       "contentHash": "d99a451f6e4455aa2672f233c6d1a801857f4e362062f34e9530849702d6766c",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -15957,7 +15957,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -15966,9 +15966,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "contentHash": "4ccb9cf7d294542b97023ddae53c13507d116fb077a8e1ffc0dbf02c40412f9e",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16068,7 +16068,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -16077,9 +16077,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "contentHash": "19f47f22a87629e7bad54e1dce8d7bde7c77ea84dba4741acdb8df63dd538ef5",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16179,7 +16179,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -16188,9 +16188,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "contentHash": "f67e32937d375edfa2740b583b63fb99a38183442c010480535b5b1101ecce42",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16290,7 +16290,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -16299,9 +16299,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "contentHash": "c3bc159ca23e542f718e15ba0f52b4f9b0ce2b2a8694da00186b1633321e6ddd",
-      "version": 177,
+      "version": 179,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -16398,7 +16398,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -17060,9 +17060,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "contentHash": "b901b602e7f68bce08c68f01d964fb6d8e91363a8566f4124b297740dd93bf9b",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17159,7 +17159,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -17262,7 +17262,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -17271,9 +17271,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/",
       "contentHash": "2f3e9bf6a93949085f20783feae45c0bbe7ce31488b90caa4e3f2bc69eb3380a",
-      "version": 173,
+      "version": 175,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17370,7 +17370,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -17379,9 +17379,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "contentHash": "409860e4a05e8b1aea3203ca5d57340fb72a37bad185605d8f2f87627b410fdb",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17476,7 +17476,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -17574,7 +17574,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -17675,7 +17675,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -17773,7 +17773,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -17872,7 +17872,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -17975,7 +17975,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18075,7 +18075,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18175,7 +18175,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18276,7 +18276,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18379,7 +18379,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18482,7 +18482,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18582,7 +18582,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18683,7 +18683,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18783,7 +18783,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18880,7 +18880,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -18977,7 +18977,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -19078,7 +19078,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -19175,7 +19175,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -19276,7 +19276,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -19285,9 +19285,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "contentHash": "c59fd05e1a6009f236d75a7a4a1cd33cdefcbbb3cbe5d9a3dd1bcbe2f39b941e",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19386,7 +19386,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -19485,7 +19485,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -19494,9 +19494,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "contentHash": "f59f40da360df25d1249a71a764d65ad0127c2680d29137659a6e97a7a16393f",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19597,7 +19597,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -19606,9 +19606,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "contentHash": "85cf4b67f1c56664b6ceb15ffac27345baff64cdfc9017dc6558da0fe901984e",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19704,7 +19704,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -19713,9 +19713,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "contentHash": "88737ba727a5ed092de5dddc2715ac7d39bd2978a2deafef894abc8246bf92bf",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19816,7 +19816,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -19825,9 +19825,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "contentHash": "453eff3cf20e0162ad8df30a7b13de1f8fd59f87ea0bfbd4473d1ede2e3ac200",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19923,7 +19923,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -19932,9 +19932,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
       "contentHash": "3661b5d7ecbe8c296d2e5d24342baa6896078e7aee5a726ef3ba7b20631e5b07",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -20033,7 +20033,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -20136,7 +20136,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20238,7 +20238,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20339,7 +20339,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20438,7 +20438,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20540,7 +20540,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20638,7 +20638,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20737,7 +20737,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20835,7 +20835,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -20938,7 +20938,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21040,7 +21040,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21143,7 +21143,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21246,7 +21246,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21344,7 +21344,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21445,7 +21445,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21548,7 +21548,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21645,7 +21645,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21748,7 +21748,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21848,7 +21848,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -21951,7 +21951,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22054,7 +22054,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22157,7 +22157,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22260,7 +22260,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22359,7 +22359,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22458,7 +22458,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22560,7 +22560,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22661,7 +22661,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22762,7 +22762,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22865,7 +22865,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -22965,7 +22965,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23068,7 +23068,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23171,7 +23171,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23274,7 +23274,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23377,7 +23377,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23480,7 +23480,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23583,7 +23583,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23683,7 +23683,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23786,7 +23786,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23887,7 +23887,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -23990,7 +23990,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24088,7 +24088,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24191,7 +24191,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24294,7 +24294,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24392,7 +24392,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24495,7 +24495,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24593,7 +24593,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24696,7 +24696,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24799,7 +24799,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -24898,7 +24898,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25000,7 +25000,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25103,7 +25103,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25205,7 +25205,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25306,7 +25306,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25407,7 +25407,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25504,7 +25504,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25607,7 +25607,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25705,7 +25705,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25808,7 +25808,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -25908,7 +25908,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -26008,7 +26008,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -26106,7 +26106,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -26115,9 +26115,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "contentHash": "70b28f18b29efd7f532f180cb6cf8f49ba641861b809e617e193c00322819bd7",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26215,7 +26215,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -26314,7 +26314,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -26414,7 +26414,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -26423,9 +26423,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "contentHash": "7a139eacc8dce8dc1918172596c4887d4f023958aeae777d6842754ace2e5806",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26519,7 +26519,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -26528,9 +26528,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "contentHash": "d0b0f0f3f3426928be951f09ba3bbe6206aa549e559ece4cd35fa2c0d28f8c2b",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26631,7 +26631,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -26640,9 +26640,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "contentHash": "899f964d6910679c2a1f48a3e8755951da66d36f884d061056673f6e66e46243",
-      "version": 175,
+      "version": 177,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26740,7 +26740,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -27069,9 +27069,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "contentHash": "2544bef954d0a39aedf1d4eb5d4f8455506c2574bf9d3b5ac6c3520d8fc166ed",
-      "version": 132,
+      "version": 134,
       "firstSeenAt": "2026-10-26T14:18:12+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27165,7 +27165,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -27829,9 +27829,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
       "contentHash": "a7e84f848bdcb880e97f6dcdf9a5edb293eafa481fc0375674d187d078d67605",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-11-02T17:09:31+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27932,7 +27932,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -27941,9 +27941,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/",
       "contentHash": "4998338bfad2e70b8bf7cf2f43f9c393d0b18a46c1f72ae2319c3dcc87a4f418",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-11-02T17:09:31+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -28044,7 +28044,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -28053,9 +28053,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/",
       "contentHash": "3e814e0cf33ff00fa9d6fbbe5fd251649e9d7edfc45998342ac006d8ef7b469b",
-      "version": 76,
+      "version": 78,
       "firstSeenAt": "2026-11-03T15:30:24+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -28156,7 +28156,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -28393,9 +28393,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "contentHash": "682945c5b84c71af114232e8041385f4fb0736476b44e4ced77c6bce95a2b751",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-11-06T20:36:59+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -28496,7 +28496,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -28505,9 +28505,9 @@
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "contentHash": "b426d825db1a0d7246fedaf200cb39a9746ab72c903e38ecb88fb3b19b259337",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-11-06T20:36:59+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -28608,7 +28608,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -28617,9 +28617,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/concorso-viaggi-memoria-s-2026-27-RLW12026057223",
       "contentHash": "fb4c4a24db22bc8202a57d13a453aaa261d97c05588def40a61376290802c159",
-      "version": 62,
+      "version": 64,
       "firstSeenAt": "2026-11-06T20:36:59+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -28720,7 +28720,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -28842,7 +28842,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": true
     },
@@ -28966,9 +28966,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423",
       "contentHash": "dedf8243d243d6465c9e95304132236be255a9a4a452fcd55633923b40504f7c",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-11-09T23:35:09+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -29069,7 +29069,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -29078,9 +29078,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9171.html",
       "contentHash": "684fb4bb82ff776c8f9a502d04dbbe063e66c7ebb6400ae703d59b59cd2dd842",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-11-11T20:40:57+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -29184,7 +29184,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -29535,9 +29535,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
       "contentHash": "a01a55f4780414c6417fc3dcb83033a3a5401195bceef03ca3c538a24f688557",
-      "version": 28,
+      "version": 30,
       "firstSeenAt": "2026-11-12T20:59:54+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -29634,7 +29634,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -29872,9 +29872,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/avviso-pubblico-finanziamento-alle-associazioni-turistiche-pro-loco-piemonte-anno-2026",
       "contentHash": "54eb30a53e6e927c53ca056889f8bd8c4284e7a431566909de97f765fa735484",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-11-13T20:47:28+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -29976,7 +29976,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -29985,9 +29985,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303",
       "contentHash": "a1bed9616a16c5efc8d1a53f1af203b006f00ee348cbeedc34b719ecb9b775ec",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-11-16T23:10:16+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30085,7 +30085,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     },
@@ -30094,9 +30094,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-creazione-anagrafica-RLT12026057203",
       "contentHash": "bfbc2ff0fe5e1ab929316602d98356846de9278764515e5d462bbc43d28d0cfe",
-      "version": 6,
+      "version": 8,
       "firstSeenAt": "2026-11-16T23:10:16+01:00",
-      "lastChangedAt": "2026-11-17T08:11:39+01:00",
+      "lastChangedAt": "2026-11-17T08:17:21+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30194,12 +30194,12 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-17T08:11:39+01:00"
+        "evaluatedAt": "2026-11-17T08:17:21+01:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-11-17T08:11:39+01:00",
+  "triageUpdatedAt": "2026-11-17T08:17:21+01:00",
   "triageSummary": {
     "rulesResolved": 6,
     "rulesExcludedForEts": 91,
