@@ -3,7 +3,6 @@ const SOURCES={
  basilicata:'https://portalebandi.regione.basilicata.it/',
  liguria:'https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html',
  'gaslini-regolamento':'https://www.regione.liguria.it/components/com_publiccompetitions/includes/download.php?id=80856:dgr-399-2026.pdf',
- 'er-disabilita-uditiva-page':'https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029',
  'er-disabilita-uditiva-pdf':'https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029/documenti/il-testo-del-bando.pdf/@@download/file'
 };
 export async function officialListing(request,options={}){

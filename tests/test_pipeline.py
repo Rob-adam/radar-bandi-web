@@ -216,12 +216,21 @@ class PipelineTests(unittest.TestCase):
         pdf = page + '/documenti/il-testo-del-bando.pdf/@@download/file'
         response = unittest.mock.Mock()
         response.raise_for_status.return_value = None
-        for url, source in [(page, 'er-disabilita-uditiva-page'), (pdf, 'er-disabilita-uditiva-pdf')]:
-            response.headers = {'X-Bandovera-Official-Source': url}
-            with patch.object(source_fetch.requests, 'get', return_value=response) as fetch:
-                self.assertIs(source_fetch.public_listing_fallback(url, 'GET', {}), response)
-                self.assertEqual(fetch.call_args.kwargs['params'], {'source': source, 'page': 1})
+        response.headers = {'X-Bandovera-Official-Source': pdf}
+        with patch.object(source_fetch.requests, 'get', return_value=response) as fetch:
+            self.assertIs(source_fetch.public_listing_fallback(pdf, 'GET', {}), response)
+            self.assertEqual(fetch.call_args.kwargs['params'], {'source': 'er-disabilita-uditiva-pdf', 'page': 1})
+        self.assertIsNone(source_fetch.public_listing_fallback(page, 'GET', {}))
         self.assertIsNone(source_fetch.public_listing_fallback(page + '/private', 'GET', {}))
+
+    def test_verified_browser_evidence_can_be_retained_without_false_automatic_availability(self):
+        catalog = {'bandi': [{'id': 'x', 'tracking': {'verificationEvidence': [
+            {'url': 'https://official.example/page', 'checkedAt': '2026-11-17', 'monitor': False},
+            {'url': 'https://official.example/document.pdf', 'checkedAt': '2026-11-17'},
+        ]}}]}
+        records = list(check_verified_sources.evidence_records(catalog))
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0][1]['url'], 'https://official.example/document.pdf')
 
     def test_transient_fetch_is_retried_but_forbidden_is_not(self):
         response = unittest.mock.Mock()

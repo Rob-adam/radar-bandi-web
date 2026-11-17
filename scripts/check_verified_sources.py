@@ -26,7 +26,7 @@ def evidence_records(catalog):
         if isinstance(evidence, dict):
             evidence = [evidence]
         for item in evidence:
-            if isinstance(item, dict) and str(item.get("url", "")).startswith("https://"):
+            if isinstance(item, dict) and item.get("monitor") is not False and str(item.get("url", "")).startswith("https://"):
                 yield record, item
 
 

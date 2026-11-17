@@ -456,17 +456,18 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra.",
+      "note": "Pagina ufficiale riletta nel browser e PDF ufficiale verificato il 17/11/2026: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Il monitor automatico usa il PDF, accessibile anche dal recupero fisso; per RB-0003 la sede richiesta resta da documentare.",
       "evidence": [
         {
           "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029",
           "checkedAt": "2026-11-17",
-          "note": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra."
+          "monitor": false,
+          "note": "Pagina ufficiale riletta nel browser il 17/11/2026; il runner automatico non riesce a raggiungerla in modo affidabile, quindi la disponibilità automatica è attestata dal PDF ufficiale separato."
         },
         {
           "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029/documenti/il-testo-del-bando.pdf/@@download/file",
           "checkedAt": "2026-11-17",
-          "note": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra."
+          "note": "Pagina ufficiale riletta nel browser e PDF ufficiale verificato il 17/11/2026: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Il monitor automatico usa il PDF, accessibile anche dal recupero fisso; per RB-0003 la sede richiesta resta da documentare."
         }
       ],
       "record": {
