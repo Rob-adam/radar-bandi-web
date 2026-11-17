@@ -41,3 +41,14 @@ test('successful public listings are cached; source refusals remain refusals and
  r=await officialListing(new Request('https://test.local/api/official-listing?source=liguria'),{cache,fetch:async()=>{throw new Error('Must use cache')}});
  assert.equal(r.status,200);
 });
+test('Emilia-Romagna recovery exposes only the two fixed verified resources',async()=>{
+ const page='https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029';
+ const pdf=page+'/documenti/il-testo-del-bando.pdf/@@download/file';
+ for(const [source,target,type] of [['er-disabilita-uditiva-page',page,'text/html'],['er-disabilita-uditiva-pdf',pdf,'application/pdf']]){
+  const r=await officialListing(new Request('https://test.local/api/official-listing?source='+source),{fetch:async(url)=>{
+   assert.equal(url,target);return new Response(type==='application/pdf'?'%PDF-1.7':'<main>Bando aperto</main>',{headers:{'Content-Type':type}});
+  }});
+  assert.equal(r.status,200);assert.equal(r.headers.get('X-Bandovera-Official-Source'),target);
+ }
+ assert.equal((await officialListing(new Request('https://test.local/api/official-listing?source=er-disabilita-uditiva-page&detail=%2Fprivate'))).status,400);
+});

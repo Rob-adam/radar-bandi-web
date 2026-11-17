@@ -211,6 +211,18 @@ class PipelineTests(unittest.TestCase):
             self.assertEqual(fetch.call_args.kwargs['params']['detail'], '/avvisi-e-bandi/progetto-sociale/')
         self.assertIsNone(source_fetch.public_listing_fallback('https://portalebandi.regione.basilicata.it/wp-admin/', 'GET', {}))
 
+    def test_emilia_review_sources_use_only_fixed_public_recovery(self):
+        page = 'https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029'
+        pdf = page + '/documenti/il-testo-del-bando.pdf/@@download/file'
+        response = unittest.mock.Mock()
+        response.raise_for_status.return_value = None
+        for url, source in [(page, 'er-disabilita-uditiva-page'), (pdf, 'er-disabilita-uditiva-pdf')]:
+            response.headers = {'X-Bandovera-Official-Source': url}
+            with patch.object(source_fetch.requests, 'get', return_value=response) as fetch:
+                self.assertIs(source_fetch.public_listing_fallback(url, 'GET', {}), response)
+                self.assertEqual(fetch.call_args.kwargs['params'], {'source': source, 'page': 1})
+        self.assertIsNone(source_fetch.public_listing_fallback(page + '/private', 'GET', {}))
+
     def test_transient_fetch_is_retried_but_forbidden_is_not(self):
         response = unittest.mock.Mock()
         response.raise_for_status.return_value = None

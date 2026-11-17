@@ -54,6 +54,8 @@ def public_listing_fallback(url, method, kwargs):
     sources = {
         "https://portalebandi.regione.basilicata.it/": "basilicata",
         "https://www.regione.liguria.it/component/publiccompetitions/category/3-contributi.html": "liguria",
+        "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029": "er-disabilita-uditiva-page",
+        "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029/documenti/il-testo-del-bando.pdf/@@download/file": "er-disabilita-uditiva-pdf",
     }
     source = sources.get(url)
     params = {}
