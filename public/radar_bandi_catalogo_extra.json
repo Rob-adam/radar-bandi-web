@@ -1,5 +1,5 @@
 {
-  "updatedAt": "16/11/2026 08:49",
+  "updatedAt": "17/11/2026 07:56",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -1973,18 +1973,18 @@
         "officialSourceVerified": true,
         "deadlineVerified": true,
         "eligibilityVerified": true,
-        "verifiedAt": "2026-10-25",
-        "verificationNote": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente.",
+        "verifiedAt": "2026-11-17",
+        "verificationNote": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra.",
         "verificationEvidence": [
           {
             "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029",
-            "checkedAt": "2026-10-25",
-            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+            "checkedAt": "2026-11-17",
+            "note": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra."
           },
           {
             "url": "https://sociale.regione.emilia-romagna.it/leggi-atti-bandi/bandi/2026/bando-per-il-finanziamento-di-progetti-a-favore-di-persone-con-disabilita-uditiva-ai-sensi-della-l-r-n-9-del-2019-periodo-1deg-gennaio-2027-31-dicembre-2029/documenti/il-testo-del-bando.pdf/@@download/file",
-            "checkedAt": "2026-10-25",
-            "note": "Pagina e regolamento ufficiali consultati il 25/10/2026: scadenza, destinatari, ambito territoriale, importi e requisiti distinti da quelli del cliente."
+            "checkedAt": "2026-11-17",
+            "note": "Pagina e PDF ufficiali riletti il 17/11/2026 dopo un errore transitorio del monitor: bando ancora aperto, scadenza 11/12/2026 ore 12:00; RUNTS A, B o G e sede legale oppure operativa in Emilia-Romagna invariati. Per RB-0003 la sede richiesta resta da documentare: l’operatività nazionale non la dimostra."
           }
         ],
         "publicationReviewId": "review-20261025-ER-DISABILITA-UDITIVA-2027-2029"
@@ -2901,5 +2901,5 @@
       }
     }
   ],
-  "publishedAt": "2026-11-16T08:49:35+01:00"
+  "publishedAt": "2026-11-17T07:56:11+01:00"
 }
