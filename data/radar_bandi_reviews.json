@@ -1366,7 +1366,7 @@
     {
       "id": "review-20261116-CATTOLICA-UNA-MANO-2026",
       "decision": "approved",
-      "reviewedAt": "2026-11-16",
+      "reviewedAt": "2026-11-17",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -1376,27 +1376,30 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Il 16/11/2026 riletti bando e allegato 1 (11 pagine complessive), pagina di iscrizione e FAQ ufficiali. Modulo operativo osservato in browser al passo 1 di 8, campi vuoti e pulsante Prosegui; nessun dato inserito né candidatura inviata. Aperto fino al 16/02/2027, nessun orario finale individuato. Nuove iniziative in Italia, un progetto per ente, massimo 20.000 € e 80%, investimenti entro 20%, liquidazione finale. Allegato 1 esclude date di avvio anteriori a ottobre 2027. Nessun minimo generale di costituzione o soglia di entrate individuato. Requisiti della cliente non documentati. Regolamento generale collegato dal bando non scaricabile in questo controllo (403), non considerato nuovamente verificato.",
+      "note": "Il 16/11/2026 riletti bando e allegato 1 (11 pagine complessive), pagina di iscrizione e FAQ ufficiali. Modulo operativo osservato in browser al passo 1 di 8, campi vuoti e pulsante Prosegui; nessun dato inserito né candidatura inviata. Aperto fino al 16/02/2027, nessun orario finale individuato. Nuove iniziative in Italia, un progetto per ente, massimo 20.000 € e 80%, investimenti entro 20%, liquidazione finale. Allegato 1 esclude date di avvio anteriori a ottobre 2027. Nessun minimo generale di costituzione o soglia di entrate individuato. Requisiti della cliente non documentati. Regolamento generale collegato dal bando non scaricabile in questo controllo (403), non considerato nuovamente verificato. Il 17/11/2026 le tre pagine web dinamiche sono state ricontrollate direttamente; il runner ha restituito testo insufficiente, quindi restano prove datate non monitorate automaticamente. Il monitoraggio automatico continua sul PDF ufficiale stabile.",
       "evidence": [
         {
           "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/",
-          "checkedAt": "2026-11-16",
-          "note": "Pagina ufficiale iscrizione letta: otto passi, documentazione obbligatoria e collegamento al modulo operativo; nessuna candidatura trasmessa."
+          "checkedAt": "2026-11-17",
+          "note": "Pagina ufficiale iscrizione letta: otto passi, documentazione obbligatoria e collegamento al modulo operativo; nessuna candidatura trasmessa. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "monitor": false
         },
         {
           "url": "https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf",
-          "checkedAt": "2026-11-16",
+          "checkedAt": "2026-11-17",
           "note": "PDF corrente scaricato HTTP 200 e letto: tre pagine di bando e otto dell’allegato 1. Importi, soggetti, territorio, termini, limiti sugli investimenti, avvio non prima di ottobre 2027, realizzazione, selezione e documenti."
         },
         {
           "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/",
-          "checkedAt": "2026-11-16",
-          "note": "FAQ ufficiali lette: nuove iniziative, fasi di selezione e voto, avvio e termine, liquidazione a fine progetto."
+          "checkedAt": "2026-11-17",
+          "note": "FAQ ufficiali lette: nuove iniziative, fasi di selezione e voto, avvio e termine, liquidazione a fine progetto. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "monitor": false
         },
         {
           "url": "https://www.unamanoachisostiene.it/candidatura-2026/",
-          "checkedAt": "2026-11-16",
-          "note": "Modulo ufficiale operativo osservato al passo 1 di 8 con campi obbligatori vuoti e pulsante Prosegui. Non compilato né inviato: verificata disponibilità iniziale, non la ricezione di una domanda."
+          "checkedAt": "2026-11-17",
+          "note": "Modulo ufficiale operativo osservato al passo 1 di 8 con campi obbligatori vuoti e pulsante Prosegui. Non compilato né inviato: verificata disponibilità iniziale, non la ricezione di una domanda. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "monitor": false
         }
       ],
       "record": {
