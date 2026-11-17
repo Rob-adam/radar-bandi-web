@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T23:10:16+01:00",
+  "generatedAt": "2026-11-17T08:02:17+01:00",
   "attempted": 46,
-  "enriched": 36,
+  "enriched": 46,
   "unchanged": 0,
-  "failed": 10,
+  "failed": 0,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -26,8 +26,10 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13407&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13407&fromPage=Elenco&high="
     },
     {
@@ -41,14 +43,18 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13280&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13281&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
     },
     {
@@ -95,8 +101,10 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13364&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high="
     },
     {
@@ -110,8 +118,10 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13325&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high="
     },
     {
@@ -140,8 +150,10 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=12238&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high="
     },
     {
@@ -154,26 +166,34 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13135&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13403&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13338&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
-      "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13430&fromPage=Elenco&high= (Caused by NewConnectionError(\"HTTPSConnection(host='bandi.regione.veneto.it', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high="
     },
     {
