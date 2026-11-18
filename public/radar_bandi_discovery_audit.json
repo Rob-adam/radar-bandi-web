@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "total": 135,
+  "total": 136,
   "counts": {
     "not_a_call": 3,
-    "documentary_review": 44,
+    "documentary_review": 45,
     "not_a_new_grant": 6,
     "not_a_grant": 82
   },
@@ -16,8 +16,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-B502E34F2C01",
@@ -26,8 +26,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-9869BF427022",
@@ -36,8 +36,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-322C37E4E65B",
@@ -46,8 +46,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-FCD08A990326",
@@ -56,8 +56,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-F318DC0E8AD2",
@@ -66,8 +66,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "RLW12025050303",
@@ -76,18 +76,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
-    },
-    {
-      "id": "RLL12026057303",
-      "title": "Bando a sostegno di iniziative di promozione educativa culturale realizzate da soggetti riconosciuti di rilevanza regionale per il periodo 2025-2028 - Contributi anno 2027",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-iniziative-promozione-educativa-culturale-realizzate-soggetti-riconosciuti-rilevanza-regionale-periodo-2025-2028-contributi-anno-2027-RLL12026057303",
-      "status": "documentary_review",
-      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-AA7CDBEA00E9",
@@ -96,8 +86,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "PIE-AUTO-519355BE80BE",
@@ -106,8 +96,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-07FE341ABA04",
@@ -116,8 +106,18 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
+    },
+    {
+      "id": "RLD12026056523",
+      "title": "Spazio Disabilità 2027-2028",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/spazio-disabilita-2027-2028-RLD12026056523",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-817347F304D1",
@@ -126,8 +126,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "RLP12026054984",
@@ -136,8 +136,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-395AB58C2BE6",
@@ -146,8 +146,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-BA504C6CA1EA",
@@ -156,8 +156,18 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
+    },
+    {
+      "id": "REG-AUTO-9D250F6586FF",
+      "title": "Indizione di procedura comparativa per curricula finalizzata alla formazione di una short list di esperti esterni, profilo giuridico, per l'eventuale conferimento di incarichi di consulenza, per attività di supporto alla Segreteria Tecnica del NUVV in materia di valutazione degli aspetti legali di progetti e programmi d'investimento.",
+      "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13458&fromPage=Elenco&high=",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-19F91878389B",
@@ -166,8 +176,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-9D36A454F526",
@@ -206,8 +216,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-0ED70F7D483F",
@@ -216,8 +226,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-866D64FA7F3D",
@@ -236,8 +246,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-EFE04F32E96F",
@@ -426,8 +436,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-E22005E8DE9F",
@@ -456,8 +466,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-0B29A6670558",
@@ -466,8 +476,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-4D19CF6A3B12",
@@ -476,8 +486,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-E3AD91C8BE0B",
@@ -486,8 +496,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-9AC76430822E",
@@ -496,8 +506,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-C98C29EDAA38",
@@ -516,18 +526,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
-    },
-    {
-      "id": "RLW12026057223",
-      "title": "Concorso “Viaggi della memoria” a.s. 2026/27",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/progetti-scuole/concorso-viaggi-memoria-s-2026-27-RLW12026057223",
-      "status": "documentary_review",
-      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-55FDB62358D8",
@@ -546,8 +546,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-5E8EB6C3611F",
@@ -556,8 +556,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-A15AD7611A44",
@@ -566,8 +566,28 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
+    },
+    {
+      "id": "RLW12025050928",
+      "title": "Percorsi personalizzati per allievi con disabilità (PPD – IEFP) I – II – III anno. a.f. 2026/2027 – FSE+ 2021_2027",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/percorsi-personalizzati-allievi-disabilit-ppd-iefp-ii-iii-anno-f-2026-2027-fse-2021-2027-RLW12025050928",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
+    },
+    {
+      "id": "RLW12025050923",
+      "title": "Interventi per il sostegno di allievi con disabilità frequentanti i percorsi triennali/quadriennali/IV anno (IeFP) - a.f. 2026/2027",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/interventi-sostegno-allievi-disabilit-frequentanti-percorsi-triennali-quadriennali-iv-anno-iefp-f-2026-2027-RLW12025050923",
+      "status": "documentary_review",
+      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
+      "detailFetchOk": true,
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-802DE2802F3C",
@@ -576,8 +596,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-C0E39D4A4358",
@@ -586,8 +606,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-5D9EB4C71740",
@@ -596,8 +616,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-5F4C03DFBDDD",
@@ -606,8 +626,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-D37749662A16",
@@ -616,8 +636,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-DD3AA18AD8A1",
@@ -1226,8 +1246,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-8F97D7B298AC",
@@ -1236,8 +1256,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-7ACD582ED719",
@@ -1246,8 +1266,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-CCEC3CB25F4A",
@@ -1256,8 +1276,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-2DD9680DDFE9",
@@ -1266,8 +1286,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-BC435CA980FD",
@@ -1296,8 +1316,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-5CB7CC82AFC2",
@@ -1306,8 +1326,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-323C49FE70D2",
@@ -1326,18 +1346,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
-    },
-    {
-      "id": "RLT12026056423",
-      "title": "ISTANTEC 2.0 ITCS - Comunicazione preventiva di corsi di aggiornamento da parte degli enti erogatori",
-      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-2-0-itcs-comunicazione-preventiva-corsi-aggiornamento-parte-enti-erogatori-RLT12026056423",
-      "status": "documentary_review",
-      "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
-      "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "PIE-AUTO-E06D74EBFB0F",
@@ -1346,8 +1356,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     },
     {
       "id": "REG-AUTO-2DA7C42694E9",
@@ -1356,8 +1366,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-18T08:36:06+01:00",
-      "detailFetchedAt": "2026-11-18T08:36:06+01:00"
+      "detailFetchAttemptedAt": "2026-11-18T21:37:57+01:00",
+      "detailFetchedAt": "2026-11-18T21:37:57+01:00"
     }
   ]
 }
