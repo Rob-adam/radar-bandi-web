@@ -1,5 +1,40 @@
 {
   "schemaVersion": 1,
-  "bandi": [],
-  "updatedAt": "16/11/2026 08:49"
+  "bandi": [
+    {
+      "id": "EU4HEALTH-CR-CV-NCD-G-26-15",
+      "title": "EU4Health — approccio multidisciplinare centrato sul paziente per le malattie cardiovascolari",
+      "source": "Commissione europea · HaDEA",
+      "status": "programmato",
+      "submissionStatus": "tentative",
+      "dateEvidenceType": "tentative_calendar",
+      "opening": null,
+      "deadline": null,
+      "publicationWindow": "Apertura indicativa 26/11/2026 · scadenza indicativa 24/02/2027",
+      "budgetLabel": "Dotazione indicativa 20.000.000 €",
+      "summary": "Il calendario ufficiale provvisorio EU4Health annuncia un invito sulle malattie cardiovascolari con approccio multidisciplinare centrato sul paziente. L’avviso non è ancora pubblicato: partenariato, soggetti ammissibili, cofinanziamento e requisiti restano da verificare.",
+      "nextAction": "Ricontrollare la scheda ufficiale alla pubblicazione; solo allora valutare il match RB-0003 e l’eventuale passaggio tra le opportunità aperte.",
+      "sourceUrl": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
+      "sectors": [
+        "salute",
+        "pazienti",
+        "malattie cardiovascolari"
+      ],
+      "beneficiaries": [
+        "pazienti",
+        "persone con malattie cardiovascolari"
+      ],
+      "tracking": {
+        "verifiedAt": "2026-11-18",
+        "verificationEvidence": [
+          {
+            "url": "https://hadea.ec.europa.eu/programmes/eu4health/calls-and-contracts/tentative-calendar_en",
+            "checkedAt": "2026-11-18",
+            "note": "Calendario ufficiale provvisorio HaDEA: codice CR/CV&NCD-g-26-15, apertura indicativa 26/11/2026, scadenza indicativa 24/02/2027, dotazione indicativa 20 milioni di euro."
+          }
+        ]
+      }
+    }
+  ],
+  "updatedAt": "18/11/2026 08:20"
 }

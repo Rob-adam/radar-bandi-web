@@ -162,10 +162,12 @@ test('four newly documented calls reach a national APS without certifying its re
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===ids[1]),'phase 2 must not keep phase 1 open');
 });
 
-test('licensed health dashboard excludes promoted calls from future counts',async()=>{
+test('licensed health dashboard separates the tentative cardiovascular programme from promoted calls',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
- assert.doesNotMatch(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/const plannedInfo=\{"count":0,"updatedAt":null\}/);
+ assert.match(html,/Prossime aperture e programmi annunciati/);
+ assert.match(html,/EU4Health — approccio multidisciplinare centrato sul paziente/);
+ assert.match(html,/PROGRAMMATO · date indicative, candidatura non verificata/);
+ assert.match(html,/const plannedInfo=\{"count":1,"updatedAt":"[^\"]+"\}/);
  assert.doesNotMatch(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();

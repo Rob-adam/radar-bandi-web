@@ -8,7 +8,8 @@ test('verified Cattolica opening is published once and excluded from future coun
  const live=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo_extra.json',import.meta.url))).bandi.filter(b=>b.id==='CATTOLICA-UNA-MANO-2026');
  assert.equal(live.length,1);assert.equal(live[0].submissionStatus,'open');
  assert.ok(!records.some(b=>['EU4HEALTH-OA-g-26-91','CATTOLICA-UNA-MANO-2026'].includes(b.id)));
- assert.equal(renderPlannedOpportunities(records,{areas:'salute'}),'');
+ assert.equal(records.length,1);
+ assert.match(renderPlannedOpportunities(records,{areas:'salute'}),/EU4Health — approccio multidisciplinare/);
 });
 test('a future notice stays separate until candidacy is verified',()=>{
  const b=future;
@@ -24,6 +25,17 @@ test('an indicative calendar still cannot imply an open call or verified dates',
  const html=renderPlannedOpportunities([b],{areas:'salute'});
  assert.match(html,/date indicative, candidatura non verificata/);assert.match(html,/Leggi il calendario ufficiale/);
  assert.doesNotMatch(html,/date da bando ufficiale/);
+});
+test('the cardiovascular EU4Health item remains a tentative programme, not an open call',()=>{
+ const b=records.find(item=>item.id==='EU4HEALTH-CR-CV-NCD-G-26-15');
+ assert.ok(b);
+ assert.equal(b.status,'programmato');
+ assert.equal(b.dateEvidenceType,'tentative_calendar');
+ assert.equal(b.opening,null);
+ assert.equal(b.deadline,null);
+ const html=renderPlannedOpportunities([b],{areas:'salute'});
+ assert.match(html,/date indicative, candidatura non verificata/);
+ assert.doesNotMatch(html,/PROSSIMA APERTURA · date da bando ufficiale/);
 });
 test('an official notice with a forthcoming submission system remains distinct from an open call',()=>{
  const b={...future,submissionStatus:'forthcoming'};

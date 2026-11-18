@@ -1,5 +1,5 @@
 {
-  "updatedAt": "17/11/2026 08:19",
+  "updatedAt": "18/11/2026 08:20",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -273,8 +273,8 @@
       "source": "Fondazione Cariplo",
       "deadline": null,
       "fund": 5000000,
-      "maxGrant": 0,
-      "aid": "Contributo per avvio di nuovi interventi di abitare sociale; importo definito in fase di valutazione del progetto",
+      "maxGrant": 500000,
+      "aid": "Contributo da 25.000 € a 500.000 €, non superiore al 50% dei costi totali, per l’avvio di nuovi servizi o il potenziamento di servizi esistenti; dotazione 2026 pari a 5.000.000 €.",
       "tags": [
         "Housing sociale",
         "Fragilità",
@@ -284,9 +284,9 @@
         "Fondazione Cariplo"
       ],
       "eligibility": [
-        "Soggetti pubblici o privati non profit",
-        "Intervento di abitare sociale rivolto a categorie fragili",
-        "Presentazione iniziale di un pre-progetto tramite Area Riservata"
+        "Soggetti pubblici o privati non profit ammessi secondo i Criteri generali di Fondazione Cariplo.",
+        "Progetto in Lombardia o nelle province di Novara e Verbano-Cusio-Ossola, per un nuovo servizio o il potenziamento di uno esistente rivolto a persone con elevato bisogno socio-abitativo.",
+        "Richiesta tra 25.000 € e 500.000 €, non oltre il 50% dei costi totali; presentazione iniziale di un pre-progetto tramite Area Riservata."
       ],
       "keywords": [
         "housing sociale",
@@ -343,9 +343,30 @@
         "ente pubblico",
         "cooperativa sociale"
       ],
-      "hardRequirements": [],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Intervento in Lombardia o nelle province di Novara e Verbano-Cusio-Ossola. La sede a Padova e l’operatività nazionale non dimostrano la ricaduta territoriale richiesta."
+        },
+        {
+          "type": "document",
+          "label": "Nuovo servizio o potenziamento con aumento dell’offerta abitativa; non è finanziata la gestione ordinaria o il semplice rilancio di un servizio già operativo."
+        },
+        {
+          "type": "document",
+          "label": "Contributo richiesto tra 25.000 € e 500.000 € e non superiore al 50% dei costi complessivi; piano di copertura e sostenibilità da documentare."
+        }
+      ],
       "hardKeyword": null,
-      "sourceUrl": "https://www.fondazionecariplo.it/bando/housing-sociale-per-persone-fragili/"
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/housing-sociale-per-persone-fragili/",
+      "grantLabel": "Contributo massimo",
+      "applicantChecks": [
+        {
+          "label": "Da documentare per l’associazione: progetto e partner nel territorio ammesso, aumento effettivo dell’offerta abitativa, disponibilità degli immobili, gestione sociale e copertura di almeno il 50%.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare"
     },
     {
       "id": "FC-NUOVI-PONTI-2026",
@@ -2521,39 +2542,39 @@
         }
       ],
       "grantLabel": "Contributo massimo Fase 2",
-      "eligibilityStatus": "da_verificare",
       "tracking": {
         "needsAnalysis": false,
         "specificLegalFormConfirmed": true,
         "officialSourceVerified": true,
         "deadlineVerified": true,
         "eligibilityVerified": true,
-        "verifiedAt": "2026-11-13",
-        "verificationNote": "Pagina, bando, criteri e Guida corrente del 5 ottobre 2026 riletti il 13/11/2026. Sostituita la guida di gennaio ora non disponibile. Per enti recenti allegare il bilancio eventualmente già approvato; il preventivo corrente e la dichiarazione sostitutiva non sono più prescritti dalla tabella della Guida. Restano documenti specifici del bando, scadenza 16/03/2027 ore 17 e requisito Comune capofila. Nessuna certificazione del cliente.",
+        "verifiedAt": "2026-11-18",
+        "verificationNote": "Pagina e tre PDF ufficiali riletti il 18/11/2026 dopo la variazione della pagina: nessuna modifica sostanziale. Restano Fase 1 al 16/03/2027 ore 17, Comune capoluogo ammesso come capofila, partenariato minimo, Fase 2 al 01/10/2027 e contributo massimo 2 milioni fino al 60%. Nessuna certificazione del cliente.",
         "verificationEvidence": [
           {
             "url": "https://www.fondazionecariplo.it/bando/transizione-in-comune/",
-            "checkedAt": "2026-11-13",
+            "checkedAt": "2026-11-18",
             "note": "Stato Attivo, destinatari, scadenze delle due fasi, assistenza tecnica e limiti del contributo."
           },
           {
             "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/11/Bando-Transizione-in-Comune.pdf",
-            "checkedAt": "2026-11-13",
+            "checkedAt": "2026-11-18",
             "note": "Testo ufficiale di 8 pagine: capofila Comune capoluogo, esclusione Milano, almeno due partner non profit ambientale e sociale, dossier Fase 1, formalizzazione in Fase 2, durata e copertura."
           },
           {
             "url": "https://www.fondazionecariplo.it/wp-content/uploads/2025/12/2026-01-25-Criteri-generali_def.pdf",
-            "checkedAt": "2026-11-13",
+            "checkedAt": "2026-11-18",
             "note": "Criteri generali 2026: ETS RUNTS e non profit, atto registrato, statuto, bilanci, esclusioni e limitazioni. Nessun minimo generale di anzianità né soglia di entrate."
           },
           {
             "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/01/Guida-alla-presentazione-5ott26.pdf",
-            "checkedAt": "2026-11-13",
+            "checkedAt": "2026-11-18",
             "note": "Guida aggiornata al 5 ottobre 2026, scaricata dal collegamento corrente della pagina Ammissibilità: §§3–7, scadenza ore 17, territorio, tabella documenti, regole enti recenti e partenariato."
           }
         ],
         "publicationReviewId": "review-20261112-CARIPLO-TRANSIZIONE-COMUNE-2026"
-      }
+      },
+      "eligibilityStatus": "da_verificare"
     },
     {
       "id": "REG-AUTO-B9E7848A17AA",
@@ -2724,7 +2745,7 @@
         },
         {
           "type": "document",
-          "label": "Punto in Toscana con personale qualificato, orientatore assegnato almeno 10 ore/settimana, apertura almeno 10 ore su almeno due giorni settimanali; volontari solo in affiancamento al personale. Servizio almeno 12 mesi, avvio entro 15 giorni dalla convenzione; accessibilità, formazione e monitoraggio secondo Carta dei servizi e art. 9."
+          "label": "Punto in Toscana con personale qualificato, orientatore assegnato almeno 10 ore/settimana, apertura almeno 10 ore su almeno due giorni settimanali; volontari solo in affiancamento al personale. Servizio almeno 12 mesi con avvio dalla firma della convenzione; accessibilità, formazione e monitoraggio secondo Carta dei servizi e art. 9."
         },
         {
           "type": "document",
@@ -2732,7 +2753,11 @@
         },
         {
           "type": "document",
-          "label": "Contributo massimo 18.000 € per Punto, personale documentato più forfait 20%; selezione in graduatoria e premialità per continuità e territori, senza rinnovo automatico del precedente PNRR. Nessun anno minimo di costituzione o soglia generale di entrate individuati nell’avviso letto."
+          "label": "Contributo massimo 18.000 € per Punto, personale documentato più forfait 20%; graduatorie separate per enti locali ed ETS. Criteri chiariti dal decreto 25205/2026: gli 8 punti per un nuovo Punto in un Comune privo di servizi analoghi non si cumulano con i punteggi per continuità; i 5 punti per Comune di area interna si cumulano solo con il criterio del nuovo Punto. Nessun anno minimo di costituzione o soglia generale di entrate individuati."
+        },
+        {
+          "type": "document",
+          "label": "L’eventuale riallocazione di risorse residue richiede un atto successivo della Regione ed è riservata ai soggetti attuatori già finanziati per proseguire le attività oltre i progetti iniziali; non costituisce una quota aggiuntiva garantita nella domanda corrente."
         }
       ],
       "status": "aperto",
@@ -2752,18 +2777,23 @@
         "officialSourceVerified": true,
         "deadlineVerified": true,
         "eligibilityVerified": true,
-        "verifiedAt": "2026-11-14",
-        "verificationNote": "Pagina ufficiale ampliata il 13/11 e avviso corretto ricontrollati il 14/11/2026: PDF invariato (impronta confermata), scadenza 26/11 ore 12, 18.000 €/Punto per 12 mesi, forfait 20%, RUNTS, endorsement e capacità operativa invariati. La pagina aggiunge esplicazioni e file editabili; nessuna nuova ammissibilità del cliente attestata. Nessun minimo generale di anzianità o entrate individuato.",
+        "verifiedAt": "2026-11-18",
+        "verificationNote": "Pagina, decreto 25205 del 16/11/2026 e Allegato A definitivo riletti integralmente il 18/11/2026. Scadenza 26/11 ore 12, 18.000 €/Punto, forfait 20%, RUNTS ed endorsement restano invariati. Corretto il catalogo: l’avvio decorre dalla firma della convenzione, senza il precedente termine esplicito di 15 giorni; precisate non cumulabilità dei punteggi e gestione non garantita delle risorse residue. Nessuna nuova ammissibilità del cliente attestata.",
         "verificationEvidence": [
           {
             "url": "https://www.regione.toscana.it/-/contributi-a-enti-locali-e-ets-per-punti-digitale-facile-avviso-2026",
-            "checkedAt": "2026-11-14",
-            "note": "Riletta la pagina corrente aggiornata al 13/11: contenuti ampliati e collegamenti ai file editabili. Confermati BURT 11/11, apertura 12/11, scadenza 26/11 ore 12, ETS RUNTS, endorsement, 18.000 €/Punto, 20% e rischio accessi FSE tardivi. Nessuna proroga."
+            "checkedAt": "2026-11-18",
+            "note": "Pagina ufficiale aggiornata con decreto 25205 del 16/11/2026; confermati apertura, scadenza 26/11/2026 ore 12, destinatari e importi."
           },
           {
-            "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5537736&nomeFile=Decreto+n.24443+del+06-11-2026-+Allegato+A+",
-            "checkedAt": "2026-11-14",
-            "note": "PDF ufficiale nuovamente scaricato il 14/11 (21 pagine): SHA256 f1b5132c23a676381e684a138434370462a5686948cbb9885265f463cd5ac3f7 invariato rispetto alla precedente lettura. Confermati ruoli, personale, requisiti, importi e forfait."
+            "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5539011&nomeFile=Decreto+n.25205+del+16-11-2026",
+            "checkedAt": "2026-11-18",
+            "note": "Decreto ufficiale: sostituisce integralmente l’Allegato A precedente e approva le precisazioni agli articoli 10 e 12."
+          },
+          {
+            "url": "https://www301.regione.toscana.it/bancadati/atti/Contenuto.xml?id=5539012&nomeFile=Decreto+n.25205+del+16-11-2026-+Allegato+A+",
+            "checkedAt": "2026-11-18",
+            "note": "Allegato A definitivo di 21 pagine letto integralmente: avvio dalla firma della convenzione, punteggi chiariti e regole sulle risorse residue; requisiti principali e scadenza invariati."
           }
         ],
         "publicationReviewId": "review-20261113-REG-AUTO-8351C5E0B31E"
