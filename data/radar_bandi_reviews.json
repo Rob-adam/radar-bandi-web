@@ -1407,7 +1407,7 @@
     {
       "id": "review-20261116-CATTOLICA-UNA-MANO-2026",
       "decision": "approved",
-      "reviewedAt": "2026-11-17",
+      "reviewedAt": "2026-11-19",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -1417,29 +1417,29 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "Il 16/11/2026 riletti bando e allegato 1 (11 pagine complessive), pagina di iscrizione e FAQ ufficiali. Modulo operativo osservato in browser al passo 1 di 8, campi vuoti e pulsante Prosegui; nessun dato inserito né candidatura inviata. Aperto fino al 16/02/2027, nessun orario finale individuato. Nuove iniziative in Italia, un progetto per ente, massimo 20.000 € e 80%, investimenti entro 20%, liquidazione finale. Allegato 1 esclude date di avvio anteriori a ottobre 2027. Nessun minimo generale di costituzione o soglia di entrate individuato. Requisiti della cliente non documentati. Regolamento generale collegato dal bando non scaricabile in questo controllo (403), non considerato nuovamente verificato. Il 17/11/2026 le tre pagine web dinamiche sono state ricontrollate direttamente; il runner ha restituito testo insufficiente, quindi restano prove datate non monitorate automaticamente. Il monitoraggio automatico continua sul PDF ufficiale stabile.",
+      "note": "Il 16/11/2026 riletti bando e allegato 1 (11 pagine complessive), pagina di iscrizione e FAQ ufficiali. Modulo operativo osservato in browser al passo 1 di 8, campi vuoti e pulsante Prosegui; nessun dato inserito né candidatura inviata. Aperto fino al 16/02/2027, nessun orario finale individuato. Nuove iniziative in Italia, un progetto per ente, massimo 20.000 € e 80%, investimenti entro 20%, liquidazione finale. Allegato 1 esclude date di avvio anteriori a ottobre 2027. Nessun minimo generale di costituzione o soglia di entrate individuato. Requisiti della cliente non documentati. Regolamento generale collegato dal bando non scaricabile in questo controllo (403), non considerato nuovamente verificato. Il 17/11/2026 le tre pagine web dinamiche sono state ricontrollate direttamente; il runner ha restituito testo insufficiente, quindi restano prove datate non monitorate automaticamente. Il monitoraggio automatico continua sul PDF ufficiale stabile. Ricontrollo 19/11/2026: pagina corrente ancora aperta dal 16/11/2026, dati sostanziali invariati.",
       "evidence": [
         {
           "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-iscrizione-2026/",
-          "checkedAt": "2026-11-17",
-          "note": "Pagina ufficiale iscrizione letta: otto passi, documentazione obbligatoria e collegamento al modulo operativo; nessuna candidatura trasmessa. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "checkedAt": "2026-11-19",
+          "note": "Pagina ufficiale iscrizione letta: otto passi, documentazione obbligatoria e collegamento al modulo operativo; nessuna candidatura trasmessa. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner. Ricontrollo 19/11/2026: stato e dati sostanziali invariati.",
           "monitor": false
         },
         {
           "url": "https://www.unamanoachisostiene.it/wp-content/uploads/2026/10/Bando-Una-mano-a-chi-sostiene-2026-1.pdf",
-          "checkedAt": "2026-11-17",
-          "note": "PDF corrente scaricato HTTP 200 e letto: tre pagine di bando e otto dell’allegato 1. Importi, soggetti, territorio, termini, limiti sugli investimenti, avvio non prima di ottobre 2027, realizzazione, selezione e documenti."
+          "checkedAt": "2026-11-19",
+          "note": "PDF corrente scaricato HTTP 200 e letto: tre pagine di bando e otto dell’allegato 1. Importi, soggetti, territorio, termini, limiti sugli investimenti, avvio non prima di ottobre 2027, realizzazione, selezione e documenti. Ricontrollo 19/11/2026: fonte corrente accessibile; dati sostanziali invariati."
         },
         {
           "url": "https://www.unamanoachisostiene.it/fondazione-cattolica-una-mano-a-chi-sostiene-faqs-2026/",
-          "checkedAt": "2026-11-17",
-          "note": "FAQ ufficiali lette: nuove iniziative, fasi di selezione e voto, avvio e termine, liquidazione a fine progetto. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "checkedAt": "2026-11-19",
+          "note": "FAQ ufficiali lette: nuove iniziative, fasi di selezione e voto, avvio e termine, liquidazione a fine progetto. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner. Ricontrollo 19/11/2026: fonte corrente accessibile; dati sostanziali invariati.",
           "monitor": false
         },
         {
           "url": "https://www.unamanoachisostiene.it/candidatura-2026/",
-          "checkedAt": "2026-11-17",
-          "note": "Modulo ufficiale operativo osservato al passo 1 di 8 con campi obbligatori vuoti e pulsante Prosegui. Non compilato né inviato: verificata disponibilità iniziale, non la ricezione di una domanda. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner.",
+          "checkedAt": "2026-11-19",
+          "note": "Modulo ufficiale operativo osservato al passo 1 di 8 con campi obbligatori vuoti e pulsante Prosegui. Non compilato né inviato: verificata disponibilità iniziale, non la ricezione di una domanda. Ricontrollo diretto 17/11/2026; esclusa dal monitor automatico per risposta dinamica insufficiente nel runner. Ricontrollo 19/11/2026: fonte corrente accessibile; dati sostanziali invariati.",
           "monitor": false
         }
       ],
@@ -1541,6 +1541,139 @@
             "status": "unknown"
           }
         ]
+      }
+    },
+    {
+      "id": "review-20261119-VENETO-FRAGILITA-ETS-2026",
+      "decision": "approved",
+      "reviewedAt": "2026-11-19",
+      "reviewedFields": [
+        "deadline",
+        "legalForms",
+        "territories",
+        "hardRequirements",
+        "aid",
+        "foundationYear",
+        "annualRevenue"
+      ],
+      "note": "DGR Veneto 1333/2026 e Allegato A di 13 pagine letti integralmente il 19/11/2026. BUR 162 pubblicato il 18/11/2026; domanda via PEC entro 15 giorni dal giorno successivo, quindi 03/12/2026 ore 23:59. Verificati destinatari RUNTS con sede legale in Veneto, ambiti, costituzione minima triennale, esperienza quinquennale, costo ammissibile e dotazione di 60.000 €, cofinanziamento aggiuntivo minimo 1%, divieto di doppio finanziamento, punteggio minimo 50/100 e attuazione/rendicontazione 2026 salvo proroga. RB-0003 ha sede a Padova ed è APS RUNTS; anzianità, esperienza, progetto, rete e capacità operativa restano da documentare.",
+      "evidence": [
+        {
+          "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=596893",
+          "checkedAt": "2026-11-19",
+          "note": "Pagina ufficiale BUR della DGR 1333/2026 letta: pubblicazione 18/11/2026, oggetto, dotazione, destinatari, macroaree, termine relativo e annualità 2026."
+        },
+        {
+          "url": "https://burv-be.regione.veneto.it/api/PublicAtti/596893/DownloadAttachmentAtto/Dgr_1333_26_AllegatoA.pdf",
+          "checkedAt": "2026-11-19",
+          "note": "Allegato A ufficiale di 13 pagine letto: requisiti, scadenza 03/12/2026 ore 23:59, PEC, spese, criteri, soglia 50/100, contributo, esecuzione e rendicontazione."
+        }
+      ],
+      "record": {
+        "id": "VENETO-FRAGILITA-ETS-2026",
+        "title": "Veneto — contributo straordinario ETS per iniziative di supporto alle fragilità",
+        "source": "Regione del Veneto",
+        "sourceUrl": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=596893",
+        "evidenceUrls": [
+          "https://burv-be.regione.veneto.it/api/PublicAtti/596893/DownloadAttachmentAtto/Dgr_1333_26_AllegatoA.pdf"
+        ],
+        "deadline": "2026-12-03",
+        "deadlineAt": "2026-12-03T23:59:00+01:00",
+        "openingDate": "2026-11-18",
+        "openingVerifiedAt": "2026-11-19T08:16:27+01:00",
+        "newOpeningUntil": "2026-11-25T00:00:00+01:00",
+        "fund": 60000,
+        "maxGrant": 60000,
+        "grantLabel": "Contributo massimo complessivo disponibile",
+        "aid": "Dotazione complessiva 60.000 €. Il contributo può coprire fino al 100% delle spese ammissibili; il progetto deve valorizzare un cofinanziamento aggiuntivo di almeno l’1% con fondi propri o di terzi. Il bando indica un costo totale ammissibile di 60.000 € e precisa che, in presenza di più istanze, il Nucleo di valutazione può rideterminare il contributo. Liquidazione in un’unica soluzione alla comunicazione di avvio, con successiva rendicontazione.",
+        "legalForms": [
+          "aps",
+          "odv",
+          "ets"
+        ],
+        "territories": [
+          "veneto"
+        ],
+        "sectors": [
+          "sociale",
+          "salute",
+          "inclusione",
+          "disabilità",
+          "lavoro"
+        ],
+        "beneficiaries": [
+          "persone fragili",
+          "giovani",
+          "persone con disabilità",
+          "famiglie",
+          "caregiver"
+        ],
+        "activities": [
+          "supporto psicologico",
+          "prevenzione",
+          "assistenza",
+          "inclusione sociale",
+          "sostegno alle famiglie",
+          "orientamento",
+          "volontariato"
+        ],
+        "purposes": [
+          "tutela della salute",
+          "qualità della vita",
+          "sostegno alle famiglie",
+          "inclusione sociale",
+          "autonomia"
+        ],
+        "tags": [
+          "Veneto",
+          "ETS",
+          "RUNTS",
+          "Fragilità",
+          "Salute mentale",
+          "Nuova apertura"
+        ],
+        "eligibility": [
+          "Possono presentare domanda gli ETS iscritti al RUNTS con sede legale in Veneto, anche in partenariato tra loro; per attività sportive sono ammesse collaborazioni con ASD iscritte al RASD. La sede legale di RB-0003 a Padova e la forma APS/RUNTS sono territorialmente e giuridicamente coerenti.",
+          "Il progetto deve riguardare prevenzione del disagio psichico e del suicidio giovanile, autonomia abitativa, inserimento lavorativo oppure vita relazionale, inclusione sociale e supporto alle famiglie. Il profilo RB-0003 comprende salute mentale, disabilità, famiglie, supporto psicologico e assistenza ai pazienti, ma serve una proposta nuova e concreta integrata con la rete territoriale.",
+          "Il richiedente deve essere costituito da almeno tre anni e documentare almeno cinque anni di esperienza. La data di costituzione e l’esperienza specifica di RB-0003 non sono presenti nel profilo della licenza e restano da documentare."
+        ],
+        "hardRequirements": [
+          {
+            "type": "document",
+            "label": "Sede legale in Veneto e iscrizione RUNTS; un’unica domanda come soggetto singolo o capofila. Atto costitutivo, statuto aggiornato, documentazione delle attività degli ultimi tre anni e CV della direzione progettuale."
+          },
+          {
+            "type": "document",
+            "label": "Ente legalmente costituito da almeno 3 anni ed esperienza almeno quinquennale: data di costituzione ed esperienza della cliente restano da documentare."
+          },
+          {
+            "type": "document",
+            "label": "Progetto nuovo, oppure attività ammesse se iniziate dal 1° giugno 2026, integrato con la rete territoriale e replicabile in ambito provinciale/regionale. Relazione sull’implementazione in altre province venete, valutazione di impatto/welfare generativo e monitoraggi trimestrali."
+          },
+          {
+            "type": "document",
+            "label": "Costo totale ammissibile indicato dal bando: 60.000 €; cofinanziamento aggiuntivo minimo 1%. Nessun altro finanziamento UE, nazionale o regionale sullo stesso intervento. Punteggio minimo 50/100."
+          },
+          {
+            "type": "document",
+            "label": "Domanda esclusivamente via PEC entro il 3 dicembre 2026 ore 23:59 con scheda progetto, piano finanziario, allegati di partenariato/collaborazioni se presenti, comunicazione antimafia e delega se utilizzata."
+          },
+          {
+            "type": "document",
+            "label": "Attività da avviare, realizzare e rendicontare entro il 2026, salvo proroga motivata approvata. Verificare subito la fattibilità del cronoprogramma e della rendicontazione."
+          }
+        ],
+        "foundationYear": null,
+        "annualRevenue": null,
+        "status": "aperto",
+        "submissionStatus": "open",
+        "applicantChecks": [
+          {
+            "label": "Confermare anno di costituzione, almeno cinque anni di esperienza documentabile, progetto e rete territoriale veneta, costo/budget da 60.000 €, cofinanziamento minimo 1%, assenza di doppio finanziamento e capacità di realizzare/rendicontare entro il 2026. Il profilo conferma sede a Padova, APS e RUNTS, ma non questi ulteriori requisiti.",
+            "status": "unknown"
+          }
+        ],
+        "eligibilityStatus": "da_verificare"
       }
     }
   ]

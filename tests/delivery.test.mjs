@@ -277,6 +277,18 @@ test('Cattolica promotion is delivered as open with a temporary badge and unprov
  assert.ok(b.hardRequirements.some(r=>r.label.includes('non nuovamente accessibile')));
  assert.deepEqual(b.territories,['italia']);assert.equal(b.foundationYear,null);assert.equal(b.annualRevenue,null);
 });
+test('new Veneto fragility grant reaches RB-0003 without certifying undocumented experience',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-19T09:00:00+01:00')});
+ const data=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
+ const b=data.bandi.find(b=>b.id==='VENETO-FRAGILITA-ETS-2026');
+ assert.ok(b);assert.equal(b.submissionStatus,'open');assert.equal(b.deadlineAt,'2026-12-03T23:59:00+01:00');
+ assert.equal(b.maxGrant,60000);assert.deepEqual(b.territories,['veneto']);
+ assert.equal(b.eligibilityStatus,'da_verificare');assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.ok(b.eligibility.some(x=>x.includes('sede legale di RB-0003 a Padova')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('almeno 3 anni')&&r.label.includes('quinquennale')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('entro il 2026')));
+ assert.ok(b.tracking.verificationEvidence.some(e=>e.url.includes('Dgr_1333_26_AllegatoA.pdf')));
+});
 test('Cariparo public partnership and single-project restriction remain documentary checks',async(t)=>{
  t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-05T09:00:00+01:00')});
  const data=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
