@@ -1556,7 +1556,7 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "DGR Veneto 1333/2026 e Allegato A di 13 pagine letti integralmente il 19/11/2026. BUR 162 pubblicato il 18/11/2026; domanda via PEC entro 15 giorni dal giorno successivo, quindi 03/12/2026 ore 23:59. Verificati destinatari RUNTS con sede legale in Veneto, ambiti, costituzione minima triennale, esperienza quinquennale, costo ammissibile e dotazione di 60.000 €, cofinanziamento aggiuntivo minimo 1%, divieto di doppio finanziamento, punteggio minimo 50/100 e attuazione/rendicontazione 2026 salvo proroga. RB-0003 ha sede a Padova ed è APS RUNTS; anzianità, esperienza, progetto, rete e capacità operativa restano da documentare.",
+      "note": "DGR Veneto 1333/2026 e Allegato A di 13 pagine letti integralmente il 19/11/2026. BUR 162 pubblicato il 18/11/2026; domanda via PEC entro 15 giorni dal giorno successivo, quindi 03/12/2026 ore 23:59. Verificati destinatari RUNTS con sede legale in Veneto, ambiti, costituzione minima triennale, esperienza quinquennale, costo ammissibile e dotazione di 60.000 €, cofinanziamento aggiuntivo minimo 1%, divieto di doppio finanziamento, punteggio minimo 50/100 e attuazione/rendicontazione 2026 salvo proroga. RB-0003 ha sede a Padova ed è APS RUNTS; la costituzione nel 2014 è verificata nella licenza effettiva; esperienza quinquennale, progetto, rete e capacità operativa restano da documentare.",
       "evidence": [
         {
           "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=596893",
@@ -1633,18 +1633,40 @@
           "Nuova apertura"
         ],
         "eligibility": [
-          "Possono presentare domanda gli ETS iscritti al RUNTS con sede legale in Veneto, anche in partenariato tra loro; per attività sportive sono ammesse collaborazioni con ASD iscritte al RASD. La sede legale di RB-0003 a Padova e la forma APS/RUNTS sono territorialmente e giuridicamente coerenti.",
-          "Il progetto deve riguardare prevenzione del disagio psichico e del suicidio giovanile, autonomia abitativa, inserimento lavorativo oppure vita relazionale, inclusione sociale e supporto alle famiglie. Il profilo RB-0003 comprende salute mentale, disabilità, famiglie, supporto psicologico e assistenza ai pazienti, ma serve una proposta nuova e concreta integrata con la rete territoriale.",
-          "Il richiedente deve essere costituito da almeno tre anni e documentare almeno cinque anni di esperienza. La data di costituzione e l’esperienza specifica di RB-0003 non sono presenti nel profilo della licenza e restano da documentare."
+          "Possono presentare domanda gli ETS iscritti al RUNTS con sede legale in Veneto, anche in partenariato tra loro. La sede legale di RB-0003 a Padova e la forma APS/RUNTS sono territorialmente e giuridicamente coerenti.",
+          "Per RB-0003 sono pertinenti le macroaree prevenzione del disagio psichico e salute mentale, vita relazionale, inclusione sociale e supporto alle famiglie. Il progetto deve essere concreto, integrato con la rete territoriale e coerente con almeno una macroarea del bando.",
+          "La licenza effettiva documenta l’anno di costituzione 2014, compatibile con il minimo di tre anni. Restano da documentare almeno cinque anni di esperienza specifica e gli altri requisiti progettuali."
         ],
         "hardRequirements": [
           {
-            "type": "document",
-            "label": "Sede legale in Veneto e iscrizione RUNTS; un’unica domanda come soggetto singolo o capofila. Atto costitutivo, statuto aggiornato, documentazione delle attività degli ultimi tre anni e CV della direzione progettuale."
+            "type": "seat",
+            "which": "legal",
+            "places": [
+              "Veneto"
+            ],
+            "label": "Sede legale in Veneto: il profilo effettivo RB-0003 indica Padova."
+          },
+          {
+            "label": "Iscrizione RUNTS come APS/ETS.",
+            "anyOf": [
+              "aps",
+              "ets",
+              "runts"
+            ]
+          },
+          {
+            "type": "foundation_year",
+            "min": 1900,
+            "max": 2023,
+            "label": "Ente costituito da almeno 3 anni: la licenza effettiva indica 2014."
           },
           {
             "type": "document",
-            "label": "Ente legalmente costituito da almeno 3 anni ed esperienza almeno quinquennale: data di costituzione ed esperienza della cliente restano da documentare."
+            "label": "Esperienza almeno quinquennale nelle materie del bando, attività degli ultimi tre anni e CV della direzione progettuale: restano da documentare."
+          },
+          {
+            "type": "document",
+            "label": "Un’unica domanda come soggetto singolo o capofila; atto costitutivo, statuto aggiornato e allegati obbligatori. Per eventuali attività sportive sono previste collaborazioni con ASD iscritte al RASD."
           },
           {
             "type": "document",
@@ -1669,7 +1691,7 @@
         "submissionStatus": "open",
         "applicantChecks": [
           {
-            "label": "Confermare anno di costituzione, almeno cinque anni di esperienza documentabile, progetto e rete territoriale veneta, costo/budget da 60.000 €, cofinanziamento minimo 1%, assenza di doppio finanziamento e capacità di realizzare/rendicontare entro il 2026. Il profilo conferma sede a Padova, APS e RUNTS, ma non questi ulteriori requisiti.",
+            "label": "La licenza effettiva conferma sede legale a Padova, APS/RUNTS e anno di costituzione 2014. Restano da documentare almeno cinque anni di esperienza specifica, progetto e rete territoriale veneta, budget da 60.000 €, cofinanziamento minimo 1%, assenza di doppio finanziamento e capacità di realizzare/rendicontare entro il 2026.",
             "status": "unknown"
           }
         ],

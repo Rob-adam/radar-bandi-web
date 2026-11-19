@@ -285,7 +285,8 @@ test('new Veneto fragility grant reaches RB-0003 without certifying undocumented
  assert.equal(b.maxGrant,60000);assert.deepEqual(b.territories,['veneto']);
  assert.equal(b.eligibilityStatus,'da_verificare');assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
  assert.ok(b.eligibility.some(x=>x.includes('sede legale di RB-0003 a Padova')));
- assert.ok(b.hardRequirements.some(r=>r.label.includes('almeno 3 anni')&&r.label.includes('quinquennale')));
+ assert.ok(b.hardRequirements.some(r=>r.type==='foundation_year'&&r.max===2023));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('Esperienza almeno quinquennale')));
  assert.ok(b.hardRequirements.some(r=>r.label.includes('entro il 2026')));
  assert.ok(b.tracking.verificationEvidence.some(e=>e.url.includes('Dgr_1333_26_AllegatoA.pdf')));
 });
