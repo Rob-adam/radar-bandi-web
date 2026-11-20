@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T08:22:26+01:00",
-  "attempted": 46,
-  "enriched": 46,
+  "generatedAt": "2026-11-20T21:27:31+01:00",
+  "attempted": 47,
+  "enriched": 47,
   "unchanged": 0,
   "failed": 0,
   "items": [
@@ -23,15 +23,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer"
-    },
-    {
-      "key": "url:https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9171.html",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9171.html"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
@@ -81,6 +72,15 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/"
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-sostegno-bande-musicali-fanfare-cori-gruppi-folk-lombardia-sensi-art-5-l-r-n-5-2025-anno-2026-RLL12026057483",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-sostegno-bande-musicali-fanfare-cori-gruppi-folk-lombardia-sensi-art-5-l-r-n-5-2025-anno-2026-RLL12026057483"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/spazio-disabilita-2027-2028-RLD12026056523",
@@ -156,6 +156,14 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/"
+    },
+    {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni",
+      "ok": true,
+      "changed": [
+        "discoveryText"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
@@ -364,12 +372,12 @@
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/"
     },
     {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-creazione-anagrafica-RLT12026057203",
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026",
       "ok": true,
       "changed": [
         "discoveryText"
       ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/rumore-elettromagnetismo/istantec-creazione-anagrafica-RLT12026057203"
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
