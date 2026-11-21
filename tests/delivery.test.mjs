@@ -83,7 +83,7 @@ test('production catalogs apply documented reviews and live monitoring, preserve
  const needsReview=new Set(Object.values(sourceChecks).filter(c=>c.needsReview).map(c=>c.bandoId));
  assert.ok(!all.some(b=>b.id==='FCARIPARO-IMPRENDITORIA-SOCIALE-2026'));
  for(const id of ['FC-NUOVI-PONTI-2026','FC-MUSEI-ACCESS-2026','FC-HOUSING-FRAGILI-2026','FC-COFIN-EU-2026','ER-CARISBO-EMERGENZE-2026','RLH12026055146','CONIBAMBINI-NOTE-COMUNITA-2026']){
-  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='FC-COFIN-EU-2026'?'2026-10-27':id==='RLH12026055146'?'2026-10-29':id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
+  const b=all.find(b=>b.id===id);assert.ok(b,id);assert.equal(b.tracking.verifiedAt,id==='FC-MUSEI-ACCESS-2026'?'2026-11-21':id==='FC-COFIN-EU-2026'?'2026-10-27':id==='RLH12026055146'?'2026-10-29':id==='CONIBAMBINI-NOTE-COMUNITA-2026'?'2026-10-19':'2026-10-14',id);assert.equal(b.tracking.sourceMonitoringNeedsReview===true,needsReview.has(id),id+' monitoring flag');
  }
  const eu=all.find(b=>b.id==='FC-COFIN-EU-2026');
  assert.equal(eu.fund,3100000);
@@ -316,5 +316,17 @@ test('Cariparo public partnership and single-project restriction remain document
  assert.ok(b.hardRequirements.some(r=>r.label.includes('decennale')));
  assert.ok(b.hardRequirements.some(r=>r.label.includes('manifestazione di interesse')));
  assert.ok(b.tracking.verificationEvidence.some(e=>e.url.endsWith('Luoghi-non-comuni-2026_Regolamento.pdf')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+});
+test('newer editorial Cariplo review is not overwritten by stale runtime rules',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-21T09:00:00+01:00')});
+ const data=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env)).json();
+ const b=data.bandi.find(b=>b.id==='FC-MUSEI-ACCESS-2026');
+ assert.ok(b);assert.equal(b.deadlineAt,'2026-12-09T17:00:00+01:00');
+ assert.equal(b.tracking.verifiedAt,'2026-11-21');
+ assert.equal(b.tracking.verificationEvidence.length,3);
+ assert.equal(b.hardRequirements.length,6);
+ assert.ok(b.eligibility.some(x=>x.includes('ruolo di partner non museale')));
+ assert.ok(!b.hardRequirements.some(r=>r.label==='Capofila proprietario o gestore di istituzione museale; per altri enti verificare il ruolo ammesso come partner o rete'));
  assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
 });
