@@ -49,6 +49,21 @@ test('Cattolica is delivered nationally with preliminary selection and closes at
  t.mock.timers.setTime(new Date('2026-11-13T11:00:01Z').getTime());
  assert.ok(!(await(await request()).json()).bandi.some(b=>b.id==='CATTOLICA-INTRAPRESA-SOCIALE-2026'));
 });
+test('Cariplo museums reaches RB0003 only as a documented potential partner',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-21T09:00:00+01:00')});
+ const response=await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await response.json()).bandi.find(b=>b.id==='FC-MUSEI-ACCESS-2026');
+ assert.ok(b,'a non-museum partner outside Cariplo territory is allowed by the official FAQ');
+ assert.equal(b.deadlineAt,'2026-12-09T17:00:00+01:00');
+ assert.equal(b.minGrant,50000);assert.equal(b.maxGrant,200000);
+ assert.ok(b.territories.includes('italia'));
+ assert.ok(b.eligibility.some(x=>x.includes('non può candidarsi da sola')&&x.includes('partner')));
+ assert.ok(b.hardRequirements.some(r=>r.type==='document'&&r.label.includes('museo capofila')));
+ assert.ok(b.hardRequirements.some(r=>r.type==='document'&&r.label.includes('territorio Cariplo')));
+ assert.ok(b.evidenceUrls.some(url=>url.includes('FAQ-aggiornate')));
+ assert.equal(b.eligibilityStatus,'da_verificare');
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+});
 test('thematic score cannot create applicant proof and marginal opportunities stay available',()=>{
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];const prefix=source.slice(0,source.indexOf('const favoriteKey='));const review=source.slice(source.indexOf('function sourceReview(b)'),source.indexOf('function status(r,b)'));
  const nodes=new Map();const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify({...profile,name:'APS RESPIRIAMO INSIEME'})).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};vm.createContext(context);vm.runInContext(prefix+review+'globalThis.api={calc,isMarginal};})();',context);
