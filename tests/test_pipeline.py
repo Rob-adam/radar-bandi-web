@@ -18,6 +18,20 @@ from bs4 import BeautifulSoup
 
 
 class PipelineTests(unittest.TestCase):
+    def test_piemonte_labelled_deadline_precedes_project_end_date(self):
+        text = (
+            "Stato Aperto. Scadenza Mar, 24/11/2026 - 12:00. "
+            "Le iniziative terminano il 31 dicembre 2026."
+        )
+        self.assertEqual(update_bandi.piemonte_deadline(text), "2026-11-24")
+        self.assertIsNone(update_bandi.piemonte_deadline("Scadenza 31/02/2027"))
+
+    def test_source_monitor_prefers_the_freshest_documented_review(self):
+        old = ({"id": "CALL"}, {"url": "https://official.example/call", "checkedAt": "2026-11-19"})
+        fresh = ({"id": "CALL"}, {"url": "https://official.example/call", "checkedAt": "2026-11-21"})
+        selected = check_verified_sources.freshest_evidence([fresh, old])
+        self.assertEqual(selected, [fresh])
+
     def test_fvg_listing_navigation_does_not_hide_real_call(self):
         base = 'https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/'
         html = '<div>Contributi per enti del terzo settore e associazioni ' + (
