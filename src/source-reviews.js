@@ -205,6 +205,10 @@ const REVIEWS={
 export function applySourceReview(b){
  const r=REVIEWS[b.id];if(!r)return b;
  const {continuous,note,documents,requirements,reviewedAt='2026-10-14',...fields}=r;
+ // Editorial catalog reviews are the authoritative, current snapshot.  Do not
+ // let an older in-code source review restore superseded requirements or dates.
+ const existingReviewedAt=String(b?.tracking?.verifiedAt||'').slice(0,10);
+ if(existingReviewedAt&&existingReviewedAt>=reviewedAt)return b;
  const tracking={...b.tracking,specificLegalFormConfirmed:true,officialSourceVerified:true,deadlineVerified:true,eligibilityVerified:true,verifiedAt:reviewedAt,verificationNote:note,verificationEvidence:[{url:r.sourceUrl,checkedAt:reviewedAt,note},...documents.map(url=>({url,checkedAt:reviewedAt,note:'Regolamento ufficiale letto insieme alla pagina del bando.'}))]};
  if(continuous!==undefined)tracking.continuousDeadlineConfirmed=continuous;
  return {...b,...fields,tracking,evidenceUrls:[...new Set([...(b.evidenceUrls||[]),...documents])],hardRequirements:[...(b.hardRequirements||[]),...requirements.map(label=>({type:'document',label}))]};
