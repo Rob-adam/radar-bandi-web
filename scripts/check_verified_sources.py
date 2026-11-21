@@ -30,6 +30,17 @@ def evidence_records(catalog):
                 yield record, item
 
 
+def freshest_evidence(entries):
+    """Keep the newest documented review when catalogs repeat a source."""
+    selected = {}
+    for record, evidence in entries:
+        key = str(record.get("id", "")) + "|" + evidence["url"]
+        current = selected.get(key)
+        if current is None or str(evidence.get("checkedAt") or "") >= str(current[1].get("checkedAt") or ""):
+            selected[key] = (record, evidence)
+    return list(selected.values())
+
+
 def response_hash(response):
     content_type = response.headers.get("Content-Type", "").lower()
     if "application/pdf" in content_type or response.content.startswith(b"%PDF"):
@@ -75,8 +86,10 @@ def main():
     previous = load_json(REPORT, {}).get("checks", {})
     checks = {}
     stamp = datetime.now(ZoneInfo("Europe/Rome")).isoformat(timespec="seconds")
-    entries = [entry for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json", "radar_bandi_programmati.json"]
-               for entry in evidence_records(load_json(PUBLIC / filename, {}))]
+    entries = freshest_evidence(
+        [entry for filename in ["radar_bandi_catalogo.json", "radar_bandi_catalogo_extra.json", "radar_bandi_verified_watchlist.json", "radar_bandi_programmati.json"]
+         for entry in evidence_records(load_json(PUBLIC / filename, {}))]
+    )
     responses = fetch_many([e['url'] for _, e in entries], fetch=fetch_source)
     def fetched(url, **kwargs):
         response = responses[url]
