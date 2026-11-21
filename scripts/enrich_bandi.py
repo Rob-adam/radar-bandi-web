@@ -93,10 +93,14 @@ def parse_date(text):
     phase_one = r"(?:fase\s*(?:1|I\b|uno|prima)|prima\s+fase)"
     phase_any = r"(?:fase\s*(?:[12]|I{1,2}\b|uno|due|prima|seconda)|(?:prima|seconda)\s+fase)"
     label = r"(?:scadenza(?:\s+il)?|chiude(?:\s+il)?|entro(?:\s+il)?|fino(?:\s+al)?|termine(?:\s+il)?)"
+    # Some official portals place the abbreviated weekday between the label
+    # and date (for example "Scadenza Mar, 24/11/2026").  Consume it so a
+    # later project-end date cannot be mistaken for the application deadline.
+    weekday = r"(?:\s+(?:lun|mar|mer|gio|ven|sab|dom)[a-z]*,?)?"
     if re.search(phase_any, text, re.I):
         patterns = [phase_one + r"\s*(?:[):–—-]\s*)?(?:" + label + r")?\s*[:–—-]?\s*" + date_token]
     else:
-        patterns = [label + r"\s*[:–—-]?\s*" + date_token,
+        patterns = [label + weekday + r"\s*[:–—-]?\s*" + date_token,
                     date_token + r"\s*(?:[-–]\s*)?(?:scadenza|chiusura)"]
     for pattern in patterns:
         for m in re.finditer(pattern, text, re.I):
