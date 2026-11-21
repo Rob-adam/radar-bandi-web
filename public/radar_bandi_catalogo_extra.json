@@ -1,5 +1,5 @@
 {
-  "updatedAt": "19/11/2026 08:26",
+  "updatedAt": "21/11/2026 07:48",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -94,91 +94,6 @@
       ],
       "hardKeyword": null,
       "sourceUrl": "https://www.fondazionemonzabrianza.org/portfolio-posts/bando-progetti-della-comunita-mb-2026/"
-    },
-    {
-      "id": "FC-MUSEI-ACCESS-2026",
-      "title": "Musei e accessibilità universale",
-      "source": "Fondazione Cariplo",
-      "deadline": "2026-12-09",
-      "fund": 3000000,
-      "maxGrant": 200000,
-      "aid": "Contributo da €50.000 a €200.000; cofinanziamento minimo 20% del costo totale",
-      "tags": [
-        "Musei",
-        "Accessibilità",
-        "Disabilità",
-        "Infanzia",
-        "Cultura",
-        "Fondazione Cariplo"
-      ],
-      "eligibility": [
-        "Progetto riferito a un museo o istituzione museale ammessa dal bando",
-        "Partecipazione al percorso formativo previsto per la Fase 1",
-        "Cofinanziamento minimo del 20%"
-      ],
-      "keywords": [
-        "museo",
-        "accessibilità universale",
-        "disabilità",
-        "bambini",
-        "infanzia",
-        "cultura",
-        "partecipazione",
-        "inclusione"
-      ],
-      "sectors": [
-        "cultura",
-        "musei",
-        "accessibilità",
-        "disabilità",
-        "infanzia",
-        "inclusione"
-      ],
-      "beneficiaries": [
-        "persone con disabilità",
-        "bambini 0-6 anni",
-        "famiglie",
-        "visitatori",
-        "comunità"
-      ],
-      "activities": [
-        "accessibilità museale",
-        "adeguamento servizi",
-        "formazione",
-        "progettazione inclusiva",
-        "partecipazione culturale"
-      ],
-      "purposes": [
-        "diritto alla cultura",
-        "accessibilità universale",
-        "inclusione",
-        "benessere",
-        "partecipazione"
-      ],
-      "territories": [
-        "lombardia",
-        "piemonte",
-        "novara",
-        "verbania"
-      ],
-      "legalForms": [
-        "ente non profit",
-        "fondazione",
-        "associazione",
-        "ente pubblico",
-        "museo"
-      ],
-      "hardRequirements": [
-        {
-          "label": "Candidatura riferita a un museo/istituzione museale ammissibile",
-          "anyOf": [
-            "museo",
-            "museale"
-          ]
-        }
-      ],
-      "hardKeyword": null,
-      "sourceUrl": "https://www.fondazionecariplo.it/bando/musei-e-accessibilita-universale/"
     },
     {
       "id": "FC-COFIN-EU-2026",
@@ -3083,7 +2998,150 @@
         ],
         "publicationReviewId": "review-20261119-VENETO-FRAGILITA-ETS-2026"
       }
+    },
+    {
+      "id": "FC-MUSEI-ACCESS-2026",
+      "title": "Musei e accessibilità universale — possibile ruolo partner per ETS",
+      "source": "Fondazione Cariplo",
+      "sourceUrl": "https://www.fondazionecariplo.it/bando/musei-e-accessibilita-universale/",
+      "evidenceUrls": [
+        "https://www.fondazionecariplo.it/wp-content/uploads/2026/07/Testo-Bando-Musei-e-accessibilita.pdf",
+        "https://www.fondazionecariplo.it/wp-content/uploads/2026/07/FAQ-aggiornate-al-12.11.2026.pdf"
+      ],
+      "deadline": "2026-12-09",
+      "deadlineAt": "2026-12-09T17:00:00+01:00",
+      "fund": 3000000,
+      "minGrant": 50000,
+      "maxGrant": 200000,
+      "grantLabel": "Contributo richiesto per progetto",
+      "aid": "Dotazione complessiva 3.000.000 €, ripartita in 1.500.000 € per ciascuna linea. Contributo richiesto da 50.000 € a 200.000 €, non superiore all'80% del costo totale; cofinanziamento minimo 20%. Spese per ristrutturazione, manutenzione e restauro fino al 30% del costo; acquisto immobili escluso. Evitare duplicazioni e doppia imputazione di spese tra proposte.",
+      "legalForms": [
+        "aps",
+        "odv",
+        "ets",
+        "associazione",
+        "fondazione",
+        "ente non profit",
+        "ente pubblico",
+        "museo"
+      ],
+      "territories": [
+        "italia",
+        "lombardia",
+        "piemonte",
+        "novara",
+        "verbania"
+      ],
+      "sectors": [
+        "cultura",
+        "musei",
+        "accessibilità",
+        "disabilità",
+        "infanzia",
+        "inclusione",
+        "salute"
+      ],
+      "beneficiaries": [
+        "persone con disabilità",
+        "bambini 0-6 anni",
+        "famiglie",
+        "caregiver",
+        "visitatori",
+        "comunità"
+      ],
+      "activities": [
+        "accessibilità museale",
+        "co-progettazione",
+        "ascolto dei pazienti",
+        "test e validazione",
+        "formazione",
+        "progettazione inclusiva"
+      ],
+      "purposes": [
+        "diritto alla cultura",
+        "accessibilità universale",
+        "inclusione",
+        "benessere",
+        "partecipazione"
+      ],
+      "tags": [
+        "Fondazione Cariplo",
+        "Partner",
+        "Musei",
+        "Accessibilità",
+        "Disabilità",
+        "Linea 1"
+      ],
+      "eligibility": [
+        "RB-0003 non può candidarsi da sola né come capofila in base al profilo disponibile: il capofila deve essere proprietario o gestore di un'istituzione museale ammissibile nel territorio Cariplo. Può valutare un ruolo di partner non museale in una proposta guidata da tale museo.",
+        "Le FAQ ammettono come partner altri enti pubblici o privati non profit e, se non museali, non impongono loro sede legale o operativa in Lombardia, Novara o VCO. Il progetto e il museo devono comunque essere localizzati nel territorio Cariplo.",
+        "La Linea 1, dedicata alle persone con disabilità, presenta una possibile affinità con pazienti respiratori, caregiver e famiglie se RB-0003 assume un ruolo concreto di rappresentanza, ascolto, co-progettazione, test o validazione. L'operatività nazionale non prova partnership, capacità o attività progettuali."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Capofila proprietario o gestore di un museo ammissibile con sede legale o operativa in Lombardia, provincia di Novara o VCO; museo con titolo di disponibilità, collezione permanente, spazi e apertura conformi al bando. RB-0003 non può sostituire questo soggetto."
+        },
+        {
+          "type": "document",
+          "label": "Proposta localizzata nel territorio Cariplo e riferita a una sola linea: Linea 1 persone con disabilità oppure Linea 2 bambini 0–6 anni e adulti di riferimento. Il coinvolgimento trasversale del museo e dei pubblici tramite ascolto, co-progettazione, test o validazione è obbligatorio."
+        },
+        {
+          "type": "document",
+          "label": "Per RB-0003: accordo con un museo capofila, ruolo e attività concrete, capacità organizzativa, gestionale ed economica sostenibile. In Fase 1 è possibile allegare una lettera di adesione; l'eventuale partenariato deve essere formalizzato in Fase 2. RUNTS non obbligatorio secondo le FAQ."
+        },
+        {
+          "type": "document",
+          "label": "Il museo candidato deve avere partecipato al percorso formativo obbligatorio per la Fase 1 e presentare proposta e allegati entro il 9 dicembre 2026 ore 17:00. Il sistema resta disponibile fino alle 17:30 solo per richieste già in compilazione; non è una proroga per nuove candidature."
+        },
+        {
+          "type": "document",
+          "label": "Progetto di 12–24 mesi, con avvio non precedente all'11 novembre 2027; contributo 50.000–200.000 €, massimo 80% del costo e cofinanziamento minimo 20%. Opere edilizie fino al 30%, acquisto immobili escluso, nessuna doppia imputazione delle stesse spese."
+        },
+        {
+          "type": "document",
+          "label": "Accesso alla Fase 2 solo dopo selezione della Fase 1; progetto definitivo entro l'11 novembre 2027 ore 17:00. Partner, budget, coperture, sostenibilità e ulteriori criteri generali di Fondazione Cariplo restano da documentare."
+        }
+      ],
+      "foundationYear": null,
+      "annualRevenue": null,
+      "status": "aperto",
+      "submissionStatus": "open",
+      "applicantChecks": [
+        {
+          "label": "Da documentare per RB-0003: museo capofila ammissibile, progetto nel territorio Cariplo, lettera/accordo di partenariato, ruolo sulla Linea 1, capacità organizzativa ed economica, attività con pazienti e pubblici e rispetto dei limiti finanziari. Nessuna candidatura autonoma è ammessa sulla sola base del profilo.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-11-21",
+        "verificationNote": "Pagina ufficiale, testo integrale del bando e FAQ aggiornate al 18/11/2026 riletti il 21/11/2026. Le FAQ chiariscono che un'organizzazione privata non profit non museale può partecipare come partner anche senza sede nel territorio Cariplo; capofila e progetto museale restano vincolati a Lombardia, Novara o VCO. RB-0003 non è candidata autonoma né capofila: può valutare esclusivamente un ruolo di partner con un museo ammissibile, soprattutto sulla Linea 1 disabilità, documentando ruolo, capacità e coinvolgimento dei pubblici. Requisiti della cliente non certificati.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.fondazionecariplo.it/bando/musei-e-accessibilita-universale/",
+            "checkedAt": "2026-11-21",
+            "note": "Pagina ufficiale corrente: bando attivo, Fase 1 al 09/12/2026, Fase 2 all'11/11/2027, dotazione 3.000.000 €, contributo 50.000–200.000 €, cofinanziamento minimo 20% e FAQ aggiornate al 18/11/2026."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/07/Testo-Bando-Musei-e-accessibilita.pdf",
+            "checkedAt": "2026-11-21",
+            "note": "Testo ufficiale di 11 pagine: soggetti e istituzioni museali, territorio, due linee, scadenze, formazione, progetto 12–24 mesi, avvio dopo la Fase 2, costi e limiti economici."
+          },
+          {
+            "url": "https://www.fondazionecariplo.it/wp-content/uploads/2026/07/FAQ-aggiornate-al-12.11.2026.pdf",
+            "checkedAt": "2026-11-21",
+            "note": "FAQ ufficiali aggiornate al 18/11/2026: partner pubblici/non profit non museali ammessi anche fuori territorio; RUNTS non obbligatorio; partenariato formalizzato in Fase 2; possibile partecipare a più progetti se sostenibile; coinvolgimento obbligatorio dei pubblici."
+          }
+        ],
+        "publicationReviewId": "review-20261121-FC-MUSEI-ACCESS-2026"
+      }
     }
   ],
-  "publishedAt": "2026-11-19T08:26:01+01:00"
+  "publishedAt": "2026-11-21T07:48:02+01:00"
 }
