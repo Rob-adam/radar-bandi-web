@@ -95,28 +95,47 @@ def parse_record(url):
     if st=="programmato":rec["tags"].insert(0,"PROGRAMMATO · APERTURA FUTURA")
     return rec,st,None
 
+def merge_direct_records(bandi, records, static_urls):
+    """Refresh existing automatic records by URL and add only real new calls.
+
+    The main collector and this direct watch can discover the same Piemonte
+    page.  Keeping the first copy unchanged left stale dates in the published
+    catalog even when the direct page contained a newer labelled deadline.
+    """
+    indexes={str(b.get("sourceUrl") or "").rstrip("/"):i for i,b in enumerate(bandi)}
+    added=0;updated=0
+    for rec in records:
+        key=str(rec.get("sourceUrl") or "").rstrip("/")
+        if not key:continue
+        if key in indexes:
+            old=bandi[indexes[key]]
+            merged={**old,**rec,"id":old.get("id") or rec.get("id")}
+            if merged!=old:
+                bandi[indexes[key]]=merged;updated+=1
+        elif key not in static_urls:
+            indexes[key]=len(bandi);bandi.append(rec);added+=1
+    return added,updated
+
 def main():
     auto=load(AUTO);bandi=auto.get("bandi",[]) if isinstance(auto.get("bandi",[]),list) else []
-    static=known_urls();current={str(b.get("sourceUrl") or "").rstrip("/") for b in bandi}
-    checked=[];active=0;added=0
+    static=known_urls();checked=[];active=0;fresh=[]
     for url in WATCH:
         rec,st,err=parse_record(url);checked.append({"url":url,"state":st,"error":err})
         if not rec:continue
-        active+=1;key=rec["sourceUrl"].rstrip("/")
-        if key not in static and key not in current:
-            bandi.append(rec);current.add(key);added+=1
+        active+=1;fresh.append(rec)
+    added,updated=merge_direct_records(bandi,fresh,static)
     auto["bandi"]=sorted(bandi,key=lambda x:(x.get("deadline") or "9999-12-31",x.get("title") or ""))
     by={}
     for b in bandi:
         for t in b.get("territories",[]):by[t]=by.get(t,0)+1
     auto["bandiByRegion"]=by
-    auto["piemonteDirectWatch"]={"checkedAt":datetime.now().isoformat(timespec="seconds"),"checked":len(checked),"activeOrProgrammed":active,"added":added,"items":checked}
+    auto["piemonteDirectWatch"]={"checkedAt":datetime.now().isoformat(timespec="seconds"),"checked":len(checked),"activeOrProgrammed":active,"added":added,"updated":updated,"items":checked}
     stats=auto.get("sourceStats",[])
     for s in stats:
         if s.get("source")=="Regione Piemonte · Bandi":
-            s["directChecked"]=len(checked);s["directActiveOrProgrammed"]=active;s["directAdded"]=added;s["found"]=max(int(s.get("found") or 0),active)
+            s["directChecked"]=len(checked);s["directActiveOrProgrammed"]=active;s["directAdded"]=added;s["directUpdated"]=updated;s["found"]=max(int(s.get("found") or 0),active)
     auto["sourceStats"]=stats
     AUTO.write_text(json.dumps(auto,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"BANDOVERA Piemonte direct watch: controllati={len(checked)}, attivi_programmati={active}, nuovi={added}")
+    print(f"BANDOVERA Piemonte direct watch: controllati={len(checked)}, attivi_programmati={active}, nuovi={added}, aggiornati={updated}")
 
 if __name__=="__main__":main()
