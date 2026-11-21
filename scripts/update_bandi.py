@@ -1,7 +1,7 @@
 import json
 import re
 import hashlib
-from datetime import datetime
+from datetime import date, datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -403,6 +403,30 @@ def piemonte_status(text):
     return "da-verificare"
 
 
+def piemonte_deadline(text):
+    """Read the labelled application deadline before generic project dates."""
+    value = clean(text)
+    match = re.search(
+        r"\bscadenza\s+(?:lun|mar|mer|gio|ven|sab|dom)[a-z]*,?\s*"
+        r"(\d{1,2})/(\d{1,2})/(\d{4})(?:\s*[-–]\s*(\d{1,2}):(\d{2}))?",
+        value,
+        flags=re.I,
+    )
+    if not match:
+        match = re.search(
+            r"\bscadenza\s*(\d{1,2})/(\d{1,2})/(\d{4})"
+            r"(?:\s*[-–]\s*(\d{1,2}):(\d{2}))?",
+            value,
+            flags=re.I,
+        )
+    if not match:
+        return None
+    try:
+        return date(int(match.group(3)), int(match.group(2)), int(match.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
 def piemonte_items(html, base, source_name):
     soup = BeautifulSoup(html, "html.parser")
     out = []
@@ -441,6 +465,11 @@ def piemonte_items(html, base, source_name):
                 title = full_title
         rec_id = slug_id("PIE-AUTO", url, title)
         rec = make_record(rec_id, title, source_name, url, detail_text, "piemonte")
+        # The generic extractor can mistake the end of funded activities for
+        # the application deadline. Piemonte publishes an explicit label.
+        labelled_deadline = piemonte_deadline(detail_text)
+        if labelled_deadline:
+            rec["deadline"] = labelled_deadline
         rec["sourceStatus"] = status
         if status == "programmato":
             rec["tags"].insert(0, "PROGRAMMATO · APERTURA FUTURA")
