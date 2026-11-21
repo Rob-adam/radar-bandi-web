@@ -25,6 +25,8 @@ class PipelineTests(unittest.TestCase):
             "Le iniziative terminano il 31 dicembre 2026."
         )
         self.assertEqual(update_bandi.piemonte_deadline(text), "2026-11-24")
+        self.assertEqual(enrich_bandi.parse_date(text), "2026-11-24")
+        self.assertEqual(enrich_bandi.detail_deadline(BeautifulSoup('<main></main>', 'html.parser'), text), "2026-11-24")
         self.assertIsNone(update_bandi.piemonte_deadline("Scadenza 31/02/2027"))
 
     def test_piemonte_direct_watch_refreshes_existing_record_by_url(self):
