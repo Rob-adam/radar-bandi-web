@@ -14,6 +14,7 @@ import source_tls
 import source_fetch
 import publish_reviewed_bandi
 import discovery_review
+import piemonte_watchlist
 from bs4 import BeautifulSoup
 
 
@@ -25,6 +26,16 @@ class PipelineTests(unittest.TestCase):
         )
         self.assertEqual(update_bandi.piemonte_deadline(text), "2026-11-24")
         self.assertIsNone(update_bandi.piemonte_deadline("Scadenza 31/02/2027"))
+
+    def test_piemonte_direct_watch_refreshes_existing_record_by_url(self):
+        url = "https://bandi.regione.piemonte.it/contributi-finanziamenti/esempio"
+        bandi = [{"id": "stable-id", "sourceUrl": url, "deadline": "2026-12-31", "title": "Titolo precedente"}]
+        fresh = [{"id": "new-derived-id", "sourceUrl": url, "deadline": "2026-11-24", "title": "Titolo ufficiale"}]
+        added, updated = piemonte_watchlist.merge_direct_records(bandi, fresh, set())
+        self.assertEqual((added, updated), (0, 1))
+        self.assertEqual(bandi[0]["id"], "stable-id")
+        self.assertEqual(bandi[0]["deadline"], "2026-11-24")
+        self.assertEqual(bandi[0]["title"], "Titolo ufficiale")
 
     def test_source_monitor_prefers_the_freshest_documented_review(self):
         old = ({"id": "CALL"}, {"url": "https://official.example/call", "checkedAt": "2026-11-19"})
