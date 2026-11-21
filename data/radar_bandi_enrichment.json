@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T21:27:31+01:00",
+  "generatedAt": "2026-11-21T07:56:55+01:00",
   "attempted": 47,
-  "enriched": 47,
+  "enriched": 41,
   "unchanged": 0,
-  "failed": 0,
+  "failed": 6,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -41,6 +41,15 @@
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
     },
     {
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni",
+      "ok": true,
+      "changed": [
+        "discoveryText",
+        "deadline"
+      ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni"
+    },
+    {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303",
       "ok": true,
       "changed": [
@@ -51,10 +60,8 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Fdgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/"
     },
     {
@@ -67,10 +74,8 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Fconcessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/"
     },
     {
@@ -118,10 +123,8 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Favviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/"
     },
     {
@@ -142,28 +145,24 @@
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9175.html"
     },
     {
-      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
+      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026",
       "ok": true,
       "changed": [
         "discoveryText"
       ],
+      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026"
+    },
+    {
+      "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Favviso-pubblico-fc-imprese%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Favviso-pubblico-fc-voucher-professionisti%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
@@ -175,10 +174,8 @@
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
+      "ok": false,
+      "error": "521 Server Error: <none> for url: https://radar-bandi-online.presidente-56d.workers.dev/api/official-listing?source=basilicata&page=1&detail=%2Favvisi-e-bandi%2Flavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera%2F",
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/"
     },
     {
@@ -370,14 +367,6 @@
         "discoveryText"
       ],
       "url": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026"
     },
     {
       "key": "url:https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
