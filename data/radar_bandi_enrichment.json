@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T08:45:45+01:00",
-  "attempted": 47,
-  "enriched": 28,
-  "unchanged": 3,
-  "failed": 16,
+  "generatedAt": "2026-11-24T00:58:42+01:00",
+  "attempted": 45,
+  "enriched": 26,
+  "unchanged": 0,
+  "failed": 19,
   "items": [
     {
       "key": "url:https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
@@ -27,22 +27,14 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13280&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x762506c6b230>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13280&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48e47e90>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13280&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13281&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7625044bb740>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13281&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb505d02f0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13281&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-142016-art-20-contributi-iniziative-comunicazione-promo-pubblicita-nellambito-manifestazioni"
     },
     {
       "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303",
@@ -98,22 +90,13 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13364&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7625044bbb60>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13364&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb50514ce0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13364&fromPage=Elenco&high="
-    },
-    {
-      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984",
-      "ok": true,
-      "changed": [
-        "title",
-        "discoveryText"
-      ],
-      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/imprese-turistiche/bando-partecipazione-iniziative-promozione-turistica-mercati-italiano-ed-estero-primo-semestre-2027-RLP12026054984"
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13325&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x762504715070>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13325&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb485bddf0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13325&fromPage=Elenco&high="
     },
     {
@@ -126,8 +109,8 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13458&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13458&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48fd2ed0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13458&fromPage=Elenco&high="
     },
     {
@@ -138,14 +121,6 @@
         "discoveryText"
       ],
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9175.html"
-    },
-    {
-      "key": "url:https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026",
-      "ok": true,
-      "changed": [
-        "discoveryText"
-      ],
-      "url": "https://bandi.regione.piemonte.it/contributi-finanziamenti/bando-contributi-alle-oovv-protezione-civile-anno-2026"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese",
@@ -166,7 +141,7 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=12238&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcbf9e20>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=12238&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48fd3920>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=12238&fromPage=Elenco&high="
     },
     {
@@ -180,37 +155,37 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13135&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcd3da30>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13135&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48a81ca0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13135&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13403&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcbf8dd0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13403&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb50533500>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13403&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13338&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7625042c5670>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13338&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48e68ad0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13338&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13430&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7625042c4d40>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13430&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48e69d30>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13430&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13429&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7625042c6000>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13429&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48e6a6c0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13429&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13057&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb50533f50>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high="
     },
     {
@@ -224,13 +199,13 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13179&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcc32270>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13179&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb50532870>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13179&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13333&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcc32c30>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13333&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb485b5100>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13333&fromPage=Elenco&high="
     },
     {
@@ -269,9 +244,18 @@
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
-      "ok": true,
-      "changed": [],
+      "ok": false,
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=13304&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb485be9f0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high="
+    },
+    {
+      "key": "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845",
+      "ok": true,
+      "changed": [
+        "title",
+        "discoveryText"
+      ],
+      "url": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845"
     },
     {
       "key": "url:https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro",
@@ -300,25 +284,25 @@
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11598&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcb53440>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11598&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb485b54f0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11598&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11267&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcb529c0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11267&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb485b47d0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11267&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=10275&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcdaf920>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=10275&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48fd2ea0>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=10275&fromPage=Elenco&high="
     },
     {
       "key": "url:https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high=",
       "ok": false,
-      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11273&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7624fcb51e50>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
+      "error": "HTTPSConnectionPool(host='bandi.regione.veneto.it', port=443): Max retries exceeded with url: /Public/Dettaglio?idAtto=11273&fromPage=Elenco&high= (Caused by ConnectTimeoutError(<HTTPSConnection(host='bandi.regione.veneto.it', port=443) at 0x7aeb48fd2270>, 'Connection to bandi.regione.veneto.it timed out. (connect timeout=10)'))",
       "url": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=11273&fromPage=Elenco&high="
     },
     {

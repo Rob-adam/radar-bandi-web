@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-11-23T08:49:07+01:00",
+  "catalogUpdatedAt": "2026-11-24T01:02:38+01:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -32,8 +32,8 @@
       "version": 82,
       "firstSeenAt": "2026-08-29T10:53:30+02:00",
       "lastChangedAt": "2026-11-23T08:49:07+01:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-11-24T00:58:41+01:00",
       "lastChangeFields": [
         "detailFetchOk",
         "discoveryText",
@@ -1242,9 +1242,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "contentHash": "31cd6f496940d81bef204a1e0222928000e1f914af00d864de74dc2f58c6be28",
-      "version": 74,
+      "version": 76,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1354,7 +1354,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -1363,9 +1363,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "contentHash": "87ab2dfef03467b1ec38291de6d6a5220853453ec3959511403f0b138d320a87",
-      "version": 74,
+      "version": 76,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1473,7 +1473,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -6521,7 +6521,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -6530,9 +6530,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "10d44ab959135d14dc5218c6b63af6ca841d064248199d45ed790d56d4ba69d5",
-      "version": 403,
+      "version": 405,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6626,7 +6626,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -6635,9 +6635,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "6dd4c74fd88d19d9fb52db1a98052285acd511b8fc04ec12ad3abecef19513c2",
-      "version": 403,
+      "version": 405,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6731,7 +6731,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -14109,7 +14109,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -14427,7 +14427,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -14532,7 +14532,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -14637,7 +14637,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -14737,7 +14737,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -14839,7 +14839,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -14939,7 +14939,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -15040,7 +15040,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -15145,7 +15145,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15250,7 +15250,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15355,7 +15355,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15450,7 +15450,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -15458,14 +15458,14 @@
       "id": "REG-AUTO-77C619EEDA39",
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
-      "contentHash": "be31c4fc9d865c302ce5a40f4cc14cf55ccc4001dfef7b797cb928e0174ae191",
-      "version": 214,
+      "contentHash": "fdbcc8440ba8651ad28382cf47dad050afb10f3bb9a74d632a1cb1bc4885fb01",
+      "version": 215,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-23T08:45:45+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "sourceStale"
+        "detailFetchOk"
       ],
       "needsAnalysis": true,
       "snapshot": {
@@ -15532,34 +15532,28 @@
         "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13057&fromPage=Elenco&high=",
         "sourceStatus": "da-verificare",
         "discoveryText": "Portale Bandi Avvisi Concorsi - Regione del Veneto HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 30/04/2026 Scadenza: 02/02/2027 17:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo PR Veneto FESR 2021-2027 Azione 1.3.11 Sub C - \"Interventi a favore della produzione cinematografica e audiovisiva\" Oggetto PR Veneto FESR 2021-2027. Priorità 1 OS 1.3 Azione 1.3.11 “Interventi a sostegno delle imprese culturali, creative e dell’audiovisivo - Sub C - Produzione audiovisiva\". Approvazione bando anno 2026 “Erogazione di contributi a favore della produzione cinematografica e audiovisiva”. La domanda va presentata esclusivamente per via telematica utilizzando il seguente link: https://www.regione.veneto.it/web/programmi-comunitari/sistemainformativofondirve dalle ore 10:00 del 12 maggio 2026 alle ore 17:00 del 30 giugno 2026 - Primo sportello importo - € 1.840.000,00 dalle ore 10:00 del 1 dicembre 2026 alle ore 17:00 del 2 febbraio 2027 - Secondo sportello importo - € 1.840.000,00 Per informazioni: AVEPA – Area Gestione FESR Tel. 0497708711 Mail: gestione.fesr@avepa.it Dati BUR Numero atto: 285 Data atto: 28/04/2026 00:00:00 Vedi dettaglio dell'atto Procedimento L'atto non è associato a nessun procedimento. Categoria Contributo Importo 3680000,00 Struttura Direzione Beni Attivita' Culturali E Sport TEL 041 279 2604 - 2414 FAX 0412792783 MAIL @ spettacolocultura@regione.veneto.it PEC @ cultura@pec.regione.veneto.it Destinatari Impresa Materie Cultura Acquisti Verdi - Politiche Sostenibili L'atto non appartiene alla categoria \"Acquisti Verdi\" L'atto non appartiene alla categoria \"Politiche Sostenibili\" NOTE: CIG CUP ATTI COLLEGATI Non ci sono atti collegati ALLEGATI Allegato A - bando [file .pdf - 894 KB] 08/05/2026 18:30:43 Numero allegato: 36797 Nome allegato: Allegato A - bando [file .pdf - 894 KB] Ultima modifica: 08/05/2026 18:30:43 All.A1 Scheda progetto [file .pdf - 251 KB] 08/05/2026 18:31:12 Numero allegato: 36798 Nome allegato: All.A1 Scheda progetto [file .pdf - 251 KB] Ultima modifica: 08/05/2026 18:31:12 All.A1 Scheda progetto editabile [file .docx - 3130 KB] 08/05/2026 18:31:30 Numero allegato: 36799 Nome allegato: All.A1 Scheda progetto editabile [file .docx - 3130 KB] Ultima modifica: 08/05/2026 18:31:30 All.A2 Costi e orari dipendenti [file .pdf - 181 KB] 08/05/2026 18:31:50 Numero allegato: 36800 Nome allegato: All.A2 Costi e orari dipendenti [file .pdf - 181 KB] Ultima modifica: 08/05/2026 18:31:50 All.A3 Dichiarazione dipendenti [file .pdf - 225 KB] 08/05/2026 18:32:13 Numero allegato: 36801 Nome allegato: All.A3 Dichiarazione dipendenti [file .pdf - 225 KB] Ultima modifica: 08/05/2026 18:32:13 All.A3 Dichiarazione dipendenti edit. [file .docx - 198 KB] 08/05/2026 18:34:56 Numero allegato: 36805 Nome allegato: All.A3 Dichiarazione dipendenti edit. [file .docx - 198 KB] Ultima modifica: 08/05/2026 18:34:56 All.A4 Elenco spese ammissibili [file .pdf - 213 KB] 08/05/2026 18:33:34 Numero allegato: 36803 Nome allegato: All.A4 Elenco spese ammissibili [file .pdf - 213 KB] Ultima modifica: 08/05/2026 18:33:34 All.A5 Certificazione ambientale [file .pdf - 182 KB] 08/05/2026 18:34:24 Numero allegato: 36804 Nome allegato: All.A5 Certificazione ambientale [file .pdf - 182 KB] Ultima modifica: 08/05/2026 18:34:24 All.A5 Certificazione ambientale edit. [file .docx - 198 KB] 08/05/2026 18:36:23 Numero allegato: 36806 Nome allegato: All.A5 Certificazione ambientale edit. [file .docx - 198 KB] Ultima modifica: 08/05/2026 18:36:23 All.A6 Referenze bancarie [file .pdf - 201 KB] 08/05/2026 18:38:17 Numero allegato: 36809 Nome allegato: All.A6 Referenze bancarie [file .pdf - 201 KB] Ultima modifica: 08/05/2026 18:38:17 All.A6 Referenze bancarie editabile [file .docx - 12 KB] 08/05/2026 18:37:37 Numero allegato: 36808 Nome allegato: All.A6 Referenze bancarie editabile [file .docx - 12 KB] Ultima modifica: 08/05/2026 18:37:37 All.A7 Dichiarazione spese ricettive [file .pdf - 224 KB] 08/05/2026 18:39:42 Numero allegato: 36810 Nome allegato: All.A7 Dichiarazione spese ricettive [file .pdf - 224 KB] Ultima modifica: 08/05/2026 18:39:42 All.A7 Dich. spese ricettive editabile [file .docx - 198 KB] 08/05/2026 18:41:10 Numero allegato: 36811 Nome allegato: All.A7 Dich. spese ricettive editabile [file .docx - 198 KB] Ultima modifica: 08/05/2026 18:41:10 All.A8 Schema di relazione finale [file .pdf - 205 KB] 08/05/2026 18:41:57 Numero allegato: 36812 Nome allegato: All.A8 Schema di relazione finale [file .pdf - 205 KB] Ultima modifica: 08/05/2026 18:41:57 All.A8 Schema di relazione finale edit. [file .docx - 18 KB] 08/05/2026 18:42:23 Numero allegato: 36813 Nome allegato: All.A8 Schema di relazione finale edit. [file .docx - 18 KB] Ultima modifica: 08/05/2026 18:42:23 All.A9 Dich. polizza catastrofale [file .pdf - 223 KB] 08/05/2026 18:43:17 Numero allegato: 36814 Nome allegato: All.A9 Dich. polizza catastrofale [file .pdf - 223 KB] Ultima modifica: 08/05/2026 18:43:17 All.A9 Dich. polizza catastrofale edit. [file .docx - 14 KB] 08/05/2026 18:43:39 Numero allegato: 36815 Nome allegato: All.A9 Dich. polizza catastrofale edit. [file .docx - 14 KB] Ultima modifica: 08/05/2026 18:43:39",
-        "detailFetchOk": true,
+        "detailFetchOk": false,
         "sourceStale": true
       },
       "triage": {
-        "status": "ai-required",
+        "status": "source-unavailable",
         "needsAnalysis": true,
         "etsRelevant": null,
         "excludedForEts": false,
         "reasons": [
-          "destinatari_da_interpretare"
+          "fonte_non_accessibile"
         ],
         "evidence": [
-          "titolo_specifico",
-          "fonte_ufficiale_collegata",
-          "territorio_noto",
-          "natura_bando_riconoscibile",
-          "testo_sufficiente",
-          "stato_o_scadenza_noti"
+          "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli."
         ],
         "audience": {
-          "known": false,
           "scope": "unknown",
-          "evidence": [],
           "specificLegalFormConfirmed": false,
+          "known": false,
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15661,7 +15655,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -15766,7 +15760,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15774,14 +15768,14 @@
       "id": "REG-AUTO-5D9EB4C71740",
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
-      "contentHash": "7ea06786a10cf5ad9d479f01574c2077be06be5664ce2e12ec35c47b054f4379",
-      "version": 214,
+      "contentHash": "dfe97c9ae17a1dae894d105ab52355b6c5e09c8f656f594ecc03b4e15e056ef0",
+      "version": 215,
       "firstSeenAt": "2026-10-22T11:55:49+02:00",
-      "lastChangedAt": "2026-11-23T08:45:45+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "sourceStale"
+        "detailFetchOk"
       ],
       "needsAnalysis": true,
       "snapshot": {
@@ -15850,34 +15844,28 @@
         "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13304&fromPage=Elenco&high=",
         "sourceStatus": "da-verificare",
         "discoveryText": "Portale Bandi Avvisi Concorsi - Regione del Veneto HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 01/09/2026 Scadenza: 30/09/2027 23:59 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Avvio di selezione \"a sportello\" di interventi urgenti di edilizia scolastica da sostenere finanziariamente con fondi regionali negli anni 2026-2027. Legge regionale n. 59/1999, art. 3-bis. Oggetto Il presente provvedimento avvia nell’anno in corso una procedura di selezione \"a sportello\" per interventi urgenti di edilizia scolastica di competenza dei Comuni o di Istituzioni scolastiche paritarie non commerciali riferiti agli anni 2026-2027, da sostenere finanziariamente con risorse del bilancio regionale 2027, fino ad esaurimento delle risorse stanziate. Dati BUR Numero atto: 935 Data atto: 31/08/2026 00:00:00 Vedi dettaglio dell'atto Procedimento L'atto non è associato a nessun procedimento. Categoria Contributo Importo 0,00 Struttura Unità Organizzativa Edilizia Pubblica TEL 0412792018 FAX MAIL @ ediliziapubblica@regione.veneto.it PEC @ LLPPedilizia@pec.regione.veneto.it Destinatari Cittadino Ente Impresa Materie Edilizia scolastica Acquisti Verdi - Politiche Sostenibili L'atto non appartiene alla categoria \"Acquisti Verdi\" L'atto non appartiene alla categoria \"Politiche Sostenibili\" NOTE: CIG CUP ATTI COLLEGATI Non ci sono atti collegati ALLEGATI Allegato A - Avviso [file .pdf - 241 KB] 02/09/2026 15:51:20 Numero allegato: 37687 Nome allegato: Allegato A - Avviso [file .pdf - 241 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato B - Modulo Comuni [file .pdf - 164 KB] 02/09/2026 15:51:20 Numero allegato: 37688 Nome allegato: Allegato B - Modulo Comuni [file .pdf - 164 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato C - Modulo Altri Soggetti [file .pdf - 159 KB] 02/09/2026 15:51:20 Numero allegato: 37689 Nome allegato: Allegato C - Modulo Altri Soggetti [file .pdf - 159 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato D - Dichiarazione Urgenza Indif [file .pdf - 67 KB] 02/09/2026 15:51:20 Numero allegato: 37690 Nome allegato: Allegato D - Dichiarazione Urgenza Indif [file .pdf - 67 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato E - Dichiarazione Numero Alunni [file .pdf - 76 KB] 02/09/2026 15:51:20 Numero allegato: 37691 Nome allegato: Allegato E - Dichiarazione Numero Alunni [file .pdf - 76 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato F - Dichiarazione Costo interv [file .pdf - 99 KB] 02/09/2026 15:51:20 Numero allegato: 37692 Nome allegato: Allegato F - Dichiarazione Costo interv [file .pdf - 99 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato G - Dichiarazione Proprietario [file .pdf - 61 KB] 02/09/2026 15:51:20 Numero allegato: 37693 Nome allegato: Allegato G - Dichiarazione Proprietario [file .pdf - 61 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato H - Dichiarazioni DGR 690 2018 [file .pdf - 165 KB] 02/09/2026 15:51:20 Numero allegato: 37694 Nome allegato: Allegato H - Dichiarazioni DGR 690 2018 [file .pdf - 165 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato I - Dichiarazione RUP [file .pdf - 84 KB] 02/09/2026 15:51:20 Numero allegato: 37695 Nome allegato: Allegato I - Dichiarazione RUP [file .pdf - 84 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato L - Dichiarazione assenza contr [file .pdf - 90 KB] 02/09/2026 15:51:20 Numero allegato: 37696 Nome allegato: Allegato L - Dichiarazione assenza contr [file .pdf - 90 KB] Ultima modifica: 02/09/2026 15:51:20 Allegato M - Dichiarazione ARES [file .pdf - 80 KB] 02/09/2026 15:51:20 Numero allegato: 37697 Nome allegato: Allegato M - Dichiarazione ARES [file .pdf - 80 KB] Ultima modifica: 02/09/2026 15:51:20",
-        "detailFetchOk": true,
+        "detailFetchOk": false,
         "sourceStale": true
       },
       "triage": {
-        "status": "ai-required",
+        "status": "source-unavailable",
         "needsAnalysis": true,
         "etsRelevant": null,
         "excludedForEts": false,
         "reasons": [
-          "destinatari_da_interpretare"
+          "fonte_non_accessibile"
         ],
         "evidence": [
-          "titolo_specifico",
-          "fonte_ufficiale_collegata",
-          "territorio_noto",
-          "natura_bando_riconoscibile",
-          "testo_sufficiente",
-          "stato_o_scadenza_noti"
+          "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli."
         ],
         "audience": {
-          "known": false,
           "scope": "unknown",
-          "evidence": [],
           "specificLegalFormConfirmed": false,
+          "known": false,
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -15980,7 +15968,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -16083,7 +16071,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -16186,7 +16174,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -16286,7 +16274,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -16948,9 +16936,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "contentHash": "87d2f3ae10f4b7fa9ad1623b76c2c93210578397d5ee4c6daf773168379220ce",
-      "version": 213,
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17047,7 +17035,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -17149,7 +17137,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17158,9 +17146,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/",
       "contentHash": "5ace123a538411fb8d04561f04b3ea049aad0d7d9bf76fdff6b5c03fa64671b9",
-      "version": 211,
+      "version": 213,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17257,7 +17245,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -17266,9 +17254,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "contentHash": "9c3169347aef924fcd161c7b36a592bda8d12fbe4986183492adcaadbbb9da7f",
-      "version": 213,
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17363,7 +17351,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -17460,7 +17448,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17560,7 +17548,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17657,7 +17645,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17755,7 +17743,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17857,7 +17845,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -17956,7 +17944,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18055,7 +18043,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18155,7 +18143,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18257,7 +18245,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18359,7 +18347,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18458,7 +18446,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18558,7 +18546,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18657,7 +18645,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18753,7 +18741,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18849,7 +18837,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -18949,7 +18937,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -19045,7 +19033,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -19145,7 +19133,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -19154,9 +19142,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "contentHash": "32f654c781914a91a7b0f4aba841ffebf568eae0520a93be7316f115b16e93ca",
-      "version": 213,
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19255,7 +19243,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -19353,7 +19341,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -19362,9 +19350,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "contentHash": "561f52b8f0dc646d8202757785460de0c759633fff94745f0cacd163c5ea80d8",
-      "version": 213,
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19465,7 +19453,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -19473,10 +19461,10 @@
       "id": "REG-AUTO-802DE2802F3C",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
-      "contentHash": "4f01a03268f29341c05eed0d84ee54b8d66ddc4aee86d7e1a47c4ddec0113f3e",
-      "version": 213,
+      "contentHash": "bf2ac45048431d1a6323670c480f777049b65aaa9db2f75bf324c0a1f343f1fc",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19544,7 +19532,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 30.000.000,00 Giorni alla scadenza: 219 AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE Inizio presentazione istanze: 15/11/2022 09:00 Scadenza: 30/06/2027 00:00 Numero atto: D.G.R. N. 202200658 Data atto: 07/10/2022 Ente : Regione Basilicata IMPORTO TOTALE € 30.000.000,00 Ufficio : UFFICIO POLITICHE DI SVILUPPO, FINANZA AGEVOLATA, INCENTIVI ALLE IMPRESE E PROMOZIONE AREE ZES Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1732092798694_D.G.R. n. 202200658 del 07.10.2022.pdf PDF Scarica 1732092798700_Avviso Pubblico.pdf PDF Scarica 1732092798798_Allegato A.pdf PDF Scarica 1732092798806_Allegato B.pdf PDF Scarica 1732092798828_Allegato C.pdf PDF Scarica 1732092798840_Allegato C doc.docx DOCX Scarica 1732092798855_Allegato D.pdf PDF Scarica 1732092798865_Allegato D xls.xlsx XLSX Scarica 1732092798876_Allegato E.pdf PDF Scarica 1732092798884_Allegato E doc.docx DOCX Scarica 1732092798894_Allegato F.pdf PDF Scarica 1732092798894_Allegato F doc.docx DOCX Scarica 1732092798910_Allegato G.pdf PDF Scarica 1732092798910_Allegato G doc.docx DOCX Scarica 1732092798929_Allegato H.pdf PDF Scarica 1732092798937_Allegato H doc.docx DOCX Scarica 1732092798945_Allegato I.pdf PDF Scarica 1732092798951_Allegato I xls.xlsx XLSX Scarica 1732092798963_Allegato L.pdf PDF Scarica 1732092798973_Allegato L doc.docx DOCX Scarica 1732092798983_Allegato M.pdf PDF Scarica 1732092798994_Allegato N.pdf PDF Scarica 1732092799005_Allegato N doc.docx DOCX Scarica 1732092799012_Allegato O.pdf PDF Scarica 1732092799040_Allegato O doc.docx DOCX Scarica 1732092799057_Allegato P.pdf PDF Scarica 1732092799064_Allegato Q.pdf PDF Scarica 1732092799071_Allegato Q doc.docx DOCX Scarica 1732092799082_Direttive Attuative.pdf PDF Scarica 1732092799096_Istruzioni per candidarsi on-line.pdf PDF Scarica 1732092799157_ELENCO DOCUMENTI PER LA RENDICONTAZIONE DEL PROGETTO DEGLI INVESTIMEMTI PRODUTTIVI.docx DOCX Scarica 1732092799168_Modulistica Rendicontazione Allegato A1.docx DOCX Scarica 1732092799172_Modulistica Rendicontazione Allegato A2.docx DOCX Scarica 1732092799174_Modulistica Rendicontazione Allegato A3.docx DOCX Scarica 1732092799177_Modulistica Rendicontazione Allegato A4.docx DOCX Scarica 1732092799180_Modulistica Rendicontazione Allegato L1.docx DOCX Scarica 1732092799183_Modulistica Rendicontazione Allegato P1.xls XLS Scarica 1732092799186_Modulistica Rendicontazione Allegato P2.xlsx XLSX Scarica 1732092799188_Modulistica Rendicontazione Allegato P3.docx DOCX Scarica 1732092799190_Modulistica Rendicontazione Allegato P4.docx DOCX Scarica 1732092799193_Modulistica Rendicontazione Allegato P5.docx DOCX Scarica 1732092799196_Modulistica Rendicontazione Allegato P6.docx DOCX Scarica 1732092799198_Modulistica Rendicontazione Allegato P7.docx DOCX Scarica 1732092799201_Modulistica Rendicontazione Allegato V1.docx DOCX Scarica 1732092799208_Modulistica Rendicontazione Allegato V2.xlsx XLSX Scarica FAQ Domanda: Con riferimento alla disposizione del bando relativa all’installazione di impianti per la produzione di energia da fonti rinnovabili per finalità di autoconsumo all’interno dell’unità produttiva oggetto del programma di investimento, si domanda se l’energia prodotta da un impianto fotovoltaico realizzato nell’ambito del progetto possa essere utilizzata anche da beni e impianti non oggetto dell’investimento agevolato, purché localizzati nella medesima unità produttiva, oppure se debba essere destinata esclusivamente ai beni inclusi nel programma di investimento. Si chiede inoltre di chiarire se il limite di potenza nominale previsto dal bando (pari a 200 kW elettrici) debba essere riferito all’impianto oggetto di agevolazione oppure alla potenza complessiva degli impianti installati presso l’unità produttiva nell’ambito del programma di investimento. Risposta: La candidatura di un impianto fotovoltaico da 200 kw deve essere finalizzato all’autoconsumo della sede operativa oggetto dell’investimento senza preclusioni per beni o impianti esistenti oppure oggetto del programma d’investimento. Il limite di 200 kW è comunque vincolato all’autoconsumo. Se la produzione totale del sito (incluso il nuovo impianto) eccede il fabbisogno energetico della sede operativa, la potenza finanziabile sarà ridotta per coprire esclusivamente l’autoconsumo effettivo. Numero di protocollazione: FAQ26000099 Domanda: Si chiede di chiarire se possa configurarsi come nuova iniziativa, ai sensi del bando, un programma di investimento realizzato presso una sede operativa gia’ esistente e regolarmente iscritta nel Registro delle Imprese, nel quale l’impresa introduce nuove tipologie di prodotti mediante la modifica o l’evoluzione del ciclo produttivo gia’ in essere, senza la realizzazione di una nuova unita’ produttiva autonoma sotto il profilo organizzativo e funzionale. In particolare, si domanda se, in tale fattispecie, trovi applicazione l’obbligo di incremento occupazionale minimo previsto per le sole nuove iniziative, considerato che l’investimento viene realizzato nella medesima sede gia’ operativa dell’azienda. Risposta: Così come descritta l’attività si configura come ampliamento di attività esistente, a condizione che la sede operativa sia già operante sul territorio regionale e l’attività esercitata non rientri tra quelle inammissibili (paragrafo 5 delle Direttive). In caso contrario una impresa che operi in un settore tra quelli inammissibili che proponga un investimento in un settore ammissibile si configura come nuova iniziativa. Numero di protocollazione: FAQ26000098 Domanda: Spett.le Regione Basilicata In riferimento all’Avviso Pubblico Contratti di Sviluppo a Valenza Regionale, avendo il caso specifico di una società X cosi composta: – 38% quote persona fisica; – 30 % quote persona fisica; – 30 % quote persona fisica; – 2% quote società di capitali Y Si chiede se per il calcolo degli indici di bilancio (A, B, C, e D) si debba tener conto anche dei dati della società di capitali Y che detiene il 2%. Sempre in riferimento alla società X, si chiede conferma se l’acquisto di un immobile da parte della società X sia candidabile nell’Avviso Pubblico in oggetto essendo di proprietà della società Y, in caso sia possibile si chiederebbe l’agevolazione sul 98% del prezzo dell’immobile. Risposta: In relazione al quesito posto si evidenzia quanto segue: Gli indici di bilancio (A,B,C,D) devono essere calcolati con riferimento all’ultimo bilancio approvato e depositato dell’impresa X. In riferimento alla possibilità di acquisto da parte della società X dell’immobile di proprietà della società Y, si evidenzia che tale spesa non è ammissibile ai sensi del Paragrafo 8 comma 3 (pag. 23 delle direttive attuative) che di seguito si riporta: “Non sono ammesse le spese relative ai beni (compreso il suolo) e servizi erogati da persone fisiche o giuridiche collegate a qualunque titolo diretto o indiretto con il richiedente anche ai sensi dell’art. 2359 del Codice Civile”. Numero di protocollazione: FAQ23000320 Domanda: Una impresa può inserire nel progetto anche un impianto fotovoltaico per autoconsumo, anche se non in via esclusiva o prevalente? Nel senso che il programma di investimento consisterebbe in nuovi macchinari ed impianti ad uso produttivo e ANCHE un impianto fotovoltaico per autoconsumo. Risposta: La risposta è affermativa Numero di protocollazione: FAQ22000835 Domanda: Si richiede un chiarimento in merito agli indici H e I dell’Allegato A – Griglia criteri e punteggi. Quali spese potranno essere considerate per la riduzione dei consumi (H) e per la riduzione dell’inquinamento ed economia circolare (I)? Ad esempio, nel caso di un impianto produttivo che riduce i consumi energetici si può considerare la spesa complessiva dello stesso impianto o solo le parti di esso che contribuiscono alla riduzione dei consumi? Altro esempio, nel caso di costruzione/ampiamento di un capannone che abbia dei sistemi di coibentazione dell’involucro edilizio, va considerata la spesa totale del capannone (o almeno dell’involucro edilizio) o soltanto del sistema di coibentazione specifico (pannelli di isolamento)? Risposta: Risposta quesito 1: Se le parti del macchinario che contribuiscono alla riduzione dei consumi rappresentano dei meri elementi accessori, ossia componenti senza i quali il macchinario mantiene la propria utilità e funzionalità, nelle spese finalizzate alla riduzione dei consumi (H) o alla riduzione dell’inquinamento (I) andrà indicato l’importo dei soli componenti accessori; soltanto nel caso in cui tali componenti costituiscano parti essenziali ed integranti del macchinario, potrà essere considerato l’importo dell’intero macchinario. Tale distinzione dovrà evincersi chiaramente all’interno della perizia giurata. Risposta quesito 2: Nel caso di costruzione/ampliamento di un capannone, andranno considerate le sole spese specificatamente finalizzate alla riduzione dei consumi (es. sistema di coibentazione); soltanto nel caso in cui l’intervento di costruzione/ampliamento preveda l’acquisto di moduli prefabbricati ad elevata efficienza, come desumibile dalla scheda tecnica dei materiali, che dovrà essere richiamata nella perizia giurata, potrà essere considerato unitariamente il costo complessivo di tali moduli prefabbricati. Numero di protocollazione: FAQ22000790 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 30.000.000,00 Giorni alla scadenza: 218 AVVISO PUBBLICO CONTRATTI DI SVILUPPO A VALENZA REGIONALE Inizio presentazione istanze: 15/11/2022 09:00 Scadenza: 30/06/2027 00:00 Numero atto: D.G.R. N. 202200658 Data atto: 07/10/2022 Ente : Regione Basilicata IMPORTO TOTALE € 30.000.000,00 Ufficio : UFFICIO POLITICHE DI SVILUPPO, FINANZA AGEVOLATA, INCENTIVI ALLE IMPRESE E PROMOZIONE AREE ZES Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1732092798694_D.G.R. n. 202200658 del 07.10.2022.pdf PDF Scarica 1732092798700_Avviso Pubblico.pdf PDF Scarica 1732092798798_Allegato A.pdf PDF Scarica 1732092798806_Allegato B.pdf PDF Scarica 1732092798828_Allegato C.pdf PDF Scarica 1732092798840_Allegato C doc.docx DOCX Scarica 1732092798855_Allegato D.pdf PDF Scarica 1732092798865_Allegato D xls.xlsx XLSX Scarica 1732092798876_Allegato E.pdf PDF Scarica 1732092798884_Allegato E doc.docx DOCX Scarica 1732092798894_Allegato F.pdf PDF Scarica 1732092798894_Allegato F doc.docx DOCX Scarica 1732092798910_Allegato G.pdf PDF Scarica 1732092798910_Allegato G doc.docx DOCX Scarica 1732092798929_Allegato H.pdf PDF Scarica 1732092798937_Allegato H doc.docx DOCX Scarica 1732092798945_Allegato I.pdf PDF Scarica 1732092798951_Allegato I xls.xlsx XLSX Scarica 1732092798963_Allegato L.pdf PDF Scarica 1732092798973_Allegato L doc.docx DOCX Scarica 1732092798983_Allegato M.pdf PDF Scarica 1732092798994_Allegato N.pdf PDF Scarica 1732092799005_Allegato N doc.docx DOCX Scarica 1732092799012_Allegato O.pdf PDF Scarica 1732092799040_Allegato O doc.docx DOCX Scarica 1732092799057_Allegato P.pdf PDF Scarica 1732092799064_Allegato Q.pdf PDF Scarica 1732092799071_Allegato Q doc.docx DOCX Scarica 1732092799082_Direttive Attuative.pdf PDF Scarica 1732092799096_Istruzioni per candidarsi on-line.pdf PDF Scarica 1732092799157_ELENCO DOCUMENTI PER LA RENDICONTAZIONE DEL PROGETTO DEGLI INVESTIMEMTI PRODUTTIVI.docx DOCX Scarica 1732092799168_Modulistica Rendicontazione Allegato A1.docx DOCX Scarica 1732092799172_Modulistica Rendicontazione Allegato A2.docx DOCX Scarica 1732092799174_Modulistica Rendicontazione Allegato A3.docx DOCX Scarica 1732092799177_Modulistica Rendicontazione Allegato A4.docx DOCX Scarica 1732092799180_Modulistica Rendicontazione Allegato L1.docx DOCX Scarica 1732092799183_Modulistica Rendicontazione Allegato P1.xls XLS Scarica 1732092799186_Modulistica Rendicontazione Allegato P2.xlsx XLSX Scarica 1732092799188_Modulistica Rendicontazione Allegato P3.docx DOCX Scarica 1732092799190_Modulistica Rendicontazione Allegato P4.docx DOCX Scarica 1732092799193_Modulistica Rendicontazione Allegato P5.docx DOCX Scarica 1732092799196_Modulistica Rendicontazione Allegato P6.docx DOCX Scarica 1732092799198_Modulistica Rendicontazione Allegato P7.docx DOCX Scarica 1732092799201_Modulistica Rendicontazione Allegato V1.docx DOCX Scarica 1732092799208_Modulistica Rendicontazione Allegato V2.xlsx XLSX Scarica FAQ Domanda: Con riferimento alla disposizione del bando relativa all’installazione di impianti per la produzione di energia da fonti rinnovabili per finalità di autoconsumo all’interno dell’unità produttiva oggetto del programma di investimento, si domanda se l’energia prodotta da un impianto fotovoltaico realizzato nell’ambito del progetto possa essere utilizzata anche da beni e impianti non oggetto dell’investimento agevolato, purché localizzati nella medesima unità produttiva, oppure se debba essere destinata esclusivamente ai beni inclusi nel programma di investimento. Si chiede inoltre di chiarire se il limite di potenza nominale previsto dal bando (pari a 200 kW elettrici) debba essere riferito all’impianto oggetto di agevolazione oppure alla potenza complessiva degli impianti installati presso l’unità produttiva nell’ambito del programma di investimento. Risposta: La candidatura di un impianto fotovoltaico da 200 kw deve essere finalizzato all’autoconsumo della sede operativa oggetto dell’investimento senza preclusioni per beni o impianti esistenti oppure oggetto del programma d’investimento. Il limite di 200 kW è comunque vincolato all’autoconsumo. Se la produzione totale del sito (incluso il nuovo impianto) eccede il fabbisogno energetico della sede operativa, la potenza finanziabile sarà ridotta per coprire esclusivamente l’autoconsumo effettivo. Numero di protocollazione: FAQ26000099 Domanda: Si chiede di chiarire se possa configurarsi come nuova iniziativa, ai sensi del bando, un programma di investimento realizzato presso una sede operativa gia’ esistente e regolarmente iscritta nel Registro delle Imprese, nel quale l’impresa introduce nuove tipologie di prodotti mediante la modifica o l’evoluzione del ciclo produttivo gia’ in essere, senza la realizzazione di una nuova unita’ produttiva autonoma sotto il profilo organizzativo e funzionale. In particolare, si domanda se, in tale fattispecie, trovi applicazione l’obbligo di incremento occupazionale minimo previsto per le sole nuove iniziative, considerato che l’investimento viene realizzato nella medesima sede gia’ operativa dell’azienda. Risposta: Così come descritta l’attività si configura come ampliamento di attività esistente, a condizione che la sede operativa sia già operante sul territorio regionale e l’attività esercitata non rientri tra quelle inammissibili (paragrafo 5 delle Direttive). In caso contrario una impresa che operi in un settore tra quelli inammissibili che proponga un investimento in un settore ammissibile si configura come nuova iniziativa. Numero di protocollazione: FAQ26000098 Domanda: Spett.le Regione Basilicata In riferimento all’Avviso Pubblico Contratti di Sviluppo a Valenza Regionale, avendo il caso specifico di una società X cosi composta: – 38% quote persona fisica; – 30 % quote persona fisica; – 30 % quote persona fisica; – 2% quote società di capitali Y Si chiede se per il calcolo degli indici di bilancio (A, B, C, e D) si debba tener conto anche dei dati della società di capitali Y che detiene il 2%. Sempre in riferimento alla società X, si chiede conferma se l’acquisto di un immobile da parte della società X sia candidabile nell’Avviso Pubblico in oggetto essendo di proprietà della società Y, in caso sia possibile si chiederebbe l’agevolazione sul 98% del prezzo dell’immobile. Risposta: In relazione al quesito posto si evidenzia quanto segue: Gli indici di bilancio (A,B,C,D) devono essere calcolati con riferimento all’ultimo bilancio approvato e depositato dell’impresa X. In riferimento alla possibilità di acquisto da parte della società X dell’immobile di proprietà della società Y, si evidenzia che tale spesa non è ammissibile ai sensi del Paragrafo 8 comma 3 (pag. 23 delle direttive attuative) che di seguito si riporta: “Non sono ammesse le spese relative ai beni (compreso il suolo) e servizi erogati da persone fisiche o giuridiche collegate a qualunque titolo diretto o indiretto con il richiedente anche ai sensi dell’art. 2359 del Codice Civile”. Numero di protocollazione: FAQ23000320 Domanda: Una impresa può inserire nel progetto anche un impianto fotovoltaico per autoconsumo, anche se non in via esclusiva o prevalente? Nel senso che il programma di investimento consisterebbe in nuovi macchinari ed impianti ad uso produttivo e ANCHE un impianto fotovoltaico per autoconsumo. Risposta: La risposta è affermativa Numero di protocollazione: FAQ22000835 Domanda: Si richiede un chiarimento in merito agli indici H e I dell’Allegato A – Griglia criteri e punteggi. Quali spese potranno essere considerate per la riduzione dei consumi (H) e per la riduzione dell’inquinamento ed economia circolare (I)? Ad esempio, nel caso di un impianto produttivo che riduce i consumi energetici si può considerare la spesa complessiva dello stesso impianto o solo le parti di esso che contribuiscono alla riduzione dei consumi? Altro esempio, nel caso di costruzione/ampiamento di un capannone che abbia dei sistemi di coibentazione dell’involucro edilizio, va considerata la spesa totale del capannone (o almeno dell’involucro edilizio) o soltanto del sistema di coibentazione specifico (pannelli di isolamento)? Risposta: Risposta quesito 1: Se le parti del macchinario che contribuiscono alla riduzione dei consumi rappresentano dei meri elementi accessori, ossia componenti senza i quali il macchinario mantiene la propria utilità e funzionalità, nelle spese finalizzate alla riduzione dei consumi (H) o alla riduzione dell’inquinamento (I) andrà indicato l’importo dei soli componenti accessori; soltanto nel caso in cui tali componenti costituiscano parti essenziali ed integranti del macchinario, potrà essere considerato l’importo dell’intero macchinario. Tale distinzione dovrà evincersi chiaramente all’interno della perizia giurata. Risposta quesito 2: Nel caso di costruzione/ampliamento di un capannone, andranno considerate le sole spese specificatamente finalizzate alla riduzione dei consumi (es. sistema di coibentazione); soltanto nel caso in cui l’intervento di costruzione/ampliamento preveda l’acquisto di moduli prefabbricati ad elevata efficienza, come desumibile dalla scheda tecnica dei materiali, che dovrà essere richiamata nella perizia giurata, potrà essere considerato unitariamente il costo complessivo di tali moduli prefabbricati. Numero di protocollazione: FAQ22000790 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -19572,7 +19560,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -19580,10 +19568,10 @@
       "id": "REG-AUTO-C0E39D4A4358",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
-      "contentHash": "ae4443fea4c24b1b47e618963b7108920c3b7fcf9f44cbac35596b3cf0d50ff9",
-      "version": 213,
+      "contentHash": "694560f6c12e3b30d5fc669d9ad8b6337375d5b5ffee5fb1a288605f244fa94f",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19656,7 +19644,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 3.000.000,00 Giorni alla scadenza: 219 Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali Inizio presentazione istanze: 05/06/2026 09:00 Scadenza: 30/06/2027 17:00 Numero atto: D.G.R. n. 202600208 Data atto: 29/04/2026 Data di pubblicazione sul BUR: 06/05/2026 Numero di pubblicazione sul BUR: 20 Ente : Regione Basilicata IMPORTO TOTALE € 3.000.000,00 Ufficio : UFFICIO POLITICHE DEL LAVORO E POLITICHE GIOVANILI Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1778072760046_D.G.R. n. 202600208 del 29.04.2026.pdf PDF Scarica 1778072760050_Avviso Pubblico.pdf PDF Scarica 1778072760053_Allegato 1.docx DOCX Scarica 1778072760054_Allegato 1 bis.docx DOCX Scarica 1778072760055_Allegato 2.docx DOCX Scarica 1778072760056_Allegato 2 bis.docx DOCX Scarica 1778072760057_Allegato 3.docx DOCX Scarica 1778072760058_Allegato 4.docx DOCX Scarica 1778072760058_Allegato 5.docx DOCX Scarica 1778072760061_Allegato A1.pdf PDF Scarica Istruzioni per candidarsi on-line PDF Scarica D.G.R. n. 595 del 08.10.2026 - Incremento della dotazione finanziaria e rideterminazione delle risorse PDF Scarica Dichiarazione del Datore di lavoro, resa ai sensi del DPR 445/2000, di avvenuto pagamento dei netti ai singoli dipendenti e dei relativi contributi assistenziali/previdenziali e delle ritenute DOCX Scarica Dichiarazione del Datore di lavoro in relazione alla regolarita' delle presenze del lavoratore nel periodo di riferimento o di intervenute assenze con identificazione della motivazione DOCX Scarica FAQ Domanda: In caso di contratto di apprendistato, nell’allegato 1 (regime de minimis) bisogna indicare la riduzione dei contributi dovuti al contratto di apprendistato nella casella “importo eventuale sgravio contributivo annuo previsto da altre norme nazionali? Risposta: Sì. Nel caso di assunzione con contratto di apprendistato, nella voce “Importo eventuale sgravio contributivo annuo previsto da altre norme nazionali” dell’Allegato 1 bis deve essere indicato l’eventuale beneficio contributivo spettante in applicazione della normativa vigente, qualora previsto. Tale informazione è richiesta ai fini della determinazione del costo salariale annuo e del conseguente calcolo dell’incentivo concedibile secondo le modalità previste dall’Avviso e dall’Allegato 1 bis. Resta fermo che l’importo da indicare è quello effettivamente spettante al datore di lavoro in relazione allo specifico rapporto di apprendistato. Numero di protocollazione: FAQ26000428 Domanda: Nell’allegato 1, in caso di azienda che svolge prestazioni presso il committente cosa bisogna indicare in Unità Locale? Risposta: Nella sezione “Unità locale” deve essere indicata la sede operativa dell’impresa ubicata nel territorio della Regione Basilicata alla quale è riferita l’assunzione oggetto dell’incentivo, anche qualora l’attività lavorativa venga svolta presso la sede del committente. Qualora il lavoratore sia impiegato stabilmente presso un committente, tale circostanza non modifica l’obbligo di indicare l’unità locale del datore di lavoro cui il rapporto di lavoro è amministrativamente e organizzativamente riferito. Numero di protocollazione: FAQ26000427 Domanda: Il tirocinio extracurriculare in corso non costituisce rapporto di lavoro subordinato; pertanto il tirocinante può essere assunto con contratto incentivabile Risposta: SI Numero di protocollazione: FAQ26000355 caricando Carica altri quesiti Inserisci quesito RISULTATI Precisazione Società Aggiudicataria Data Aggiudicazione Protocollo Documento Allegato D.D. n. 15BD.2026/D.02480 del 1.10.2026 allegato_risultato_6ac51dd3142fb.pdf D.D. n. 15BD.2026/D.02480 del 1.10.2026 - Allegato A allegato_risultato_6ac51dd494fd6.pdf D.D. n. 15BD.2026/D.02526 del 7.10.2026 - Rettifica parziale della D.D. n. 15BD.2026/D.02480 del 1 ottobre 2026 e riapprovazione dell'Allegato A - Primo elenco beneficiari allegato_risultato_6ac603bee6d91.pdf D.D. n. 15BD.2026/D.02526 del 7.10.2026 - Allegato A allegato_risultato_6ac603c0642b7.pdf Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 3.000.000,00 Giorni alla scadenza: 218 Avviso pubblico #Basilavoro 2.0 – Incentivi alle imprese per l’assunzione stabile di lavoratori disoccupati e provenienti da crisi industriali Inizio presentazione istanze: 05/06/2026 09:00 Scadenza: 30/06/2027 17:00 Numero atto: D.G.R. n. 202600208 Data atto: 29/04/2026 Data di pubblicazione sul BUR: 06/05/2026 Numero di pubblicazione sul BUR: 20 Ente : Regione Basilicata IMPORTO TOTALE € 3.000.000,00 Ufficio : UFFICIO POLITICHE DEL LAVORO E POLITICHE GIOVANILI Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1778072760046_D.G.R. n. 202600208 del 29.04.2026.pdf PDF Scarica 1778072760050_Avviso Pubblico.pdf PDF Scarica 1778072760053_Allegato 1.docx DOCX Scarica 1778072760054_Allegato 1 bis.docx DOCX Scarica 1778072760055_Allegato 2.docx DOCX Scarica 1778072760056_Allegato 2 bis.docx DOCX Scarica 1778072760057_Allegato 3.docx DOCX Scarica 1778072760058_Allegato 4.docx DOCX Scarica 1778072760058_Allegato 5.docx DOCX Scarica 1778072760061_Allegato A1.pdf PDF Scarica Istruzioni per candidarsi on-line PDF Scarica D.G.R. n. 595 del 08.10.2026 - Incremento della dotazione finanziaria e rideterminazione delle risorse PDF Scarica Dichiarazione del Datore di lavoro, resa ai sensi del DPR 445/2000, di avvenuto pagamento dei netti ai singoli dipendenti e dei relativi contributi assistenziali/previdenziali e delle ritenute DOCX Scarica Dichiarazione del Datore di lavoro in relazione alla regolarita' delle presenze del lavoratore nel periodo di riferimento o di intervenute assenze con identificazione della motivazione DOCX Scarica FAQ Domanda: In caso di contratto di apprendistato, nell’allegato 1 (regime de minimis) bisogna indicare la riduzione dei contributi dovuti al contratto di apprendistato nella casella “importo eventuale sgravio contributivo annuo previsto da altre norme nazionali? Risposta: Sì. Nel caso di assunzione con contratto di apprendistato, nella voce “Importo eventuale sgravio contributivo annuo previsto da altre norme nazionali” dell’Allegato 1 bis deve essere indicato l’eventuale beneficio contributivo spettante in applicazione della normativa vigente, qualora previsto. Tale informazione è richiesta ai fini della determinazione del costo salariale annuo e del conseguente calcolo dell’incentivo concedibile secondo le modalità previste dall’Avviso e dall’Allegato 1 bis. Resta fermo che l’importo da indicare è quello effettivamente spettante al datore di lavoro in relazione allo specifico rapporto di apprendistato. Numero di protocollazione: FAQ26000428 Domanda: Nell’allegato 1, in caso di azienda che svolge prestazioni presso il committente cosa bisogna indicare in Unità Locale? Risposta: Nella sezione “Unità locale” deve essere indicata la sede operativa dell’impresa ubicata nel territorio della Regione Basilicata alla quale è riferita l’assunzione oggetto dell’incentivo, anche qualora l’attività lavorativa venga svolta presso la sede del committente. Qualora il lavoratore sia impiegato stabilmente presso un committente, tale circostanza non modifica l’obbligo di indicare l’unità locale del datore di lavoro cui il rapporto di lavoro è amministrativamente e organizzativamente riferito. Numero di protocollazione: FAQ26000427 Domanda: Il tirocinio extracurriculare in corso non costituisce rapporto di lavoro subordinato; pertanto il tirocinante può essere assunto con contratto incentivabile Risposta: SI Numero di protocollazione: FAQ26000355 caricando Carica altri quesiti Inserisci quesito RISULTATI Precisazione Società Aggiudicataria Data Aggiudicazione Protocollo Documento Allegato D.D. n. 15BD.2026/D.02480 del 1.10.2026 allegato_risultato_6ac51dd3142fb.pdf D.D. n. 15BD.2026/D.02480 del 1.10.2026 - Allegato A allegato_risultato_6ac51dd494fd6.pdf D.D. n. 15BD.2026/D.02526 del 7.10.2026 - Rettifica parziale della D.D. n. 15BD.2026/D.02480 del 1 ottobre 2026 e riapprovazione dell'Allegato A - Primo elenco beneficiari allegato_risultato_6ac603bee6d91.pdf D.D. n. 15BD.2026/D.02526 del 7.10.2026 - Allegato A allegato_risultato_6ac603c0642b7.pdf Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -19684,7 +19672,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -19692,10 +19680,10 @@
       "id": "REG-AUTO-5F4C03DFBDDD",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
-      "contentHash": "4da3f827fff079311fd8475592f7ea927ede3dea5d879e543b902e3243e0b2e6",
-      "version": 213,
+      "contentHash": "2a2b1082ca097db0398d4c3d7b98d0bae384270b75cbe7d6cb17384a257993f7",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19763,7 +19751,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Avviso Pubblico #BASILSTEP TIROCINI e LAVORO Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 2.200.000,00 Giorni alla scadenza: 403 Avviso Pubblico #BASILSTEP TIROCINI e LAVORO Note : ATTENZIONE! L’Avviso Pubblico rimane aperto fino a esaurimento della dotazione finanziaria disponibile Inizio presentazione istanze: 11/09/2026 09:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 531 Data atto: 27/08/2026 Data di pubblicazione sul BUR: 01/09/2026 Numero di pubblicazione sul BUR: 41 Supp. Ente : Regione Basilicata IMPORTO TOTALE € 2.200.000,00 Ufficio : UFFICIO POLITICHE DEL LAVORO E POLITICHE GIOVANILI Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1788276780059_D.G.R. n. 531 del 27.08.2026.pdf PDF Scarica 1788276780064_Avviso Pubblico.pdf PDF Scarica 1788276780091_Allegato A.pdf PDF Scarica 1788276780096_Allegato A2.docx DOCX Scarica 1788276780097_Allegato A3.docx DOCX Scarica 1788276780099_Allegato A4.docx DOCX Scarica 1788276780100_Allegato B.pdf PDF Scarica 1788276780106_Allegato B1.docx DOCX Scarica 1788276780107_Allegato B1 bis.docx DOCX Scarica 1788276780109_Allegato B2.docx DOCX Scarica 1788276780110_Allegato B2 bis.docx DOCX Scarica 1788276780112_Allegato B3.docx DOCX Scarica 1788276780113_Allegato B4.docx DOCX Scarica 1788276780114_Allegato B5.docx DOCX Scarica 1788276780118_Allegato C.pdf PDF Scarica Allegato A1 DOC Scarica FAQ Domanda: In merito all’Avviso Pubblico “BASILSTEP TIROCINI & LAVORO”, si chiede di sapere se il codcie ATECO 95.31.10 – riparazione e manutenzione meccanica, elettronica ed elettrica di autoveicoli – rientra nell’ambito del programma STEP ai fini della partecipazione al bando Risposta: L’Avviso non prevede un elenco di codici ATECO ammissibili. Pertanto, il solo codice ATECO indicato non consente di determinare l’ammissibilità del soggetto richiedente, che deve essere valutata in relazione all’attività effettivamente svolta e al percorso di tirocinio proposto. L’articolo 6 richiede che il soggetto ospitante operi in uno dei tre macroambiti tecnologici STEP — tecnologie digitali e deep tech; tecnologie pulite e a zero emissioni nette; biotecnologie — e indica, in particolare, i seguenti settori collegati: • industria ICT e digitale, sviluppo software, intelligenza artificiale, cybersecurity, gestione dei dati, cloud computing e telecomunicazioni; • elettronica, microelettronica e semiconduttori; • automazione industriale, meccatronica, robotica e manifattura avanzata; • aerospazio e tecnologie satellitari; • produzione di energia da fonti rinnovabili: fotovoltaico, eolico, idroelettrico e geotermico; • filiera dell’idrogeno e dell’accumulo energetico; • industrie per l’efficienza energetica e la decarbonizzazione; • economia circolare, riciclo e valorizzazione delle materie prime critiche; • mobilità sostenibile e componentistica per veicoli elettrici; • industria farmaceutica e biomedicale; • biotecnologie mediche, industriali e agroalimentari; • produzione di dispositivi medici e tecnologie per la salute. L’appartenenza a uno dei settori elencati non è, tuttavia, sufficiente. Il medesimo articolo precisa che il soggetto ospitante deve operare direttamente su tecnologie critiche STEP o su fasi della relativa catena del valore che contribuiscono al loro sviluppo o alla loro fabbricazione. Sono escluse le attività non ammissibili STEP, quali installazione, manutenzione, commercializzazione o utilizzo di tecnologie già consolidate. Nell’istanza occorre indicare la specifica tecnologia critica STEP interessata e la fase della catena del valore di riferimento – ricerca e sviluppo, prototipazione, ingegnerizzazione o produzione – e dimostrare che le attività previste per il tirocinante riguardano processi tecnici e specialistici, e non attività generiche o operative. Per l’attività di progettazione ingegneristica indicata nel quesito deve quindi essere documentato il concreto collegamento con le tecnologie e le attività ammissibili sopra richiamate, nel rispetto anche delle esclusioni previste dalla checklist allegata all’Avviso per i servizi ausiliari non ammissibili. La verifica sarà effettuata in sede istruttoria sulla base dell’istanza, del Piano formativo individuale e della documentazione presentata, fermo restando il possesso di tutti gli ulteriori requisiti previsti dall’Avviso. Numero di protocollazione: FAQ26000619 Domanda: In merito al requisito di accesso del tirocinante, nello specifico un ragazzo diplomato al liceo scientifico- titolo di studio informativo scientifico (40501012) è ammissibile Risposta: Il titolo di studio è ammissibile Numero di protocollazione: FAQ26000576 Domanda: Ai fini dell’Avviso Pubblico “BASILSTEP TIROCINI & LAVORO”, si chiede di sapere se il codcie ATECO 71.12.20 – Servizi di progettazione di ingegneria integrata – rientra nell’ambito del programma STEP ai fini della partecipazione al bando Risposta: L’Avviso non prevede un elenco di codici ATECO ammissibili. Pertanto, il solo codice ATECO indicato non consente di determinare l’ammissibilità del soggetto richiedente, che deve essere valutata in relazione all’attività effettivamente svolta e al percorso di tirocinio proposto. L’articolo 6 richiede che il soggetto ospitante operi in uno dei tre macroambiti tecnologici STEP — tecnologie digitali e deep tech; tecnologie pulite e a zero emissioni nette; biotecnologie — e indica, in particolare, i seguenti settori collegati: • industria ICT e digitale, sviluppo software, intelligenza artificiale, cybersecurity, gestione dei dati, cloud computing e telecomunicazioni; • elettronica, microelettronica e semiconduttori; • automazione industriale, meccatronica, robotica e manifattura avanzata; • aerospazio e tecnologie satellitari; • produzione di energia da fonti rinnovabili: fotovoltaico, eolico, idroelettrico e geotermico; • filiera dell’idrogeno e dell’accumulo energetico; • industrie per l’efficienza energetica e la decarbonizzazione; • economia circolare, riciclo e valorizzazione delle materie prime critiche; • mobilità sostenibile e componentistica per veicoli elettrici; • industria farmaceutica e biomedicale; • biotecnologie mediche, industriali e agroalimentari; • produzione di dispositivi medici e tecnologie per la salute. L’appartenenza a uno dei settori elencati non è, tuttavia, sufficiente. Il medesimo articolo precisa che il soggetto ospitante deve operare direttamente su tecnologie critiche STEP o su fasi della relativa catena del valore che contribuiscono al loro sviluppo o alla loro fabbricazione. Sono escluse le attività non ammissibili STEP, quali installazione, manutenzione, commercializzazione o utilizzo di tecnologie già consolidate. Nell’istanza occorre indicare la specifica tecnologia critica STEP interessata e la fase della catena del valore di riferimento – ricerca e sviluppo, prototipazione, ingegnerizzazione o produzione – e dimostrare che le attività previste per il tirocinante riguardano processi tecnici e specialistici, e non attività generiche o operative. Per l’attività di progettazione ingegneristica indicata nel quesito deve quindi essere documentato il concreto collegamento con le tecnologie e le attività ammissibili sopra richiamate, nel rispetto anche delle esclusioni previste dalla checklist allegata all’Avviso per i servizi ausiliari non ammissibili. La verifica sarà effettuata in sede istruttoria sulla base dell’istanza, del Piano formativo individuale e della documentazione presentata, fermo restando il possesso di tutti gli ulteriori requisiti previsti dall’Avviso. Numero di protocollazione: FAQ26000542 Domanda: Relativamente all’Obbligo del Soggetto Promotore di assolvere agli adempimenti assicurativi del tirocinante previsti dalla normativa (Polizza INAIL e RCT) si chiede di precisare se: – è corretto e nel rispetto dei termini di legge, che il Soggetto Ospitante (Impresa) indichi nella Comunicazione Obbligatoria di propria competenza (UNILAV) una “PAT”, diversa da quella aziendale, e attivata da altro soggetto economico (soggetto promotore); – è corretto per il Soggetto promotore indicare nella PAT attivata a favore del tirocinante, chiamato a svolgere attività che afferiscono ad un indice di rischio diverso da quello dovuto dall’Ente promotore per lo svolgimento della propria attività economica, e presso una sede operativa diversa da quella del soggetto promotore. Risposta: Il soggetto promotore, ai sensi della circolare INAIL n.16/2014, garantisce la copertura assicurativa dei tirocinanti contro gli infortuni sul lavoro presso “ l’Inail di tutte le attività rientranti nel progetto formativo”. Anche se l’obbligo di invio della Comunicazione Obbligatoria (CO) spetta al soggetto ospitante lo stesso deve indicare i dati della PAT del soggetto promotore e il relativo codice assicurativo INAIL (oltre alla polizza di Responsabilità Civile) Numero di protocollazione: FAQ26000526 Domanda: Si chiede di chiarire se sia ammissibile l’accesso diretto ed esclusivo alla Linea 2 (Incentivo all’occupazione) per l’assunzione a tempo indeterminato di un tirocinante il cui percorso extracurriculare sia stato attivato precedentemente e indipendentemente dalle procedure della Linea 1 del presente Avviso. Risposta: No: la Linea 2 non è utilizzabile autonomamente per assumere un tirocinante il cui tirocinio sia stato attivato al di fuori della Linea 1 dell’Avviso. La ragione è nella struttura stessa dell’Avviso: la Linea 2 è costruita come incentivo collegato all’esito occupazionale del percorso di tirocinio previsto dalla Linea 1, non come incentivo generalizzato alle assunzioni di giovani che abbiano svolto un qualsiasi tirocinio extracurriculare. Numero di protocollazione: FAQ26000535 Domanda: Relativamente al requisito di accesso previsto per il tirocinante, nello specifico, al possesso del titolo di studio di Diploma di Istruzione Secondaria Superiore ad indirizzo tecnico e scientifico, si chiede di chiarire se un candidato in possesso di Laurea ad indirizzo tecnico e scientifico (es. Ingegneria Informatica), pur non avendo un Diploma di SMS ad indirizzo tecnico scientifico ma una Maturità Classica, è ammissibile. Risposta: No, il candidato descritto non è ammissibile sulla base del solo possesso della laurea tecnica/scientifica. L’Avviso richiede, come requisito di accesso del tirocinante, il: “Diploma di Istruzione Secondaria Superiore ad indirizzo tecnico e scientifico” Numero di protocollazione: FAQ26000527 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Avviso Pubblico #BASILSTEP TIROCINI e LAVORO Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 2.200.000,00 Giorni alla scadenza: 402 Avviso Pubblico #BASILSTEP TIROCINI e LAVORO Note : ATTENZIONE! L’Avviso Pubblico rimane aperto fino a esaurimento della dotazione finanziaria disponibile Inizio presentazione istanze: 11/09/2026 09:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 531 Data atto: 27/08/2026 Data di pubblicazione sul BUR: 01/09/2026 Numero di pubblicazione sul BUR: 41 Supp. Ente : Regione Basilicata IMPORTO TOTALE € 2.200.000,00 Ufficio : UFFICIO POLITICHE DEL LAVORO E POLITICHE GIOVANILI Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1788276780059_D.G.R. n. 531 del 27.08.2026.pdf PDF Scarica 1788276780064_Avviso Pubblico.pdf PDF Scarica 1788276780091_Allegato A.pdf PDF Scarica 1788276780096_Allegato A2.docx DOCX Scarica 1788276780097_Allegato A3.docx DOCX Scarica 1788276780099_Allegato A4.docx DOCX Scarica 1788276780100_Allegato B.pdf PDF Scarica 1788276780106_Allegato B1.docx DOCX Scarica 1788276780107_Allegato B1 bis.docx DOCX Scarica 1788276780109_Allegato B2.docx DOCX Scarica 1788276780110_Allegato B2 bis.docx DOCX Scarica 1788276780112_Allegato B3.docx DOCX Scarica 1788276780113_Allegato B4.docx DOCX Scarica 1788276780114_Allegato B5.docx DOCX Scarica 1788276780118_Allegato C.pdf PDF Scarica Allegato A1 DOC Scarica FAQ Domanda: In merito all’Avviso Pubblico “BASILSTEP TIROCINI & LAVORO”, si chiede di sapere se il codcie ATECO 95.31.10 – riparazione e manutenzione meccanica, elettronica ed elettrica di autoveicoli – rientra nell’ambito del programma STEP ai fini della partecipazione al bando Risposta: L’Avviso non prevede un elenco di codici ATECO ammissibili. Pertanto, il solo codice ATECO indicato non consente di determinare l’ammissibilità del soggetto richiedente, che deve essere valutata in relazione all’attività effettivamente svolta e al percorso di tirocinio proposto. L’articolo 6 richiede che il soggetto ospitante operi in uno dei tre macroambiti tecnologici STEP — tecnologie digitali e deep tech; tecnologie pulite e a zero emissioni nette; biotecnologie — e indica, in particolare, i seguenti settori collegati: • industria ICT e digitale, sviluppo software, intelligenza artificiale, cybersecurity, gestione dei dati, cloud computing e telecomunicazioni; • elettronica, microelettronica e semiconduttori; • automazione industriale, meccatronica, robotica e manifattura avanzata; • aerospazio e tecnologie satellitari; • produzione di energia da fonti rinnovabili: fotovoltaico, eolico, idroelettrico e geotermico; • filiera dell’idrogeno e dell’accumulo energetico; • industrie per l’efficienza energetica e la decarbonizzazione; • economia circolare, riciclo e valorizzazione delle materie prime critiche; • mobilità sostenibile e componentistica per veicoli elettrici; • industria farmaceutica e biomedicale; • biotecnologie mediche, industriali e agroalimentari; • produzione di dispositivi medici e tecnologie per la salute. L’appartenenza a uno dei settori elencati non è, tuttavia, sufficiente. Il medesimo articolo precisa che il soggetto ospitante deve operare direttamente su tecnologie critiche STEP o su fasi della relativa catena del valore che contribuiscono al loro sviluppo o alla loro fabbricazione. Sono escluse le attività non ammissibili STEP, quali installazione, manutenzione, commercializzazione o utilizzo di tecnologie già consolidate. Nell’istanza occorre indicare la specifica tecnologia critica STEP interessata e la fase della catena del valore di riferimento – ricerca e sviluppo, prototipazione, ingegnerizzazione o produzione – e dimostrare che le attività previste per il tirocinante riguardano processi tecnici e specialistici, e non attività generiche o operative. Per l’attività di progettazione ingegneristica indicata nel quesito deve quindi essere documentato il concreto collegamento con le tecnologie e le attività ammissibili sopra richiamate, nel rispetto anche delle esclusioni previste dalla checklist allegata all’Avviso per i servizi ausiliari non ammissibili. La verifica sarà effettuata in sede istruttoria sulla base dell’istanza, del Piano formativo individuale e della documentazione presentata, fermo restando il possesso di tutti gli ulteriori requisiti previsti dall’Avviso. Numero di protocollazione: FAQ26000619 Domanda: In merito al requisito di accesso del tirocinante, nello specifico un ragazzo diplomato al liceo scientifico- titolo di studio informativo scientifico (40501012) è ammissibile Risposta: Il titolo di studio è ammissibile Numero di protocollazione: FAQ26000576 Domanda: Ai fini dell’Avviso Pubblico “BASILSTEP TIROCINI & LAVORO”, si chiede di sapere se il codcie ATECO 71.12.20 – Servizi di progettazione di ingegneria integrata – rientra nell’ambito del programma STEP ai fini della partecipazione al bando Risposta: L’Avviso non prevede un elenco di codici ATECO ammissibili. Pertanto, il solo codice ATECO indicato non consente di determinare l’ammissibilità del soggetto richiedente, che deve essere valutata in relazione all’attività effettivamente svolta e al percorso di tirocinio proposto. L’articolo 6 richiede che il soggetto ospitante operi in uno dei tre macroambiti tecnologici STEP — tecnologie digitali e deep tech; tecnologie pulite e a zero emissioni nette; biotecnologie — e indica, in particolare, i seguenti settori collegati: • industria ICT e digitale, sviluppo software, intelligenza artificiale, cybersecurity, gestione dei dati, cloud computing e telecomunicazioni; • elettronica, microelettronica e semiconduttori; • automazione industriale, meccatronica, robotica e manifattura avanzata; • aerospazio e tecnologie satellitari; • produzione di energia da fonti rinnovabili: fotovoltaico, eolico, idroelettrico e geotermico; • filiera dell’idrogeno e dell’accumulo energetico; • industrie per l’efficienza energetica e la decarbonizzazione; • economia circolare, riciclo e valorizzazione delle materie prime critiche; • mobilità sostenibile e componentistica per veicoli elettrici; • industria farmaceutica e biomedicale; • biotecnologie mediche, industriali e agroalimentari; • produzione di dispositivi medici e tecnologie per la salute. L’appartenenza a uno dei settori elencati non è, tuttavia, sufficiente. Il medesimo articolo precisa che il soggetto ospitante deve operare direttamente su tecnologie critiche STEP o su fasi della relativa catena del valore che contribuiscono al loro sviluppo o alla loro fabbricazione. Sono escluse le attività non ammissibili STEP, quali installazione, manutenzione, commercializzazione o utilizzo di tecnologie già consolidate. Nell’istanza occorre indicare la specifica tecnologia critica STEP interessata e la fase della catena del valore di riferimento – ricerca e sviluppo, prototipazione, ingegnerizzazione o produzione – e dimostrare che le attività previste per il tirocinante riguardano processi tecnici e specialistici, e non attività generiche o operative. Per l’attività di progettazione ingegneristica indicata nel quesito deve quindi essere documentato il concreto collegamento con le tecnologie e le attività ammissibili sopra richiamate, nel rispetto anche delle esclusioni previste dalla checklist allegata all’Avviso per i servizi ausiliari non ammissibili. La verifica sarà effettuata in sede istruttoria sulla base dell’istanza, del Piano formativo individuale e della documentazione presentata, fermo restando il possesso di tutti gli ulteriori requisiti previsti dall’Avviso. Numero di protocollazione: FAQ26000542 Domanda: Relativamente all’Obbligo del Soggetto Promotore di assolvere agli adempimenti assicurativi del tirocinante previsti dalla normativa (Polizza INAIL e RCT) si chiede di precisare se: – è corretto e nel rispetto dei termini di legge, che il Soggetto Ospitante (Impresa) indichi nella Comunicazione Obbligatoria di propria competenza (UNILAV) una “PAT”, diversa da quella aziendale, e attivata da altro soggetto economico (soggetto promotore); – è corretto per il Soggetto promotore indicare nella PAT attivata a favore del tirocinante, chiamato a svolgere attività che afferiscono ad un indice di rischio diverso da quello dovuto dall’Ente promotore per lo svolgimento della propria attività economica, e presso una sede operativa diversa da quella del soggetto promotore. Risposta: Il soggetto promotore, ai sensi della circolare INAIL n.16/2014, garantisce la copertura assicurativa dei tirocinanti contro gli infortuni sul lavoro presso “ l’Inail di tutte le attività rientranti nel progetto formativo”. Anche se l’obbligo di invio della Comunicazione Obbligatoria (CO) spetta al soggetto ospitante lo stesso deve indicare i dati della PAT del soggetto promotore e il relativo codice assicurativo INAIL (oltre alla polizza di Responsabilità Civile) Numero di protocollazione: FAQ26000526 Domanda: Si chiede di chiarire se sia ammissibile l’accesso diretto ed esclusivo alla Linea 2 (Incentivo all’occupazione) per l’assunzione a tempo indeterminato di un tirocinante il cui percorso extracurriculare sia stato attivato precedentemente e indipendentemente dalle procedure della Linea 1 del presente Avviso. Risposta: No: la Linea 2 non è utilizzabile autonomamente per assumere un tirocinante il cui tirocinio sia stato attivato al di fuori della Linea 1 dell’Avviso. La ragione è nella struttura stessa dell’Avviso: la Linea 2 è costruita come incentivo collegato all’esito occupazionale del percorso di tirocinio previsto dalla Linea 1, non come incentivo generalizzato alle assunzioni di giovani che abbiano svolto un qualsiasi tirocinio extracurriculare. Numero di protocollazione: FAQ26000535 Domanda: Relativamente al requisito di accesso previsto per il tirocinante, nello specifico, al possesso del titolo di studio di Diploma di Istruzione Secondaria Superiore ad indirizzo tecnico e scientifico, si chiede di chiarire se un candidato in possesso di Laurea ad indirizzo tecnico e scientifico (es. Ingegneria Informatica), pur non avendo un Diploma di SMS ad indirizzo tecnico scientifico ma una Maturità Classica, è ammissibile. Risposta: No, il candidato descritto non è ammissibile sulla base del solo possesso della laurea tecnica/scientifica. L’Avviso richiede, come requisito di accesso del tirocinante, il: “Diploma di Istruzione Secondaria Superiore ad indirizzo tecnico e scientifico” Numero di protocollazione: FAQ26000527 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -19791,7 +19779,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -19799,10 +19787,10 @@
       "id": "REG-AUTO-D37749662A16",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
-      "contentHash": "e2933eecfa959a8f479f4789ae6befd8acce949f74f0d7d66b1c1edeb0d38c3b",
-      "version": 213,
+      "contentHash": "259a110d853e0e81bfd16bf43ed5f95e84d1820d007ea083b71c8987f0ef986d",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19873,7 +19861,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 5.500.000,00 Giorni alla scadenza: 403 Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Inizio presentazione istanze: 06/07/2026 00:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 331 Data atto: 10/06/2026 Data di pubblicazione sul BUR: 16/06/2026 Numero di pubblicazione sul BUR: 28 Ente : Regione Basilicata IMPORTO TOTALE € 5.500.000,00 Ufficio : UFFICIO INTERNAZIONALIZZAZIONE, RICERCA SCIENTIFICA E INNOVAZIONE TECNOLOGICA Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1781618940069_D.G.R. n. 331 del 10.06.2026.pdf PDF Scarica 1781618940073_Avviso Pubblico.pdf PDF Scarica 1781618940091_Definizioni.docx DOCX Scarica 1781618940092_Allegato A.docx DOCX Scarica 1781618940094_Allegato B.docx DOCX Scarica 1781618940095_Allegato C.docx DOCX Scarica 1781618940097_Allegato D.docx DOCX Scarica 1781618940098_Allegato E.pdf PDF Scarica 1781618940104_Allegato E - doc.docx DOCX Scarica 1781618940106_Allegato E1.pdf PDF Scarica 1781618940111_Allegato F.pdf PDF Scarica 1781618940116_Allegato G.docx DOCX Scarica 1781618940118_Allegato H.docx DOCX Scarica FAQ Domanda: Si chiede di confermare se le spese generali forfettarie nella misura del 7% siano riconoscibili anche per un progetto che comprende esclusivamente le tipologie A e C, senza interventi di tipologia B. Il quesito nasce dal fatto che l’articolo 7 colloca la previsione delle spese generali dopo la dicitura «Per la sola tipologia di intervento B», ma ne indica come base di calcolo la somma delle spese delle tre tipologie A, B e C. In caso affermativo, si chiede conferma che il forfait sia calcolato sul totale dei costi diretti ammessi delle tipologie A e C. Risposta: Si, in caso di progetto che preveda solamente le tipologie di intervento A e C, le spese generali (costi indiretti) sono riconosciute nella misura fissa del 7%, da calcolarsi sul totale dei costi diretti ammessi a finanziamento. Numero di protocollazione: FAQ26000628 Domanda: Nel caso di un’impresa che produce e commercializza spettacoli teatrali e servizi artistici, si chiede se siano ammissibili, nell’ambito della tipologia A, i servizi di consulenza e realizzazione di una sezione multilingue del sito destinata alla promozione e commercializzazione dell’offerta sui mercati esteri. La sezione comprenderebbe presentazioni degli spettacoli, dossier artistici, schede tecniche, trailer e strumenti di contatto rivolti a programmatori di teatri, festival e altri soggetti ospitanti. La vendita di uno spettacolo richiede una trattativa sulle date, sulle condizioni tecniche e sul cachet, seguita dalla sottoscrizione di un contratto. Il sito svolgerebbe quindi una funzione commerciale di presentazione dell’offerta e acquisizione di richieste, senza carrello o pagamento online. Si chiede se tale configurazione sia ammissibile tra le attività di promozione, marketing internazionale e digital export previste dall’Avviso, pur non configurandosi come un e-commerce con acquisto diretto online. Risposta: Si, sono ammissibili fermo restando il possesso in capo all’impresa beneficiaria di tutti i requisiti di cui all’articolo 4 dell’Avviso. Numero di protocollazione: FAQ26000627 Domanda: Si chiede se un’associazione che esercita professionalmente attività economica, è titolare di partita IVA ed è iscritta al REA presso la Camera di Commercio, ma non al Registro delle imprese, possa accedere all’Avviso. Il quesito riguarda il requisito previsto dall’articolo 4, comma 1, lettera b), tenuto conto della definizione di impresa contenuta nell’Allegato I del Regolamento UE 651/2014, indipendente dalla forma giuridica del soggetto, fermo restando il possesso degli ulteriori requisiti richiesti. Risposta: Ai sensi dell’articolo 4 comma 1 lettera b), l’iscrizione nel registro delle Imprese costituisce un requisito obbligatorio ai fini della presentazione dell’istanza di candidatura, la cui mancanza comporta l’inammissibilità della stessa. Numero di protocollazione: FAQ26000626 Domanda: Con riferimento alla Tipologia di intervento B – Partecipazione a eventi e manifestazioni fieristiche di rilievo internazionale, si chiede di chiarire se, tra le spese ammissibili ai sensi dell’art. 7 dell’Avviso pubblico, rientri il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. In caso affermativo, si chiede di specificare la categoria di spesa cui imputare il servizio, gli eventuali limiti e le condizioni di ammissibilità, nonché la documentazione da produrre in fase di candidatura e di rendicontazione. Risposta: Con riferimento alla Tipologia di intervento B, non rientra tra le spese ammissibili ex articolo 7 dell’AP, il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. Numero di protocollazione: FAQ26000624 Domanda: Per la Tipologia B di intervento, circa le spese di viaggio e alloggio, si chiede di indicare quale tipologia di documento fornire, in fase di presentazione della domanda, qualora il viaggio avvenga con auto propria o aziendale. Risposta: In conformità al principio della tracciabilità della spesa dei fondi comunitari, tutte le spese dovranno essere rendicontate a costi reali ai sensi dell’art. 53 comma 1 lettera a) del Regolamento UE 2021/1060. Pertanto, in riferimento alle spese di viaggio, le spese devono essere comprovate da appositi giustificativi (fatture e ricevute per servizi di trasporto, titoli di viaggio intestati ai partecipanti alla fiera riportanti la data del viaggio e il costo) e pagate secondo quanto prescritto nell’articolo 7 dell’Avviso. Ne consegue che non sono ammissibili le spese di viaggio sostenute con auto propria o aziendale. Numero di protocollazione: FAQ26000618 Domanda: Si chiede di confermare che, circa la Tipologia di intervento B, in fase di candidatura non è obbligatorio allegare i preventivi riferiti alle spese di viaggio e alloggio, come indicato nella FAQ26000384 che risulta in contrasto con la FAQ26000395. Risposta: Con riferimento alla tipologia di intervento B, è necessario allegare in fase di presentazione della istanza di candidatura, il preventivo riferito alle spese di viaggio, alloggio, escluso il vitto, del rappresentante legale, socio o a dipendenti a tempo indeterminato quali partecipanti dell’impresa beneficiaria. Numero di protocollazione: FAQ26000616 Domanda: In riferimento all’art. 7, comma 11, lettera k), dell’Avviso Pubblico “Pronti per l’Export”, si chiede di chiarire se siano ammissibili e rendicontabili le spese sostenute dall’impresa beneficiaria per l’acquisto di beni e/o per l’acquisizione di servizi e consulenza da un’impresa fornitrice nella quale uno dei soci rivesta contestualmente la carica di legale rappresentante dell’impresa beneficiaria, posto che la spesa sia effettiva, congrua, adeguatamente documentata e riferita alle attività previste dal progetto approvato. Risposta: NO, non sono ammissibili. Numero di protocollazione: FAQ26000614 Domanda: E’ possibile acquisire preventivi e presentare fatture a rendiconto emesse da imprese private che gestiscono spazi fieristici per conto degli organizzatori, pur non essendo gli enti fieristici stessi a fatturare? Risposta: Con riferimento alla TIPOLOGIA INTERVENTO B), per le spese concernenti la partecipazione del beneficiario a eventi/manifestazioni fieristiche, esposizioni di rilievo internazionale, è possibile acquisire preventivi e presentare in fase di rendicontazione fatture emesse da imprese private gestori degli spazi fieristici per conto degli organizzatori, purchè si dia la prova che il gestore sia stato autorizzato dall’Ente organizzatore alla gestione degli spazi fieristici. Numero di protocollazione: FAQ26000562 Domanda: Nell’ambito della Tipologia di Intervento A – “Servizi di consulenza per l’internazionalizzazione”, possono essere considerate ammissibili anche le spese sostenute per incarichi affidati ad agenzie specializzate in scouting commerciale e business development sui mercati esteri, finalizzati, ad esempio, alla ricerca, selezione e profilazione di importatori, distributori, dealer, agenti o altri partner commerciali, nonché al primo contatto e all’organizzazione di incontri B2B? In caso affermativo, tali servizi possono comprendere anche attività di verifica preliminare dell’interesse commerciale e di qualificazione dei potenziali partner individuati? Risposta: L’art. 5 comma I lett. a) dell’AP, con riferimento alla Tipologia di intervento A) servizi di consulenza per l’internazionalizzazione finalizzati all’apertura di nuovi mercati e/o al consolidamento di mercati già serviti nonché all’organizzazione di iniziative di cooperazione industriale, commerciale e di export, elenca le operazioni finanziabili. Inoltre, ai sensi dell’art. 7 comma 1 dell’AP, sono ammissibili i costi relativi ai servizi di consulenza specialistica per la realizzazione di servizi di supporto all’internazionalizzazione quali: realizzazione di azioni di promozione, comunicazione e marketing, elaborazione dei piani di internazionalizzazione, studi di mercato e strategie di ingresso, aggiornamento siti web e-commerce multilingua, ricerca di operatori esteri e assistenza per l’organizzazione di incontri commerciali, consulenze per sistemi di business on line, ecc.. Ne consegue che sono ammissibili le spese sostenute per attività di scouting commerciale e business development sui mercati esteri a condizione che siano conseguite le finalità di cui all’art. 3 dell’AP. Numero di protocollazione: FAQ26000506 Domanda: È possibile avere l’elenco completo dei codici ATECO 2025 ammissibili? L’articolo 4 individua espressamente alcuni settori e codici esclusi; si chiede pertanto di confermare se, al di fuori delle esclusioni indicate dall’Avviso e dai Regolamenti richiamati, siano da considerarsi ammissibili tutti gli altri codici ATECO 2025. Si chiede inoltre di precisare se, ai fini dell’ammissibilità, debba essere preso in considerazione esclusivamente il codice ATECO primario/prevalente risultante dalla visura camerale oppure possano rilevare anche eventuali codici ATECO secondari riferiti all’attività oggetto del progetto di internazionalizzazione. Risposta: L’articolo 4 comma 4 individua le PMI escluse dalla partecipazione all’avviso “Pronti per l’Export”, esplicitando i codici primari Ateco e i settori di attività delle imprese cui non è consentito presentare istanza di candidatura, richiamando puntualmente la normativa comunitaria vigente. Pertanto possono presentare istanza tutte le PMI che operano in settori diversi da quelli indicati nel precitato articolo, fermo restando la verifica degli altri requisiti previsti dal bando. Numero di protocollazione: FAQ26000509 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 5.500.000,00 Giorni alla scadenza: 402 Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Inizio presentazione istanze: 06/07/2026 00:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 331 Data atto: 10/06/2026 Data di pubblicazione sul BUR: 16/06/2026 Numero di pubblicazione sul BUR: 28 Ente : Regione Basilicata IMPORTO TOTALE € 5.500.000,00 Ufficio : UFFICIO INTERNAZIONALIZZAZIONE, RICERCA SCIENTIFICA E INNOVAZIONE TECNOLOGICA Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1781618940069_D.G.R. n. 331 del 10.06.2026.pdf PDF Scarica 1781618940073_Avviso Pubblico.pdf PDF Scarica 1781618940091_Definizioni.docx DOCX Scarica 1781618940092_Allegato A.docx DOCX Scarica 1781618940094_Allegato B.docx DOCX Scarica 1781618940095_Allegato C.docx DOCX Scarica 1781618940097_Allegato D.docx DOCX Scarica 1781618940098_Allegato E.pdf PDF Scarica 1781618940104_Allegato E - doc.docx DOCX Scarica 1781618940106_Allegato E1.pdf PDF Scarica 1781618940111_Allegato F.pdf PDF Scarica 1781618940116_Allegato G.docx DOCX Scarica 1781618940118_Allegato H.docx DOCX Scarica FAQ Domanda: Si chiede di confermare se le spese generali forfettarie nella misura del 7% siano riconoscibili anche per un progetto che comprende esclusivamente le tipologie A e C, senza interventi di tipologia B. Il quesito nasce dal fatto che l’articolo 7 colloca la previsione delle spese generali dopo la dicitura «Per la sola tipologia di intervento B», ma ne indica come base di calcolo la somma delle spese delle tre tipologie A, B e C. In caso affermativo, si chiede conferma che il forfait sia calcolato sul totale dei costi diretti ammessi delle tipologie A e C. Risposta: Si, in caso di progetto che preveda solamente le tipologie di intervento A e C, le spese generali (costi indiretti) sono riconosciute nella misura fissa del 7%, da calcolarsi sul totale dei costi diretti ammessi a finanziamento. Numero di protocollazione: FAQ26000628 Domanda: Nel caso di un’impresa che produce e commercializza spettacoli teatrali e servizi artistici, si chiede se siano ammissibili, nell’ambito della tipologia A, i servizi di consulenza e realizzazione di una sezione multilingue del sito destinata alla promozione e commercializzazione dell’offerta sui mercati esteri. La sezione comprenderebbe presentazioni degli spettacoli, dossier artistici, schede tecniche, trailer e strumenti di contatto rivolti a programmatori di teatri, festival e altri soggetti ospitanti. La vendita di uno spettacolo richiede una trattativa sulle date, sulle condizioni tecniche e sul cachet, seguita dalla sottoscrizione di un contratto. Il sito svolgerebbe quindi una funzione commerciale di presentazione dell’offerta e acquisizione di richieste, senza carrello o pagamento online. Si chiede se tale configurazione sia ammissibile tra le attività di promozione, marketing internazionale e digital export previste dall’Avviso, pur non configurandosi come un e-commerce con acquisto diretto online. Risposta: Si, sono ammissibili fermo restando il possesso in capo all’impresa beneficiaria di tutti i requisiti di cui all’articolo 4 dell’Avviso. Numero di protocollazione: FAQ26000627 Domanda: Si chiede se un’associazione che esercita professionalmente attività economica, è titolare di partita IVA ed è iscritta al REA presso la Camera di Commercio, ma non al Registro delle imprese, possa accedere all’Avviso. Il quesito riguarda il requisito previsto dall’articolo 4, comma 1, lettera b), tenuto conto della definizione di impresa contenuta nell’Allegato I del Regolamento UE 651/2014, indipendente dalla forma giuridica del soggetto, fermo restando il possesso degli ulteriori requisiti richiesti. Risposta: Ai sensi dell’articolo 4 comma 1 lettera b), l’iscrizione nel registro delle Imprese costituisce un requisito obbligatorio ai fini della presentazione dell’istanza di candidatura, la cui mancanza comporta l’inammissibilità della stessa. Numero di protocollazione: FAQ26000626 Domanda: Con riferimento alla Tipologia di intervento B – Partecipazione a eventi e manifestazioni fieristiche di rilievo internazionale, si chiede di chiarire se, tra le spese ammissibili ai sensi dell’art. 7 dell’Avviso pubblico, rientri il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. In caso affermativo, si chiede di specificare la categoria di spesa cui imputare il servizio, gli eventuali limiti e le condizioni di ammissibilità, nonché la documentazione da produrre in fase di candidatura e di rendicontazione. Risposta: Con riferimento alla Tipologia di intervento B, non rientra tra le spese ammissibili ex articolo 7 dell’AP, il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. Numero di protocollazione: FAQ26000624 Domanda: Per la Tipologia B di intervento, circa le spese di viaggio e alloggio, si chiede di indicare quale tipologia di documento fornire, in fase di presentazione della domanda, qualora il viaggio avvenga con auto propria o aziendale. Risposta: In conformità al principio della tracciabilità della spesa dei fondi comunitari, tutte le spese dovranno essere rendicontate a costi reali ai sensi dell’art. 53 comma 1 lettera a) del Regolamento UE 2021/1060. Pertanto, in riferimento alle spese di viaggio, le spese devono essere comprovate da appositi giustificativi (fatture e ricevute per servizi di trasporto, titoli di viaggio intestati ai partecipanti alla fiera riportanti la data del viaggio e il costo) e pagate secondo quanto prescritto nell’articolo 7 dell’Avviso. Ne consegue che non sono ammissibili le spese di viaggio sostenute con auto propria o aziendale. Numero di protocollazione: FAQ26000618 Domanda: Si chiede di confermare che, circa la Tipologia di intervento B, in fase di candidatura non è obbligatorio allegare i preventivi riferiti alle spese di viaggio e alloggio, come indicato nella FAQ26000384 che risulta in contrasto con la FAQ26000395. Risposta: Con riferimento alla tipologia di intervento B, è necessario allegare in fase di presentazione della istanza di candidatura, il preventivo riferito alle spese di viaggio, alloggio, escluso il vitto, del rappresentante legale, socio o a dipendenti a tempo indeterminato quali partecipanti dell’impresa beneficiaria. Numero di protocollazione: FAQ26000616 Domanda: In riferimento all’art. 7, comma 11, lettera k), dell’Avviso Pubblico “Pronti per l’Export”, si chiede di chiarire se siano ammissibili e rendicontabili le spese sostenute dall’impresa beneficiaria per l’acquisto di beni e/o per l’acquisizione di servizi e consulenza da un’impresa fornitrice nella quale uno dei soci rivesta contestualmente la carica di legale rappresentante dell’impresa beneficiaria, posto che la spesa sia effettiva, congrua, adeguatamente documentata e riferita alle attività previste dal progetto approvato. Risposta: NO, non sono ammissibili. Numero di protocollazione: FAQ26000614 Domanda: E’ possibile acquisire preventivi e presentare fatture a rendiconto emesse da imprese private che gestiscono spazi fieristici per conto degli organizzatori, pur non essendo gli enti fieristici stessi a fatturare? Risposta: Con riferimento alla TIPOLOGIA INTERVENTO B), per le spese concernenti la partecipazione del beneficiario a eventi/manifestazioni fieristiche, esposizioni di rilievo internazionale, è possibile acquisire preventivi e presentare in fase di rendicontazione fatture emesse da imprese private gestori degli spazi fieristici per conto degli organizzatori, purchè si dia la prova che il gestore sia stato autorizzato dall’Ente organizzatore alla gestione degli spazi fieristici. Numero di protocollazione: FAQ26000562 Domanda: Nell’ambito della Tipologia di Intervento A – “Servizi di consulenza per l’internazionalizzazione”, possono essere considerate ammissibili anche le spese sostenute per incarichi affidati ad agenzie specializzate in scouting commerciale e business development sui mercati esteri, finalizzati, ad esempio, alla ricerca, selezione e profilazione di importatori, distributori, dealer, agenti o altri partner commerciali, nonché al primo contatto e all’organizzazione di incontri B2B? In caso affermativo, tali servizi possono comprendere anche attività di verifica preliminare dell’interesse commerciale e di qualificazione dei potenziali partner individuati? Risposta: L’art. 5 comma I lett. a) dell’AP, con riferimento alla Tipologia di intervento A) servizi di consulenza per l’internazionalizzazione finalizzati all’apertura di nuovi mercati e/o al consolidamento di mercati già serviti nonché all’organizzazione di iniziative di cooperazione industriale, commerciale e di export, elenca le operazioni finanziabili. Inoltre, ai sensi dell’art. 7 comma 1 dell’AP, sono ammissibili i costi relativi ai servizi di consulenza specialistica per la realizzazione di servizi di supporto all’internazionalizzazione quali: realizzazione di azioni di promozione, comunicazione e marketing, elaborazione dei piani di internazionalizzazione, studi di mercato e strategie di ingresso, aggiornamento siti web e-commerce multilingua, ricerca di operatori esteri e assistenza per l’organizzazione di incontri commerciali, consulenze per sistemi di business on line, ecc.. Ne consegue che sono ammissibili le spese sostenute per attività di scouting commerciale e business development sui mercati esteri a condizione che siano conseguite le finalità di cui all’art. 3 dell’AP. Numero di protocollazione: FAQ26000506 Domanda: È possibile avere l’elenco completo dei codici ATECO 2025 ammissibili? L’articolo 4 individua espressamente alcuni settori e codici esclusi; si chiede pertanto di confermare se, al di fuori delle esclusioni indicate dall’Avviso e dai Regolamenti richiamati, siano da considerarsi ammissibili tutti gli altri codici ATECO 2025. Si chiede inoltre di precisare se, ai fini dell’ammissibilità, debba essere preso in considerazione esclusivamente il codice ATECO primario/prevalente risultante dalla visura camerale oppure possano rilevare anche eventuali codici ATECO secondari riferiti all’attività oggetto del progetto di internazionalizzazione. Risposta: L’articolo 4 comma 4 individua le PMI escluse dalla partecipazione all’avviso “Pronti per l’Export”, esplicitando i codici primari Ateco e i settori di attività delle imprese cui non è consentito presentare istanza di candidatura, richiamando puntualmente la normativa comunitaria vigente. Pertanto possono presentare istanza tutte le PMI che operano in settori diversi da quelli indicati nel precitato articolo, fermo restando la verifica degli altri requisiti previsti dal bando. Numero di protocollazione: FAQ26000509 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -19901,7 +19889,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -20003,7 +19991,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20104,7 +20092,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20204,7 +20192,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20302,7 +20290,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20403,7 +20391,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20500,7 +20488,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20598,7 +20586,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20695,7 +20683,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20797,7 +20785,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -20898,7 +20886,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21000,7 +20988,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21102,7 +21090,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21199,7 +21187,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21299,7 +21287,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21401,7 +21389,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21497,7 +21485,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21599,7 +21587,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21698,7 +21686,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21800,7 +21788,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -21902,7 +21890,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22004,7 +21992,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22106,7 +22094,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22204,7 +22192,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22302,7 +22290,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22403,7 +22391,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22503,7 +22491,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22603,7 +22591,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22705,7 +22693,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22804,7 +22792,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -22906,7 +22894,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23008,7 +22996,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23110,7 +23098,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23212,7 +23200,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23314,7 +23302,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23416,7 +23404,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23515,7 +23503,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23617,7 +23605,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23717,7 +23705,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23819,7 +23807,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -23916,7 +23904,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24018,7 +24006,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24120,7 +24108,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24217,7 +24205,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24319,7 +24307,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24416,7 +24404,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24518,7 +24506,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24620,7 +24608,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24718,7 +24706,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24819,7 +24807,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -24921,7 +24909,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25022,7 +25010,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25122,7 +25110,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25222,7 +25210,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25318,7 +25306,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25420,7 +25408,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25517,7 +25505,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25619,7 +25607,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25718,7 +25706,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25817,7 +25805,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25914,7 +25902,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -25922,10 +25910,10 @@
       "id": "REG-AUTO-8060D47AFFFA",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
-      "contentHash": "3938efad2330fd22061cba94f7f8fc2f6d96bb9f3c768987e5bdb51fbc032fc5",
-      "version": 213,
+      "contentHash": "18bea41c208c60391344c0dc5ac094990301753d2a32de372c3216d059504623",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -25995,7 +25983,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027 Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: CITTADINI E IMPRESE Importo € 9.806.105,00 Giorni alla scadenza: 950 Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027 Inizio presentazione istanze: 20/05/2024 08:00 Scadenza: 30/06/2029 15:00 Numero atto: D.G.R. n. 932 Data atto: 29/12/2023 Data di pubblicazione sul BUR: 30/12/2023 Numero di pubblicazione sul BUR: 71 Ente : Regione Basilicata IMPORTO TOTALE € 9.806.105,00 Ufficio : UFFICIO AUTORITA' DI GESTIONE DEI PROGRAMMI OPERATIVI FSE BASILICATA Direzione : DIREZIONE GENERALE PER LA PROGRAMMAZIONE E LA GESTIONE DELLE RISORSE STRUMENTALI E FINANZIARIE LINEE DI INTERVENTO LOTTO NUMERO Linea 1 Tipo intervento: Fondo Microfinanza FSE+ 2021-2027 Importo totale: 9806105 ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1732093066099_Avviso Pubblico.pdf PDF Scarica 1732093066118_Allegato A.pdf PDF Scarica 1732093066134_Allegato B.pdf PDF Scarica 1732093066145_Allegato C.pdf PDF Scarica 1732093066154_Allegato D1.pdf PDF Scarica 1732093066160_Allegato D2.pdf PDF Scarica 1732093066176_Allegato E.pdf PDF Scarica 1732093066184_Allegato F.pdf PDF Scarica 1732093066193_Allegato G.pdf PDF Scarica 1732093066202_Allegato C - word.docx DOCX Scarica 1732093066212_Allegato D1 - word.docx DOCX Scarica 1732093066224_Allegato D2 - word.docx DOCX Scarica 1732093066239_Allegato E - word.docx DOCX Scarica 1732093066244_Allegato F - word.docx DOCX Scarica 1732093066261_Allegato G - word.docx DOCX Scarica 1732093066282_D.G.R. n. 932 del 29.12.2023.pdf PDF Scarica 1732093066299_Istruzioni per candidarsi on-line.pdf PDF Scarica FAQ Domanda: Un titolare di P.Iva agricola con imposta lorda inferiore ad eurio 5.500,00 vorrebbe partecipare al seguente bando per apertura di un’attività di food truck. In questo caso può partecipare senza cessare l’attività agricola? Risposta: Il titolare di Partita Iva Agricola, con un reddito inferiore a € 5.500 può presentare domanda sul Fondo. Si tenga però conto che l’art. 2, lettera a., dell’Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027, prevede che “Nel caso di lavoratore autonomo la domanda potrà essere presentata solo per la creazione di una nuova attività economica differente da quella esercitata in precedenza pur conservando la Partita Iva già attribuitagli, con l’obbligo di cessare il codice o i codici Ateco precedentemente attivi”. Pertanto il titolare di Partita Iva agricola, con un reddito inferiore a € 5.500 può presenta la domanda ma, in caso di ammissibilità del progetto candidato, prima di poter ottenere la formale delibera di ammissione, dovrà cancellare il precedente codice ATECO, così come previsto anche dall’art. 14, comma 2, lettera c. dell’avviso. Numero di protocollazione: FAQ26000623 Domanda: Ho attualmente un contratto part time a tempo indeterminato. Posso inoltrare la domanda con impegno a licenziarmi? Risposta: Ai sensi dell’art. 2, lettera a. dell’Avviso pubblico per la presentazione delle domande al Fondo di Microfinanza, rientrano tra i disoccupati “ i lavoratori dipendenti il cui reddito sia inferiore a € 8.500,00 lordi”. Pertanto se non supera questa soglia conserva o potrà acquisire lo status di disoccupato e quindi può presentare domanda di Microfinanziamento con successivo licenziamento dal precedente lavoro. Si precisa che lo status di disoccupato deve essere certificato dal Centro per l’Impiego competente, dove dovrà recarsi per verificare la sua situazione e sottoscrivere la DID (dichiarazione di Immediata Disponibilità al lavoro) prima di presentare al domanda di accesso al Fondo. Numero di protocollazione: FAQ26000620 Domanda: Un lavoratore autonomo titolare di azienda agricola vorrebbe partecipare al bando per poter costituire una SAS ricoprendo il ruolo di socio accomandatario. Il socio accomandante invece è un lavoratore dipendente. Il socio accomandatario ha un reddito lordo inferiore ad euro 5.500,00. Con questi requisiti potrebbe presentare domanda di finanziamento proponendo come iniziativa imprenditoriale la SAS in un settore diverso da quello agricolo?. Risposta: L’art. 3, comma 4.1, dell’Avviso, prevede che possono presentare domanda in forma associata le costituende società in cui “la maggioranza numerica dei soggetti proponenti che detengono la maggioranza delle quote sia rappresentata da soggetti disoccupati”. Pertanto, affinché si possa accedere al Fondo di Microfinanza, in presenza di un proponente occupato, è necessaria la presenza di almeno due proponenti disoccupati e quindi la fattispecie rappresentata nel quesito non risulta ammissibile alle agevolazioni del Fondo. Numero di protocollazione: FAQ26000564 Domanda: Una srl ASD sportiva costituenda può partecipare al bando o dato il regime premiale non è ammissibile a finanziamento? Risposta: Una società di capitali Srl ASD sportiva costituenda può accedere al Fondo di Microfinanza, non rilevando, a tal proposito, il regime fiscale adottato. Numero di protocollazione: FAQ26000477 Domanda: Sono una restauratrice e vorrei aprire un laboratorio di restauro, al momento non ho p.IVA. Posso accedere al finanziamento anche se sono una lavoratrice part-time in un negozio oppure è necessario lo stato di disoccupazione? Il finanziamento può coprire anche le spese di affitto del locale in cui svolgerei le mie attività? Risposta: Per poter accedere al finanziamento è necessario possedere il requisito della disoccupazione; come riportato all’art. 2 dell’Avviso, ai sensi dell’art. 19 del D.lgs 150/2015, si definisce “disoccupato” colui il quale, alla data di presentazione della domanda, risulti iscritto al Centro per l’Impiego competente e abbia sottoscritto la DID (dichiarazione di immediata disponibilità al lavoro). All’art. 2 dell’Avviso viene inoltre precisato che rientra nella definizione di “disoccupato”: il lavoratore il cui reddito da lavoro dipendente o autonomo corrisponde a un’imposta lorda pari o inferiore alle detrazioni spettanti ai sensi dell’articolo 13 del testo unico delle imposte sui redditi, di cui al DPR 22 dicembre 1986, n. 917, ovvero il lavoratore dipendente che abbia un reddito pari o inferiore a € 8.500,00 lordi annui. Pertanto, se il reddito derivante dal suo impiego part time è inferiore agli 8.500,00 euro annui, può rientrare tra i soggetti disoccupati, previa iscrizione al Centro per impiego e la sottoscrizione della DID di cui sopra. Numero di protocollazione: FAQ26000367 Domanda: Puo partecipare al bando una societa da costituire formata da un disoccupato e altri due che gia lavorano anche con una minima parte? Risposta: Ai sensi dell’art. 3, comma 4, dell’Avviso “la maggioranza numerica dei soggetti proponenti che detengono la maggioranza delle quote della costituenda società sia rappresentata da soggetti disoccupati..” Pertanto nel caso in oggetto, a prescindere dalle quote di partecipazione, la maggioranza numerica dei soci non è disoccupata e pertanto non sussistono i requisiti per poter candidare la domanda. Numero di protocollazione: FAQ25000768 Domanda: Salve, ho da un mese aperto p iva ma non è stata movimentata, posso partecipare al bando? Risposta: Come previsto dall’art. 3, comma 7, terzo alinea, dell’Avviso, non sono accoglibili le domande presentate da soggetti che “alla data di presentazione della domanda hanno già costituito l’impresa11 in una delle forme di cui al comma 1 del presente articolo, anche se inattiva, salvo quanto previsto al precedente punto 2.1 per i lavoratori autonomi che hanno conservato il requisito della disoccupazione”. La nota 11 precisa inoltre che “Ai fini del presente Avviso, per costituzione di impresa si intende: a. costituzione dell’impresa, nel caso di società; b. attribuzione della Partita IVA, nel caso di lavoratore autonomo; c. comunicazione della variazione dell’attività, nel caso di lavoratore autonomo che abbia conservato i requisiti di disoccupato. Pertanto, la persona fisica che alla data di presentazione della domanda abbia già aperto la Partita IVA, anche se non movimentata, non ha i requisiti per accedere al Fondo di Microfinanza. Numero di protocollazione: FAQ25000631 Domanda: Vorrei sapere se esiste un elenco ufficiale degli intermediari finanziari convenzionati per l’erogazione dei finanziamenti previsti dal bando. Se tale elenco è disponibile, vi sarei grata se poteste indicarmi dove trovarlo. Risposta: Il finanziamento agevolato previsto dal Fondo di Microfinanza FSE+ 2021-2027 viene erogato direttamente dal Soggetto Gestore del Fondo, ovvero da Sviluppo Basilicata S.p.A., ad esito positivo dell’istruttoria della domanda candidata e a seguito della sottoscrizione del contratto di finanziamento. Pertanto non vi sono intermediari finanziari convenzionati. Numero di protocollazione: FAQ25000044 Domanda: Il soggetto proponente intende presentare la domanda per accedere al fondo di microfinanza. Alla data di inoltro dell’istanza, il soggetto, rispetta tutti i requisiti previsti dall’art. 2.1, in particolare è disoccupato, iscritto al Centro per l’impiego ed ha sottoscritto la DID. Successivamente, dopo l’inoltro della domanda per l’accesso al fondo , il soggetto proponente viene assunto a tempo determinato fino alla data di concessione del finanziamento. Lo “status di disoccupato” deve essere mantenuto per tutto il periodo che intercorre dalla data di inoltro domanda fino alla data di notifica del provvedimento di concessione? Oppure non ci sono limiti? La soglia reddituale di 8.500,00 lordi come deve essere considerata? Risposta: I requisiti (tra cui la disoccupazione) devono essere posseduti alla data di inoltro della domanda; non è previsto che lo status di disoccupato venga mantenuto anche successivamente alla presentazione della domanda e fino alla data di notifica del provvedimento di concessione. Pertanto, come nel caso in oggetto, il proponente potrà essere assunto a tempo determinato fino alla data di concessione del finanziamento. Si ricorda che il superamento della soglia reddituale di 8.500,00 euro nel corso dell’anno, che comporta la perdita dello status di disoccupato, viene verificata dal Centro per l’Impiego, in relazione al contratto attivato e in base alla retribuzione prevista e alla durata dello stesso. Numero di protocollazione: FAQ25000023 Domanda: salve , sono cittadino Italiano con domicilio in Basilicata, ma iscritto AIRE con residenza estera . Posso inoltrare la domanda prima del cambio della residenza in Basilicata ? grazie Risposta: L’art. 3, comma 2 dell’Avviso per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027, prevede che i requisiti (tra cui la residenza in Basilicata) devono essere posseduti alla data di inoltro della domanda. Pertanto non è possibile presentare la domanda prima del cambio della residenza in Basilicata. Numero di protocollazione: FAQ25000013 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027 Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: CITTADINI E IMPRESE Importo € 9.806.105,00 Giorni alla scadenza: 949 Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027 Inizio presentazione istanze: 20/05/2024 08:00 Scadenza: 30/06/2029 15:00 Numero atto: D.G.R. n. 932 Data atto: 29/12/2023 Data di pubblicazione sul BUR: 30/12/2023 Numero di pubblicazione sul BUR: 71 Ente : Regione Basilicata IMPORTO TOTALE € 9.806.105,00 Ufficio : UFFICIO AUTORITA' DI GESTIONE DEI PROGRAMMI OPERATIVI FSE BASILICATA Direzione : DIREZIONE GENERALE PER LA PROGRAMMAZIONE E LA GESTIONE DELLE RISORSE STRUMENTALI E FINANZIARIE LINEE DI INTERVENTO LOTTO NUMERO Linea 1 Tipo intervento: Fondo Microfinanza FSE+ 2021-2027 Importo totale: 9806105 ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1732093066099_Avviso Pubblico.pdf PDF Scarica 1732093066118_Allegato A.pdf PDF Scarica 1732093066134_Allegato B.pdf PDF Scarica 1732093066145_Allegato C.pdf PDF Scarica 1732093066154_Allegato D1.pdf PDF Scarica 1732093066160_Allegato D2.pdf PDF Scarica 1732093066176_Allegato E.pdf PDF Scarica 1732093066184_Allegato F.pdf PDF Scarica 1732093066193_Allegato G.pdf PDF Scarica 1732093066202_Allegato C - word.docx DOCX Scarica 1732093066212_Allegato D1 - word.docx DOCX Scarica 1732093066224_Allegato D2 - word.docx DOCX Scarica 1732093066239_Allegato E - word.docx DOCX Scarica 1732093066244_Allegato F - word.docx DOCX Scarica 1732093066261_Allegato G - word.docx DOCX Scarica 1732093066282_D.G.R. n. 932 del 29.12.2023.pdf PDF Scarica 1732093066299_Istruzioni per candidarsi on-line.pdf PDF Scarica FAQ Domanda: Un titolare di P.Iva agricola con imposta lorda inferiore ad eurio 5.500,00 vorrebbe partecipare al seguente bando per apertura di un’attività di food truck. In questo caso può partecipare senza cessare l’attività agricola? Risposta: Il titolare di Partita Iva Agricola, con un reddito inferiore a € 5.500 può presentare domanda sul Fondo. Si tenga però conto che l’art. 2, lettera a., dell’Avviso pubblico per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027, prevede che “Nel caso di lavoratore autonomo la domanda potrà essere presentata solo per la creazione di una nuova attività economica differente da quella esercitata in precedenza pur conservando la Partita Iva già attribuitagli, con l’obbligo di cessare il codice o i codici Ateco precedentemente attivi”. Pertanto il titolare di Partita Iva agricola, con un reddito inferiore a € 5.500 può presenta la domanda ma, in caso di ammissibilità del progetto candidato, prima di poter ottenere la formale delibera di ammissione, dovrà cancellare il precedente codice ATECO, così come previsto anche dall’art. 14, comma 2, lettera c. dell’avviso. Numero di protocollazione: FAQ26000623 Domanda: Ho attualmente un contratto part time a tempo indeterminato. Posso inoltrare la domanda con impegno a licenziarmi? Risposta: Ai sensi dell’art. 2, lettera a. dell’Avviso pubblico per la presentazione delle domande al Fondo di Microfinanza, rientrano tra i disoccupati “ i lavoratori dipendenti il cui reddito sia inferiore a € 8.500,00 lordi”. Pertanto se non supera questa soglia conserva o potrà acquisire lo status di disoccupato e quindi può presentare domanda di Microfinanziamento con successivo licenziamento dal precedente lavoro. Si precisa che lo status di disoccupato deve essere certificato dal Centro per l’Impiego competente, dove dovrà recarsi per verificare la sua situazione e sottoscrivere la DID (dichiarazione di Immediata Disponibilità al lavoro) prima di presentare al domanda di accesso al Fondo. Numero di protocollazione: FAQ26000620 Domanda: Un lavoratore autonomo titolare di azienda agricola vorrebbe partecipare al bando per poter costituire una SAS ricoprendo il ruolo di socio accomandatario. Il socio accomandante invece è un lavoratore dipendente. Il socio accomandatario ha un reddito lordo inferiore ad euro 5.500,00. Con questi requisiti potrebbe presentare domanda di finanziamento proponendo come iniziativa imprenditoriale la SAS in un settore diverso da quello agricolo?. Risposta: L’art. 3, comma 4.1, dell’Avviso, prevede che possono presentare domanda in forma associata le costituende società in cui “la maggioranza numerica dei soggetti proponenti che detengono la maggioranza delle quote sia rappresentata da soggetti disoccupati”. Pertanto, affinché si possa accedere al Fondo di Microfinanza, in presenza di un proponente occupato, è necessaria la presenza di almeno due proponenti disoccupati e quindi la fattispecie rappresentata nel quesito non risulta ammissibile alle agevolazioni del Fondo. Numero di protocollazione: FAQ26000564 Domanda: Una srl ASD sportiva costituenda può partecipare al bando o dato il regime premiale non è ammissibile a finanziamento? Risposta: Una società di capitali Srl ASD sportiva costituenda può accedere al Fondo di Microfinanza, non rilevando, a tal proposito, il regime fiscale adottato. Numero di protocollazione: FAQ26000477 Domanda: Sono una restauratrice e vorrei aprire un laboratorio di restauro, al momento non ho p.IVA. Posso accedere al finanziamento anche se sono una lavoratrice part-time in un negozio oppure è necessario lo stato di disoccupazione? Il finanziamento può coprire anche le spese di affitto del locale in cui svolgerei le mie attività? Risposta: Per poter accedere al finanziamento è necessario possedere il requisito della disoccupazione; come riportato all’art. 2 dell’Avviso, ai sensi dell’art. 19 del D.lgs 150/2015, si definisce “disoccupato” colui il quale, alla data di presentazione della domanda, risulti iscritto al Centro per l’Impiego competente e abbia sottoscritto la DID (dichiarazione di immediata disponibilità al lavoro). All’art. 2 dell’Avviso viene inoltre precisato che rientra nella definizione di “disoccupato”: il lavoratore il cui reddito da lavoro dipendente o autonomo corrisponde a un’imposta lorda pari o inferiore alle detrazioni spettanti ai sensi dell’articolo 13 del testo unico delle imposte sui redditi, di cui al DPR 22 dicembre 1986, n. 917, ovvero il lavoratore dipendente che abbia un reddito pari o inferiore a € 8.500,00 lordi annui. Pertanto, se il reddito derivante dal suo impiego part time è inferiore agli 8.500,00 euro annui, può rientrare tra i soggetti disoccupati, previa iscrizione al Centro per impiego e la sottoscrizione della DID di cui sopra. Numero di protocollazione: FAQ26000367 Domanda: Puo partecipare al bando una societa da costituire formata da un disoccupato e altri due che gia lavorano anche con una minima parte? Risposta: Ai sensi dell’art. 3, comma 4, dell’Avviso “la maggioranza numerica dei soggetti proponenti che detengono la maggioranza delle quote della costituenda società sia rappresentata da soggetti disoccupati..” Pertanto nel caso in oggetto, a prescindere dalle quote di partecipazione, la maggioranza numerica dei soci non è disoccupata e pertanto non sussistono i requisiti per poter candidare la domanda. Numero di protocollazione: FAQ25000768 Domanda: Salve, ho da un mese aperto p iva ma non è stata movimentata, posso partecipare al bando? Risposta: Come previsto dall’art. 3, comma 7, terzo alinea, dell’Avviso, non sono accoglibili le domande presentate da soggetti che “alla data di presentazione della domanda hanno già costituito l’impresa11 in una delle forme di cui al comma 1 del presente articolo, anche se inattiva, salvo quanto previsto al precedente punto 2.1 per i lavoratori autonomi che hanno conservato il requisito della disoccupazione”. La nota 11 precisa inoltre che “Ai fini del presente Avviso, per costituzione di impresa si intende: a. costituzione dell’impresa, nel caso di società; b. attribuzione della Partita IVA, nel caso di lavoratore autonomo; c. comunicazione della variazione dell’attività, nel caso di lavoratore autonomo che abbia conservato i requisiti di disoccupato. Pertanto, la persona fisica che alla data di presentazione della domanda abbia già aperto la Partita IVA, anche se non movimentata, non ha i requisiti per accedere al Fondo di Microfinanza. Numero di protocollazione: FAQ25000631 Domanda: Vorrei sapere se esiste un elenco ufficiale degli intermediari finanziari convenzionati per l’erogazione dei finanziamenti previsti dal bando. Se tale elenco è disponibile, vi sarei grata se poteste indicarmi dove trovarlo. Risposta: Il finanziamento agevolato previsto dal Fondo di Microfinanza FSE+ 2021-2027 viene erogato direttamente dal Soggetto Gestore del Fondo, ovvero da Sviluppo Basilicata S.p.A., ad esito positivo dell’istruttoria della domanda candidata e a seguito della sottoscrizione del contratto di finanziamento. Pertanto non vi sono intermediari finanziari convenzionati. Numero di protocollazione: FAQ25000044 Domanda: Il soggetto proponente intende presentare la domanda per accedere al fondo di microfinanza. Alla data di inoltro dell’istanza, il soggetto, rispetta tutti i requisiti previsti dall’art. 2.1, in particolare è disoccupato, iscritto al Centro per l’impiego ed ha sottoscritto la DID. Successivamente, dopo l’inoltro della domanda per l’accesso al fondo , il soggetto proponente viene assunto a tempo determinato fino alla data di concessione del finanziamento. Lo “status di disoccupato” deve essere mantenuto per tutto il periodo che intercorre dalla data di inoltro domanda fino alla data di notifica del provvedimento di concessione? Oppure non ci sono limiti? La soglia reddituale di 8.500,00 lordi come deve essere considerata? Risposta: I requisiti (tra cui la disoccupazione) devono essere posseduti alla data di inoltro della domanda; non è previsto che lo status di disoccupato venga mantenuto anche successivamente alla presentazione della domanda e fino alla data di notifica del provvedimento di concessione. Pertanto, come nel caso in oggetto, il proponente potrà essere assunto a tempo determinato fino alla data di concessione del finanziamento. Si ricorda che il superamento della soglia reddituale di 8.500,00 euro nel corso dell’anno, che comporta la perdita dello status di disoccupato, viene verificata dal Centro per l’Impiego, in relazione al contratto attivato e in base alla retribuzione prevista e alla durata dello stesso. Numero di protocollazione: FAQ25000023 Domanda: salve , sono cittadino Italiano con domicilio in Basilicata, ma iscritto AIRE con residenza estera . Posso inoltrare la domanda prima del cambio della residenza in Basilicata ? grazie Risposta: L’art. 3, comma 2 dell’Avviso per la presentazione delle domande di accesso al Fondo Microfinanza FSE+ 2021-2027, prevede che i requisiti (tra cui la residenza in Basilicata) devono essere posseduti alla data di inoltro della domanda. Pertanto non è possibile presentare la domanda prima del cambio della residenza in Basilicata. Numero di protocollazione: FAQ25000013 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -26023,7 +26011,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -26121,7 +26109,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -26220,7 +26208,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -26228,10 +26216,10 @@
       "id": "REG-AUTO-470D75453743",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
-      "contentHash": "719b0cbd5cee068083562245f3dea48d87058e17d69500cb13d0fc6d5d7ce390",
-      "version": 213,
+      "contentHash": "587e5c8fc265a4ad7d12ae4fc61420616dc60543b0cb2e77beeb11eb5c25ca74",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26297,7 +26285,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Struttura residenziale per anziani nel Comune di Grottole. Tipo: Bando Ente: Comune di Grottole Importo € 290.000,00 Giorni alla scadenza: 173524 Data di pubblicazione: 15/12/2011 00:00 Scadenza: 27/12/2501 00:00 Ente : Comune di Grottole Codice fiscale ente: 80001800772 IMPORTO TOTALE € 290.000,00 Responsabile Unico del Procedimento Nome: RECCHIA Cognome: Giovanni DETTAGLIO LOTTI LOTTO NUMERO 1 Oggetto: Struttura residenziale per anziani nel Comune di Grottole. CIG: 3680473665 Importo del lotto a base di gara compresi gli oneri per la sicurezza (IVA esclusa): 290000 Importo oneri sicurezza: 10000 Tipologia appalto: L Procedura: 12 CPV: 45215220-5 - Lavori di costruzione di strutture sociali, esclusi i centri di accoglienza Classe: II Luogo di esecuzione dei lavori: II ALLEGATI Nome Allegato Azione Struttura residenziale per anziani nel Comune di G (01/01/1970) Visualizza Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Struttura residenziale per anziani nel Comune di Grottole. Tipo: Bando Ente: Comune di Grottole Importo € 290.000,00 Giorni alla scadenza: 173523 Data di pubblicazione: 15/12/2011 00:00 Scadenza: 27/12/2501 00:00 Ente : Comune di Grottole Codice fiscale ente: 80001800772 IMPORTO TOTALE € 290.000,00 Responsabile Unico del Procedimento Nome: RECCHIA Cognome: Giovanni DETTAGLIO LOTTI LOTTO NUMERO 1 Oggetto: Struttura residenziale per anziani nel Comune di Grottole. CIG: 3680473665 Importo del lotto a base di gara compresi gli oneri per la sicurezza (IVA esclusa): 290000 Importo oneri sicurezza: 10000 Tipologia appalto: L Procedura: 12 CPV: 45215220-5 - Lavori di costruzione di strutture sociali, esclusi i centri di accoglienza Classe: II Luogo di esecuzione dei lavori: II ALLEGATI Nome Allegato Azione Struttura residenziale per anziani nel Comune di G (01/01/1970) Visualizza Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -26325,7 +26313,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -26333,10 +26321,10 @@
       "id": "REG-AUTO-5CB7CC82AFC2",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
-      "contentHash": "e7a38eb26677697b05e19058f14afc3961668b24e58ec9a58f96258b008252ee",
-      "version": 213,
+      "contentHash": "f3e92143a85542c0706282179d98ec927c73e0ab7d8d0094942d2f181e990858",
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26409,7 +26397,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL’INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL’AREA PIP SITA IN LOC SETA. Tipo: Bando Ente: Comune di Savoia di Lucania Importo € 90.244,75 Giorni alla scadenza: 355141 Data di pubblicazione: 29/03/2018 00:00 Scadenza: 28/03/2999 00:00 Ente : Comune di Savoia di Lucania Codice fiscale ente: 80004110765 IMPORTO TOTALE € 90.244,75 Responsabile Unico del Procedimento Nome: CAVALLO Cognome: CESARE DETTAGLIO LOTTI LOTTO NUMERO 1 Oggetto: PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL'INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL'AREA PIP SITA IN LOC SETA. CIG: 75533082F2 CUP: D67H18000130005 Importo del lotto a base di gara compresi gli oneri per la sicurezza (IVA esclusa): 90244.75 Importo oneri sicurezza: 893.51 Tipologia appalto: L Procedura: 6 CPV: 50232110-4 - Messa in opera di impianti di illuminazione pubblica Classe: I Criterio di aggiudicazione: 1 Luogo di esecuzione dei lavori: I ALLEGATI Nome Allegato Azione DETERMINA - DETERMINA A CONTRARRE.AFFIDAMENTO LAVORI PATTO TERRITORIALE. (01/01/1970) Visualizza AVVISO PUBBLICO - AVVISO PUBBLICO PER ABILITAZIONE ALBO APPALTI PUBBLICI. (01/01/1970) Visualizza LETTERA DI INVITO - Lettera di invito per formulazione offerta lavori Patto Territoriale (01/01/1970) Visualizza VERBALE AMMISSIONE ALLA GARA - VERBALE DI AMMISSIONE ALLA GARA PREVIA VERIFCA DELLA DOCUMENTAZIONE (10/09/2018) Visualizza VERBALE DI GARA - VERBALE DI GARA CON AGGIUDICAZIONE NON EFFICACE ED ESCLUSIONE OFFERTA ECONOMICA (01/01/1970) Visualizza VERBALE DI GARA - PROVVEDIMENTO DI AGGIUDICAZIONE NON EFFICACE CON VERBALE DI GARA (01/01/1970) Visualizza AGGIUDICAZIONE DEFINITIVA - DETERMINAZIONE DI AGGIUDICAZIONE DEFINITIVA (12/03/2018) Visualizza Avviso di aggiudicazione - Avviso di aggiudicazione definitiva lavori Patto Territoriale (12/03/2018) Visualizza Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL’INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL’AREA PIP SITA IN LOC SETA. Tipo: Bando Ente: Comune di Savoia di Lucania Importo € 90.244,75 Giorni alla scadenza: 355140 Data di pubblicazione: 29/03/2018 00:00 Scadenza: 28/03/2999 00:00 Ente : Comune di Savoia di Lucania Codice fiscale ente: 80004110765 IMPORTO TOTALE € 90.244,75 Responsabile Unico del Procedimento Nome: CAVALLO Cognome: CESARE DETTAGLIO LOTTI LOTTO NUMERO 1 Oggetto: PATTO TERRITORIALE BASILICATA NORD OCCIDENTALE.ADEGUAMENTO E MESSA IN SICUREZZA DELL'INFRASTRUTTURA VIARIA SAVOIA-BASENTANA CONNESSA ALL'AREA PIP SITA IN LOC SETA. CIG: 75533082F2 CUP: D67H18000130005 Importo del lotto a base di gara compresi gli oneri per la sicurezza (IVA esclusa): 90244.75 Importo oneri sicurezza: 893.51 Tipologia appalto: L Procedura: 6 CPV: 50232110-4 - Messa in opera di impianti di illuminazione pubblica Classe: I Criterio di aggiudicazione: 1 Luogo di esecuzione dei lavori: I ALLEGATI Nome Allegato Azione DETERMINA - DETERMINA A CONTRARRE.AFFIDAMENTO LAVORI PATTO TERRITORIALE. (01/01/1970) Visualizza AVVISO PUBBLICO - AVVISO PUBBLICO PER ABILITAZIONE ALBO APPALTI PUBBLICI. (01/01/1970) Visualizza LETTERA DI INVITO - Lettera di invito per formulazione offerta lavori Patto Territoriale (01/01/1970) Visualizza VERBALE AMMISSIONE ALLA GARA - VERBALE DI AMMISSIONE ALLA GARA PREVIA VERIFCA DELLA DOCUMENTAZIONE (10/09/2018) Visualizza VERBALE DI GARA - VERBALE DI GARA CON AGGIUDICAZIONE NON EFFICACE ED ESCLUSIONE OFFERTA ECONOMICA (01/01/1970) Visualizza VERBALE DI GARA - PROVVEDIMENTO DI AGGIUDICAZIONE NON EFFICACE CON VERBALE DI GARA (01/01/1970) Visualizza AGGIUDICAZIONE DEFINITIVA - DETERMINAZIONE DI AGGIUDICAZIONE DEFINITIVA (12/03/2018) Visualizza Avviso di aggiudicazione - Avviso di aggiudicazione definitiva lavori Patto Territoriale (12/03/2018) Visualizza Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -26437,7 +26425,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -26446,9 +26434,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "contentHash": "899f964d6910679c2a1f48a3e8755951da66d36f884d061056673f6e66e46243",
-      "version": 213,
+      "version": 215,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26546,7 +26534,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -26964,7 +26952,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -27740,9 +27728,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/",
       "contentHash": "f14159e93ae8b020e811ba58ecc92f141173ee577ad8813ec92858b7b5760265",
-      "version": 120,
+      "version": 122,
       "firstSeenAt": "2026-11-02T17:09:31+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27843,7 +27831,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -27852,9 +27840,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/",
       "contentHash": "af4578ac261059c1e6d06214bf4a9f6052bff89a467299b57f584dc75c4eaff4",
-      "version": 114,
+      "version": 116,
       "firstSeenAt": "2026-11-03T15:30:24+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27955,7 +27943,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -28288,7 +28276,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -28393,7 +28381,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -28607,7 +28595,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": true
     },
@@ -28961,8 +28949,8 @@
       "version": 22,
       "firstSeenAt": "2026-11-11T20:40:57+01:00",
       "lastChangedAt": "2026-11-23T08:49:07+01:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-11-24T00:58:41+01:00",
       "lastChangeFields": [
         "detailFetchOk",
         "discoveryText"
@@ -29750,9 +29738,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/game-on-sport-formazione-percorsi-iefp-f-2026-2027-RLW12025050303",
       "contentHash": "ff6187c897e9558d6b725216200762a99aa3f77c9305994a0c83f1455105ef59",
-      "version": 44,
+      "version": 46,
       "firstSeenAt": "2026-11-16T23:10:16+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -29850,7 +29838,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -29968,9 +29956,9 @@
       "source": "Regione Friuli-Venezia Giulia · Bandi",
       "sourceUrl": "https://www.regione.fvg.it/rafvg/cms/RAFVG/MODULI/bandi_avvisi/BANDI/9175.html",
       "contentHash": "d4141448d0e5cc1c5815e3d9df5fbaaeae620b1c9b38b0a7843518ba8ea12bd8",
-      "version": 32,
+      "version": 34,
       "firstSeenAt": "2026-11-17T22:01:20+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30072,7 +30060,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30081,9 +30069,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/spazio-disabilita-2027-2028-RLD12026056523",
       "contentHash": "2d2e778c4a1cbc406c104ca705c6f3750b8c026ed50c3719e32e76729f1944d3",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30184,7 +30172,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30192,14 +30180,14 @@
       "id": "REG-AUTO-9D250F6586FF",
       "source": "Regione Veneto · Bandi",
       "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13458&fromPage=Elenco&high=",
-      "contentHash": "6bced0cbec0c37df72e66b4af2bbb1f4ddd1e8fb14941887c5c165c6c68b0dad",
-      "version": 25,
+      "contentHash": "347c48941e785be1ccae7fa90dd2e3b1d1b5fa5ea53e728e18aef8ffc0ae1740",
+      "version": 26,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-23T08:45:45+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
-        "sourceStale"
+        "detailFetchOk"
       ],
       "needsAnalysis": true,
       "snapshot": {
@@ -30268,34 +30256,28 @@
         "sourceUrl": "https://bandi.regione.veneto.it/Public/Dettaglio?idAtto=13458&fromPage=Elenco&high=",
         "sourceStatus": "da-verificare",
         "discoveryText": "Portale Bandi Avvisi Concorsi - Regione del Veneto HOME H BANDI B AVVISI A CONCORSI C SCADENZARIO S Dettaglio Bando Dettaglio Bando TORNA ALLA LISTA Pubblicazione: 18/11/2026 Scadenza: 09/12/2026 23:00 Stato Atto: PUBBLICATO PUBBLICATO PUBBLICATO Titolo Indizione di procedura comparativa per curricula finalizzata alla formazione di una short list di esperti esterni, profilo giuridico, per l'eventuale conferimento di incarichi di consulenza, per attività di supporto alla Segreteria Tecnica del NUVV in materia di valutazione degli aspetti legali di progetti e programmi d'investimento. Oggetto Con DDR n. 21804 del 17/11/2026 la Direzione Valutazioni ambientali, Supporto giuridico e Contenzioso ha indetto una procedura comparativa per curricula finalizzata alla formazione di una short list di esperti esterni, profilo giuridico, per l’eventuale conferimento di incarichi di consulenza, per attività di supporto alla Segreteria Tecnica del NUVV in materia di valutazione degli aspetti legali di progetti e programmi d’investimento (CUP H74F26000100001). Tale procedura è fializzata finalizzata al garantire al NUVV adeguati livelli di competenza tecnica ed operativa, ai sensi del comma 2 dell’articolo 1 della L. n. 144/1999 e della Direttiva del Presidente del Consiglio dei Ministri del 10 settembre 1999. Requisiti necessari richiesti: - possesso dei seguenti diplomi di laurea magistrale (o vecchio ordinamento) in: LMG/01 – Giurisprudenza; - possesso di comprovata e significativa esperienza desumibile dal curriculum vitae, in attività equivalenti per contenuto e grado di complessità a quella richiesta per la presente attività; - conoscenza, da dichiarare sotto propria responsabilità, della principale normativa di settore con particolare riferimento al Codice dei Contratti (D.Lgs. 36/2023). - adeguata conoscenza di tutti i programmi del pacchetto Office. Il medesimo decreto ha approvato in allegato l’“Avviso di selezione” riportato nell’ Allegato A , recante i requisiti richiesti, e lo “Schema di domanda” riportato nell’ Allegato B , i quali sono da considerare parti integranti e sostanziali del provvedimento. La valutazione dei curricula vitae pervenuti sarà effettuata da una Commissione interna composta da dipendenti regionali, con inquadramento di dirigente o funzionario. Responsabile Unico del Procedimento è il Direttore della Direzione Valutazioni Ambientali, Supporto Giuridico e Contenzioso della Regione del Veneto. Sono demandati a successivi decreti l’approvazione della short list, l’approvazione dello schema di contratto e l’impegno di spesa sul capitolo 7039 “Spese per l’attività dei Nuclei di valutazione e verifica degli investimenti pubblici (art. 1, comma 7 L. 17/05/1999 n. 144)”, nei limiti di spesa indicati dalla D.G.R n. 791 del 28/07/2026. Dati BUR L'atto non è associato al BUR. Procedimento L'atto non è associato a nessun procedimento. Categoria - Non Selezionata - Importo 0,00 Struttura Direzione Valutazioni Ambientali, Supporto Giuridico E Contenzioso TEL 041/2794449-47 FAX 041/2794451 MAIL @ valutazioniambientalisupportoamministrativo@regione.veneto.it PEC @ valutazioniambientalisupportoamministrativo@pec.regione.veneto.it Destinatari Cittadino Impresa Materie Ambiente Acquisti Verdi - Politiche Sostenibili L'atto non appartiene alla categoria \"Acquisti Verdi\" L'atto non appartiene alla categoria \"Politiche Sostenibili\" NOTE: CIG CUP H74F26000100001 ATTI COLLEGATI Non ci sono atti collegati ALLEGATI DDR_21804 17-11-2026 [file .pdf - 366 KB] 18/11/2026 10:38:00 Numero allegato: 38238 Nome allegato: DDR_21804 17-11-2026 [file .pdf - 366 KB] Ultima modifica: 18/11/2026 10:38:00 Decreto bando short list Allegato A [file .pdf - 197 KB] 18/11/2026 10:38:00 Numero allegato: 38239 Nome allegato: Decreto bando short list Allegato A [file .pdf - 197 KB] Ultima modifica: 18/11/2026 10:38:00 Decreto bando short list Allegato B [file .pdf - 127 KB] 18/11/2026 10:38:00 Numero allegato: 38247 Nome allegato: Decreto bando short list Allegato B [file .pdf - 127 KB] Ultima modifica: 18/11/2026 10:38:00",
-        "detailFetchOk": true,
+        "detailFetchOk": false,
         "sourceStale": true
       },
       "triage": {
-        "status": "ai-required",
+        "status": "source-unavailable",
         "needsAnalysis": true,
         "etsRelevant": null,
         "excludedForEts": false,
         "reasons": [
-          "destinatari_da_interpretare"
+          "fonte_non_accessibile"
         ],
         "evidence": [
-          "titolo_specifico",
-          "fonte_ufficiale_collegata",
-          "territorio_noto",
-          "natura_bando_riconoscibile",
-          "testo_sufficiente",
-          "stato_o_scadenza_noti"
+          "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli."
         ],
         "audience": {
-          "known": false,
           "scope": "unknown",
-          "evidence": [],
           "specificLegalFormConfirmed": false,
+          "known": false,
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30304,9 +30286,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/percorsi-personalizzati-allievi-disabilit-ppd-iefp-ii-iii-anno-f-2026-2027-fse-2021-2027-RLW12025050928",
       "contentHash": "036bb1b55850cf1c4e733d5b2e746538cd5cbf96dfb371132f47c48455bbf8a9",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30405,7 +30387,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30414,9 +30396,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/interventi-sostegno-allievi-disabilit-frequentanti-percorsi-triennali-quadriennali-iv-anno-iefp-f-2026-2027-RLW12025050923",
       "contentHash": "e874a90e3e25570273ca6bfb595542d75456c38eb826970692c08aec6b224c1e",
-      "version": 26,
+      "version": 28,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30513,7 +30495,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30522,9 +30504,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-sostegno-bande-musicali-fanfare-cori-gruppi-folk-lombardia-sensi-art-5-l-r-n-5-2025-anno-2026-RLL12026057483",
       "contentHash": "12ae4ee3aa8f425b5f29e092ee7eb378033ecc52326f1a6b7b2282b5387ccf03",
-      "version": 16,
+      "version": 18,
       "firstSeenAt": "2026-11-20T21:27:30+01:00",
-      "lastChangedAt": "2026-11-23T08:49:07+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30620,7 +30602,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-23T08:49:07+01:00"
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
       },
       "excludedForEts": false
     },
@@ -30632,8 +30614,8 @@
       "version": 16,
       "firstSeenAt": "2026-11-20T21:27:30+01:00",
       "lastChangedAt": "2026-11-23T08:49:07+01:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-11-24T00:58:41+01:00",
       "lastChangeFields": [
         "detailFetchOk",
         "discoveryText"
@@ -30737,14 +30719,122 @@
         "evaluatedAt": "2026-11-23T08:49:07+01:00"
       },
       "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845": {
+      "id": "RLA12026057845",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845",
+      "contentHash": "0e59c571bf4126f108bde224634149585cd48479336662c7b590f303a61769a5",
+      "version": 2,
+      "firstSeenAt": "2026-11-24T00:58:41+01:00",
+      "lastChangedAt": "2026-11-24T01:02:38+01:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "detailFetchOk",
+        "discoveryText",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "Anno 2027 Contributi per iniziative e manifestazioni di rilievo regionale, ai sensi della Legge regionale n. 50 del 1986",
+        "source": "Regione Lombardia",
+        "deadline": "2027-11-22",
+        "fund": null,
+        "maxGrant": null,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "chiude",
+          "anno",
+          "contributi",
+          "iniziative",
+          "manifestazioni",
+          "rilievo",
+          "regional",
+          "codice",
+          "richieste",
+          "contributo",
+          "ordinario",
+          "sensi"
+        ],
+        "sectors": [
+          "chiude",
+          "anno",
+          "contributi",
+          "iniziative",
+          "manifestazioni",
+          "rilievo",
+          "regional",
+          "codice"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845",
+        "discoveryText": "Aperto Anno 2027 Contributi per iniziative e manifestazioni di rilievo regionale, ai sensi della Legge regionale n. 50 del 1986 Codice: RLA12026057845 Pubblicato il: 20/11/2026 , ore 11:33 Domande dal: 23/11/2026 , ore 10:00 Scade il: 22/11/2027 , ore 16:00 Richieste di contributo ordinario, ai sensi della l.r. 50 del 1986 per l'anno 2027. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLA12026057845 Pubblicato il: 20/11/2026 , ore 11:33 Domande dal: 23/11/2026 , ore 10:00 Scade il: 22/11/2027 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda di contributo i seguenti soggetti che operano senza scopo di lucro e non promuovono alcuna forma di discriminazione: - associazioni, fondazioni, comitati, organizzazioni di volontariato (ODV), le associazioni di promozione sociale (APS), le cooperative sociali e le organizzazioni non governative (ONG), ecc. - enti pubblici, Comunità montane, Unione di Comuni, Province, Città Metropolitana e Consorzi tra amministrazioni locali lombarde, ecc. I soggetti sopra elencati devono: - operare prevalentemente sul territorio regionale oppure pur avendo sede legale fuori dal territorio lombardo, proporre un’iniziativa che contribuisce alla valorizzazione dell’identità della Lombardia e apporta anche un’efficace promozione dell’immagine di Regione in campo nazionale e/o internazionale; - avere nello statuto finalità coerenti con l’evento presentato. Il soggetto richiedente potrà ricevere un solo contributo nell’arco dell’anno solare ai sensi del Bando 2027. Non verranno concessi contributi per iniziative che : - nella stessa annualità, risultino beneficiarie di altro contributo regionale concesso da altre Direzioni generali o dal Consiglio regionale della Lombardia nella stessa annualità - risultino beneficiarie di altro contributo che, previsto da leggi regionali, sia erogato da enti o amministrazioni a cui sono state delegate competenze ed assegnate risorse per sostenere iniziative della medesima tipologia Di cosa si tratta Sono finanziabili eventi quali manifestazioni, celebrazioni, festival, rassegne, eventi espositivi, spettacoli, mostre, convegni, seminari, congressi, incontri, iniziative sportive, che offrano un contributo sociale e culturale alla società lombarda nelle materie di competenza regionale, finalizzati alla valorizzazione del territorio lombardo. È importante che le iniziative siano significative, sia per la rilevanza che per la qualità dei contenuti e che non si esauriscano solo nell’ambito interno del soggetto che le promuove, ma abbiano una rilevanza esterna di particolare significato nel territorio. Sono finanziabili le iniziative che: - possiedono un effettivo rilievo regionale; - apportano un contributo di rilievo culturale, scientifico, sociale, sportivo, turistico, economico ecc. nell’ambito ed a vantaggio dello sviluppo del territorio e della popolazione lombarda; - siano coerenti con le disposizioni statutarie di Regione Lombardia, con le finalità della l.r. 50/1986 e con gli obiettivi individuati nei documenti di programmazione regionale. Le iniziative dovranno iniziare e concludersi nell’anno 2027. Cosa serve La domanda deve essere corredata dai seguenti allegati da caricare elettronicamente sulla piattaforma Bandi e Servizi: - modulo di domanda di contributo compilato e firmato elettronicamente con firma digitale o firma elettronica qualificata o firma elettronica avanzata (il documento sarà scaricabile al termine della compilazione in Bandi e Servizi); - copia dell’Atto costitutivo e dello Statuto vigenti (tranne per gli Enti Pubblici) in formato PDF - Due versioni del programma dell’iniziativa che riporti in modo dettagliato giorno, luogo di svolgimento, presenze istituzionali, temi trattati durante gli interventi, eventuale elenco dei relatori, di cui una versione con il logo di Regione Lombardia, (logo da scaricare in fase di domanda) in formato PDF Dotazione finanziaria La dotazione, pari a € 270.000,00 è così ripartita: • Associazioni: stanziamento pari a € 200.000 • Enti Pubblici: stanziamento pari a € 70.000 Caratteristiche dell'agevolazione Concessione di contributi a soggetti pubblici e privati che non perseguono fini di lucro e promuovono iniziative e manifestazioni di rilievo regionale. La tipologia di procedura utilizzata è valutativa a graduatoria: le domande riceveranno una valutazione di merito e verranno ordinate secondo una graduatoria di punteggi (massimo di 160 punti), ai fini della determinazione del contributo: Punteggio Contributo superiore a 130 punti contributo di 20.000,00 euro da 111 fino a 130 punti contributo di 15.000,00 euro da 101 fino a 110 punti contributo di 12.500,00 euro da 91 fino a 100 punti contributo di 10.000,00 euro da 81 fino a 90 punti contributo di 7.500,00 euro da 71 fino a 80 punti contributo di 5.000,00 euro da 50 fino a 70 punti contributo di 2.500,00 euro fino a 50 punti nessun contributo Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Serie Ordinaria 47 - Giovedì 19 novembre 2026 Come partecipare La domanda di partecipazione deve essere presentata almeno 60 giorni prima dell’inizio dell’evento esclusivamente online su Bandi e Servizi www.bandi.regione.lombardia.it, a partire dalle ore 10:00 del 23 novembre 2026 fino al 22 novembre 2027 alle ore 16:00 . Per accedere alla procedura è necessario registrare sia la persona fisica che opera sia l’ente giuridico seguendo le istruzioni presenti sulla piattaforma Bandi e Servizi. Si segnala che il presente Bando non è riservato alle persone fisiche, pertanto, una volta effettuato l’accesso con SPID, CNS o CIE con PIN dispositivo è necessario associare il nome della persona fisica all’ente che organizza l’evento, per procedere cliccare in alto a destra sul nome e cognome e selezionare il campo “Nuovo profilo”, da questo momento in poi tutto quello che viene richiesto è riferito al soggetto giuridico e non alla persona fisica (fase di profilazione). Si ricorda che in fase di profilazione i documenti da allegare devono essere accorpati in un unico file, non sono ammessi invii separati. Segue una fase di validazione delle informazioni di registrazione e profilazione, che può richiedere fino a dieci giorni lavorativi, durante la quale non è possibile operare sulla piattaforma. I contributi sono assegnati ai richiedenti, con provvedimento del Dirigente competente di norma almeno 30 giorni prima dell’inizio dell’evento e sulla base delle risorse annuali disponibili e ripartite su base mensile, ad esclusione dei periodi 1 - 31 agosto e 1 - 31 dicembre. Farà fede esclusivamente la data di invio al protocollo registrata dalla procedura online. Farà fede esclusivamente la data di invio al protocollo registrata dalla procedura online. Procedura selezione Procedura valutativa a graduatoria Informazioni e contatti Per informazioni riferite al bando: e-mail: contributi_patrocini@regione.lombardia.it Per informazioni tecniche: Call Center di Aria S.p.A. numero verde 800.131.151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica). e-mail: bandi@regione.lombardia.it Allegati Bando 2027 - Contributi per iniziative e manifestazioni di rilievo regionale, ai sensi della Legge regionale n. 50 del 1986 - 23/11/2026 (DC) APPROVAZIONE DEL BANDO 2027 PER LA CONCESSIONE DI CONTRIBUTI PER INIZIATIVE E MANIFESTAZIONI DI RILIEVO REGIONALE AI SENSI DELLA L.R. 12 SETTEMBRE 1986, N. 50 - 17/11/2026 Informativa sul Trattamento dei Dati Personali - 20/11/2026",
+        "detailFetchOk": true,
+        "sourceStale": false
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "organizzazioni di volontariato",
+            "associazioni di promozione sociale",
+            "odv",
+            "aps"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 4,
+        "evaluatedAt": "2026-11-24T01:02:38+01:00"
+      },
+      "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-11-23T08:49:07+01:00",
+  "triageUpdatedAt": "2026-11-24T01:02:38+01:00",
   "triageSummary": {
-    "rulesResolved": 6,
+    "rulesResolved": 5,
     "rulesExcludedForEts": 91,
-    "aiRequired": 39,
-    "notPresent": 149,
+    "aiRequired": 38,
+    "notPresent": 152,
     "ruleVersion": 4
   }
 }
