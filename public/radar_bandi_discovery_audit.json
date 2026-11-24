@@ -17,8 +17,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-B502E34F2C01",
@@ -27,8 +27,8 @@
       "status": "not_a_call",
       "reason": "Collegamento di navigazione della pagina, non un avviso autonomo.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-FCD08A990326",
@@ -37,7 +37,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -47,7 +47,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -57,8 +57,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-AA7CDBEA00E9",
@@ -67,8 +67,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "PIE-AUTO-519355BE80BE",
@@ -77,8 +77,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-07FE341ABA04",
@@ -87,8 +87,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "RLL12026057483",
@@ -97,8 +97,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "RLD12026056523",
@@ -107,8 +107,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-817347F304D1",
@@ -117,7 +117,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -127,7 +127,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -137,8 +137,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-9D250F6586FF",
@@ -147,7 +147,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-23T08:45:45+01:00"
     },
     {
@@ -157,8 +157,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-9D36A454F526",
@@ -197,8 +197,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-0ED70F7D483F",
@@ -207,8 +207,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-866D64FA7F3D",
@@ -227,7 +227,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -417,8 +417,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-E22005E8DE9F",
@@ -447,7 +447,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -457,7 +457,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -467,7 +467,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -477,7 +477,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -487,7 +487,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -507,7 +507,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-23T08:45:45+01:00"
     },
     {
@@ -527,8 +527,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-5E8EB6C3611F",
@@ -537,7 +537,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -547,7 +547,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -557,8 +557,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "RLW12025050923",
@@ -567,8 +567,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-802DE2802F3C",
@@ -577,8 +577,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-C0E39D4A4358",
@@ -587,8 +587,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-5D9EB4C71740",
@@ -597,7 +597,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-23T08:45:45+01:00"
     },
     {
@@ -607,8 +607,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-5F4C03DFBDDD",
@@ -617,8 +617,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-D37749662A16",
@@ -627,8 +627,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-DD3AA18AD8A1",
@@ -1237,8 +1237,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-8F97D7B298AC",
@@ -1247,7 +1247,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -1257,7 +1257,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -1267,7 +1267,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -1277,7 +1277,7 @@
       "status": "source_unavailable",
       "reason": "Ultima lettura della fonte non riuscita; conservare i dati precedenti senza certificarli.",
       "detailFetchOk": false,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
       "detailFetchedAt": "2026-11-22T20:46:52+01:00"
     },
     {
@@ -1307,8 +1307,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-5CB7CC82AFC2",
@@ -1317,8 +1317,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-323C49FE70D2",
@@ -1337,8 +1337,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     },
     {
       "id": "REG-AUTO-2DA7C42694E9",
@@ -1347,8 +1347,8 @@
       "status": "documentary_review",
       "reason": "Verificare avviso e allegati: la sola pagina raccolta non prova destinatari e requisiti.",
       "detailFetchOk": true,
-      "detailFetchAttemptedAt": "2026-11-24T00:58:42+01:00",
-      "detailFetchedAt": "2026-11-24T00:58:42+01:00"
+      "detailFetchAttemptedAt": "2026-11-24T11:00:09+01:00",
+      "detailFetchedAt": "2026-11-24T11:00:09+01:00"
     }
   ]
 }
