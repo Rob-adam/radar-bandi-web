@@ -34,7 +34,57 @@
           }
         ]
       }
+    },
+    {
+      "id": "OXFAM-COPOWER-2026-R2",
+      "title": "CoPower — seconda finestra nazionale 2026/2027",
+      "source": "Oxfam Italia ETS",
+      "status": "programmato",
+      "submissionStatus": "forthcoming",
+      "dateEvidenceType": "official_call",
+      "opening": "2026-12-01",
+      "deadline": "2027-03-01",
+      "publicationWindow": "Apertura 01/12/2026 · scadenza 01/03/2027, ore 15:00",
+      "budgetLabel": "Dotazione seconda finestra 100.000 € · contributi 5.000–50.000 €",
+      "summary": "Seconda finestra del bando nazionale per progetti contro la violenza di genere. Capofila e partner devono documentare esperienza specifica; il contributo non può superare il 40% della media delle entrate degli ultimi due bilanci. Nessun cofinanziamento obbligatorio.",
+      "nextAction": "Il 1° dicembre ricontrollare la pagina di candidatura e l’orario ufficiale; solo dopo l’apertura effettiva spostare la finestra tra le opportunità aperte con il match RB-0003 e i requisiti ancora non documentati.",
+      "sourceUrl": "https://www.oxfamitalia.org/copower/",
+      "evidenceUrls": [
+        "https://www.oxfamitalia.org/wp-content/uploads/2026/08/Bando_CoPower-1.pdf"
+      ],
+      "profileKeywords": [
+        "donne",
+        "violenza di genere",
+        "ragazze"
+      ],
+      "sectors": [
+        "diritti",
+        "inclusione sociale",
+        "contrasto violenza di genere"
+      ],
+      "beneficiaries": [
+        "donne",
+        "ragazze",
+        "vittime e sopravvissute alla violenza"
+      ],
+      "tracking": {
+        "verifiedAt": "2026-11-24",
+        "verificationEvidence": [
+          {
+            "url": "https://www.oxfamitalia.org/copower/",
+            "checkedAt": "2026-11-24",
+            "note": "Pagina ufficiale aggiornata dopo la prima scadenza: candidature riaprono il 01/12/2026 e seconda finestra fino al 01/03/2027 alle 15:00; dotazione 100.000 €."
+          },
+          {
+            "url": "https://www.oxfamitalia.org/wp-content/uploads/2026/08/Bando_CoPower-1.pdf",
+            "checkedAt": "2026-11-24",
+            "note": "Bando ufficiale: seconda fase 01/12/2026–01/03/2027 ore 15:00, durata massima 16 mesi e requisiti economici/di esperienza."
+          }
+        ],
+        "verificationNote": "Pagina nazionale Oxfam Italia e bando PDF concordano sul 01/03/2027 alle 15:00. Un microsito Oxfam in lingua inglese mostra invece 26/02/2027: la data va ricontrollata all’apertura prima di promuovere la finestra tra i bandi candidabili."
+      }
     }
   ],
-  "updatedAt": "18/11/2026 08:20"
+  "updatedAt": "24/11/2026 08:05",
+  "total": 2
 }

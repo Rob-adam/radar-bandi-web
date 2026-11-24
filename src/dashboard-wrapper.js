@@ -23,10 +23,18 @@ function esc(v){
   return String(v||"").replace(/[&<>\"']/g,ch=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[ch]));
 }
 
-export function renderPlannedOpportunities(records,profile){
+export function matchingPlannedOpportunities(records,profile){
   const mission=[profile?.areas,profile?.activities,profile?.sector,profile?.beneficiaries,profile?.statutoryPurposes].join(' ').toLowerCase();
-  if(!/salute|sanitari|pazient|health/.test(mission))return '';
-  const planned=records.filter(b=>b.status==='programmato');
+  if(!/salute|sanitari|pazient|health/.test(mission))return [];
+  return records.filter(b=>{
+    if(b.status!=='programmato')return false;
+    const required=Array.isArray(b.profileKeywords)?b.profileKeywords:[];
+    return !required.length||required.some(term=>mission.includes(String(term).toLowerCase()));
+  });
+}
+
+export function renderPlannedOpportunities(records,profile){
+  const planned=matchingPlannedOpportunities(records,profile);
   if(!planned.length)return '';
   return `<section aria-label="Opportunità programmate" style="margin-top:24px;padding:18px;border:1px solid #2a4a61;border-radius:14px;background:#0c1c2c"><h2 style="font-size:18px;margin:0 0 12px">Prossime aperture e programmi annunciati</h2><p class="small">Consulta le date disponibili e verifica i requisiti di ogni avviso. Queste segnalazioni non entrano nel conteggio dei bandi monitorati.</p>${planned.map(b=>`<article><h3 style="font-size:16px">${esc(b.title)}</h3><p><strong>${b.submissionStatus==='forthcoming' ? 'AVVISO PUBBLICATO · candidature non ancora aperte' : b.dateEvidenceType==='tentative_calendar' ? 'PROGRAMMATO · date indicative, candidatura non verificata' : b.opening && b.deadline ? 'PROSSIMA APERTURA · date da bando ufficiale' : 'PROGRAMMATO · apertura e scadenza non verificate'}</strong></p><p>${esc(b.publicationWindow)} · ${esc(b.budgetLabel)}</p><p>${esc(b.summary)}</p><p class="small">${esc(b.nextAction)}</p><a href="${esc(b.sourceUrl)}" target="_blank" rel="noopener noreferrer" style="color:#67b9ff">${b.dateEvidenceType==='tentative_calendar' ? 'Leggi il calendario ufficiale' : b.opening && b.deadline ? 'Leggi il bando ufficiale' : 'Leggi il programma ufficiale'}</a><p class="small">Fonte controllata il ${esc(b.tracking?.verifiedAt)}. Ammissibilità dell’ente non verificata.</p></article>`).join('')}</section>`;
 }
@@ -57,8 +65,9 @@ async function dashboard(request,env,ctx){
     const plannedResponse=await env.ASSETS.fetch(new Request(new URL('/radar_bandi_programmati.json',request.url)));
     if(plannedResponse.ok){
       const planned=await plannedResponse.json();
-      const plannedHtml=renderPlannedOpportunities(planned.bandi||[],p);
-      const plannedCount=plannedHtml ? (planned.bandi||[]).filter(b=>b.status==='programmato').length : 0;
+      const matchingPlanned=matchingPlannedOpportunities(planned.bandi||[],p);
+      const plannedHtml=renderPlannedOpportunities(matchingPlanned,p);
+      const plannedCount=matchingPlanned.length;
       const info={count:plannedCount,updatedAt:plannedCount ? planned.updatedAt||null : null};
       html=html.replace('const plannedInfo={count:0,updatedAt:null};','const plannedInfo='+JSON.stringify(info).replace(/</g,'\\u003c')+';');
       html=html.replace('<div class="product-footer">',plannedHtml+'<div class="product-footer">');

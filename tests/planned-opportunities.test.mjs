@@ -8,8 +8,18 @@ test('verified Cattolica opening is published once and excluded from future coun
  const live=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_catalogo_extra.json',import.meta.url))).bandi.filter(b=>b.id==='CATTOLICA-UNA-MANO-2026');
  assert.equal(live.length,1);assert.equal(live[0].submissionStatus,'open');
  assert.ok(!records.some(b=>['EU4HEALTH-OA-g-26-91','CATTOLICA-UNA-MANO-2026'].includes(b.id)));
- assert.equal(records.length,1);
+ assert.equal(records.length,2);
  assert.match(renderPlannedOpportunities(records,{areas:'salute'}),/EU4Health — approccio multidisciplinare/);
+});
+test('CoPower second round stays scheduled and is shown only to a coherent profile',()=>{
+ const b=records.find(item=>item.id==='OXFAM-COPOWER-2026-R2');
+ assert.ok(b);
+ assert.equal(b.status,'programmato');
+ assert.equal(b.submissionStatus,'forthcoming');
+ assert.equal(b.opening,'2026-12-01');
+ assert.equal(b.deadline,'2027-03-01');
+ assert.match(renderPlannedOpportunities(records,{areas:'salute',beneficiaries:'Donne'}),/CoPower — seconda finestra/);
+ assert.doesNotMatch(renderPlannedOpportunities(records,{areas:'salute',beneficiaries:'Pazienti'}),/CoPower — seconda finestra/);
 });
 test('a future notice stays separate until candidacy is verified',()=>{
  const b=future;
