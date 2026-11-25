@@ -330,3 +330,22 @@ test('newer editorial Cariplo review is not overwritten by stale runtime rules',
  assert.ok(!b.hardRequirements.some(r=>r.label==='Capofila proprietario o gestore di istituzione museale; per altri enti verificare il ruolo ammesso come partner o rete'));
  assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
 });
+test('RUNDMI patient consultation is open but keeps specialist experience unproved',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-25T09:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='SALUTE-RUNDMI-PAZIENTI-2026');
+ assert.ok(b);assert.equal(b.sourceStatus,'aperto');assert.equal(b.submissionStatus,'open');
+ assert.equal(b.deadline,'2026-11-27');assert.equal(b.fund,0);assert.equal(b.maxGrant,0);
+ assert.deepEqual(b.territories,['italia']);assert.equal(b.foundationYear,null);assert.equal(b.annualRevenue,null);
+ assert.equal(b.eligibilityStatus,'da_verificare');assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('competenza ed esperienza')&&r.label.includes('RUNDMI')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('Nessun compenso')));
+ assert.ok(b.tracking.verificationEvidence.some(e=>e.url.endsWith('Avviso_pazienti11.2026.pdf')));
+ const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
+ const prefix=source.slice(0,source.indexOf('const favoriteKey='));const nodes=new Map();
+ const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify(profile)).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};
+ vm.createContext(context);vm.runInContext(prefix+'globalThis.api={calc};})();',context);
+ const result=context.api.calc(b);assert.ok(result.score<35);
+ t.mock.timers.setTime(new Date('2026-11-28T00:00:01+01:00').getTime());
+ assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===b.id));
+});

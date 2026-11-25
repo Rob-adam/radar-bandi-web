@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedPublished": 15,
+  "reviewedPublished": 16,
   "publishedIds": [
     "CARIPT-BORSE-LAVORO-2026",
     "VEN-SERVIZIO-CIVILE-REGIONALE-2026",
@@ -16,9 +16,10 @@
     "REG-AUTO-8351C5E0B31E",
     "CATTOLICA-UNA-MANO-2026",
     "VENETO-FRAGILITA-ETS-2026",
-    "FC-MUSEI-ACCESS-2026"
+    "FC-MUSEI-ACCESS-2026",
+    "SALUTE-RUNDMI-PAZIENTI-2026"
   ],
   "discovered": 134,
   "pendingReview": 38,
-  "note": "La coda contiene anche segnalazioni da classificare, non solo bandi ammissibili. Nessuna AI è stata eseguita da questo passaggio."
+  "note": "La coda contiene anche segnalazioni da classificare, non solo bandi ammissibili. Aggiunta la consultazione RUNDMI verificata il 25/11/2026; nessuna AI è stata eseguita da questo passaggio."
 }

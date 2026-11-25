@@ -1,5 +1,5 @@
 {
-  "updatedAt": "21/11/2026 07:48",
+  "updatedAt": "25/11/2026 08:45",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -3141,7 +3141,137 @@
         ],
         "publicationReviewId": "review-20261121-FC-MUSEI-ACCESS-2026"
       }
+    },
+    {
+      "id": "SALUTE-RUNDMI-PAZIENTI-2026",
+      "title": "Ministero della Salute — consultazione delle associazioni dei pazienti sul RUNDMI",
+      "source": "Ministero della Salute",
+      "sourceUrl": "https://www.salute.gov.it/new/it/amministrazione-trasparente/avvisi-pubblici-e-manifestazioni-di-interesse/",
+      "evidenceUrls": [
+        "https://www.salute.gov.it/new/sites/default/files/Avviso_pazienti11.2026.pdf"
+      ],
+      "opensAt": "2026-11-12T00:00:00+01:00",
+      "openingDate": "2026-11-12",
+      "deadline": "2026-11-27",
+      "sourceStatus": "aperto",
+      "submissionStatus": "open",
+      "fund": 0,
+      "maxGrant": 0,
+      "grantLabel": "Beneficio economico",
+      "aid": "Partecipazione non retribuita alle attività di consultazione e confronto sul Registro unico nazionale dei dispositivi medici impiantabili (RUNDMI). Nessun compenso, rimborso o altro beneficio economico.",
+      "tags": [
+        "Nazionale",
+        "Associazioni di pazienti",
+        "ETS",
+        "RUNTS",
+        "Salute",
+        "Consultazione",
+        "Nessun contributo economico"
+      ],
+      "territories": [
+        "italia"
+      ],
+      "legalForms": [
+        "ets",
+        "aps",
+        "odv",
+        "associazione di pazienti",
+        "organizzazione di pazienti"
+      ],
+      "sectors": [
+        "dispositivi medici impiantabili",
+        "registri sanitari",
+        "sicurezza dei dispositivi"
+      ],
+      "beneficiaries": [
+        "portatori di pacemaker e altri dispositivi medici impiantabili"
+      ],
+      "activities": [
+        "monitoraggio di sicurezza post-impianto",
+        "tracciabilità degli impianti nel RUNDMI"
+      ],
+      "purposes": [
+        "governance del registro RUNDMI",
+        "vigilanza sui dispositivi medici impiantabili"
+      ],
+      "keywords": [
+        "rundmi",
+        "dispositivi medici impiantabili",
+        "registro nazionale",
+        "associazioni pazienti",
+        "consultazione",
+        "tracciabilità"
+      ],
+      "eligibility": [
+        "Enti del Terzo Settore, associazioni e organizzazioni dei pazienti impegnati a livello nazionale. L'operatività nazionale dichiarata da RB-0003 è coerente con il territorio, ma non prova l'esperienza specialistica richiesta.",
+        "Competenza ed esperienza nelle materie collegate all'istituzione del RUNDMI, da descrivere e documentare con particolare riferimento a tutela, rappresentanza, informazione e supporto dei pazienti.",
+        "Iscrizione al RUNTS e domanda firmata dal legale rappresentante con dati dell'organizzazione, referente e disponibilità a partecipare al percorso di confronto.",
+        "Allegare atto costitutivo, statuto, relazione sulle attività, dichiarazione di trasparenza organizzativa e finanziaria con fonti di finanziamento e documento d'identità del legale rappresentante ove richiesto.",
+        "Invio esclusivamente tramite PEC entro il 27 novembre 2026 con l'oggetto indicato nell'avviso ufficiale.",
+        "L'inserimento nell'elenco non garantisce la partecipazione a ogni attività. Non sono previsti compensi, rimborsi, rapporti convenzionali o altri benefici economici.",
+        "Nessun anno minimo di costituzione o soglia di entrate è indicato nell'avviso ufficiale."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Documentare competenza ed esperienza nelle materie collegate al RUNDMI e ai dispositivi medici impiantabili; la generica attività sanitaria o a favore dei pazienti non basta."
+        },
+        {
+          "type": "document",
+          "label": "Dimostrare impegno a livello nazionale e attività di tutela, rappresentanza, informazione e supporto dei pazienti."
+        },
+        {
+          "type": "document",
+          "label": "RUNTS, domanda firmata dal legale rappresentante, atto costitutivo, statuto, relazione attività, trasparenza finanziaria e documento d'identità ove richiesto."
+        },
+        {
+          "type": "document",
+          "label": "Invio tramite PEC entro il 27 novembre 2026 con oggetto e modelli previsti dall'avviso."
+        },
+        {
+          "type": "document",
+          "label": "Nessun compenso, rimborso o beneficio economico; l'inserimento nell'elenco non assicura la partecipazione a ogni consultazione."
+        }
+      ],
+      "hardKeyword": "dispositivi medici impiantabili",
+      "foundationYear": null,
+      "annualRevenue": null,
+      "eligibilityStatus": "da_verificare",
+      "applicantChecks": [
+        {
+          "label": "Esperienza documentata di RB-0003 sui dispositivi medici impiantabili e sul RUNDMI.",
+          "status": "unknown"
+        },
+        {
+          "label": "Attività nazionale documentata di tutela, rappresentanza, informazione e supporto dei pazienti pertinente alla consultazione.",
+          "status": "unknown"
+        },
+        {
+          "label": "Disponibilità della documentazione e invio PEC conforme entro il 27 novembre 2026.",
+          "status": "unknown"
+        }
+      ],
+      "tracking": {
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-11-25",
+        "verificationNote": "Pagina istituzionale e PDF ufficiale letti il 25/11/2026. Verificati destinatari, scadenza, modalità PEC, documenti, assenza di benefici economici e carattere non automatico della partecipazione. Per RB-0003 restano da documentare l'esperienza specifica su dispositivi medici impiantabili/RUNDMI e la documentazione richiesta.",
+        "verificationEvidence": [
+          {
+            "url": "https://www.salute.gov.it/new/it/amministrazione-trasparente/avvisi-pubblici-e-manifestazioni-di-interesse/",
+            "checkedAt": "2026-11-25",
+            "note": "Pagina ufficiale aggiornata il 12/11/2026: destinatari nazionali, scadenza 27/11/2026 e documenti collegati."
+          },
+          {
+            "url": "https://www.salute.gov.it/new/sites/default/files/Avviso_pazienti11.2026.pdf",
+            "checkedAt": "2026-11-25",
+            "note": "Avviso firmato: requisiti, documentazione, invio PEC, valutazione, nessun compenso/rimborso o beneficio economico."
+          }
+        ]
+      }
     }
   ],
-  "publishedAt": "2026-11-21T07:48:02+01:00"
+  "publishedAt": "2026-11-25T08:45:00+01:00"
 }
