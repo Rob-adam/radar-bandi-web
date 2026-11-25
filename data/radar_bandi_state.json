@@ -1,6 +1,6 @@
 {
   "schemaVersion": 3,
-  "catalogUpdatedAt": "2026-11-25T09:46:01+01:00",
+  "catalogUpdatedAt": "2026-11-25T22:50:44+01:00",
   "regionsEnabled": [
     "abruzzo",
     "basilicata",
@@ -1242,9 +1242,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/pre-informazione-fondi-ue/interventi-la-prevenzione-della-produzione-dei-rifiuti-rivolta-soggetti",
       "contentHash": "31cd6f496940d81bef204a1e0222928000e1f914af00d864de74dc2f58c6be28",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1354,7 +1354,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -1363,9 +1363,9 @@
       "source": "Regione Piemonte · Bandi",
       "sourceUrl": "https://bandi.regione.piemonte.it/contributi-finanziamenti/lr-232004-e-smi-interventi-lo-sviluppo-e-la-promozione-della-cooperazione",
       "contentHash": "87ab2dfef03467b1ec38291de6d6a5220853453ec3959511403f0b138d320a87",
-      "version": 82,
+      "version": 84,
       "firstSeenAt": "2026-08-29T14:19:47+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -1473,7 +1473,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -6521,7 +6521,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -6530,9 +6530,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#main-content",
       "contentHash": "10d44ab959135d14dc5218c6b63af6ca841d064248199d45ed790d56d4ba69d5",
-      "version": 411,
+      "version": 413,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6626,7 +6626,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -6635,9 +6635,9 @@
       "source": "Regione Trentino-Alto Adige · Bandi",
       "sourceUrl": "https://www.regione.taa.it/Amministrazione-Trasparente/Bandi-di-gara-e-contratti#footer",
       "contentHash": "6dd4c74fd88d19d9fb52db1a98052285acd511b8fc04ec12ad3abecef19513c2",
-      "version": 411,
+      "version": 413,
       "firstSeenAt": "2026-09-26T13:36:28+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -6731,7 +6731,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -14109,7 +14109,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -14427,7 +14427,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -14532,7 +14532,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -14637,7 +14637,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -14737,7 +14737,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -14839,7 +14839,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -14939,7 +14939,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -15040,7 +15040,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -15145,7 +15145,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15250,7 +15250,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15355,7 +15355,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15450,7 +15450,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -15553,7 +15553,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15655,7 +15655,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -15760,7 +15760,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15865,7 +15865,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -15968,7 +15968,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -16071,7 +16071,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -16174,7 +16174,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -16274,7 +16274,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -16936,9 +16936,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/dgr-n-637-2023-patrocinio-oneroso-per-iniziative-di-interesse-pubblico-iii-quadrimestre-2026/",
       "contentHash": "7bf4bb046fb6568c812c9d3ea960e30b881b1bc3095e9413ee1dbd3d6e9de150",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17035,7 +17035,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -17137,7 +17137,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17146,9 +17146,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-imprese/",
       "contentHash": "83c670bc7813a01df294fc80e559ea5c5cd38fa6550e29ae9f2a511c738e516a",
-      "version": 219,
+      "version": 221,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17245,7 +17245,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -17254,9 +17254,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-fc-voucher-professionisti/",
       "contentHash": "46a9b92987e8c168e0fc7de2502153aaa6a7412023e56044ab5db50424938e97",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -17351,7 +17351,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -17448,7 +17448,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17548,7 +17548,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17645,7 +17645,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17743,7 +17743,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17845,7 +17845,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -17944,7 +17944,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18043,7 +18043,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18143,7 +18143,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18245,7 +18245,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18347,7 +18347,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18446,7 +18446,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18546,7 +18546,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18645,7 +18645,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18741,7 +18741,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18837,7 +18837,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -18937,7 +18937,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -19033,7 +19033,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -19133,7 +19133,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -19142,9 +19142,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/lavori-di-riparazione-di-dispositivi-mobili-in-dotazione-al-corpo-della-polizialocale-di-matera/",
       "contentHash": "51b24ac9c777175d04fb059d07ab1d5ca152b21d9f3cedb58d0ec8c2f487f443",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19243,7 +19243,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19341,7 +19341,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -19350,9 +19350,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-il-finanziamento-di-interventi-di-efficientamento-energetico-e-miglioramento-degli-impianti-di-illuminazione-pubblica/",
       "contentHash": "dcfde1125fe5fa8c48e5a617c1b66dfb174db83607e0d54c6fb5cfde70877b9e",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19453,7 +19453,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19462,9 +19462,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-contratti-di-sviluppo-a-valenza-regionale/",
       "contentHash": "c2f6b6f5dd92949450fe541d4f77cbf0dd96558f49a7ff4a0e96fe4e900491dd",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19560,7 +19560,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19569,9 +19569,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilavoro-2-0-incentivi-alle-imprese-per-lassunzione-stabile-di-lavoratori-disoccupati-e-provenienti-da-crisi-industriali/",
       "contentHash": "8704f90e6f650e57417b3de3abd7eb1a81b96227d74bf158dad69b144a981c20",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19672,7 +19672,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19681,9 +19681,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-basilstep-tirocini-e-lavoro/",
       "contentHash": "5d49504892f6050a59ce2fb33754ac80a3c85b6c8ec0b766f4e3a059eb868295",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19779,7 +19779,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19787,10 +19787,10 @@
       "id": "REG-AUTO-D37749662A16",
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
-      "contentHash": "f2cd2b816720d904e9b4b2b2742ed19da41f226fb954ff3b7a5c9fb7eda3103d",
-      "version": 221,
+      "contentHash": "bdbe8aa1fdc7dafb60ca25b8e980cab0f5ee3b8819848bd019a8743298d923d0",
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -19861,7 +19861,7 @@
         "hardKeyword": null,
         "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-pronti-per-lexport-misure-di-internazionalizzazione-per-le-imprese-lucane/",
         "sourceStatus": "da-verificare",
-        "discoveryText": "Vai al contenuto Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 5.500.000,00 Giorni alla scadenza: 401 Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Inizio presentazione istanze: 06/07/2026 00:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 331 Data atto: 10/06/2026 Data di pubblicazione sul BUR: 16/06/2026 Numero di pubblicazione sul BUR: 28 Ente : Regione Basilicata IMPORTO TOTALE € 5.500.000,00 Ufficio : UFFICIO INTERNAZIONALIZZAZIONE, RICERCA SCIENTIFICA E INNOVAZIONE TECNOLOGICA Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1781618940069_D.G.R. n. 331 del 10.06.2026.pdf PDF Scarica 1781618940073_Avviso Pubblico.pdf PDF Scarica 1781618940091_Definizioni.docx DOCX Scarica 1781618940092_Allegato A.docx DOCX Scarica 1781618940094_Allegato B.docx DOCX Scarica 1781618940095_Allegato C.docx DOCX Scarica 1781618940097_Allegato D.docx DOCX Scarica 1781618940098_Allegato E.pdf PDF Scarica 1781618940104_Allegato E - doc.docx DOCX Scarica 1781618940106_Allegato E1.pdf PDF Scarica 1781618940111_Allegato F.pdf PDF Scarica 1781618940116_Allegato G.docx DOCX Scarica 1781618940118_Allegato H.docx DOCX Scarica FAQ Domanda: Si chiede di confermare se le spese generali forfettarie nella misura del 7% siano riconoscibili anche per un progetto che comprende esclusivamente le tipologie A e C, senza interventi di tipologia B. Il quesito nasce dal fatto che l’articolo 7 colloca la previsione delle spese generali dopo la dicitura «Per la sola tipologia di intervento B», ma ne indica come base di calcolo la somma delle spese delle tre tipologie A, B e C. In caso affermativo, si chiede conferma che il forfait sia calcolato sul totale dei costi diretti ammessi delle tipologie A e C. Risposta: Si, in caso di progetto che preveda solamente le tipologie di intervento A e C, le spese generali (costi indiretti) sono riconosciute nella misura fissa del 7%, da calcolarsi sul totale dei costi diretti ammessi a finanziamento. Numero di protocollazione: FAQ26000628 Domanda: Nel caso di un’impresa che produce e commercializza spettacoli teatrali e servizi artistici, si chiede se siano ammissibili, nell’ambito della tipologia A, i servizi di consulenza e realizzazione di una sezione multilingue del sito destinata alla promozione e commercializzazione dell’offerta sui mercati esteri. La sezione comprenderebbe presentazioni degli spettacoli, dossier artistici, schede tecniche, trailer e strumenti di contatto rivolti a programmatori di teatri, festival e altri soggetti ospitanti. La vendita di uno spettacolo richiede una trattativa sulle date, sulle condizioni tecniche e sul cachet, seguita dalla sottoscrizione di un contratto. Il sito svolgerebbe quindi una funzione commerciale di presentazione dell’offerta e acquisizione di richieste, senza carrello o pagamento online. Si chiede se tale configurazione sia ammissibile tra le attività di promozione, marketing internazionale e digital export previste dall’Avviso, pur non configurandosi come un e-commerce con acquisto diretto online. Risposta: Si, sono ammissibili fermo restando il possesso in capo all’impresa beneficiaria di tutti i requisiti di cui all’articolo 4 dell’Avviso. Numero di protocollazione: FAQ26000627 Domanda: Si chiede se un’associazione che esercita professionalmente attività economica, è titolare di partita IVA ed è iscritta al REA presso la Camera di Commercio, ma non al Registro delle imprese, possa accedere all’Avviso. Il quesito riguarda il requisito previsto dall’articolo 4, comma 1, lettera b), tenuto conto della definizione di impresa contenuta nell’Allegato I del Regolamento UE 651/2014, indipendente dalla forma giuridica del soggetto, fermo restando il possesso degli ulteriori requisiti richiesti. Risposta: Ai sensi dell’articolo 4 comma 1 lettera b), l’iscrizione nel registro delle Imprese costituisce un requisito obbligatorio ai fini della presentazione dell’istanza di candidatura, la cui mancanza comporta l’inammissibilità della stessa. Numero di protocollazione: FAQ26000626 Domanda: Con riferimento alla Tipologia di intervento B – Partecipazione a eventi e manifestazioni fieristiche di rilievo internazionale, si chiede di chiarire se, tra le spese ammissibili ai sensi dell’art. 7 dell’Avviso pubblico, rientri il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. In caso affermativo, si chiede di specificare la categoria di spesa cui imputare il servizio, gli eventuali limiti e le condizioni di ammissibilità, nonché la documentazione da produrre in fase di candidatura e di rendicontazione. Risposta: Con riferimento alla Tipologia di intervento B, non rientra tra le spese ammissibili ex articolo 7 dell’AP, il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. Numero di protocollazione: FAQ26000624 Domanda: Per la Tipologia B di intervento, circa le spese di viaggio e alloggio, si chiede di indicare quale tipologia di documento fornire, in fase di presentazione della domanda, qualora il viaggio avvenga con auto propria o aziendale. Risposta: In conformità al principio della tracciabilità della spesa dei fondi comunitari, tutte le spese dovranno essere rendicontate a costi reali ai sensi dell’art. 53 comma 1 lettera a) del Regolamento UE 2021/1060. Pertanto, in riferimento alle spese di viaggio, le spese devono essere comprovate da appositi giustificativi (fatture e ricevute per servizi di trasporto, titoli di viaggio intestati ai partecipanti alla fiera riportanti la data del viaggio e il costo) e pagate secondo quanto prescritto nell’articolo 7 dell’Avviso. Ne consegue che non sono ammissibili le spese di viaggio sostenute con auto propria o aziendale. Numero di protocollazione: FAQ26000618 Domanda: Si chiede di confermare che, circa la Tipologia di intervento B, in fase di candidatura non è obbligatorio allegare i preventivi riferiti alle spese di viaggio e alloggio, come indicato nella FAQ26000384 che risulta in contrasto con la FAQ26000395. Risposta: Con riferimento alla tipologia di intervento B, è necessario allegare in fase di presentazione della istanza di candidatura, il preventivo riferito alle spese di viaggio, alloggio, escluso il vitto, del rappresentante legale, socio o a dipendenti a tempo indeterminato quali partecipanti dell’impresa beneficiaria. Numero di protocollazione: FAQ26000616 Domanda: In riferimento all’art. 7, comma 11, lettera k), dell’Avviso Pubblico “Pronti per l’Export”, si chiede di chiarire se siano ammissibili e rendicontabili le spese sostenute dall’impresa beneficiaria per l’acquisto di beni e/o per l’acquisizione di servizi e consulenza da un’impresa fornitrice nella quale uno dei soci rivesta contestualmente la carica di legale rappresentante dell’impresa beneficiaria, posto che la spesa sia effettiva, congrua, adeguatamente documentata e riferita alle attività previste dal progetto approvato. Risposta: NO, non sono ammissibili. Numero di protocollazione: FAQ26000614 Domanda: E’ possibile acquisire preventivi e presentare fatture a rendiconto emesse da imprese private che gestiscono spazi fieristici per conto degli organizzatori, pur non essendo gli enti fieristici stessi a fatturare? Risposta: Con riferimento alla TIPOLOGIA INTERVENTO B), per le spese concernenti la partecipazione del beneficiario a eventi/manifestazioni fieristiche, esposizioni di rilievo internazionale, è possibile acquisire preventivi e presentare in fase di rendicontazione fatture emesse da imprese private gestori degli spazi fieristici per conto degli organizzatori, purchè si dia la prova che il gestore sia stato autorizzato dall’Ente organizzatore alla gestione degli spazi fieristici. Numero di protocollazione: FAQ26000562 Domanda: Nell’ambito della Tipologia di Intervento A – “Servizi di consulenza per l’internazionalizzazione”, possono essere considerate ammissibili anche le spese sostenute per incarichi affidati ad agenzie specializzate in scouting commerciale e business development sui mercati esteri, finalizzati, ad esempio, alla ricerca, selezione e profilazione di importatori, distributori, dealer, agenti o altri partner commerciali, nonché al primo contatto e all’organizzazione di incontri B2B? In caso affermativo, tali servizi possono comprendere anche attività di verifica preliminare dell’interesse commerciale e di qualificazione dei potenziali partner individuati? Risposta: L’art. 5 comma I lett. a) dell’AP, con riferimento alla Tipologia di intervento A) servizi di consulenza per l’internazionalizzazione finalizzati all’apertura di nuovi mercati e/o al consolidamento di mercati già serviti nonché all’organizzazione di iniziative di cooperazione industriale, commerciale e di export, elenca le operazioni finanziabili. Inoltre, ai sensi dell’art. 7 comma 1 dell’AP, sono ammissibili i costi relativi ai servizi di consulenza specialistica per la realizzazione di servizi di supporto all’internazionalizzazione quali: realizzazione di azioni di promozione, comunicazione e marketing, elaborazione dei piani di internazionalizzazione, studi di mercato e strategie di ingresso, aggiornamento siti web e-commerce multilingua, ricerca di operatori esteri e assistenza per l’organizzazione di incontri commerciali, consulenze per sistemi di business on line, ecc.. Ne consegue che sono ammissibili le spese sostenute per attività di scouting commerciale e business development sui mercati esteri a condizione che siano conseguite le finalità di cui all’art. 3 dell’AP. Numero di protocollazione: FAQ26000506 Domanda: È possibile avere l’elenco completo dei codici ATECO 2025 ammissibili? L’articolo 4 individua espressamente alcuni settori e codici esclusi; si chiede pertanto di confermare se, al di fuori delle esclusioni indicate dall’Avviso e dai Regolamenti richiamati, siano da considerarsi ammissibili tutti gli altri codici ATECO 2025. Si chiede inoltre di precisare se, ai fini dell’ammissibilità, debba essere preso in considerazione esclusivamente il codice ATECO primario/prevalente risultante dalla visura camerale oppure possano rilevare anche eventuali codici ATECO secondari riferiti all’attività oggetto del progetto di internazionalizzazione. Risposta: L’articolo 4 comma 4 individua le PMI escluse dalla partecipazione all’avviso “Pronti per l’Export”, esplicitando i codici primari Ateco e i settori di attività delle imprese cui non è consentito presentare istanza di candidatura, richiamando puntualmente la normativa comunitaria vigente. Pertanto possono presentare istanza tutte le PMI che operano in settori diversi da quelli indicati nel precitato articolo, fermo restando la verifica degli altri requisiti previsti dal bando. Numero di protocollazione: FAQ26000509 caricando Carica altri quesiti Inserisci quesito Facebook Linkedin Twitter WhatsApp Telegram Copia link ",
+        "discoveryText": "Vai al contenuto Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Tipo: Avviso Pubblico Ente: Regione Basilicata Destinatari: IMPRESA Importo € 5.500.000,00 Giorni alla scadenza: 401 Avviso Pubblico Pronti per l’Export: misure di internazionalizzazione per le imprese lucane Inizio presentazione istanze: 06/07/2026 00:00 Scadenza: 31/12/2027 23:59 Numero atto: D.G.R. n. 331 Data atto: 10/06/2026 Data di pubblicazione sul BUR: 16/06/2026 Numero di pubblicazione sul BUR: 28 Ente : Regione Basilicata IMPORTO TOTALE € 5.500.000,00 Ufficio : UFFICIO INTERNAZIONALIZZAZIONE, RICERCA SCIENTIFICA E INNOVAZIONE TECNOLOGICA Direzione : DIREZIONE GENERALE PER LO SVILUPPO ECONOMICO, IL LAVORO E I SERVIZI ALLA COMUNITA' ALLEGATI Scarica tutti gli allegati Nome Allegato Tipo Azione 1781618940069_D.G.R. n. 331 del 10.06.2026.pdf PDF Scarica 1781618940073_Avviso Pubblico.pdf PDF Scarica 1781618940091_Definizioni.docx DOCX Scarica 1781618940092_Allegato A.docx DOCX Scarica 1781618940094_Allegato B.docx DOCX Scarica 1781618940095_Allegato C.docx DOCX Scarica 1781618940097_Allegato D.docx DOCX Scarica 1781618940098_Allegato E.pdf PDF Scarica 1781618940104_Allegato E - doc.docx DOCX Scarica 1781618940106_Allegato E1.pdf PDF Scarica 1781618940111_Allegato F.pdf PDF Scarica 1781618940116_Allegato G.docx DOCX Scarica 1781618940118_Allegato H.docx DOCX Scarica FAQ Domanda: Con riferimento alla Tipologia di intervento B – Partecipazione a eventi e manifestazioni fieristiche di rilievo internazionale, si chiede di chiarire se, tra le spese ammissibili ai sensi dell’art. 7 dell’Avviso pubblico, rientri anche l’acquisto di gadget promozionali personalizzati con il marchio dell’impresa beneficiaria, destinati alla distribuzione presso il proprio stand durante la manifestazione fieristica. In caso affermativo, si chiede di specificare la categoria di spesa cui imputare tali acquisti, gli eventuali limiti e le condizioni di ammissibilità, nonché la documentazione da produrre in fase di candidatura e di rendicontazione ai sensi dell’art. 12, comprese le evidenze necessarie a dimostrarne l’effettivo utilizzo durante la fiera e gli eventuali obblighi di apposizione dei loghi del programma di finanziamento. Risposta: Con riferimento alla Tipologia di intervento B, rientra tra le spese ammissibili ex articolo 7 lettera f) dell’Avviso, l’acquisto di gadget promozionali personalizzati con il marchio dell’impresa beneficiaria, destinati alla distribuzione presso il proprio stand durante la manifestazione fieristica. Si specifica che in tutto il materiale pubblicitario e informativo dovranno essere apposti e ben evidenti i loghi e le linee grafiche così come previste dal “ Programma Regionale Basilicata FESR FSE + 2021- 2027 – BASILICATA BRAND BOOK – Manuale e modelli applicativi per l’Autorità di Gestione, i soggetti attuatori e i beneficiari” e dal Manuale disponibili al seguente link https://europa.regione.basilicata.it/2021-27/logo-e-linea-grafica/ La congruità del numero di cataloghi e brochure e altre spese di pubblicità da stampare nell’ambito di una partecipazione a una fiera internazionale finanziata con risorse del PR FESR + 2021-2027 viene normalmente valutata dall’ufficio istruttore secondo il principio della pertinenza, proporzionalità e ragionevolezza della spesa rispetto alle caratteristiche dell’evento fieristico. Il Manuale delle procedure del PR FESR Basilicata precisa infatti che per cataloghi, brochure e altro materiale pubblicitario sono ammissibili esclusivamente “tipologie e quantitativi ritenuti compatibili dall’ufficio responsabile dell’istruttoria con il loro utilizzo durante la manifestazione oggetto della domanda di contributo” e reperibile al seguente link https://europa.regione.basilicata.it/2021-27/documentazione/?b_e_cc=179 In concreto, la valutazione terrà conto generalmente di alcuni elementi oggettivi: – durata della manifestazione fieristica (ad esempio 3 o 5 giorni); – numero previsto di visitatori professionali della fiera; – dimensione dello stand espositivo e numero di addetti presenti; – mercato di riferimento e provenienza internazionale dei visitatori; – tipologia del prodotto o servizio promosso; – numero di lingue nelle quali il materiale viene realizzato; – numero di incontri B2B programmati o stimati; – eventuale partecipazione ad altre iniziative promozionali collegate alla stessa fiera. A titolo puramente indicativo, in sede istruttoria potrebbero essere considerati generalmente congrui: – 200-300 cataloghi per fiere settoriali di piccole dimensioni; – 500-1.000 cataloghi o brochure per fiere internazionali con elevata affluenza e forte presenza di operatori esteri; – quantitativi superiori potrebbero richiedere una specifica motivazione tecnica, ad esempio presenza di più giornate di evento, partecipazione a missioni commerciali successive o distribuzione attraverso partner e distributori esteri. Per questo motivo, in fase di rendicontazione è opportuno motivare il relativo quantitativo, inserendolo nel preventivo di spesa da allegare in fase di candidatura, indicando il numero stimato di visitatori professionali, il numero di incontri commerciali programmati; le lingue di stampa previste; le modalità di distribuzione del materiale durante la manifestazione, nonchè l’eventuale utilizzo residuo del materiale per successive attività di internazionalizzazione collegate al progetto. Una motivazione di questo tipo consentirà all’Ufficio di verificare il rispetto dei principi di economicità e buona gestione finanziaria richiesti dalla normativa dei fondi europei. Inoltre si rammenta che l’impresa beneficiaria dovrà fornire in sede di rendicontazione, idonea documentazione fotografica che attesti l’effettiva partecipazione alla fiera, acquisto e distribuzione dei relativi gadget promozionali (con loghi aziendali, loghi PR FESR FSE + Basilicata 2021/2027, materiale esposto, ecc ecc.) che dovrà essere allegata alla relativa domanda di rimborso. Numero di protocollazione: FAQ26000630 Domanda: Si chiede di confermare se le spese generali forfettarie nella misura del 7% siano riconoscibili anche per un progetto che comprende esclusivamente le tipologie A e C, senza interventi di tipologia B. Il quesito nasce dal fatto che l’articolo 7 colloca la previsione delle spese generali dopo la dicitura «Per la sola tipologia di intervento B», ma ne indica come base di calcolo la somma delle spese delle tre tipologie A, B e C. In caso affermativo, si chiede conferma che il forfait sia calcolato sul totale dei costi diretti ammessi delle tipologie A e C. Risposta: Si, in caso di progetto che preveda solamente le tipologie di intervento A e C, le spese generali (costi indiretti) sono riconosciute nella misura fissa del 7%, da calcolarsi sul totale dei costi diretti ammessi a finanziamento. Numero di protocollazione: FAQ26000628 Domanda: Nel caso di un’impresa che produce e commercializza spettacoli teatrali e servizi artistici, si chiede se siano ammissibili, nell’ambito della tipologia A, i servizi di consulenza e realizzazione di una sezione multilingue del sito destinata alla promozione e commercializzazione dell’offerta sui mercati esteri. La sezione comprenderebbe presentazioni degli spettacoli, dossier artistici, schede tecniche, trailer e strumenti di contatto rivolti a programmatori di teatri, festival e altri soggetti ospitanti. La vendita di uno spettacolo richiede una trattativa sulle date, sulle condizioni tecniche e sul cachet, seguita dalla sottoscrizione di un contratto. Il sito svolgerebbe quindi una funzione commerciale di presentazione dell’offerta e acquisizione di richieste, senza carrello o pagamento online. Si chiede se tale configurazione sia ammissibile tra le attività di promozione, marketing internazionale e digital export previste dall’Avviso, pur non configurandosi come un e-commerce con acquisto diretto online. Risposta: Si, sono ammissibili fermo restando il possesso in capo all’impresa beneficiaria di tutti i requisiti di cui all’articolo 4 dell’Avviso. Numero di protocollazione: FAQ26000627 Domanda: Si chiede se un’associazione che esercita professionalmente attività economica, è titolare di partita IVA ed è iscritta al REA presso la Camera di Commercio, ma non al Registro delle imprese, possa accedere all’Avviso. Il quesito riguarda il requisito previsto dall’articolo 4, comma 1, lettera b), tenuto conto della definizione di impresa contenuta nell’Allegato I del Regolamento UE 651/2014, indipendente dalla forma giuridica del soggetto, fermo restando il possesso degli ulteriori requisiti richiesti. Risposta: Ai sensi dell’articolo 4 comma 1 lettera b), l’iscrizione nel registro delle Imprese costituisce un requisito obbligatorio ai fini della presentazione dell’istanza di candidatura, la cui mancanza comporta l’inammissibilità della stessa. Numero di protocollazione: FAQ26000626 Domanda: Con riferimento alla Tipologia di intervento B – Partecipazione a eventi e manifestazioni fieristiche di rilievo internazionale, si chiede di chiarire se, tra le spese ammissibili ai sensi dell’art. 7 dell’Avviso pubblico, rientri il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. In caso affermativo, si chiede di specificare la categoria di spesa cui imputare il servizio, gli eventuali limiti e le condizioni di ammissibilità, nonché la documentazione da produrre in fase di candidatura e di rendicontazione. Risposta: Con riferimento alla Tipologia di intervento B, non rientra tra le spese ammissibili ex articolo 7 dell’AP, il costo del servizio di promoter svolto presso lo stand dell’impresa beneficiaria, con mansioni di accoglienza dei visitatori, supporto operativo allo staff e distribuzione di materiale informativo, promozionale e gadget. Numero di protocollazione: FAQ26000624 Domanda: Per la Tipologia B di intervento, circa le spese di viaggio e alloggio, si chiede di indicare quale tipologia di documento fornire, in fase di presentazione della domanda, qualora il viaggio avvenga con auto propria o aziendale. Risposta: In conformità al principio della tracciabilità della spesa dei fondi comunitari, tutte le spese dovranno essere rendicontate a costi reali ai sensi dell’art. 53 comma 1 lettera a) del Regolamento UE 2021/1060. Pertanto, in riferimento alle spese di viaggio, le spese devono essere comprovate da appositi giustificativi (fatture e ricevute per servizi di trasporto, titoli di viaggio intestati ai partecipanti alla fiera riportanti la data del viaggio e il costo) e pagate secondo quanto prescritto nell’articolo 7 dell’Avviso. Ne consegue che non sono ammissibili le spese di viaggio sostenute con auto propria o aziendale. Numero di protocollazione: FAQ26000618 Domanda: Si chiede di confermare che, circa la Tipologia di intervento B, in fase di candidatura non è obbligatorio allegare i preventivi riferiti alle spese di viaggio e alloggio, come indicato nella FAQ26000384 che risulta in contrasto con la FAQ26000395. Risposta: Con riferimento alla tipologia di intervento B, è necessario allegare in fase di presentazione della istanza di candidatura, il preventivo riferito alle spese di viaggio, alloggio, escluso il vitto, del rappresentante legale, socio o a dipendenti a tempo indeterminato quali partecipanti dell’impresa beneficiaria. Numero di protocollazione: FAQ26000616 Domanda: In riferimento all’art. 7, comma 11, lettera k), dell’Avviso Pubblico “Pronti per l’Export”, si chiede di chiarire se siano ammissibili e rendicontabili le spese sostenute dall’impresa beneficiaria per l’acquisto di beni e/o per l’acquisizione di servizi e consulenza da un’impresa fornitrice nella quale uno dei soci rivesta contestualmente la carica di legale rappresentante dell’impresa beneficiaria, posto che la spesa sia effettiva, congrua, adeguatamente documentata e ri",
         "detailFetchOk": true,
         "sourceStale": false
       },
@@ -19889,7 +19889,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -19991,7 +19991,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20092,7 +20092,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20192,7 +20192,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20290,7 +20290,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20391,7 +20391,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20488,7 +20488,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20586,7 +20586,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20683,7 +20683,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20785,7 +20785,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20886,7 +20886,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -20988,7 +20988,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21090,7 +21090,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21187,7 +21187,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21287,7 +21287,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21389,7 +21389,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21485,7 +21485,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21587,7 +21587,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21686,7 +21686,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21788,7 +21788,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21890,7 +21890,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -21992,7 +21992,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22094,7 +22094,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22192,7 +22192,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22290,7 +22290,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22391,7 +22391,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22491,7 +22491,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22591,7 +22591,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22693,7 +22693,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22792,7 +22792,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22894,7 +22894,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -22996,7 +22996,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23098,7 +23098,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23200,7 +23200,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23302,7 +23302,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23404,7 +23404,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23503,7 +23503,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23605,7 +23605,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23705,7 +23705,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23807,7 +23807,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -23904,7 +23904,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24006,7 +24006,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24108,7 +24108,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24205,7 +24205,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24307,7 +24307,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24404,7 +24404,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24506,7 +24506,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24608,7 +24608,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24706,7 +24706,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24807,7 +24807,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -24909,7 +24909,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25010,7 +25010,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25110,7 +25110,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25210,7 +25210,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25306,7 +25306,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25408,7 +25408,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25505,7 +25505,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25607,7 +25607,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25706,7 +25706,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25805,7 +25805,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25902,7 +25902,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -25911,9 +25911,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-per-la-presentazione-delle-domande-di-accesso-al-fondo-microfinanza-fse-2021-2027/",
       "contentHash": "1294938b5c676df81109a119835831b914fa84bfb5693d0799ae21e0302be2f8",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26011,7 +26011,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -26109,7 +26109,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -26208,7 +26208,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -26217,9 +26217,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/struttura-residenziale-per-anziani-nel-comune-di-grottole/",
       "contentHash": "1e3c14fb0608dbdd0b8ac9e08ef93ed330b7f18243c8bec9e00c5dfd4af5dae4",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26313,7 +26313,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -26322,9 +26322,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/patto-territoriale-basilicata-nord-occidentale-adeguamento-e-messa-in-sicurezza-dellinfrastruttura-viaria-savoia-basentana-connessa-allarea-pip-sita-in-loc-seta/",
       "contentHash": "ff6a68bf40e01b6d6f4cf0e16e8fc51efe84ce14524c726977d5e3533502d320",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26425,7 +26425,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -26434,9 +26434,9 @@
       "source": "Regione Liguria · Bandi",
       "sourceUrl": "https://www.regione.liguria.it/component/publiccompetitions/publiccompetition/2213:istruzione-tecnica-superiore-pogr-risorse-fse-2014-2020.html",
       "contentHash": "899f964d6910679c2a1f48a3e8755951da66d36f884d061056673f6e66e46243",
-      "version": 221,
+      "version": 223,
       "firstSeenAt": "2026-10-22T12:16:04+02:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -26534,7 +26534,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -26952,7 +26952,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -27728,9 +27728,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/concessione-demaniale-marittima-nel-comune-di-maratea-localita-porto-per-complessivi-mq-4200-al-fine-di-posizionare-tavoli-e-sedie/",
       "contentHash": "6df7f7ee08f9a876bf433e493fecc02ea279d0f369067876313c30e8e5d5a58d",
-      "version": 128,
+      "version": 130,
       "firstSeenAt": "2026-11-02T17:09:31+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27831,7 +27831,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -27840,9 +27840,9 @@
       "source": "Regione Basilicata · Bandi",
       "sourceUrl": "https://portalebandi.regione.basilicata.it/avvisi-e-bandi/avviso-pubblico-concessione-contributi-fornitura-gratuita-o-semigratuita-dei-libri-di-testo-anno-scolastico-2026-2027/",
       "contentHash": "eba9dc65349354846b640b834878e8835d3f94b71780c8fbc757447f9ec8386d",
-      "version": 122,
+      "version": 124,
       "firstSeenAt": "2026-11-03T15:30:24+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -27943,7 +27943,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -28276,7 +28276,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -28381,7 +28381,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -28595,7 +28595,7 @@
           "etsRelevant": false
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": true
     },
@@ -29741,8 +29741,8 @@
       "version": 52,
       "firstSeenAt": "2026-11-16T23:10:16+01:00",
       "lastChangedAt": "2026-11-25T09:46:01+01:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-11-25T22:46:49+01:00",
       "lastChangeFields": [
         "detailFetchOk",
         "discoveryText",
@@ -29959,8 +29959,8 @@
       "version": 40,
       "firstSeenAt": "2026-11-17T22:01:20+01:00",
       "lastChangedAt": "2026-11-25T09:46:01+01:00",
-      "present": true,
-      "missingSince": null,
+      "present": false,
+      "missingSince": "2026-11-25T22:46:49+01:00",
       "lastChangeFields": [
         "detailFetchOk",
         "discoveryText",
@@ -30069,9 +30069,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/politiche-sociali/disabilita/spazio-disabilita-2027-2028-RLD12026056523",
       "contentHash": "2d2e778c4a1cbc406c104ca705c6f3750b8c026ed50c3719e32e76729f1944d3",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30172,7 +30172,7 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -30277,7 +30277,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -30286,9 +30286,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/percorsi-personalizzati-allievi-disabilit-ppd-iefp-ii-iii-anno-f-2026-2027-fse-2021-2027-RLW12025050928",
       "contentHash": "036bb1b55850cf1c4e733d5b2e746538cd5cbf96dfb371132f47c48455bbf8a9",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30387,7 +30387,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -30396,9 +30396,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/istruzione-formazione-lavoro/formazione-professionale/interventi-sostegno-allievi-disabilit-frequentanti-percorsi-triennali-quadriennali-iv-anno-iefp-f-2026-2027-RLW12025050923",
       "contentHash": "e874a90e3e25570273ca6bfb595542d75456c38eb826970692c08aec6b224c1e",
-      "version": 34,
+      "version": 36,
       "firstSeenAt": "2026-11-18T21:37:56+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30495,7 +30495,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -30504,9 +30504,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/spettacolo/bando-sostegno-bande-musicali-fanfare-cori-gruppi-folk-lombardia-sensi-art-5-l-r-n-5-2025-anno-2026-RLL12026057483",
       "contentHash": "12ae4ee3aa8f425b5f29e092ee7eb378033ecc52326f1a6b7b2282b5387ccf03",
-      "version": 24,
+      "version": 26,
       "firstSeenAt": "2026-11-20T21:27:30+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30602,7 +30602,7 @@
           "etsRelevant": null
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     },
@@ -30725,9 +30725,9 @@
       "source": "Regione Lombardia",
       "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/ambiente-territorio/autonomie-locali/anno-2027-contributi-iniziative-manifestazioni-rilievo-regionale-sensi-legge-regionale-n-50-1986-RLA12026057845",
       "contentHash": "0e59c571bf4126f108bde224634149585cd48479336662c7b590f303a61769a5",
-      "version": 8,
+      "version": 10,
       "firstSeenAt": "2026-11-24T00:58:41+01:00",
-      "lastChangedAt": "2026-11-25T09:46:01+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
       "present": true,
       "missingSince": null,
       "lastChangeFields": [
@@ -30824,17 +30824,133 @@
           "etsRelevant": true
         },
         "ruleVersion": 4,
-        "evaluatedAt": "2026-11-25T09:46:01+01:00"
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
+      },
+      "excludedForEts": false
+    },
+    "url:https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-valorizzazione-promozione-presepi-tradizione-presepistica-lombarda-edizione-2026-2027-RLL12026057364": {
+      "id": "RLL12026057364",
+      "source": "Regione Lombardia",
+      "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-valorizzazione-promozione-presepi-tradizione-presepistica-lombarda-edizione-2026-2027-RLL12026057364",
+      "contentHash": "5949d4334e8ad8709ba4d6940825ce22ff768d1aa2b694d4989828207a85a655",
+      "version": 2,
+      "firstSeenAt": "2026-11-25T22:46:49+01:00",
+      "lastChangedAt": "2026-11-25T22:50:44+01:00",
+      "present": true,
+      "missingSince": null,
+      "lastChangeFields": [
+        "detailFetchOk",
+        "discoveryText",
+        "sourceStatus",
+        "title"
+      ],
+      "needsAnalysis": false,
+      "snapshot": {
+        "title": "BANDO A SOSTEGNO DI PROGETTI DI VALORIZZAZIONE E PROMOZIONE DEI PRESEPI E DELLA TRADIZIONE PRESEPISTICA LOMBARDA – EDIZIONE 2026-2027",
+        "source": "Regione Lombardia",
+        "deadline": "2026-12-03",
+        "fund": null,
+        "maxGrant": null,
+        "aid": "Dettagli economici da verificare nella fonte ufficiale",
+        "tags": [
+          "Automatico",
+          "Regione Lombardia",
+          "lombardia"
+        ],
+        "eligibility": [
+          "Requisiti da verificare nella fonte ufficiale"
+        ],
+        "keywords": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sostegno",
+          "progetti",
+          "valorizzazione",
+          "promozione",
+          "presepi",
+          "codice",
+          "lombardia",
+          "promuove",
+          "valorizza",
+          "tramite",
+          "finanziario",
+          "proposte",
+          "progettuali",
+          "patrimonio",
+          "artistico",
+          "storico",
+          "culturale"
+        ],
+        "sectors": [
+          "enti",
+          "operatori",
+          "chiude",
+          "sostegno",
+          "progetti",
+          "valorizzazione",
+          "promozione",
+          "presepi"
+        ],
+        "beneficiaries": [],
+        "activities": [],
+        "purposes": [],
+        "territories": [
+          "lombardia"
+        ],
+        "legalForms": [],
+        "hardRequirements": [
+          {
+            "label": "Territorio: lombardia",
+            "anyOf": [
+              "lombardia"
+            ]
+          }
+        ],
+        "hardKeyword": null,
+        "sourceUrl": "https://www.bandi.regione.lombardia.it/servizi/servizio/catalogo/dettaglio/cultura-turismo-sport/patrimonio-culturale/bando-sostegno-progetti-valorizzazione-promozione-presepi-tradizione-presepistica-lombarda-edizione-2026-2027-RLL12026057364",
+        "sourceStatus": "aperto",
+        "discoveryText": "Aperto BANDO A SOSTEGNO DI PROGETTI DI VALORIZZAZIONE E PROMOZIONE DEI PRESEPI E DELLA TRADIZIONE PRESEPISTICA LOMBARDA – EDIZIONE 2026-2027 Codice: RLL12026057364 Pubblicato il: 13/11/2026 , ore 10:33 Domande dal: 25/11/2026 , ore 10:00 Scade il: 03/12/2026 , ore 16:00 Regione Lombardia promuove e valorizza, tramite il sostegno finanziario a proposte progettuali, il patrimonio artistico, storico e culturale legato alla tradizione presepistica nei territori lombardi. Leggi di più Fai domanda Condividi: Condividi questa pagina su Facebook Condividi questa pagina su Twitter Condividi questa pagina su Linkedin Condividi questa pagina via posta elettronica Stampa Ente responsabile Fonti di finanziamento PRSS XII Legislatura Codice: RLL12026057364 Pubblicato il: 13/11/2026 , ore 10:33 Domande dal: 25/11/2026 , ore 10:00 Scade il: 03/12/2026 , ore 16:00 Consulta le pratiche Visita la scrivania personalizzata sul singolo servizio e monitora le pratiche attive. Scheda informativa Chi può partecipare Possono presentare domanda di contributo i seguenti soggetti: Comuni e Unioni di Comuni; Parrocchie e istituzioni ecclesiastiche riconosciute; Istituzioni sociali private, Associazioni culturali, fondazioni, enti del Terzo settore, soggetti operanti in ambito presepistico senza fini di lucro. Di cosa si tratta Il bando si prefigge i seguenti obiettivi specifici: valorizzare e promuovere i presepi e la tradizione presepistica lombarda; sostenere la tradizione presepistica lombarda per la diffusione della conoscenza e della salvaguardia del patrimonio immateriale, storico, artistico e religioso regionale. Sono ammissibili le seguenti tipologie di attività: Realizzazione e allestimento di presepi viventi e presepi artistico-tradizionali. Le manifestazioni e gli eventi devono essere documentati mediante elementi idonei a comprovarne con idonea documentazione la continuità nel tempo. Iniziative di valorizzazione dell’arte presepistica attraverso il coinvolgimento attivo delle comunità locali e delle giovani generazioni, anche mediante la collaborazione con istituzioni scolastiche e associazioni del territorio, favorendo la partecipazione e la trasmissione intergenerazionale della tradizione. Dotazione finanziaria Le risorse finanziarie ammontano a complessivi € 222.222,00 a valere sul bilancio regionale per le annualità 2026 e 2027. Caratteristiche dell'agevolazione Sovvenzione a fondo perduto Regime di Aiuto di Stato Intervento che non costituisce aiuto di stato BURL Burl Serie Ordinaria n. 46 del 13 novembre 2026 Come partecipare La domanda di partecipazione al Bando dovrà essere presentata dal soggetto richiedente, obbligatoriamente in forma telematica, per mezzo della piattaforma Bandi e Servizi dalle ore 10:00 del 25 novembre 2026 alle ore 16:00 del 3 dicembre 2026. Procedura selezione Procedura valutativa a sportello Informazioni e contatti Per informazioni sulla procedura Bandi e Servizi N° verde 800131151 operativo dal lunedì al sabato, escluso i festivi (dalle ore 8.00 alle ore 20.00 per quesiti di ordine tecnico; dalle ore 8.30 alle ore 17.00 per richieste assistenza tecnica) e-mail: bandi@regione.lombardia.it Per informazioni relative al bando legge25 patrimonioimmateriale@regione.lombardia.it Maria Agostina Lavagnino 02 67653708 maria_agostina_lavagnino@regione.lombardia.it Lise Begalli 02 67652363 lise_begalli@regione.lombardia.it Alessandro Gasparri 02 67655065 alessandro_gasparri@regione.lombardia.it Elisabetta Vento 02 67654844 elisabetta_vento@regione.lombardia.it Allegati BURL serie ordinaria n.46 del 13/11/2026 - 13/11/2026",
+        "detailFetchOk": true,
+        "sourceStale": false
+      },
+      "triage": {
+        "status": "rules-resolved",
+        "needsAnalysis": false,
+        "etsRelevant": true,
+        "excludedForEts": false,
+        "reasons": [],
+        "evidence": [
+          "titolo_specifico",
+          "fonte_ufficiale_collegata",
+          "territorio_noto",
+          "natura_bando_riconoscibile",
+          "destinatari_ets_espliciti",
+          "testo_sufficiente",
+          "stato_o_scadenza_noti"
+        ],
+        "audience": {
+          "known": true,
+          "scope": "ets-specific",
+          "evidence": [
+            "terzo settore",
+            "enti del terzo settore"
+          ],
+          "specificLegalFormConfirmed": true,
+          "etsRelevant": true
+        },
+        "ruleVersion": 4,
+        "evaluatedAt": "2026-11-25T22:50:44+01:00"
       },
       "excludedForEts": false
     }
   },
-  "triageUpdatedAt": "2026-11-25T09:46:01+01:00",
+  "triageUpdatedAt": "2026-11-25T22:50:44+01:00",
   "triageSummary": {
-    "rulesResolved": 5,
+    "rulesResolved": 6,
     "rulesExcludedForEts": 91,
-    "aiRequired": 38,
-    "notPresent": 152,
+    "aiRequired": 36,
+    "notPresent": 154,
     "ruleVersion": 4
   }
 }
