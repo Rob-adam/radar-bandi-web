@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedPublished": 15,
+  "reviewedPublished": 17,
   "publishedIds": [
     "CARIPT-BORSE-LAVORO-2026",
     "VEN-SERVIZIO-CIVILE-REGIONALE-2026",
@@ -16,7 +16,9 @@
     "REG-AUTO-8351C5E0B31E",
     "CATTOLICA-UNA-MANO-2026",
     "VENETO-FRAGILITA-ETS-2026",
-    "FC-MUSEI-ACCESS-2026"
+    "FC-MUSEI-ACCESS-2026",
+    "SALUTE-RUNDMI-PAZIENTI-2026",
+    "EU4HEALTH-CR-CV-NCD-G-26-15"
   ],
   "discovered": 133,
   "pendingReview": 36,

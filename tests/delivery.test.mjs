@@ -177,17 +177,16 @@ test('four newly documented calls reach a national APS without certifying its re
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===ids[1]),'phase 2 must not keep phase 1 open');
 });
 
-test('licensed health dashboard separates the tentative cardiovascular programme from promoted calls',async()=>{
+test('licensed health dashboard promotes the opened cardiovascular call and keeps future programmes separate',async()=>{
  const html=await(await app.fetch(new Request('https://test.local/?p='+p,{headers:{accept:'text/html',cookie:testCookie}}),env)).text();
- assert.match(html,/Prossime aperture e programmi annunciati/);
- assert.match(html,/EU4Health — approccio multidisciplinare centrato sul paziente/);
- assert.match(html,/PROGRAMMATO · date indicative, candidatura non verificata/);
- assert.match(html,/const plannedInfo=\{"count":1,"updatedAt":"[^\"]+"\}/);
- assert.doesNotMatch(html,/AVVISO PUBBLICATO · candidature non ancora aperte/);
+ assert.doesNotMatch(html,/Prossime aperture e programmi annunciati/);
+ assert.match(html,/const plannedInfo=\{"count":0,"updatedAt":null\}/);
+ assert.doesNotMatch(html,/PROGRAMMATO · date indicative, candidatura non verificata/);
  for(const name of ['radar_bandi_catalogo','radar_bandi_catalogo_extra']){
   const body=await(await app.fetch(new Request('https://test.local/'+name+'.json?scope=national'),env)).json();
   assert.equal(body.bandi.some(b=>b.id==='EU4HEALTH-OA-g-26-91'),name==='radar_bandi_catalogo_extra');
   assert.equal(body.bandi.some(b=>b.id==='CATTOLICA-UNA-MANO-2026'),name==='radar_bandi_catalogo_extra');
+  assert.equal(body.bandi.some(b=>b.id==='EU4HEALTH-CR-CV-NCD-G-26-15'),name==='radar_bandi_catalogo_extra');
  }
 });
 
@@ -341,6 +340,7 @@ test('RUNDMI patient consultation is open but keeps specialist experience unprov
  assert.ok(b.hardRequirements.some(r=>r.label.includes('competenza ed esperienza')&&r.label.includes('RUNDMI')));
  assert.ok(b.hardRequirements.some(r=>r.label.includes('Nessun compenso')));
  assert.ok(b.tracking.verificationEvidence.some(e=>e.url.endsWith('Avviso_pazienti11.2026.pdf')));
+ assert.equal(b.tracking.publicationReviewId,'review-20261125-SALUTE-RUNDMI-PAZIENTI-2026');
  const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
  const prefix=source.slice(0,source.indexOf('const favoriteKey='));const nodes=new Map();
  const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify(profile)).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};
@@ -348,4 +348,26 @@ test('RUNDMI patient consultation is open but keeps specialist experience unprov
  const result=context.api.calc(b);assert.ok(result.score<35);
  t.mock.timers.setTime(new Date('2026-11-28T00:00:01+01:00').getTime());
  assert.ok(!(await(await request()).json()).bandi.some(x=>x.id===b.id));
+});
+
+test('opened EU4Health cardiovascular call stays cautious for RB-0003',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-26T09:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='EU4HEALTH-CR-CV-NCD-G-26-15');
+ assert.ok(b);assert.equal(b.sourceStatus,'aperto');assert.equal(b.submissionStatus,'open');
+ assert.equal(b.opening,'2026-11-26');assert.equal(b.deadlineAt,'2027-02-24T17:00:00+01:00');
+ assert.equal(b.fund,20000000);assert.equal(b.maxGrant,null);assert.equal(b.foundationYear,null);assert.equal(b.annualRevenue,null);
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('10 candidati')&&r.label.includes('10 Paesi')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('60%')&&r.label.includes('80%')));
+ assert.ok(b.eligibility.some(x=>x.includes('non documenta competenza cardiovascolare')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.equal(b.tracking.publicationReviewId,'review-20261126-EU4HEALTH-CR-CV-NCD-G-26-15');
+ const planned=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8'));
+ assert.ok(!planned.bandi.some(x=>x.id===b.id));
+ const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
+ const prefix=source.slice(0,source.indexOf('const favoriteKey='));const nodes=new Map();
+ const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify(profile)).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};
+ vm.createContext(context);vm.runInContext(prefix+'globalThis.api={calc};})();',context);
+ const result=context.api.calc(b);assert.ok(result.score<50,`expected cautious affinity, got ${result.score}`);
+ assert.equal(result.eligibilityState,'verify');
 });
