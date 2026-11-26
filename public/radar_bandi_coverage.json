@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-26T09:31:50+01:00",
+  "generatedAt": "2026-11-26T22:40:19+01:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
     "radar_bandi_catalogo_extra.json": 32,
-    "radar_bandi_auto.json": 133
+    "radar_bandi_auto.json": 131
   },
   "regions": {
     "abruzzo": {
@@ -85,7 +85,7 @@
     },
     "veneto": {
       "manual": 4,
-      "automatic": 25
+      "automatic": 23
     }
   },
   "national": {
