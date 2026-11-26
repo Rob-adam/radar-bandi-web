@@ -1,5 +1,5 @@
 {
-  "updatedAt": "26/11/2026 07:43",
+  "updatedAt": "26/11/2026 07:48",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -3319,28 +3319,26 @@
         "ospedale"
       ],
       "sectors": [
+        "cardiologia clinica",
         "malattie cardiovascolari",
-        "cardiologia",
-        "salute cardiovascolare"
+        "prevenzione cardiologica"
       ],
       "beneficiaries": [
-        "pazienti cardiovascolari",
-        "persone con malattie cardiovascolari",
-        "gruppi vulnerabili",
-        "persone in aree svantaggiate"
+        "cardiopatici",
+        "persone con diagnosi cardiovascolare",
+        "popolazioni con rischio cardiovascolare elevato"
       ],
       "activities": [
-        "prevenzione cardiovascolare",
-        "diagnosi precoce",
-        "percorsi di cura cardiovascolari integrati",
-        "monitoraggio digitale cardiovascolare",
-        "riabilitazione cardiovascolare",
-        "alfabetizzazione sanitaria cardiovascolare"
+        "percorsi cardiologici integrati",
+        "monitoraggio cardiologico digitale",
+        "diagnosi cardiovascolare precoce",
+        "riabilitazione cardiologica specialistica",
+        "alfabetizzazione sul rischio cardiovascolare"
       ],
       "purposes": [
-        "attuazione del piano europeo Safe Hearts",
-        "presa in carico cardiovascolare centrata sul paziente",
-        "rete europea di competenze cardiovascolari"
+        "attuazione del piano Safe Hearts",
+        "riduzione del carico delle patologie cardiovascolari",
+        "rete europea di competenze cardiologiche"
       ],
       "keywords": [
         "EU4Health",
@@ -3352,7 +3350,6 @@
         "riabilitazione"
       ],
       "tags": [
-        "Nuova apertura",
         "UE",
         "EU4Health",
         "Malattie cardiovascolari",
@@ -3439,5 +3436,5 @@
       }
     }
   ],
-  "publishedAt": "2026-11-26T07:43:10+01:00"
+  "publishedAt": "2026-11-26T07:48:01+01:00"
 }
