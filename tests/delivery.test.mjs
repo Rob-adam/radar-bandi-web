@@ -373,7 +373,6 @@ test('opened EU4Health cardiovascular call stays cautious for RB-0003',async(t)=
  assert.equal(result.eligibilityState,'verify');
 });
 
-
 test('EU4Health conference call stays marginal until RB-0003 proves European event scale',async(t)=>{
  t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-27T09:00:00+01:00')});
  const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
@@ -389,4 +388,10 @@ test('EU4Health conference call stays marginal until RB-0003 proves European eve
  assert.equal(b.tracking.publicationReviewId,'review-20261127-EU4HEALTH-OA-G-26-27');
  const planned=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8'));
  assert.ok(!planned.bandi.some(x=>x.id===b.id));
+ const source=fs.readFileSync(new URL('../public/index.html',import.meta.url),'utf8').match(/<script>([\s\S]*?)<\/script>/)[1];
+ const prefix=source.slice(0,source.indexOf('const favoriteKey='));const nodes=new Map();
+ const context={document:{getElementById:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id)}},location:{search:'?p='+Buffer.from(JSON.stringify(profile)).toString('base64url')},localStorage:{getItem:()=>null},URLSearchParams,TextDecoder,Uint8Array,atob,Intl,Date,console};
+ vm.createContext(context);vm.runInContext(prefix+'globalThis.api={calc,isHighMatch};})();',context);
+ const result=context.api.calc(b);assert.ok(result.thematicWarnings.includes('conferenze sanitarie europee da almeno 500 partecipanti in presenza'));
+ assert.equal(context.api.isHighMatch(result,b),false);
 });
