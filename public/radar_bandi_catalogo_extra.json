@@ -1,5 +1,5 @@
 {
-  "updatedAt": "26/11/2026 07:48",
+  "updatedAt": "27/11/2026 07:55",
   "schemaVersion": 5,
   "bandi": [
     {
@@ -3434,7 +3434,174 @@
         ],
         "publicationReviewId": "review-20261126-EU4HEALTH-CR-CV-NCD-G-26-15"
       }
+    },
+    {
+      "id": "EU4HEALTH-OA-G-26-27",
+      "title": "EU4Health — conferenze europee di sanità pubblica",
+      "source": "Commissione europea · HaDEA",
+      "sourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-11",
+      "applicationUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-11",
+      "evidenceUrls": [
+        "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-01-pj_en.pdf",
+        "https://hadea.ec.europa.eu/news/eu4health-2026-calls-proposals-2026-11-26_en"
+      ],
+      "opening": "2026-11-26",
+      "openingDate": "2026-11-26",
+      "opensAt": "2026-11-26T00:00:00+01:00",
+      "deadline": "2027-02-24",
+      "deadlineAt": "2027-02-24T17:00:00+01:00",
+      "status": "aperto",
+      "sourceStatus": "aperto",
+      "submissionStatus": "open",
+      "openingVerifiedAt": "2026-11-27T08:15:00+01:00",
+      "openingEvidenceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-11",
+      "newOpeningUntil": "2026-12-03T00:00:00+01:00",
+      "fund": 600000,
+      "maxGrant": 200000,
+      "foundationYear": null,
+      "annualRevenue": null,
+      "grantLabel": "Contributo UE indicativo per progetto",
+      "aid": "Dotazione complessiva del topic 600.000 €, con 3 convenzioni di sovvenzione attese. Contributo UE indicativo richiesto per progetto 200.000 €; sono ammissibili importi diversi. Rimborso ordinario del 60% dei costi ammissibili, elevabile all'80% solo per progetti di utilità eccezionale che rispettano una delle condizioni territoriali ed economiche dell'avviso. Progetto fino a 12 mesi e conferenza fino a 5 giorni.",
+      "territories": [
+        "unione europea",
+        "italia"
+      ],
+      "legalForms": [
+        "aps",
+        "odv",
+        "ets",
+        "associazione",
+        "associazione di pazienti",
+        "organizzazione di pazienti",
+        "ente non profit",
+        "ente pubblico"
+      ],
+      "sectors": [
+        "sanità pubblica",
+        "salute",
+        "prevenzione",
+        "politiche sanitarie",
+        "eventi europei"
+      ],
+      "beneficiaries": [
+        "pazienti",
+        "cittadini",
+        "operatori sanitari",
+        "ricercatori",
+        "decisori pubblici"
+      ],
+      "activities": [
+        "organizzazione di conferenze sanitarie",
+        "informazione sanitaria",
+        "coinvolgimento dei pazienti",
+        "dialogo sulle politiche sanitarie",
+        "comunicazione e disseminazione"
+      ],
+      "purposes": [
+        "promozione della salute",
+        "prevenzione",
+        "partecipazione dei pazienti",
+        "cooperazione sanitaria europea"
+      ],
+      "keywords": [
+        "EU4Health",
+        "conferenza sanitaria",
+        "sanità pubblica",
+        "pazienti",
+        "500 partecipanti",
+        "Unione europea",
+        "DG SANTE"
+      ],
+      "tags": [
+        "UE",
+        "EU4Health",
+        "Conferenze",
+        "Sanità pubblica",
+        "Candidatura singola ammessa",
+        "Cofinanziamento"
+      ],
+      "eligibility": [
+        "Sono destinatari gli enti pubblici o non profit con esperienza nell'organizzazione di eventi nel campo della sanità pubblica. La forma APS e la sede italiana di RB-0003 sono coerenti in linea generale, ma non provano l'esperienza organizzativa specifica richiesta.",
+        "È ammessa una candidatura singola oppure in consorzio, senza numero minimo di partner. La proposta deve però avere dimensione europea e coprire più priorità della sanità pubblica UE, non limitarsi a una singola patologia.",
+        "La conferenza deve mobilitare una platea ampia e diversificata, con almeno 500 partecipanti in presenza, coinvolgendo decisori, università, industria e società civile comprese organizzazioni di pazienti; la scala deve essere dimostrata con precedenti esperienze analoghe e relativi rapporti.",
+        "Sono richiesti piattaforma digitale, area fisica per DG SANTE, attività di comunicazione prima, durante e dopo l'evento, streaming e registrazioni conformi al GDPR, attività social e almeno una sessione di alto livello dedicata alle priorità DG SANTE.",
+        "Il profilo RB-0003 documenta operatività nazionale, informazione, formazione, organizzazione di eventi e rappresentanza dei pazienti, ma non documenta conferenze sanitarie europee di questa scala, precedenti eventi con 500 partecipanti in presenza, rete europea, programma trasversale, capacità finanziaria o cofinanziamento.",
+        "Nessun anno minimo di costituzione o soglia generale di entrate è indicato. Restano obbligatorie capacità operativa e finanziaria, EU Login/PIC, proposta elettronica, rapporto delle conferenze precedenti e programma preliminare entro la scadenza."
+      ],
+      "hardRequirements": [
+        {
+          "type": "document",
+          "label": "Esperienza comprovata nell'organizzazione di eventi di sanità pubblica, documentata da rapporti di precedenti conferenze analoghe; RB-0003 deve dimostrare un'esperienza direttamente pertinente."
+        },
+        {
+          "type": "document",
+          "label": "Dimensione europea e mobilitazione di almeno 500 partecipanti in presenza, oltre alla platea online, con rappresentanza di decisori, università, industria, società civile e organizzazioni di pazienti. La sola operatività nazionale non soddisfa il requisito."
+        },
+        {
+          "type": "document",
+          "label": "Programma su più priorità EU4Health, con almeno una sessione di alto livello dedicata alle priorità DG SANTE; sono fuori ambito eventi limitati a una sola patologia o privi di respiro europeo."
+        },
+        {
+          "type": "document",
+          "label": "Piattaforma digitale, spazio fisico per DG SANTE, comunicazione prima/durante/dopo, streaming e registrazioni conformi al GDPR, attività social, materiali e questionario di feedback con report finale."
+        },
+        {
+          "type": "document",
+          "label": "Allegare rapporto riepilogativo delle conferenze precedenti e programma preliminare dell'evento con la sessione DG SANTE proposta; progetto massimo 12 mesi, conferenza massimo 5 giorni."
+        },
+        {
+          "type": "document",
+          "label": "Copertura della quota non finanziata: rimborso UE ordinario 60%; 80% solo se ricorrono le condizioni di utilità eccezionale previste dall'avviso."
+        },
+        {
+          "type": "document",
+          "label": "EU Login, PIC, capacità operativa e finanziaria, budget, proposta e allegati conformi entro il 24 febbraio 2027 ore 17:00 (Bruxelles/Italia)."
+        }
+      ],
+      "hardKeyword": "conferenze sanitarie europee di almeno 500 partecipanti",
+      "applicantChecks": [
+        {
+          "label": "Esperienza documentata di RB-0003 nell'organizzazione di conferenze europee di sanità pubblica e rapporti di precedenti eventi analoghi con almeno 500 partecipanti in presenza.",
+          "status": "unknown"
+        },
+        {
+          "label": "Programma trasversale su più priorità EU4Health, rete europea, relatori e decisori di alto livello, sessione DG SANTE e capacità logistica/digitale.",
+          "status": "unknown"
+        },
+        {
+          "label": "Capacità operativa e finanziaria, PIC, budget, copertura della quota non finanziata e documentazione di candidatura.",
+          "status": "unknown"
+        }
+      ],
+      "eligibilityStatus": "da_verificare",
+      "tracking": {
+        "needsAnalysis": false,
+        "specificLegalFormConfirmed": true,
+        "officialSourceVerified": true,
+        "deadlineVerified": true,
+        "eligibilityVerified": true,
+        "verifiedAt": "2026-11-27",
+        "verificationNote": "Portale Funding & Tenders, call document V1.0 e annuncio HaDEA verificati il 27/11/2026. Il topic è aperto dal 26/11/2026 al 24/02/2027 ore 17:00. Sono ammesse candidature singole o in consorzio da enti pubblici o non profit con esperienza nell'organizzazione di eventi di sanità pubblica. Per RB-0003 restano non documentati esperienza in conferenze sanitarie di scala europea, precedenti eventi analoghi con almeno 500 partecipanti in presenza, programma trasversale, rete europea, capacità finanziaria e cofinanziamento; il match non certifica ammissibilità.",
+        "verificationEvidence": [
+          {
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/eu4h-2027-sante-01-pj-11",
+            "checkedAt": "2026-11-27",
+            "note": "Portale ufficiale Funding & Tenders: topic EU4H-2027-SANTE-01-PJ-11 aperto, con candidatura elettronica e scadenza 24/02/2027 ore 17:00 (Bruxelles)."
+          },
+          {
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/eu4h/wp-call/2027/call-fiche_eu4h-2027-sante-01-pj_en.pdf",
+            "checkedAt": "2026-11-27",
+            "note": "Call document ufficiale V1.0: destinatari, temi, requisito di scala europea, almeno 500 partecipanti in presenza comprovati da esperienze precedenti, allegati specifici, budget, durata, finanziamento e deliverable."
+          },
+          {
+            "url": "https://hadea.ec.europa.eu/news/eu4health-2026-calls-proposals-2026-11-26_en",
+            "checkedAt": "2026-11-27",
+            "note": "Annuncio ufficiale HaDEA del 26/11/2026: apertura della prima ondata di call EU4Health e termine comune del 24/02/2027 ore 17:00."
+          }
+        ],
+        "publicationReviewId": "review-20261127-EU4HEALTH-OA-G-26-27"
+      }
     }
   ],
-  "publishedAt": "2026-11-26T07:48:01+01:00"
+  "publishedAt": "2026-11-27T07:55:15+01:00"
 }
