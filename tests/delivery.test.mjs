@@ -372,3 +372,21 @@ test('opened EU4Health cardiovascular call stays cautious for RB-0003',async(t)=
  const result=context.api.calc(b);assert.ok(result.score<35,`expected marginal affinity, got ${result.score}`);
  assert.equal(result.eligibilityState,'verify');
 });
+
+
+test('EU4Health conference call stays marginal until RB-0003 proves European event scale',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-27T09:00:00+01:00')});
+ const request=()=>app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?region=Veneto&scope=national'),env);
+ const b=(await(await request()).json()).bandi.find(b=>b.id==='EU4HEALTH-OA-G-26-27');
+ assert.ok(b);assert.equal(b.sourceStatus,'aperto');assert.equal(b.submissionStatus,'open');
+ assert.equal(b.opening,'2026-11-26');assert.equal(b.deadlineAt,'2027-02-24T17:00:00+01:00');
+ assert.equal(b.fund,600000);assert.equal(b.maxGrant,200000);assert.equal(b.foundationYear,null);assert.equal(b.annualRevenue,null);
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('500 partecipanti in presenza')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('rapporto riepilogativo delle conferenze precedenti')));
+ assert.ok(b.hardRequirements.some(r=>r.label.includes('60%')&&r.label.includes('80%')));
+ assert.ok(b.eligibility.some(x=>x.includes('non documenta conferenze sanitarie europee')));
+ assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
+ assert.equal(b.tracking.publicationReviewId,'review-20261127-EU4HEALTH-OA-G-26-27');
+ const planned=JSON.parse(fs.readFileSync(new URL('../public/radar_bandi_programmati.json',import.meta.url),'utf8'));
+ assert.ok(!planned.bandi.some(x=>x.id===b.id));
+});
