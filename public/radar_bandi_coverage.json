@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-26T22:40:19+01:00",
+  "generatedAt": "2026-11-27T09:42:05+01:00",
   "meaning": "Conteggio record per territorio dichiarato, NON bandi aperti o ammissibili",
   "sources": {
     "radar_bandi_catalogo.json": 8,
-    "radar_bandi_catalogo_extra.json": 32,
+    "radar_bandi_catalogo_extra.json": 33,
     "radar_bandi_auto.json": 131
   },
   "regions": {
@@ -89,11 +89,11 @@
     }
   },
   "national": {
-    "manual": 11,
+    "manual": 12,
     "automatic": 0
   },
   "international": {
-    "manual": 2,
+    "manual": 3,
     "automatic": 0
   },
   "regionsWithoutRecords": [
