@@ -157,7 +157,8 @@ const MISSION_GATES=[
  {label:"vigili del fuoco",b:["vigili del fuoco","distaccamento volontario"],p:["vigili del fuoco","distaccamento volontario"]},
  {label:"housing sociale",b:["housing sociale","autonomia abitativa","alloggi sociali"],p:["housing sociale","autonomia abitativa","alloggi sociali"]},
  {label:"musei e patrimonio culturale",b:["musei","patrimonio culturale","biblioteche"],p:["musei","patrimonio culturale","biblioteche"]},
- {label:"sport",b:["progetti sportivi","attivita sportiva","associazioni sportive"],p:["sport","sportivo","attivita motoria","attivita fisica"]}
+ {label:"sport",b:["progetti sportivi","attivita sportiva","associazioni sportive"],p:["sport","sportivo","attivita motoria","attivita fisica"]},
+ {label:"conferenze sanitarie europee da almeno 500 partecipanti in presenza",b:["500 partecipanti in presenza"],p:["conferenze sanitarie europee da almeno 500 partecipanti in presenza","conferenze europee di sanita pubblica da almeno 500 partecipanti in presenza"]}
 ];
 function missionText(b){return [b.title,b.discoveryText,(b.beneficiaries||[]).join(" "),(b.activities||[]).join(" "),(b.purposes||[]).join(" "),(b.eligibility||[]).join(" ")].join(" ")}
 function profileMissionText(){return [profile.sector,profile.subSector,profile.areas,profile.beneficiaries,profile.statutoryPurposes,profile.activities,profile.capabilities,profile.projectTypes,profile.profileNotes].filter(Boolean).join(" ")}
