@@ -143,21 +143,24 @@ test('reviewed publications reach the national client with distinct partner and 
  const caript=body.bandi.find(b=>b.id==='CARIPT-BORSE-LAVORO-2026');
  const scu=body.bandi.find(b=>b.id==='VEN-SERVIZIO-CIVILE-REGIONALE-2026');
  assert.ok(caript);assert.ok(scu);
- assert.equal(caript.deadline,'2026-11-13');assert.equal(scu.deadline,'2026-11-09');
+ assert.equal(caript.deadline,'2026-11-13');assert.equal(scu.deadline,'2026-11-25');
  assert.ok(caript.eligibility.some(s=>s.includes('lavoratore')&&s.includes('partner')));
  assert.ok(caript.hardRequirements.some(r=>r.type==='seat'&&r.places.includes('pistoia')));
  assert.ok(scu.hardRequirements.some(r=>r.label.includes('Albo SCU')&&r.label.includes('cooperazione')));
  for(const b of [caript,scu]){
   assert.equal(b.eligibilityStatus,'da_verificare');
   assert.ok(b.applicantChecks.every(c=>c.status==='unknown'));
-  assert.equal(b.tracking.verificationEvidence.length,2);
+  assert.ok(b.tracking.verificationEvidence.length>=2);
  }
+ assert.equal(scu.tracking.verifiedAt,'2026-11-28');
+ assert.ok(scu.tracking.verificationNote.includes('riapertura dei termini'));
+ assert.ok(scu.tracking.verificationEvidence.some(e=>e.url.includes('id=597151')));
  const local=await(await request('')).json();
  assert.ok(!local.bandi.some(b=>b.id===caript.id),'a Veneto seat alone must not erase Pistoia requirements');
 });
 
-test('newly reviewed calls disappear at their deadlines without a fixed client count',async(t)=>{
- t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-14T08:00:00+01:00')});
+test('newly reviewed calls disappear at their effective deadlines without a fixed client count',async(t)=>{
+ t.mock.timers.enable({apis:['Date'],now:new Date('2026-11-26T08:00:00+01:00')});
  const body=await(await app.fetch(new Request('https://test.local/radar_bandi_catalogo_extra.json?scope=national'),env)).json();
  assert.ok(!body.bandi.some(b=>['CARIPT-BORSE-LAVORO-2026','VEN-SERVIZIO-CIVILE-REGIONALE-2026'].includes(b.id)));
 });
