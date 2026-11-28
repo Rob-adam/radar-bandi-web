@@ -113,9 +113,9 @@
       }
     },
     {
-      "id": "review-20261025-VEN-SERVIZIO-CIVILE-REGIONALE-2026",
+      "id": "review-20261128-VEN-SERVIZIO-CIVILE-REGIONALE-2026",
       "decision": "approved",
-      "reviewedAt": "2026-10-25",
+      "reviewedAt": "2026-11-28",
       "reviewedFields": [
         "deadline",
         "legalForms",
@@ -125,25 +125,30 @@
         "foundationYear",
         "annualRevenue"
       ],
-      "note": "DGR 1147 del 13/10/2026 e Allegato A riletti il 25/10/2026: termine 9/11, massimo 30.000 €, Albo SCU e operatività Veneto per promotori, cooperazione distinta e durata del progetto.",
+      "note": "DGR Veneto 1385 del 17/11/2026, pubblicata nel BUR n. 165 del 23/11/2026, verificata il 28/11/2026: riapertura dei termini dal 9/11 al nuovo termine perentorio 25/11/2026; invariati requisiti, criteri e modalità della DGR 1147/2026. La finestra risulta chiusa.",
       "evidence": [
         {
           "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=594009",
-          "checkedAt": "2026-10-25",
+          "checkedAt": "2026-11-28",
           "note": "DGR 1147 del 13/10/2026 e Allegato A riletti il 25/10/2026: termine 9/11, massimo 30.000 €, Albo SCU e operatività Veneto per promotori, cooperazione distinta e durata del progetto."
         },
         {
           "url": "https://burv-be.regione.veneto.it/api/PublicAtti/594009/DownloadAttachmentAtto/Dgr_1147_26_AllegatoA.pdf",
-          "checkedAt": "2026-10-25",
+          "checkedAt": "2026-11-28",
           "note": "Regolamento ufficiale letto: destinatari, ruolo, territorio, scadenza, contributo e obblighi."
+        },
+        {
+          "url": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=597151",
+          "checkedAt": "2026-11-28",
+          "note": "DGR 1385/2026 ufficiale: termine riaperto e fissato al 25 novembre 2026; restano ferme le altre condizioni della DGR 1147/2026."
         }
       ],
       "record": {
         "id": "VEN-SERVIZIO-CIVILE-REGIONALE-2026",
         "title": "Servizio civile regionale Veneto 2026 — progetti e cooperazione",
         "source": "Regione del Veneto",
-        "sourceUrl": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=594009",
-        "deadline": "2026-11-09",
+        "sourceUrl": "https://bur.regione.veneto.it/BurvServices/pubblica/DettaglioDgr.aspx?id=597151",
+        "deadline": "2026-11-25",
         "fund": 600000,
         "maxGrant": 30000,
         "aid": "Fino a 30.000 € per progetto; dotazione 600.000 €. Assegnazione tramite graduatoria e nei limiti delle risorse, secondo il piano dei costi ammissibili.",
@@ -189,7 +194,7 @@
           "Promotori: enti iscritti all’Albo del servizio civile universale come capofila o enti di accoglienza, operanti in Veneto.",
           "Altri soggetti pubblici o privati possono cooperare con lettera di partenariato; questo ruolo non equivale a essere beneficiario diretto del contributo.",
           "Progetto nel Veneto, durata complessiva 12 mesi e impiego volontari da 6 a 12 mesi; giovani con requisiti dell’avviso.",
-          "Domanda firmata digitalmente e inviata via PEC, con ulteriore invio all’email indicata nell’avviso, entro il 9 novembre 2026.",
+          "Domanda firmata digitalmente e inviata via PEC, con ulteriore invio all’email indicata nell’avviso, entro il 25 novembre 2026, a seguito della riapertura disposta dalla DGR 1385/2026.",
           "La sede veneta o l’operatività nazionale non provano l’iscrizione all’Albo SCU. Nessuna soglia generale di entrate o anno minimo di costituzione indicato nell’avviso consultato."
         ],
         "hardRequirements": [
