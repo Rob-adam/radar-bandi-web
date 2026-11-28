@@ -1,6 +1,7 @@
 import json
 import re
 import hashlib
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, date
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -159,7 +160,7 @@ def source_urls_from_sitemap(src):
     last_error = None
     for sitemap in src["sitemaps"]:
         try:
-            r = requests.get(sitemap, headers=HEADERS, timeout=40)
+            r = requests.get(sitemap, headers=HEADERS, timeout=(5, 15))
             r.raise_for_status()
             soup = BeautifulSoup(r.text, "html.parser")
             for a in soup.find_all("a", href=True):
@@ -187,7 +188,7 @@ def source_urls_from_sitemap(src):
 
 def detail_record(url, source_name):
     try:
-        r = requests.get(url, headers=HEADERS, timeout=25)
+        r = requests.get(url, headers=HEADERS, timeout=(5, 12))
         r.raise_for_status()
     except Exception:
         return None
@@ -261,11 +262,12 @@ def main():
 
     for src in SOURCES:
         candidates, sitemap_error = source_urls_from_sitemap(src)
-        discovered = []
-        for url in candidates[:160]:
-            rec = detail_record(url, src["name"])
-            if rec:
-                discovered.append(rec)
+        # The fallback is best-effort: bound the candidate set and fetch details
+        # concurrently so one slow regional page cannot stall the whole catalog job.
+        candidate_sample = candidates[:24]
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            records = pool.map(lambda url: detail_record(url, src["name"]), candidate_sample)
+            discovered = [record for record in records if record]
         discovered_total += len(discovered)
         added = 0
         for rec in discovered:
